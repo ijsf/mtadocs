@@ -1,0 +1,30 @@
+ 
+{{Server function}}
+This function will reload the server ban list file.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool reloadBans()
+</syntaxhighlight>
+
+===Returns===
+Returns ''true'' if the ban list was reloaded successfully, ''false'' otherwise.
+
+==Example==
+This example add command "reloadban" to reload the server ban list file.
+<syntaxhighlight lang="lua">
+function ReBan (player)
+   if (reloadBans()) then
+      outputChatBox("Bans has been reloaded successfully.",player)
+   else
+      outputChatBox("Failed to Reload Bans.",player)
+   end
+end
+addCommandHandler("reloadban",ReBan)
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|1.3.0-9.03931|n/a|}}
+
+==See Also==
+{{Admin functions}}

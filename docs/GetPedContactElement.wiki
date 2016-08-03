@@ -1,0 +1,34 @@
+
+{{Server client function}}
+This function detects the element a ped is standing on. This can be a vehicle or an object.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+element getPedContactElement ( ped thePed )
+</syntaxhighlight>
+{{OOP||[[/ped.md|ped]]:getContactElement|contactElement}}
+
+===Required Arguments=== 
+*'''thePed:''' The [[/ped.md|ped]] of which you want to get the [[/element.md|element]] he is standing on.
+
+===Returns===
+Returns an [[/object.md|object]] or a [[/vehicle.md|vehicle]] if the ped is standing on one, ''false'' if he is touching none or an invalid element was passed.
+
+==Example==
+<section name="Client" class="client" show="true">
+This clientside function outputs the name of the vehicle the specified player is standing on, or a message saying he isn't on one.
+<syntaxhighlight lang="lua">
+function outputContactVehicleMessage ( thePlayer )
+    local elementStandingOn = getPedContactElement ( thePlayer )
+    if elementStandingOn and getElementType ( elementStandingOn ) == "vehicle" then
+        local vehicleName = getVehicleName ( elementStandingOn )
+        outputChatBox( "You're standing on a " .. vehicleName .. "." )
+    else
+        outputChatBox( "You're not standing on any vehicle." )
+    end
+end
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Ped functions}}

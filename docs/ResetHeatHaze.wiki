@@ -1,0 +1,26 @@
+
+{{Server client function}}
+This function restores the default heat haze.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool resetHeatHaze()
+</syntaxhighlight>
+
+===Returns===
+Returns ''true'' if the heat haze was reset correctly, ''false'' otherwise.
+
+==Example==
+This example resets the heat haze.
+<syntaxhighlight lang="lua">
+addCommandHandler("reset2000",
+  function()
+    resetHeatHaze()
+  end
+)
+</syntaxhighlight>
+
+[[/pl:resetHeatHaze.md|pl:resetHeatHaze]]
+
+==See Also==
+{{World functions}}

@@ -1,0 +1,69 @@
+ 
+{{Server client function}}
+This function creates a [[/blip.md|blip]] [[/element.md|element]], which is displayed as an icon on the client's radar.
+
+==Syntax==
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">
+blip createBlip ( float x, float y, float z [, int icon = 0, int size = 2, int r = 255, int g = 0, int b = 0, int a = 255, int ordering = 0, float visibleDistance = 99999.0, visibleTo = getRootElement( ) ] )
+</syntaxhighlight>
+</section>
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+blip createBlip ( float x, float y, float z [, int icon = 0, int size = 2, int r = 255, int g = 0, int b = 0, int a = 255, int ordering = 0, float visibleDistance = 99999.0 ] )
+</syntaxhighlight> 
+</section>
+{{OOP||[[/Blip.md|Blip]]}}
+===Required Arguments=== 
+*'''x:''' The x position of the blip, in world coordinates.
+*'''y:''' The y position of the blip, in world coordinates.
+*'''z:''' The z position of the blip, in world coordinates.
+
+===Optional Arguments=== 
+{{OptionalArg}} 
+*'''icon:''' The icon that the radar blips should be. Valid values can be seen at [[/Blip Icons.md|Blip Icons]]
+*'''size:''' The size of the radar blip. Only applicable to the ''Marker'' icon. Default is 2.
+*'''r:''' The amount of red in the blip's color (0 - 255). Only applicable to the ''Marker'' icon. Default is 255. 
+*'''g:''' The amount of green in the blip's color (0 - 255). Only applicable to the ''Marker'' icon. Default is 0.
+*'''b:''' The amount of blue in the blip's color (0 - 255). Only applicable to the ''Marker'' icon. Default is 0.
+*'''a:''' The amount of alpha in the blip's color (0 - 255). Only applicable to the ''Marker'' icon. Default is 255.
+{{New feature/item|3|1.0||
+*'''ordering:''' This defines the blip's Z-level ordering (-32768 - 32767). Default is 0.
+*'''visibleDistance:''' The maximum distance from the camera at which the blip is still visible
+}}
+<section name="Server" class="server" show="true">
+*'''visibleTo:''' This defines which elements can see the blip. Defaults to visible to everyone. See [[/visibility.md|visibility]].
+</section>
+
+==Returns==
+Returns an [[/element.md|element]] of the [[/blip.md|blip]] if it was created successfully, ''false'' otherwise.
+
+==Example== 
+<section name="Server" class="server" show="true">
+'''Example 1:''' This example creates a radar blip at a random player's position and makes it so that it is only visible to that player.
+<syntaxhighlight lang="lua">
+-- Pick a random player
+local myPlayer = getRandomPlayer( )
+-- Retrieve the player's position and store it in the variables x, y and z
+local x, y, z = getElementPosition( myPlayer )
+-- Create a radar blip at the player's position, with a 'cash' icon and only visible to the player
+local myBlip = createBlip( x, y, z, 51, 0, 0, 0, 255, myPlayer )
+</syntaxhighlight>
+
+'''Example 2:''' This example attaches a blip to a player. You can attach a blip to an element by just setting the blip's parent to that element.
+<syntaxhighlight lang="lua">
+-- Pick a random player
+local myPlayer = getRandomPlayer( )
+-- Create a radar blip in the middle of the map
+local myBlip = createBlip( 0, 0, 0 )
+-- Make the player the parent of the blip, so that the blip follows the player around
+setElementParent( myBlip, myPlayer )
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Blip_functions}}
+
+[[/AR:createBlip.md|AR:createBlip]]
+[[/es:createBlip.md|es:createBlip]]
+[[/DE:createBlip.md|DE:createBlip]]

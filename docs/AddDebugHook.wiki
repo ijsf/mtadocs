@@ -1,0 +1,104 @@
+
+{{Server client function}}
+{{New feature/item|3.0136|1.3|5939|
+This function allows tracing of MTA functions and events. It should only be used when debugging scripts as it may degrade script performance.
+
+Debug hooks are not recursive, so functions and events triggered inside the hook callback will not be traced.
+}}
+==Syntax==
+<syntaxhighlight lang="lua">
+bool addDebugHook( string hookType, function callbackFunction[, table nameList ] )
+</syntaxhighlight>
+
+===Required Arguments=== 
+*'''hookType:''' The type of hook to add. This can be:
+** preEvent
+** postEvent
+** preFunction
+** postFunction
+*'''callbackFunction :''' The function to call
+{{New feature/item|9.06054|1.5.2|7967|
+** Returning the string "skip" from the callback function will cause the original function/event to be skipped
+}}
+
+===Optional Arguments=== 
+*'''nameList:''' Table of strings for restricting which functions and events the hook will be triggered on
+{{New feature/item|9.06054|1.5.2|7967|
+** addDebugHook and removeDebugHook will only be hooked if they are specified in the name list
+}}
+
+===Returns===
+Returns ''true'' if the hook was successfully added, or ''false'' otherwise.
+
+==Callback parameters==
+<syntaxhighlight lang="lua">
+string preFunction( resource sourceResource, string functionName, bool isAllowedByACL, string luaFilename, int luaLineNumber, functionArguments )
+       postFunction( resource sourceResource, string functionName, bool isAllowedByACL, string luaFilename, int luaLineNumber, functionArguments )
+string preEvent( resource sourceResource, string eventName, element eventSource, element eventClient, string luaFilename, int luaLineNumber, eventArguments )
+       postEvent( resource sourceResource, string eventName, element eventSource, element eventClient, string luaFilename, int luaLineNumber, eventArguments )
+</syntaxhighlight>
+
+==Example==
+This example will dump info about all triggered events:
+<syntaxhighlight lang="lua">
+function onPreEvent( sourceResource, eventName, eventSource, eventClient, luaFilename, luaLineNumber, ... )
+    local args = { ... }
+    local srctype = eventSource and getElementType(eventSource)
+    local resname = sourceResource and getResourceName(sourceResource)
+    local plrname = eventClient and getPlayerName(eventClient)
+    outputDebugString( "preEvent"
+        .. " " .. tostring(resname)
+        .. " " .. tostring(eventName)
+        .. " source:" .. tostring(srctype)
+        .. " player:" .. tostring(plrname)
+        .. " file:" .. tostring(luaFilename)
+        .. "(" .. tostring(luaLineNumber) .. ")"
+        .. " numArgs:" .. tostring(#args)
+        .. " arg1:" .. tostring(args[1])
+        )
+end
+addDebugHook( "preEvent", onPreEvent )
+</syntaxhighlight>
+This example will dump info about all called MTA functions:
+<syntaxhighlight lang="lua">
+function onPreFunction( sourceResource, functionName, isAllowedByACL, luaFilename, luaLineNumber, ... )
+    local args = { ... }
+    local resname = sourceResource and getResourceName(sourceResource)
+    outputDebugString( "preFunction"
+        .. " " .. tostring(resname)
+        .. " " .. tostring(functionName)
+        .. " allowed:" .. tostring(isAllowedByACL)
+        .. " file:" .. tostring(luaFilename)
+        .. "(" .. tostring(luaLineNumber) .. ")"
+        .. " numArgs:" .. tostring(#args)
+        .. " arg1:" .. tostring(args[1])
+        )
+end
+addDebugHook( "preFunction", onPreFunction)
+</syntaxhighlight>
+
+This example adds a hook which will only be triggered for the named functions
+<syntaxhighlight lang="lua">
+addDebugHook( "preFunction", onPreFunction, {"setElementPosition","loadstring"} )
+</syntaxhighlight>
+
+
+{{New feature/item|9.06054|1.5.2|7967|
+This example shows how to disable addDebugHook
+<syntaxhighlight lang="lua">
+addDebugHook( "preFunction", onPreFunction, {"addDebugHook"} )
+function onPreFunction( sourceResource, functionName, isAllowedByACL, luaFilename, luaLineNumber, ... )
+    return "skip"
+end
+</syntaxhighlight>
+}}
+==Changelog==
+{{ChangelogHeader}}
+{{ChangelogItem|1.3.5-9.06054|Added clientside}}
+{{ChangelogItem|1.3.5-9.06142|Added option to restrict to specified functions and events }}
+{{ChangelogItem|1.5.2-9.07957|Added option to skip original function/event <br/>Added ability to hook addDebugHook and removeDebugHook }}
+==Requirements==
+{{Requirements|1.3.4-9.05939|1.3.5-9.06054}}
+
+==See Also==
+{{Utility functions}}

@@ -1,0 +1,38 @@
+
+{{Server client function}}
+{{Deprecated|xmlFindChild}}
+
+This function returns a named sub node of a particular XML node.
+
+==Syntax==
+<syntaxhighlight lang="lua">xmlnode xmlFindSubNode ( xmlnode parent, string subnode, int index )</syntaxhighlight>
+
+===Required Arguments===
+* '''parent''': This is an [[/xmlnode.md|xmlnode]] that you want to find the subnode under. This could be a node returned from another call to [[/xmlFindSubNode.md|xmlFindSubNode]].
+* '''subnode''': This is the name of the subnode you wish to find.
+* '''index''': This is the index of the node you wish to find. For example, to find the 5th subnode with a particular name, you would use 4 as the index value. To find the first occurence, use 0.
+
+===Returns===
+Returns an [[/xmlnode.md|xmlnode]] object if the node was found, ''false'' otherwise.
+
+==Example==
+<section name="Server" class="server" show="true">
+If you wanted to find the 'instructions' node in a map file like this:
+<syntaxhighlight lang="xml">
+<map version="2.0">
+      <options>
+            <instructions>Start at the begining and keep going until the end!</instructions>
+      </options>
+</map>
+</syntaxhighlight>
+
+You could use the following code:
+<syntaxhighlight lang="lua">
+maproot = getLoadedMapXMLRoot ()
+optionsnode = xmlFindSubNode ( maproot, "options", 0 )
+instructionsnode = xmlFindSubNode ( optionsnode, "instructions", 0 )
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{XML functions}}

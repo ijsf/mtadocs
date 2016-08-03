@@ -1,0 +1,12 @@
+{| border="1"
+| {{Clothes|index=0|type=8|model=8sa|texture=8SA}}
+| {{Clothes|index=1|type=8|model=8sa2|texture=8SA2}}
+| {{Clothes|index=2|type=8|model=8sa3|texture=8SA3}}
+| {{Clothes|index=3|type=8|model=8westside|texture=8WESTSD}}
+|-
+| {{Clothes|index=4|type=8|model=8santos|texture=8SANTOS}}
+| {{Clothes|index=5|type=8|model=8poker|texture=8POKER}}
+| {{Clothes|index=6|type=8|model=8gun|texture=8GUN}}
+|}
+
+[[/pl:CJ_Clothes%5CTattoos:_Back_(8).md|pl:CJ_Clothes%5CTattoos:_Back_(8)]]

@@ -1,0 +1,23 @@
+
+{{Server function}}
+Sets the mass of a handling element. Mass affects how easily the vehicle can break objects and push other vehicles, and also how sensitive it is to collision damage.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool handlingSetMass ( handling theHandling, float mass )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''theHandling:''' the handling you want to change the mass of.
+*'''mass:''' the new mass value.
+
+===Returns===
+Returns ''true'' on success, ''false'' in case of failure.
+
+==Example==
+<syntaxhighlight lang="lua">
+--TODO
+</syntaxhighlight>
+
+==See Also==
+{{Handling_functions}}

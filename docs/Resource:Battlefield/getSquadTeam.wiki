@@ -1,0 +1,20 @@
+This function retrieves a squad element's team.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+team getSquadTeam ( squad squadElement )
+</syntaxhighlight>
+=Required Argument=
+*'''squadElement''': The squad you want to retrieve the team from.
+=Source Code=
+<syntaxhighlight lang="lua">function getSquadTeam(squadElement)
+	if(squadElement)then
+		team = getElementData(squadElement,"team")
+		return team
+	else
+		return false
+	end
+end</syntaxhighlight>
+
+
+[[/Resource:Battlefield.md|Resource:Battlefield]]

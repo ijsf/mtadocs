@@ -1,0 +1,31 @@
+
+{{ModuleFunction|cURL}}
+Set an curl option.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+curlcode curlSetopt(curl handler, curloption option, bool/number/string value)
+</syntaxhighlight>
+
+==Required arguments==
+* '''handler''' The curl handler.
+* '''option''' An curl option, al the options are found [[/Modules/cURL/CURLOPT.md|here]]
+* '''value''' The value, this can be a string, number or boolean. At the [[/Modules/cURL/CURLOPT.md|curl option list]] you can find wich option needs a string, number or boolean.
+
+==Returns==
+Returns a curlcode. Nevermind it for now, i even don't know what it is. But it returns it.
+
+==Example==
+<syntaxhighlight lang="lua">
+curl = curlInit("http://mtasa.com/");
+if not curl then
+    outputDebugString("Can't connect to http://mtasa.com/ with cURL");
+else
+    curlSetopt(curl, CURLOPT_POST, true);
+    curlClose(curl);
+end
+</syntaxhighlight>
+
+
+==See also==
+{{Modules/cURL/functions}}

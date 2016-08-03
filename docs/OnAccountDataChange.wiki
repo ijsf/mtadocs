@@ -1,0 +1,37 @@
+
+{{Server event}}
+This event is triggered when an accounts data changes through [[/setAccountData.md|setAccountData]]
+
+==Parameters==
+<syntaxhighlight lang="lua">
+account theAccount, string theKey, var theValue
+</syntaxhighlight>
+
+*'''theAccount''': The account getting its data changed
+*'''theKey''': The key that is being changed
+*'''theValue''': The value it is changing to
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the root element.
+
+==Example==
+This examples prevents the key of "level" being added or changed on every account
+<syntaxhighlight lang="lua">
+function preventLevelChange(account, key, value)
+    if (key == "level") then
+        cancelEvent()
+    end
+end
+addEventHandler("onAccountDataChange", root, preventLevelChange)
+</syntaxhighlight>
+
+This examples logs every single account data change to server log
+<syntaxhighlight lang="lua">
+function preventLevelChange(account, key, value)
+    if (wasEventCancelled()) then return end -- If the data change was aborted don't log it.
+    outputServerLog(getAccountName(account).." key: "..key.." changed to: "..tostring(value))
+end
+addEventHandler("onAccountDataChange", root, preventLevelChange)
+</syntaxhighlight>
+
+{{See also/Server event|Server events}}

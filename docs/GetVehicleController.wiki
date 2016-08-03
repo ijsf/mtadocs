@@ -1,0 +1,33 @@
+ 
+{{Server client function}}
+This function is used to get the player in control of the specified vehicle which includes somebody who is trying to enter the drivers seat.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+player getVehicleController ( vehicle theVehicle )            
+</syntaxhighlight> 
+{{OOP||[[/vehicle.md|vehicle]]:getController|controller}}
+===Required Arguments=== 
+*'''theVehicle:''' the [[/vehicle.md|vehicle]] you want to get the 'controller' of.
+
+===Returns===
+Returns a [[/player.md|player]] object, if there isn't a driver, it will search the 'trailer chain' for the front driver, ''false'' otherwise.
+
+==Example== 
+<section name="Server" class="server" show="true">
+This example outputs a chatbox message when a vehicle gets a trailer attached.
+<syntaxhighlight lang="lua">
+function scriptOnTrailerAttach ( towedBy )
+  thePlayer = getVehicleController ( source ) -- get the controller of the towing vehicle
+  if ( thePlayer ) then
+    outputChatBox ( getPlayerName ( thePlayer ).. " attached a trailer" )
+  else
+    outputChatBox ( "trailer attached" )
+  end
+end
+addEventHandler ( "onTrailerAttach", getRootElement(), scriptOnTrailerAttach )
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Vehicle_functions}}

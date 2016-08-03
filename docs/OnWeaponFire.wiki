@@ -1,0 +1,31 @@
+
+{{Server event}}
+
+{{New items|3.0140|1.4|
+This event is triggered when a custom weapon gets fired.
+}}
+
+==Parameters==
+''None''
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the element that fired the weapon. If the server is the creator it returns ''nil''.
+
+==Cancel effect==
+If this event is [[/Event_system#Canceling.md|canceled]], the bullet(s) won't be synced with other players.
+
+==Requirements==
+{{Requirements|1.4|n/a}}
+
+==Example== 
+<syntaxhighlight lang="lua">
+addEventHandler( "onWeaponFire", root,
+    function ()
+        if ( isElement( source ) ) and ( getElementType( source ) == "player" ) then
+            outputChatBox( "You fired a weapon!", source, 0, 225, 0 )
+        end
+    end
+)
+</syntaxhighlight>
+{{See also/Server event|Weapon events}}
+[[/ru:OnWeaponFire.md|ru:OnWeaponFire]]

@@ -1,0 +1,47 @@
+Example crash info:
+<code> Version = 1.3.4-release-5879.0.000
+ Time = Wed Oct 16 14:11:47 2013
+ Module = C:\gta\gta_sa.exe
+ Code = 0xC0000005
+ Offset = 0x00134134
+</syntaxhighlight>
+<br/>
+==Module = gta_sa.exe or proxy_sa.exe==
+{| class="wikitable"
+|-
+!Offset
+!Meaning
+|-
+|<code>0x00134134</syntaxhighlight>
+|Bad model, possibly in gta3.img. Use unmodded GTA install to check.
+|-
+|<code>0x00348CF4</syntaxhighlight>
+|Caused by s0beit d3d9.dll
+|-
+|<code>0x003F0BF7</syntaxhighlight>
+|Bad model, possibly in gta3.img. Use unmodded GTA install to check.
+|-
+|<code>0x003F0C37</syntaxhighlight>
+|Bad model, possibly in gta3.img. Use unmodded GTA install to check.
+|-
+|<code>0x003C91CC</syntaxhighlight>
+|Out of video memory.
+|-
+|-
+|<code>0x00171A10</syntaxhighlight>
+|Sometimes when joining a server, maybe related to bad server mods.
+|-
+|-
+|<code>0x000D3FBC</syntaxhighlight>
+|Crash when aiming with sniper rifle. Issue [http://bugs.mtasa.com/view.php?id=6200 #6200]
+|-
+|-
+|<code>0x0086A358
+0x0040D5DF
+0x0040D5EA
+Different each crash</syntaxhighlight>
+|Crash when trailer interior is streamed in (0.645, -2.229, 999.428 Int: 2)
+Then applying a collision fix to it and it crashes.<br />
+Crash was fixed by reducing the amount of faces in the collision fix.
+|-
+|}

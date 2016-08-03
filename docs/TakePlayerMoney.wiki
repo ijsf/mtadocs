@@ -1,0 +1,41 @@
+
+{{Server client function}}
+This function subtracts money from a [[/player.md|player]]'s current money amount.
+{{Note|Using this function client side (not recommended) will not change a players money server side.}}
+
+==Syntax== 
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">
+bool takePlayerMoney ( player thePlayer, int amount )
+</syntaxhighlight> 
+{{OOP||[[/player.md|player]]:takeMoney|money|}}
+====Required Arguments==== 
+*'''thePlayer:''' the [[/player.md|player]] you are taking the money from.
+*'''amount:''' an integer number specifying the amount of money to take from the player.
+</section>
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+bool takePlayerMoney ( int amount )
+</syntaxhighlight>
+{{OOP||[[/Player.md|Player]].takeMoney}}
+====Required Arguments==== 
+*'''amount:''' an integer number specifying the amount of money to take from the player.
+</section>
+
+===Returns===
+Returns ''true'' if the money was taken, or ''false'' if invalid parameters were passed.
+
+==Example==  
+<section name="Server" class="server" show="true">
+This example takes money from a player when he types "takecash ''number''" in the console.
+<syntaxhighlight lang="lua">
+function takeCash ( thePlayer, command, amount )     -- when the takecash command is called
+     takePlayerMoney ( thePlayer, tonumber(amount) ) -- take the amount of money from the player
+end
+addCommandHandler ( "takecash", takeCash )           -- add a handler function for the command "takecash"
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Player functions}}
+[[/ru:takePlayerMoney.md|ru:takePlayerMoney]]

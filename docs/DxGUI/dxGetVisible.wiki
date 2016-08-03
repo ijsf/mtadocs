@@ -1,0 +1,27 @@
+<pageclass class="client" subcaption="GUI Class method"></pageclass>
+ 
+
+You can use this function to get dxElement visiblity.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+dxElement  dxGetVisible (element dxElement)
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''dxElement:''' A dxGUI element.
+
+===Returns===
+*'''visiblity''': dxGUI visiblity
+
+
+==Example== 
+This example gets window visiblity.
+<syntaxhighlight lang="lua">
+
+local visiblity = dxGetVisible(dxWindow)
+outputChatBox( tostring(visiblity) )
+</syntaxhighlight>
+
+==See Also==
+[[/dxGUI.md|Back to dxGUI page]]

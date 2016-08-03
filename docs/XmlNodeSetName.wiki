@@ -1,0 +1,30 @@
+
+{{Server client function}}
+Sets the tag name of the specified XML node.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool xmlNodeSetName ( xmlnode node, string name )
+</syntaxhighlight>
+{{OOP||[[/xmlnode.md|xmlnode]]:setName|name|xmlNodeGetName}}
+
+===Required Arguments===
+*'''node:''' the node to change the tag name of.
+*'''name:''' the new tag name to set.
+
+===Returns===
+Returns ''true'' if successful, ''false'' otherwise.
+
+==Example==
+<syntaxhighlight lang="lua">
+local xml = xmlCreateFile("fileName.xml","Test")
+local xmlNode = xmlCreateChild(xml,"Test1")
+local xmlNodeName = xmlNodeGetName(xmlNode)
+if xmlNodeName == "Test1" then
+   xmlNodeSetName(xmlNode, "Test2")
+end
+</syntaxhighlight>
+
+==See Also==
+{{XML functions}}
+[[/ru:xmlNodeSetName.md|ru:xmlNodeSetName]]

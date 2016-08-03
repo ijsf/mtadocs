@@ -1,0 +1,16 @@
+
+==Instructions for generating a mini dump for a stuck MTA:SA Client==
+
+===1. Download Process Explorer from here: https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx ===
+[[/File:Client_pe_1.png.md|frame|center]]
+<hr/>
+===2. Unzip ProcessMonitor.zip ===
+<hr/>
+===3. Right click procexp.exe, and select ''''Run as administrator'''' ===
+[[/File:Client_pe_2.png.md|frame|center]]
+<hr/>
+===4. Right click on gta_sa.exe in the Process list and select ''''Create Dump'''->'''Create Minidump'''' ===
+[[/File:Client_pe_3.png.md|frame|center]]
+<hr/>
+===5. Save the file and then upload at http://upload.mtasa.com/ ===
+(Give the resulting file link to an MTA developer, or post it on the relevant forum topic)

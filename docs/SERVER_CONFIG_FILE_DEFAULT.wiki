@@ -1,0 +1,1 @@
+{{Delete|Outdated and no content for the last 2 years, seems to be replaced with [[/Server mtaserver.conf.md|Server mtaserver.conf]]}}

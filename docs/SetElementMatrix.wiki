@@ -1,0 +1,29 @@
+{{Client function}}
+{{Needs_Example}}
+ 
+This function sets matrix to element.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool setElementMatrix ( element theElement, table theMatrix )       
+</syntaxhighlight> 
+{{OOP||[[/element.md|element]]:setMatrix|matrix|getElementMatrix}}
+
+===Required Arguments=== 
+*'''theElement:''' The element which you set matrix
+*'''theMatrix:''' The matrix.
+
+===Returns===
+Returns ''true'' if the matrix was set succesfully, ''false'' otherwise.
+
+==Example==
+TODO
+<syntaxhighlight lang="lua">
+--TODO
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|n/a|1.3.0-9.04485|}}
+
+==See Also==
+{{Client_element_functions}}

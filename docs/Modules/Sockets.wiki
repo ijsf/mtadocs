@@ -1,0 +1,41 @@
+<pageclass class="#AA7592" subcaption="Sockets Module"></pageclass>
+
+{{Module_Info|
+  name           = ml_sockets |
+  version        = 1.3 |
+  author         = Gamesnert, x86 & MCvarial |
+  module_website = ''[http://code.google.com/p/multitheftauto-modules/ Here]'' |
+  download_link  = ''[http://code.google.com/p/multitheftauto-modules/downloads/list Here]'' |
+  license        = ''GPLv3'' |
+  written_in     = C++ |
+  operating_system = Cross-platform |
+  compatible_with = 1.x
+}}
+This module provides socket related functions and events for MTA:SA.
+Sockets provide various possibilities such as opening a webpage, connecting to irc etc.
+
+==Installation==
+===Windows===
+Uncompress the file ml_sockets.dll into your ''server\mods\deathmatch\modules\'' directory.
+
+===Linux===
+Place the file ml_sockets.so into your ''server/mods/deathmatch/modules/'' directory.
+
+===mtaserver.conf===
+Add the following line in your mtaserver.conf:
+<syntaxhighlight lang="xml">
+  <module src="ml_sockets" />
+</syntaxhighlight>
+
+==See Also==
+===Functions===
+{{Modules/Sockets/Functions}}
+
+===Events===
+{{Modules/Sockets/Events}}
+
+===Resources===
+*[[/resource:irc.md|resource:irc]]
+[[/Category:Modules.md|Category:Modules]]
+
+[[/ru:Modules/Sockets.md|ru:Modules/Sockets]]

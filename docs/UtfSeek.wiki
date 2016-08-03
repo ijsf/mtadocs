@@ -1,0 +1,27 @@
+
+{{Server client function}}
+The function returns the byte position at specified character position.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+int utfSeek ( string theString, int position )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''theString:''' The [[/string.md|string]].
+*'''position:''' An [[/int.md|int]] with the specified charachter position.
+
+===Returns===
+Returns an ''[[/int.md|int]]'' if the function was successful, ''false'' otherwise.
+
+===Example===
+<section name="Example" class="both" show="true">
+<syntaxhighlight lang="lua">
+local teststring = "Hello World"
+local testseek = utfSeek ( teststring, 5 )
+outputChatBox ( testseek )
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Utility_functions}}

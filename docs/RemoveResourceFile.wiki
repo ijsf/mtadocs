@@ -1,0 +1,27 @@
+{{Server function}}
+
+This function removes a file from the resource.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool removeResourceFile ( resource theResource, string fileName )
+</syntaxhighlight> 
+{{OOP||[[/resource.md|resource]]:removeFile}}
+===Required Arguments=== 
+<!-- List each argument one per line. This should be the argument's name as in the argument list above, NOT the argument's data type -->
+*'''theResource:''' The resource element.
+*'''fileName:''' The filename what you wan't to delete.
+
+===Returns===
+Returns ''true'' if file was deleted, otherwise ''false'' if the resource is in use or the file doesn't exist.
+
+==Example==
+This example removes a .txt file from the resource sx_remanager(in-game script editor) when started. (TESTED!)
+<syntaxhighlight lang="lua">addEventHandler("onResourceStart",resourceRoot,function()
+	resource = getResourceFromName("sx_resmanager")
+	removeResourceFile(resource,"description.txt")
+end)
+</syntaxhighlight>
+
+==See Also==
+{{Resource_functions}}

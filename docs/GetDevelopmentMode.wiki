@@ -1,0 +1,19 @@
+
+{{Client function}}
+This function is used to get the development mode of the client. For more information see [[/setDevelopmentMode.md|setDevelopmentMode]]
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool getDevelopmentMode ()
+</syntaxhighlight>
+
+===Returns===
+Returns ''true'' if the development mode is on, ''false'' if off.
+
+==Requirements==
+{{Requirements|n/a|1.1.1-9.03355|}}
+
+==See Also==
+{{Client_utility_functions}}
+
+[[/pl:GetDevelopmentMode.md|pl:GetDevelopmentMode]]

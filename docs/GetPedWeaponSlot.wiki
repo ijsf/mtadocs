@@ -1,0 +1,31 @@
+
+{{Server client function}}
+This function gets a ped's selected weapon slot.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+int getPedWeaponSlot ( ped thePed )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''thePed:''' the ped to get the current weapon slot of.
+
+===Returns===
+Returns the selected weapon slot ID on success, ''false'' otherwise.
+{{Weapon_Slots}}
+
+==Example==
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">
+function doesPlayerHaveWeapon(source)
+	local pedSlot = getPedWeaponSlot ( source )
+	if (pedSlot == 0)	then
+		outputChatBox("Your weapon is not in your hands ;)", source)
+	end
+end
+addCommandHandler("weapon", doesPlayerHaveWeapon)
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Ped functions}}

@@ -1,0 +1,20 @@
+<pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass>
+
+{{ModuleFunction|MTA-MySQL}}
+Returns a string with the value of the given field with the given offsets, being these:
+* '''row_offset''': An integer value between '''1''' and '''[[/Modules/MTA-MySQL/mysql_num_rows.md|mysql_num_rows()]]'''
+* '''field_offset''': An integer value between '''1''' and '''[[/Modules/MTA-MySQL/mysql_num_fields.md|mysql_num_fields()]]'''
+If the offset is invalid it returns nil.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+string mysql_result ( MySQLResult result, int row_offset, int field_offset )
+</syntaxhighlight>
+===Required arguments===
+* '''result:''' A valid MySQL result
+
+===Returns===
+A string with the data contained in the given offset.
+
+==See also==
+{{Modules/MTA-MySQL/Result_functions}}

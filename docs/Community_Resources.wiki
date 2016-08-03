@@ -1,0 +1,112 @@
+This page lists PHP calls that MTA Community allows you to use in your scripts, via [[/callRemote.md|callRemote]].
+
+==community.mtasa.com/mta/resources.php==
+
+Retrieves the latest version number for a resource available on MTA Community.
+
+'''Arguments''':
+<syntaxhighlight lang="lua">
+string "version", string resourceName
+</syntaxhighlight> 
+'''Returns:'''
+*a string with the resource name
+*a string of the resource version in format of "x.x.x", or integer 0 if an error has occurred
+*a number which is the community id for the resource, or nil if an error has occurred
+
+===Example===
+<code>
+addEventHandler( "onResourceStart", getResourceRootElement(), 
+   function()
+      callRemote( "http://community.mtasa.com/mta/resources.php", handleVersionCheck, "version", getResourceName(getThisResource()) )
+   end
+)
+
+function handleVersionCheck( resName, commVer, commId )
+    local thisVer = getResourceInfo(getThisResource(), "version")
+    if commId and thisVer ~= commVer then
+        outputChatBox( getResourceName(getThisResource()) .. " is outdated. Your version: " .. thisVer .. " | Current: " .. commVer )
+        outputChatBox( "Please download the update @ http://community.multitheftauto.com/index.php?p=resources&s=details&id=" .. commId )
+    end
+end
+</syntaxhighlight>
+
+<!--
+==community.mtasa.com/mta/verify.php==
+
+'''Calls:'''
+
+User validation:
+<syntaxhighlight lang="lua">
+player thePlayer, string Username, string Serial
+</syntaxhighlight> 
+'''Returns:''' an integer, 1 if user is valid, 0 otherwise
+
+===Example===
+<syntaxhighlight lang="lua">
+addEventHandler ( "onPlayerJoin", getRootElement(), function()
+  local username = getPlayerUserName ( source )
+  local serial = getPlayerSerial ( source )
+  callRemote ( "http://community.mtasa.com/mta/verify.php", validatePlayer, source, username, serial )
+end )
+
+function validatePlayer ( player, result )
+  local valid = "invalid"
+  if ( result == 1 ) then valid = "valid" end
+  outputChatBox ( getPlayerName ( player ).."'s username is "..valid )
+end
+</syntaxhighlight>
+-->
+==community.mtasa.com/mta/groups.php==
+
+Retrieves group information from MTA Community.
+
+'''Arguments''':
+<syntaxhighlight lang="lua">
+string "info", int groupID
+</syntaxhighlight> 
+'''Returns 5 values:'''
+* Group name
+* Owner username
+* Number of members
+* Public. Integer: 1 if the group is public, 0 otherwise
+* Registration time
+
+
+Members list:
+<syntaxhighlight lang="lua">
+string "members", int groupID
+</syntaxhighlight> 
+'''Returns:''' a table of usernames in the group
+
+===Examples===
+<section name="Group Example" class="server" show="false">
+This outputs the servers group name, if the group is public or private, and the registration time.
+<syntaxhighlight lang="lua">
+addEventHandler("onPlayerJoin",getRootElement(),function()
+   callRemote("http://community.mtasa.com/mta/groups.php",info,"info",1) --When the player joins, call the site for the info
+end)
+
+function info(groupName,ownerUser,members,public,registrationTime) --Define all the values
+   if(groupName)and(public)and(registrationTime)then --check if the info came through
+      outputChatBox("Our group is in the MTA Community Site, it's called: "..groupName..", our groups is "..public.." and was registered in"..registrationTime..".",source,0,100,100) --output about the servers new/existing group
+   end
+end
+</syntaxhighlight>
+</section>
+<section name="Members Example" class="server" show="false">
+This outputs the members in the servers group, which is found on the MTA Community Site.
+<syntaxhighlight lang="lua">
+addCommandHandler("members",function(player)
+   callRemote("http://community.mtasa.com/mta/groups.php",members,"members",1)--Call after the command goes through
+end)
+
+function members(player,members)
+   if(members)then
+      outputChatBox("Members in this servers group: "..members..".",player,255,255,255) --Outputs the members to the player who typed in the command
+   end
+end
+</syntaxhighlight>
+</section>
+
+
+[[/Category:Scripting Concepts.md|Category:Scripting Concepts]]

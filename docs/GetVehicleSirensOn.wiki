@@ -1,0 +1,37 @@
+ 
+{{Server client function}}
+{{Needs Checking|Should be areVehicleSirensOn [[/User:Qais.md|qaisjp]] ([[/User_talk:Qais.md|talk]]) 12:21, 15 June 2014 (UTC)}}
+This function returns whether the sirens are turned on for the specified vehicle.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool getVehicleSirensOn ( vehicle theVehicle )
+</syntaxhighlight> 
+{{OOP||[[/vehicle.md|vehicle]]:areSirensOn|sirensOn|setVehicleSirensOn}}
+===Required Arguments=== 
+*'''theVehicle:''' The vehicle that will be checked.
+
+===Returns===
+Returns ''true'' if the sirens are turned on for the specified vehicle, ''false'' if the sirens are turned off for the specified vehicle, if the vehicle doesn't have sirens or if invalid arguments are specified.
+
+==Example== 
+<section name="Server" class="server" show="true">
+This example toggles siren state when a player enters a vehicle as a driver.
+<syntaxhighlight lang="lua">
+function example_onVehicleEnter ( thePlayer, seat )
+	--If the player entered as a driver
+	if ( seat == 0 ) then
+		--If siren was off
+		if not getVehicleSirensOn ( source ) then
+			setVehicleSirensOn ( source, true ) --Turn it on
+		else
+			setVehicleSirensOn ( source, false ) --Turn it off
+		end
+	end
+end
+addEventHandler ( "onVehicleEnter", getRootElement(), example_onVehicleEnter )
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Vehicle functions}}

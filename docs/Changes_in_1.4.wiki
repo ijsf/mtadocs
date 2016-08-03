@@ -1,0 +1,101 @@
+{{Changelogs}}
+
+== Main Additions / Changes ==
+* Localization of MTA's menus
+* [[/OOP.md|OOP]] classes
+* [[/Matrix.md|Matrices]] and [[/Vector.md|Vectors]]
+* Significantly improved train synchronization
+* Improved all sound functions to work with player elements
+
+== Scripting ==
+
+=== Scripting: New functions ===
+
+====Client====
+* [[/createEffect.md|createEffect]]
+* [[/setEffectSpeed.md|setEffectSpeed]]
+* [[/getEffectSpeed.md|getEffectSpeed]]
+* [[/setEffectDensity.md|setEffectDensity]]
+* [[/getEffectDensity.md|getEffectDensity]]
+* [[/getLocalization.md|getLocalization]]
+* [[/isChatVisible.md|isChatVisible]]
+* [[/downloadFile.md|downloadFile]]
+* [[/isTrainChainEngine.md|isTrainChainEngine]]
+
+==== Server ====
+* [[/isBan.md|isBan]]
+* [[/setBanAdmin.md|setBanAdmin]]
+* [[/setBanReason.md|setBanReason]]
+* [[/setUnbanTime.md|setUnbanTime]]
+* [[/getAccountsBySerial.md|getAccountsBySerial]]
+* [[/getAccountSerial.md|getAccountSerial]]
+
+==== Shared (''Client & Server side'') ====
+* [[/isElementWaitingForGroundToLoad.md|isElementWaitingForGroundToLoad]]
+* Added additional optional parameter bInstant to setPlayerMoney to instantly set the money without counting up/down
+* Fixed toJSON/fromJSON not handling binary data properly
+
+=== Scripting: New Events ===
+
+==== Client ====
+* [[/onClientFileDownloadComplete.md|onClientFileDownloadComplete]]
+
+==== Server ====
+* [[/onWeaponFire.md|onWeaponFire]]
+
+=== Scripting: Changes, Bugfixes and Additions ===
+* Fixed getResourceConfig() not working on foreign resources
+* Fixed the Brown Streak Carriage (ID: 570)
+* Changed attachTrailerToVehicle to support trains
+
+== Client ==
+
+=== Client: Additions ===
+* Distinguish between left and right Shift, Ctrl and Alt presses.
+* Added SettingHUDMatchAspectRatio, SettingAspectRatio to dxGetStatus.
+* Added support for the use of [https://en.wikipedia.org/wiki/Opus_codec Opus Codec] audio files in playSound and playSound3D.
+
+=== Client: Bugfixes & Changes ===
+* Fixed the money "counts down" GTA-Style when you change a server.
+* Fixed peds being invulnerable to gun fire when doing a drive by.
+* Fixed onClientPlayerDamage not triggering for spray can.
+* Satchels should now be removed on [[/resetMapInfo.md|resetMapInfo]].
+* Fixed getPedMoveState returns false when moving in crouch state
+* Fixed guiScrollPaneGetVerticalScrollPosition returning strange and stepped values.
+* Fixed setPedCameraRotation not working.
+* Fixed peds continuing to fire their weapons after running out of ammo.
+* Fixed radio titles not always showing.
+* Fixed radio music skipping when browsing between different channels.
+* Fixed user track skip (F5) being disabled.
+* Fixed vehicles falling through the map.
+
+== Server ==
+
+=== Server: Additions ===
+* [[/setElementDimension.md|setElementDimension]] should now apply to children
+* More descriptive module error messages
+* Commands: unloadmodule and reloadmodule
+* Added server side custom weapons.
+
+=== Server: Bugfixes & Changes ===
+* Fixed 128 character limit in [[/setAccountData.md|setAccountData]]
+* Wildcard bans should now be checked properly on connect
+* Fixed Team members not being sent to clients if set in [[/onResourceStart.md|onResourceStart]].
+
+== Resources ==
+* None yet
+
+== Editor ==
+* None yet
+
+== Extra information ==
+''More detailed information available on [https://bugs.multitheftauto.com/changelog_page.php Bug tracker Changelog] and Google Code repositories:
+:* [https://code.google.com/p/mtasa-blue/source/list MTA: SA Blue]
+:* [https://code.google.com/p/mtasa-resources/source/list MTA: SA Official Resources]
+
+[[/pl:Changes_in_1.4.md|pl:Changes_in_1.4]]
+[[/pt-br:Novidades_na_versão_1.4.0.md|pt-br:Novidades_na_versão_1.4.0]]
+[[/ru:Changes_in_1.4.0.md|ru:Changes_in_1.4.0]]
+
+[[/Category:Changelog.md|Category:Changelog]]
+[[/Category:Changes in 1.4.md|Category:Changes in 1.4]]

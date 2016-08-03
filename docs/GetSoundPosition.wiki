@@ -1,0 +1,29 @@
+ 
+{{Client function}}
+This function is used to return the current seek position of the specified [[/sound.md|sound]] element.
+If the element is a player, this function will use the players voice.
+
+==Syntax== 
+<syntaxhighlight lang="lua">float getSoundPosition ( element theSound )</syntaxhighlight> 
+{{OOP||[[/sound.md|sound]]:getPlaybackPosition|playbackPosition|setSoundPosition}}
+===Required Arguments=== 
+*'''theSound:''' The [[/sound.md|sound]] element which seek position you want to return.
+
+===Returns===
+Returns a [[/float.md|float]] value indicating the seek position of the [[/sound.md|sound]] element in seconds.
+
+==Example== 
+Plays a sound then outputs the seek position.
+<syntaxhighlight lang="lua">
+local sound = playSound("randomSound.mp3",false) --Play a sound
+local soundPosition = getSoundPosition(sound) --Get the current sound position
+outputChatBox("The current seek position of the sound is: " .. soundPosition .. ".")
+</syntaxhighlight>
+
+==Changelog==
+{{ChangelogHeader}}
+{{ChangelogItem|1.3.2|Added player element to use a players voice}}
+
+==See Also==
+{{Client_audio_functions}}
+[[/AR:getSoundPosition.md|AR:getSoundPosition]]

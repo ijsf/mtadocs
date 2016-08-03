@@ -1,0 +1,31 @@
+
+{{Server client function}}
+{{New feature/item|3.0132|1.3.1|5063|
+This function sets the moon size. Using this function server-side will overwrite the value that was previously set client-side.
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool setMoonSize ( int size )
+</syntaxhighlight>
+
+===Required Arguments=== 
+*'''size:''' The size, can be 0 or any positive value. Default is '''3'''.
+
+===Returns===
+Returns true if the moon size was set correctly, false otherwise.
+
+==Example==
+<section name="Server" class="server" show="true">
+This example change moon size to looks more realistic for everyone when the resource is started.
+<syntaxhighlight lang="lua">
+function handleResourceStart( )
+    setMoonSize( 0 )
+end
+addEventHandler( "onResourceStart",  resourceRoot, handleResourceStart )</syntaxhighlight>
+</section>
+==Requirements==
+{{Requirements|1.3.1-9.05063|1.3.1-9.05063}}
+
+==See Also==
+{{Client_world_functions}}

@@ -1,0 +1,8 @@
+JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.
+
+MTA uses JSON in a number of places, most significantly it is used for communication over HTTP. See [[/Resource Web Access.md|Resource Web Access]]. You can encode JSON strings in the server using [[/toJSON.md|toJSON]] and decode them using [[/fromJSON.md|fromJSON]].
+
+For more general information about JSON, see http://www.json.org.
+
+[[/pl:JSON.md|pl:JSON]]
+[[/Category:Scripting Concepts.md|Category:Scripting Concepts]]

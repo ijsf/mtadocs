@@ -1,0 +1,38 @@
+ 
+{{Client function}}
+Used to enable or disable specific [[/sound.md|sound]] effects.
+{{New feature/item|3.0132|1.3.2||
+Use a [[/player.md|player]] element to control a players voice with this function.
+}}
+==Syntax== 
+<syntaxhighlight lang="lua">bool setSoundEffectEnabled ( element sound, string effectName, bool bEnable )</syntaxhighlight> 
+{{OOP||[[/sound.md|sound]]:setEffectEnabled}}
+===Required Arguments=== 
+*'''sound:''' a [[/sound.md|sound]] [[/element.md|element]].
+*'''effectName:''' the effect you want to enable or disable
+{{Sound_Effects}}
+*'''bEnable:''' ''true'' if you want to enable the effect, ''false'' if you want to disable it.
+
+===Returns===
+Returns ''true'' if the effect was set successfully, ''false'' otherwise.
+
+==Example== 
+This example creates a sound and set's the flanger sound effect enabled.
+<syntaxhighlight lang="lua">addCommandHandler("flanger",function(cmd,enabled)
+	if(isElement(waterSplashes))then
+		setSoundEffectEnabled(waterSplashes,cmd,enabled)
+	else
+		waterSplashes = playSound("splashes.mp3",true)
+		setSoundEffectEnabled(waterSplashes,cmd,enabled)
+	end
+end,true) --set it case sensitive as we are going to get the command name and use it in the setSoundEffectEnabled
+</syntaxhighlight>
+
+==Changelog==
+{{ChangelogHeader}}
+{{ChangelogItem|1.3.2|Added player element for voice control}}
+
+==See Also==
+{{Client_audio_functions}}
+
+[[/ar:setSoundEffectEnabled.md|ar:setSoundEffectEnabled]]

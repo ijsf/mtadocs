@@ -1,0 +1,65 @@
+ 
+{{Client function}}
+{{New feature/item|3.0134|1.3.4|5731|
+This function plays a sound in the GTA world from GTA's big sound containers.
+}}
+
+{{Note|There is a tool available which allows you to find bank and sound IDs easily: [[/https://community.mtasa.com/index.php?p=resources&s=details&id=7549 sfxBrowser:Download.md|https://community.mtasa.com/index.php?p=resources&s=details&id=7549 sfxBrowser:Download]]. }}
+{{Warning|Many players use versions of GTA:SA (especially pirated versions) that have audio files full of zeros so that they can compresses better in their ''AUDIO\SFX\'' folder. (They lack any data) 
+In case of these invalid audio files, this function returns ''false''.
+
+It also returns ''false'' when trying to play a track deleted in the recent GTA: SA Steam patches (and if the client is using a Steam GTA: SA copy).|true}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+element playSFX3D ( string containerName, int bankId, int soundId, float x, float y, float z [, bool looped = false ] )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''containerName:''' The name of the audio container. Possible values are: "feet", "genrl", "pain_a", "script", "spc_ea", "spc_fa", "spc_ga", spc_na", "spc_pa"
+*'''bankId:''' The audio bank id
+*'''soundId:''' The sound id within the audio bank
+*'''x:''' A floating point number representing the X coordinate on the map.
+*'''y:''' A floating point number representing the Y coordinate on the map.
+*'''z:''' A floating point number representing the Z coordinate on the map.
+
+===Optional Arguments===
+*'''looped:''' A [[/boolean.md|boolean]] representing whether the sound will be looped
+
+==Returns==
+Returns a [[/sound.md|sound]] element if the sound was successfully created, ''false'' otherwise.
+
+
+{{New feature/item|4.0140|1.4|6443|
+==Syntax 2==
+<syntaxhighlight lang="lua">
+element playSFX3D( string "radio", string radioStation, int trackId, float x, float y, float z [, bool looped = false ] )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''radio:''' The string "radio" (used to differentiate to the first syntax) 
+*'''radioStation:''' The radio station. Possible values are "Adverts", "Ambience", "Police", "Playback FM", "K-Rose", "K-DST", "Cutscene", "Beats", "Bounce FM", "SF-UR", "Radio Los Santos", "Radio X", "CSR 103.9", "K-Jah West", "Master Sounds 98.3", "WCTR".
+*'''trackId :''' The radio track id within the radio station audio file
+*'''x:''' A floating point number representing the X coordinate on the map.
+*'''y:''' A floating point number representing the Y coordinate on the map.
+*'''z:''' A floating point number representing the Z coordinate on the map.
+
+===Optional Arguments===
+*'''looped:''' A [[/boolean.md|boolean]] representing whether the sound will be looped
+==Returns==
+Returns a [[/sound.md|sound]] element if the sound was successfully created, ''false'' otherwise.
+}}
+
+
+
+==Example==
+The following example plays a fire alarm sound near you (looped).
+<syntaxhighlight lang="lua">
+local x, y, z = getElementPosition(localPlayer)
+if not playSFX3D("script", 7, 1, x + 10, y, z, true) then
+    outputChatBox("You have to install some missing audio files to hear the sound")
+end
+</syntaxhighlight>
+
+==See Also==
+{{Client_audio_functions}}

@@ -1,0 +1,29 @@
+
+{{Server client function}}
+This function will set a [[/vehicle.md|vehicle]]'s health to full and fix its damage model. If you wish to only change the vehicle's health, without affecting its damage model, use [[/setElementHealth.md|setElementHealth]].
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool fixVehicle ( vehicle theVehicle )             
+</syntaxhighlight> 
+{{OOP||[[/vehicle.md|vehicle]]:fix}}
+===Required Arguments=== 
+*'''theVehicle:''' the vehicle you wish to fix
+
+===Returns===
+Returns ''true'' if the vehicle was fixed, ''false'' if '''theVehicle''' is invalid.
+
+==Example== 
+This example fixes all the vehicles that exist in the map.
+<syntaxhighlight lang="lua">
+-- Retrieve a table containing all the vehicles that exist
+vehicles = getElementsByType ( "vehicle" )
+-- Loop through the list, storing the vehicle from the table in the variable vehicleValue
+for vehicleKey, vehicleValue in ipairs(vehicles) do
+	-- fix the vehicle
+	fixVehicle ( vehicleValue )
+end
+</syntaxhighlight>
+
+==See Also==
+{{Vehicle_functions}}

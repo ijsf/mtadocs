@@ -1,0 +1,48 @@
+<pageclass class="client"></pageclass>
+{{Adding_Pages_to_Categories_and_Templates}}
+This page lists all the '''client-side''' scripting classes that are implemented in the 1.4 version of Multi Theft Auto. It mirrors the procedural [[/Client_Scripting_Functions.md|client functions]]. For information on how to enable OOP in 1.4 please refer to [[/Meta.xml.md|Meta.xml]].
+
+Classes can be instantiated by either calling the '''create''' method, when applicable, or by calling the class. For example: ''Vehicle(...)'' is the same as ''Vehicle.create(...)''.
+
+Here is a list of all the current classes (nested classes are subclasses):
+
+*[[/Vector3D_class.md|Vector3]]
+*[[/Vector2D_class.md|Vector2]]
+*[[/Matrix_class.md|Matrix]]
+*[[/Camera_class.md|Camera]]
+*[[/Element_class.md|Element]]
+**[[/Ped_class.md|Ped]]
+**[[/Player_class.md|Player]]
+**[[/Vehicle_class.md|Vehicle]]
+**[[/Object_class.md|Object]]
+**[[/Marker_class.md|Marker]]
+**[[/Blip_class.md|Blip]]
+**[[/Pickup_class.md|Pickup]]
+**[[/ColShape_class.md|ColShape]]
+**[[/Projectile_class.md|Projectile]]
+**[[/RadarArea_class.md|RadarArea]]
+**[[/Team_class.md|Team]]
+**[[/Water_class.md|Water]]
+**[[/Sound_class.md|Sound]]
+***[[/Sound3D_class.md|Sound3D]]
+**[[/Weapon_class.md|Weapon]]
+**[[/GuiElement_class.md|GuiElement]]
+***[[/GuiWindow_class.md|GuiWindow]]
+***[[/GuiButton_class.md|GuiButton]]
+***[[/GuiEdit_class.md|GuiEdit]]
+***[[/GuiLabel_class.md|GuiLabel]]
+***[[/GuiMemo_class.md|GuiMemo]]
+***[[/GuiImage_class.md|GuiImage]]
+***[[/GuiComboBox_class.md|GuiComboBox]]
+***[[/GuiCheckBox_class.md|GuiCheckBox]]
+***[[/GuiRadioButton_class.md|GuiRadioButton]]
+***[[/GuiScrollPane_class.md|GuiScrollPane]]
+***[[/GuiScrollBar_class.md|GuiScrollBar]]
+***[[/GuiProgressBar_class.md|GuiProgressBar]]
+***[[/GuiGridList_class.md|GuiGridList]]
+***[[/GuiTabPanel_class.md|GuiTabPanel]]
+***[[/GuiTab_class.md|GuiTab]]
+*[[/Resource_class.md|Resource]]
+*[[/Timer_class.md|Timer]]
+*[[/File_class.md|File]]
+*[[/XmlNode_class.md|XmlNode]]

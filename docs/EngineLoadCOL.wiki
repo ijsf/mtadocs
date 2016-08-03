@@ -1,0 +1,51 @@
+{{Client function}}
+
+{{Note box|Please note the loading order that is used in the examples as other orders can cause collisions, textures or the DFF not to load due to technical limitations}}
+
+This function loads a RenderWare Collision (COL 1/2/3) file into GTA. The collisions can then be used to provide collisions for in-game objects.
+
+For vehicles, please omit this function by embedding your [[/COL.md|COL]] file into your [[/DFF.md|DFF]] file. This way, you can be sure that the COL file is correctly (and automatically) loaded when calling [[/engineLoadDFF.md|engineLoadDFF]].
+
+This is a client side function. Be sure to transfer your COL file by including it in the meta file.
+
+'''Note:''' collision libraries (.col files containing multiple collision models) are not supported. See [[/COL.md|COL]] for details.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+col engineLoadCOL ( string col_file / string raw_data ) 
+</syntaxhighlight> 
+{{OOP||[[/COL.md|EngineCOL]]}}
+===Required Arguments=== 
+*'''col_file / raw_data:''' The [[/filepath.md|filepath]] to the [[/COL.md|COL]] file you want to load or whole data buffer of the COL file.
+
+===Returns===
+Returns a [[/COL.md|COL]] if the file was loaded, ''false'' otherwise.
+
+==Example== 
+'''Example 1:''' This example loads a combination of a custom DFF and TXD file to replace the Euros vehicle in-game. The collisions are embedded inside the DFF file.
+<syntaxhighlight lang="lua">
+outputChatBox ( "> replacing the euros vehicle" )
+
+txd = engineLoadTXD ( "data/euros.txd" )
+engineImportTXD ( txd, 587 )
+dff = engineLoadDFF ( "data/euros.dff" )
+engineReplaceModel ( dff, 587 )
+</syntaxhighlight>
+
+'''Example 2:''' This example loads a combination of custom COL, TXD and DFFfiles to replace an in-game model of a set of floors.
+<syntaxhighlight lang="lua">
+outputChatBox ( "> loading floor objects" )
+col_floors = engineLoadCOL ( "models/office_floors.col" )
+engineReplaceCOL ( col_floors, 3781 )
+txd_floors = engineLoadTXD ( "models/office_floors.txd" )
+engineImportTXD ( txd_floors, 3781 )
+dff_floors = engineLoadDFF ( "models/office_floors.dff" )
+engineReplaceModel ( dff_floors, 3781 )
+</syntaxhighlight>
+
+==Changelog==
+{{ChangelogHeader}}
+{{ChangelogItem|1.4.1-9.07088|Added option to use raw data instead of a file name}}
+
+==See Also==
+{{Engine_functions}}

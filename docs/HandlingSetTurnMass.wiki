@@ -1,0 +1,23 @@
+
+{{Server function}}
+Sets the turn mass of a handling element.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool handlingSetTurnMass ( handling theHandling, float turnmass )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''theHandling:''' the handling you want to change the mass of.
+*'''turnmass:''' the new turn mass value.
+
+===Returns===
+Returns ''true'' on success, ''false'' in case of failure.
+
+==Example==
+<syntaxhighlight lang="lua">
+--TODO
+</syntaxhighlight>
+
+==See Also==
+{{Handling_functions}}

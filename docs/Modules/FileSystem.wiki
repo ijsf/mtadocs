@@ -1,0 +1,39 @@
+<pageclass class="#62A033" subcaption="FileSystem module"></pageclass>
+
+{{Module_Info|
+  name           = FileSystem |
+  version        = 1.3 |
+  author         = [[/User:The_GTA.md|Martin Turski (The_GTA)]] |
+  module_website = [https://www.assembla.com/code/green-candy/subversion/nodes Here] |
+  download_link  = [https://dl.dropboxusercontent.com/u/55896914/modules/fileSystem/fileSystem_13.dll Win32] [https://dl.dropboxusercontent.com/u/55896914/modules/fileSystem/fileSystem_13.so Linux] |
+  license        = none |
+  written_in     = C++ |
+  operating_system = Cross-platform |
+  compatible_with = 1.X |
+}}
+FileSystem is the [[/MTA:Eir.md|MTA:Eir]] file management implementation exported as MTA:BLUE module. It is made for those people who are not satisfied with the standard MTA file functions. Its feature-set covers '''binary stream writing''', '''directory scanning''' and '''path resolution logic'''. It should satisfy all needs regarding file functionality. The modules' source code is released within the MTA:Eir SVN.
+
+Its documentation can be found [[/MTA:Eir/FileSystem.md|here]]. To find coding examples, ''browse the individual class methods''.
+
+==Installing FileSystem into your Server==
+*Place the fileSystem*.dll module into your MTA server modules directory
+*Add the module into the mtaserver.conf module loading list (at the bottom of the file)
+*'''Edit the acl.xml in a way that resources require admin rights to call''' [[/MTA:Eir/FileSystem/createFilesystemInterface.md|createFilesystemInterface]]''
+
+==System Access Possibilities==
+*Accessing whole system
+*Listing and editing all server resources
+*Modifying MTA Server configuration
+
+'''Be careful how you expose the FileSystem module to your server resources!'''
+
+==Support==
+To ask questions about this module, report any bugs or just hang around in general, join #mta.recore at irc.gtanet.com
+
+*[[/Modules/FileSystem/Porting_Between_Clientside_and_Serverside.md|Porting Clientside and Serverside code]]
+
+'''LINUX: The .so module currently has stability issues due to conflicting Lua versions. I am working on resolving these. Until then the module may crash when executing callbacks (namely scanDir or scanDirEx methods).'''
+
+{{:MTA:Eir/FileSystem/functions}}
+
+[[/Category:Modules.md|Category:Modules]]

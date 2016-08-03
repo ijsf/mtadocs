@@ -1,0 +1,27 @@
+
+{{Client function}}
+
+{{New feature/item|3.0150|1.5.0|7048|
+This function returns the type for a [[/Element/Light.md|light]] element.
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+int getLightType ( light theLight )
+</syntaxhighlight>
+{{OOP||[[/light.md|light]]:getType}}
+
+===Required Arguments=== 
+*'''theLight:''' The [[/Element/Light.md|light]] that you wish to retrieve the type of.
+
+=== Returns ===
+Returns an [[/int.md|int]] containing the type of the specified light, ''false'' if invalid arguments were passed.
+
+===Example===
+<syntaxhighlight lang="Lua">
+local light = createLight(1, 2, 3, 4)
+outputChatBox("light type " .. getLightType(light))
+</syntaxhighlight>
+
+==See also==
+{{Client_light_functions}}

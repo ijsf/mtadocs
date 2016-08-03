@@ -1,0 +1,37 @@
+{{Server client function}}
+
+This function gets the original weapon property of the specified weapons specified weapon type.
+
+==Syntax==
+<syntaxhighlight lang="lua">int getOriginalWeaponProperty ( int weaponID/string weaponName, string weaponSkill, string property )</syntaxhighlight>
+
+==Required Arguments==
+*'''weaponID or weaponName:''' The ID or name of the weapon you want to get info of. Names can be:
+{{Some Weapon Types}}
+*'''weaponSkill:''' Either: "pro", "std" or "poor"
+*'''property:''' The property you want to get the value of:
+{{Weapon Properties Writable}}
+The following properties are get only:
+{{Weapon Properties ReadOnly}}
+
+==Returns==
+On success:
+
+'''int:''' The weapon property
+
+On failure:
+
+'''bool:''' False if the passed arguments were invalid
+
+==Example==
+This example gets the default weapon range of the M4 at poor skill level
+<syntaxhighlight lang="lua">
+local range = getOriginalWeaponProperty(31, "poor", "weapon_range")
+outputChatBox("Default M4 range at poor is: "..tostring(range))
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|1.2|1.2|}}
+
+==See Also==
+{{Weapon functions}}

@@ -1,0 +1,28 @@
+
+{{Server client function}}
+This function will tell you if clouds are enabled or disabled.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool getCloudsEnabled ()
+</syntaxhighlight> 
+
+===Returns===
+Returns ''true'' if the clouds are enabled or ''false'' if clouds are disabled.
+
+==Example== 
+<syntaxhighlight lang="lua">
+function areCloudsVisible()
+  if getCloudsEnabled() then
+    outputChatBox("Clouds are visible.")
+  else
+    outputChatBox("Clouds are not visible.")
+  end
+end
+addCommandHandler("clouds", areCloudsVisible)
+</syntaxhighlight>
+
+==See Also==
+{{World functions}}
+
+[[/ru:getCloudsEnabled.md|ru:getCloudsEnabled]]

@@ -1,0 +1,32 @@
+{{client function}}
+This function is used to set the position of a horizontal scroll pane as a percentage.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool guiScrollPaneSetHorizontalScrollPosition ( element horizontalScrollPane, float position )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''horizontalScrollPane''': The scroll pane you want to change the position of
+*'''position''': a float ranging from 0 - 100
+
+===Returns===
+Returns '''true''' if the position was set, '''false''' otherwise.
+
+==Example==
+This example sets the position of a scroll pane called "myScrollPane" created with [[/guiCreateScrollPane.md|guiCreateScrollPane]], and outputs it to the chatbox.
+<syntaxhighlight lang="lua">
+if ( myScrollPane ) then -- if the scroll pane exist then
+	-- set the position
+        guiScrollPaneSetHorizontalScrollPosition( myScrollPane, 100 ) -- right end
+        -- get the position
+	local position = guiScrollPaneGetHorizontalScrollPosition( myScrollPane )
+	-- output to the chatbox
+	outputChatBox ( "Current position of scroll pane:" .. tostring(position) .. "%" )
+else -- if the scroll pane was not found
+       outputChatBox ("scroll pane not found!")
+end
+</syntaxhighlight>
+
+==See Also==
+{{GUI_functions}}

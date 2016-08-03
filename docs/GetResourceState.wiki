@@ -1,0 +1,45 @@
+{{Server client function}}
+
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This function returns the state of a given resource
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+string getResourceState ( resource theResource ) 
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''theResource:''' The resource you wish to get the name of.
+{{OOP||[[/resource.md|resource]]:getState|state}}
+===Returns===
+If successful returns a string with the resource state in it, ''false'' otherwise.
+The state can be one of:
+*'''loaded'''
+*'''running'''
+{{New feature|3|1.0|
+*'''starting'''
+*'''stopping'''
+*'''failed to load''' - Use [[/getResourceLoadFailureReason.md|getResourceLoadFailureReason]] to find out why it failed.
+}}
+
+==Example== 
+This example returns the state of a given resource. Syntax: ''/state <Resource Name>''
+<syntaxhighlight lang="lua">
+function getState( player, command, resourceName )
+	if resourceName then
+		local resource = getResourceFromName( resourceName )
+		if resource then
+			outputChatBox( "Resource State: " .. resourceName .. " is currently " .. getResourceState( resource ) .. ".", player, 0, 0, 255 )
+		else
+			outputChatBox( "Error: No resource with name " .. resourceName .. " exists.", player, 255, 0, 0 )
+		end
+	else
+		outputChatBox( "Syntax: " .. command .. " [resource name]", player, 255, 0, 0 )
+	end
+end
+
+addCommandHandler( "state", getState )
+</syntaxhighlight>
+
+==See Also==
+{{Resource functions}}

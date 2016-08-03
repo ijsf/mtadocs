@@ -1,0 +1,32 @@
+
+{{Client function}}
+This function makes a [[/ped.md|ped]] press or release a certain control. It doesn't work with the local player, so use [[/setControlState.md|setControlState]] instead.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool setPedControlState ( ped thePed, string control, bool state )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''thePed:''' the ped you want to press or release a control.
+*'''control:''' the name of the control of which to change the state. See [[/control names.md|control names]] for a list of valid names.
+*'''state:''' the new control state. ''true'' means pressed, ''false'' is released.
+
+===Returns===
+Returns ''true'' if successful, ''false'' if otherwise.
+==Example==
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+function newPed()
+  local x, y, z = getElementPosition(localPlayer)
+  local myPed = createPed(0, x + 1, y, z)
+  if myPed then 
+    setPedControlState(myPed,"forwards", true)
+  end 
+end
+addCommandHandler("ped",newPed)
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Client ped functions}}

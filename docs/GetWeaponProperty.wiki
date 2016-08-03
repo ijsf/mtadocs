@@ -1,0 +1,38 @@
+{{Server client function}}
+
+This function gets a weapon property of the specified [[/Element/Weapon.md|custom weapon]] (clientside only) or specified [[/Weapons.md|player-held weapon]] (both client and server).
+
+==Syntax==
+<syntaxhighlight lang="lua">int getWeaponProperty ( int weaponID/string weaponName, string weaponSkill, string property )</syntaxhighlight>
+{{OOP|This OOP syntax is for [[/Element/Weapon.md|custom weapons]] only.|[[/Element/Weapon.md|weapon]]:getProperty||setWeaponProperty}}
+
+==Required Arguments==
+*'''weaponID or weaponName:''' The ID or name of the weapon you want to get info of. Names can be:
+{{Some Weapon Types}}
+*'''weaponSkill:''' Either: "pro", "std" or "poor"
+*'''property:''' The property you want to get the value of:
+{{Weapon Properties Writable}}
+The following properties are get only:
+{{Weapon Properties ReadOnly}}
+
+==Returns==
+On success:
+
+'''int:''' The weapon property
+
+On failure:
+
+'''bool:''' False if the passed arguments were invalid
+
+==Example==
+This example gets the weapon range of the M4 at poor skill level
+<syntaxhighlight lang="lua">
+local range = getWeaponProperty(31, "poor", "weapon_range")
+outputChatBox("M4 range at poor is: "..tostring(range))
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|1.2|1.2|}}
+
+==See also==
+{{weapon functions}}

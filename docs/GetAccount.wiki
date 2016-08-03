@@ -1,0 +1,35 @@
+
+{{Server function}}
+This function returns an [[/account.md|account]] for a specific user. 
+==Syntax==
+<syntaxhighlight lang="lua">
+account getAccount ( string username, [ string password ] )
+</syntaxhighlight>
+{{OOP||[[/Account.md|Account]]||}}
+===Required Arguments===
+*'''username:''' The username of the account you want to retrieve
+
+===Optional Arguments===
+{{OptionalArg}}
+*'''password:''' The password for the account. If this argument is not specified, you can get the account whatever password it is, otherwise the password must match the account's.
+
+===Returns===
+Returns an [[/account.md|account]] or ''false'' if an account matching the username specified (and password, if specified) could not be found.
+
+==Example==
+<syntaxhighlight lang="lua">addEventHandler("onPlayerJoin",root,function()
+    if getAccount(getPlayerName(source)) then
+        outputChatBox("Please Login!",source)
+    else
+        outputChatBox("Please Register!",source)
+    end
+end)
+</syntaxhighlight>
+
+==See Also==
+{{Account functions}}
+
+[[/ar:getAccount.md|ar:getAccount]]
+[[/es:getAccount.md|es:getAccount]]
+[[/pl:GetAccount.md|pl:GetAccount]]
+[[/ru:getAccount.md|ru:getAccount]]

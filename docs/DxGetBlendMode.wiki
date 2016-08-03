@@ -1,0 +1,27 @@
+{{Client function}}
+{{Needs_Example}}
+
+This function returns the current blend mode for the dxDraw functions. The blend mode is set using [[/dxSetBlendMode.md|dxSetBlendMode]]
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+string dxGetBlendMode ( )
+</syntaxhighlight> 
+
+==Returns==
+Returns the current blend mode, which can be one of:
+*'''blend'''
+*'''add'''
+*'''modulate_add'''
+*'''overwrite'''
+
+==Example== 
+<syntaxhighlight lang="lua">
+TODO
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|n/a|1.3.0-9.03782|}}
+
+==See Also==
+{{Drawing_functions}}

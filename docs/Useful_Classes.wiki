@@ -1,0 +1,6 @@
+<pageclass class="#228B22"></pageclass>
+{{Adding_Pages_to_Categories_and_Templates}}
+
+This page lists user-made Classes that are not included by default in MTA.
+<br/>
+{{Useful_Classes}}

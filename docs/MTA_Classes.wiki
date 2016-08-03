@@ -1,0 +1,22 @@
+In order to perform operations on MTA objects via scripting, pointers to internal classes are exported to scripts as Lua userdata. Each of these classes has a number of exported scripting functions associated to them.
+
+Elements that have a physical representation in the game are also known as [[/entity.md|Entities]].
+
+The complete list of classes to be found in scripts follows:
+
+* [[/account.md|Account]]
+* [[/acl.md|ACL]]
+* [[/aclgroup.md|ACL group]]
+* [[/Ban.md|Ban]]
+* [[/element.md|Element]]
+<ul>{{Elements}}</ul>
+* [[/resource.md|Resource]]
+* [[/textdisplay.md|Text display]]
+* [[/textitem.md|Text item]]
+* [[/timer.md|Timer]]
+* [[/xmlnode.md|XML node]]
+* [[/connection.md|Connection]]
+[[/Category:Scripting Concepts.md|Category:Scripting Concepts]]
+[[/es:Clases MTA.md|es:Clases MTA]]
+[[/it:Classi di MTA.md|it:Classi di MTA]]
+[[/ru:Классы MTA.md|ru:Классы MTA]]

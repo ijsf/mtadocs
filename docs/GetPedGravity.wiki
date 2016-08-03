@@ -1,0 +1,28 @@
+{{Server function}}
+
+This function returns the current gravity for the specified [[/ped.md|ped]]. The default gravity is 0.008.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+float getPedGravity ( ped thePed )
+</syntaxhighlight>
+{{OOP||[[/ped.md|ped]]:getGravity|gravity|setPedGravity}}
+
+===Required Arguments===
+*'''thePed:''' The [[/ped.md|ped]] whose gravity you want to check.
+
+===Returns===
+Returns a [[/float.md|float]] indicating the ped's gravity, or ''false'' if the ped is invalid. Default value is 0.008.
+
+==Example==
+This example outputs the gravity of the player who entered the 'showGravity' command.
+<syntaxhighlight lang="lua">
+function showGravity ( thePlayer )
+	local gravity = getPedGravity ( thePlayer )
+	outputChatBox ( "Your gravity: " .. tostring(gravity), thePlayer )
+end
+addCommandHandler ( "showGravity", showGravity )
+</syntaxhighlight>
+
+==See Also==
+{{Ped functions}}

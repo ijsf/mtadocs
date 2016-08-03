@@ -1,0 +1,31 @@
+
+{{Client event}}
+This event is triggered when the local player stealth kills another player.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+element targetPlayer
+</syntaxhighlight> 
+
+*'''targetPlayer''': The [[/player.md|player]] or [[/ped.md|ped]] that is being stealth killed.
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/player.md|player]] that initiated the stealth kill. (Local player only)
+
+==Cancel effect==
+If this event is [[/Event_system#Canceling.md|canceled]], then the stealth kill is aborted.
+
+==Example== 
+This example disables stealth kills.
+<syntaxhighlight lang="lua">
+function abortAllStealthKills(targetPlayer)
+    cancelEvent()
+end
+addEventHandler("onClientPlayerStealthKill", getLocalPlayer(), abortAllStealthKills)
+</syntaxhighlight>
+
+==See Also==
+===Client player events===
+{{Client_player_events}}
+===Client event functions===
+{{Client_event_functions}}

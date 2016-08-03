@@ -1,0 +1,37 @@
+
+{{Server client function}}
+{{Deprecated|isElementInWater}}
+
+Checks whether or not a ped is currently in water.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool isPedInWater ( ped thePed )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''thePed:''' the ped you want to check
+
+===Returns===
+Returns ''true'' if the ped is in water, ''false'' if he is not or an invalid element was passed.
+
+==Example==
+<section name="Client" class="client" show="true">
+This example shows all players that are in water in a list to the player who enters the 'playersInWater' command.
+<syntaxhighlight lang="lua">
+function showPlayersInWater ( sourcePlayer, command )
+	local players = getElementsByType ( "player" )
+	local list = ""
+	for k,v in ipairs ( players ) do
+		if isPedInWater ( v ) then
+			list = list .. " " .. getPlayerName ( v )
+		end
+	end
+	outputChatBox("Players pretending to be trouts: " .. list, sourcePlayer)
+end
+addCommandHandler("playersInWater", showPlayersInWater)
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Ped_functions}}

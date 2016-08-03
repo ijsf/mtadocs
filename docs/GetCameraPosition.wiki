@@ -1,0 +1,29 @@
+
+{{Server client function}}
+{{Deprecated|getCameraMatrix|}}
+
+This function returns the position that the player's camera would have if the camera mode was fixed (see [[/setCameraMode.md|setCameraMode]]).
+
+==Procedural==
+<syntaxhighlight lang="lua">
+float float float getCameraPosition ()
+</syntaxhighlight>
+
+This function returns the X, Y and Z coordinates as three [[/float.md|floats]] if the function was successful, ''false'' otherwise.
+
+===Example===
+This page lacks an example.
+
+{{New items|3.0140|1.4|
+==Object-oriented==
+<syntaxhighlight lang="lua">
+Vector3 Camera.getPosition ()
+</syntaxhighlight>
+
+This function returns a vector with the coordinates if the function was successful, an empty vector otherwise.
+
+===Example===
+This page lacks an example.
+}}
+==See Also==
+{{Camera functions}}

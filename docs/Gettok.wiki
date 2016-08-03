@@ -1,0 +1,33 @@
+ 
+{{Server client function}}
+This function splits a string using the given separating character and returns one specified substring.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+string gettok ( string text, int tokenNumber, string / int separatingCharacter )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''text:''' the string that should be split.
+*'''tokenNumber:''' which token should be returned (1 for the first, 2 for the second, and so on).
+*'''separatingCharacter:''' the [[/ASCII.md|ASCII number]] representing the character you want to use to separate the tokens. You can easily retrieve this by running string.byte on a string containing the separating character.
+
+===Returns===
+Returns a [[/string.md|string]] containing the token if it exists, ''false'' otherwise.
+
+==Example== 
+<section name="Server" class="server" show="true">
+This example retrieves the startskin and endskin for spawning a player from a string of two numbers "a,b"
+<syntaxhighlight lang="lua">
+-- Put the string with the skins in a variable. Normally you would read it from a .map file or something.
+local skins = "20,30"
+-- Get the startskin and endskin strings ("20" and "30" in this case)
+local startskin = gettok ( skins, 1, string.byte(',') )
+local endskin = gettok ( skins, 2, string.byte(',') )
+-- Get a random skin in the range
+local skin = math.random ( tonumber(startskin), tonumber(endskin) )
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Utility functions}}

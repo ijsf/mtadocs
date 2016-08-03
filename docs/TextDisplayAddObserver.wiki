@@ -1,0 +1,24 @@
+
+{{Server function}}
+This function adds a [[/player.md|player]] as an observer of a [[/textdisplay.md|textdisplay]]. This allows the [[/player.md|player]] to see any [[/textitem.md|textitem]]s that the [[/textdisplay.md|textdisplay]] contains.
+
+==Syntax==
+<syntaxhighlight lang="lua">void textDisplayAddObserver ( textdisplay display, player playerToAdd )</syntaxhighlight>
+
+===Required Arguments===
+
+* '''display''': The [[/textdisplay.md|textdisplay]] to add the [[/player.md|player]] to as an observer.
+* '''playerToAdd''': The [[/player.md|player]] that should observe the [[/textdisplay.md|textdisplay]].
+
+==Example==
+<syntaxhighlight lang="lua">
+function MyTestTextFunction ()
+display = textCreateDisplay ()                 -- create a new display, store the reference in a variable called display
+textDisplayAddObserver ( display, thePlayer )  -- add an observer to it
+text = textCreateTextItem ( "Hello World", 0.5, 0.5, "medium", 255, 0, 0, 255, 2, "left", "top", 255) --red text of 24pt at the center of your screen
+textDisplayAddText ( display, text )           -- Add the text item to the text display
+end
+</syntaxhighlight>
+
+==See Also==
+{{Text functions}}

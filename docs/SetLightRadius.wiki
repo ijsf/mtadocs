@@ -1,0 +1,39 @@
+
+{{Client function}}
+
+
+{{New feature/item|3.0150|1.5.0|7048|
+This function sets the radius for a [[/Element/Light.md|light]] element.
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool setLightRadius ( Light theLight, float radius )
+</syntaxhighlight>
+{{OOP||[[/light.md|light]]:setRadius|radius|getLightRadius}}
+
+===Required Arguments=== 
+*'''theLight:''' The [[/Element/Light.md|light]] that you wish to set the radius of.
+
+=== Returns ===
+Returns ''true'' if the function was successful, ''false'' otherwise.
+
+===Example===
+<syntaxhighlight lang="Lua">
+local light = createLight(0, 2, 3, 4)
+addCommandHandler("setradiusoflight",
+	function(cmd, radius)
+		if radius then
+			if tonumber(radius) > 0 then
+				setLightRadius(light, tonumber(radius))
+			else
+				outputChatBox("Radius must be greater than 0.")
+			end
+		else
+			outputChatBox("You must specify a radius.")
+		end
+	end
+)</syntaxhighlight>
+
+==See also==
+{{Client_light_functions}}

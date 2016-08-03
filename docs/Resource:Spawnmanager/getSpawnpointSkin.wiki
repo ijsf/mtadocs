@@ -1,0 +1,36 @@
+ 
+{{Server function}}
+This function returns the ID of the current skin from a particular spawnpoint.  
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+int getSpawnpointSkin ( spawnpoint spawn )              
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''spawn:''' A valid spawnpoint element.
+
+===Returns===
+Returns an [[/int.md|int]] containing the [[/Character_Skins.md|skin ID]] if the spawnpoint exists, ''false'' otherwise.
+
+==Example== 
+This example outputs the skin, if any, associated with a spawnpoint when a player spawns.
+<syntaxhighlight lang="lua">
+function checkPlayerSpawn ( theSpawnpoint )
+	local outString = "Player spawned"
+	local spawnSkin
+		
+	if ( theSpawnpoint ) then
+		outString = outString .. " on a spawnpoint"
+		
+		spawnSkin = call(getResourceFromName("spawnmanager"), "getSpawnpointSkin", theSpawnpoint )
+		if ( spawnSkin ) then
+			outString = outString .. " with skin: " .. tostring(spawnSkin)
+		end
+	end
+	
+	outString = outString .. "."
+	outputChatBox ( outString )
+end
+addEventHandler ( "onPlayerSpawn", getRootElement(), checkPlayerSpawn )
+</syntaxhighlight>

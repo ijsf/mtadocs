@@ -1,0 +1,25 @@
+{{Client event}}
+ 
+This event is triggered when a vehicle explodes.
+
+==Parameters== 
+This event has no parameters.
+
+==Source==
+The source of this event is the vehicle that exploded.
+
+==Example== 
+This example will output some text to chat on vehicle explosion
+<syntaxhighlight lang="lua">
+addEventHandler("onClientVehicleExplode", getRootElement(), function()
+  local modelname = getVehicleName(source)
+  outputChatBox(modelname.." just exploded!")
+end)
+</syntaxhighlight>
+
+==See Also==
+===Client vehicle events===
+{{Client_vehicle_events}}
+===Client event functions===
+{{Client_event_functions}}
+[[/es:onClientVehicleExplode.md|es:onClientVehicleExplode]]

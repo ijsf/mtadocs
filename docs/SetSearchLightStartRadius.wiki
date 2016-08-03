@@ -1,0 +1,26 @@
+ 
+{{Client function}}
+{{Needs_Example}}
+
+{{New feature/item|3.0160|1.6|7683|This function sets the start radius of a [[/Element/Searchlight.md|searchlight]] element.}}
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+searchlight setSearchLightStartRadius ( searchlight theSearchlight, float startRadius )
+</syntaxhighlight>
+{{OOP||[[/Element/Searchlight.md|searchLight]]:setStartRadius|startRadius|getSearchLightStartRadius}}
+
+===Required Arguments===
+*'''theSearchLight''': the searchlight to modify the property of.
+*'''startRadius''': the radius of the searchlight's light cone in its beginning.
+
+===Returns===
+If every argument is correct, this function returns ''true''. If not, it will return ''false'' plus an error message.
+
+==Example==
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+==See also==
+{{Client_searchlight_functions}}

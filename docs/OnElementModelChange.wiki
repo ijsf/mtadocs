@@ -1,0 +1,36 @@
+
+{{Server event}}
+{{New feature|3.0120|1.2|
+'''Available only in MTA SA 1.2 and onwards'''
+}}
+This event is triggered when the model of an [[/element.md|element]] is changed using [[/setElementModel.md|setElementModel]].
+
+==Parameters==
+<syntaxhighlight lang="lua">
+int oldModel
+</syntaxhighlight> 
+
+* '''oldModel:''' The model of the element beforehand.
+
+==Source==
+The source of this event is the element that changed its model
+
+==Cancel Effect==
+This event doesn't support [[/Event_system#Canceling.md|cancellation]]. Use setElementModel with the old value to reverse.
+
+==Example== 
+This example sends a message to players when their model changes telling them what the model ID is and was.
+<syntaxhighlight lang="lua">
+function informPlayerOnModelChange(oldModel)
+    if ( getElementType(source) == "player" ) then -- Make sure the element is a player
+        outputChatBox("Model ID changing from: "..oldModel.." to: "..getElementModel(source), source, 0, 255, 0) -- Message for player
+    end
+end
+addEventHandler("onElementModelChange", root, informPlayerOnModelChange) -- Bind the event to every element
+</syntaxhighlight>
+
+==See Also==
+===Element events===
+{{Element_events}}
+===Event functions===
+{{Event_functions}}

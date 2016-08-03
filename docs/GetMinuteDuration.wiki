@@ -1,0 +1,17 @@
+
+{{Server client function}}
+Tells you how long an ingame minute takes in real-world milliseconds. The default GTA value is 1000.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+int getMinuteDuration ( )
+</syntaxhighlight>
+
+===Required Arguments===
+''None''
+
+===Returns===
+Returns the number of real-world milliseconds that go in an ingame minute.
+
+==See Also==
+{{World functions}}

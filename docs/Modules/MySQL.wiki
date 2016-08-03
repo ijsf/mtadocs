@@ -1,0 +1,18 @@
+{{Outdated|MTA now supports MySQL databases natively via the db* functions.}}
+'''Available for Windows and Linux servers'''
+
+The MySQL module provides access to MySQL servers. It is included with [http://files.mtasa.com/apps/1.0/dm/ml_devkit.tar.gz the original module SDK package].
+=== Functions ===
+bool [[/Modules/MySQL/MysqlCreate.md|mysqlCreate]] ( nil )
+
+bool [[/Modules/MySQL/MysqlOpen.md|mysqlOpen]] ( mysql, function, host, user, password, database name, port )
+
+nil [[/Modules/MySQL/MysqlDestroy.md|mysqlDestroy]] ( mysql )
+
+bool [[/Modules/MySQL/MysqlQuery.md|mysqlQuery]] ( mysql, function, query )
+
+string [[/Modules/MySQL/MysqlSafeString.md|mysqlSafeString]] ( string )
+
+[[/Category:Modules.md|Category:Modules]]
+
+[[/ru:Modules/MySQL.md|ru:Modules/MySQL]]

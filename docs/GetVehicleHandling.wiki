@@ -1,0 +1,37 @@
+
+{{Server client function}}
+This function returns a table of the current vehicle handling data.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+table getVehicleHandling ( element theVehicle )
+</syntaxhighlight>
+{{OOP||[[/vehicle.md|vehicle]]:getHandling|handling}}
+===Required Arguments=== 
+*'''theVehicle:''' the vehicle you wish to get the handling data of.
+
+===Returns===
+Returns a ''table'' containing all the handling data, ''false'' otherwise. Here's a list of valid table properties and what they return:
+{{Handling Properties}}
+
+==Example==
+<section name="Server & Client" class="both" show="true">
+This example creates a new function called getVehicleHandlingProperty, which simulates the previous syntax of this function.
+<syntaxhighlight lang="lua">
+function getVehicleHandlingProperty ( element, property )
+    if isElement ( element ) and getElementType ( element ) == "vehicle" and type ( property ) == "string" then -- Make sure there's a valid vehicle and a property string
+        local handlingTable = getVehicleHandling ( element ) -- Get the handling as table and save as handlingTable
+        local value = handlingTable[property] -- Get the value from the table
+        
+        if value then -- If there's a value (valid property)
+            return value -- Return it
+        end
+    end
+    
+    return false -- Not an element, not a vehicle or no valid property string. Return failure
+end
+</syntaxhighlight>
+</section>
+
+==See other vehicle functions==
+{{Vehicle functions}}

@@ -1,0 +1,9 @@
+
+[[/Image:Gui-memo.png.md|frame|Example GUI memo.]]
+The GUI memo class represents GUI memos in MTA's GUI system. These are big multiline text fields to what you can type text by default. It is recommended to use [[/Element/GUI/Edit_field.md|edit fields]] for smaller text inputting.
+
+The element type of this class is '''"gui-memo"'''.
+
+==Related scripting functions==
+===Client===
+{{GUI_functions}}

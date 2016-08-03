@@ -1,0 +1,31 @@
+ 
+{{Server event}}
+This event is triggered when a player or a vehicle leaves a collision shape.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+element leaveElement, bool matchingDimension
+</syntaxhighlight> 
+
+*'''leaveElement''': The [[/element.md|element]] that who exited the col shape. This can be a player or a vehicle.
+*'''matchingDimension''': a boolean referring to whether the collision shape was in the same dimension as the element.
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/colshape.md|colshape]] that the element no longer is in contact with.
+
+==Example== 
+This example kills the player whenever they leave a certain collision shape:
+<syntaxhighlight lang="lua">
+local jailZone = createColCircle ( 1024, 1024, 15 ) -- create a collision shape
+
+-- call 'jailZoneLeave' whenever a player leaves the collision shape:
+function jailZoneLeave ( thePlayer )
+   if getElementType ( thePlayer ) == "player" then -- if the element that left was player
+      killPlayer ( thePlayer ) -- kill the player
+      outputChatBox ( "You are not allowed to leave the jail!", thePlayer )
+   end
+end
+addEventHandler ( "onColShapeLeave", jailZone, jailZoneLeave )
+</syntaxhighlight>
+
+{{See also/Server event|Colshape events}}

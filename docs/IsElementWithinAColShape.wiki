@@ -1,0 +1,49 @@
+{{Useful Function}}
+<lowercasetitle/>
+
+This function checks if the [[/element.md|element]] is in a [[/colshape.md|colshape]].
+
+==Syntax==
+<section name="Server" class="server" show="true"><syntaxhighlight lang="lua"> colshape / bool isElementWithinAColShape ( element theElement ) </syntaxhighlight></section>
+<section name="Client" class="client" show="true"><syntaxhighlight lang="lua"> ) </syntaxhighlight></section>
+
+===Required/Optional Arguments===
+* '''theElement''': The element you want to check. (If not entered in client-side function, local player will be checked instead.)
+
+===Returns===
+Returns a [[/colshape.md|colshape]] the [[/element.md|element]] is in else false if the element isn't in one or no arguments were passed.
+
+===Code===
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">function isElementWithinAColShape(element)
+	if element or isElement(element)then
+		for _,colshape in ipairs(getElementsByType("colshape"))do
+			if isElementWithinColShape(element,colshape) then
+				return colshape
+			end
+		end
+	end
+	outputDebugString("isElementWithinAColShape - Invalid arguments or element does not exist",1)
+	return false
+end</syntaxhighlight></section>
+<section name="Client" class="client" show="true">
+<code>function isElementWithinAColShape(element)
+	element = element or localPlayer or getLocalPlayer()
+	if element or isElement(element)then
+		for _,colshape in ipairs(getElementsByType("colshape"))do
+			if isElementWithinColShape(element,colshape) then
+				return colshape
+			end
+		end
+	end
+	outputDebugString("isElementWithinAColShape - Element does not exist",1)
+	return false
+end</syntaxhighlight></section>
+
+===Example===
+<syntaxhighlight lang="lua">
+--ToDo
+</syntaxhighlight>
+
+==See Also==
+{{Useful_Functions}}

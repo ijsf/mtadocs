@@ -1,0 +1,26 @@
+
+{{Client function}}
+
+Changes the voice of a ped.
+{{Note|A ped voice is one of the GTA built in voice character types. Not to be confused with a [[/https://wiki.multitheftauto.com/wiki/Resource:Voice player voice.md|https://wiki.multitheftauto.com/wiki/Resource:Voice player voice]]}}
+==Syntax==
+<syntaxhighlight lang="lua">bool setPedVoice ( ped thePed, string voiceType, string voiceName )</syntaxhighlight>
+{{OOP||[[/ped.md|ped]]:setVoice}}
+
+===Required Arguments===
+*'''thePed:''' the ped whose voice to change.
+*'''voiceType:''' the voice type. See [[/ped voices.md|ped voices]] for possible types.
+*'''voiceName:''' the voice name within the specified type. See [[/ped voices.md|ped voices]] for possible voices.
+
+===Returns===
+Returns ''true'' when the voice was successfully set, ''false'' otherwise.
+
+===Example===
+<syntaxhighlight lang="lua">addEventHandler("onClientResourceStart", getResourceRootElement(),
+    function()
+        setPedVoice(getLocalPlayer(), "PED_TYPE_GANG", "VOICE_GNG_MACCER")
+    end
+)</syntaxhighlight>
+
+==See Also==
+{{Client ped functions}}

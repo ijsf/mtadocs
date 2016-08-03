@@ -1,0 +1,9 @@
+
+[[/Image:Gui-combobox.jpg.md|frame|Example of GUI combobox.]]
+The GUI combobox class represents GUI comboboxes in MTA's GUI system. These are drop down lists that can contain large number of items.
+
+The element type of this class is '''"gui-combobox"'''.
+
+==Related scripting functions==
+===Client===
+{{GUI_functions}}

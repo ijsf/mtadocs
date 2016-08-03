@@ -1,0 +1,41 @@
+{{Server client function}}
+
+This function returns an [[/element.md|element]] that corresponds to the current target of the specified player's camera (i.e. what it is following). 
+==Syntax==
+<section class="server" name="Server" show="true">
+<syntaxhighlight lang="lua">
+element getCameraTarget ( player thePlayer )
+</syntaxhighlight> 
+{{OOP||[[/player.md|player]]:getCameraTarget|cameraTarget|setCameraTarget}}
+===Required Arguments=== 
+*'''thePlayer:''' The player whose camera you wish to receive the target of.
+</section>
+<section class="client" name="Client" show="true">
+<syntaxhighlight lang="lua">
+element getCameraTarget ()
+</syntaxhighlight> 
+</section>
+
+===Returns===
+* Returns an [[/element.md|element]] of the target if the function was successful, or ''false'' if bad arguments were specified
+{{New feature|3|1.0|
+* Returns ''false'' if the camera is in Fixed mode and has no target.
+}}
+
+==Example== 
+This example checks whether a player's camera's target is another player, and returns true or false accordingly.
+<section class="server" name="Server script" show="true">
+<syntaxhighlight lang="lua">
+function isTargetPlayer( thePlayer )
+    local target = getCameraTarget ( thePlayer )
+    if ( getElementType ( target ) == "player" ) then   -- If target is a player
+        return true                                     -- Return true
+    else
+        return false                                    -- Otherwise, return false.
+    end
+end
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Camera functions}}

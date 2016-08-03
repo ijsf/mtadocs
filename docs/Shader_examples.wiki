@@ -1,0 +1,195 @@
+This page contains some example shader resources to try. If you are looking to make your own, please be sure to read about the [[/Shader.md|shader element]] as well.
+<br>
+
+==Road shine==
+[[/Image:RoadShineScreen.jpg.md|200px|thumb|left|Road shine]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_roadshine.zip Download shader_roadshine.zip] &nbsp; ''Requires Shader Model 2 graphics card''
+<br><br>
+This resource creates a light reflection effect on the ground (looks best when moving). 
+It uses a custom flag in the effect file to generate [http://en.wikipedia.org/wiki/Surface_normal surface normals] for the ground model:
+<code>
+int CUSTOMFLAGS
+<
+    string createNormals = "yes";
+>;</syntaxhighlight>
+Surface normals are not usually present in the ground and building models, but are useful for creating lighting effects such as these.
+</td></tr></table>
+
+==Road shine 2==
+[[/Image:RoadShine2Screen.jpg.md|200px|thumb|left|Road shine 2]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_roadshine2.zip Download shader_roadshine2.zip] &nbsp; ''Requires Shader Model 2 graphics card''
+<br><br>
+Bit more complicated than the first Road shine, as it tracks the sun or moon to calculate the position of the highlight.
+The effect can be hard to see depending on the time of day.
+<br><br>
+Best used with the play resource as the model it modifies is near the initial spawn point.
+</td></tr></table>
+
+==Road shine 3 (Deluxe edition)==
+[[/Image:RoadShine3Screen.jpg.md|200px|thumb|left|Road shine 3]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_roadshine3.zip Download shader_roadshine3.zip] &nbsp; ''Requires Shader Model 2 graphics card''
+<br><br>
+This resource shows how to:
+* Stop a wild card match shader from being applied to certain world textures.
+* Use isLineOfSightClear to stop an effect when something is not visible (The sun in this case).
+* Use a shader maxDrawDistance setting to avoid GPU overload.
+
+The final effect is a faster shader with less rendering issues than the previous two road shine examples.
+<br><br>
+</td></tr></table>
+
+==UV scroll==
+[[/Image:UVScollScreen.jpg.md|200px|thumb|left|UV scroll]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_uv_scroll.zip Download shader_uv_scroll.zip]
+<br><br>
+This resource scrolls a texture from left to right. It doesn't use vertex or pixels shaders, so it should work on all hardware.
+</td></tr></table>
+
+==UV scripted==
+[[/Image:UVScriptedScreen.jpg.md|200px|thumb|left|UV scripted]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_uv_scripted.zip Download shader_uv_scripted.zip]
+<br><br>
+This resource controls a texture's UVs using Lua. It shows that anything is possible if you can imagine it.
+</td></tr></table>
+
+==Car paint==
+[[/Image:CarPaintScreen.jpg.md|200px|thumb|left|Car paint]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_car_paint.zip Download shader_car_paint.zip] &nbsp; ''Requires Shader Model 2 graphics card''
+<br><br>
+This resource shows you how to apply a shader to the vehicle models. The shader itself is not that great, so don't get your hopes up.
+</td></tr></table>
+
+==Water==
+[[/Image:WaterScreen.jpg.md|200px|thumb|left|Water]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_water.zip Download shader_water.zip] &nbsp; ''Requires Shader Model 2 graphics card''
+<br><br>
+This resource applies a shader to the GTA world water. The Lua script shows how to use a timer to transfer the conventional water color setting to the shader.
+</td></tr></table>
+
+==Bloom==
+[[/Image:BloomScreen.jpg.md|200px|thumb|left|Bloom]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_bloom.zip Download shader_bloom.zip] &nbsp; ''Requires Shader Model 2 graphics card''
+<br><br>
+This resource shows you how 'bounce' full screen effects using a render target pool. It uses the ''onClientHUDRender'' event to exclude the HUD from the effect.
+</td></tr></table>
+
+==Block world==
+[[/Image:BlockWorld.jpg.md|200px|thumb|left|Block world]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_block_world.zip Download shader_block_world.zip] &nbsp; ''Requires Shader Model 2 graphics card''
+<br><br>
+This resource makes the textures look all blocky. It also changes colors when the 'k' key is pressed.
+</td></tr></table>
+
+==Texture names==
+[[/Image:TexNames.jpg.md|200px|thumb|left|Texture names]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_tex_names.zip Download shader_tex_names.zip]
+<br><br>
+This resource is only a tool, and doesn't do anything pretty. It shows a list of the current visible texture names, and highlights the selected texture. Ideal for finding a texture name to use with [[/engineApplyShaderToWorldTexture.md|engineApplyShaderToWorldTexture]].
+
+num_8 shows/hides the texture list, num_7 and num_9 step through the list, and 'k' copies the current texture name to the clipboard.
+</td></tr></table>
+
+==Skid marks==
+[[/Image:SkidMarks.jpg.md|200px|thumb|left|Skid marks]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_skidmarks.zip Download shader_skidmarks.zip] &nbsp; ''Requires Shader Model 2 graphics card''
+<br><br>
+This resource shows you how to do multiple passes in a shader, and input different variables to the vertex shader for each pass.
+Use the command '''/skidmarks 1-4''' to see the different effects. (You have skid a car to see it!)
+<br><br>
+</td></tr></table>
+
+==HDR contrast==
+[[/Image:ShaderContrast.jpg.md|200px|thumb|left|HDR contrast]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_contrast.zip Download shader_contrast.zip] &nbsp; ''Requires Shader Model 2 graphics card''
+<br><br>
+This resource applies a 'High Dynamic Range' contrast effect. It uses a 1 pixel render target to sample the whole scene, and then uses that to brighten or darken the next frame.
+So going into somewhere dark will automatically brighten the scene, and visa versa
+<br><br>
+</td></tr></table>
+
+==Tessellation==
+[[/Image:shader_flag.jpg.md|200px|thumb|left|Tessellation action]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_flag.zip Download shader_flag.zip] &nbsp; ''Requires Shader Model 2 graphics card''
+<br><br>
+This resource shows how to use shader tessellation to animate the shape of a dxDrawImage and use shader transform to give it a 3rd dimension.
+
+The example has a GUI (press numpad-8) so you can fiddle with the settings.
+<br><br>
+</td></tr></table>
+
+==Radial blur==
+[[/Image:shader_radial_blur.jpg.md|200px|thumb|left|Radial blur]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_radial_blur.zip Download shader_radial_blur.zip] &nbsp; ''Requires Shader Model 2 graphics card''
+<br><br>
+This resource sort of looks a little bit like the GTAIV motion blur you get when you move the mouse quickly, or drive a fast car. The fast car effect is a bit more subtle than the screen shot would suggest, as it leaves the center of the screen nice and clear so you can see where you are going.
+
+It also has the option of suspending the effect during times of low FPS. Check the two settings at the top of '''''c_radial_blur.lua'''''.
+<br><br>
+The file '''''c_switch.lua''''' contains information on how to toggle the effect from another resource using events.
+<br><br>
+</td></tr></table>
+
+==Detail==
+[[/Image:shader_detail.jpg.md|200px|thumb|left|Detail]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_detail.zip Download shader_detail.zip] &nbsp; ''Requires Shader Model 2 graphics card''
+<br><br>
+Applies a few monochrome detail textures, at various scales, to (parts of) the world.
+
+(Not finished and probably never will be.)
+
+</td></tr></table>
+
+==Ped morph==
+[[/Image:PedMorphScreen.jpg.md|200px|thumb|left|Ped morph]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_ped_morph.zip Download shader_ped_morph.zip] &nbsp; ''Requires Shader Model 2 graphics card''
+<br><br>
+This resource uses a vertex shader to modify the geometry of a ped model as it is rendered.
+<br><br>
+When the resource has started, use the 'k' and 'l' keys to change morph size.
+
+</td></tr></table>
+
+==Ped shell==
+[[/Image:PedShellScreen.jpg.md|200px|thumb|left|Ped shell]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_ped_shell.zip Download shader_ped_shell.zip] &nbsp; ''Requires Shader Model 2 graphics card''
+<br><br>
+This resource draws a translucent effect as a shader layer. The first pass is done by GTA, and the vertex shader is only applied in the second to add the effect 'on top' of the standard output.
+<br><br>
+When the resource has started, use the 'm' key to see the shell effect.
+
+</td></tr></table>
+
+==Hud mask==
+[[/Image:Shader_hud_mask.jpg.md|200px|thumb|left|Hud mask]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_hud_mask.zip Download shader_hud_mask.zip]
+<br><br>
+This resource shows how to draw a hud texture with a shape mask.
+</td></tr></table>
+
+==dxDrawCircle==
+[[/Image:dxDrawCircle.jpg.md|200px|thumb|left|dxDrawCircle]]
+<table border=0><tr><td valign=top height=170>
+[http://nightly.mtasa.com/files/shaders/shader_circle.zip Download shader_circle.zip]
+<br><br>
+This resource exports a 'dxDrawCircle' function for use in your own scripts.
+<br><br>
+Example resource calling dxDrawCircle function from shader_circle: [http://nightly.mtasa.com/files/shaders/circle_example.zip circle_example.zip]
+</td></tr></table>

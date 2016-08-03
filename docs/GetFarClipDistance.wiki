@@ -1,0 +1,21 @@
+{{Server client function}}
+
+This function will tell you what is the current render distance.
+{{Note|The function will return ''false'' server-side if far clip distance has not been set before the function is called.}}
+==Syntax==
+<syntaxhighlight lang="lua">
+float getFarClipDistance ( )
+</syntaxhighlight>
+
+===Returns===
+Returns a ''float'' with the current render distance, ''false'' if the operation could not be completed.
+
+==Example== 
+This example will demonstrate basic functionality of the function.
+<syntaxhighlight lang="lua">
+setFarClipDistance( 1200 )
+outputDebugString( "Render distance: " .. getFarClipDistance( ) )
+</syntaxhighlight>
+
+==See Also==
+{{World_functions}}

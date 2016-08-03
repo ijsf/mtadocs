@@ -1,0 +1,26 @@
+
+{{Server client function}}
+{{Needs_Example}}
+This function reveals if an element is low LOD.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool isElementLowLOD ( element theElement )
+</syntaxhighlight> 
+{{OOP||[[/element.md|element]]:isLowLOD||}}
+
+===Required Arguments=== 
+*'''theElement:''' The [[/element.md|element]] whose low LOD status we want to get.
+
+===Returns===
+Returns ''true'' if the element is low LOD, ''false'' otherwise.
+
+==Example==
+<syntaxhighlight lang="lua">
+--Example Needed
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|1.2|1.2}}
+==See Also==
+{{Element_functions}}

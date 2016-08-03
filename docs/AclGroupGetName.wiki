@@ -1,0 +1,29 @@
+ 
+{{Server function}}
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This function is used to get the name of the given ACL group.
+
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+string aclGroupGetName ( aclgroup aclGroup )
+</syntaxhighlight> 
+{{OOP||[[/aclgroup.md|aclgroup]]:getName|name|}}
+===Required Arguments=== 
+<!-- List each argument one per line. This should be the argument's name as in the argument list above, NOT the argument's data type -->
+*'''aclGroup:''' The ACL group to get the name of
+
+===Returns===
+<!-- Make this descriptive. Explain what cases will return false. If you're unsure, add a tag to it so we can check -->
+Returns the name of the given ACL group as a string if successfull, ''false''/''nil'' if the aclGroup is invalid or it fails for some other reason.
+
+==Example== 
+This example outputs to the console that "Admin's are ready to watch". 
+<syntaxhighlight lang="lua">addEventHandler("onResourceStart",resourceRoot,function()
+	outputConsole(aclGroupGetName(aclGetGroup("Admin")).."'s are ready to watch :)",root)
+end)
+</syntaxhighlight>
+
+==See Also==
+<!-- Change FunctionArea to the area that this function is in on the main function list page, e.g. Server, Player, Vehicle etc -->
+{{ACL_functions}}

@@ -1,0 +1,30 @@
+
+{{Client function}}
+This function returns the type of the specified projectile.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+int getProjectileType ( projectile theProjectile )
+</syntaxhighlight>
+{{OOP||[[/projectile.md|projectile]]:getType|type}}
+
+===Required Arguments===
+*'''theProjectile:''' The [[/Element/Projectile.md|projectile]] element which type you want to retrieve.
+
+==Returns==
+Returns an [[/int.md|int]]eger over the type of the projectile or ''false'' if invalid arguments were passed.
+{{Projectiles}}
+
+==Example==
+<syntaxhighlight lang="lua">
+function projectileCreation()
+	local theType = getProjectileType(source)
+	outputChatBox("A projectile was created! It's type: "..theType)
+end
+addEventHandler("onClientProjectileCreation", getRootElement(), projectileCreation)
+</syntaxhighlight>
+
+==See also==
+{{Client projectile functions}}
+
+[[/it:getProjectileType.md|it:getProjectileType]]

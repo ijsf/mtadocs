@@ -1,0 +1,29 @@
+
+{{Server client function}}
+{{Disabled|This function doesn't work actually. See the bugtracker for updates and more information.}}
+This function sets the dirt level on a vehicle.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool setVehicleDirtLevel ( vehicle theVehicle, int dirtLevel )
+</syntaxhighlight>
+
+===Required Arguments=== 
+*'''theVehicle:''' The vehicle that you want to set the dirt level from
+*'''dirtLevel:''' The dirt level
+
+===Returns===
+Returns ''true'' if the dirt level was set on the vehicle, ''false'' if the dirt level was not set or if invalid arguments are specified.
+
+==Example==
+<syntaxhighlight lang="lua">
+--TODO
+</syntaxhighlight>
+
+==Issues==
+{{Issues|
+{{Issue|3164|Not fixable and closed}}
+}}
+
+==See Also==
+{{Vehicle functions}}

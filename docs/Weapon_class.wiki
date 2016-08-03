@@ -1,0 +1,8 @@
+<DESCRIPTION HERE>
+
+===Methods===
+
+*[[/createWeapon.md|create]]
+*[[/fireWeapon.md|fire]]
+*[[/setWeaponOwner.md|setOwner]]
+*[[/setWeaponTarget.md|setTarget]]

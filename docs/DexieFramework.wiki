@@ -1,0 +1,63 @@
+
+<div style="float:left;"><div style="float:right;">[[/Image:Scripting.jpg.md|Image:Scripting.jpg]]</div>Hello, and welcome to the wiki page of the DexieFramework for mta. This project was known under the name of MTA Framework.
+
+But since that i changed the whole structure of the framework, i decided to give it an other name. This name is not really pretty, but it is a name i work with.
+
+This framework need to make programming in mta a lot easier. We will explain what the difference between the native functions and our functions are on the pages where the function are documented. 
+
+--[[/User:Mrdejong.md|Mrdejong]] 20:25, 11 July 2009 (CEST)
+
+</div>
+
+
+<div style="clear:both;"></div>
+{| width="100%" cellspacing="0" cellpadding="0"
+| colspan="2" |
+
+|-
+| width="50%" style="vertical-align:top;" |
+<div style="border: 1px dotted #AAAAAA;padding:4px 8px 8px 8px;margin:10px;">
+====Getting started====
+
+* [[/df/install.md|Installation of the framework]]
+* [[/df/issues.md|Known issues]]
+* [[/df/faq.md|FAQ]]
+
+</div>
+
+<div style="border: 1px dotted #AAAAAA;padding:4px 8px 8px 8px;margin:10px;">
+
+====General Lua Help====
+Pages designed to aid your understanding of LUA 
+*[http://www.lua.org/pil/index.html "Programming in LUA" Manual]
+*[http://lua-users.org/wiki/TutorialDirectory LUA Wiki]
+*[http://nixstaller.berlios.de/manual/0.2/nixstaller_9.html A general guide to Lua from Nixstaller]
+</div>
+
+
+| width="50%" style="vertical-align:top;" |
+<div style="border: 1px dotted #AAAAAA;padding:4px 8px 8px 8px;margin:10px; background:#CCCCFF;">
+====Reference server side====
+*[[/df/DexieFramework.md|Dexie framework]]
+**[[/df/df_mysql.md|Component: Mysql]]
+**[[/df/df_registry.md|Component: Registry]]
+**[[/df/df_console.md|Component: Console]]
+**[[/df/df_debug.md|Component: Debug]]
+**[[/df/df_translate.md|Component: Translate (Multi language system)]]
+**[[/df/df_chatbox.md|Component: Chatbox]]
+
+</div>
+
+<div style="border: 1px dotted #AAAAAA;padding:4px 8px 8px 8px;margin:10px;">
+
+====Reference client side====
+*[[/df_client/DexieFramework.md|Dexie framework]]
+</div>
+
+----
+
+<div style="border: 1px dotted #AAAAAA;padding:4px 8px 8px 8px;margin:10px;">
+
+====Add-ons====
+*[[/df_addon/create.md|Creating an addon]]
+</div>

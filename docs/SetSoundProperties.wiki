@@ -1,0 +1,38 @@
+ 
+{{Client function}}
+{{New feature/item|3.0130|1.3.0|4097|
+This function edit's the properties of a specific [[/sound.md|sound]].
+}}
+
+==Syntax== 
+<syntaxhighlight lang="lua">bool setSoundProperties(element sound, float fSampleRate, float fTempo, float fPitch, bool bReverse )</syntaxhighlight> 
+{{OOP||[[/sound.md|sound]]:setProperties||getSoundProperties}}
+===Required Arguments=== 
+*'''sound:''' a [[/sound.md|sound]] [[/element.md|element]] that is created using [[/playSound.md|playSound]] or [[/playSound3D.md|playSound3D]]
+
+*'''fSampleRate:''' a [[/float.md|float]] that defines the new sound's [http://en.wikipedia.org/wiki/Sampling_rate sample rate]
+
+*'''fTempo:''' a [[/float.md|float]] that defines the new sound [http://en.wikipedia.org/wiki/Tempo tempo]
+
+*'''fPitch:''' a [[/float.md|float]] that defines the new sound [http://en.wikipedia.org/wiki/Pitch_%28music%29 pitch]
+
+*'''bReverse:''' a [[/boolean.md|boolean]] representing whether the sound will be reversed or not.
+
+===Returns===
+Returns ''true'' if the properties sucessfully set, ''false'' otherwise.
+
+==Example== 
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+function editSongSound()
+	local sound = playSound("song.wav", false) -- Play the file 'song.wav' and make it play only once
+	setSoundProperties(sound, 48000.0, 128.00, 440.0, false) -- Set its samplerate to 48,000 Hz, tempo to 128.00, pitch to 440 Hz and not reversed
+end
+addEventHandler("onClientResourceStart", resourceRoot, editSongSound) -- Execute the function when the resource is started
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Client_audio_functions}}
+
+[[/ar:setSoundProperties.md|ar:setSoundProperties]]

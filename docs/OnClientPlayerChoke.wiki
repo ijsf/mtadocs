@@ -1,0 +1,36 @@
+
+{{Client event}}
+{{Needs_Checking|responsiblePed is always nil}} 
+{{Needs_Checking|Check it is only triggered for the local player and the source is correct}} 
+This event is fired when the local player chokes due to the effect of a weapon such as tear gas grenades, fire extinguishers and spray cans.
+==Parameters==
+<syntaxhighlight lang="lua">
+int weaponID, ped responsiblePed
+</syntaxhighlight>
+*'''weapon:''' an [[/int.md|int]] representing the ID of the [[/weapon.md|weapon]] which caused the choking.
+*'''responsiblePed:''' the ped responsible for causing the choking, possiblly nil.
+
+==Source==
+The source of this event is the player who is choking. (Local player only)
+
+==Cancel effect==
+If this event is [[/Event_system#Canceling.md|canceled]], the player will not be choked.
+
+==Example==
+<section class="client" name="Client" show="true">
+This example disables choking effects from the tear gas grenades.
+<syntaxhighlight lang="lua">
+function cancelTearGasChoking(weaponID, responsiblePed)
+	if (weaponID==17) then
+		cancelEvent()
+	end
+end
+addEventHandler("onClientPlayerChoke", getLocalPlayer(), cancelTearGasChoking)
+</syntaxhighlight>
+</section>
+
+==See Also==
+===Client player events===
+{{Client_player_events}}
+===Client event functions===
+{{Client_event_functions}}

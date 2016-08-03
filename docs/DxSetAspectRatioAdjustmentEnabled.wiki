@@ -1,0 +1,42 @@
+
+{{Client function}}
+
+{{New feature/item|3.0140|1.3.3|5547|
+This function allows for the positioning of dxDraw calls to be automatically adjusted according to the client's aspect ratio setting.  This lasts for a single execution of an event handler for one of the following events: [[/onClientRender.md|onClientRender]], [[/onClientPreRender.md|onClientPreRender]] and [[/onClientHUDRender.md|onClientHUDRender]]. So the function has to be called every frame, just like dxDraws.
+
+This is particularly useful for draws that must align with the GTA HUD, for which the sizing and positioning can vary for different aspect ratios.
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool dxSetAspectRatioAdjustmentEnabled ( bool bEnabled [, float sourceRatio = 4/3 ] )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''bEnabled''': Should the adjustment be enabled or disabled.
+
+===Optional Arguments===
+{{OptionalArg}}
+* '''sourceRatio :''' This should be set to the aspect ratio the dxDraws were originally designed in.
+
+===Returns===
+Returns ''true'' when it was changed successfully, or ''false'' otherwise.
+
+==Requirements==
+{{Requirements|n/a|1.3.3-9.05547}}
+
+==Example==
+<syntaxhighlight lang="lua">
+scx,scy = guiGetScreenSize()
+
+addEventHandler( "onClientRender", root,
+    function()
+        dxDrawText( "Hello", 300, 300 )             -- Text will be drawn at 300,300
+        dxSetAspectRatioAdjustmentEnabled( true )
+        dxDrawText( "Goodbye", 0.78*scx, 0.22*scy )  -- Text will be drawn just below HUD money, with any aspect ratio
+    end
+)
+</syntaxhighlight>
+
+==See Also==
+{{Drawing_functions}}

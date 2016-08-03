@@ -1,0 +1,23 @@
+The task system is a system that is built into Grand Theft Auto: San Andreas. It is a large system that manages everything to do with how players and pedestrians behave. Every action a player or pedestrian performs is a task of some type. Each player can have a number of primary and secondary tasks. Primary tasks tend to be the most interesting to us when making scripts. Primary tasks are divided up into 5 slots ordered by priority, while secondary tasks are divided up into 6 slots each with a different purpose. The slots are as follows:
+
+'''PRIMARY TASKS'''
+*'''0:''' TASK_PRIORITY_PHYSICAL_RESPONSE
+*'''1:''' TASK_PRIORITY_EVENT_RESPONSE_TEMP
+*'''2:''' TASK_PRIORITY_EVENT_RESPONSE_NONTEMP
+*'''3:''' TASK_PRIORITY_PRIMARY
+*'''4:''' TASK_PRIORITY_DEFAULT
+'''SECONDARY TASKS'''
+*'''0:''' TASK_SECONDARY_ATTACK
+*'''1:''' TASK_SECONDARY_DUCK
+*'''2:''' TASK_SECONDARY_SAY
+*'''3:''' TASK_SECONDARY_FACIAL_COMPLEX
+*'''4:''' TASK_SECONDARY_PARTIAL_ANIM
+*'''5:''' TASK_SECONDARY_IK
+Each slot can contain one task at a time, or be empty. 
+
+There are two types of tasks - complex tasks and simple tasks. Simple tasks actually perform actions that affect the player, such as opening a car door, walking forwards etc. Complex tasks trigger off simple tasks in a sequence to perform more complex things, such as walking to a car, opening the door and getting in.
+
+If a complex task is in a slot, you can get what task that complex task is running using [[/getPedTask.md|getPedTask]] and an index value of 1. If that itself has a child task, then you can retrieve that using an index value of 2 etc.
+
+You can see a complete list of tasks on the [[/list of player tasks.md|list of player tasks]] page.
+[[/Category:Scripting Concepts.md|Category:Scripting Concepts]]

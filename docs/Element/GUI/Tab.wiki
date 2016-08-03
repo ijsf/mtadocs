@@ -1,0 +1,9 @@
+
+[[/Image:gui-tabpanelandtab.png.md|frame|Two example tabs in a tab panel.]]
+The GUI tab class represents GUI tabs in MTA's GUI system. These highly rely on GUI [[/Element/GUI/Tab_panel.md|tab panels]] as they only can be created to them.
+
+The element type of this class is '''"gui-tab"'''.
+
+==Related scripting functions==
+===Client===
+{{GUI_functions}}

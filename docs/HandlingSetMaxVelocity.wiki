@@ -1,0 +1,23 @@
+
+{{Server function}}
+Sets the maximum velocity of a handling element (the peak speed of the vehicle).
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool handlingSetMaxVelocity ( handling theHandling, float velocity )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''theHandling:''' the handling of which you want to change the maximum velocity.
+*'''velocity:''' the new maximum velocity to set.
+
+===Returns===
+Returns ''true'' on success, ''false'' in case of failure.
+
+==Example==
+<syntaxhighlight lang="lua">
+--TODO
+</syntaxhighlight>
+
+==See Also==
+{{Handling_functions}}

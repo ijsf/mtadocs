@@ -1,0 +1,27 @@
+
+{{Client function}}
+{{Needs Example}}
+{{New feature/item|3.0150|1.5||
+This function executes a Javascript string to the specified [[/Element/Browser.md|browser]].
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool executeBrowserJavascript ( browser webBrowser, string jsCode )
+</syntaxhighlight>
+{{OOP||[[/Element/Browser.md|browser]]:executeJavascript}}
+
+===Required Arguments===
+*'''webBrowser:''' The web browser which will execute the Javascript code
+*'''jsCode:''' The Javascript code string
+
+===Returns===
+Returns ''true'' if executing Javascript is allowed in the current context, ''false'' otherwise.
+
+==Example==
+<syntaxhighlight lang="lua">
+--todo
+</syntaxhighlight>
+
+==See Also==
+{{CEF_functions}}

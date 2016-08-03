@@ -1,0 +1,33 @@
+
+{{Client function}}
+{{New feature/item|3.0150|1.5||
+This function will attempt to focus the [[/Element/Browser.md|browser]] or unfocus all browsers. The browser that is focused will retrieve keyboard input.
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool focusBrowser ( browser webBrowser )
+</syntaxhighlight>
+{{OOP||[[/Element/Browser.md|browser]]:focus}}
+
+===Required Arguments===
+*'''webBrowser:''' The web browser to be focused - if this is '''nil''', it will unfocus all browsers.
+
+===Returns===
+Returns ''true'' if the browser was focused or if nil was passed, ''false'' if it failed to focus or the browser does not exist.
+
+==Example==
+<section name="Client" class="client" show="true">
+This example creates browser and focus it
+<syntaxhighlight lang="lua">
+local browser = createBrowser(860, 680, false)
+addEventHandler("onClientBrowserCreated", browser,
+   function ()
+       focusBrowser(source)
+   end
+)
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{CEF_functions}}

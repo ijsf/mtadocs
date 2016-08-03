@@ -1,0 +1,25 @@
+ 
+{{Client function}}
+{{Needs_Example}}
+
+{{New feature/item|3.0160|1.6|7683|This function gets the end position of a [[/Element/Searchlight.md|searchlight]] element.}}
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+float float float getSearchLightEndPosition ( searchlight theSearchLight )
+</syntaxhighlight>
+{{OOP||[[/Element/Searchlight.md|searchLight]]:getEndPosition|endPosition|setSearchLightEndPosition}}
+
+===Required Arguments===
+*'''theSearchLight''': the searchlight to get the position where the searchlight's light cone ends.
+
+===Returns===
+If the specified searchlight element is valid, this function will return three ''float'', which are the three coordinates of searchlight's end position. If not, it will return ''false'' plus an error message.
+
+==Example==
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+==See also==
+{{Client_searchlight_functions}}

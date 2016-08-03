@@ -1,0 +1,201 @@
+{{Changelogs}}
+== Main Additions / Changes ==
+* Added Custom Vehicle Sirens
+* Fixed map files are downloading very slow issue
+* Fixed timeouts on map change
+* Fixed various issues, crashes and freezes
+* Updated max players to 4096
+* Added BASS Effects
+* Added Analog Controls States
+* Added bullet sync
+* Fixed several custom model replacing issues
+* Windows 8 support (both 32-bits and 64-bits)
+* Added ability to create pedless weapons via weapon creation
+* Improved Map Editor stability and added new features
+* Installers for regular builds and nightlies are now digitally signed
+
+== Client ==
+
+=== New Functions ===
+
+* Added [[/setObjectBreakable.md|setObjectBreakable]]
+* Added [[/isObjectBreakable.md|isObjectBreakable]]
+* Added [[/dxSetBlendMode.md|dxSetBlendMode]]
+* Added [[/dxGetBlendMode.md|dxGetBlendMode]]
+* Added [[/dxDrawMaterialLine3D.md|dxDrawMaterialLine3D]]
+* Added [[/dxDrawMaterialSectionLine3D.md|dxDrawMaterialSectionLine3D]]
+* Added [[/getLatentEventHandles.md|getLatentEventHandles]]
+* Added [[/getLatentEventStatus.md|getLatentEventStatus]]
+* Added [[/cancelLatentEvent.md|cancelLatentEvent]]
+* Added [[/triggerLatentServerEvent.md|triggerLatentServerEvent]]
+* Added [[/getVehicleSirenParams.md|getVehicleSirenParams]]
+* Added [[/getVehicleSirens.md|getVehicleSirens]]
+* Added [[/setVehicleSirens.md|setVehicleSirens]]
+* Added [[/getSoundProperties.md|getSoundProperties]]
+* Added [[/setSoundProperties.md|setSoundProperties]]
+* Added [[/getSoundFFTData.md|getSoundFFTData]]
+* Added [[/setSoundPanningEnabled.md|setSoundPanningEnabled]]
+* Added [[/isSoundPanningEnabled.md|isSoundPanningEnabled]]
+* Added [[/setWorldSoundEnabled.md|setWorldSoundEnabled]]
+* Added [[/isWorldSoundEnabled.md|isWorldSoundEnabled]] 
+* Added [[/resetWorldSounds.md|resetWorldSounds]]
+* Added [[/getSoundBPM.md|getSoundBPM]]
+* Added [[/getSoundLevelData.md|getSoundLevelData]]
+* Added [[/getSoundWaveData.md|getSoundWaveData]]
+* Added [[/setPedAnalogControlState.md|setPedAnalogControlState]]
+* Added [[/getPedAnalogControlState.md|getPedAnalogControlState]]
+* Added [[/setAnalogControlState.md|setAnalogControlState]]
+* Added [[/getAnalogControlState.md|getAnalogControlState]]
+* Added [[/setPedTargetingMarkerEnabled.md|setPedTargetingMarkerEnabled]]
+* Added [[/isPedTargetingMarkerEnabled.md|isPedTargetingMarkerEnabled]]
+* Added [[/setElementMatrix.md|setElementMatrix]]
+* Added [[/warpPedIntoVehicle.md|warpPedIntoVehicle]]
+* Added [[/removePedFromVehicle.md|removePedFromVehicle]]
+* Added [[/setProjectileCounter.md|setProjectileCounter]]
+* Added [[/createWeapon.md|createWeapon]]
+* Added [[/fireWeapon.md|fireWeapon]]
+* Added [[/setWeaponProperty.md|setWeaponProperty]]
+* Added [[/setWeaponState.md|setWeaponState]]
+* Added [[/setWeaponTarget.md|setWeaponTarget]]
+* Added [[/getWeaponOwner.md|getWeaponOwner]]
+* Added [[/setWeaponOwner.md|setWeaponOwner]]
+* Added [[/setWeaponFlags.md|setWeaponFlags]]
+* Added [[/getWeaponFlags.md|getWeaponFlags]]
+* Added [[/setWeaponFiringRate.md|setWeaponFiringRate]]
+* Added [[/getWeaponFiringRate.md|getWeaponFiringRate]]
+* Added [[/resetWeaponFiringRate.md|resetWeaponFiringRate]]
+* Added [[/getWeaponClipAmmo.md|getWeaponClipAmmo]]
+* Added [[/setWeaponClipAmmo.md|setWeaponClipAmmo]]
+* Added [[/getWeaponAmmo.md|getWeaponAmmo]]
+* Added [[/setWeaponAmmo.md|setWeaponAmmo]]
+* Added [[/getProjectileCounter.md|getProjectileCounter]]
+* Added [[/setWaterDrawnLast.md|setWaterDrawnLast]]
+* Added [[/isWaterDrawnLast.md|isWaterDrawnLast]]
+* Added [[/guiLabelGetColor.md|guiLabelGetColor]]
+
+=== New Events ===
+
+* Added [[/onClientPedHeliKilled.md|onClientPedHeliKilled]]
+* Added [[/onClientPlayerHeliKilled.md|onClientPlayerHeliKilled]]
+* Added [[/onClientPlayerHitByWaterCannon.md|onClientPlayerHitByWaterCannon]]
+* Added [[/onClientPedHitByWaterCannon.md|onClientPedHitByWaterCannon]]
+* Added [[/onClientPlayerPickupHit.md|onClientPlayerPickupHit]]
+* Added [[/onClientPlayerPickupLeave.md|onClientPlayerPickupLeave]]
+* Added [[/onClientSoundBeat.md|onClientSoundBeat]]
+* Added [[/onClientWeaponFire.md|onClientWeaponFire]]
+
+=== Changes / Bug Fixes ===
+
+* Fixed 'not being able to enter vehicles' bug
+* Added order priority to [[/addEventHandler.md|addEventHandler]]
+* Fixed 'engineless' NRG-500 Variant
+* Added option to skip Dual Monitor Resolution Select
+* Made [[/playSound3D.md|playSound3D]] use the camera position instead of the player position when determining the distance
+* Added color coding and sub-pixel positioning options to [[/dxDrawText.md|dxDrawText]]
+* Added ability to create and modify cubemaps and volume textures - Details: [[/dxCreateTexture.md|dxCreateTexture]]
+* Added model cache system to reduce loading delays
+* Added CJ clothes cache to help reduce game freezes
+* Sped up event handling system for server and client
+* Added element option to [[/engineApplyShaderToWorldTexture.md|engineApplyShaderToWorldTexture]]
+* Added optional bool to [[/getElementMatrix.md|getElementMatrix]] ( element, bool )
+* Added unrar for smoother update procedure
+* Fixed custom model replacement errors sometimes with weapons & weapon pickups.
+* Fixed vehicle upgrade custom models not showing immediately
+* Fixed accuracy of hit point in [[/onClientPlayerWeaponFire.md|onClientPlayerWeaponFire]] and added shot origin parameter
+* Fixed [[/setPedAimTarget.md|setPedAimTarget]] direction being all wrong
+* Fixed issue when peds' bullets origin from wrong position
+* Fixed custom models not rendering correctly sometimes parameter
+* Fixed custom model LOD distance is not reseting after quiting
+* Added size limit for clientscript.log file
+* Added ability to shoot with any weapon with jetpack
+* Made timers less crashy
+* Fixed some animation crashes
+* Fixed [[/getPedMoveState.md|getPedMoveState]] returns false when moving in crouch state
+* Fixed a bug when a resource that replace an object model (dff) and texture (txd) is stopped the object texture get white
+* Added ped pixel shaders
+* Added ability to layer multiple shaders on a world texture
+* Fixed Windows 8 missing dll error
+* Fixed [[/setElementPosition.md|setElementPosition]] for vehicles on a non streamed in position will make the vehicle spin very quickly
+* Added check for GTA file loading failures
+* Fixed map editor crash
+* Fixed floating vehicles when using [[/setVehicleIdleRespawnDelay.md|setVehicleIdleRespawnDelay]]
+* Fixed [[/Client_Commands#showhud.md|showhud]] not fully working before the player has spawned
+* Fixed connect problem when using a domain name that starts with a number
+* Fixed missing font error message
+* Fixed [[/getSoundLength.md|getSoundLength]] returns 0 for sound streams (not radio streams)
+* Fixed a crash when taking a screenshot and minimizing then restoring
+* Fixed setElementFrozen killing players from falls
+* Fixed textures disappearing and flickering at certain camera angles
+
+== Server ==
+
+=== New Functions ===
+
+* Added [[/fetchRemote.md|fetchRemote]]
+* Added [[/reloadBans.md|reloadBans]]
+* Added [[/getAllAccountData.md|getAllAccountData]]
+* Added [[/getLatentEventHandles.md|getLatentEventHandles]]
+* Added [[/getLatentEventStatus.md|getLatentEventStatus]]
+* Added [[/cancelLatentEvent.md|cancelLatentEvent]]
+* Added [[/removeVehicleSirens.md|removeVehicleSirens]]
+* Added [[/getVehicleSirenParams.md|getVehicleSirenParams]]
+* Added [[/getVehicleSirens.md|getVehicleSirens]]
+* Added [[/setVehicleSirens.md|setVehicleSirens]]
+* Added [[/addVehicleSirens.md|addVehicleSirens]]
+* Added [[/setJetpackWeaponEnabled.md|setJetpackWeaponEnabled]]
+* Added [[/getJetpackWeaponEnabled.md|getJetpackWeaponEnabled]]
+* Added [[/fileCopy.md|fileCopy]]
+
+=== New Events ===
+
+* None yet
+
+=== Changes / Bug Fixes ===
+
+* Fixed map files are downloading very slow issue
+* Fixed timeouts on map change
+* Tweaks and fixes for vehicle sync
+* Added order priority to [[/addEventHandler.md|addEventHandler]]
+* Improved performance when the server has a large number of IP bans
+* Added debug info to timers
+* Added adjustable sync rates to [[/setServerConfigSetting.md|setServerConfigSetting]] and the server config - Details: [[/Sync_interval_settings.md|Sync_interval_settings]]
+* Fixed lightsync vehicles ghost streaming in when locally they are miles away
+* Fixed server sometimes not appearing in the browser
+* Added server setting to reduce CPU usage
+* Sped up event handling system for server and client
+* Tweaked server networking
+* Improved Lua errors for server element functions
+* Reduced CPU usage more
+* Made timers less crashy
+* Added vehicle extrapolation - Details: [[/mtaserver.conf#vehext_percent.md|mtaserver.conf -> vehext_]]
+* Fixed server crash when towing a clientside vehicle
+* Added option to suppress certain MySQL error messages
+* Sped up [[/triggerClientEvent.md|triggerClientEvent]]
+* Made [[/setVehicleIdleRespawnDelay.md|setVehicleIdleRespawnDelay]] work for non-streamed in vehicles
+* Added logging for [[/callRemote.md|callRemote]]
+* Large amount of other crashfixes, improvements and tweaks
+
+== Resources ==
+* Updated parachute to fix high CPU usage on clients
+* Added Visualiser resource
+* Added GUI Siren Editor 
+* Fixed a reload exploit where you could jump and then reload for an instant reload
+* Made reload with jetpack work again
+* Fixed freeroam bookmarks
+* Fixed some errors and warnings
+
+== Editor ==
+* Fixed Map editor not saving locations of objects on Linux machines
+* Added cancel option when starting map editor from menu
+* Added ability to change object and vehicle alpha
+* Changed vehicle color selection to use the new RGB color system
+* Fixed server settings tab in options not showing up when using Map Editor from main menu
+* Added ability to place peds
+* Added object scale option
+* Added object collisions option
+
+[[/hu:Changes in 1.3.1.md|hu:Changes in 1.3.1]]
+[[/pt-br:Novidades na versão 1.3.1.md|pt-br:Novidades na versão 1.3.1]]
+[[/ru:Changes in 1.3.1.md|ru:Changes in 1.3.1]]
+
+[[/Category:Changes in 1.3.md|Category:Changes in 1.3]]

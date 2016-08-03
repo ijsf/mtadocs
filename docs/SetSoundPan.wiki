@@ -1,0 +1,32 @@
+ 
+{{Client function}}
+{{Needs Checking|3D sounds are supposed to pan automatically deppending on the camera position, so how does this function work with 3D sounds? --[[/User:AlexTMjugador.md|AlexTMjugador]] ([[/User_talk:AlexTMjugador.md|talk]]) 10:09, 25 May 2014 (UTC)}}
+
+This function is used to change the pan level of the specified [[/sound.md|sound]] element.
+
+==Syntax== 
+<syntaxhighlight lang="lua">bool setSoundPan ( element theSound, float pan )</syntaxhighlight> 
+{{OOP||[[/sound.md|sound]]:setPan|pan|getSoundPan}}
+===Required Arguments=== 
+*'''theSound:''' The [[/sound.md|sound]] element which pan you want to modify.
+*'''pan:''' A [[/float.md|floating]] point number representing the desired pan level. Range is from ''-1.0 (left)'' to ''1.0 (right)''
+
+===Returns===
+Returns ''true'' if the [[/sound.md|sound]] element pan was successfully changed, ''false'' otherwise.
+
+==Example== 
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+function playMusic ()
+        local left = playSFX("genrl", 75, 6, true)    -- Play loading theme music
+        local right = playSFX("genrl", 75, 7, true)
+        setSoundPan(left, -1)                         -- switch the first music to left channel
+        setSoundPan(right, 1)                         -- switch the second music to right channel
+end
+
+addCommandHandler("music", playMusic)                 -- add the command handler
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Client_audio_functions}}

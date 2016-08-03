@@ -1,0 +1,38 @@
+
+{{Server client function}}
+
+Creates a new file in a directory of a resource. If there already exists a file with the specified name, it is overwritten with an empty file.
+{{Note|To prevent memory leaks, ensure each successful call to [[/fileCreate.md|fileCreate]] has a matching call to [[/fileClose.md|fileClose]]}}
+{{Note|The file functions should not be used to implement configuration files. It is encouraged to use the XML functions for this instead.}}
+{{Tip|If you do not want to share the content of the created file with other servers, prepend the file path with @ (See [[/filepath.md|filepath]] for more information)}}
+==Syntax==
+<syntaxhighlight lang="lua">
+file fileCreate ( string filePath )
+</syntaxhighlight>
+{{OOP|This function is a static function underneath the File class.|[[/File.md|File]].new}}
+
+===Required Arguments===
+*'''filePath:''' The [[/filepath.md|filepath]] of the file to be created in the following format: '''":resourceName/path"'''. 'resourceName' is the name of the resource the file is in, and 'path' is the path from the root directory of the resource to the file.
+:For example, if you want to create a file named 'myfile.txt' in the resource 'mapcreator', it can be created from another resource this way: ''fileCreate(":mapcreator/myfile.txt")''.
+:If the file is in the current resource, only the file path is necessary, e.g. ''fileCreate("myfile.txt")''.
+
+===Returns===
+If successful, returns a file handle which can be used with other file functions ([[/fileWrite.md|fileWrite]], [[/fileClose.md|fileClose]]...). Returns ''false'' if an error occured.
+
+==Example==
+This example creates a text file in the current resource and writes a string to it.
+<syntaxhighlight lang="lua">
+local newFile = fileCreate("test.txt")                -- attempt to create a new file
+if (newFile) then                                       -- check if the creation succeeded
+    fileWrite(newFile, "This is a test file!")        -- write a text line
+    fileClose(newFile)                                -- close the file once you're done with it
+end
+</syntaxhighlight>
+
+Notice that you can't simply do ''fileWrite("test.txt", "File content")''. Instead, file functions operate on a '''file handle''', which is a special object representing an open file. ''fileCreate'' creates a file, opens it, and returns the resulting handle.
+
+It is also important to remember to close a file after you've finished all your operations on it, especially if you've been writing to the file. If you don't close a file and your resource crashes, all changes to the file may be lost.
+If the file already exists, a new file will be created on local.
+
+==See Also==
+{{File functions}}

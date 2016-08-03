@@ -1,0 +1,32 @@
+{{Client function}}
+
+This function gets the dimensions of [[/Texture_pixels.md|pixels]] contained in a string. It works with all pixel formats.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+int int dxGetPixelsSize ( string pixels )
+</syntaxhighlight> 
+
+===Required Arguments===
+*'''pixels :''' The pixels to get the dimensions of
+
+==Returns==
+Returns width and height of the pixels if successful, ''false'' if invalid arguments were passed to the function.
+
+==Example== 
+The example loads an image, gets its pixels, and outputs the pixels size. (You can use [http://i1325.photobucket.com/albums/u630/Tourmalinelisa2/128x128.jpg this] image to test.)
+<syntaxhighlight lang="lua">
+addEventHandler('onClientResourceStart', resourceRoot, function()
+  local img = fileOpen('img.jpg')
+  local pixels = fileRead(img, fileGetSize(img))
+  local size = dxGetPixelsSize(pixels)
+  outputChatBox('Pixels size is: ' .. size)
+  fileClose(img)
+end)
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|n/a|1.3|}}
+
+==See Also==
+{{Drawing_functions}}

@@ -1,0 +1,22 @@
+
+{{Server event}}
+This event is triggered when a player has been unmuted by [[/setPlayerMuted.md|setPlayerMuted]].
+
+==Parameters==
+''none''
+
+==Source==
+The source of this event is the player who got unmuted.
+
+==Cancel effect==
+If this event is [[/Event_system#Canceling.md|canceled]], the player will not be unmuted.
+
+==Example==
+This example outputs to chatbox the player name who's unmuted.
+<syntaxhighlight lang="lua">
+function unmuted()
+    outputChatBox(getPlayerName(source) .. " has been unmuted", root, 255, 0, 0)
+end
+addEventHandler("onPlayerUnmute", root, unmuted)
+</syntaxhighlight>
+{{See also/Server event|Player events}}

@@ -1,0 +1,46 @@
+[[/Category:Useful_Functions.md|Category:Useful_Functions]]
+{{Useful Function}}
+<lowercasetitle/>
+
+This function allows you get a ped's clothing ID, allowing you to forget about texture and model names. <strong>This is intended to overwrite the native getPedClothes function, but has been renamed getPedClothesID here on the wiki. It is also intended to be used in conjunction with [[/setPedClothes.md|setPedClothes]].</strong>
+
+==Syntax==
+<syntaxhighlight lang="lua">int getPedClothesID(ped thePed, int clothingSlot)</syntaxhighlight>
+
+===Required Arguments===
+* '''thePed''': The ped to examine.
+* '''clothingSlot''': The clothing slot to examine. See the [[/CJ_Clothes.md|clothes catalog]] for more info.
+
+===Returns===
+This function returns the [[/CJ_Clothes.md|clothing ID]] if successful, false otherwise.
+
+==Code==
+<section show="true">
+<syntaxhighlight lang="lua">
+function getPedClothesID(thePed, clothingSlot)
+	if not isElement(thePed) or type(clothingSlot) ~= "number" then
+		error("Invalid arguments to setPedClothes()!", 2)
+	end
+	
+	local texture, model = getPedClothes(thePed, clothingSlot)
+	if not texture then
+		return false
+	else
+		local _, id = getTypeIndexFromClothes(texture, model)
+		return id
+	end
+end
+</syntaxhighlight>
+</section>
+
+==Example==
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+</section>
+
+Author: John
+
+==See Also==
+{{Useful_Functions}}

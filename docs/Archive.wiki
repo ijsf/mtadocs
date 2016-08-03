@@ -1,0 +1,90 @@
+{| width="100%" cellspacing="0" cellpadding="0"
+| colspan="2" |
+<div style="/*border: 1px solid #D8D8D8;*/ padding: 5px; height: 100%; text-align:center;">
+'''Multi Theft Auto Archive'''
+
+[[/File:MTALogo_8ball.png.md|100px|link=Archive]]
+
+[ Eliminating the need to play with yourself since [[/Version_History#List_of_.28released.29_versions.md|2003]] ]
+
+</div>
+|}
+{| width="100%" cellspacing="0" cellpadding="0"
+| colspan="2" |
+|-
+|width="50%" style="vertical-align:top;" |<div style="border: 1px solid #D8D8D8; padding:4px 8px 8px 8px; margin:10px;">
+<h3>Multi Theft Auto 0.5</h3>{{Important Note|MTA does '''not''' contain any viruses, malware, adware or spyware. It is flagged as a '''false positive''' because of the way the executable is packed. But make sure you download it from a safe place (i.e. the MTA website or the link below)! }}<!-- The main download location for 0.5r2 seems down (http://files.mtasa.com/apps/0.5r2/mta05r2_full_installer.exe), replaced with Towncivilian's link. -->
+<div style="background: #FFEEAA; border: 1px solid #FFCD19;">[[/File:Go-down.png.md|link=http://hosting.jworld137.com/files/mta05r2_full_installer.exe]] ''' [https://mega.co.nz/#!DFNz2JSY!3-Yc3y0ek40HG7MTrH6kxuphmojlzqtBrCeQ4feM84U Download Multi Theft Auto 0.5r2]'''</div>
+* [[/MTA_0.5r2_Known_Issues.md|Known Issues]]
+* [[/MTA_0.5_Installation.md|Installation Manual]]
+* Windows Server: [https://mega.co.nz/#!DFNz2JSY!3-Yc3y0ek40HG7MTrH6kxuphmojlzqtBrCeQ4feM84U Installer] - [https://mega.co.nz/#!WIVERLZa!XJAmm5pWgBc-D1VswWIfVdaQcEVEQ8siuWL4YKoxTIw Zipped]
+* Linux Server: [https://docs.google.com/file/d/0B5mpmm482r0VY3dGckxaQldXZE0/edit?pli=1 tar.gz] [https://mega.co.nz/#!2EMyXILI!TUiqaxmHigIEW-QwZR7XrTLVLWk6NtHrukLLe9HC73s Backup tar.gz]
+* [https://forum.mtasa.com/viewforum.php?f=136 Forum]
+* IRC: [irc://irc.gtanet.com/#mta3vc irc.gtanet.com #mta3vc]
+=== Gamemodes ===
+* [[/MTA:VC_Deathmatch_Gamemode.md|Vice City Deathmatch]]
+* [[/MTA:VC_Stunt_Gamemode.md|Vice City Stunt]]
+* [[/GTA3_SSV.md|GTA3 Shoreside Vale]]
+* [[/GTA3 Portland.md|GTA3 Portland]]
+* [[/GTA3 Staunton.md|GTA3 Staunton]]
+<div style="font-size: 85%; padding-top: 10px;">MTA 0.5 works with GTA III and Vice City.</div>
+</div>
+<div style="border: 1px solid #D8D8D8; padding:4px 8px 8px 8px; margin:10px;">
+<h3>MTA: San Andreas Race</h3>
+{{Warning|MTA: San Andreas Race is not supported. It has been replaced with [[/Upgrading_from_MTA:Race.md|MTA: San Andreas {{Current Version|full}}]] and the [[/Resource:Race.md|race resource]].}}
+* [http://files.mtasa.com/apps/1.0/race/ Race File Archive]
+* [[/MTA:SA_Race_FAQ.md|Frequently Asked Questions (FAQ)]]
+* [[/Blue.md|Blue]] - Information about the ''Blue Core'' for race.
+* [[/MTA:SA_Race-Windows_Server_Guide.md|Windows Server Guide]]
+<div style="font-size: 85%; padding-top: 10px;">MTA:San Andreas Race only works on Windows XP</div>
+</div>
+
+| width="50%" style="vertical-align:top;" |
+<div style="border: 1px solid #D8D8D8; padding:4px 8px 8px 8px; margin:10px;">
+<h3>[[/Multi Theft Auto.md|Multi Theft Auto]] General</h3>
+* [[/Press Coverage.md|Press Coverage]]
+* [[/Version History.md|Version History]]
+* [[/Timeline.md|Timeline]] - 2003-2006
+* [http://files.mtasa.com/web/ Archived Websites]
+* [http://files.mtasa.com/ File Archive]
+* [[/MTA Vault.md|MTA Vault]] - Screenshots of previous versions
+* [[/Previous-car-method.md|Previous Car Method]] - Explanation how vehicle sync worked in GTA3:MTA 0.1a and 0.2a
+* [[/Car-Killers.md|Car Killers]] - Explanation of car killing
+* [[/MTA Addons.md|MTA Addons]] - Various MTA addons
+</div>
+<div style="border: 1px solid #D8D8D8; padding:4px 8px 8px 8px; margin:10px;">
+<h3>Multi Theft Auto Community</h3>
+* [[/Dictionary.md|Dictionary]]
+* [https://forum.mtasa.com/viewforum.php?f=81 Forum Archive]
+* [http://files.mtasa.com/web/gta3mta_irc_stats/ Early #gta3mta IRC stats]
+</div>
+<div style="border: 1px solid #D8D8D8; padding:4px 8px 8px 8px; margin:10px;">
+<h3>Scripting / MTA:mA</h3>
+* [[/MTA:mA.md|MTA:mA History]]
+** [http://files.mtasa.com/apps/tools/MTAmA/MTAmA324.zip Download MTA:mA 3.24 for MTA 0.5]
+** <span style="text-decoration: line-through;">[http://files.mtasa.com/apps/tools/MTAmA/MTAmA4.zip Download MTA:mA 4.00 for MTA: San Andreas Race]</span> (Not Recommended)
+<div style="font-size: 85%; padding-top: 10px;">MTA:mA requires [http://www.mirc.com/ mIRC].</div>
+</div>
+<div style="border: 1px solid #D8D8D8; padding:4px 8px 8px 8px; margin:10px;">
+<h3>MTA: San Andreas (Deathmatch) 1.x.x</h3>
+* [[/:Category:Deprecated.md|:Category:Deprecated]] - Old and deprecated (LUA) functions and events.
+</div>
+|-
+| colspan="2" |
+|}
+{| width="100%" cellspacing="0" cellpadding="0"
+| colspan="2" |
+<div align="center"><gallery perrow=5 caption="Screenshots">
+File:Am4.jpg|GTA3:AM Vehicle Sync
+File:3b3.jpg|GTA3:MTA<br>Testing of the actor system
+File:Vc0.1-1.jpg|MTA:VC 0.1
+File:Vc0.1-3.jpg|MTA:VC 0.1
+File:800px-Robber.jpg|MTA 0.5 VC Robber spawn
+File:GTA3 SSV CopSpawn.jpg|MTA 0.5 Cop Spawn on GTA3's Shoreside Vale
+File:SSV_Scramble.png|MTA 0.5 Mini mission on GTA3's Shoreside Vale
+File:MTASA-Race-Racing.jpg|Racing in MTA: San Andreas Race
+File:MTASA-Race-Mainmenu.png|The main menu of MTA: San Andreas Race
+File:Sa-airrace.jpg|Airplane race in MTA: San Andreas Race
+</gallery></div>
+|}
+

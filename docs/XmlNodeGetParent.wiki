@@ -1,0 +1,22 @@
+{{Server client function}}
+{{Needs_Example}}
+
+Returns the parent node of an xml node.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+xmlnode xmlNodeGetParent ( xmlnode node )
+</syntaxhighlight>
+{{OOP||[[/xmlnode.md|xmlnode]]:getParent|parent}}
+
+===Required Arguments===
+*'''node:''' the node of which you want to know the parent.
+
+===Returns===
+Returns the parent node of the specified node if successful. Returns ''false'' if the specified node is the root node or an invalid node was passed.
+
+==Example==
+
+==See Also==
+{{XML functions}}
+[[/ru:xmlNodeGetParent.md|ru:xmlNodeGetParent]]

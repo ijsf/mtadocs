@@ -1,0 +1,28 @@
+
+{{Client_function}}
+{{New feature/item|3.0150|1.5||
+This event is executed after the web page has been loaded successfully.
+}}
+
+==Parameters== 
+<syntaxhighlight lang="lua">
+string url
+</syntaxhighlight>
+*'''url:''' the url of the web page loaded.
+
+==Source==
+The [[/Element/Browser.md|browser]] element.
+
+==Example== 
+<syntaxhighlight lang="lua">
+addEventHandler ( "onClientBrowserDocumentReady" , root , 
+	function ( url ) 
+		outputChatBox ( "The page '"  .. url ..  "' has been successfully loaded.") 
+	end 
+)
+</syntaxhighlight>
+
+[[/pl:onClientBrowserDocumentReady.md|pl:onClientBrowserDocumentReady]]
+
+==See Also==
+{{CEF_events}}

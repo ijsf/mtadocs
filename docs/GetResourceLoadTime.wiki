@@ -1,0 +1,40 @@
+
+{{Server function}}
+Gets the date and time at which a resource was last loaded in the server.
+
+==Syntax==
+{{New feature/item|3|1.0|840|
+<syntaxhighlight lang="lua">
+int getResourceLoadTime ( resource res )
+</syntaxhighlight>
+}}
+{{Deprecated_feature|3|1.0|
+<syntaxhighlight lang="lua">
+string getResourceLoadTime ( resource res )
+</syntaxhighlight>
+}}
+
+===Required Arguments===
+*'''res:''' the resource you want to know the load time of.
+
+===Returns===
+{{New feature|3|1.0 r840|
+If successful, returns the UNIX timestamp when the resource was loaded, otherwise false. Use in conjunction with [[/getRealTime.md|getRealTime]] in order to retrieve detailed information. 
+}}
+{{Deprecated_feature|3|1.0|
+If successful, returns a string with the date and time that the resource was last loaded into memory (for example when the server started, or when the resource was changed and reloaded). Returns ''false'' on failure.
+
+An example string is "Fri Mar 28 13:51:04 2008".
+}}
+
+==Example==
+This code outputs the date and time at which the scoreboard resource was last loaded.
+<syntaxhighlight lang="lua">
+local res = getResourceFromName ( "scoreboard" )
+if res then
+    outputConsole ( "scoreboard was last loaded on: " .. getResourceLoadTime(res) )
+end
+</syntaxhighlight>
+
+==See Also==
+{{Resource functions}}

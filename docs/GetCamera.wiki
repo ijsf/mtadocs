@@ -1,0 +1,26 @@
+{{Client function}}
+
+{{New items|3.0135|1.3.5|
+This function returns an [[/element.md|element]] that corresponds to the game camera 
+}}
+{{Note|Using attachElements with the camera and the main player can interfere with movement}}
+{{Note|Using setElementPosition/Rotation/Matrix on the camera element will automatically clear any target set with [[/setCameraTarget.md|setCameraTarget]]}}
+==Syntax==
+<syntaxhighlight lang="lua">
+element getCamera ()
+</syntaxhighlight> 
+
+===Returns===
+Returns an [[/element.md|element]] that corresponds to the game camera 
+
+==Example== 
+This example attaches (fixes) the camera to a vehicle.
+<syntaxhighlight lang="lua">
+local cam = getCamera()
+setElementPosition( cam, 0,0,0 )  -- Clear camera target
+local myVehicle = getPedOccupiedVehicle(localPlayer)
+attachElements( cam, myVehicle, 0,-4,2, -20,0,0 )
+</syntaxhighlight>
+
+==See Also==
+{{Client camera functions}}

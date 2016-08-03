@@ -1,0 +1,29 @@
+
+{{Server client function}}
+This function returns the current gravity level for the context in which it is called (server or client).
+
+==Syntax==
+<syntaxhighlight lang="lua">
+float getGravity()
+</syntaxhighlight>
+
+===Returns===
+Returns a float with the current server or client (depending on where you call the function) gravity level.
+
+==Example==
+<section name="Server" class="server" show="true">
+This serverside command outputs the serverside gravity level.
+<syntaxhighlight lang="lua">
+function getGravityLevel( playerSource )
+    local gravity = getGravity ( )
+    outputConsole ( "The gravity is currently set to " .. gravity, playerSource )
+end
+-- attach the 'getGravityLevel' function to the "gravity" command
+addCommandHandler ( "gravity", getGravityLevel )
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{World functions}}
+
+[[/ru:getGravity.md|ru:getGravity]]

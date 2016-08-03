@@ -1,0 +1,14 @@
+These are the projectile [[/id.md|id]]s you can use with [[/createProjectile.md|createProjectile]] and [[/getProjectileType.md|getProjectileType]].
+{{Projectiles}}
+
+==Client Functions==
+{{Client_projectile_functions}}
+
+==See also==
+[[/id.md|ID Lists]]
+
+[[/de:Projektile.md|de:Projektile]]
+[[/it:Esplosivi.md|it:Esplosivi]]
+[[/ru:Projectiles.md|ru:Projectiles]]
+
+[[/Category:ID Lists.md|Category:ID Lists]]

@@ -1,0 +1,40 @@
+ 
+{{Server function}} 
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This function returns all the currently loaded [[/modules.md|modules]] of the server.
+
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+table getLoadedModules ()
+</syntaxhighlight> 
+
+===Returns===
+<!-- Make this descriptive. Explain what cases will return false. If you're unsure, add a tag to it so we can check -->
+Returns a table of all the currently loaded [[/modules.md|modules]]. If no modules are loaded, the table will be empty.
+
+==Example== 
+<!-- Add the code below, an emphasis should be on making it clear, not optimized. You could provide two versions if you wish, one clear and well commented, the other optimized -->
+Adds a command that lists all loaded modules in the server log.
+<syntaxhighlight lang="lua">
+function checkModules()
+	local modules = getLoadedModules()
+	
+	if #modules == 0 then
+		return outputServerLog("No modules are loaded!")
+	end
+	
+	for k,v in ipairs(modules) do
+	        outputServerLog( v )
+	end
+		
+	outputServerLog("Loaded " .. #modules .. " modules in total.")
+end
+addCommandHandler("modules", checkModules)
+</syntaxhighlight>
+
+==See Also==
+<!-- Change FunctionArea to the area that this function is in on the main function list page, e.g. Server, Player, Vehicle etc -->
+{{Module_functions}}
+
+[[/ru:getLoadedModules.md|ru:getLoadedModules]]

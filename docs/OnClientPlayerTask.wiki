@@ -1,0 +1,25 @@
+[[/Category:Incomplete Event.md|Category:Incomplete Event]]
+{{Delete|Not implemented in MTA and does not deserve a page.}}
+
+ 
+This event is blahblah and is used for blahblah.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+void onClientPlayerTask ( string priority, int type, string name )
+</syntaxhighlight> 
+
+==Example== 
+This example does...
+<syntaxhighlight lang="lua">
+--This line does...
+blabhalbalhb --abababa
+--This line does this...
+mooo
+</syntaxhighlight>
+
+==See Also==
+===Client player events===
+{{Client_player_events}}
+===Client event functions===
+{{Client_event_functions}}

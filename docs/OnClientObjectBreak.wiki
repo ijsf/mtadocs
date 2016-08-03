@@ -1,0 +1,37 @@
+
+{{Client event}}
+This event is fired before an object breaks.
+{{Note|This event is only triggered for objects that are streamed in}}
+==Parameters==
+<syntaxhighlight lang="lua">
+element attacker
+</syntaxhighlight>
+*'''attacker:''' the vehicle/ped/player who is breaking the object
+
+==Source==
+The source of this event is the object which will break.
+
+==Cancel effect==
+If this event is [[/Event_system#Canceling.md|canceled]], the object will not break.
+
+==Example==
+<section class="client" name="Client" show="true">
+This example prevents objects from beeing broken in interiors.
+<syntaxhighlight lang="lua">
+addEventHandler("onClientObjectBreak", root,
+    function()
+        if getElementInterior(source) ~= 0 then
+            cancelEvent()
+        end
+    end
+)</syntaxhighlight>
+</section>
+
+==Requirements==
+{{Requirements|n/a|1.3-9.05086|}}
+
+==See Also==
+===Client object events===
+{{Client_object_events}}
+===Client event functions===
+{{Client_event_functions}}

@@ -1,0 +1,26 @@
+{{ml_irc}}
+
+{{ModuleFunction|SebasIRC}}
+
+This function sends a raw message to the IRC server, with which you can perform actions
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool ircRaw( string message )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''message :''' String containing a command to make the IRC server perform an action for you.
+
+===Returns===
+Returns ''true'' if the message was send successfully, ''false'' otherwise.
+
+==Example==
+<syntaxhighlight lang="lua">
+-- Example here
+</syntaxhighlight>
+
+[[/pl:Modules/SebasIRC/ircRaw.md|pl:Modules/SebasIRC/ircRaw]]
+
+==See also==
+{{Modules/SebasIRC/Functions}}

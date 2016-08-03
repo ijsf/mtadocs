@@ -1,0 +1,29 @@
+{{Client function}}
+
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This function allows you to set the color of a GUI label.
+
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+bool guiLabelSetColor ( element theElement, int red, int green, int blue )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+<!-- List each argument one per line. This should be the argument's name as in the argument list above, NOT the argument's data type -->
+*'''theElement:''' The label to be changed.
+*'''red:''' An integer specifying the amount of red (0 to 255).
+*'''green:''' An integer specifying the amount of green (0 to 255).
+*'''blue:''' An integer specifying the amount of blue (0 to 255).
+
+===Returns===
+<!-- Make this descriptive. Explain what cases will return false. If you're unsure, add a tag to it so we can check -->
+Returns ''true'' if the the color of the gui label was successfully changed, ''false'' otherwise.
+
+==Example== 
+This example creates a label with text "Hello World!" and sets it to a random color.
+<syntaxhighlight lang="lua">local myLabel = guiCreateLabel ( 0.45, 0.48, 0.2, 0.5, "Hello world", true )
+guiLabelSetColor ( myLabel, math.random(0, 255), math.random(0, 255), math.random(0, 255) )</syntaxhighlight>
+
+==See Also==
+{{GUI_functions}}

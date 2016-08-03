@@ -1,0 +1,44 @@
+This page outlines some of the places Grand Theft Auto San Andreas can be bought digitally and played with MTASA (sometimes with an automatic downgrade step).  Not all of these have been tested, but all should work correctly.  If not, please contact support.  
+
+All disc (DVD) versions of Windows GTASA are known to function fine.  If you are planning on buying a DVD of GTASA, you should try to obtain a "Standard" version rather than "Second Edition" or "Greatest Hits" editions, though all will work fine.
+
+{| class="wikitable" style="width: 900px; text-align: center; table-layout: fixed;"
+|-
+!Retailer
+!Notes
+!Verified to work with MTA: SA?
+|-
+|[http://store.steampowered.com/app/12120/ Steam]
+|Specialized Steam version of the game.  MTA installer will downgrade this for you. 
+|{{Yes}}
+|-
+| rowspan="2" |[http://www.amazon.com/Grand-Theft-Auto-Andreas-Download/dp/B006YVXGJQ Amazon]
+| For the '''Standard''' edition of the game, if MTA is incompatible, try obtaining a GTA SA 1.00 No CD - any HOODLUM release will function correctly.
+| {{Partial|Unconfirmed (Standard)}}
+|-
+| Steam version and disc copies of GTASA will function fine
+| {{Yes| Yes (Steam/Boxed DVD)}}
+|-
+|[http://www.gamersgate.co.uk/DD-GTASAS/grand-theft-auto-san-andreas GamersGate]
+|rowspan=6|This is the Steam version of the game, and will function similarly.
+|rowspan="6" {{Yes}}
+|-
+|[http://www.game.co.uk/en/grand-theft-auto-san-andreas-301403 Game UK]
+|-
+|[http://digital.gamefly.co.uk/#!/download-grand-theft-auto-san-andreas/5006365 GameFly Digital]
+|-
+|[http://www.greenmangaming.com/s/gb/en/pc/games/action/grand-theft-auto-san-andreas/ GreenManGaming]
+|-
+|[http://www.gamestop.com/pc/games/grand-theft-auto-san-andreas/37409 GameStop]
+|-
+|[http://www.walmart.com/ip/Take-Two-GTASAESD-Grand-Theft-Auto-San-Andreas-PC/36754297 Walmart]
+|-
+|-
+|Windows App Store
+|This is a mobile version of the game ported to PC. '''Will never work with MTA'''.
+|{{No}}
+|-
+
+[[/pl:Where to buy GTASA.md|pl:Where to buy GTASA]]
+[[/es:Dónde comprar GTA: SA.md|es:Dónde comprar GTA: SA]]
+[[/tr:GTA:SA Nerden Alınır.md|tr:GTA:SA Nerden Alınır]]

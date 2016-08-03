@@ -1,0 +1,26 @@
+
+{{Server client function}}
+{{Deprecated|getElementModel|}}
+
+This function returns the specified ped's skin.
+
+==Syntax==
+<syntaxhighlight lang="lua">int getPedSkin ( ped thePed )</syntaxhighlight> 
+
+===Required Arguments===
+*'''thePed''': The ped whose skin ID you want to retrieve.
+
+===Returns===
+Returns an [[/int.md|int]] indicating which skin the ped has. See [[/Character Skins.md|Character Skins]].
+
+==Example==
+This example adds a "skin" command in console, which tells the player his/her skin.
+<syntaxhighlight lang="lua">
+function checkSkin ( commandName )
+	outputChatBox ( "Your skin ID is: " .. getPedSkin ( getLocalPlayer() ) )
+end
+addCommandHandler ( "skin", checkSkin )
+</syntaxhighlight>
+
+==See Also==
+{{Client_ped_functions}}

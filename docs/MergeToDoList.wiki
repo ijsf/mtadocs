@@ -1,0 +1,25 @@
+==Merge/SVN things that need doing==
+All devs with commit access should add stuff to these lists so it doesn't get lost
+
+==Things that need merging from trunk to current release==
+====Important bug fixes for 1.5.1====
+* None
+
+==Things that need merging from trunk for next point release==
+====New features for next update====
+*[https://code.google.com/p/mtasa-blue/source/detail?r=6220 6220] * Renamed CFxManager.cpp to CFxManagerSA.cpp for consistency with existing code
+*[https://code.google.com/p/mtasa-blue/source/detail?r=6214 6214] * Update for r6208 Fixed a crash when an effect is destroyed while deathmatch is not loaded
+*[https://code.google.com/p/mtasa-blue/source/detail?r=6209 6209] * Update for r6208 Added missing code for 1.4's OOP
+*[https://code.google.com/p/mtasa-blue/source/detail?r=6208 6208] * Fixed #5902 (Not all FX are supported by MTA)
+*'''[https://code.google.com/p/mtasa-blue/source/detail?r=6137 6137] TODO * Fixed possible train hopping (added optional train track parameter to CPools::AddTrain)'''
+*'''[https://code.google.com/p/mtasa-blue/source/detail?r=6133 6133] TODO * Partially reverted r6081 (Temp fix for train position desync and missing collision.)'''
+*'''[https://code.google.com/p/mtasa-blue/source/detail?r=6132 6132] TODO * Update for r5934 - Fixed setElementPosition for trains'''
+*'''[https://code.google.com/p/mtasa-blue/source/detail?r=6081 6081] TODO * Temp fix for train position desync and missing collision.
+*'''[https://code.google.com/p/mtasa-blue/source/detail?r=6061 6061] TODO * Update for r5934 - Some fixes'''
+*'''[https://code.google.com/p/mtasa-blue/source/detail?r=6032 6032] TODO * Update for r5934 - See below. Fixed some streaming issues if train chain is...'''
+*'''[https://code.google.com/p/mtasa-blue/source/detail?r=5969 5969] TODO * Update for r5934 - Fixed some streaming issues (It's nearly finished)'''
+*'''[https://code.google.com/p/mtasa-blue/source/detail?r=5967 5967] TODO * Update for r5934 - Fixed a desync (train will be teleported when driving from...'''
+*'''[https://code.google.com/p/mtasa-blue/source/detail?r=5935 5935] TODO * Update for r5934 - Some/more fixes'''
+*'''[https://code.google.com/p/mtasa-blue/source/detail?r=5934 5934] TODO * Fixed train carriages and re-enabled the Brownstreak Carriage (ID: 570)'''
+*'''[https://code.google.com/p/mtasa-blue/source/detail?r=5318 5318] TODO * Fixed train spawning
+*'''[https://code.google.com/p/mtasa-blue/source/detail?r=5289 5289] TODO * Added train rail position, rail speed, rail track and direction to sync should make trains smoother

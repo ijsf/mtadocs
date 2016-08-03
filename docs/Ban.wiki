@@ -1,0 +1,23 @@
+A [[/ban.md|ban]] is a pointer that represents a banned player arbitrarily.  The following functions allow interaction with a [[/ban.md|ban]]:
+*[[/addBan.md|addBan]]
+*[[/banPlayer.md|banPlayer]]
+*[[/getBans.md|getBans]]
+*[[/getBanAdmin.md|getBanAdmin]]
+*[[/getBanIP.md|getBanIP]]
+*[[/getBanReason.md|getBanReason]]
+*[[/getBanSerial.md|getBanSerial]]
+*[[/getBanTime.md|getBanTime]]
+*[[/getBanUsername.md|getBanUsername]]
+*[[/removeBan.md|removeBan]]
+{{New items|1.0134|1.4|
+*[[/isBan.md|isBan]]
+*[[/setBanAdmin.md|setBanAdmin]]
+*[[/setBanReason.md|setBanReason]]
+*[[/setUnbanTime.md|setUnbanTime]]
+}}
+
+[[/Category:Scripting Concepts.md|Category:Scripting Concepts]]
+
+[[/ar:الباند.md|ar:الباند]]
+[[/de:Bann.md|de:Bann]]
+[[/ru:Ban.md|ru:Ban]]

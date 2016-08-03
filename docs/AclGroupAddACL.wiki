@@ -1,0 +1,38 @@
+ 
+{{Server function}} 
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This function adds the given ACL to the given ACL group. This makes the resources and players in the given ACL group have access to what's specified in the given ACL. The rights for something in the different ACL's in a group are OR-ed together, which means if one ACL gives access to something, this ACL group will have access to that.
+
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+bool aclGroupAddACL ( aclgroup theGroup, acl theACL )
+</syntaxhighlight> 
+{{OOP||[[/aclgroup.md|aclgroup]]:addACL||}}
+===Required Arguments=== 
+<!-- List each argument one per line. This should be the argument's name as in the argument list above, NOT the argument's data type -->
+*'''theGroup:''' The group to add the ACL to
+*'''theACL:''' The ACL to add to the group
+
+===Returns===
+<!-- Make this descriptive. Explain what cases will return false. If you're unsure, add a tag to it so we can check -->
+Returns ''true'' if the ACL could be successfully added to the ACL group, ''false''/''nil'' if either of the elements are invalid, the ACL is already in that group or if something else goes wrong.
+
+==Example==
+This example adds a command ''addAclGroup'' with which you can easily add new access control lists to specified acl Groups.
+<syntaxhighlight lang="lua">
+function addAclGroup ( thePlayer, commandName, aclName )
+if(aclName) then
+    acl = aclCreate ( aclName )
+else
+    acl = aclCreate("myName")
+end
+aclGroup = aclGetGroup("Admin")
+aclGroupAddACL(aclGroup,acl) -- now all Admins have the rights of acl, too
+aclSave () 
+addCommandHandler ( "addAclGroup", addAclGroup)
+</syntaxhighlight>
+
+==See Also==
+<!-- Change FunctionArea to the area that this function is in on the main function list page, e.g. Server, Player, Vehicle etc -->
+{{ACL_functions}}

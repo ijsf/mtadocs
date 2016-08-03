@@ -1,0 +1,31 @@
+These pages contain clothing images and details for all of CJ's apparel.
+
+*[[/CJ_Clothes/Shirt_(0).md|Type 0 - Shirt]]
+*[[/CJ_Clothes/Head_(1).md|Type 1 - Head]]
+*[[/CJ_Clothes/Trousers_(2).md|Type 2 - Trousers]]
+*[[/CJ_Clothes/Shoes_(3).md|Type 3 - Shoes]]
+*[[/CJ_Clothes/Tattoos:_Left_Upper_Arm_(4).md|Type 4 - Tattoos: Left Upper Arm]]
+*[[/CJ_Clothes/Tattoos:_Left_Lower_Arm_(5).md|Type 5 - Tattoos: Left Lower Arm]]
+*[[/CJ_Clothes/Tattoos:_Right_Upper_Arm_(6).md|Type 6 - Tattoos: Right Upper Arm]]
+*[[/CJ_Clothes/Tattoos:_Right_Lower_Arm_(7).md|Type 7 - Tattoos: Right Lower Arm]]
+*[[/CJ_Clothes/Tattoos:_Back_(8).md|Type 8 - Tattoos: Back]]
+*[[/CJ_Clothes/Tattoos:_Left_Chest_(9).md|Type 9 - Tattoos: Left Chest]]
+*[[/CJ_Clothes/Tattoos:_Right_Chest_(10).md|Type 10 - Tattoos: Right Chest]]
+*[[/CJ_Clothes/Tattoos:_Stomach_(11).md|Type 11 - Tattoos: Stomach]]
+*[[/CJ_Clothes/Tattoos:_Lower_Back_(12).md|Type 12 - Tattoos: Lower Back]]
+*[[/CJ_Clothes/Necklace_(13).md|Type 13 - Necklace]]
+*[[/CJ_Clothes/Watches_(14).md|Type 14 - Watches]]
+*[[/CJ_Clothes/Glasses_(15).md|Type 15 - Glasses]]
+*[[/CJ_Clothes/Hats_(16).md|Type 16 - Hats]]
+*[[/CJ_Clothes/Extra_(17).md|Type 17 - Extra]]
+
+==Functions used for this==
+{{Client_Clothes and body functions}}
+
+[[/pl:CJ Clothes.md|pl:CJ Clothes]]
+[[/it:Vestiti di CJ.md|it:Vestiti di CJ]]
+[[/pt-br:Roupas do CJ.md|pt-br:Roupas do CJ]]
+[[/ru:CJ Clothes.md|ru:CJ Clothes]]
+[[/de:CJ Kleider.md|de:CJ Kleider]]
+[[/Category:Scripting Concepts.md|Category:Scripting Concepts]]
+[[/Category:ID Lists.md|Category:ID Lists]]

@@ -1,0 +1,27 @@
+
+{{Client event}}
+This event is triggered when a sound has just finished downloading. This means the complete sound file is now loaded in the player's RAM, and can be played completely from start to end. Unlike [[/onClientSoundStream.md|onClientSoundStream]], this event only triggers for file streams, not for live ones since live streams never actually end.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+int length
+</syntaxhighlight> 
+
+*'''length''': The length of the stream in milliseconds
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/sound.md|sound]] which just finished downloading.
+
+==Example== 
+This example would output to the chatbox after the sound is finish that the sound has finished downloading in ... milliseconds.
+<syntaxhighlight lang="lua">addEventHandler("onClientSoundFinishedDownload",root,function(length)
+	local meta = getSoundMetaTags(source)
+	outputChatBox("The sound: "..(meta.title).." has finished in :"..length.."ms.")
+end)
+</syntaxhighlight>
+
+==See Also==
+===Client player events===
+{{Sound_events}}
+===Client event functions===
+{{Client_event_functions}}

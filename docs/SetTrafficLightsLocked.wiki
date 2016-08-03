@@ -1,0 +1,32 @@
+
+{{Server client function}}
+Toggles whether you want the traffic lights to be locked. If the lights are locked, it means they won't change unless you do [[/setTrafficLightState.md|setTrafficLightState]].
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool setTrafficLightsLocked ( bool toggle )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''toggle''': A [[/bool.md|bool]] indicating whether you want the traffic lights to change automatically, or not
+
+===Returns===
+Returns ''true'' if the successful, ''false'' otherwise.
+
+==Example==
+This example toggles traffic lights between 'locked' and 'unlocked'.
+
+<syntaxhighlight lang="lua">
+function toggleTrafficLights()
+    if areTrafficLightsLocked() then -- See if traffic lights are currently locked
+	setTrafficLightsLocked(false) -- unlock traffic lights if they are currently locked
+    else
+	setTrafficLightsLocked(true) -- lock traffic lights if they are not locked
+    end
+end
+-- add command handler for command which toggles lights
+addCommandHandler("toggletrafficlights",toggleTrafficLights)
+</syntaxhighlight>
+
+==See Also==
+{{World_functions}}

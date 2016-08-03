@@ -1,0 +1,35 @@
+<pageclass class="server"></pageclass>
+{{MTA_Framework/Work_In_Progress}}
+The language system is a small system. But really it helps you a lot!
+
+For example. Someone just found a pot of gold, you can simple do ([[/MTA_Framework/Chatbox.md|Chatbox functions]]):
+
+<syntaxhighlight lang="lua">
+local Event = eventLoader:loadServerEvents();
+
+Event.onPickupHit(function(player)
+    local ch = ChatBox:init(player);
+    ch:say("L_PLAYER_HIT_GOLD", getPlayerName(player));
+end);
+</syntaxhighlight>
+
+That is so easy to use language variables. In normal mta you will do this:
+
+<syntaxhighlight lang="lua">
+function pickupHit(player)
+    outputChatBox("You just hit a pot of gold. Congratulations " .. getPlayerName(player) .. ".", player);
+end
+
+addEventHandler("onPickupHit", getRootElement(), pickupHit);
+</syntaxhighlight>
+
+So the language system is bigger then only outputing a variable into the chatbox. You need to create the language files and variables. 
+
+==Language loader==
+{{MTA_Framework/Template/Language_Lua_Loader}}
+
+==Language parser==
+{{MTA_Framework/Template/Language_Parser}}
+
+==Create an language==
+{{MTA_Framework/Template/Language_Create_Language}}

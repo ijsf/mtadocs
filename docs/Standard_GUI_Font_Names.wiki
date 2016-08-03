@@ -1,0 +1,14 @@
+These are the standard CEGUI fonts that are used in Multi Theft Auto and can be accessed with the GUI scripting functions [[/guiGetFont.md|guiGetFont]] and [[/guiSetFont.md|guiSetFont]].
+
+
+<gallery heights="48" widths="236" perrow="3" caption="Available font properties and previews">
+Image:mta-font_default-normal.gif|<div style="font-weight: bold">default-normal</div>Tahoma regular, 9px
+Image:mta-font_default-small.gif|<div style="font-weight: bold">default-small</div>Tahoma regular, 7px
+Image:mta-font_default-bold-small.gif|<div style="font-weight: bold">default-bold-small</div>Tahoma bold, 8px
+Image:mta-font_clear-normal.gif|<div style="font-weight: bold">clear-normal</div>Verdana regular, 9px
+Image:mta-font_sa-header.gif|<div style="font-weight: bold">sa-header</div>Diploma regular, 26px auto-scaled
+Image:mta-font_sa-gothic.gif|<div style="font-weight: bold">sa-gothic</div>Beckett regular, 47px auto-scaled
+</gallery>
+[[/Category:Scripting Concepts.md|Category:Scripting Concepts]]
+
+[[/ru:GUI Fonts.md|ru:GUI Fonts]]

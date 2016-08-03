@@ -1,0 +1,38 @@
+
+{{Server client function}}
+{{Deprecated|xmlCreateChild|}}
+
+This function creates a subnode for a specified XML node.
+
+==Syntax==
+<syntaxhighlight lang="lua">xmlnode xmlCreateSubNode ( xmlnode parentNode, string tagname )</syntaxhighlight>
+
+===Required Arguments=== 
+*'''parentNode:''' the [[/xmlnode.md|xmlnode]] you want to create a subnode of.
+*'''tagname:''' the type of the subnode that will be created.
+
+===Returns===
+Returns the created [[/xmlnode.md|xmlnode]] if successful, ''false'' otherwise.
+
+==Example==
+<section name="Server" class="server" show="true">
+We need to create a new node between the tags <config> and </ config>.
+config.xml:
+<syntaxhighlight lang="xml">
+<config>
+    <newnode>somevalue</newnode>
+</config>
+</syntaxhighlight>
+Lua code:
+<syntaxhighlight lang="lua">
+function()
+    config = xmlLoadFile("config.xml")
+    local newNode = xmlCreateSubNode ( config, "newnode" )
+    xmlNodeSetValue ( newNode, "somevalue" )
+    xmlSaveFile( config )
+end
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{XML functions}}

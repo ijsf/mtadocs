@@ -1,0 +1,34 @@
+{{Client event}}
+
+This event is triggered when an physical [[/element.md|element]] hits a [[/colshape.md|colshape]].
+
+'''NOTE''': The hit won't be detected if the [[/element.md|element]] that entered the colshape is a colshape or projectile.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+element theElement, bool matchingDimension
+</syntaxhighlight>
+*'''theElement:''' the element that entered the colshape.
+*'''matchingDimension:''' ''true'' if theElement is in the same dimension as the colshape, ''false'' otherwise.
+
+==Source==
+The source of this event is the colshape that was hit.
+
+==Example== 
+This example outputs "In." to the chatbox whenever a local user enters a collision shape.
+<syntaxhighlight lang="lua">
+function onClientColShapeHit( theElement, matchingDimension )
+    if ( theElement == getLocalPlayer() ) then  -- Checks whether the entering element is the local player
+        outputChatBox( "In." )  --Outputs.
+    end
+end
+addEventHandler("onClientColShapeHit",getRootElement(),onClientColShapeHit)
+</syntaxhighlight>
+
+[[/pl:onClientColShapeHit.md|pl:onClientColShapeHit]]
+
+==See Also==
+===Client colshape events===
+{{Client_colshape_events}}
+===Client event functions===
+{{Client_event_functions}}

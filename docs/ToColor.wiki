@@ -1,0 +1,55 @@
+ 
+{{Client function}} 
+This function retrieves the hex number of a specified color, useful for the dx functions.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+int tocolor ( int red, int green, int blue [, int alpha = 255] )
+</syntaxhighlight>
+
+===Required Arguments=== 
+* '''red:''' The amount of [http://en.wikipedia.org/wiki/RGBA_color_space red] in the color (0-255).
+* '''green:''' The amount of [http://en.wikipedia.org/wiki/RGBA_color_space green] in the color (0-255).
+* '''blue:''' The amount of [http://en.wikipedia.org/wiki/RGBA_color_space blue] in the color (0-255).
+
+===Optional Arguments===
+* '''alpha:''' The amount of [http://en.wikipedia.org/wiki/RGBA_color_space alpha] in the color (0-255).
+
+===Returns===
+Returns a single value representing the color.
+
+==Example== 
+This example displays the text "Tuna" in small at the top left side of your screen. The color of this text can be changed using the command /tunaColor.
+<syntaxhighlight lang="lua">
+local tunaColor = tocolor(255, 0, 0, 255) -- Default color
+
+-- This function draws the text
+local function drawTuna()
+	dxDrawText("Tuna", 5, 5, 100, 100, tunaColor)
+end
+addEventHandler("onClientRender", root, drawTuna)
+
+--This function handles the /tunaColor command, allowing players to set the color of tuna
+local function tunaColorCommand(command, red, green, blue, alpha)
+	red, green, blue, alpha = tonumber(red), tonumber(green), tonumber(blue), tonumber(alpha) -- Convert all the args to numbers. NOTE: tonumber will return false if the arg is not provided/is not valid.
+	
+	-- Remind the user of the proper syntax if they failed to provide all the args
+	if not red or not green or not blue then
+		outputChatBox("* USAGE: /tunaColor [red] [green] [blue] [alpha]", 255, 0, 0)
+		return
+	end
+	
+	-- Make the alpha arg optional
+	if not alpha then
+		alpha = 255
+	end
+	
+	-- Update the color
+	tunaColor = tocolor(red, green, blue, alpha)
+end
+addCommandHandler("tunaColor", tunaColorCommand)
+-- Example /setcoloroftuna 255 0 0 255 - for red.
+</syntaxhighlight>
+
+==See Also==
+{{Client_utility_functions}}

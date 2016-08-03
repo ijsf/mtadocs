@@ -1,0 +1,26 @@
+
+{{Client function}}
+{{Needs Example}}
+{{New feature/item|3.0150|1.5||
+This function gets a given property of a specified browser.
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool getBrowserProperty ( browser theBrowser, string key )
+</syntaxhighlight>
+{{OOP||[[/Element/Browser.md|browser]]:getProperty||setBrowserProperty}}
+
+===Required arguments===
+*'''theBrowser:''' browser element to get the property value of
+*'''key:''' The browser property key. It can be:
+**'''mobile:''' Surfing the web as mobile
+
+===Returns===
+Returns the value if the property was successfully found, ''false'' otherwise.
+
+==Example==
+Todo
+
+==See also==
+{{CEF_functions}}

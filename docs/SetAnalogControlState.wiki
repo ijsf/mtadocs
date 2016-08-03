@@ -1,0 +1,47 @@
+
+{{Client function}}
+This sets the analog control state of a control for the local player.
+
+To change the analog controls for a ped, please use [[/setPedAnalogControlState.md|setPedAnalogControlState]].
+
+==Syntax==
+<syntaxhighlight lang="lua"> ) </syntaxhighlight>
+===Required Arguement===
+* '''controlName''': the control name you wish to set the analog state of. Here's a list:
+**'''left'''
+**'''right'''
+**'''forwards'''
+**'''backwards'''
+**'''vehicle_left'''
+**'''vehicle_right'''
+**'''steer_forward'''
+**'''steer_back'''
+**'''accelerate'''
+**'''brake_reverse'''
+**'''special_control_left'''
+**'''special_control_right'''
+**'''special_control_up'''
+**'''special_control_down'''
+
+===Optional Arguments===
+*'''state:''' A float between 0 and 1 indicating the amount the control is pressed. If no value is provided, the analog control is removed.
+
+===Returns===
+Returns true, else false if invalid argument.
+
+==Example==
+/analog command starts to go forward control state if you are not, if you are going forward by control state then you will stop.
+<syntaxhighlight lang="lua">
+function analog()
+if (getAnalogControlState("forwards") == 0) then
+setAnalogControlState ("forwards",1)
+else
+setAnalogControlState ("forwards",0)
+end
+end
+addCommandHandler("analog",analog)
+</syntaxhighlight>
+This example written by '''Samurai'''
+
+==See Also==
+{{Client input functions}}

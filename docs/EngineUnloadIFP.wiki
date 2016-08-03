@@ -1,0 +1,53 @@
+{{Client function}}
+{{Disabled|Function disabled because it was unstable|4571}} 
+
+This function unloads an animation library loaded by [[/engineLoadIFP.md|engineLoadIFP]].
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool engineLoadIFP ( element ifp ) 
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''ifp:''' The IFP [[/element.md|element]] loaded by [[/engineLoadIFP.md|engineLoadIFP]] to unload.
+
+===Returns===
+Returns ''true'' if the IFP file has been unloaded succesfully, ''false'' otherwise.
+
+==Example== 
+<section name="animation.lua" class="client" show="true">
+<syntaxhighlight lang="lua">
+local localPlayer = getLocalPlayer()
+local ifp = nil
+
+function setanimation()
+  ifp = engineLoadIFP("data/ani.ifp")
+  if ifp then
+    setPedAnimation(localPlayer, "ANIMATIONBLOCK", "animation1")
+  end
+end
+
+addCommandHandler("animation", setanimation)
+
+function stopanimation()
+  if ifp then
+    engineUnloadIFP(ifp)
+    setPedAnimation(localPlayer)
+  end
+end
+
+addCommandHandler("stopanimation", stopanimation)
+</syntaxhighlight>
+</section>
+<section name="meta.xml" class="server" show="true">
+<code>
+<meta>
+  <info author="lukry" version="1.0" type="script" />
+  <script src="animation.lua" type="client" />
+  <file src="data/ani.ifp" />
+</meta>
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Engine_functions}}

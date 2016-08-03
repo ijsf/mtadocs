@@ -1,0 +1,15 @@
+Every openable garage in San Andreas can be opened or closed through the [[/setGarageOpen.md|setGarageOpen]] function.
+
+The garage IDs and their descriptions are listed below:
+{{Garages}}
+
+==Garage Functions==
+{{Template:Garage_functions}}
+
+==See Also==
+[[/id.md|ID Lists]]
+
+[[/Category:ID Lists.md|Category:ID Lists]]
+[[/ru:Garage.md|ru:Garage]]
+[[/de:Garage.md|de:Garage]]
+[[/pl:Garage.md|pl:Garage]]

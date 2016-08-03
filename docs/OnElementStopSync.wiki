@@ -1,0 +1,37 @@
+
+{{Server event}}
+{{Warning|In 1.1.x, Destroying the source of this event could crash the server!|true}}
+
+This event is triggered when an element is no longer synced by a player.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+player oldSyncer
+</syntaxhighlight> 
+
+*'''oldSyncer''': [[/player.md|player]] element representing the last player who was syncing the element
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/element.md|element]] which is no longer synced by a player.
+
+==Example==
+This script creates a vehicle in the center of the map and outputs a message to its old syncer if he is not syncing the vehicle anymore.
+<syntaxhighlight lang="lua">
+--create our testing vehicle onResourceStart
+addEventHandler ( "onResourceStart", getResourceRootElement( ),
+function ( )
+    vehicle = createVehicle ( 520, 0, 0, 0 )
+end )
+
+function syncStop ( oldSyncer )
+    -- check if the element that stopped being synced was our vehicle
+    if source == vehicle then
+        --tell the player (oldSyncer) he stopped syncing the vehicle
+        outputChatBox ( "The vehicle is not being synced by you anymore", oldSyncer )
+    end
+end
+--add the event handler
+addEventHandler( "onElementStopSync", getRootElement(), syncStop ) 
+</syntaxhighlight>
+
+{{See also/Server event|Element events}}

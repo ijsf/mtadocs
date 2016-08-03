@@ -1,0 +1,32 @@
+
+{{Server function}}
+This function allows retrieval of the position of a text item.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+float float textItemGetPosition ( textitem theTextItem )              
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''theTextItem:''' The textitem you wish to retrieve the position of
+
+===Returns===
+Returns two floats of the ''x'' and ''y'' position on the screen, where the maximum value is 1.0.
+
+==Example== 
+This example creates a text item 'myTextItem' only if the text item 'otherTextItem' is not in the same position, to prevent overlap.  If it is in the same position, then it moves it down.
+<syntaxhighlight lang="lua">
+function MyTestTextFunction ()
+myDisplay = textCreateDisplay ( )                   -- create a text display
+textDisplayAddObserver ( myDisplay, myPlayer )      -- make it visible to the player
+x,y = textItemGetPosition ( otherTextItem )         -- get the position of 'otherTextItem'
+if ( x == 0.5 ) and ( y == 0.5 ) then               -- if the x and y of the text item are in the middle
+    textItemSetPosition ( otherTextItem, 0.5, 0.6 ) -- move otherTextItem down
+end 
+myTextItem = textCreateTextItem ( "Hello world!", 0.5, 0.5 ) -- create a new textitem in the middle saying "Hello world"
+textDisplayAddText ( myDisplay, myTextItem )                 -- and add it to the text display
+end
+</syntaxhighlight>
+
+==See Also==
+{{Text functions}}

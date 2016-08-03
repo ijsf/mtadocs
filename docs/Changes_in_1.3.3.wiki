@@ -1,0 +1,91 @@
+{{Changelogs}}
+{{Note|TODO, still not done --[[/User:X86dev.md|X86dev]] 08:11, 3 July 2013 (UTC)}}
+== Main Additions / Changes ==
+* Anti-cheat updates
+* Optimized streamer to work better with complex maps 
+* Smoothed fonts when scaling chat box 
+* Added option to scale HUD elements correctly for widescreen
+* Added option to disable OS and graphic driver 'tweaks', as they can interfere with MTA
+* Better compatibility with NVidia Optimus laptops
+* Improved server performance
+* Updated our Audio Library to the latest version to improve some of our sound functions specifically beat detection and prevent crashes caused by calling getSoundMetaTags
+
+=== Client ===
+
+----
+
+==== New Functions ====
+* [[/setVehiclePlateText.md|setVehiclePlateText]]
+* [[/dxSetAspectRatioAdjustmentEnabled.md|dxSetAspectRatioAdjustmentEnabled]]
+
+==== New Events ====
+* [[/onClientSoundStarted.md|onClientSoundStarted]]
+* [[/onClientSoundStopped.md|onClientSoundStopped]]
+
+==== Changes / Bug Fixes ====
+* Optimized streamer to work better with complex maps 
+* Smoothed fonts when scaling chat box 
+* Added option to scale HUD elements correctly for widescreen
+** This might cause your UI elements to scale incorrectly if they are based on the SA HUD positions this can be fixed with [[/dxSetAspectRatioAdjustmentEnabled.md|dxSetAspectRatioAdjustmentEnabled]]
+* Added option to disable OS and graphic driver 'tweaks', as they can interfere with MTA
+* Better compatibility with NVidia Optimus laptops
+* Fixed GUI window remaining when you disconnect while starting local server
+* Fixed GUI labels sometimes blocking input
+* Fixed a crash on disconnect
+* Fixed [[/setVehicleLandingGearDown.md|setVehicleLandingGearDown]] not working sometimes
+* Added reassuring animation during periods of no input response
+* Fixed stability errors (random texture swapping/assertions) after alt+tab
+* Fixed some texture replace errors
+
+=== Server ===
+
+----
+
+==== New Functions ====
+* [[/setVehiclePlateText.md|setVehiclePlateText]]
+* [[/getPlayerACInfo.md|getPlayerACInfo]]
+
+==== New Events ====
+* ''None yet''
+
+==== Changes / Bug Fixes ====
+* Fixed incorrect server side vehicle engine state when driver warped in
+* Fixed [[/onPlayerQuit.md|onPlayerQuit]] event not being triggered on shutdown 
+* Fixed serverside [[/toggleAllControls.md|toggleAllControls]]()
+<!-- source: https://code.google.com/p/mtasa-blue/source/detail?r=5516 -->
+* Improved server performance
+** by caching player weapon range
+** by reducing the amount of redundant data sent to the network thread
+* Added CSimPedTaskPacket for better hit anim sync
+* Fixed an issue with weapon ammo getting out of sync
+* Sped up server scripts by optimizing ACL checks
+* Fixed some desyncs in unoccupied vehicle sync (engine, derailed, in-water state)
+* Fixed Get/SetMatrix rotation order for streamed out objects
+* Fixed Linux compile issues
+<!-- source: http://bugs.multitheftauto.com/changelog_page.php -->
+* Fixed crash in ReApplyMoveAnims
+* Fixed [[/setElementPosition.md|setElementPosition]] for players vehicle causing freeze for few seconds
+* Fixed [[/getPedTotalAmmo.md|getPedTotalAmmo]] sometimes returning 0 while player is aiming on Slot 8
+* Fixed [[/onPlayerDamage.md|onPlayerDamage]] having wrong parameters if source on vehicle
+* Fixed [[/getVehicleSirens.md|getVehicleSirens]] on a sandking (495) crashing the server immediately
+* Fixed [[/onPlayerQuit.md|onPlayerQuit]] not calling on shutdown
+* Fixed [[/setJetpackWeaponEnabled.md|setJetpackWeaponEnabled]]() not working disabling jetpack weapons
+* Sped up server scripts slightly
+* Miscellaneous server optimizations
+
+=== Resources ===
+* ['''voice'''] Fixed voice icon not disappearing for other players after the speaking have been stopped (ccw)
+* ['''acpanel'''] Added acpanel
+* ['''admin'''] Fixed 'Set Team' button
+
+=== Editor ===
+* ''None yet''
+
+==Extra information==
+''More detailed information available on [http://bugs.multitheftauto.com/changelog_page.php Bug tracker Changelog] and Google Code repositories:
+:* MTA:SA: from  [http://code.google.com/p/mtasa-blue/source/list?num=25&start=5359 r5357] and [http://code.google.com/p/mtasa-blue/source/list above]
+:* Resources: from [http://code.google.com/p/mtasa-resources/source/list?num=25&start=930 r930] and [http://code.google.com/p/mtasa-resources/source/list above]
+
+
+[[/Category:Changes in 1.3.md|Category:Changes in 1.3]]
+[[/Category:Incomplete.md|Category:Incomplete]]

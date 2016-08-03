@@ -1,0 +1,34 @@
+ 
+{{Server client function}}
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This will allow you to retrieve the name tag a player is currently using.
+
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+string getPlayerNametagText ( player thePlayer )
+</syntaxhighlight> 
+{{OOP||[[/player.md|player]]:getNametagText|nametagText|setPlayerNametagText}}
+===Required Arguments=== 
+<!-- List each argument one per line. This should be the argument's name as in the argument list above, NOT the argument's data type -->
+*'''thePlayer:''' The person whose name tag you want to retrieve
+
+===Returns===
+<!-- Make this descriptive. Explain what cases will return false. If you're unsure, add a tag to it so we can check -->
+Returns a ''string'' with the nametag text, ''false'' if the player is invalid.
+
+==Example== 
+<!-- Explain what the example is in a single sentance -->
+<!-- Add the code below, an emphasis should be on making it clear, not optimized. You could provide two versions if you wish, one clear and well commented, the other optimized -->
+This will output the nametag text of the player who enters the command 'myNametag'.
+<syntaxhighlight lang="lua">
+function showNametag ( thePlayer, command )
+	local nameTag = getPlayerNametagText ( thePlayer )
+	outputChatBox ( "Your nametag text is: " .. nameTag, thePlayer )
+end
+addCommandHandler("myNametag", showNametag)
+</syntaxhighlight>
+
+==See Also==
+<!-- Change FunctionArea to the area that this function is in on the main function list page, e.g. Server, Player, Vehicle etc -->
+{{Player_functions}}

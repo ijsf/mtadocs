@@ -1,0 +1,39 @@
+
+{{Server event}}
+This event is triggered when a player issues a command.
+{{Note|This event triggers regardless of whether the command exists or not. Also, typing anything in chat will execute command "say", so this event will be triggered on every chat message as well.}}
+
+==Parameters==
+<syntaxhighlight lang="lua">
+string command
+</syntaxhighlight>
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/player.md|player]] who tried to execute a command
+
+==Cancel effect==
+The command will not be executed
+
+==Example== 
+This example prevents players executing more than 5 commands a second, recommended for all servers
+<syntaxhighlight lang="lua">
+local commandSpam = {}
+
+function preventCommandSpam()
+	if (not commandSpam[source]) then
+		commandSpam[source] = 1
+		-- New person so add to table
+	elseif (commandSpam[source] == 5) then
+		cancelEvent()
+		outputChatBox("Please refrain from command spamming!", source, 255, 0, 0)
+		-- This person is command spamming!
+	else
+		commandSpam[source] = commandSpam[source] + 1
+		-- Add one to the table
+	end
+end
+addEventHandler("onPlayerCommand", root, preventCommandSpam)
+setTimer(function() commandSpam = {} end, 1000, 0) -- Clear the table every second
+</syntaxhighlight>
+
+{{See also/Server event|Player events}}

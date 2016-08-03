@@ -1,0 +1,934 @@
+{{Resource page}}
+
+The "irc" resource provides an echobot that outputs information such as chatmessages on a irc channel.
+Information about "irc" or "Internet Relay Chat" can be found on [http://en.wikipedia.org/wiki/Irc Wikipedia.]
+
+==Installation==
+To get this resource working on your Linux or Windows server, follow these steps:
+
+* '''Install the sockets module'''
+** '''Download the module''': You can download the module on the [http://code.google.com/p/multitheftauto-modules/downloads/list mta-modules project]. Download the ml_sockets.dll file for Windows and the ml_sockets.so file for Linux
+** '''Put the module in the MTA folder''': In order for MTA to load the module it must be placed in the mods/deathmatch/modules folder, if this folder does not exist yet, make it.
+** '''Add the module to the mtaserver.conf file''': To load the module when the MTA server starts, put this line <module src="ml_sockets.dll"/> in your config file for Windows and <module src="ml_sockets.so"/> in the config file for Linux.
+* '''Install the IRC resource'''
+** '''Download the resource''': The IRC resource can be found on the [http://community.mtasa.com/index.php?p=resources&s=details&id=731 community], put it in the resources folder.
+** '''Mod the settings.xml file''': Open this file and follow the instructions inside to configure the IRC bot.
+** '''Mod the meta.xml file''': In this file a few settings can be found regarding ads and ingame gui's, '''do not mod anything else!''' You can also change these settings in the admin panel once the resource has been loaded.
+** '''Acl rights''' The resource needs a couple of acl rights in order to work properly, including addBan, kickPlayer & callRemote. Any missing rights will prevent the resource from loading and will output a message in the console.
+
+Now you can run the resource, if the server was running during this installation proces you will have to do /loadmodule ml_sockets.dll or /loadmodule ml_sockets.so and /refreshall before doing /start irc
+
+==The acl.xml file==
+The acl.xml file inside the irc resource takes care of the acl rights for irc commands.
+
+Syntax
+<syntaxhighlight lang="xml">
+<command name="!kick" level="2" echoChannelOnly="true" />
+</syntaxhighlight>
+
+* The name is the command including the exclamation mark
+* The level is the minimum level the irc user needs to have in order to use this command
+* The echoChannelOnly is wether the command can be used outside the echo channel
+
+==Elements==
+All users, channels & servers known by the irc resource are represented by elements.
+* Servers are the following elements type: 'irc-server'
+* Channels are the following elements type: 'irc-channel'
+* Users are the following elements type: 'irc-user'
+
+==Level system==
+The irc resource doesn't use the irc modes system for its acl, instead the modes were replaced with numbers.
+* Owner (~) is now level 5
+* Super Operator (&) is now level 4
+* Operator (@) is now level 3
+* Helper (%) is now level 2
+* Voice (+) is now level 1
+All other users without a special mode are level 0
+
+==Events==
+During the irc proces some events are triggered to help you write extensions for the irc resource.
+You may want to use addEvent("eventName") to use them.
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''Name'''
+|width="200pt"|'''Source'''
+|'''Parameters'''	
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCConnecting'''
+|width="200pt"|server theIRCServer	
+|<code></syntaxhighlight>
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCConnect'''
+|width="200pt"|server theIRCServer	
+|<code></syntaxhighlight>
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCFailConnect'''
+|width="200pt"|server theIRCServer	
+|<syntaxhighlight lang="lua">string reason</syntaxhighlight>
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCUserJoin'''
+|width="200pt"|user theIRCUser	
+|<syntaxhighlight lang="lua">channel theIRCChannel, string vhost</syntaxhighlight>
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCUserNickChange'''
+|width="200pt"|user theIRCUser	
+|<syntaxhighlight lang="lua">string oldNick, string newNick</syntaxhighlight>
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCUserPart'''
+|width="200pt"|user theIRCUser	
+|<syntaxhighlight lang="lua">channel theIRCChannel, string theReason</syntaxhighlight>
+|}
+'''NOTE:''' 'theReason' can be nil if 'theUser' has quit without a reason.
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCUserKick'''
+|width="200pt"|user theIRCUser	
+|<syntaxhighlight lang="lua">channel theIRCChannel, string theReason, user theKicker</syntaxhighlight>
+|}
+'''NOTE:''' 'theKicker' can be false if 'theUser' was kicked by a service like the NickServ.
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCPrivateMessage'''
+|width="200pt"|user theIRCUser	
+|<syntaxhighlight lang="lua">string theMessage</syntaxhighlight>
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCMessage'''
+|width="200pt"|user theIRCUser	
+|<syntaxhighlight lang="lua">channel theIRCChannel, string theMessage</syntaxhighlight>
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCPrivateNotice'''
+|width="200pt"|user theIRCUser	
+|<syntaxhighlight lang="lua">string theMessage</syntaxhighlight>
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCNotice'''
+|width="200pt"|user theIRCUser	
+|<syntaxhighlight lang="lua">channel theIRCChannel, string theMessage</syntaxhighlight>
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCUserMode'''
+|width="200pt"|user theIRCUser	
+|<syntaxhighlight lang="lua">channel theIRCChannel, boolean positive, string theMode, user theSetter</syntaxhighlight>
+|}
+
+'''NOTE:''' 'theSetter' can be false if 'theUser' was opped by a service like the NickServ.
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCChannelMode'''
+|width="200pt"|channel theIRCChannel	
+|<syntaxhighlight lang="lua">boolean positive, string theMode, user theSetter</syntaxhighlight>
+|}
+
+'''NOTE:''' 'theSetter' can be false if the mode was set by a service like the NickServ.
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCLevelChange'''
+|width="200pt"|user theIRCUser	
+|<syntaxhighlight lang="lua">channel theIRCChannel, number oldlevel, number newlevel</syntaxhighlight>
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''onIRCUserQuit'''
+|width="200pt"|user theIRCUser	
+|<syntaxhighlight lang="lua">string theReason</syntaxhighlight>
+|}
+
+==Exported functions==
+These functions can be called from another resource to help you write extensions for the irc resource.
+Use the exports table or [[/call.md|call]] to use them
+
+Example 1:
+<syntaxhighlight lang="Lua">
+	exports.irc:ircConnect("irc.gtanet.com","bot",6667)
+</syntaxhighlight>
+Example 2:
+<syntaxhighlight lang="Lua">
+	call(getResourceFromName("irc"),"ircConnect","irc.gtanet.com","bot",6667)
+</syntaxhighlight>
+
+
+{| class="wikitable" border="0"
+|-	
+|width="100pt"|<syntaxhighlight lang="lua">returns</syntaxhighlight>
+|width="150pt"|'''function name'''
+|'''Parameters'''
+|-	
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircHop'''
+|<syntaxhighlight lang="lua">server theIRCServer, (string theReason)</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircSay'''
+|<syntaxhighlight lang="lua">channel theIRCChannel/user theIRCUser, string theMessage</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircRaw'''
+|<syntaxhighlight lang="lua">server theIRCServer, string theRaw</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircPart'''
+|<syntaxhighlight lang="lua">channel theIRCChannel, (string theReason)</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">irc-channel</syntaxhighlight>
+|width='200pt'|'''ircJoin'''
+|<syntaxhighlight lang="lua">server theIRCServer, string theChannelName, (string theChannelPassword)</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircAction'''
+|<syntaxhighlight lang="lua">channel theIRCChannel/user theIRCUser, string theMessage</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircNotice'''
+|<syntaxhighlight lang="lua">channel theIRCChannel/user theUserChannel, string theMessage</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''outputIRC'''
+|<syntaxhighlight lang="lua">string theMessage</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircConnect'''
+|<syntaxhighlight lang="lua">string serverHost/IP, string nickname, (number serverPort), (string serverPassword), (boolean secure)</syntaxhighlight>
+|-
+|} '''NOTE:''' Secure connections are not available yet due to the module not suporting SSL yet.
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircIdentify'''
+|<syntaxhighlight lang="lua">server theIRCServer, string thePassword</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircReconnect'''
+|<syntaxhighlight lang="lua">server theIRCServer</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircDisconnect'''
+|<syntaxhighlight lang="lua">server theIRCServer, string theReason</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircChangeNick'''
+|<syntaxhighlight lang="lua">server theIRCServer, string newNick</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">table</syntaxhighlight>
+|width='200pt'|'''ircGetServers'''
+|<syntaxhighlight lang="lua"></syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">string</syntaxhighlight>
+|width='200pt'|'''ircGetServerName'''
+|<syntaxhighlight lang="lua">server theIRCServer</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">string</syntaxhighlight>
+|width='200pt'|'''ircGetServerHost'''
+|<syntaxhighlight lang="lua">server theIRCServer</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">number</syntaxhighlight>
+|width='200pt'|'''ircGetServerPort'''
+|<syntaxhighlight lang="lua">server theIRCServer</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">string</syntaxhighlight>
+|width='200pt'|'''ircGetServerPass'''
+|<syntaxhighlight lang="lua">server theIRCServer</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">string</syntaxhighlight>
+|width='200pt'|'''ircGetServerNick'''
+|<syntaxhighlight lang="lua">server theIRCServer</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircIsServerSecure'''
+|<syntaxhighlight lang="lua">server theIRCServer</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">table</syntaxhighlight>
+|width='200pt'|'''ircGetServerChannels'''
+|<syntaxhighlight lang="lua">server theIRCServer</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">userdata</syntaxhighlight>
+|width='200pt'|'''ircGetChannelServer'''
+|<syntaxhighlight lang="lua">channel theIRCChannel</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">table</syntaxhighlight>
+|width='200pt'|'''ircGetChannels'''
+|<syntaxhighlight lang="lua">(server theIRCServer)</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircSetChannelMode'''
+|<syntaxhighlight lang="lua">channel theIRCChannel, string theMode</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">string</syntaxhighlight>
+|width='200pt'|'''ircGetChannelName'''
+|<syntaxhighlight lang="lua">channel theIRCChannel</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">string</syntaxhighlight>
+|width='200pt'|'''ircGetChannelMode'''
+|<syntaxhighlight lang="lua">channel theIRCChannel</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">table</syntaxhighlight>
+|width='200pt'|'''ircGetChannelUsers'''
+|<syntaxhighlight lang="lua">channel theIRCChannel</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">string</syntaxhighlight>
+|width='200pt'|'''ircGetChannelTopic'''
+|<syntaxhighlight lang="lua">channel theIRCChannel</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">userdata</syntaxhighlight>
+|width='200pt'|'''ircGetChannelFromName'''
+|<syntaxhighlight lang="lua">string theChannelName</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">bool</syntaxhighlight>
+|width='200pt'|'''ircIsEchoChannel'''
+|<syntaxhighlight lang="lua">channel theIRCChannel</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircSetUserMode'''
+|<syntaxhighlight lang="lua">user theIRCUser, string theMode</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">string</syntaxhighlight>
+|width='200pt'|'''ircGetUserMode'''
+|<syntaxhighlight lang="lua">user theIRCUser</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">string</syntaxhighlight>
+|width='200pt'|'''ircGetUserNick'''
+|<syntaxhighlight lang="lua">user theIRCUser</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">number</syntaxhighlight>
+|width='200pt'|'''ircGetUserLevel'''
+|<syntaxhighlight lang="lua">user theIRCUser</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">table</syntaxhighlight>
+|width='200pt'|'''ircGetUsers'''
+|<syntaxhighlight lang="lua">(server theIRCServer)</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">userdata</syntaxhighlight>
+|width='200pt'|'''ircGetUserServer'''
+|<syntaxhighlight lang="lua">user theIRCUser</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">number</syntaxhighlight>
+|width='200pt'|'''ircGetUserLevel'''
+|<syntaxhighlight lang="lua">user theIRCUser, channel theIRCChannel</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">string</syntaxhighlight>
+|width='200pt'|'''ircGetUserVhost'''
+|<syntaxhighlight lang="lua">user theIRCUser</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">userdata</syntaxhighlight>
+|width='200pt'|'''ircGetUserFromNick'''
+|<syntaxhighlight lang="lua">string theNickname</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">bool</syntaxhighlight>
+|width='200pt'|'''addIRCCommandHandler'''
+|<syntaxhighlight lang="lua">string theCommandName, function theFunctionToCall/string functionName, (number minimumLevel), (boolean echoChannelOnly)</syntaxhighlight>
+|-
+|} '''NOTE:''' Use a string with the function name for the second argument if your are calling this function from another resource, also make sure the function is exported.
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">table</syntaxhighlight>
+|width='200pt'|'''ircGetCommands'''
+|<syntaxhighlight lang="lua"></syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">number</syntaxhighlight>
+|width='200pt'|'''ircGetCommandLevel'''
+|<syntaxhighlight lang="lua">string theCommand</syntaxhighlight>
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="100pt"|<syntaxhighlight lang="lua">boolean</syntaxhighlight>
+|width='200pt'|'''ircIsCommandEchoChannelOnly'''
+|<syntaxhighlight lang="lua">string theCommand</syntaxhighlight>
+|-
+|}
+
+'''NOTE:''' All parameters that are between brackets are optional, see [[/optional arguments.md|optional arguments]]
+
+==Commands==
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''command'''
+|width='100pt'|'''level'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!kick'''
+|width='100pt'|'''2'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!uptime'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!say'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!s'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!m'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!players'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!pm'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!ts'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!getip'''
+|width='100pt'|'''2'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!getserial'''
+|width='100pt'|'''2'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!mute'''
+|width='100pt'|'''2'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!unmute'''
+|width='100pt'|'''2'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!mutes'''
+|width='100pt'|'''2'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!freeze'''
+|width='100pt'|'''2'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!unfreeze'''
+|width='100pt'|'''2'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!kill'''
+|width='100pt'|'''2'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!slap'''
+|width='100pt'|'''2'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!ban'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!banip'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!banserial'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!banname'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!unbanip'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!unbanserial'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!unban'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!bans'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!commands'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!cmds'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!lua'''
+|width='100pt'|'''4'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!run'''
+|width='100pt'|'''4'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!crun'''
+|width='100pt'|'''4'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!resources'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!start'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!restart'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!stop'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!account'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!community'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!money'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!health'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!wantedlevel'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!team'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!ping'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!modules'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!changemap'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!map'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!shutdown'''
+|width='100pt'|'''5'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!password'''
+|width='100pt'|'''4'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!gravity'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!weather'''
+|width='100pt'|'''3'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!server'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!zone'''
+|width='100pt'|'''0'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!refreshall'''
+|width='100pt'|'''4'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!refresh'''
+|width='100pt'|'''4'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!checkmap'''
+|width='100pt'|'''2'''
+|-
+|}
+
+{| class="wikitable" border="0"
+|-
+|width="200pt"|'''!country'''
+|width='100pt'|'''2'''
+|-
+|}
+
+==Modding==
+Please don't mod the resource, you might break it and cause it to malfunction or to spam errors.
+If this happens you will not get any support.
+Write extensions instead.
+
+==Contact==
+The author (MCvarial) can be contacted using IRC (#mta,#mta.dutch)
+Or by email (MCvarial@gmail.com)
+
+[[/nl:Resource:Irc.md|nl:Resource:Irc]]
+[[/ru:Resource:Irc.md|ru:Resource:Irc]]

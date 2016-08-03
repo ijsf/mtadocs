@@ -1,0 +1,42 @@
+ 
+{{Server event}}
+This event is triggered when a player is damaged, in any way.
+
+*This event is not triggered when attacked by a team member if friendly fire is enabled.
+*Canceling this event has no effect. Cancel the client-side event [[/onClientPlayerDamage.md|onClientPlayerDamage]] instead.
+*onPlayerDamage doesn't trigger if the damage kills the player, [[/onPlayerWasted.md|onPlayerWasted]] is called instead. 
+
+==Parameters==
+<syntaxhighlight lang="lua">
+player attacker, int attackerweapon, int bodypart, float loss
+</syntaxhighlight> 
+
+*'''attacker''': A player element representing the player who was the attacker.  If there was no attacker this returns false.
+*'''attackerweapon''': An integer representing the weapon the attacker used to kill the player
+*'''bodypart''': An integer representing the bodypart ID the player was hit on when he got damaged.
+{{BodyParts}}
+*'''loss''': A float representing the percentage of health the player lost.
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/player.md|player]] who was damaged.
+
+==Example== 
+This example causes an instant kill when a player is shot in the head, and announces it in the chatbox.
+<syntaxhighlight lang="lua">
+--add an event handler for the onPlayerDamage event
+function playerDamage_text ( attacker, weapon, bodypart, loss ) --when a player is damaged
+	if ( bodypart == 9 ) then -- if the body part is 9, i.e. the head
+            outputChatBox ( "Headshot!", getRootElement (), 255, 170, 0 ) --output "Headshot" into the chatbox
+	    killPed ( source, attacker, weapon, bodypart ) -- and kill the player
+	end
+end
+addEventHandler ( "onPlayerDamage", getRootElement (), playerDamage_text )
+</syntaxhighlight>
+
+==Issues==
+{{Issues|
+{{Issue|6495|[Fixed in 1.3.3-5411] onPlayerDamage has wrong parameters if source on vehicle}}
+{{Issue|8082|Custom weapons & objects don't fully work with ped damage events}}
+}}
+
+{{See also/Server event|Player events}}

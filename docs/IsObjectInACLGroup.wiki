@@ -1,0 +1,62 @@
+ 
+{{Server function}} 
+{{Note_box|It's recommended ''not'' to use this function to limit features to users that belong to specific groups. Instead use [[/hasObjectPermissionTo.md|hasObjectPermissionTo]]. Using this function forces the server owner to name their group a certain way, whereas using hasObjectPermissionTo allows the owner to give permission for whatever features you restrict to whatever groups they have set up in their ACL.}}
+This function is used to determine if an object is in a group.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool isObjectInACLGroup ( string theObject, aclgroup theGroup )
+</syntaxhighlight> 
+{{New feature/item|3.0141|1.4.0|6994|{{OOP||[[/aclgroup.md|aclgroup]]:doesContainObject||}}}}
+===Required Arguments=== 
+*'''theObject:''' the name of the object to check. Examples: "resource.ctf", "user.Jim".
+*'''theGroup:''' the [[/ACL group.md|ACL group]] pointer of the group from which the object should be found.
+
+===Returns===
+Returns ''true'' if the object is in the specified group, ''false'' otherwise.
+
+==Example== 
+''' Example 1:''' This example adds a ''jetpack'' command that is only available to admins.  When entering the command, it will toggle the player's jetpack.
+<syntaxhighlight lang="lua">
+addCommandHandler ( "jetpack",
+    function ( thePlayer )
+        if doesPedHaveJetPack ( thePlayer ) then -- If the player have a jetpack already, remove it
+            removePedJetPack ( thePlayer ) -- Remove the jetpack
+            return -- And stop the function here
+        end
+		
+     -- Otherwise, give him one if he has access
+
+     local accName = getAccountName ( getPlayerAccount ( thePlayer ) ) -- get his account name
+     if isObjectInACLGroup ("user."..accName, aclGetGroup ( "Admin" ) ) then -- Does he have access to Admin functions?
+          if not doesPedHaveJetPack ( thePlayer ) then -- If the player doesn't have a jetpack give it.
+               givePedJetPack ( thePlayer )  -- Give the jetpack
+          end
+     end
+end
+)
+</syntaxhighlight>
+
+'''Example 2:''' This example displays a list of all the online admins in the chat box (assuming your administrator's group in your ACL is called 'admin'):
+<syntaxhighlight lang="lua">
+players = getElementsByType ( "player" )
+admins = ""
+for k,v in ipairs(players) do
+   local accountname = ""
+   if (isGuestAccount(getPlayerAccount(v)) == false) then
+      accountname = getAccountName (getPlayerAccount(v))
+      if isObjectInACLGroup ( "user." .. accountname, aclGetGroup ( "admin" ) ) then
+         if (admins == "") then
+            admins = getPlayerName(v)
+         else
+            admins = admins .. ", " .. getPlayerName(v)
+         end
+      end
+   end
+end
+outputChatBox( "Online Admins:", getRootElement(), 255, 255, 0)
+outputChatBox( " " .. tostring ( admins ), getRootElement(), 255, 255, 0)
+</syntaxhighlight>
+
+==See Also==
+{{ACL_functions}}

@@ -1,0 +1,30 @@
+{{Server event}}
+ 
+{{New feature/item|3.0120|1.2|3316|
+}}
+This event is triggered when a player uses say, teamsay, me successfully. Or when any message is output to chat using [[/outputChatBox.md|outputChatBox]] on the server side. It can be used to get the resource responsible for specific [[/outputChatBox.md|outputChatBox]] call via the second parameter.
+
+==Parameters== 
+<syntaxhighlight lang="lua">
+string theMessage, resource / element theElement
+</syntaxhighlight>
+*'''theMessage:''' The text that was output to the chatbox
+*'''theElement:''' Player element if chatbox output was done via say, teamsay or me. Resource if it was done via [[/outputChatBox.md|outputChatBox]].
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the root element.
+
+==Example==
+This example outputs all chat messages to debug view.
+<code>
+[lua]
+function onChatMessageHandler(theMessage, thePlayer)
+	outputDebugString(theMessage)
+end
+addEventHandler("onChatMessage", root, onChatMessageHandler)
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|1.1.1-9.03316|n/a|}}
+
+{{See also/Server event|Server events}}

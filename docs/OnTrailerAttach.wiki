@@ -1,0 +1,32 @@
+
+{{Server event}}
+This event is triggered when a trailer is attached to a truck.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+vehicle theTruck
+</syntaxhighlight> 
+
+*'''theTruck''': The truck vehicle that got attached to this trailer
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the trailer [[/vehicle.md|vehicle]] that the truck got attached to.
+
+<!-- Only include this section below if cancelling the event has any effect. If you don't know if it does, ask a dev! -->
+==Cancel effect==
+If this event is [[/Event_system#Canceling.md|canceled]], the trailer will detach from the truck again.
+
+==Example== 
+<!-- Explain what the example is in a single sentance -->
+This example removes a trailer from the truck it is attached to. Good if you do not want people attaching trailers to vehicles
+<!-- Add the code below, an emphasis should be on making it clear, not optimized. You could provide two versions if you wish, one clear and well commented, the other optimized -->
+<syntaxhighlight lang="lua">
+function detachTrailer(theTruck)
+    detachTrailerFromVehicle(theTruck, source) --detach the newly attached trailer
+ end
+addEventHandler("onTrailerAttach", getRootElement(), detachTrailer)
+</syntaxhighlight>
+
+{{See also/Server event|Vehicle events}}
+
+[[/ru:onTrailerAttach.md|ru:onTrailerAttach]]

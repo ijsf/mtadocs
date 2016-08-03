@@ -1,0 +1,25 @@
+ 
+{{Server function}}
+This function retrieves the server's name.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+string getServerName ( )
+</syntaxhighlight>
+
+===Returns===
+A string containing the server's name.
+
+==Example== 
+This example creates a console command that outputs the server's name to the chatbox.
+<syntaxhighlight lang="lua">
+function outputServerName ( )
+	outputChatBox ( getServerName( ) )
+end
+
+-- Add console command 'getServerName'
+addCommandHandler ( "getServerName", outputServerName )
+</syntaxhighlight>
+
+==See Also==
+{{Server functions}}

@@ -1,0 +1,161 @@
+==Description==
+HeroInventory is a new way to expand a roleplay server's features. This resource allows a server to not only archive items; but organize them appropriately! Adding items, and groups are very simple.
+
+community page link[http://community.mtasa.com/index.php?p=resources&s=details&id=6310]
+
+==Notes==
+You're able to add items by editing g_items.lua.
+An example use of the resource:HeroBook[https://wiki.multitheftauto.com/wiki/HeroBook#Integrate_Into_HeroInventory](from Malicious Hero)
+
+==Callbacks==
+===onPlayerUseItem===
+<syntaxhighlight lang="lua">
+bool onPlayerUseItem( int itemID, int itemAmount )
+</syntaxhighlight>
+
+* source = player using the item
+
+The callback is found in e_item_use.lua in the folder "events". Examples are shown.
+
+===onPlayerPickupItem===
+<syntaxhighlight lang="lua">
+bool onPlayerPickupItem( element playerElement, int itemID, string itemDroppedBy )
+</syntaxhighlight>
+
+The callback is found in e_item_pickup.lua in the folder "events". Examples are shown.
+==Player Functions==
+===addPlayerItem===
+<syntaxhighlight lang="lua">
+bool addPlayerItem ( element playerElement, int itemID, int amount )
+</syntaxhighlight>
+<code>
+@title
+        addPlayerItem
+@author
+	Malicious Hero.
+@parameters
+	playerElement - The element you wish to add an item to.
+	itemID - The item ID; This can be found in g_items.lua.
+	amount - The amount of the item you want.
+@description
+	This will add an item to a client.
+</syntaxhighlight>
+===refreshClientGroups===
+<syntaxhighlight lang="lua">
+bool refreshClientGroups( )
+</syntaxhighlight>
+<code>
+@title
+	refreshClientGroups
+@author
+	Malicious Hero.
+@parameters
+		
+@description
+	This is not really a function used when exporting; but it's important this command remains
+	in this resource because without this, groups would not be sync properly.
+</syntaxhighlight>
+
+===removeItemFromPlayer===
+<syntaxhighlight lang="lua">
+bool removeItemFromPlayer( element playerElement, int itemID, [ int amount ] )
+</syntaxhighlight>
+<code>
+@title
+	removeItemFromPlayer
+@author
+	Malicious Hero.
+@parameters
+	playerElement - The player.
+	itemID - The item ID
+	amount - The amount you wish to remove. You can leave this blank to remove everything.
+@description
+	Use this function to remove an item from a player.
+</syntaxhighlight>
+
+===transferPlayerItem===
+<syntaxhighlight lang="lua">
+bool transferPlayerItem( element playerElement, element targetElement, int itemID, int amount )
+</syntaxhighlight>
+<code>
+@title
+	transferPlayerItem
+@author
+	Malicious Hero.
+@parameters
+	playerElement - The player.
+	targetElement - The target.
+	itemID - The item ID
+	amount - The amount you wish to remove. You can leave this blank to remove everything.
+@description
+	Use this function to move one item to another player.
+</syntaxhighlight>
+
+===doesPlayerHaveItem===
+<syntaxhighlight lang="lua">
+bool doesPlayerHaveItem( element playerElement, int itemID)
+</syntaxhighlight>
+<code>
+@title
+	doesPlayerHaveItem
+@author
+	Malicious Hero.
+@parameters
+	playerElement - The player.
+	itemID - The item ID
+@description
+	Use this function to move one item to another player.
+@returns
+	if returning true, it will return the amount as well.
+</syntaxhighlight>
+
+===getPlayerItemAmount===
+<syntaxhighlight lang="lua">
+bool getPlayerItemAmount( element playerElement, int itemID )
+</syntaxhighlight>
+<code>
+@title
+	getPlayerItemAmount
+@author
+	Malicious Hero.
+@parameters
+	playerElement - The player.
+	itemID - The item ID
+@description
+	Use this function to get a player's item amount
+@returns
+	The amount item. If false, they don't have the item
+</syntaxhighlight>
+==Group Functions==
+===addInventoryGroup===
+<syntaxhighlight lang="lua">
+bool addInventoryGroup( string group_name, path imagesrc )
+</syntaxhighlight>
+<code>
+@title
+	addInventoryGroup
+@author
+	Malicious Hero.
+@parameters
+	group_name - Indicates the group name that you wish to add.
+	imagesrc - The picture you want to associate with the group.
+@description
+	This will add a inventory group, which will allow the server to create new items.
+	Please keep in mind that in s_inventory_config.lua, you are able to set the maximum amount
+	of groups you allow.
+</syntaxhighlight>
+
+===removeInventoryGroup===
+<syntaxhighlight lang="lua">
+bool removeInventoryGroup( string group_name )
+</syntaxhighlight>
+<code>
+@title
+	removeInventoryGroup
+@author
+	Malicious Hero.
+@parameters
+	group_name - Indicates the group name that you wish to add.
+@description
+	This will remove an inventory group.
+</syntaxhighlight>

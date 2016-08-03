@@ -1,0 +1,137 @@
+This page lists all built in commands that the client can process. These commands can be entered directly to the client console or via the chatbox by putting a / (forward slash) in front of them. Some [[/Server_Commands.md|server commands]] are also accessible from the client. Arguments inside [...] are optional.
+
+
+==Core commands==
+====help====
+:Displays these list of commands
+====exit====
+:Exits the application
+====quit====
+:Exits the application
+====ver====
+:Outputs the MTA version in the client console
+====time====
+:Outputs the local time in the chatbox
+====showhud====
+:Usage: showhud [''<''0-1''>'']
+:Shows the HUD
+====binds====
+:Outputs all the binds in the client console
+====serial====
+:Outputs your serial in the client console
+
+====connect====
+:Usage: connect ''<host> <port>'' [''<nick> <pass>'']
+:Connects to a server
+====reconnect====
+:Connects to a previous server
+====bind====
+:Usage: bind ''<defaults/key>'' [''<up/down>''] ''<command>'' [''<arguments>'']
+:Binds a key
+::Example to bind X to hiding the HUD: '''bind x down showhud 0'''
+::Example to reset all binds: '''bind defaults'''
+====unbind====
+:Usage: unbind ''<all/key>'' [''<up/down> <command>'']
+:Unbinds a key
+::Example to unbind X to from hiding the HUD: '''unbind x down showhud 0'''
+::Example to unbind all commands from X: '''unbind x'''
+====copygtacontrols====
+:Copies the default gta controls - This may require a restart to work properly
+====screenshot====
+:Saves a screenshot
+====saveconfig====
+:Immediately saves the config
+
+
+==Commands when connected to a server==
+====sinfo====
+:Prints information and settings for the current server into the client console
+====disconnect====
+:Disconnect from the server and return to the main menu
+====shownametags====
+:Usage: shownametags [''<''0-1''>'']
+:Shows the nametags
+====showchat====
+:Usage: showchat [''<''0-1''>'']
+:Shows the chatbox
+====shownetstat====
+:Usage: shownetstat [''<''0-1''>'']
+:Shows the network statistics 
+====showmemstat====
+:Usage: showmemstat [''<''0-1''>'']
+:Shows the memory statistics 
+====showframegraph====
+:Usage: showframegraph [''<''0-1''>'']
+:Shows the frame rate history graph 
+====chatbox====
+:Usage: chatbox ''<''0-255''>'' ''<''0-255''>'' ''<''0-255''>''
+:Defines the chatbox color
+====textscale====
+:Usage: textscale ''<''0.8 to 3.0''>''
+:Defines the scale multiplier of all text-displays
+====showcol====
+:Usage: showcol [''<''0-1''>'']
+:Shows colshapes in wireframe for help when writing scripts
+:Only works in development mode.
+:More information: [[/setDevelopmentMode.md|setDevelopmentMode]]
+====showsound====
+:Usage: showsound [''<''0-1''>'']
+:Prints world sound ids in the debug output windows to help when writing scripts with [[/setWorldSoundEnabled.md|setWorldSoundEnabled]]
+:Only works in development mode.
+:More information: [[/setDevelopmentMode.md|setDevelopmentMode]]
+
+==Commands for key binds==
+====cleardebug====
+:Clears the debug view
+====chatscrollup====
+:Usage: chatscrollup 1 
+:Scrolls the chatbox upwards
+====chatscrolldown====
+:Usage: chatscrolldown -1 
+:Scrolls the chatbox downwards
+====debugscrollup====
+:Usage: debugscrollup 1 
+:Scrolls the debug view upwards
+====debugscrolldown====
+:Usage: debugscrolldown -1 
+:Scrolls the debug view downwards
+====voiceptt====
+:Transmits voice to other players
+====enter_passenger====
+:Enters a car as passenger
+====radio_next====
+:Next radio channel
+====radio_previous====
+:Previous radio channel
+====radar====
+:Usage: radar [''<''0-1''>''] 
+:Shows the radar view
+====radar_zoom_in====
+:Zooms the radar in
+====radar_zoom_out====
+:Zooms the radar out
+====radar_move_north====
+:Moves the radar north
+====radar_move_south====
+:Moves the radar south
+====radar_move_east====
+:Moves the radar east
+====radar_move_west====
+:Moves the radar west
+====radar_attach====
+:Attaches the radar 
+====msg_target====
+:Usage: msg_target ''<text>'' 
+:Sends a message to the targeted player
+====vehicle_next_weapon====
+:Changes to the next weapon whilst in a vehicle
+====vehicle_previous_weapon====
+:Changes to the previous weapon whilst in a vehicle
+====radio_next====
+:Selects the next radio station
+====radio_previous====
+:Selects the previous radio station
+
+[[/Category: Support.md|Category: Support]]
+[[/ru:Client Commands.md|ru:Client Commands]]
+[[/hu:Client Commands.md|hu:Client Commands]]

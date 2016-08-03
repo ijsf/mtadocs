@@ -1,0 +1,132 @@
+<pageclass class="server"></pageclass>
+{{Adding_Pages_to_Categories_and_Templates}}
+This page lists all the '''server-side''' scripting functions that have been implemented and are available as native functions. To request a function or event, use [[/Requested Functions and Events.md|Requested Functions and Events]] or http://bugs.mtasa.com.
+
+Please note that the scripting functions can also be extended by loading in dynamic modules that provide new functionality, such as utility functions. These scripting functions are non-native and require the module to be loaded in order to work.
+
+Head over to [[/Modules.md|Modules]] for a list of non-native serverside functions and modules that are available.
+
+For more functions, check the [[/Useful_Functions.md|useful functions page]].
+
+'''Client-side scripting functions can be found here: [[/Client Scripting Functions.md|Client Scripting Functions]].'''
+
+
+==Account functions==
+{{Account_functions}}
+
+==ACL functions==
+{{ACL_functions}}
+
+==Admin functions==
+{{Admin_functions}}
+
+==Audio functions==
+{{Audio_functions}}
+
+==Announcement functions==
+{{Announce_functions}}
+
+==Blip functions==
+{{Blip_functions}}
+
+==Camera functions==
+{{Camera functions}}
+
+==Collision shape functions==
+{{Collision shape functions}}
+
+==Clothes and body functions==
+{{Clothes and body functions}}
+
+==Cursor functions==
+{{Cursor_functions}}
+
+==Element functions==
+{{Element functions}}
+
+==Event functions==
+{{Event_functions}}
+
+==Explosion functions==
+{{Explosion_functions}}
+
+==File functions==
+{{File_functions}}
+
+==HTTP functions==
+{{HTTP_functions}}
+
+==Input functions==
+{{Input_functions}}
+
+==Map functions==
+{{Map_functions}}
+
+==Marker functions==
+{{Marker functions}}
+
+==Matrix functions==
+{{Shared_matrix_functions}}
+
+==Module functions==
+{{Module functions}}
+
+==Object functions==
+{{Object functions}}
+
+==Ped functions==
+{{Ped_functions}}
+
+==Pickup functions==
+{{Pickup functions}}
+
+==Player functions==
+{{Player functions}}
+
+==Radar area functions==
+{{Radar area functions}}
+
+==Resource functions==
+{{Resource functions}}
+
+==Server functions==
+{{Server functions}}
+
+==Settings registry functions==
+{{Settings registry functions}}
+
+==SQL functions==
+{{SQL_functions}}
+
+==Team functions==
+{{Team functions}}
+
+==Text functions==
+{{Text functions}}
+
+==Utility functions==
+{{Utility functions}}
+
+==UTF8 Library==
+{{UTF8 functions}}
+
+==Vehicle functions==
+{{Vehicle functions}}
+
+==Water functions==
+{{Water functions}}
+
+==Weapon functions==
+{{Weapon functions}}
+
+==World functions==
+{{World functions}}
+
+==XML functions==
+{{XML functions}}
+
+[[/ar:Server Scripting Functions.md|ar:Server Scripting Functions]]
+[[/ru:Server Scripting Functions.md|ru:Server Scripting Functions]]
+[[/es:Funciones_del_Server.md|es:Funciones_del_Server]]
+[[/de:Server-Seitige Scripting Funktionen.md|de:Server-Seitige Scripting Funktionen]]
+[[/pl:Server Scripting Functions.md|pl:Server Scripting Functions]]

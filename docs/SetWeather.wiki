@@ -1,0 +1,26 @@
+
+{{Server client function}}
+This function sets the current [[/weather.md|weather]] to the given valid value. To change the weather gradually, see [[/setWeatherBlended.md|setWeatherBlended]].
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool setWeather ( int weatherID )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''weatherID''': The ID of new [[/weather.md|weather]]. Valid values are 0 to 255 inclusive.
+
+===Returns===
+Returns ''true'' if the weather was set succesfully, ''false'' if an invalid ''weatherID'' was specified.
+
+==Example==
+This example will change the weather to foggy.
+<syntaxhighlight lang="lua">
+setWeather ( 9 )
+outputChatBox ( "Weather changed to foggy!" )
+</syntaxhighlight>
+
+==See Also==
+{{World functions}}
+
+[[/ru:setWeather.md|ru:setWeather]]

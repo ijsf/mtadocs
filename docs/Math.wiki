@@ -1,0 +1,39 @@
+Math is a built-in Lua library which contains mathematical functions and constants that you can use in scripts.
+
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.abs math.abs]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.acos math.acos]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.asin math.asin]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.atan math.atan]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.atan2 math.atan2]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.ceil math.ceil]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.cos math.cos]  
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.cosh math.cosh]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.deg math.deg]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.exp math.exp]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.floor math.floor]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.fmod math.fmod]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.frexp math.frexp]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.huge math.huge] (constant)
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.ldexp math.ldexp]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.log math.log]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.log10 math.log10]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.max math.max]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.min math.min]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.modf math.modf]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.pi math.pi] (constant)
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.pow math.pow]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.rad math.rad]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.random math.random]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.randomseed math.randomseed]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.sin math.sin]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.sinh math.sinh]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.sqrt math.sqrt]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.tanh math.tanh]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-math.tan math.tan]
+
+==See Also==
+* [http://lua-users.org/wiki/MathLibraryTutorial Math examples on the LUA Wiki]
+
+[[/Category:Scripting Concepts.md|Category:Scripting Concepts]]
+
+[[/de:Math.md|de:Math]]

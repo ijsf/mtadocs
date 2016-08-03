@@ -1,0 +1,28 @@
+{{Server function}}
+
+This function is used to remove a ped's jetpack.
+
+==Syntax==
+<syntaxhighlight lang="lua">bool removePedJetPack ( ped thePed )</syntaxhighlight>
+
+===Required Arguments===
+*'''thePed''': The [[/ped.md|ped]] you want to remove the jetpack from.
+
+===Returns===
+Returns ''true'' if the ped had a jetpack, ''false'' otherwise.
+
+==Example==
+This example adds a "jetpack" command in console, which allows toggling of a jetpack.
+<syntaxhighlight lang="lua">
+function jetPackCommand ( source, key )
+    if ( doesPedHaveJetPack ( source ) ) then     -- if the player has a jetpack
+        removePedJetPack ( source )               -- remove it
+    else
+        givePedJetPack ( source )                 -- otherwise give him one
+    end
+end
+addCommandHandler ( "jetpack", jetPackCommand )
+</syntaxhighlight>
+
+==See Also==
+{{Ped functions}}

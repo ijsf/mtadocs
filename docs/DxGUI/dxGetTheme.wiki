@@ -1,0 +1,26 @@
+<pageclass class="client" subcaption="GUI Class method"></pageclass>
+ 
+
+You can use this function to get theme by name.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+dxTheme dxGetTheme ( themeName )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''themeName:''' A name of the theme in '''themes.xml'''
+
+
+===Returns===
+Returns a dxTheme if it is exists, false otherwise.
+
+==Example== 
+This example creates a window based on orange theme.
+<syntaxhighlight lang="lua">
+local theme = dxGetTheme("Orange")
+dxCreateWindow(....,theme)
+</syntaxhighlight>
+
+==See Also==
+[[/dxGUI.md|Back to dxGUI page]]

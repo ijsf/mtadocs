@@ -1,0 +1,40 @@
+ 
+{{Client function}}
+This function is used to either pause or unpause the playback of the specified [[/sound.md|sound]] [[/element.md|element]].
+
+{{New feature/item|3.0132|1.3.2||
+Use a player element to control a players voice with this function.
+}}
+==Syntax== 
+<syntaxhighlight lang="lua">bool setSoundPaused ( element theSound, bool paused )</syntaxhighlight> 
+{{OOP||[[/sound.md|sound]]:setPaused|paused|isSoundPaused}}
+===Required Arguments=== 
+*'''theSound:''' the [[/sound.md|sound]] [[/element.md|element]] which you want to pause/unpause.
+*'''paused:''' a [[/boolean.md|boolean]] value representing whether the sound should be paused or not. To pause the sound, use ''true''.
+
+===Returns===
+Returns ''true'' if the [[/sound.md|sound]] [[/element.md|element]] was successfully paused, ''false'' otherwise.
+
+==Example== 
+This example will allow the user to toggle sounds from paused to playing, and from playing to paused
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+theSound = playSound("music/song.mp3", true)
+function togglePausedSound()
+    if(isSoundPaused(theSound)) then --sound is paused, un-pause it
+        setSoundPaused(theSound, false)
+    else --sound is not paused, pause it
+        setSoundPaused(theSound, true)
+    end
+end
+addCommandHandler("pausesound", togglePausedSound)
+</syntaxhighlight>
+</section>
+
+==Changelog==
+{{ChangelogHeader}}
+{{ChangelogItem|1.3.2|Added player element for voice control}}
+
+==See Also==
+{{Client_audio_functions}}
+[[/AR:setSoundPaused.md|AR:setSoundPaused]]

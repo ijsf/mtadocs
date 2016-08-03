@@ -1,0 +1,31 @@
+<pageclass class="#0099AA" subcaption="Basic IRC Module"></pageclass>
+{{Outdated|Development for this module seems to have halted, use [[/resource:irc.md|resource:irc]] for now.}}
+
+
+{{Module_Info|
+  name           = ml_birc |
+  version        = 1.0 |
+  author         = [[/User:Awwu.md|Awwu]] <awwugta@gmail.com> |
+  module_website = ''None'' |
+  download_link  = ''Soon'' |
+  license        = ''Unlicensed'' |
+  written_in     = Unknown |
+  operating_system = Windows only |
+  compatible_with = 1.0 |
+}}
+Basic IRC module (bIRC) provides a fully functional server IRC echo for MTA:SA. It is currently available only for Windows servers on MTA:SA 1.0 (other versions untested).
+
+==Installation==
+Uncompress the file ml_birc.dll into your ''server\mods\deathmatch\modules\'' directory.
+
+===mtaserver.conf===
+Add the following line in your mtaserver.conf:
+<code lang="xml">
+<module src="ml_birc" />
+</syntaxhighlight>
+
+==Provided scripting functionality==
+{{ml_birc functions}}
+{{ml_birc callbacks}}
+
+[[/ru:Modules/bIRC.md|ru:Modules/bIRC]]

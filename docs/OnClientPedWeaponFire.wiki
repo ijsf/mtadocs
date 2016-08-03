@@ -1,0 +1,35 @@
+{{Client event}}
+ 
+This event is called when ped shoots a weapon.  This does not trigger for projectiles based, or melee weapons.
+{{Note|This event is only triggered for peds that are streamed in}}
+==Parameters==
+<syntaxhighlight lang="lua">
+ int weapon, int ammo, int ammoInClip, float hitX, float hitY, float hitZ, element hitElement
+</syntaxhighlight> 
+*'''weapon''':  an [[/int.md|int]] representing [[/weapons.md|weapon]] used for making a shot.
+*'''ammo''': an [[/int.md|int]] ammount of ammo left for this weapon type.
+*'''ammoInClip''': an [[/int.md|int]] ammount of ammo left for this weapon type in clip.
+*'''hitX''', '''hitY''', '''hitZ''': [[/float.md|float]] world coordinates representing a hit point.
+*'''hitElement''': an [[/element.md|element]] which was hit by a shot.
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/ped.md|ped]] who fired the weapon.
+
+==Example==
+
+<syntaxhighlight lang="lua">
+addEventHandler("onClientPedWeaponFire", root,
+     function(weapon, ammo, ammoInClip, hitX, hitY, hitZ, hitElement)
+          if isElement(hitElement) and getElementType(hitElement) == "player" then
+               outputChatBox("You hit " .. getPlayerName(hitElement), 0, 255, 0)
+          end
+     end
+)
+</syntaxhighlight>
+</section>
+
+==See Also==
+===Client ped events===
+{{Client_ped_events}}
+===Client event functions===
+{{Client_event_functions}}

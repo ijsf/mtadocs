@@ -1,0 +1,31 @@
+ 
+{{Server client function}}
+This function returns the visible size of an object.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+float getObjectScale ( object theObject )
+</syntaxhighlight>
+{{OOP||[[/object.md|object]]:getScale|scale|setObjectScale}}
+===Required Arguments===
+*'''theObject''': the [[/object.md|object]] you wish to return the scale of.
+
+===Returns===
+* A [[/float.md|float]] indicating the scale of the object, if successful.
+* ''false'' otherwise.
+
+==Example==
+<section name="Client" class="client" show="true">
+This example adds a command ''get_scale'' which create object and prints out a scale of the object.
+<syntaxhighlight lang="lua">
+addCommandHandler( 'get_scale',
+	function( )
+		local uObject = createObject( 1337, getElementPosition( localPlayer ) )
+		outputChatBox( string.format( 'Object scale is %s !', getObjectScale( uObject ) ) )
+	end
+)
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Object_functions}}

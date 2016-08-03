@@ -1,0 +1,13 @@
+ 
+{{Server function}}
+{{Deprecated}}
+
+Please use [[/removeBan.md|removeBan]]
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool unbanSerial ( string serialToUnban )         
+</syntaxhighlight> 
+
+==See Also==
+{{Admin_functions}}

@@ -1,0 +1,325 @@
+{{Resource page}}
+'''Current Version: 1.1.2'''
+
+This is a library, created by xthepr0mise, which allows you to connect to your forum software easily.
+It uses the MySQL-Plugin to connect to the database and includes a full log which documents nearly every (woltlab_)function called by the user.
+
+==Functions==
+
+===Connection===
+====woltlab_connect====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+bool woltlab_connect ( dbHost, dbUsername, dbPasswort, dbName ) 
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''dbHost''': The IP-Address of the database
+*'''dbUsername''': The username of the database
+*'''dbPasswort''': The password of the database
+*'''dbName''': The name of the database
+
+==Returns==
+Returns '''true''' if it connected successfully else '''false'''
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+====woltlab_disconnect====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+bool woltlab_disconnect ( )
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''None'''
+
+==Returns==
+Returns '''true''' if it disconnected successfully else '''false'''
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+===User-Functions===
+====woltlab_checkPassword====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+bool woltlab_checkPassword ( username, password )
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''username''': The username of the player you want to check
+*'''password''': The password he entered (encrypted)
+
+==Returns==
+Returns '''true''' if the password is right else '''false'''
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+====woltlab_getUserID====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+int woltlab_getUserID ( username )
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''username''': The username of the player whose ID you want to get
+
+==Returns==
+Returns '''int ID''' or '''false''' if the user does not exist
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+====woltlab_addUser====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+bool woltlab_addUser ( username, email, password )
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''username''': The username of the player you want to add
+*'''email''': His e-mail address
+*'''password''': His password (encrypted)
+
+==Returns==
+Returns '''true''' if the user got created or '''false'''
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+====woltlab_userExists====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+bool woltlab_userExists ( username )
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''username''': The username of the player you want to check
+
+==Returns==
+Returns '''true''' or '''false'''
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+===Board-Functions===
+====woltlab_getBoardID====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+int woltlab_getBoardID ( title )
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''title''': The title of the board whose ID you want to get
+
+==Returns==
+Returns '''int ID''' or '''false''' if the board does not exist
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+====woltlab_getBoardTitle====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+string woltlab_getBoardTitle ( id )
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''id''': The ID of the board whose title you want to get
+
+==Returns==
+Returns '''string title''' or '''false''' if the board does not exist
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+====woltlab_addThread====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+bool woltlab_addThread ( username, boardID, prefix, head, description, [registered] )
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''username''': The username of the player which creates the thread
+*'''boardID''': The ID of the board in which the thread should be created
+*'''prefix''': The prefix of the thread
+*'''head''': The title of the thread
+*'''description''': The content of the thread
+
+==Optional Arguments==
+*'''registered''': A bool whether the user is registered in the forum or not
+
+==Returns==
+Returns '''true''' if the thread got created or '''false'''
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+===Group-Functions===
+====woltlab_groupExists====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+bool woltlab_groupExists ( ID )
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''ID''': The ID of the group
+
+==Returns==
+Returns '''true''' if the group exists or '''false'''
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+====woltlab_isUserInGroup====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+bool woltlab_isUserInGroup ( username, ID )
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''username''': The username of the player you want to check
+*'''ID''': The ID of the group
+
+==Returns==
+Returns '''true''' if he is in the group or '''false'''
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+====woltlab_getGroupID====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+bool woltlab_getGroupID ( title )
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''title''': The title of the group
+
+==Returns==
+Returns '''int ID''' of the group or '''false'''
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+====woltlab_getGroupTitle====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+bool woltlab_getGroupTitle ( ID )
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''ID''': The ID of the group
+
+==Returns==
+Returns '''string title''' of the group or '''false'''
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+====woltlab_addUserToGroup====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+bool woltlab_addUserToGroup ( username, groupID )
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''username''': The username of the player
+*'''groupID''': The ID of the group
+
+==Returns==
+Returns '''true''' if he got added or '''false'''
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+====woltlab_removeUserFromGroup====
+<section name="Server" class="server" show="true">
+==Syntax==
+<syntaxhighlight lang="lua">
+bool woltlab_removeUserFromGroup ( username, groupID )
+</syntaxhighlight>
+
+==Required Arguments== 
+*'''username''': The username of the player
+*'''groupID''': The ID of the group
+
+==Returns==
+Returns '''true''' if he got removed or '''false'''
+<syntaxhighlight lang="lua">
+-- TODO
+</syntaxhighlight>
+
+</section>
+
+==Usage==
+===Option 1===
+<syntaxhighlight lang="lua">
+exports.woltlab:FUNCTION ( PARAMETERS )
+</syntaxhighlight>
+===Option 2===
+<syntaxhighlight lang="lua">
+exports:['woltlab']:FUNCTION ( PARAMETERS )
+</syntaxhighlight>
+
+==Examples==
+===Simple password-checking===
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">
+exports.woltlab:woltlab_connect ( "127.0.0.1", "root", "", "wcf" )
+local login = exports.woltlab:woltlab_checkPassword ( "xthepr0mise", "test" )
+if login == true then
+    outputChatBox("Your password is right!")
+else
+    outputChatBox("Your password is wrong!")
+end
+exports.woltlab:woltlab_disconnect()
+</syntaxhighlight>
+</section>
+
+==Known Bugs==
+*'''none'''

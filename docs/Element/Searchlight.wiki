@@ -1,0 +1,30 @@
+
+{{New feature/item|3.0152|1.5.2||
+The searchlight class represents special spotlights in the GTA world. They are different to common spotlights because their visual effects.
+
+The element type of this class is '''"searchlight"'''.}}
+
+{{Note|The XML syntax is not implemented yet, but is a representation of what it would be if implemented.}}
+
+==XML syntax==
+<syntaxhighlight lang="xml">
+<searchlight startX="" startY="" startZ="" endX="" endY="" endZ="" startRadius="" endRadius="" renderSpot="" />
+</syntaxhighlight>
+
+===Required Attributes===
+*'''startX''': the X coordinate where the searchlight light cone will start.
+*'''startY''': the Y coordinate where the searchlight light cone will start.
+*'''startZ''': the Z coordinate where the searchlight light cone will start.
+*'''endX''': the X coordinate of the direction where the searchlight will point to.
+*'''endY''': the Y coordinate of the direction where the searchlight will point to.
+*'''endZ''': the Z coordinate of the direction where the searchlight will point to.
+*'''startRadius''': the radius of the searchlight's light cone in its beginning.
+*'''endRadius''': the radius of the searchlight's light cone in its end.
+
+===Optional Arguments=== 
+{{OptionalArg}} 
+*'''renderSpot''': if ''true'', the searchlight will lighten the surface where it ends.
+
+==Related scripting functions==
+{{Client searchlight functions}}
+[[/Category:Element Types.md|Category:Element Types]]

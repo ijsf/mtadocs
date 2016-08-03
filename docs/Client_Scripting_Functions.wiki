@@ -1,0 +1,129 @@
+<pageclass class="client"></pageclass>
+{{Adding_Pages_to_Categories_and_Templates}}
+This page lists all the '''client-side''' scripting functions that have been implemented and are available as native functions from the Deathmatch mod. To request a function or event, use [[/Requested Functions and Events.md|Requested Functions and Events]]
+
+For more functions, check the [[/Useful_Functions.md|useful functions page]].
+
+
+==Audio functions==
+{{Client_audio_functions}}
+
+==Blip functions==
+{{Client_blip_functions}}
+
+==Browser functions==
+{{CEF_functions}}
+
+==Camera functions==
+{{Client_camera_functions}}
+
+==Clothes and body functions==
+{{Client_Clothes and body functions}}
+
+==Collision shape functions==
+{{Client_collision_shape_functions}}
+
+==Cursor functions==
+{{Client_cursor_functions}}
+
+==Drawing functions==
+{{Drawing_functions}}
+
+==Effects functions==
+{{Client_Effects_functions}}
+
+==Element functions==
+{{Client_element_functions}}
+
+==Engine functions==
+{{Engine_functions}}
+
+==Event functions==
+{{Client_event_functions}}
+
+==Explosion functions==
+{{Client_explosion_functions}}
+
+==File functions==
+{{Client file functions}}
+
+==Fire functions==
+{{Client fire functions}}
+
+==GUI functions==
+{{GUI_functions}}
+
+==Input functions==
+{{Client_input_functions}}
+
+==Light functions==
+{{Client_light_functions}}
+
+==Marker functions==
+{{Client_marker_functions}}
+
+==Matrix functions==
+{{Shared_matrix_functions}}
+
+==Object functions==
+{{Client_object_functions}}
+
+==Output functions==
+{{Client_output_functions}}
+
+==Ped functions==
+{{Client_ped_functions}}
+
+==Pickup functions==
+{{Client_pickup_functions}}
+
+==Player functions==
+{{Client_player_functions}}
+
+==Projectile functions==
+{{Client_projectile_functions}}
+
+==Radar-area functions==
+{{Client_radar-area_functions}}
+
+==Resource functions==
+{{Client_resource_functions}}
+
+==Searchlight functions==
+{{Client_searchlight_functions}}
+
+==Team functions==
+{{Client_team_functions}}
+
+==Utility functions==
+{{Client_utility_functions}}
+
+==UTF8 Library==
+{{UTF8 functions}}
+
+==Vehicle functions==
+{{Client_vehicle_functions}}
+
+==Water functions==
+{{Client_water_functions}}
+
+==Weapon functions==
+{{Client_weapon_functions}}
+
+==Weapon Creation functions==
+<strike>Documentation can be found [http://code.google.com/p/mtasa-blue/source/detail?r=4555 here] [https://github.com/multitheftauto/mtasa-blue/commit/c0ac461867e24fe5fc471fe373ec6212e8736c01 (GitHub)] and [http://code.google.com/p/mtasa-blue/source/detail?r=4557 here] [https://github.com/multitheftauto/mtasa-blue/commit/9c2464b5e0c7d0f2915a9b46273832cd950af48e (GitHub)]</strike>
+{{Client_weapon_creation_functions}}
+
+==World functions==
+{{Client_world_functions}}
+
+==XML functions==
+{{Client XML functions}}
+
+[[/ar:Client Scripting Functions.md|ar:Client Scripting Functions]]
+[[/pl:Funkcje po stronie klienta.md|pl:Funkcje po stronie klienta]]
+[[/it:Funzioni Client-side.md|it:Funzioni Client-side]]
+[[/ru:Client Scripting Functions.md|ru:Client Scripting Functions]]
+[[/es:Funciones del cliente.md|es:Funciones del cliente]]
+[[/de:Clientseitige_Funktionen.md|de:Clientseitige_Funktionen]]
+[[/tr:Client Taraflı Fonksiyonlar.md|tr:Client Taraflı Fonksiyonlar]]

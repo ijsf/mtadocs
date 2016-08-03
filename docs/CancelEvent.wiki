@@ -1,0 +1,51 @@
+ 
+{{Server client function}}
+This function is used to stop the automatic internal handling of events, for example this can be used to prevent an item being given to a player when they walk over a pickup, by canceling the [[/onPickupUse.md|onPickupUse]] event. 
+
+[[/cancelEvent.md|cancelEvent]] does not have an effect on all events, see the individual event's pages for information on what happens when the event is canceled. [[/cancelEvent.md|cancelEvent]] does not stop further event handlers from being called, as the order of event handlers being called is undefined in many cases. Instead, you can see if the currently active event has been cancelled using [[/wasEventCancelled.md|wasEventCancelled]].
+
+The use of cancelEvent outside of an event handler has no effect.
+
+If you implement your own custom events and want to handle them being cancelled, you should call [[/wasEventCancelled.md|wasEventCancelled]] to check after your call to [[/triggerEvent.md|triggerEvent]].
+
+==Syntax== 
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">
+bool cancelEvent ( [ bool cancel = true, string reason = "" ] )   
+</syntaxhighlight>
+</section>
+
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+bool cancelEvent ()   
+</syntaxhighlight>
+</section>
+
+===Optional Arguments=== 
+{{OptionalArg}}
+*'''cancel:''' True to cancel, false to uncancel.
+*'''reason:''' The reason for cancelling the event.
+
+===Returns===
+Always returns ''true''.
+
+==Example== 
+<section name="Example 1 - Server" class="server" show="true">
+This example stops the player ''huntedPlayer'' from entering a vehicle:
+<syntaxhighlight lang="lua">
+-- call 'stopVehicleEntry' whenever hunterPlayer is about to enter a vehicle:
+function stopVehicleEntry ( theplayer, seat, jacked )
+   cancelEvent () -- stop the event from occuring
+end
+addEventHandler("onVehicleEnter",getRootElement(),stopVehicleEntry)
+</syntaxhighlight>
+</section>
+<section name="Example 2 - Client" class="client" show="true">
+This example prevents any damage to a player clientside by making [[/cancelEvent.md|cancelEvent]] an event handler for the [[/onClientPlayerDamage.md|onClientPlayerDamage]] event.
+<syntaxhighlight lang="lua">
+addEventHandler ( "onClientPlayerDamage", getRootElement(), cancelEvent )
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Event functions}}

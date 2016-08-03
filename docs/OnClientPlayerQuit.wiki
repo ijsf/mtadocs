@@ -1,0 +1,34 @@
+
+{{Client event}}
+This event is triggered when a '''remote''' player quits the game or leaves the server. It '''will not''' get triggered on the source player's client. (Use [[/onClientResourceStop.md|onClientResourceStop]] to save client side data when the local player quits.)
+
+==Parameters==
+<syntaxhighlight lang="lua">
+string reason
+</syntaxhighlight> 
+
+*'''reason''': A string representing the reason why the player quit.
+** "Unknown"
+** "Quit"
+** "Kicked"
+** "Banned"
+** "Bad Connection"
+** "Timed out"
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/player.md|player]] that quit the game.
+
+==Example== 
+This example prints a message in the chatbox when a remote player leaves the server.
+<syntaxhighlight lang="lua">
+function onQuitGame( reason )
+    outputChatBox ( getPlayerName( source ).." has left the server ("..reason..")" )
+end
+addEventHandler( "onClientPlayerQuit", getRootElement(), onQuitGame )
+</syntaxhighlight>
+
+==See Also==
+===Client player events===
+{{Client_player_events}}
+===Client event functions===
+{{Client_event_functions}}

@@ -1,0 +1,10 @@
+{{Resource page}}
+The MTA Ingame Handling Editor (shortly hedit or ahe) is an open source resource being developed for the latest version of MTA.
+You can see and download the latest version on the [https://github.com/deltanic/hedit/#mta-ingame-handling-editor GitHub repository]. <br><br>
+The current version is 2.1. Version 3 is currently being worked on and is a complete rewrite of the system.
+
+'''[http://forum.mtasa.com/viewtopic.php?f=108&t=30494/ Be sure to see the forumtopic for all information!]'''
+
+[http://github.com/deltanic/hedit/ GitHub repository] - See and get the latest changes here. Look at the upcoming 3.0 edition.<br>
+[http://forum.mtasa.com/viewtopic.php?f=108&t=30494 Official Forum Topic] - The place for discussing this project.<br>
+[http://www.youtube.com/user/SilentStrikeMTA?feature=mhsn#p/p Youtube playlist] - Full playlist of all development video's of the handling editor.

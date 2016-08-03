@@ -1,0 +1,28 @@
+
+{{Server client function}}
+{{Deprecated|isElementFrozen}}
+
+This function retrieves whether the pedestrian is frozen or not.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool isPedFrozen ( ped thePed )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''thePed:''' The [[/ped.md|ped]] whose frozen state will be obtained.
+
+===Returns===
+Returns a bool indicating the pedestrians frozen state, or ''false'' if invalid arguments were passed.
+
+==Example== 
+This example adds a 'togglefreeze' console command that lets players alternate their frozen state.
+<syntaxhighlight lang="lua">
+function toggleFreeze ( sourcePlayer )
+    setPedFrozen ( sourcePlayer, not isPedFrozen ( sourcePlayer ) )
+end
+addCommandHandler ( "togglefreeze", toggleFreeze )
+</syntaxhighlight>
+
+==See Also==
+{{Ped functions}}

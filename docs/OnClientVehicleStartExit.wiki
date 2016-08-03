@@ -1,0 +1,32 @@
+{{Client event}}
+ 
+This event is triggered when a player starts exiting a vehicle. Once the exiting animation completes, [[/onClientVehicleExit.md|onClientVehicleExit]] is triggered.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+player thePlayer, int seat, int door
+</syntaxhighlight>
+*'''thePlayer:''' the player who started exiting the vehicle.
+*'''seat:''' the number of the seat that the player was sitting on.
+{{New feature/item|3.0110|1.1||
+*'''door:''' the number of the door that the player is using to leave.
+}}
+
+==Source==
+The source of this event is the vehicle that the player started to exit.
+
+==Example==
+This example outputs to the player that he's leaving the drivers seat.
+<syntaxhighlight lang="lua">function exitingVehicle(player, seat, door)
+	if (seat==0) and (door==0) then
+		outputChatBox("You are leaving the drivers seat.")
+	end
+end
+addEventHandler("onClientVehicleStartExit", getRootElement(), exitingVehicle)</syntaxhighlight>
+
+==See Also==
+===Client vehicle events===
+{{Client_vehicle_events}}
+===Client event functions===
+{{Client_event_functions}}
+[[/es:onClientVehicleStartExit.md|es:onClientVehicleStartExit]]

@@ -1,0 +1,30 @@
+
+{{client function}}
+{{Note|The camera rotation angle returned by this function is 360º - α (where α is the actual camera rotation angle). See example to know how to deal with this.}}
+This function gets the current camera rotation of a [[/ped.md|ped]].
+
+==Syntax==
+<syntaxhighlight lang="lua">
+float getPedCameraRotation( ped thePed )
+</syntaxhighlight>
+{{OOP||[[/ped.md|ped]]:getCameraRotation|cameraRotation|setPedCameraRotation}}
+
+===Required Arguments===
+*'''thePed:''' the [[/ped.md|ped]] to retrieve the camera rotation of.
+
+===Returns===
+Returns the camera rotation of the [[/ped.md|ped]] in degrees if successful. Returns ''false'' if an invalid element was passed.
+
+==Example==
+This example creates a '''/getrotation''' command which outputs the expected camera rotation of the player which types it.
+<syntaxhighlight lang="lua">
+addCommandHandler( "getrotation", 
+    function ()
+        local rot = 360 - getPedCameraRotation(localPlayer) -- Also fix the camera rotation
+        outputChatBox("Your camera rotation is " .. rotation .. "º", 0, 225 0)
+    end
+)
+</syntaxhighlight>
+
+==See Also==
+{{Client ped functions}}

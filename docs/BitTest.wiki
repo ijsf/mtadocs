@@ -1,0 +1,31 @@
+{{Server client function}}
+
+{{New feature/item|3.0132|1.3.2|5340|
+This function performs an AND-conjunction on two or more (unsigned) 32-bit [[/Int.md|integers]] and checks, whether the conjuncted value is zero or not. See [http://en.wikipedia.org/wiki/Bitwise_operation#AND Bitwise operation] for more details.
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool bitTest ( uint var1, uint var2, ... )
+</syntaxhighlight>
+
+===Required arguments===
+*'''varN:''' The value you want to perform the operation on (see above)
+
+===Returns===
+Returns ''true'' if the conjuncted value is '''not''' zero, ''false'' otherwise. If a bad argument was passed to [[/bitTest.md|bitTest]], you'll get ''nil''.
+
+==Example==
+<syntaxhighlight lang="lua">
+local flags = 0x23 -- binary: 100011b
+local mask = 0x20  -- binary: 100000b
+
+-- Check if bit 1 is set
+if bitTest(flags, mask) then
+    outputDebugString("Yeah. It's set")
+else
+    outputDebugString("I'm sorry ;(")
+end</syntaxhighlight>
+
+==See Also==
+{{Bit_functions}}

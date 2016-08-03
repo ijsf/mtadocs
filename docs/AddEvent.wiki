@@ -1,0 +1,44 @@
+ 
+{{Server client function}}
+This function allows you to register a custom [[/event.md|event]]. Custom events function exactly like the built-in events. See [[/event system.md|event system]] for more information on the event system.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool addEvent ( string eventName [, bool allowRemoteTrigger = false ] )   
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''eventName:''' The name of the event you wish to create.
+
+===Optional Arguments===
+*'''allowRemoteTrigger:''' A boolean specifying whether this event can be called remotely using [[/triggerClientEvent.md|triggerClientEvent]] / [[/triggerServerEvent.md|triggerServerEvent]] or not.
+
+===Returns===
+Returns ''true'' if the event was added successfully, ''false'' if the event was already added.
+
+==Example== 
+This example will define a new event called ''onSpecialEvent''.
+<syntaxhighlight lang="lua">
+-- Add a new event called onSpecialEvent
+addEvent ( "onSpecialEvent", true )
+
+-- Define our handler function, that takes a "text" parameter and outputs it to the chatbox
+function specialEventHandler ( text )
+	outputChatBox ( text )
+end
+
+-- Add it as a handler for our event
+addEventHandler ( "onSpecialEvent", getRootElement(), specialEventHandler )
+</syntaxhighlight>
+
+You can then trigger this event later on using:
+<syntaxhighlight lang="lua">
+	triggerEvent ( "onSpecialEvent", getRootElement(), "test" )
+</syntaxhighlight>
+
+This will cause the handler to be triggered, so "test" will be output to the chatbox.
+
+==See Also==
+{{Event functions}}
+
+[[/ru:addEvent.md|ru:addEvent]]

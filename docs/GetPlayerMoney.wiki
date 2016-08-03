@@ -1,0 +1,44 @@
+ 
+{{Server client function}}
+Returns the amount of money a player currently has.
+
+'''Note:''' The amount may vary between the server and client, you shouldn't trust the client side value to always be accurate.
+
+==Syntax== 
+<section show="true" name="Server" class="server">
+<syntaxhighlight lang="lua">int/bool getPlayerMoney ( player thePlayer )</syntaxhighlight> 
+{{OOP||[[/player.md|player]]:getMoney|money|setPlayerMoney}}
+===Required Arguments=== 
+*'''thePlayer:''' The player you wish the retrieve the amount of money from.
+
+===Returns===
+Returns an integer with the amount of money the specified player has, ''false'' if the player is invalid.
+</section>
+
+<section show="true" name="Client" class="client">
+<syntaxhighlight lang="lua">int getPlayerMoney ( )</syntaxhighlight> 
+{{OOP||[[/Player.md|Player]].getMoney||setPlayerMoney}}
+===Returns===
+Returns an integer with the amount of money the local player has.
+</section>
+
+==Example==
+<section show="true" name="Server" class="server">
+When a player types '/checkMoney' this example retrieves the player's money and outputs a message according to the value.
+<syntaxhighlight lang="lua">
+function checkMoney(thePlayer, command)
+	local money = getPlayerMoney(thePlayer)                                -- get the amount of money from the player who entered the command
+	if (money > 1000) then                                                 -- if money is more than 1000
+		outputChatBox("You are rich: " .. tostring(money), thePlayer)  -- output this message together with the money
+ 	else
+		outputChatBox("Poor guy...", thePlayer)                        -- and else, output this message
+	end
+end
+addCommandHandler("checkMoney", checkMoney)                                    -- add the console command
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Player functions}}
+
+[[/ru:getPlayerMoney.md|ru:getPlayerMoney]]

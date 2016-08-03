@@ -1,0 +1,29 @@
+ 
+{{Client function}}
+This function retrieves the ID of the currently active radio channel.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+int getRadioChannel ( )             
+</syntaxhighlight> 
+
+===Returns===
+Returns the ID of the radio channel.
+{{SoundID}}
+
+==Example==
+This example prints out the name of your current radio station to the chat box.
+<syntaxhighlight lang="lua">
+addCommandHandler ( "getradio",
+    function ()
+        outputChatBox ( "You're currently listening to " .. getRadioChannelName ( getRadioChannel() ) .. "!" )
+    end
+)
+</syntaxhighlight>
+
+==See Also==
+
+{{Client_audio_functions}}
+[[/AR:getRadioChannel.md|AR:getRadioChannel]]
+[[/RU:GetRadioChannel.md|RU:GetRadioChannel]]
+[[/PL:GetRadioChannel.md|PL:GetRadioChannel]]

@@ -1,0 +1,32 @@
+ 
+{{Client function}}
+Returns the states of all effects of a sound.
+
+==Syntax== 
+<syntaxhighlight lang="lua">table getSoundEffects ( element sound )</syntaxhighlight> 
+{{OOP||[[/sound.md|sound]]:getEffects}}
+===Required Arguments=== 
+*'''sound:''' a [[/sound.md|sound]] element.
+
+===Returns===
+Returns a [[/table.md|table]] with the effect names as the keys, and their states as the values if successful. Otherwise, it returns ''false''.
+
+'''Sound effect names:'''
+{{Sound_Effects}}
+
+==Example== 
+<syntaxhighlight lang="lua">
+function switchEffects(sound)
+	for _,v in ipairs(getSoundEffects(sound)) do -- Go through the whole list of sound effects for the sound
+		if v == "gargle" then -- If the sound effect is 'gargle', proceed
+			setSoundEffectEnabled(sound, "gargle", false) -- Disable the 'gargle' -effect
+		end
+	end
+end
+</syntaxhighlight>
+
+==See Also==
+{{Client_audio_functions}}
+
+[[/ar:getSoundEffects.md|ar:getSoundEffects]]
+[[/de:getSoundEffects.md|de:getSoundEffects]]

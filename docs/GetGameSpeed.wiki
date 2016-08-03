@@ -1,0 +1,25 @@
+{{Server client function}}
+
+This function gets the current game speed value.
+
+==Syntax==
+<syntaxhighlight lang="lua">float getGameSpeed ( )</syntaxhighlight>
+
+===Returns===
+Returns a ''float'' representing the speed of the game.
+
+==Example==
+<section name="Server and Client" class="both" show="true">
+This example adds a 'gamespeed' console command that prints the game speed to the chatbox.
+<syntaxhighlight lang="lua">
+function gameSpeedValue( )
+    local speed = getGameSpeed( )
+    outputChatBox( "Game speed is currently set to " .. speed .. "." )
+end
+addCommandHandler( "gamespeed", gameSpeedValue )
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{World functions}}
+[[/ru:getGameSpeed.md|ru:getGameSpeed]]

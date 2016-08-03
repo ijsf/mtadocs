@@ -1,0 +1,40 @@
+
+{{Client event}}
+
+This event is triggered whenever a ped dies.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+element killer, int weapon, int bodypart, float loss
+</syntaxhighlight> 
+
+*'''killer''': A [[/player.md|player]] [[/element.md|element]] representing the killer.
+*'''weapon''': An integer representing the [[/Weapons.md|killer weapon]] or the [[/Death_Reasons.md|death reason]].
+*'''bodypart''': An integer representing the bodypart the player was damaged.
+{{BodyParts}}
+*'''loss''': A float representing the percentage of health the ped lost in the final "hit".
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/ped.md|ped]] that died.
+
+==Example==
+<section name="Client" class="client" show="true">
+This example outputs a message every time a player kills another player.
+<syntaxhighlight lang="lua">
+-- define the event handler function
+function onWasted(killer, weapon, bodypart)
+    if ( killer and getElementType(killer) == "player" and getElementType(source) == "player" ) then
+        outputChatBox(getPlayerName(killer).." has killed ".. getPlayerName(source) ..".") -- output the kill message to the chatbox.
+    end
+end
+
+-- add the event handler
+addEventHandler("onClientPedWasted", getRootElement(), onWasted)
+</syntaxhighlight>
+</section>
+
+==See Also==
+===Client ped events===
+{{Client_ped_events}}
+===Client event functions===
+{{Client_event_functions}}

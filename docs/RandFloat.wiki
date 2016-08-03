@@ -1,0 +1,18 @@
+
+{{Server function}}
+{{Deprecated|math.random}}
+
+This function generates a random number between 0 and 1.
+
+==Syntax==
+<syntaxhighlight lang="lua">float randFloat ()</syntaxhighlight>
+
+===Returns===
+Returns a random number between 0 and 1 in a float.
+
+==Example==
+This example outputs a random number in the chat box.
+<syntaxhighlight lang="lua">outputChatBox ( "Random float: " .. randFloat () )</syntaxhighlight>
+
+==See Also==
+{{Utility functions}}

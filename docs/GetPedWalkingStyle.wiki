@@ -1,0 +1,17 @@
+
+{{Server client function}}
+{{New feature/item|3.0141|1.4.1|6945|Returns the walking style ID of a ped. This ID determines the set of animations that is used for walking, running etc.}}
+
+==Syntax==
+<syntaxhighlight lang="lua">int getPedWalkingStyle ( ped thePed )</syntaxhighlight>
+{{OOP||[[/Ped.md|ped]]:getWalkingStyle|walkingStyle|setPedWalkingStyle}}
+===Required Arguments===
+*'''thePed:''' the ped whose walking style to retrieve.
+
+===Returns===
+Returns the walking style ID if successful, ''false'' otherwise. The possible walking styles are as follows:
+
+{{Ped walking styles}}
+
+==See Also==
+{{Ped functions}}

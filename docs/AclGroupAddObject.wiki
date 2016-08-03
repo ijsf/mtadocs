@@ -1,0 +1,47 @@
+ 
+{{Server function}}
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This function adds an object to the given ACL group. An object can be a player's account, specified as:
+  ''user.<accountname>''
+
+Or a resource, specified as:
+  ''resource.<resourcename>''
+
+Objects are specified as strings. The ACL groups work for the user accounts and the resources that are specified in them.
+
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+bool aclGroupAddObject ( aclgroup theGroup, string theObjectName )
+</syntaxhighlight> 
+{{OOP||[[/aclgroup.md|aclgroup]]:addObject||}}
+===Required Arguments=== 
+<!-- List each argument one per line. This should be the argument's name as in the argument list above, NOT the argument's data type -->
+*'''theGroup:''' The group to add the object name string too.
+*'''theObjectName:''' The object string to add to the given ACL.
+
+===Returns===
+<!-- Make this descriptive. Explain what cases will return false. If you're unsure, add a tag to it so we can check -->
+Returns ''true'' if the object was successfully added to the ACL, ''false'' if it already existed in the list.
+
+==Example== 
+<!-- Explain what the example is in a single sentance -->
+This example makes every player able to use a command named "giveAccountAdminRights" that will add a specific accountname as an ACL object to the "Admin" group.
+<!-- Add the code below, an emphasis should be on making it clear, not optimized. You could provide two versions if you wish, one clear and well commented, the other optimized -->
+<syntaxhighlight lang="lua">
+function giveAdminRights (playerSource, commandName, accountName) --add the function giveAdminRights and specify its arguments
+	if accountName then --if there was an accountName entered then
+		aclGroupAddObject (aclGetGroup("Admin"), "user."..accountName) --add an ACL object using the form "user.[accountName]" to the ACL group "Admin"
+		outputChatBox ("Account '"..accountName.."' succesfully added to the admin group", playerSource) --output a notification to the player who entered the command that the acocunt was successfully added
+	else --else output an error message and the correct syntax of the command to the player who entered it
+		outputChatBox ("No account name specified.", playerSource)
+		outputChatBox ("Correct syntax: /giveAccountAdminRights [accountName]", playerSource)
+	end
+end
+
+addCommandHandler ("giveAccountAdminRights", giveAdminRights) --add a command "giveAccountAdminRights" and attch the function "giveAdminRights" to it 
+</syntaxhighlight>
+
+==See Also==
+<!-- Change FunctionArea to the area that this function is in on the main function list page, e.g. Server, Player, Vehicle etc -->
+{{ACL_functions}}

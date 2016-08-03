@@ -1,0 +1,38 @@
+{{Module_Info|
+  name           = MTA Curl |
+  version        = 1.2 |
+  author         = [[/User:mrdejong.md|Alexander de Jong (mrdejong)]] |
+  module_website = ''[https://github.com/mrdejong/mta_curl Here]'' |
+  download_link  = ''[https://dl.dropboxusercontent.com/u/10711598/mta_curl/1.4/mta_curl_win32.zip]'' |
+  license        = [http://www.opensource.org/licenses/bsd-license.php BSD] |
+  written_in     = C++ |
+  operating_system = Windows|
+  compatible_with = 1.3.0, 1.3.1, 1.3.2, 1.3.5 |
+}}
+MTA Curl module is a handy module to make restful api web calls. You could do everything with it.
+
+The module is based on php cURL module.
+
+If you found any bugs, please post them on the [[/https://github.com/mrdejong/mta_curl/issues.md|github page]]
+
+You can find the source at the [[/https://github.com/mrdejong/mta_curl.md|github repository]]
+
+Update 22-6-2014
+
+Released version 1.4;
+
+This release changed the function name syntax to adobt the mta syntax.
+
+==cURL functions==
+{{Modules/cURL/functions}}
+
+==cURL variables==
+{{Modules/cURL/variables}}
+
+[[/Category:Modules.md|Category:Modules]]
+
+[[/ru:Modules/cURL.md|ru:Modules/cURL]]
+
+
+==Changelog==
+{{Modules/cURL/changelog}}

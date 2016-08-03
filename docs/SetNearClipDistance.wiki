@@ -1,0 +1,21 @@
+ 
+{{Client function}}
+{{New feature/item|3.0141|1.4.1|6948|This function sets the distance from the [[/camera.md|camera]] at which the world starts rendering. Do not use this function unless you have a specific reason to do so, as any values can cause artifacts and flickering problems. It can be used in many ways, including: reducing Z-fighting, creating more sophisticated first person views, allowing the camera to fly closer to the ground without passing through it, etcetera.}}
+
+{{Note|[[/setNearClipDistance.md|setNearClipDistance]] should only be used when the camera orientation is controlled by [[/setCameraMatrix.md|setCameraMatrix]], because GTA automatically adjusts this value for the optimum setting when the camera is attached to a player. Therefore ensure [[/resetNearClipDistance.md|resetNearClipDistance]] is called when returning camera control back to GTA.}}
+
+==Syntax== 
+<syntaxhighlight lang="lua">bool setNearClipDistance ( float distance )</syntaxhighlight> 
+
+===Required arguments=== 
+*'''distance:''' the new near clip distance. It must be between '''0.1''' and '''20''' for the function to do any effect. Default value is '''0.3'''.
+
+===Returns===
+This function returns ''true'' if the argument is valid. Returns ''false'' otherwise.
+
+==Example==
+This example allows the camera to be nearer to ground level without viewing what is under it.
+<code>setNearClipDistance(0.1) -- Start rendering things three times nearer than usual to archieve the effect described above</syntaxhighlight>
+
+==See also==
+{{Client world functions}}

@@ -1,0 +1,35 @@
+{{ml_irc}}
+
+{{ModuleFunction|SebasIRC}}
+This function joins the bot a channel (, with a password).
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool ircJoin(string channel [, string password])
+</syntaxhighlight>
+
+===Required arguments===
+* '''channel:''' The channel name.
+
+===Optional Arguments===
+* '''password:''' The channel password.
+
+===Returns===
+''True'' if joined, otherwise ''false''.
+
+==Example==
+<syntaxhighlight lang="lua">
+addEventHandler("onResourceStart", getResourceRootElement(),
+  function()
+    local connect = ircConnect("irc.mtasa.com", 6667, "MTABot")
+    if connect then
+      ircJoin("#mta.test")
+    end
+  end
+)
+</syntaxhighlight>
+
+[[/pl:Modules/SebasIRC/ircJoin.md|pl:Modules/SebasIRC/ircJoin]]
+
+==See also==
+{{Modules/SebasIRC/Functions}}

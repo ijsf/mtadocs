@@ -1,0 +1,39 @@
+ 
+{{server function}}
+Used to check the last starting time and date of a resource
+
+==Syntax== 
+{{New feature/item|3|1.0|840|
+<syntaxhighlight lang="lua">
+int getResourceLastStartTime ( resource theResource )
+</syntaxhighlight>
+}}
+{{Deprecated_feature|3|1.0|
+<syntaxhighlight lang="lua">
+string/number getResourceLastStartTime ( resource theResource )
+</syntaxhighlight>
+}} 
+
+===Required Arguments=== 
+*'''theResource:''' The resource of which you'd like to check the last starting time.
+
+===Returns===
+{{New feature/item|3|1.0|840|
+If successful, returns the UNIX timestamp when the resource was last started, or the string "never" if the resource has not been started yet, otherwise false. Use in conjunction with [[/getRealTime.md|getRealTime]] in order to retrieve detailed information. 
+
+}}
+{{Deprecated_feature|3|1.0|
+Returns a string with the time and date, or false if the resource does not exist.
+}}
+
+==Example== 
+This function outputs to chatbox when the current resource was started.
+<syntaxhighlight lang="lua">
+function whenStarted()
+    local startTime = getResourceLastStartTime ( getThisResource() )    --Get the time and date
+    outputChatBox( "This resource was started on: " .. startTime )    --tell everybody when the current resource was started.
+end
+</syntaxhighlight>
+
+==See Also==
+{{Resource functions}}

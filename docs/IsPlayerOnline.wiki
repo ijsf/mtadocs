@@ -1,0 +1,26 @@
+{{Useful Function}}
+{{Delete|Basically an inefficient version of getPlayerFromName not useful at all.}} 
+
+This function checks if a player is online. <br>
+
+==Syntax==
+<syntaxhighlight lang="lua">bool isPlayerOnline( string playerToCheck )</syntaxhighlight>
+
+===Required Arguments===
+* '''playerToCheck''': The players name to check.
+
+===Returns===
+Returns true if player is online else false.
+
+==Code==
+<syntaxhighlight lang="lua">
+function isPlayerOnline ( name )  
+    if isElement(getPlayerFromName(name)) then
+        return true
+    end
+    return false
+end
+</syntaxhighlight>
+
+==See Also==
+{{Useful_Functions}}

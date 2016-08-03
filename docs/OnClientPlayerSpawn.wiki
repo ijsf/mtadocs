@@ -1,0 +1,31 @@
+{{Client event}}
+ 
+This event is triggered when any player, including a remote player, spawns.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+team hisTeam
+</syntaxhighlight> 
+
+*'''hisTeam''': A team element representing the team the player spawned on.
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/player.md|player]] that spawned.
+
+==Example== 
+This code will create an explosion for the local player when they spawn.
+<syntaxhighlight lang="lua">function explosionOnSpawn ( )
+  -- get the spawned player's position
+  local pX, pY, pZ = getElementPosition ( source )
+  -- and create an explosion there
+  createExplosion ( pX, pY, pZ, 6 )
+end
+-- add this function as a handler for any player that spawns
+addEventHandler ( "onClientPlayerSpawn", getLocalPlayer(), explosionOnSpawn )
+</syntaxhighlight>
+
+==See Also==
+===Client player events===
+{{Client_player_events}}
+===Client event functions===
+{{Client_event_functions}}

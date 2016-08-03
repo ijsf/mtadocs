@@ -1,0 +1,18 @@
+<pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass>
+
+{{ModuleFunction|MTA-MySQL}}
+Sets the field cursor of a result in the given field offset. The offset must be a value between '''1''' and '''[[/Modules/MTA-MySQL/mysql_num_fields.md|mysql_num_fields()]]'''.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+int mysql_field_seek ( MySQLResult result, int offset )
+</syntaxhighlight>
+===Required arguments===
+* '''result:''' A valid MySQL result
+* '''offset:''' A valid field offset
+
+===Returns===
+The previous field cursor.
+
+==See also==
+{{Modules/MTA-MySQL/Result_functions}}

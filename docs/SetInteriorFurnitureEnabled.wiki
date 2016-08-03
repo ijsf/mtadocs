@@ -1,0 +1,35 @@
+
+{{Client function}}
+{{New feature/item|9.06101|1.3.5|6101|
+This function toggles furniture generation in interiors with the specified room ID.
+}}
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool setInteriorFurnitureEnabled ( int roomID, bool enabled )          
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''roomID:''' The room type which you want disable or enable the furniture in:
+** '''0''': shop
+** '''1''': office
+** '''2''': lounge
+** '''3''': bedroom
+** '''4''': kitchen
+*'''enabled''': A bool representing whether the interior furniture is enabled or disabled.
+
+===Returns===
+Returns ''true'' if successful, ''false'' otherwise.
+
+==Example== 
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+-- Disable furnishing for all rooms
+for i = 0, 4 do
+    setInteriorFurnitureEnabled(i, false)
+end
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{World functions}}

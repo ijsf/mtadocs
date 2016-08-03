@@ -1,0 +1,121 @@
+{{Server_client_function}}
+ 
+This function is used to retrieve a list of all elements of the specified type. This can be useful, as it disregards ''where'' in the element tree it is. It can be used with either the built in types (listed below) or with any custom type used in a .map file. For example, if there is an element of type "flag" (e.g. <flag />) in the .map file, the using "flag" as the type argument would find it.
+
+==Syntax== 
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">
+table getElementsByType ( string theType, [ element startat=getRootElement() ] ) 
+</syntaxhighlight>
+</section>
+
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+table getElementsByType ( string theType, [ element startat=getRootElement(), bool streamedIn=false ] ) 
+</syntaxhighlight>
+</section>
+
+{{OOP|This function is a static function underneath the Element class.|[[/Element.md|Element]].getAllByType||}}
+
+===Required Arguments=== 
+*'''theType:''' The type of element you want a list of. This is the same as the tag name in the .map file, so this can be used with a custom element type if desired. Built in types are:
+**'''"player":''' A player connected to the server
+**'''"ped":''' A ped
+**'''"water":''' A water polygon
+**'''"sound":''' A playing sound
+**'''"vehicle":''' A vehicle
+**'''"object":''' An object
+**'''"pickup":''' A pickup
+**'''"marker":''' A marker
+**'''"colshape":''' A collision shape
+**'''"blip":''' A blip
+**'''"radararea":''' A radar area
+**'''"team":''' A team
+**'''"spawnpoint":''' A spawnpoint
+**'''"remoteclient":''' A remote client connected to the server
+**'''"console":''' The server Console
+**'''"projectile":''' A clientside projectile
+**'''"effect":''' A clientside effect
+**'''"light":''' A clientside light
+**'''"searchlight":''' A clientside searchlight
+**'''"shader":''' A shader
+**'''"texture":''' A texture
+
+
+==Optional Arguments==
+{{OptionalArg}}
+*'''startat:''' The [[/element.md|element]] the search should start at. Children of this element are searched, siblings or parents will not be found. By default, this is the root element which should suit most uses.
+
+<section name="Client" class="client" show="true">
+*'''streamedIn:''' If true, function will only return elements that are streamed in.
+</section>
+
+===Returns===
+Returns a ''table'' containing all the elements of the specified type. Returns an empty ''table'' if there are no elements of the specified type. Returns ''false'' if the string specified is invalid (or not a string).
+
+==Example== 
+'''Example 1:''' This example retrieves a table of the players in the server, and checks whether or not each one is in a vehicle:
+<syntaxhighlight lang="lua">
+local players = getElementsByType ( "player" ) -- get a table of all the players in the server
+for theKey,thePlayer in ipairs(players) do -- use a generic for loop to step through each player
+   if ( isPlayerInVehicle ( thePlayer ) ) then -- if the player is in a vehicle, announce it
+      outputChatBox ( getPlayerName ( thePlayer ) .. " is in a vehicle" )
+   else -- if the player isn't in a vehicle, announce that he/she is on foot
+      outputChatBox ( getPlayerName ( thePlayer ) .. " is on foot" )
+   end
+end
+</syntaxhighlight>
+
+'''Example 2:''' This example retrieves a table of the teams in the server, and display them in chat:
+<syntaxhighlight lang="lua">
+local teams = getElementsByType("team")
+for i,team in ipairs(teams) do
+   local teamName = getTeamName(team) -- get the team name
+   outputChatBox(teamName) -- display the team name in chat
+end
+</syntaxhighlight>
+
+'''Example 3:''' This shows how you could create a new element to describe a gas station:
+<syntaxhighlight lang="lua">
+function createGasStations(below)
+    local gasstations = getElementsByType ( "gasstation", below ) -- get a table of all the gas station elements in the element tree
+    for theKey,theGasStation in ipairs(gasstations) do 
+        local x = getElementData(theGasStation, "posX") -- get the position of the element
+        local y = getElementData(theGasStation, "posY")
+        local z = getElementData(theGasStation, "posZ")
+        setElementParent(createColSphere(x, y, z, 10), theGasStation) -- create a colshape for the gas station at the gas station's position
+        addEventHandler("onColShapeHit", theGasStation, giveGas) -- when the player hits
+    end
+end
+
+function mapLoad()
+    createGasStations(source) -- create gas stations for the map that's just loaded
+end
+addEventHandler("onResourceStart", resourceRoot, mapLoad)
+
+function giveGas(hittingElement)
+    local theGasStation = source
+    if getElementType(hittingElement) == "vehicle" then
+        local gas_left = getElementData(theGasStation, "amount")
+        local gas_speed = getElementData(theGasStation, "speed")
+        if gas_left > 0 then
+
+            local gas_to_remove = gas_speed 
+            if gas_left < gas_speed then
+                gas_to_remove = gas_left
+
+            local current_vehicle_gas = getElementData(hittingElement, "gas")
+            current_vehicle_gas = current_vehicle_gas + gas_to_remove
+            gas_left = gas_left - gas_to_remove
+
+            setElementData(hittingElement, "gas", current_vehicle_gas)
+            setElementData(theGasStation, "amount", gas_left)
+        else
+            outputChatBox("Pump is out of gas!")
+        end
+    end
+end
+</syntaxhighlight>
+
+==See Also==
+{{Element_functions}}

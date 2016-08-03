@@ -1,0 +1,35 @@
+ 
+{{Server function}}
+{{Disabled|This function doesn't work actually. See [[/#Issues.md|issues]] for more information.}}
+This function is used to remove a default setting from specified [[/resource.md|resource]].
+<!-- What are default settings? -->
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool removeResourceDefaultSetting ( resource theResource, string settingName ) 
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''theResource:''' the resource which setting is to be removed
+*'''settingName:''' name of the default setting which is to be removed
+
+===Returns===
+Returns ''true'' if the default setting was successfully removed, ''false'' otherwise.
+
+==Example==
+This example would check if the server has the freeroam resource and removes the default settings called "spawnmaponstart".
+<syntaxhighlight lang="lua">addEventHandler("onResourceStart",resourceRoot,function()
+	local freeroamRes = getResourceFromName("Freeroam")
+	if(freeroamRes)then
+		removeResourceDefaultSetting(freeroamRes,"spawnmaponstart")
+	end
+end)
+</syntaxhighlight>
+
+==Issues==
+{{Issues|
+{{Issue|5254|Does not work functions setResourceDefaultSetting and removeResourceDefaultSetting}}
+}}
+
+==See Also==
+{{Resource_functions}}

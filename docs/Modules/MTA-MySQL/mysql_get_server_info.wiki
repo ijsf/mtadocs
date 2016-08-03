@@ -1,0 +1,18 @@
+<pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass>
+
+{{ModuleFunction|MTA-MySQL}}
+Returns a string that represents the server version number.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+string mysql_get_server_info ( MySQLConnection handler )
+</syntaxhighlight>
+
+===Required arguments===
+* '''handler:''' A valid MySQL link
+
+===Returns===
+A string that represents the server version number.
+
+==See also==
+{{Modules/MTA-MySQL/Handler_functions}}

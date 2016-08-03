@@ -1,0 +1,34 @@
+
+{{Client function}}
+This function gets the total ammo a [[/Element/Weapon.md|custom weapon]] has.
+
+==Syntax==
+<syntaxhighlight lang="lua">int getWeaponAmmo ( weapon theWeapon )</syntaxhighlight>
+{{OOP||[[/Element/Weapon.md|weapon]]:getAmmo|ammo|setWeaponAmmo}}
+
+===Required arguments===
+* '''theWeapon''': The weapon to get the ammo of.
+
+===Returns===
+Returns an [[/int.md|integer]] containing how many ammo left has the weapon. Returns ''false'' if an error occured.
+
+==Example==
+This example gets the ammo of the custom weapon and outputs it to the chatbox.
+<syntaxhighlight lang="lua">
+function createCustomWeapon()
+   local position = Vector3(getElementPosition(localPlayer)) -- get the localPlayer position
+   local weapon = createWeapon ("m4",position.x,position.y,position.z) -- Create the weapon
+     if weapon then -- If the weapon exist then
+       setWeaponAmmo(weapon,5000) 
+       local ammo = getWeaponAmmo(weapon)  
+       outputChatBox("Total ammo: "..ammo) -- output to the chatbox
+    end 
+end 
+addCommandHandler("weapon",createCustomWeapon)
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|n/a|1.3.0-9.04555|}}
+
+==See also==
+{{Client weapon creation functions}}

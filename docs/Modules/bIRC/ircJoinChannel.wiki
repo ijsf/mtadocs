@@ -1,0 +1,37 @@
+{{ml_birc}}
+
+This function can be used to join a channel. Note that a delay of 2-3 seconds should be used before calling this function inside callback {{ml_birc|event_ircOnJoinChannel}}.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool ircJoinChannel ( ircbot theBot, string channel, [ string key = "" ] )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''theBot:''' The ircbot which is going to join the channel
+*'''channel:''' The channel which the ircbot will connect to
+
+===Optional Arguments===
+{{OptionalArg}}
+*'''key:''' The key (password) for the channel. Needs to be specified for channels which have key set
+
+===Returns===
+Returns ''true'' if passed arguments were valid, ''false'' otherwise.<br>
+'''Note:''' Does not return ''true'' if ircbot successfully joined or ''false'' if the bot failed to join the channel. You can check if the bot joined the channel by using callback {{ml_birc|event_ircOnJoinChannel}}.
+
+==Example==
+This example creates an ircbot called ''DummyBot'' makes it connect to a server and join a channel called ''#testchannel'' after it has connected.
+<syntaxhighlight lang="lua">
+function resourceStart ( )
+    theBot = ircCreateBot ( "DummyBot" )
+    ircConnect ( theBot, "irc.gtanet.com", 6667 )
+end
+addEventHandler ( "onResourceStart", getResourceRootElement ( getThisResource() ), resourceStart )
+
+function event_ircOnConnect ( theBot )
+    setTimer ( ircJoinChannel, 2000, 1, theBot, "#testchannel" )
+end
+</syntaxhighlight>
+
+==See Also==
+{{ml_birc functions}}

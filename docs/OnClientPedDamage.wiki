@@ -1,0 +1,40 @@
+
+{{Client event}}
+This event is triggered whenever a [[/ped.md|ped]] is damaged.
+{{Note|This event is only triggered for peds that are streamed in}}
+==Parameters==
+<syntaxhighlight lang="lua">
+element attacker, int weapon, int bodypart [, float loss ]
+</syntaxhighlight> 
+
+*'''attacker''': A [[/player.md|player]] [[/element.md|element]] representing the attacker or [[/vehicle.md|vehicle]] [[/element.md|element]] (when a ped falls of a bike).
+*'''weapon''': An integer representing the weapon ID the attacker used
+*'''bodypart''': An integer representing the bodypart the ped was damaged
+{{BodyParts}}
+*'''loss''': A float representing the percentage of health the ped lost.
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/ped.md|ped]] that got damaged
+
+==Cancel effect==
+If this event is [[/Event_system#Canceling.md|canceled]], then any damaging effects to the ped will cease.
+
+==Example== 
+This example cancels any damage done to peds
+<syntaxhighlight lang="lua">
+function cancelPedDamage ( attacker )
+	cancelEvent() -- cancel any damage done to peds
+end
+addEventHandler ( "onClientPedDamage", getRootElement(), cancelPedDamage )
+</syntaxhighlight>
+
+==Issues==
+{{Issues|
+{{Issue|8082|Custom weapons don't fully work with onClientPlayerDamage}}
+}}
+
+==See Also==
+===Client ped events===
+{{Client_ped_events}}
+===Client event functions===
+{{Client_event_functions}}

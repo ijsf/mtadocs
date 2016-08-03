@@ -1,0 +1,42 @@
+{{Useful Function}}
+
+This function returns true if the player is in the ACL group, false if otherwise.<br>
+
+==Syntax==
+<syntaxhighlight lang="lua">bool isPlayerInACL ( player thePlayer, string ACLGroup )</syntaxhighlight>
+
+===Required Arguments===
+* '''thePlayer''': The player element that you want to check
+* '''ACLGroup''': The name of the ACL group that you want to check
+
+'''Important Note''': This function will only work on the server-side.
+
+===Returns===
+Returns true if the player's account is in the ACL, false if otherwise.
+
+==Code==
+<syntaxhighlight lang="lua">
+function isPlayerInACL ( player, acl )
+	local account = getPlayerAccount ( player )
+	if ( isGuestAccount ( account ) ) then
+		return false
+	end
+        return isObjectInACLGroup ( "user."..getAccountName ( account ), aclGetGroup ( acl ) )
+end
+</syntaxhighlight>
+
+==Example==
+This is an example of the function.
+<syntaxhighlight lang="lua">function checkAccess(thePlayer)
+ if isPlayerInACL(thePlayer, "Console") then
+  outputChatBox("Access Granted!")
+   else
+  outputChatBox("Access Denied!")
+ end
+end
+addCommandHandler("myaccess", checkAccess)</syntaxhighlight>
+<br>
+xXMADEXx <br>
+
+==See Also==
+{{Useful_Functions}}

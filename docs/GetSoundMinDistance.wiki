@@ -1,0 +1,28 @@
+ 
+{{Client function}}
+Gets a custom [[/sound.md|sound]] Minimum distance at which the sound stops getting louder.
+
+==Syntax== 
+<syntaxhighlight lang="lua">int getSoundMinDistance ( element sound )</syntaxhighlight> 
+{{OOP||[[/sound.md|sound]]:getMinDistance|minDistance|setSoundMinDistance}}
+===Required Arguments=== 
+*'''sound:''' a [[/sound.md|sound]] element.
+
+===Returns===
+Returns an ''integer'' of the minimum distance, ''false'' if invalid arguements where passed.
+
+==Example== 
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+local sound = playSound3D("sounds/song.mp3", 373.14, -125.21, 1001, true)
+
+function distanceFunc()
+  outputChatBox("Minimum distance: "..getSoundMinDistance(sound))
+end
+addCommandHandler("getdistance", distanceFunc)
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Client_audio_functions}}
+[[/AR:getSoundMinDistance.md|AR:getSoundMinDistance]]

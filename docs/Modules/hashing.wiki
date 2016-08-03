@@ -1,0 +1,39 @@
+{{Outdated|MTA now supports generic hashing using the [[/hash.md|hash]] function}}
+{{Module_Info|
+  name           = Hashing string (alder32, md5) |
+  version        = 1.1 |
+  author         = [http://forum.mtasa.com/memberlist.php?mode=viewprofile&u=19953 50p] |
+  module_website = ''Not available'' |
+  download_link  = [http://y50p.50g.com/archives/mta/hashing.rar Here] |
+  license        = [http://www.opensource.org/licenses/bsd-license.php BSD] |
+  written_in     = C++ |
+  operating_system = Windows only |
+  compatible_with = Unknown |
+}}
+This is hashing string module. It uses 2 algorithms of hashing. One is alder32 (which is not actually the real alder32 algorithm, I do not recommend using it) and one is MD5. Using MD5 you get 32-characters long hexadecimal number.
+
+CURRENTLY IT'S ONLY FOR WINDOWS SERVERS.
+
+==Installation==
+===Windows===
+
+'''* Important *'''
+
+This module was compiled in Visual C++ 2008, as such it requires Visual C++ 2008 or the Visual C++ 2008 runtime libraries which are considerably smaller. You can get this ~1.8MB Installation package [http://www.microsoft.com/downloads/details.aspx?familyid=9B2DA534-3E03-4391-8A4D-074B9F2BC1BF&displaylang=en Here].
+
+
+
+Uncompress the file hashing.dll into your ''C:\Program Files\MTA San Andreas\server\mods\deathmatch\modules\'' directory.
+
+Then, add the following line in mtaserver.conf:
+<syntaxhighlight lang="xml">
+  <module file="hashing.dll" />
+</syntaxhighlight>
+
+
+==Functions==
+{{Modules/hashing/functions}}
+
+[[/Category:Modules.md|Category:Modules]]
+
+[[/ru:Modules/hashing.md|ru:Modules/hashing]]

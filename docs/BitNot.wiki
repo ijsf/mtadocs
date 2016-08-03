@@ -1,0 +1,33 @@
+{{Server client function}}
+
+{{New feature/item|3.0132|1.3.2|5340|
+This function performs a bitwise NOT on an (unsigned) 32-bit [[/Int.md|integer]]. See [http://en.wikipedia.org/wiki/Bitwise_operation#NOT Bitwise operation] for more details.
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+uint bitNot ( uint var )
+</syntaxhighlight>
+
+===Required arguments===
+*'''var:''' The value you want to perform a bitwise NOT on
+
+===Returns===
+Returns the value on which the operation has been performed.
+
+==Example==
+<section name="server" class="server" show="true">
+--In this example we make a command which you can do a bitNot operator
+<syntaxhighlight lang="lua">
+function bitnot(thePlayer,cmd,value)
+
+    outputChatBox(bitNot(value),thePlayer)
+
+end
+
+addCommandHandler("bitnot",bitnotFunc)
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Bit_functions}}

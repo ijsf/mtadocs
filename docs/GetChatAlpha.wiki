@@ -1,0 +1,24 @@
+ 
+{{Client function}}
+{{Disabled|This function doesn't exists. See issue 7698 on bugtracker.}}
+This function returns the global alpha value of the in-game chat. The alpha value applies to text output, input line and background colors.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+float getChatAlpha ()
+</syntaxhighlight> 
+
+===Returns===
+Returns a floating point value between 0 and 255.
+
+===Example===
+''... see [[/setChatAlpha.md|setChatAlpha]] ...''
+
+==Issues==
+{{Issues|
+{{Issue|7690|[Request] setChatboxAlpha()}}
+{{Issue|7698|setChatAlpha, getChatAlpha}}
+}}
+
+==See Also==
+{{GUI_functions}}

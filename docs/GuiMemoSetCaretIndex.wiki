@@ -1,0 +1,24 @@
+ 
+{{Client function}}
+This function sets the current position of the caret (the text cursor) within the memo.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool guiMemoSetCaretIndex ( gui-memo theMemo, int index )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''theMemo:''' The memo edit box where the caret position is to be changed.
+*'''index:''' An integer referring to the desired character position within the box. 0 would be before the first character in the box, 1 before the second, etc.
+
+===Returns===
+Returns ''true'' if the caret was successfully moved, ''false'' otherwise.
+
+==Example==
+This example would create a memo and set the caret before the "H" in "Hi".
+<syntaxhighlight lang="lua">local memo = guiCreateMemo(100,100,200,100,"Hi",false)
+guiMemoSetCaretIndex(memo,0)--sets the caret before H
+</syntaxhighlight>
+
+==See Also==
+{{GUI_functions}}

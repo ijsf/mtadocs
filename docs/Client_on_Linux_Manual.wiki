@@ -1,0 +1,68 @@
+{{Needs Checking|MTA: SA 1.5 and greater versions seem to have problems when launching under Wine. Please consider rewriting this manual to point people to use an alternative (like VMWare) instead.}}
+{{Warning|This page is for Linux players '''ONLY''', for Windows go [[/Client_Manual.md|here]].|true}}
+==Before you start==
+
+First of all, please ensure your computer fits the requirements needed.
+Read the [[/Client_Manual.md|Client Manual]] page for further informations, or join us on IRC @ irc://irc.multitheftauto.com/mta
+
+===Requirements===
+The hardware requirements for Multi Theft Auto: San Andreas are the same than on Windows.
+For software requirements, you need:
+* Wine (get it on your package manager (synaptic, apt, pacman, yum etc.); follow instructions [https://www.winehq.org/download/ubuntu here] if you're using Ubuntu
+(as of MTA 1.4.1 Ubuntu's default Wine package seems to be incompatible with Visual C++, which is required to install MTA)
+* Windows fonts installed:
+** tahoma.ttf
+** tahomabd.ttf
+** verdana.ttf
+Get them on the Internet, e.g. [http://fontonic.com/ fontonic.com]
+
+Or get the zip archive with the 3 fonts here: [http://www.4shared.com/zip/IsErUbQAba/wine_mta_fonts.html wine_mta_fonts.zip]
+
+Install them in: <code>~/.wine/dosdevices/c:/windows/Fonts/</syntaxhighlight>
+(~/ points to your user home folder on Linux, .wine is the default wineprefix)
+
+==Installing the game==
+Download the MTA installer from [http://www.mtasa.com mtasa.com], ensure you can launch it (chmod +x) then install it when you want.
+
+==Running the game==
+Once installed, double-clicking on the Multi Theft Auto.exe should work. If not, try in a terminal the following command: "wine Multi Theft Auto.exe" in the directory you installed Multi Theft Auto to.
+If it doesn't work, check the contents of the file c:/Program_Files/Multi Theft Auto/MTA/CEGUI.log, which may contain useful information.
+
+==Known issues==
+===Specific issues===
+* Impossible connection through the server browser [Fixed in the [http://bugs.mtasa.com/view.php?id=5084 5084 bug] ]
+
+* MTA won't start on Ubuntu 12.04 LTS [Temporary fix is available [http://forum.mtasa.com/viewtopic.php?p=434011#p434011 here] ]
+
+===Other issues===
+* MTA isn't starting (even with fonts installed)
+#Try to start MTA:SA in a virtual desktop
+#:Go to WineConfig, choose the tab "Graphics" and select "Emulate a virtual desktop".<br>
+#Try to delete your gta_sa.set file
+#:which is located in the "GTA San Andreas User Files" folder, which can be found in your home directory.<br>'''(Remember to create a copy, if you're playing San Andreas in singleplayer)'''
+#Try to delete your MTA config file
+#:which is: "MTA San Andreas 1.3/MTA/coreconfig.xml"<br>'''(Also remember to create a copy, if you don't want to lose your edited MTA configuration)'''
+
+* Crash when connecting
+*:Sometimes the audio-server makes problems (could be related to pulseaudio), in this case you've to go to WineConfig and choose the tab Audio, then deselect "ALSA" and select "EsoundD". Save the settings and restart MTA.
+* Crash in basswma.dll module while streaming audio
+*:Install Windows Media Player 10
+*:
+<code>
+winetricks wmp10
+</syntaxhighlight>
+* Special Detections (SD)
+*:If you are using a 64 wine version you may have problems with [http://wiki.multitheftauto.com/wiki/Anti-cheat_guide#.3Cenablesd.3E.3C.2Fenablesd.3E Special Detections]. If the server you are trying to connect keeps showing something like [http://i.imgur.com/33T8a82.jpg this], then you should make a [http://wiki.archlinux.org/index.php/Wine#Using_WINEARCH 32 bit wine prefix] (or bottle).
+*:
+<code>export WINEARCH=win32 WINEPREFIX=~/.winegta
+winecfg</syntaxhighlight>
+Change Windows version on bottom to Windows 7 and press OK. Now you have a 32 bit wine prefix on ~/.winegta.
+Install GTA:SA and them MTA.
+After this, MTA and GTA have been installed within ~/.winegta prefix which is a 32 bit wine environment.
+
+== See Also ==
+* [http://nightly.mtasa.com/ nightly.mtasa.com] - For nightly builds.
+* https://bugs.mtasa.com/view.php?id=8895 - a bug report containing useful info for running MTA in Wine
+[[/Category:Support.md|Category:Support]]
+[[/ru:Client on Linux Manual.md|ru:Client on Linux Manual]]
+[[/hu:Client on Linux Manual.md|hu:Client on Linux Manual]]

@@ -1,0 +1,58 @@
+ 
+{{Server client function}}
+This function is used to determine whether or not a player's cursor is showing.
+{{Note|This retrieves the cursor state that has been set using [[/showCursor.md|showCursor]], and thus doesn't take into account the cursor shown while the chatbox, menu or console are open. Also, keep in mind that while the client is aware of cursor states set from the server, the server doesn't know about cursor states set from the client.}}
+==Syntax== 
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">
+bool isCursorShowing ( player thePlayer )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''thePlayer:''' The [[/player.md|player]] you want to get cursor state of.
+
+===Returns===
+Returns ''true'' if the player's cursor is showing, ''false'' if it isn't or if invalid parameters were passed.
+</section>
+
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+bool isCursorShowing ( )
+</syntaxhighlight>
+ 
+===Returns===
+Returns ''true'' if the player's cursor is showing, ''false'' if it isn't.
+</section>
+
+==Example== 
+<section name="Example" class="server" show="true">
+This serverside function toggles a player's cursor state.
+<syntaxhighlight lang="lua">
+function toggleCursor ( thePlayer )
+	local currentState = isCursorShowing ( thePlayer )  -- get the current cursor state as a boolean
+	local oppositeState = not currentState              -- get the new state as its logical opposite
+	showCursor ( thePlayer, oppositeState )             -- set it as the new cursor state
+end
+</syntaxhighlight>
+</section>
+<section name="Clientside Example" class="client" show="true">
+With little of tweaking this can also be used clientside
+<syntaxhighlight lang="lua">
+function toggleCursor ()
+        local currentState = isCursorShowing ()  -- get the current cursor state as a boolean
+        local oppositeState = not currentState              -- get the new state as its logical opposite
+        showCursor ( oppositeState )             -- set it as the new cursor state
+end
+</syntaxhighlight>
+And a more compact version
+<code>
+[lua]
+bindKey ("b", "down",                            -- binds B key to toggle cursor state
+        function()
+                showCursor( not isCursorShowing() )
+        end)
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Cursor_functions}}

@@ -1,0 +1,28 @@
+ 
+{{Server event}}
+This event is triggered when resource setting has been changed. For instance, this event would trigger if you would edit the settings of the Race resource through the Admin panel.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+string setting, string oldValue, string newValue
+</syntaxhighlight> 
+
+*'''setting''': The setting which was changed. For instance: "*race.ghostmode"
+*'''oldValue''': The previous value. Please note that this value is in [[/JSON.md|JSON]]. To get a normal Lua value, use [[/fromJSON.md|fromJSON]]
+*'''newValue''': The new value. Also in [[/JSON.md|JSON]]
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/root element.md|root element]].
+
+==Example== 
+<syntaxhighlight lang="lua">
+function makeSettingsChangesVisible ( setting, oldValue, newValue )
+whatItWas = fromJSON ( oldValue )
+whatItsNow = fromJSON ( newValue )
+outputDebugString ( "The setting "..setting.." was "..whatItWas.." and has been changed to "..whatItsNow.."." ) --Making the setting change visible in debug (use /debugscript [number] to see it)
+end
+
+addEventHandler( "onSettingChange", getRootElement(), makeSettingsChangesVisible ) --adding the event
+</syntaxhighlight>
+
+{{See also/Server event|Server events}}

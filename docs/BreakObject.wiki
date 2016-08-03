@@ -1,0 +1,33 @@
+ 
+{{Client function}}
+This function breaks a specific object.
+Note: Only breakable objects can be broken.
+
+==Syntax== 
+<syntaxhighlight lang="lua">bool breakObject ( object theObject )</syntaxhighlight> 
+{{OOP||[[/object.md|object]]:break}}
+===Required Arguments=== 
+*'''theObject:''' an [[/object.md|object]] element
+
+===Returns===
+* ''true'' if the object was successfully broken.
+* ''false'' if the object is not breakable, or a wrong object was given.
+
+==Example==
+This example checks if the object created is breakable and if it is then breaks it.
+<syntaxhighlight lang="lua">
+addCommandHandler("createObj",
+function(command, id)
+    local x, y, z = getElementPosition(localPlayer)
+    local object = createObject (id, x, y, z)
+    if (id) then
+        if isObjectBreakable(object) then
+            breakObject(object)
+        end
+    end
+end
+)
+</syntaxhighlight>
+
+==See Also==
+{{Client_object_functions}}

@@ -1,0 +1,26 @@
+
+{{Server client function}}
+This function gets the maximum height at which aircraft can fly without their engines turning off.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+float getAircraftMaxHeight ( )
+</syntaxhighlight>
+
+===Returns===
+Returns a float containing the max aircraft height.
+
+==Example==
+<section name="Client" class="client" show="true">
+This example returns the max aircraft height to a player if they use the command 'aircraftmaxheight'.
+<syntaxhighlight lang="lua">
+function commandGetAircraftMaxHeight()
+   local height = getAircraftMaxHeight() or "N/A"
+   outputChatBox("Aircraft max height: "..height, 0, 255, 0)
+end
+addCommandHandler("aircraftmaxheight", commandGetAircraftMaxHeight)
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Client_world_functions}}

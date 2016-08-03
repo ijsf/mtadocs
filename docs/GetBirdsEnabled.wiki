@@ -1,0 +1,28 @@
+
+{{Client function}}
+This function will tell you if the birds are enabled or disabled. 
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool getBirdsEnabled ()
+</syntaxhighlight>
+
+===Returns===
+Returns ''true'' if the birds are enabled or ''false'' if the birds are disabled. 
+
+==Example== 
+This example outputs the Birds state.
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+function areBirdsEnabled()
+	outputChatBox("The birds are currently ".. (getBirdsEnabled() and "Enabled" or "Disabled") ..".") -- Output the birds state.
+end
+addCommandHandler("birds", areBirdsEnabled) -- Add the command handler attached to the function "areBirdsEnabled".
+</syntaxhighlight>
+</section>
+
+==Requirements==
+{{Requirements|1.3|1.3|}}
+
+==See Also==
+{{Client_world_functions}}

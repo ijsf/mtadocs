@@ -1,0 +1,32 @@
+
+{{Client function}}
+{{New items|3.014|1.4 r6208|
+This function gets the speed of a specified [[/effect.md|effect]].
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+float getEffectSpeed ( effect theEffect )
+</syntaxhighlight>
+{{OOP||[[/effect.md|effect]]:getSpeed|speed|setEffectSpeed}}
+
+===Required Arguments=== 
+*'''theEffect:''' The [[/effect.md|effect]] to get the speed of.
+
+===Returns===
+Returns [[/float.md|float]] containing the effect's speed, ''false'' if invalid arguments were specified.
+
+===Example===
+This example adds command ''ges'' that creates crate explosion effect at the player's position and outputs its speed to the chatbox.
+<syntaxhighlight lang="Lua">
+addCommandHandler("ges", 
+function (cmd)
+   local x, y, z = getElementPosition(localPlayer)
+   local effect = createEffect("explosion_crate", x, y, z)
+   outputChatBox("The speed: " .. tostring(getEffectSpeed(effect)))
+end)
+</syntaxhighlight>
+
+==See also==
+{{Client_Effects_functions}}
+[[/ru:getEffectSpeed.md|ru:getEffectSpeed]]

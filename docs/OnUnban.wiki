@@ -1,0 +1,41 @@
+
+{{Server event}}
+This event is triggered when a ban is removed from the server.
+
+if the ban was removed using function [[/removeBan.md|removeBan]], and the responsibleElement was not specifying, the event will return nil.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+ban theBan, player responsibleElement
+</syntaxhighlight> 
+
+*'''theBan ''': The [[/ban.md|ban]] that will be removed.
+*'''responsibleElement''': The player who removed the ban, otherwise return nil.
+
+==Source==
+The source is always the global root element.
+
+==Cancel effect==
+If this event is [[/Event_system#Canceling.md|canceled]], the requested unban is not performed.
+
+==Example== 
+<!-- Explain what the example is in a single sentance -->
+This example does...
+<!-- Add the code below, an emphasis should be on making it clear, not optimized. You could provide two versions if you wish, one clear and well commented, the other optimized -->
+<syntaxhighlight lang="lua">
+root = getRootElement()
+
+function announceUnban( theBan, responsibleElement )
+	if getElementType( responsibleElement ) then --Check if a player unbanned the IP/Serial
+		outputChatBox( getPlayerName( responsibleElement ) .. " unbanned " .. ( getBanSerial(theBan) or getBanIP(theBan) ) ) --Output to the chatbox saying the player has unbanned the IP/Serial
+	end
+end
+
+addEventHandler( "onUnban", root, announceUnban ) --Adds the event handler for 'onUnban'
+</syntaxhighlight>
+
+==Changelog==
+{{ChangelogHeader}}
+{{ChangelogItem|1.3.0-9.03908|Fixed/added responsible element parameter}}
+
+{{See also/Server event|Server events}}

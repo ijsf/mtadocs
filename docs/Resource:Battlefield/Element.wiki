@@ -1,0 +1,1 @@
+Elements pertaining to the [[/Resource:battlefield.md|Resource:battlefield]] gamemode.

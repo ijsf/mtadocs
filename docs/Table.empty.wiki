@@ -1,0 +1,37 @@
+{{Useful Function}}
+<lowercasetitle></lowercasetitle>
+
+This function check is empty table or not.
+==Syntax==
+<syntaxhighlight lang="lua">boolean table.empty( table a )</syntaxhighlight>
+
+===Required Arguments===
+* '''a''': The table for check.
+
+===Returns===
+Returns the true if table is empty or false in otherwise. 
+
+<section name="Code" class="both" show="true">
+<syntaxhighlight lang="lua">
+function table.empty( a )
+    if type( a ) ~= "table" then
+        return false
+    end
+    
+    return not next( a )
+end
+</syntaxhighlight>
+</section>
+
+<section name="Example" class="both" show="true">
+<syntaxhighlight lang="lua">
+print( 'empty = ' .. tostring( table.empty( { [0] = 1 } ) ) ) -- false
+print( 'empty = ' .. tostring( table.empty( { [10] = 10, [2] = 2 } ) ) ) -- false
+print( 'empty = ' .. tostring( table.empty( { } ) ) ) -- true
+</syntaxhighlight>
+</section>
+
+Author: Kenix
+
+==See Also==
+{{Useful_Functions}}

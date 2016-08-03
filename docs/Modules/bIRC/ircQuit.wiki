@@ -1,0 +1,39 @@
+{{ml_birc}}
+
+This function is used to disconnect an {{ml_birc|ircbot}} from a server.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool ircQuit ( ircbot theBot, [ string quitMessage ] )
+</syntaxhighlight>
+
+===Required Arguments=== 
+*'''theBot:''' The ircbot which will be disconnected.
+
+===Optional Arguments===
+{{OptionalArg}}
+*'''quitMessage:''' A quit message to be displayed when quitting. By default it uses the quit message set by {{ml_birc|ircSetQuitMessage}}.
+
+===Returns===
+Returns ''true'' if passed arguments were valid, ''false'' otherwise.<br>
+
+==Example==
+This example creates an ircbot called ''DummyBot'' and makes it connect to irc.gtanet.com server on resource start. When the resource stops, the bot is also disconnected from the server and destroyed.
+<syntaxhighlight lang="lua">
+function resourceStart()
+    theBot = ircCreateBot ( "DummyBot" )
+    ircConnect ( theBot, "irc.gtanet.com", 6667 )
+end
+addEventHandler ( "onResourceStart", getResourceRootElement ( getThisResource() ), resourceStart )
+
+function resourceStop()
+    if theBot then
+        ircQuit ( theBot )
+        ircDestroyBot ( theBot )
+    end
+end
+addEventHandler ( "onResourceStop", getResourceRootElement ( getThisResource() ), resourceStop )
+</syntaxhighlight>
+
+==See Also==
+{{ml_birc functions}}

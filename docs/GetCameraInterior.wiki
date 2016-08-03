@@ -1,0 +1,71 @@
+
+{{Server client function}}
+Returns the interior of the local camera (independent of the interior of the local player).
+
+==Procedural==
+===Syntax===
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">
+int getCameraInterior ( player thePlayer )
+</syntaxhighlight>
+{{OOP||[[/player.md|player]]:getCameraInterior|cameraInterior|setCameraInterior}}
+
+===Required Arguments===
+'''thePlayer''': The player whose camera interior you want to get.
+</section>
+
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+int getCameraInterior ( )
+</syntaxhighlight>
+{{OOP||Camera.getInterior|interior|setCameraInterior}}
+</section>
+
+Returns an ''integer'' indicating the camera's interior, ''false'' if the argument is invalid.
+
+===Example===
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">
+function outputCameraInterior ( player, command )
+	local interior = getCameraInterior ( player )
+	outputChatBox ( "The camera is in the interior " .. interior, player, 255, 255, 0 )
+end
+addCommandHandler ( "camera", outputCameraInterior )
+</syntaxhighlight>
+</section>
+
+
+{{New items|3.0140|1.4|
+==Object-oriented==
+===Syntax===
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">
+int player:getCameraInterior ( )
+-- or
+int player.cameraInterior -- to get the camera interior value
+player.cameraInterior = int someValue -- to set the camera interior value
+</syntaxhighlight>
+</section>
+
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+int Camera.getInterior ( )
+</syntaxhighlight>
+</section>
+
+Returns an ''integer'' indicating the camera's interior, ''false'' if the argument is invalid.
+
+===Example===
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+function outputCameraInterior ( command )
+	local interior = Camera.getInterior ( )
+	outputChatBox ( "The camera is in the interior " .. interior, localPlayer, 255, 255, 0 )
+end
+addCommandHandler ( "camera", outputCameraInterior )
+</syntaxhighlight>
+</section>
+}}
+
+==See Also==
+{{Camera functions}}

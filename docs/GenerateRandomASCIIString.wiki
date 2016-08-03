@@ -1,0 +1,31 @@
+{{Useful Function}}
+This function returns a random string which uses ASCII characters.
+
+==Syntax==
+<syntaxhighlight lang="lua">int generateRandomASCIIString( int chars )</syntaxhighlight>
+
+===Required Arguments===
+* '''chars''': How long the string should be.
+
+==Code==
+
+<syntaxhighlight lang="lua">
+function generateRandomASCIIString(chars)
+	local str = ""
+	for i = 1, chars do 
+		str = str..(string.format("%c", math.random(32, 126)))
+	end
+	return str
+end
+</syntaxhighlight>
+
+<p><i>Author: UnLimiTeD^</i></p>
+<p><i>Idea by: Poof</i></p>
+==Example==
+<syntaxhighlight lang="lua">
+local str = generateRandomASCIIString(10)
+outputChatBox(str)
+</syntaxhighlight>
+
+==See Also==
+{{Useful_Functions}}

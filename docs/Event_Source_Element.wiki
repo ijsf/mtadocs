@@ -1,0 +1,40 @@
+==How it works==
+Triggering an [[/event.md|event]] on an [[/element.md|element]], also triggers the event on its parents (up the [[/element tree.md|element tree]]) and its children (down the [[/element tree.md|element tree]])
+
+{| class="wikitable"
+|'''Example'''
+|
+|'''Handlers which will get triggered'''
+|-
+|triggerEvent( "eventName", root)
+|[[/Image:Event_source_root.png.md|Image:Event_source_root.png]]
+|
+addEventHandler( "eventName", root )<br/>
+addEventHandler( "eventName", resourceRoot ) '''*In any resource*'''<br/>
+addEventHandler( "eventName", anyPlayerElement )<br/>
+addEventHandler( "eventName", anyVehicleElement )<br/>
+'''source is root'''<br/>
+|-
+|triggerEvent( "eventName", myPlayerElement )
+|[[/Image:Event_source_player.png.md|Image:Event_source_player.png]]
+|
+addEventHandler( "eventName", root )<br/>
+addEventHandler( "eventName", myPlayerElement )<br/>
+'''source is myPlayerElement'''
+|-
+|triggerEvent( "eventName", resourceRoot)
+|[[/Image:Event_source_resource.png.md|Image:Event_source_resource.png]]
+|
+addEventHandler( "eventName", root )<br/>
+addEventHandler( "eventName", resourceRoot ) '''*Only in same resource*'''<br/>
+addEventHandler( "eventName", aVehicleElement )<br/>
+'''source is resourceRoot of the calling resource'''<br/>
+|-
+|triggerEvent( "eventName", myVehicleElement)
+|[[/Image:Event_source_mapelement.png.md|Image:Event_source_mapelement.png]]
+|
+addEventHandler( "eventName", root )<br/>
+addEventHandler( "eventName", resourceRoot ) '''*Only in resource vehicle was created in*'''<br/>
+addEventHandler( "eventName", myVehicleElement )<br/>
+'''source is myVehicleElement'''<br/>
+|}

@@ -1,0 +1,21 @@
+{{Useful Function}}
+
+This function converts server ticks to a unix timestamp. '''Note''': this was built to work with the server tick timestamp returned by [[/onPlayerScreenShot.md|onPlayerScreenShot]].
+Author: qaisjp
+
+==Syntax==
+<syntaxhighlight lang="lua">int convertServerTickToTimeStamp( int ticks )</syntaxhighlight>
+
+===Required Arguments===
+* '''ticks''': The ticks to be converted. '''REMEMBER:''' the input tick cannot be from a different server session, this is because ticks are "reset" when the server is booted. 
+
+===Returns===
+Returns an int containing the unix timestamp number.
+
+==Code==
+<syntaxhighlight lang="lua">
+function convertServerTickToTimeStamp(tick) return getRealTime().timestamp+((getTickCount()*0.001)-(tick*0.001)); end
+</syntaxhighlight>
+
+==See Also==
+{{Useful_Functions}}

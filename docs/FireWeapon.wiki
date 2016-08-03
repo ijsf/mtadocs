@@ -1,0 +1,29 @@
+
+{{Client function}}
+Fires one shot from a [[/Element/Weapon.md|custom weapon]].
+
+==Syntax==
+<syntaxhighlight lang="lua">bool fireWeapon ( weapon theWeapon )</syntaxhighlight>
+{{OOP||[[/Element/Weapon.md|weapon]]:fire}}
+
+===Required Arguments===
+* '''theWeapon:''' The weapon to be fired.
+
+===Returns===
+Returns ''true'' if the shot weapon is valid and therefore the shot was fired, ''false'' otherwise.
+
+==Example== 
+This function creates and fires a weapon.
+<syntaxhighlight lang="lua">
+function createAndFire()
+    local weapon = createWeapon("mp5", 0, 0, 3) -- Create a MP5 at the coordinates 0, 0, 3
+    fireWeapon(weapon) -- Fire the weapon we spawned
+end
+addEventHandler("onClientResourceStart", resourceRoot, createAndFire)
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|n/a|1.3.0-9.04555|}}
+
+==See also==
+{{Client weapon creation functions}}

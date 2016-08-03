@@ -1,0 +1,139 @@
+This page lists all built in commands that the server can process. All these commands can be entered via the server console or the client console depending upon permissions unless otherwise stated.
+
+
+==Resource commands==
+====check====
+:<ins>Server console only</ins>
+:Usage: check [ ''all'' | ''<resource-name>'' ]<br>
+:Checks which files would be changed with [[/Server_Commands#upgrade.md|upgrade]] command. Does not modify anything.
+====info====
+:<ins>Server console only</ins>
+:Usage: info ''<resource-name>''<br>
+:Get info for a resource eg: info admin
+====list====
+:<ins>Server console only</ins>
+:Shows a list of resources
+
+====refresh====
+:Refresh resource list to find new resources
+====refreshall====
+:Refresh resources and restart any changed resources
+====restart====
+:Usage: info ''<resource-name>''<br>
+:Restarts a running resource eg: restart admin
+====start====
+:Usage: start ''<resource-name>''<br>
+:Start a loaded resource eg: start admin
+====stop====
+:Usage: stop ''<resource-name>''<br>
+:Stop a resource eg: stop admin
+====stopall====
+:Stop all running resources
+====upgrade====
+:<ins>Server console only</ins>
+:Usage: upgrade [ ''all'' | ''<resource-name>'' ]<br>
+:Perform a basic upgrade of all resources. The [[/Server_Commands#checkall.md|check]] command shows the list of changes this command will make.
+
+====aclrequest====
+:Usage: aclrequest [ ''list'' | ''allow'' | ''deny'' ] ''<resource-name>'' [ ''<right>'' | ''all'' ]<br>
+:Manage ACL requests from resources implementing <aclrequest> in their [[/meta.xml.md|meta.xml]]
+
+
+==Account commands==
+====aexec====
+:Usage: aexec ''<nick>'' ''<command>''<br>
+:Force a player to execute a command eg: aexec playername say hello
+====addaccount====
+:Usage: addaccount ''<accountname>'' ''<password>''<br>
+:Add an account eg: addaccount accountname password
+====chgpass====
+:Usage: chgpass ''<accountname>'' ''<password>''<br>
+:Change an accounts password eg: chgpass account newpw
+====delaccount====
+:Usage: delaccount ''<accountname>''<br>
+:Delete an account eg: delaccount accountname
+
+
+==Server commands==
+====ase====
+:<ins>Server console only</ins>
+:See the amount of master server list queries
+====debugdb====
+:Usage: debugdb ''<''0-2''>''<br>
+:<ins>Server console only</ins>
+:Set logging level for database functions. [0-Off &nbsp;1-Errors only &nbsp;2-All]
+:By default, logging output is written to the file '''logs/db.log''' unless another file is declared in the [[/Mtaserver.conf#dbfile.md|<dbfile> section of mtaserver.conf]]
+====help====
+:<ins>Server console only</ins>
+:Displays these list of commands
+====loadmodule====
+:<ins>Server console only</ins>
+:Usage: loadmodule ''<module-filename>''<br>
+:Load a module eg: loadmodule ml_sockets.dll
+====unloadmodule====
+:<ins>Server console only</ins>
+:Usage: unloadmodule ''<module-filename>''<br>
+:Unload a module eg: unloadmodule ml_sockets.dll
+====reloadmodule====
+:<ins>Server console only</ins>
+:Usage: reloadmodule ''<module-filename>''<br>
+:Reload a module eg: reloadmodule ml_sockets.dll
+====openports====
+:<ins>Server console only</ins>
+:Test if server ports are open
+====shutdown====
+:Usage: shutdown ''<reason>''<br>
+:Shutdown the server eg: shutdown put reason here
+====sver====
+:Get the server MTA version
+
+
+==Other commands==
+====say====
+:Usage: say ''<text>''<br>
+:Show a message to all players on the server eg: say hello
+====whois====
+:Usage: whois ''<nick>''<br>
+:Get the IP of a player currently connected (use whowas for IP/serial/version)
+====whowas====
+:Usage: whowas ''<nick>''<br>
+:Get IP/Serial/username of a player that was previously connected to the server
+====ver====
+:Get the MTA version
+
+
+==Client relevant only==
+====chgmypass====
+:<ins>Client  only</ins>
+:Usage: chgmypass ''<oldpass>'' ''<newpass>''<br>
+:Change your password eg: chgmypass oldpw newpw
+====debugscript====
+:<ins>Client  only</ins>
+:Usage: debugscript ''<''0-3''>''<br>
+:Remove (This does not work "Incorrect client type for this command")
+====login====
+:<ins>Client  only</ins>
+:Usage: login ''<accountname>'' ''<password>''<br>
+:Login to an account eg: login accountname password
+====logout====
+:<ins>Client  only</ins>
+:Log out of the current account
+====me====
+:<ins>Client  only</ins>
+:Usage: me ''<text>''<br>
+:Show a message to all players on the server, with your nick prepended
+====msg====
+:<ins>Client  only</ins>
+:Usage: msg ''<nick>'' ''<text>''<br>
+:Send a message to a player eg: msg playername hello
+====nick====
+:<ins>Client  only</ins>
+:Usage: nick ''<old-nick>'' ''<new-nick>''<br>
+:Change your ingame nickname
+====teamsay====
+:<ins>Client  only</ins>
+:Usage: teamsay ''<test>''<br>
+:Send a message to all players on the same team
+
+[[/Category: Support.md|Category: Support]]
+[[/ru:Server Commands.md|ru:Server Commands]]

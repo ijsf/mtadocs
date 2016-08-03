@@ -1,0 +1,25 @@
+ 
+{{Server function}}
+This function retrieves the server's http port.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+int getServerHttpPort ( )
+</syntaxhighlight>
+
+===Returns===
+An integer corresponding to the server's http port.
+
+==Example==
+This example outputs server's HTTP port to the chat box when player uses command ''getHttpPort'' 
+<syntaxhighlight lang="lua">
+addCommandHandler("getHttpPort",
+function(player, command)
+
+outputChatBox("HTTP port of this server is: " .. getServerHttpPort(), player, 0, 255, 0)
+
+end)
+</syntaxhighlight>
+
+==See Also==
+{{Server functions}}

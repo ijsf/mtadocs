@@ -1,0 +1,35 @@
+{{Client function}}
+
+This function removes a [[/shader.md|shader]] from one or more world textures.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool engineRemoveShaderFromWorldTexture ( element shader, string textureName [, element targetElement = nil ] )
+</syntaxhighlight>
+{{New feature/item|3.0141|1.4.0|6987|{{OOP||[[/shader.md|shader]]:removeFromWorldTexture}}}}
+
+===Required Arguments=== 
+*'''shader:''' The shader which is to be removed
+*'''textureName:''' The name of the world texture to remove the shader from. It should be exactly the same string as used with [[/engineApplyShaderToWorldTexture.md|engineApplyShaderToWorldTexture]] when the shader was initially applied.
+
+===Optional Arguments=== 
+{{New feature/item|3.0130|1.3.0|4140|
+*'''targetElement:''' The element to remove the shader from. It should be the same element as used with [[/engineApplyShaderToWorldTexture.md|engineApplyShaderToWorldTexture]] when the shader was initially applied.
+}}
+
+===Returns===
+Returns ''true'' if the shader was successfully removed, ''false'' otherwise.
+
+==Example==
+This example will remove a previously created shader from the "des_logwall" world texture
+<syntaxhighlight lang="lua">
+engineRemoveShaderFromWorldTexture ( myShader, "des_logwall" )
+</syntaxhighlight>
+
+==Changelog==
+{{ChangelogHeader}}
+{{ChangelogItem|1.3.0-9.04140|Added targetElement argument}}
+
+==See Also==
+{{Engine_functions}}
+{{Drawing_functions}}

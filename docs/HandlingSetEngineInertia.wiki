@@ -1,0 +1,23 @@
+
+{{Server function}}
+Sets the engine inertia of a handling element. The higher this value, the slower the vehicle goes.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool handlingSetEngineInertia ( handling theHandling, float inertia )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''theHandling:''' the handling of which you want to change the inertia.
+*'''inertia:''' the inertia value to set.
+
+===Returns===
+Returns ''true'' on success, ''false'' in case of failure.
+
+==Example==
+<syntaxhighlight lang="lua">
+--TODO
+</syntaxhighlight>
+
+==See Also==
+{{Handling_functions}}

@@ -1,0 +1,40 @@
+ 
+{{Server function}}
+<!-- Change this to "Client function" or "Server function" appropriately-->
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This function returns a table over all the objects that exist in a given ACL group. These are objects like players and resources.
+
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+table aclGroupListObjects ( aclgroup theGroup )
+</syntaxhighlight> 
+{{OOP||[[/aclgroup.md|aclgroup]]:listObjects|objects|}}
+===Required Arguments=== 
+<!-- List each argument one per line. This should be the argument's name as in the argument list above, NOT the argument's data type -->
+*'''theGroup:''' The ACL group to get the objects from
+
+===Returns===
+<!-- Make this descriptive. Explain what cases will return false. If you're unsure, add a tag to it so we can check -->
+Returns a table of strings in the given ACL group. This table might be empty. Returns ''false'' or ''nil'' if theGroup is invalid or it fails for some other reason.
+
+==Example== 
+This example outputs a list of Objects if the ACL Group is given. (TESTED!)
+<syntaxhighlight lang="lua">addCommandHandler("aclObjectList",function(player,command,aclGroup)
+	if(aclGroup~="")then
+		table = aclGroupListObjects(aclGetGroup(aclGroup))
+		count = 0
+		for objects,name in pairs(table)do
+			outputChatBox("ACL LIST: "..aclGroup.." #"..tostring(count).." Object: "..name..".",player)
+			count = count + 1
+		end
+	else
+		outputChatBox("Please add the aclGroup you want the list of.",player)
+		outputChatBox("Syntax: /aclObjectList aclGroup",player)
+	end
+end)
+</syntaxhighlight>
+
+==See Also==
+<!-- Change FunctionArea to the area that this function is in on the main function list page, e.g. Server, Player, Vehicle etc -->
+{{ACL_functions}}

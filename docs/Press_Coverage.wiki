@@ -1,0 +1,160 @@
+{{Needs Checking|Please fix the dead links and/or re-upload the files.}}
+
+The following is a list of press coverage during MTA's history, it may not be full and only contains the sources we are aware of.
+
+=Written press=
+
+* Power Unlimited | March 2003 - [http://files.mtasa.com/media/Power_Unlimited-2003_Mar.jpg Page 1], [http://files.mtasa.com/media/Power_Unlimited-2003_Mar-Translation.txt Translation]
+* PC Gamer | May 2003 - [http://files.mtasa.com/media/PC_Gamer-2003_May.jpg Page 1]
+* Hyper | September 2003 - [http://files.mtasa.com/media/Hyper-2003_Sep-AU.jpg Page 1], [http://files.mtasa.com/media/Hyper-2003_Sep-AU-Translation.txt Translation]
+* Igromania | September 2003 [http://files.mtasa.com/media/Igromania-2003_Sep_1-RU.jpg Page 1], [http://files.mtasa.com/media/Igromania-2003_Sep_2-RU.jpg Page 2], [http://files.mtasa.com/media/Igromania-2003_Sep-RU-Translation.txt Translation], [http://www.igromania.ru/articles/46216/Multi_Theft_Auto_Setevoi_bespredel_Osnovy_igry_v_GTA_3_po_ceti_i_cherez_internet.htm On-line copy]
+* Computer Games | October 2003 - [http://files.mtasa.com/media/Computer_Games-2003_Oct.jpg Page 1]
+* PC Gameplay | December 2003 - [http://files.mtasa.com/media/PC_Gameplay-2003_Dec.jpg Page 1], [http://files.mtasa.com/media/PC_Gameplay-2003_Dec-Translation.txt Translation]
+* PC Gamer | April 2004 - [http://files.mtasa.com/media/1.0/Images/pcgamer.jpg Page 1]
+* GamePro | June 2005 - [http://files.mtasa.com/media/GamePro_June_2005_4.jpg Page 1]
+* PC Zone | March 2006 - [http://files.mtasa.com/media/PCZone_March_2006.jpg Page 1]
+* Igromania | April 2006
+* GameStar | January 2008 - [http://files.mtasa.com/media/1.0/Images/mtaongamestarscan.jpg Page 1]
+* Total PC Gaming | Issue 26, October 2009 - [http://files.mtasa.com/media/TPCG_Issue_26.pdf Page 1] (preprint) (included on DVD)
+
+=TV=
+
+* G4TV.com | [http://www.youtube.com/watch?v=B6FqSiJBMgM Multi Theft Auto @ G4TV.com @ YouTube] | October 10 2003
+
+=Internet=
+
+While MTA has been mentioned and reviewed in a lot of articles, and here is a list of those which were recorded.  It is worth noting that this list is very incomplete.
+
+* 1UP.com | [http://www.1up.com/features/fan-theft-auto Fan Theft Auto] | [https://archive.is/ojGXK Snapshot] | Unknown? (2003-2005)
+{{Quote|
+What would an online version of Grand Theft Auto: Vice City be like? What if there had been a Grand Theft Auto game for the Nintendo Entertainment System back in the days when this system reigned? For fans of Grand Theft Auto, they don't just dream these what-ifs -- they bring them to life.
+}}
+
+* MegaGames | [http://www.megagames.com/news/multiplayer-killing-spree-vc?tab=description Multiplayer Killing Spree in VC] | [https://archive.is/Izs2U Snapshot] | April 04 2003
+{{Quote|
+A mention in Eurogamer brought the efforts of the Multi Theft Auto team to our attenion and following a short multiplayer session we are sold on the MTA:VC mod.
+Not satisfied with applying their genius to creating a multiplayer mod for GTA 3, the team focused on Vice City and their efforts have been finally rewarded with a very enjoyable multiplayer experience.
+
+Although extremely addictive and interesting the GTA Vice City multiplayer client is buggy and not for those gamers that have been hand-reared by the big studios. If you enjoy a decent rampage through the murky depths of Vice City however, you will definitely love this.
+
+Although installation is fairly simple and straightforward, make sure you read and understand the extensive FAQ on the developer's web site, a link to which can be found by following the download tab.
+Weighing in at 500 kb the MTA:VC client is a lot of pleasure from a very small package, enjoy.}}
+* IGN | [http://pc.ign.com/articles/519/519510p2.html True Crime - Streets of L.A. review] | [https://archive.is/YXj9E Snapshot] | May 27 2004
+
+{{Quote|The on-foot combat modes, Dojo Master and Battle Master, feel more like minigames than full-fledged modes. Dojo Master, the melee mode, has exactly one round. You knock the guy out and boom, the round ends and you're kicked to a summary screen. And the camera was just plain not right, seemingly unable to properly pull back and frame the scene. I had to move myself out of the way of the camera many times so I could see what was going on. Battle Master, also known as "last man standing," is also exactly one round, with very small maps and only one life per player. '''All in all, multiplayer doesn't rise to the level of something I'd recommend over, say, Multi-Theft Auto'''.''}}
+
+* IGN | [http://pc.ign.com/articles/605/605982p1.html GTA San Andreas PC Hands-On] | [https://archive.is/aqBhh Snapshot] | April 19 2005
+
+{{Quote|Other than that, there won't be any new content--no new vehicles, weapons, missions, et cetera. '''Nor will Rockstar add any multiplayer, but I think it's safe to expect another Multi-Theft Auto from the MTA Team not too long after release'''.}}
+
+* Gamespy [http://xbox360.gamespy.com/xbox-360/saints-row/718937p1.html Saints Row preview] | August 29 2006
+
+{{Quote|In spite of its popularity among console owners, it is PC gamers who've reaped the most benefits from the Grand Theft Auto series. '''Besides the numerous skins and tweaks available, one of the most infamous mods for GTA is the one known as Multi Theft Auto'''. The modification allows players to get online and battle against other players for dominance. '''The idea has extended to other sandbox-style games, but like their single-player counterparts, the MTA cloning worked about as well as the GTA cloning.''' That is, no one's really come close to emulating it. Anyone involved in Saints Row who says that GTA had no influence on their title probably also has some beachfront property in Omaha to sell you.
+
+With that out of the way, THQ sponsored an event in San Francisco to preview the multiplayer portion of Volition's next-gen title. We didn't go near the single-player portion of the game, instead opting to stay on the designated path of system link gameplay to see how Saints Row performs. '''What we saw was the concept of what would be known as another GTA clone extended to its next logical point on the 360: cloning Multi Theft Auto.'''}}
+
+* OSDir.com | [http://osdir.com/Article4775.phtml Multi Theft Auto: Hacking Multi-Player Into Grand Theft Auto With Open Source] | March 29 2005
+
+:OSDir.com did an interview with four of MTA's developers about the open source software they use in the process of creating MTA.
+
+* Fileplanet | [http://files.mtasa.com/media/FilePlanet-Mar_2006.jpg Frontpage] | March 16 2006
+
+:MTA was covered for several days on the Fileplanet frontpage after the initial MTA:SA release.
+
+* Global Gaming | [http://www.ggl.com/?controller=News&id=2982&method=article Homebrews: Multi-Theft Auto] | May 5 2006
+
+* Mega Games | [http://www.megagames.com/news/multi-theft-auto-san-andreas Multi Theft Auto - San Andreas] | February 6 2006
+{{Quote|
+Fans of the Grand Theft Auto series of games will, no doubt, be familiar with the efforts of the Multi Theft Auto team and their wonderful MTA:VC which allowed multi-player mayhem to spill onto the streets of Vice City.
+
+Following 8 months of hard work, the multiplayer modification is now available for GTA:SA. Most gamers were very disappointed to find out that RockStar did not plan to introduce a multiplayer mode for GTA:SA, even though MTA:VC had clearly demonstrated how desired such a feature would be. PC gamers can now enjoy multiplayer fun in the streets of San Andreas with a new, feature-rich version of MTA utilising the brand new Blue core.
+
+From the creator's blog: The process of developing this release has been a lot of hard work and quite a few long nights, especially when most of our team members are busy with their real lives, but now weŒre glad to announce that weŒre finally ready to show you our work. WeŒve been looking forward to this for a very long time and weŒre certainly very happy with how it looks. We hope you like it too! Smile
+
+This release also features a very easy to use map editor allowing anyone to create a map containing spawnpoints, checkpoints, objects and "pickups". The maps created can be added to an MTA server and played online with your friends at any time.
+
+This version of MTA features a new game mode called Race while expect frequent improvements and updates from the developers.
+}}
+
+* Neowin | [http://www.neowin.net/index.php?act=view&id=32142 Multi Theft Auto: San Andreas Released] | January 24 2006
+{{Quote|
+Popular action game Grand Theft Auto: San Andreas was always a single player game from the beginning (except the parts where a second player can shoot from the car, but that's hardly multiplayer). But as of yesterday, the talented team of programmers that brought us Multi Theft Auto: Vice City have released their new multiplayer mod for San Andreas.
+}}
+
+* Games Galore | [http://games.techwhack.com/54/multi-theft-auto/ Multi Theft Auto] | September 4 2006
+{{Quote|
+The nice people at Multi Theft Auto have this article up, discussing their new core technology that will be deployed in future versions of MultiTheftAuto.
+
+The new core technology, codenamed ‘blue’, offers many of the features that have been requested by the software’s users over the last year and a half, these include: Support for boats, support for firing from vehicles, support for drive-bys, and support for planes.
+
+As well as supporting all these features, the new core will introduce a revolutionary new way of writing modifications for Vice City, combining the existing methods with a fully integrated C++ add-on system, giving anyone who wishes to the ability to create complex and exciting mods, far beyond the possibilities of ‘traditional’ methods.”
+}}
+
+* GameSpot | [http://www.gamespot.com/pages/unions/read_article.php?topic_id=24250612&union_id=338 MTA: San Andreas Is Here!!!] | January 24 2006
+
+* Slashdot | [http://games.slashdot.org/article.pl?sid=08%2F11%2F24%2F0237259& Multi Theft Auto - San Andreas Goes Open Source] | November 24 2008
+
+* Linux Magazine | [http://www.linux-magazine.com/Online/News/Open-Source-Mod-for-Grand-Theft-Auto Open-Source Mod for Grand Theft Auto] | November 24 2008
+{{Quote|
+"Today we are marking a new milestone in the history of Multi Theft Auto [...] we have made the decision to re-launch Multi Theft Auto as an open-source project." The developer announcement on the Grand Theft Auto website comes just before the official release of the multiplayer mod of GTA version 1.0.
+
+Since 2003, up to 16 developers have worked on the multiplayer-modus. Work which included not only Reverse Engineering and LUA scripting, but also manufacturer Rockstar concepted extensions for the single-player modus GTA-3, as in GTA III, GTA: Vice City and GTA: San Andreas. Server and clients offering the original game can be found on the project website.
+
+The announcement on the GTA page continues, "Of course, the migration to open-source is more than just slamming your undocumented source code in a zip up for anyone that is interested." The repository code has been cleaned up, accurate documentation and headers have been added and proper credits to authors noted.
+
+The release of the source code is supposed to encourage the contribution of external developers. To this end, the bugtracker has been opened and access to the build system made available. A clean and stable multiplayer extension requires more than a memory address and offsets, say the developers.
+The code can be viewed at the Google Code Repository and a detailed developer Wiki provides insights to programming and scripting.
+}}
+
+* GamingBolt | [http://gamingbolt.com/15-modders-who-changed-pc-gaming 15 Modders who changed PC gaming] | March 20 2010
+:The MTA Team were labelled as one of 15 modders who changed PC gaming,  turning Grand Theft Auto San Andreas into ''"into the one truly decent, fully functioning multiplayer segment to a great game"''.
+{{Quote|
+Grand Theft Auto San Andreas takes the award for having the largest living GTA universe. Some argue that it was the best game in the franchise- and the massive amounts of free roaming and the (slight) emphasis on realism really helped push the game above and beyond people’s expectations. One thing the game didn’t have though, was multiplayer. This was sorely missed in a game with so much racing and free roaming potential, but luckily the good folks behind MTA found a solution. What started out as an experiment with crude forms of online racing has turned into the one truly decent, fully functioning multiplayer segment to a great game.
+}}
+
+* PCGames.de | [http://www.pcgames.de/Bestenlisten-Thema-203022/Bilder/Die-Top-10-der-einflussreichsten-Modder-Diese-Mods-haben-die-Branche-aufgemischt-744688/galerie/1274990/ Die Top 10 der einflussreichsten Modder (Top 10 Most Influential Modders) ] | April 9 2010
+
+:The MTA Team were classed as one of the Top 10 most influential modders of all time.
+
+* usercreated | [http://usercreated.org/2010/04/12/unmissable-mods-month-multi-theft-auto/ Unmissable Mods Month: Multi Theft Auto ] | April 12 2010
+
+:Multi Theft Auto was characterized as an "''Unmissable mod''" that was "''an incredibly elegant way of forcing multiplayer onto an engine that was never designed for it in the first place''".
+
+* 1UP.com | [http://www.1up.com/do/reviewPage?pager.offset=1&cId=3180268&p=2 APB Review] | July 6 2010
+:Multi Theft Auto distinguished as a ''"cheaper, better multiplayer PC [game]"'' to All Points Bulletin, a commercial RPG.
+
+* FilePlanet Blog | [http://blog.fileplanet.com/2011/08/29/monday-mod-multi-theft-auto-san-andreas/ Monday Mod: Multi Theft Auto: San Andreas] | August 29 2011
+:Multi Theft Auto was praised for the ''"[the charm] from the user generated content all thanks to the Multi Theft Auto toolkit"''
+
+* ModDB [http://www.moddb.com/events/2011-mod-of-the-year-awards/features/moty-players-choice-mod-of-the-year 2011 Mod of the Year - Players Choice #1] | 2011
+
+* Gamers Association | [http://www.gamers-association.com/2013/01/mtasainterview/ Interviewing the Minds Behind Multi Theft Auto: San Andreas] | January 6 2013
+{{Quote|
+A few days back I was lucky enough to have the privilege of getting to ask the developers behind Multi Theft Auto: San Andreas some questions. For those of you who are unaware of exactly what MTA:SA is, it’s Multiplayer Grand Theft Auto: San Andreas on the surface, but it’s also so much more. If you’re interested in getting your hands on some sweet borderline-MMO free-roaming goodness, then you can download the mod at Multi Theft Auto’s website. You are going to need to pick up the PC version of GTA: San Andreas, though (it’s totally worth it).
+}}
+
+<gallery>
+File:ModDB.png|ModDB Frontpage. October, 2009
+File:Mtafileplanet.jpg|Fileplanet Frontpage. March, 2006
+</gallery>
+
+= Other Media =
+* MTA Forum | [http://forum.mtasa.com/viewtopic.php?f=5&t=128#p810 2003 official R* reaction] | 2003
+{{Quote|
+Hi Blokker,
+<br/><br/>
+I had a look at the first version of Multi Theft Auto and was very impressed with what you guys did. 
+It looks like there is a lot of work to be done yet but a lot of progress has been made already. 
+I'm looking forward to playing GTAIII as a multiplayer game.
+Being from Holland myself it's good to see the old 'hacking culture' is still going strong in the Lowlands.
+<br/><br/>
+I also have to say the web site itself looks very professional. It's a shame the project will no doubt get delayed somewhat when Vice City comes out for the PC.
+<br/>
+Keep up the good work.
+<br/><br/>
+Technical manager
+<br/>
+Rockstar North.
+}}
+
+[[/Category:Historical.md|Category:Historical]]

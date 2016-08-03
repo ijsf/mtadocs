@@ -1,0 +1,40 @@
+{{Server client function}}
+
+The getElementPosition function allows you to retrieve the position coordinates of an element.  This can be any real world element, including:
+* [[/Element/Player.md|Players]]
+* [[/Element/Vehicle.md|Vehicles]]
+* [[/Element/Object.md|Objects]]
+* [[/Element/Pickup.md|Pickups]]
+* [[/Element/Marker.md|Markers]]
+* [[/Element/Collision_shape.md|Collision shapes]]
+* [[/Element/Blip.md|Blips]]
+* [[/Element/Radar_area.md|Radar areas]]
+
+==Syntax==
+<syntaxhighlight lang="lua">
+float, float, float getElementPosition ( element theElement )
+</syntaxhighlight>
+{{OOP||[[/element.md|element]]:getPosition|position|setElementPosition}}
+
+===Required Arguments===
+*'''theElement:''' The element which you'd like to retrieve the location of
+
+===Returns===
+Returns three ''float''s indicating the position of the element, ''x'', ''y'' and ''z'' respectively.
+
+==Example==
+This example attaches a samsite on the player's vehicle.
+<syntaxhighlight lang="lua">
+-- create the elegy;
+myElegy = createVehicle ( 562, 1591.596680, -2495.323242, 18.098244 ) 
+-- get the vehicle's position;
+local x,y,z = getElementPosition( myElegy )
+-- create the samsite;
+samsite = createObject ( 3267, x, y, z + 3 )
+-- attach the samsite to the elegy;
+attachElementToElement ( samsite, myElegy, 0, 0, 0 )
+</syntaxhighlight>
+
+==See Also==
+{{Element functions}}
+[[/de:GetElementPosition.md|de:GetElementPosition]]

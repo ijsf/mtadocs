@@ -1,0 +1,34 @@
+
+{{Server event}}
+This event is triggered when a [[/player.md|player]] hits a [[/pickup.md|pickup]].
+
+==Parameters==
+<syntaxhighlight lang="lua">
+pickup pickupHit, bool matchingDimension
+</syntaxhighlight> 
+
+*'''pickupHit''': The pickup the player hit
+*'''matchingDimension''': Whether the player and the pickup he hit are in the same dimension
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/player.md|player]] that hit the pickup.
+
+<!-- Only include this section below if cancelling the event has any effect. If you don't know if it does, ask a dev! -->
+==Cancel effect==
+If this event is [[/Event_system#Canceling.md|canceled]], the player will not be able to pick up this pickup.
+
+==Example== 
+<!-- Explain what the example is in a single sentance -->
+This example disables the use of armour pickups.
+<!-- Add the code below, an emphasis should be on making it clear, not optimized. You could provide two versions if you wish, one clear and well commented, the other optimized -->
+<syntaxhighlight lang="lua">
+function armourBlock(pickup,dimension)
+	if (getPickupType(pickup) == 1) then -- If it's an armour pickup
+		cancelEvent() -- Cancel the event
+		outputChatBox("Armour pickups are disabled.",source,255,0,0)
+	end
+end
+addEventHandler("onPlayerPickupHit",getRootElement(),armourBlock)
+</syntaxhighlight>
+
+{{See also/Server event|Player events}}

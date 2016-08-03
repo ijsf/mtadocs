@@ -1,0 +1,32 @@
+
+{{Client function}}
+This function gets the state of a [[/Element/Weapon.md|custom weapon]].
+
+==Syntax==
+<syntaxhighlight lang="lua">string getWeaponState ( weapon theWeapon )</syntaxhighlight>
+{{OOP||[[/Element/Weapon.md|weapon]]:getState|state|setWeaponState}}
+
+===Required arguments===
+* '''theWeapon:''' the [[/Element/Weapon.md|weapon]] to get the state of.
+
+===Returns===
+* A [[/string.md|string]] if the [[/Element/Weapon.md|weapon]] is valid, indicating the weapon state, which can be:
+** '''reloading''': the weapon is reloading.
+** '''firing''': the weapon is constantly shooting (unless any shooting blocking flags are set) according to its assigned firing rate.
+** '''ready''': the weapon is idle.
+* ''false'' if an error occured or the [[/Element/Weapon.md|weapon]] is invalid.
+
+==Example==
+This example creates a gun where the local player is and informs any player about its state.
+<syntaxhighlight lang="lua">local function testWeaponState()
+    local weapon = createWeapon("m4", getElementPosition(localPlayer)) -- Create the weapon
+    outputChatBox("The weapon that has just been created state is " .. getWeaponState(weapon) .. ".") -- Tell the player its state
+end
+addEventHandler("onClientResourceStart", resourceRoot, testWeaponState)
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|n/a|1.3.0-9.04555|}}
+
+==See also==
+{{Client weapon creation functions}}

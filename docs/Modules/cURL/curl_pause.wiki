@@ -1,0 +1,12 @@
+{{Modules/cURL/func_page|
+description		= Pause a request or result|
+syntax			= <syntaxhighlight lang="lua">CURLcode curlPause(CURL handler, int bitmask)</syntaxhighlight>|
+required_arguments      = * '''handler''' The curl handler
+* '''bitmask''' An integer representing what you want to pause. Read more about this [[/Modules/cURL/variables/CURLPAUSE.md|here]]|
+optional_arguments	= None|
+returns			= Returns a CURLcode, if everything is oke it returns CURLE_OK|
+example			= <syntaxhighlight lang="lua">
+curlPause( curl, CURLPAUSE_RECV );
+curlPerform( ... );
+</syntaxhighlight>
+}}

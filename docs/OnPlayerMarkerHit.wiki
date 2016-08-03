@@ -1,0 +1,27 @@
+
+{{Server event}}
+This event is triggered when a [[/player.md|player]] hits a [[/marker.md|marker]].
+
+==Parameters==
+<syntaxhighlight lang="lua">
+marker markerHit, bool matchingDimension
+</syntaxhighlight> 
+
+*'''markerHit''': The marker the player hit
+*'''matchingDimension''': Whether the player and the marker he hit are in the same dimension
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/player.md|player]] that hit the marker.
+
+==Example== 
+This example outputs when a player hits a marker.
+<syntaxhighlight lang="lua">
+function markerAlert(markerHit,matchingDimension)
+	if (matchingDimension) then -- Make sure the player is in the same dimension as the marker (so they're actually going into it).
+		outputChatBox("You have just entered a marker.",source,255,255,0) -- Output that they are.
+	end
+end
+addEventHandler("onPlayerMarkerHit",getRootElement(),markerAlert)
+</syntaxhighlight>
+
+{{See also/Server event|Player events}}

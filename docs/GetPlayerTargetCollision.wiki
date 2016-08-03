@@ -1,0 +1,25 @@
+
+{{Client function}}
+{{Deprecated|getPedTargetCollision|}}
+
+This function allows retrieval of where a player's target is blocked.  It will only be blocked if there is an obstacle within a player's target range.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+float float float getPlayerTargetCollision ( player targetingPlayer )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''targetingPlayer:''' This is the player whose target collision you wish to retrieve
+
+===Returns===
+Returns three floats, ''x'',''y'',''z'', representing the position where the player's target collides, or false if it was unsuccessful.
+
+==Example== 
+This page does not have an example.
+<syntaxhighlight lang="lua">
+--add an example here
+</syntaxhighlight>
+
+==See Also==
+{{Player_functions}}

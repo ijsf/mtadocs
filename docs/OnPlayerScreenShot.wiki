@@ -1,0 +1,74 @@
+ 
+{{Server event}}
+This event is triggered when the screen capture requested by [[/takePlayerScreenShot.md|takePlayerScreenShot]] has completed.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+resource theResource, string status, string imageData, int timestamp, string tag
+</syntaxhighlight> 
+
+*'''theResource''': The resource which called [[/takePlayerScreenShot.md|takePlayerScreenShot]]
+*'''status''': The status of the event which can be one of three values:
+**''"ok"'' - The image capture was successful and imageData will contain a JPEG image.
+**''"disabled"'' - The image capture failed because the player has disabled screen uploads.
+**''"minimized"'' - The image capture failed because the player has minimized the screen. (i.e. alt-tabbed)
+*'''imageData''': A string which contains the JPEG image data. This can be saved with the file functions, or sent to players with triggerClientEvent or even uploaded to a web site.
+*'''timestamp''': The server tick count when the capture was taken.
+*'''tag''': The tag string passed to [[/takePlayerScreenShot.md|takePlayerScreenShot]].
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/player.md|player]]
+
+==Example== 
+This example captures the screen of a random player every 2 seconds and shows it to everyone:
+
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">
+--------------------------------------------------
+-- Take screen shot every 2 seconds
+function doTakeScreenShot()
+    takePlayerScreenShot( getRandomPlayer(), 320, 200 )
+end
+setTimer(doTakeScreenShot, 2000, 0)
+
+--------------------------------------------------
+-- Receive screen shot result
+addEventHandler( "onPlayerScreenShot", root,
+    function ( theResource, status, pixels, timestamp, tag )
+        triggerClientEvent( root, "onMyClientScreenShot", resourceRoot, pixels )  -- Relay to all players
+    end
+)
+</syntaxhighlight>
+</section>
+
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+--------------------------------------------------
+-- Turn image data into a texture at the client
+addEvent("onMyClientScreenShot",true)
+addEventHandler( "onMyClientScreenShot", resourceRoot,
+    function( pixels )
+        if image then
+            destroyElement(image)
+        end
+        image = dxCreateTexture( pixels )
+    end
+)
+
+--------------------------------------------------
+-- Show image
+addEventHandler( "onClientRender", root,
+    function()
+        if image then
+            dxDrawImage( 100, 250, 320, 200, image )
+        end
+    end
+)
+</syntaxhighlight>
+</section>
+
+
+==Requirements==
+{{Requirements|1.3|n/a|}}
+
+{{See also/Server event|Player events}}

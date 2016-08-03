@@ -1,0 +1,8 @@
+==Related scripting functions==
+===Scrollpanes===
+* [[/guiCreateScrollPane.md|guiCreateScrollPane]]
+* [[/guiScrollPaneGetHorizontalScrollPosition.md|guiScrollPaneGetHorizontalScrollPosition]]
+* [[/guiScrollPaneGetVerticalScrollPosition.md|guiScrollPaneGetVerticalScrollPosition]]
+* [[/guiScrollPaneSetHorizontalScrollPosition.md|guiScrollPaneSetHorizontalScrollPosition]]
+* [[/guiScrollPaneSetScrollBars.md|guiScrollPaneSetScrollBars]]
+* [[/guiScrollPaneSetVerticalScrollPosition.md|guiScrollPaneSetVerticalScrollPosition]]

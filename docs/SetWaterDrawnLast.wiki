@@ -1,0 +1,32 @@
+ 
+{{Client function}}
+
+{{New feature/item|3.0130|1.3.0|4585|
+This function changes the [[/water.md|water]] rendering order.
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">bool setWaterDrawnLast ( bool bEnabled )</syntaxhighlight>
+
+===Required Arguments===
+*'''bEnabled''': A boolean value determining whether water should be drawn last. 
+
+===Returns===
+Returns ''true'' if the rendering order was changed successfully, ''false'' otherwise.
+
+==Example==
+This example toggles water to be drawn last.
+<syntaxhighlight lang="lua">
+function toggleWaterDrawnLast ()
+	local bWaterDrawnLast = not isWaterDrawnLast()
+	outputChatBox (string.format('setWaterDrawnLast: %s', tostring(bWaterDrawnLast)))
+	return setWaterDrawnLast (bWaterDrawnLast)
+end
+addCommandHandler ('togglewater', toggleWaterDrawnLast)
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|n/a|1.3.0.04585|}}
+
+==See Also==
+{{Client water functions}}

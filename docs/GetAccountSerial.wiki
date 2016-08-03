@@ -1,0 +1,34 @@
+ 
+{{Server function}}
+{{New items|3.0140|1.4|
+This function returns the last [[/serial.md|serial]] that logged onto the specified [[/account.md|account]].
+}}
+
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+string getAccountSerial ( account theAccount )
+</syntaxhighlight> 
+{{OOP||[[/account.md|account]]:getSerial|serial|}}
+===Required Arguments=== 
+*'''theAccount:''' The [[/account.md|account]] to get serial from
+
+===Returns===
+Returns ''string'' containing the serial, the string is empty if the account was never used. Returns ''false'' if invalid arguments were specified.
+
+==Example==
+This example adds command ''getaccserial'' that outputs the given account's serial in the chat box.
+<syntaxhighlight lang="lua">
+addCommandHandler("getaccserial", 
+	function (player, cmd, accountName)
+		local account = getAccount(accountName)
+		if (account) then
+			outputChatBox("Serial: " .. getAccountSerial(account))
+		else
+			outputChatBox("Account not found")
+		end
+	end)
+</syntaxhighlight>
+
+==See Also==
+{{Account_functions}}

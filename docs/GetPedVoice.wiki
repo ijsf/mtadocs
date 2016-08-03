@@ -1,0 +1,16 @@
+
+{{Client function}}
+
+Gets the current voice of a ped.
+
+==Syntax==
+<syntaxhighlight lang="lua">string string getPedVoice ( ped thePed )</syntaxhighlight>
+
+===Required Arguments===
+*'''thePed:''' the ped to get the voice of.
+
+===Returns===
+If successul, returns the current voice type name and the voice name of the ped (see [[/ped voices.md|ped voices]] for possible names). Returns ''false'' in case of failure.
+
+==See Also==
+{{Client ped functions}}

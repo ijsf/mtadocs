@@ -1,0 +1,15 @@
+<pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass>
+
+{{ModuleFunction|MTA-MySQL}}
+Returns a string representing the client library version
+
+==Syntax==
+<syntaxhighlight lang="lua">
+string mysql_get_client_info ( )
+</syntaxhighlight>
+
+===Returns===
+A string with the client library version
+
+==See also==
+{{Modules/MTA-MySQL/Handler_functions}}

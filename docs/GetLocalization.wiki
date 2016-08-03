@@ -1,0 +1,34 @@
+{{Client function}}
+
+{{New items|3.0140|1.4|
+This function gets the player's localization setting as set in the MTA client.
+}}
+==Syntax== 
+<syntaxhighlight lang="lua">
+table getLocalization ( )
+</syntaxhighlight> 
+
+===Returns===
+Returns a [[/table.md|table]] with the following entries:
+*'''code :''' The language code ''(eg. "en_US" for "English (United States)" or "ar" for "Arabic")''.
+*'''name :''' The name of the language ''(eg. "English (United States)" or "Arabic")''.
+
+==Example==
+This example outputs simple ''Welcome'' message at the resource start (also when player joins the game if the resource is already running).
+<syntaxhighlight lang="lua">
+local msg = {cs = "Vítejte", fr = "Accueil", de = "Willkommen", pl = "Powitanie"}
+
+addEventHandler("onClientResourceStart", resourceRoot, 
+	function ()
+		local languageCode = getLocalization()["code"]
+		if msg[languageCode] then --Check if the message is avaible in client's language
+			outputChatBox(msg[languageCode] .. "!") --Output it
+		else
+			outputChatBox("Welcome!") --Output English for any other language
+		end
+	end)
+</syntaxhighlight>
+
+==See Also==
+{{Client_utility_functions}}
+[[/ru:GetLocalization.md|ru:GetLocalization]]

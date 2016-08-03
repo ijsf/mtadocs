@@ -1,0 +1,27 @@
+
+{{Server client function}}
+This function allows restoring of all world objects,which were removed with [[/RemoveWorldModel.md|RemoveWorldModel]].
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool restoreAllWorldModels ( )
+</syntaxhighlight>
+
+==Returns==
+Returns ''true'' if the world objects were restored, ''false'' otherwise.
+
+==Requirements==
+{{Requirements|1.2.0-9.03618|1.2.0-9.03618|}}
+
+==Example==
+This example adds command ''"restoreallworldobjects"'' that restores all world objects.
+<syntaxhighlight lang="lua">
+addCommandHandler("restoreallworldobjects",
+  function()
+    restoreAllWorldModels()
+  end
+)
+</syntaxhighlight>
+
+==See Also==
+{{Client_world_functions}}

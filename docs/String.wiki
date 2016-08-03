@@ -1,0 +1,22 @@
+A string is a sequence of characters, for example "Hello, World!" is a string.<br />
+Here is a list of every default string manipulation function present in Lua.
+
+* [http://www.lua.org/manual/5.1/manual.html#pdf-string.byte string.byte]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-string.char string.char]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-string.dump string.dump]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-string.find string.find]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-string.format string.format]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-string.gmatch string.gmatch]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-string.gsub string.gsub]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-string.len string.len]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-string.lower string.lower]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-string.match string.match]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-string.rep string.rep]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-string.reverse string.reverse]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-string.sub string.sub]
+* [http://www.lua.org/manual/5.1/manual.html#pdf-string.upper string.upper]
+
+[[/Category:Scripting Concepts.md|Category:Scripting Concepts]]
+
+[[/de:string.md|de:string]]
+[[/ru:String.md|ru:String]]

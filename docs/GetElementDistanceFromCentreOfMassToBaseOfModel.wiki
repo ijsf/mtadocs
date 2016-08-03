@@ -1,0 +1,24 @@
+
+{{Client function}}
+This function is used to retrieve the distance between a [[/element.md|element]]'s centre of mass to the base of the model. This can be used to calculate the position the [[/element.md|element]] has to be set to, to have it on ground level.
+==Syntax==
+<syntaxhighlight lang="lua">
+float getElementDistanceFromCentreOfMassToBaseOfModel ( element theElement )
+</syntaxhighlight>
+{{OOP||[[/element.md|element]]:getDistanceFromCentreOfMassToBaseOfModel|distanceFromCentreOfMassToBaseOfModel}}
+
+===Required Parameters===
+'''theElement:''' The element you want to retrieve the value of.
+
+===Returns===
+Returns a ''float'' with the distance, or ''false'' if the element is invalid.
+
+==Example==
+This example outputs the value for the local player.
+<syntaxhighlight lang="lua">
+local distance = getElementDistanceFromCentreOfMassToBaseOfModel(localPlayer)
+outputChatBox(tostring(distance))
+</syntaxhighlight>
+
+==See Also==
+{{Client element functions}}

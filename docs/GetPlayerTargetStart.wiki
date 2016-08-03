@@ -1,0 +1,25 @@
+
+{{Client function}}
+{{Deprecated|getPedTargetStart|}}
+
+This function allows retrieval of the position a player's target range begins, when he is aiming with a weapon.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+float float float getPlayerTargetStart ( player targetingPlayer )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''targetingPlayer:''' The player whose target start you wish to retrieve
+
+===Returns===
+Returns three floats, x,y,z, representing the position where the player's target starts, or false if it was unsuccessful.
+
+==Example== 
+This page does not have an example
+<syntaxhighlight lang="lua">
+--add an example here
+</syntaxhighlight>
+
+==See Also==
+{{Player_functions}}

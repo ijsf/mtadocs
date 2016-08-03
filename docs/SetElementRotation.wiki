@@ -1,0 +1,67 @@
+{{Server client function}}
+ 
+Sets the rotation of elements according to the world (does not work with players that are on the ground).
+{{Tip|New scripts should set '''conformPedRotation''' to ''true'' when using this function on [[/Ped.md|peds]]. This will prevent quirky old behaviour.}}
+==Syntax==
+<syntaxhighlight lang="lua">
+bool setElementRotation ( element theElement, float rotX, float rotY, float rotZ [, string rotOrder = "default", bool conformPedRotation = false ] )       
+</syntaxhighlight> 
+{{OOP||[[/element.md|element]]:setRotation||getElementRotation}}
+
+===Required Arguments=== 
+*'''theElement:''' The element whose rotation will be set
+*'''rotX:''' The element's rotation around the x axis in degrees
+*'''rotY:''' The element's rotation around the y axis in degrees
+*'''rotZ:''' The element's rotation around the z axis in degrees
+
+===Optional Arguments=== 
+{{New feature|3.0110|1.1|
+*'''rotOrder:''' A string representing the rotation order desired when interpreting the provided [http://en.wikipedia.org/wiki/Euler_angles euler angles]. If omitted, default value is ''"default"''. Allowed values are:
+**''"default":'' default MTA behavior prior to 1.1, where rotation order depends on element type
+**''"ZXY":'' rotation about the Z axis (''up''), then about the resulting X axis (''right''), and finally about the resulting Y axis (''front''). This is the default rotation order for [[/object.md|objects]]
+**''"ZYX":'' rotation about the Z axis (''up''), then about the resulting Y axis (''front''), and finally about the resulting X axis (''right''). This is the default rotation order for [[/vehicle.md|vehicles]]
+
+The default rotation order for peds/players is -Z-Y-X but this rotation order (set using ''"default"'' on peds) can not be set manually on other element types since it only exists due to historical and backward compatibility reasons.
+Specifying a rotation order other than ''"default"'' allows the same angles to be uniformly used on several elements without having to consider their type.
+}}
+{{New feature/item|3.0152|1.3.2|4680|
+*'''conformPedRotation:''' ''Relevant only for peds and will be ignored for other element types.'' A bool which should be set to ''true'' to ensure the ped rotation is correctly set in all circumstances. Failing to set this argument may result in the ped rotation being inverted whilst it is in the air and other inconsistencies. The default value of false is for backward compatibility with scripts which may depend upon the incorrect behaviour.
+}}
+
+===Returns===
+Returns ''true'' if the element rotation was successfully set and ''false'' otherwise.
+
+==Example== 
+How to correctly set the rotation for a ped:
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+function pedRotate ( )
+    local rotX, rotY, rotZ = getElementRotation(localPlayer) -- get the local players's rotation
+    setElementRotation(localPlayer,0,0,rotZ+10,"default",true) -- turn the player 10 degrees clockwise
+end
+addCommandHandler ( "turn", pedRotate )
+</syntaxhighlight>
+</section>
+
+When a player used the command "turn" and they are the driver of a vehicle the vehicle will rotate 10 degrees clockwise
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+function carRotate( )
+    if isPedInVehicle(localPlayer) then -- if the local client is in a vehicle
+        localVehicle = getPedOccupiedVehicle(localPlayer)
+        if getVehicleController(localVehicle) == localPlayer then -- if the local client is the controller (driver) of the vehicle
+            local rotX, rotY, rotZ = getElementRotation(localVehicle) -- get the local client's vehicle rotation
+            setElementRotation(localVehicle,rotX,rotY,rotZ+10) -- turn the vehicle 10 degrees clockwise
+         end
+    end
+end
+addCommandHandler ( "turn", carRotate )
+</syntaxhighlight>
+</section>
+
+==Changelog==
+{{ChangelogHeader}}
+{{ChangelogItem|1.3.1-9.04680|Added conformPedRotation argument}}
+
+==See Also==
+{{Client_element_functions}}

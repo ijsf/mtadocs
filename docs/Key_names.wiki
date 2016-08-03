@@ -1,0 +1,134 @@
+This page lists all the key names. These can be used by the console commands ''bind'' and ''unbind'' as well as the script functions [[/bindKey.md|bindKey]] and [[/unbindKey.md|unbindKey]].
+
+Lua table of all the valid key names listed on this page:
+<syntaxhighlight lang="lua">keyTable = { "mouse1", "mouse2", "mouse3", "mouse4", "mouse5", "mouse_wheel_up", "mouse_wheel_down", "arrow_l", "arrow_u",
+ "arrow_r", "arrow_d", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k",
+ "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "num_0", "num_1", "num_2", "num_3", "num_4", "num_5",
+ "num_6", "num_7", "num_8", "num_9", "num_mul", "num_add", "num_sep", "num_sub", "num_div", "num_dec", "num_enter", "F1", "F2", "F3", "F4", "F5",
+ "F6", "F7", "F8", "F9", "F10", "F11", "F12", "escape", "backspace", "tab", "lalt", "ralt", "enter", "space", "pgup", "pgdn", "end", "home",
+ "insert", "delete", "lshift", "rshift", "lctrl", "rctrl", "[", "]", "pause", "capslock", "scroll", ";", ",", "-", ".", "/", "#", "\\", "=" }</syntaxhighlight>
+
+
+<div style="border:3px solid green;margin-bottom:3px;"><div style="float:right;padding-right:5px;font-weight:bold;">MOUSE</div>
+* '''mouse1''' ''(This is left click)''
+* '''mouse2''' ''(This is right click)''
+* '''mouse3''' ''(This is the middle mouse button)''
+* '''mouse4''' 
+* '''mouse5'''
+* '''mouse_wheel_up'''
+* '''mouse_wheel_down'''
+</div>
+<div style="border:3px solid red;margin-bottom:3px;"><div style="float:right;padding-right:5px;font-weight:bold;">ARROW KEYS</div>
+* '''arrow_l'''
+* '''arrow_u'''
+* '''arrow_r'''
+* '''arrow_d'''
+</div>
+<div style="border:3px solid blue;margin-bottom:3px;"><div style="float:right;padding-right:5px;font-weight:bold;">NUMBERS</div>
+* '''0'''
+* '''1'''
+* '''2'''
+* '''3'''
+* '''4'''
+* '''5'''
+* '''6'''
+* '''7'''
+* '''8'''
+* '''9'''
+</div>
+<div style="border:3px solid orange;margin-bottom:3px;"><div style="float:right;padding-right:5px;font-weight:bold;">LETTERS</div>
+* '''a'''
+* '''b'''
+* '''c'''
+* '''d'''
+* '''e'''
+* '''f'''
+* '''g'''
+* '''h'''
+* '''i'''
+* '''j'''
+* '''k'''
+* '''l'''
+* '''m'''
+* '''n'''
+* '''o'''
+* '''p'''
+* '''q'''
+* '''r'''
+* '''s'''
+* '''t'''
+* '''u'''
+* '''v'''
+* '''w'''
+* '''x'''
+* '''y'''
+* '''z'''
+</div>
+<div style="border:3px solid yellow;margin-bottom:3px;"><div style="float:right;padding-right:5px;font-weight:bold;">NUMERIC KEYPAD</div>
+* '''num_0'''
+* '''num_1'''
+* '''num_2'''
+* '''num_3'''
+* '''num_4'''
+* '''num_5'''
+* '''num_6'''
+* '''num_7'''
+* '''num_8'''
+* '''num_9'''
+* '''num_mul'''
+* '''num_add'''
+* '''num_sep'''
+* '''num_sub'''
+* '''num_div'''
+* '''num_dec'''
+* '''num_enter'''
+</div>
+<div style="border:3px solid pink;margin-bottom:3px;"><div style="float:right;padding-right:5px;font-weight:bold;">FUNCTION KEYS</div>
+* '''F1'''
+* '''F2'''
+* '''F3'''
+* '''F4'''
+* '''F5'''
+* '''F6'''
+* '''F7'''
+* '''F8'''
+* '''F9'''
+* '''F10'''
+* '''F11'''
+* '''F12'''
+</div>
+<div style="border:3px solid purple;margin-bottom:3px;"><div style="float:right;padding-right:5px;font-weight:bold;">OTHER</div>
+* '''escape'''
+* '''backspace'''
+* '''tab'''
+* '''lalt'''
+* '''ralt'''
+* '''enter'''
+* '''space'''
+* '''pgup'''
+* '''pgdn'''
+* '''end'''
+* '''home'''
+* '''insert'''
+* '''delete'''
+* '''lshift'''
+* '''rshift'''
+* '''lctrl'''
+* '''rctrl'''
+* '''['''
+* ''']'''
+* '''pause'''
+* '''capslock'''
+* '''scroll'''
+* ''';'''
+* ''','''
+* '''-'''
+* '''.'''
+* '''/'''
+* '''#'''
+* '''\'''
+* '''='''
+
+</div>
+[[/pl:Key names.md|pl:Key names]]
+[[/Category:Scripting Concepts.md|Category:Scripting Concepts]]

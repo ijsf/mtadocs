@@ -1,0 +1,28 @@
+{{Client function}}
+{{Needs_Example}}
+
+This function gets the color of a single pixel from [[/Texture_pixels.md|pixels]] contained in a string. It only works with ''''plain'''' format pixels.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+int r,g,b,a dxGetPixelColor( string pixels, int x, int y )
+</syntaxhighlight> 
+
+===Required Arguments===
+*'''pixels :''' The pixels to use
+*'''x:''' The X coordinate for the pixel
+*'''y:''' The Y coordinate for the pixel
+
+==Returns==
+Returns the color of pixel if successful, or ''false'' if invalid arguments were passed to the function.
+
+==Example== 
+<syntaxhighlight lang="lua">
+TODO
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|n/a|1.3|}}
+
+==See Also==
+{{Drawing_functions}}

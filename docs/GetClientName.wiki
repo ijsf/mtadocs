@@ -1,0 +1,35 @@
+
+{{Server function}}
+{{Deprecated|getPlayerName|}}
+
+This function gets a [[/client.md|client]]'s name (a client can either be a [[/player.md|player]] or an admin).
+
+==Syntax==
+<syntaxhighlight lang="lua">
+string getClientName ( client theClient )
+</syntaxhighlight>
+
+===Required Arguments===
+* '''theClient:''' the [[/client.md|client]] element (player or admin) you want to get the name of.
+
+===Returns===
+Returns a ''string'' containing the requested client's name, or ''false'' if the client passed to the function is invalid.
+
+==Example==
+This example adds a tag before a player's nick.
+<syntaxhighlight lang="lua">
+function tagPlayer( thePlayer, tag )
+	--we check thePlayer is a player, otherwise this function could be used with admins
+	if getElementType(thePlayer) == "player" then
+		--we store the player's current name,
+		local oldName = getClientName( thePlayer )
+		--append the tag passed to this function before it,
+		local taggedName = tag .. oldName
+		--then set it as his new name
+		setClientName( thePlayer, taggedName )
+	end
+end
+</syntaxhighlight>
+
+==See Also==
+{{Client functions}}

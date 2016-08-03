@@ -1,0 +1,17 @@
+<pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass>
+
+{{ModuleFunction|MTA-MySQL}}
+Returns the current field cursor position in the last executed query.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+int mysql_field_tell ( MySQLResult result )
+</syntaxhighlight>
+===Required arguments===
+* '''result:''' A valid MySQL result
+
+===Returns===
+The current field cursor position.
+
+==See also==
+{{Modules/MTA-MySQL/Result_functions}}

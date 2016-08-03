@@ -1,0 +1,26 @@
+
+{{Server client function}}
+This function resets the water of the GTA world back to its default level. [[/water.md|Water elements]] are not affected.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool resetWaterLevel ()
+</syntaxhighlight> 
+
+===Returns===
+Returns ''true'' if water level was reset correctly, ''false'' otherwise.
+
+==Example== 
+This example adds a command ''resetwaterlevel'' with which a player can reset the water level.
+<syntaxhighlight lang="lua">
+function changeWaterLevelBackToNormal ()
+    resetWaterLevel ()
+end
+addCommandHandler ( "resetwaterlevel", changeWaterLevelBackToNormal )
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|1.2|1.2|}}
+
+==See Also==
+{{Client water functions}}

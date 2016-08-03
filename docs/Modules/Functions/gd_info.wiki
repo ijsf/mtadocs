@@ -1,0 +1,31 @@
+<pageclass class="#AA7592" subcaption="Texturizer Module"></pageclass>
+
+{{ModuleFunction|Texturizer}}
+
+Gets a table of the info about the GD libary which the module is compiled against.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+table gd_info ( )
+</syntaxhighlight>
+===Required arguments===
+
+===Returns===
+The following table of gd info:
+
+  string '''GD Version''': The version string of the GD libary the module is compiled against.
+
+==Example==
+'''Example 1:''' This example displays the gd version to joining players
+<syntaxhighlight lang="lua">
+gdInfo = gd_info();
+
+function gdVersion ( )
+   outputDebugString(gdInfo["GD Version"], source);
+end
+
+addEventHandler("onPlayerJoin", getRootElement(), gdVersion)
+</syntaxhighlight>
+
+==See also==
+{{Modules/Texturizer/Functions}}

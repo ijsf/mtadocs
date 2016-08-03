@@ -1,0 +1,31 @@
+{{Client event}}
+ 
+This event is fired when the user moves the mouse over a GUI element.
+
+==Parameters== 
+<syntaxhighlight lang="lua">
+int absoluteX, int absoluteY, element leftGUI
+</syntaxhighlight> 
+* '''absoluteX''':  the X position of the mouse cursor, in pixels, measured from the left side of the screen.
+* '''absoluteY''':  the Y position of the mouse cursor, in pixels, measured from the top of the screen.
+* '''leftGUI''': the gui element that was switched from, or nil if it doesn't exist
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the GUI element that was pointed at.
+
+==Example== 
+This example shows a message when you move over a GUI element.
+<syntaxhighlight lang="lua">
+addEventHandler( "onClientMouseEnter", getRootElement(), 
+    function(aX, aY)
+        outputChatBox( "You're pointing at a GUI element at ("..tostring(aX)..", "..tostring(aY)..")")
+    end
+)
+</syntaxhighlight>
+
+[[/pl:onClientMouseEnter.md|pl:onClientMouseEnter]]
+
+==See Also==
+===GUI events===
+{{GUI_events}}
+===Client event functions===
+{{Client_event_functions}}

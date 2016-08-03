@@ -1,0 +1,27 @@
+<pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass>
+
+{{ModuleFunction|MTA-MySQL}}
+Changes the current default database.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool mysql_select_db ( MySQLConnection handler, string database )
+</syntaxhighlight>
+===Required arguments===
+* '''handler:''' A valid MySQL link
+* '''database:''' The new database name
+
+===Returns===
+It it succeeds returns true, in other case returns false
+
+==Example==
+'''Example 1:''' This example changes the current default database to another one
+<syntaxhighlight lang="lua">
+local handler = mysql_connect("localhost", "user", "password", "mta_users")
+if ( not mysql_select_db(handler, "another_database") ) then
+  outputDebugString("Unable to change default database: (" .. mysql_errno(handler) .. ") " .. mysql_error(handler))
+end
+</syntaxhighlight>
+
+==See also==
+{{Modules/MTA-MySQL/Handler_functions}}

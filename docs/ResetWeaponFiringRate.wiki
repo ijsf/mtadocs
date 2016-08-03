@@ -1,0 +1,24 @@
+
+{{Client function}}
+This function resets the firing rate of a [[/Element/Weapon.md|custom weapon]] to the default one.
+
+==Syntax==
+<syntaxhighlight lang="lua">bool resetWeaponFiringRate ( weapon theWeapon )</syntaxhighlight>
+{{OOP||[[/Element/Weapon.md|weapon]]:resetFiringRate}}
+
+===Required Arguments===
+* '''theWeapon:''' the weapon to reset the firing rate of.
+
+===Returns===
+Returns ''true'' on success, ''false'' otherwise.
+
+===Example===
+<syntaxhighlight lang="lua">local weapon = createWeapon ("mp5",0,0,10) 
+resetWeaponFiringRate (weapon)
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|n/a|1.3.0-9.04555|}}
+
+==See also==
+{{Client weapon creation functions}}

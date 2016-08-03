@@ -1,0 +1,33 @@
+ 
+{{Server function}}
+
+This function will force the specified player to resend their mod info, triggering the [[/onPlayerModInfo.md|onPlayerModInfo]] event again.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool resendPlayerModInfo ( player thePlayer )
+</syntaxhighlight>
+{{OOP||[[/player.md|player]]:resendModInfo||}}
+===Required Arguments===
+*'''thePlayer''': A [[/player.md|player]] object referencing the specified player
+
+===Returns===
+Returns ''true'' if the mod info will be resent, ''false'' otherwise.
+
+==Example== 
+This example shows how to resend each players mod info during [[/onResourceStart.md|onResourceStart]]
+<syntaxhighlight lang="lua">
+addEventHandler( "onResourceStart", resourceRoot,
+    function()
+        for _,player in ipairs( getElementsByType("player") ) do
+            resendPlayerModInfo( player )
+        end
+    end
+)
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|1.1.1-9.03451|n/a|}}
+
+==See Also==
+{{Player functions}}

@@ -1,0 +1,42 @@
+
+{{Server client function}}
+
+This function allows you to check the current blur level of a specified [[/player.md|player]].
+
+==Syntax==
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">
+int getPlayerBlurLevel ( player thePlayer )
+</syntaxhighlight>
+{{OOP||[[/player.md|player]]:getBlurLevel||setPlayerBlurLevel}}
+===Required Arguments===
+*'''thePlayer:''' The [[/player.md|player]] whose blur level you want to check.
+
+===Returns===
+Returns the player's blur level if successful, ''false'' if an invalid player was given.
+</section>
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+int getBlurLevel ()
+</syntaxhighlight>
+{{OOP||[[/Player.md|Player]].getBlurLevel|blurLevel|setPlayerBlurLevel}}
+===Returns===
+Returns the local blur level.
+</section>
+
+==Example==
+<section name="Server" class="server" show="true">
+This example adds a command ''blurlevel'' with which you can check your current blur level.
+<syntaxhighlight lang="lua">
+function checkBlurLevel( playerSource )
+    local blur = getPlayerBlurLevel( playerSource )
+    if blur then
+        outputChatBox( "Blur level: " .. blur, playerSource )
+    end
+end
+addCommandHandler("blurlevel", checkBlurLevel)
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Player functions}}

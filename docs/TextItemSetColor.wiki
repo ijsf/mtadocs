@@ -1,0 +1,30 @@
+
+{{Server function}}
+This function sets the color of a text item.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool textItemSetColor ( textitem theTextItem, int r, int g, int b, int a )              
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''theTextItem:''' The textitem you wish to set the color of.
+*'''red:''' The amount of red in the text item's color (0 - 255).
+*'''green:''' The amount of green in the text item's color (0 - 255).
+*'''blue:''' The amount of blue in the text item's color (0 - 255).
+*'''alpha:''' The amount of alpha in the text item's color (0 - 255). Alpha decides transparency where 255 is opaque and 0 is transparent.
+
+===Returns===
+Returns ''true'' if the color was successfully set, ''false'' otherwise.
+
+==Example== 
+This example gets the color of a textitem named 'theTextItem' and if it is green, changes it to blue.
+<syntaxhighlight lang="lua">
+r,g,b,a = textItemGetColor ( theTextItem )           -- get the text color and store it in the variables 'r', 'g', 'b' and 'a'
+if ( r == 0 ) and ( g == 255 ) and ( b == 0 ) then   -- if the color is green
+    textItemSetColor ( theTextItem, 0, 0, 255, 255 ) -- set it to blue
+end
+</syntaxhighlight>
+
+==See Also==
+{{Text functions}}

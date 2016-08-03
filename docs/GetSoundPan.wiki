@@ -1,0 +1,28 @@
+ 
+{{Client function}}
+This function is used to get the pan level of the specified [[/sound.md|sound]] element.
+
+==Syntax== 
+<syntaxhighlight lang="lua">float getSoundPan ( element theSound )</syntaxhighlight> 
+{{OOP||[[/sound.md|sound]]:getPan|pan|setSoundPan}}
+===Required Arguments=== 
+*'''theSound:''' the [[/sound.md|sound]] element which pan you want to get.
+
+===Returns===
+Returns ''float'' value with range from ''-1.0 (left)'' to ''1.0 (right)'', ''false'' otherwise.
+
+==Example== 
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+function playMusic ()
+        local song = playSound('song.mp3')
+        setSoundPan(song, 0.3)
+        outputChatBox("Current pan is "..tostring(getSoundPan(song)))
+end
+
+addCommandHandler("music", playMusic)
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Client_audio_functions}}

@@ -1,0 +1,25 @@
+
+{{ModuleFunction|IRCEcho}}
+Changes the name of the IRCConnection
+
+==Syntax==
+<syntaxhighlight lang="lua">
+function ircChangeNick ( IRCConnection irc, string newnick )
+</syntaxhighlight>
+===Required arguments===
+* '''irc:''' The IRCConnection
+* '''newnick:''' The new nickname
+
+==Example==
+'''Example 1:''' This example adds the command "ircname". That command can change the IRCConnection's name
+<syntaxhighlight lang="lua">
+
+function changeIrcName( thePlayer, command, newname )
+	ircChangeNick( pIRC, newname )
+end
+
+addCommandHandler( "ircname", changeIrcName )
+</syntaxhighlight>
+
+==See also==
+{{Modules/IRCEcho/Functions}}

@@ -1,0 +1,23 @@
+
+{{Server function}}
+Sets the collision damage multiplier of a handling element. The higher this value, the more damage the vehicle will take when it collides with something.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool handlingSetCollisionDamageMultiplier ( handling theHandling, float multiplier )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''theHandling:''' the handling of which you want to change the collision damage multiplier.
+*'''multiplier:''' the damage multiplier to set.
+
+===Returns===
+Returns ''true'' on success, ''false'' in case of failure.
+
+==Example==
+<syntaxhighlight lang="lua">
+--TODO
+</syntaxhighlight>
+
+==See Also==
+{{Handling_functions}}

@@ -1,0 +1,30 @@
+
+{{HTTP function}}
+This function removes all text from the current HTML output.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool httpClear ( )
+</syntaxhighlight>
+
+===Returns===
+Returns ''true'' if the output buffer was cleared successfully, ''false'' otherwise.
+
+==Example==
+This sample resource page adds a message to be outputted saying there are players in the server, but clears output if the server is empty so a blank page is displayed instead.
+<syntaxhighlight lang="html">
+<html>
+   <head/>
+   <body>
+      There are some players in the server.
+   </body>
+</html>
+<*</syntaxhighlight><syntaxhighlight lang="lua">
+if getPlayerCount() == 0 then
+   httpClear()
+end
+</syntaxhighlight><syntaxhighlight lang="html">*>
+</syntaxhighlight>
+
+==See Also==
+{{HTTP functions}}

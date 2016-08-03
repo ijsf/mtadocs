@@ -1,0 +1,33 @@
+
+{{Client function}}
+This function returns the force of the specified projectile.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+float getProjectileForce ( projectile theProjectile )
+</syntaxhighlight>
+{{OOP||[[/projectile.md|projectile]]:getForce|force}}
+
+===Required Arguments===
+*'''theProjectile:''' The [[/projectiles.md|projectile]] element which force you want to retrieve.
+
+==Returns==
+Returns a [[/float.md|float]] if successful, ''false'' otherwise.
+
+==Example== 
+'''Example 1:''' This example would outputs the force of the projectile on 1-100 scale. This function just works with projectiles which you throw so just grenades, satchel charge etc
+<syntaxhighlight lang="lua">
+
+addEventHandler("onClientProjectileCreation", getRootElement(),
+--The source of this event is the projectile that was created.
+function ()
+    local getForce = getProjectileForce(source)
+    outputChatBox(getForce*100) -- outputs the force of the projectile on 1-100 scale
+end
+)
+
+</syntaxhighlight>
+
+==See also==
+{{Client projectile functions}}
+[[/it:getProjectileForce.md|it:getProjectileForce]]

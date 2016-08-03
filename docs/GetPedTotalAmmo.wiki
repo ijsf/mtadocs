@@ -1,0 +1,42 @@
+
+{{Server client function}}
+This function returns an integer that contains the total ammo in a specified [[/ped.md|ped]]'s weapon. See [[/weapon.md|Weapon Info]]
+{{Note|Clientside, this function will not return a correct value for remote player weapons that aren't in hand.}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+int getPedTotalAmmo ( ped thePed, [ int weaponSlot = current ] )
+</syntaxhighlight>
+{{OOP||[[/ped.md|ped]]:getTotalAmmo}}
+
+===Required Arguments===
+*'''thePed''': The [[/ped.md|ped]] whose ammo you want to check.
+
+===Optional Arguments===
+*'''weaponSlot''': an integer representing the weapon slot (set to the ped's current slot if not given)
+
+===Returns===
+Returns an [[/int.md|int]] containing the total amount of ammo for the specified ped's weapon, or 0 if the ped specified is invalid.
+
+==Example==
+This example outputs the total amount of ammo a player called ''Someguy'' has for his weapon.
+<syntaxhighlight lang="lua">
+-- Find the player called 'Someguy'
+myPlayer = getPlayerFromName ( "Someguy" )
+-- If a player called 'Someguy' was found then
+if ( myPlayer ) then
+	-- Retrieve the total amount of ammo for that player, and store it in a variable called 'ammo'
+	ammo = getPedTotalAmmo ( myPlayer )
+	-- Tell all the players how much ammo 'Someguy' has
+	outputChatBox ( "Someguy's current total ammo: " .. ammo .. "." )
+end
+</syntaxhighlight>
+
+==Issues==
+{{Issues|
+{{Issue|6639|Flame thrower ammo will be returned ten times higher than what they're given.}}
+{{Issue|7719|[[/getPedTotalAmmo.md|getPedTotalAmmo]]() & [[/getPedAmmoInClip.md|getPedAmmoInClip]]() serverside sometimes return invalid values}}
+}}
+
+==See Also==
+{{Client_ped_functions}}

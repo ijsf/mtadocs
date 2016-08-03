@@ -1,0 +1,58 @@
+
+{{Shared function}}
+
+Compares two strings in lower-case and returns the difference indicator (see table below) as an integer value.
+
+==Syntax==
+<syntaxhighlight lang="lua">int utf8.ncasecmp ( string a, string b )</syntaxhighlight>
+
+===Required Arguments===
+*'''a:''' A string character sequence
+*'''b:''' A string character sequence
+
+===Returns===
+Returns an ''integer'', which indicates the difference, see the table below for further information.
+
+===Indicators===
+{|  class="prettytable" style="width:25%;text-align:center;"
+|-
+! Value || Meaning
+|-
+| <code>-1</syntaxhighlight> || <syntaxhighlight lang="lua">a < b</syntaxhighlight>
+|-
+| <code>0</syntaxhighlight> || <syntaxhighlight lang="lua">a == b</syntaxhighlight>
+|-
+| <code>1</syntaxhighlight> || <syntaxhighlight lang="lua">a > b</syntaxhighlight>
+|}
+
+==Example==
+<section name="Server" class="server" show="true">
+This example shows a simple comparsion of two different strings.
+<syntaxhighlight lang="lua">
+local a = "Hello"
+local b = "World"
+local result = utf8.ncasecmp( a, b )
+
+if result == -1 then
+    print( "a < b" ) -- printed
+elseif result == 0 then
+    print( "a == b" )
+elseif result == 1 then
+    print( "a > b" )
+end
+</syntaxhighlight>
+</section>
+<section name="Server" class="server" show="true">
+This example shows how to greet a player, when he write 'hello' into the chat.
+<syntaxhighlight lang="lua">
+addEventHandler("onPlayerChat", root,
+    function (message, messageType)
+        if messageType == 0 and utf8.ncasecmp( message, "hello" ) == 0 then
+            outputChatBox( "* Server: Hello!", source, 255, 100, 100 )
+        end
+    end
+)
+</syntaxhighlight>
+</section>
+==See Also==
+{{UTF8 functions}}

@@ -1,0 +1,243 @@
+=Server setup=
+
+3 settings in [[/Server_mtaserver.conf.md|'''mtaserver.conf''']] control AC behaviour for a server:
+
+==<disableac></disableac>==
+Comma separated list of disabled anti-cheats. This setting disables specific AC codes. AC codes are shown to the player when that detection has been triggered. Available codes are:
+
+{| border="0" cellpadding="1" cellspacing="2"
+|-
+! scope="col" style="background:#d0d0d0;"| Code for <disableac>
+! scope="col" style="background:#d0d0d0;"| Displayed on detect
+! scope="col" style="background:#d0d0d0;"| Required server version
+! scope="col" style="background:#d0d0d0;"| Required <minclientversion> 
+! scope="col" style="background:#d0d0d0;"| Notes
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''1'''
+| style="background:#f0f0f0;" align="center"|AC #1
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;"|
+| style="background:#f0f0f0;"| Classic health/armour hack detector
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''4'''
+| style="background:#f0f0f0;" align="center"|AC #4
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;"|
+| style="background:#f0f0f0;"| Detects presence of trainer. Capital letters in the message are for tagging particular trainers
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''5'''
+| style="background:#f0f0f0;" align="center"|AC #5
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;"|
+| style="background:#f0f0f0;"| Detects use of trainer.        
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''6'''
+| style="background:#f0f0f0;" align="center"|VF #6
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;"|
+| style="background:#f0f0f0;"| Detects use of trainer incl.: player movement, health/damage, weapons, money, gamespeed, game cheats, aimbot   
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''7'''
+| style="background:#f0f0f0;" align="center"|VF #7
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;"|
+| style="background:#f0f0f0;"| Detects use of trainer.   
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''8'''
+| style="background:#f0f0f0;" align="center"|VF #8
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;"|
+| style="background:#f0f0f0;"| Detects unauthorized mods
+|-
+| scope="row" style="background:#e0e0e0;" align="center" rowspan="2"|'''11'''
+| style="background:#f0f0f0;" align="center"|AC #11
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;"|
+| style="background:#f0f0f0;"| More trainers
+|-
+| style="background:#f0f0f0;" align="center"|VF #11
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;"|
+| style="background:#f0f0f0;"| Dll injector / Trainer
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''13'''
+| style="background:#f0f0f0;" align="center"|SD #13
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;"|
+| style="background:#f0f0f0;"| Data files issue
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''17'''
+| style="background:#f0f0f0;" align="center"|VF #17
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;"|
+| style="background:#f0f0f0;"| Speed / wall hacks
+|-
+| scope="row" style="background:#e0e0e0;" align="center" rowspan="2"|'''21'''
+| style="background:#f0f0f0;" align="center"|AC #21
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;" align="center"|1.3.1-9.05097 
+| style="background:#f0f0f0;"| More trainers
+|-
+| style="background:#f0f0f0;" align="center"|VF #21
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;" align="center"|1.3.1-9.05097 
+| style="background:#f0f0f0;"| Custom gta_sa.exe
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''26'''
+| style="background:#f0f0f0;" align="center"|SD #26
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;" align="center"|1.3.4-9.05858 
+| style="background:#f0f0f0;"| Anti-cheat component blocked
+<!--
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''31'''
+| style="background:#f0f0f0;" align="center"|SD #31
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;" align="center"|
+| style="background:#f0f0f0;"| gta3.img player skin mods (1.4 only. For 1.5, use [[/Server_mtaserver.conf#allow_gta3_img_mods.md|allow_gta3_img_mods]])
+-->
+|}
+<br/>
+
+==<enablesd></enablesd>==
+Comma separated list of enabled special detections. A special detection is a type of anti-cheat for (usually) harmless game modifications. Competitive servers may wish to enable special detections, but most servers should leave this setting blank. Available codes are:
+{| border="0" cellpadding="1" cellspacing="2"
+|-
+! scope="col" style="background:#d0d0d0;"|Code for <enablesd>
+! scope="col" style="background:#d0d0d0;"|Displayed on detect
+! scope="col" style="background:#d0d0d0;"|Required server version
+! scope="col" style="background:#d0d0d0;"|Required <minclientversion>
+! scope="col" style="background:#d0d0d0;"|Notes
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''12'''
+| style="background:#f0f0f0;" align="center"|SD #12
+| style="background:#f0f0f0;" align="center"|any
+| style="background:#f0f0f0;"|
+| style="background:#f0f0f0;"| Disallow custom D3D9.DLL
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''14'''
+| style="background:#f0f0f0;" align="center"|SD #14
+| style="background:#f0f0f0;" align="center"|1.3.1-9.04605
+| style="background:#f0f0f0;" align="center"|1.3.1-9.04605
+| style="background:#f0f0f0;"| Disallow virtual machines such as VMWare
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''15'''
+| style="background:#f0f0f0;" align="center"|SD #15
+| style="background:#f0f0f0;" align="center"|1.3.1-9.04791
+| style="background:#f0f0f0;" align="center"|1.3.1-9.04791
+| style="background:#f0f0f0;"| Disallow disabled driver signing
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''16'''
+| style="background:#f0f0f0;" align="center"|SD #16
+| style="background:#f0f0f0;" align="center"|1.3.1-9.05097
+| style="background:#f0f0f0;" align="center"|1.3.1-9.05097
+| style="background:#f0f0f0;"| Disallow disabled anti-cheat components. This is triggered when an anti-cheat component can not start. It is usually due to some problem with the PC and might be fixed by a reboot. Can also be triggered by a virus.
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''20'''
+| style="background:#f0f0f0;" align="center"|SD #20
+| style="background:#f0f0f0;" align="center"|1.3.1-9.05097
+| style="background:#f0f0f0;" align="center"|1.3.1-9.05097
+| style="background:#f0f0f0;"| Disallow non-standard gta3.img or gta_int.img (For servers not using [[/onPlayerModInfo.md|onPlayerModInfo]])
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''22'''
+| style="background:#f0f0f0;" align="center"|SD #22
+| style="background:#f0f0f0;" align="center"|1.3.4-9.05884
+| style="background:#f0f0f0;" align="center"|1.3.4-9.05884
+| style="background:#f0f0f0;"| Disallow resource download errors/corruption (Lua script files)
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''23'''
+| style="background:#f0f0f0;" align="center"|SD #23
+| style="background:#f0f0f0;" align="center"|1.3.4-9.05884
+| style="background:#f0f0f0;" align="center"|1.5.2-9.07911
+| style="background:#f0f0f0;"| Disallow resource download errors/corruption (Non-Lua files e.g. png,dff)
+|-
+| scope="row" style="background:#e0e0e0;" align="center"|'''28'''
+| style="background:#f0f0f0;" align="center"|SD #28
+| style="background:#f0f0f0;" align="center"|1.3.4-9.05884
+| style="background:#f0f0f0;" align="center"|1.3.4-9.05884
+| style="background:#f0f0f0;"| Disallow Linux Wine
+|}
+<br/>
+
+==<client_file name="data/carmods.dat" verify="0"/>==
+By default, clients may not join a server if they have customized GTA:SA data files. Adding one or more of the above lines excludes files from validation. The file names that can be used are:<br/>
+*"data/carmods.dat"
+*"data/animgrp.dat"
+*"data/ar_stats.dat"
+*"data/melee.dat"
+*"data/clothes.dat"
+*"data/object.dat"
+*"data/default.dat"
+*"data/surface.dat"
+*"data/default.ide"
+*"data/gta.dat"
+*"data/surfinfo.dat"
+*"data/peds.ide"
+*"data/vehicles.ide"
+*"data/pedstats.dat"
+*"data/water.dat"
+*"data/txdcut.ide"
+*"data/water1.dat"
+*"models/coll/weapons.col"
+*"data/weapon.dat"
+*"data/plants.dat"
+*"anim/ped.ifp"
+*"data/furnitur.dat"
+*"data/procobj.dat"
+*"data/maps"
+<br/>
+'''''Note 1:''''' ''"data/maps" represents all the files and directories within "data/maps"''<br/>
+
+'''''Note 2:''''' ''"data/handling.cfg" is not included as it is always ignored by MTA because of the internal vehicle handling functions. [[/Handling.cfg.md|See here if you want to load custom handling.cfg files]]''<br/>
+
+
+=Client=
+When joining a server, the server AC info is displayed in the client console (F8)<br/>
+Example:<br/>
+    Server AC Info: [Allowed client files: None] [Disabled AC: None] [Enabled SD: None]
+
+Disabled AC contains the contents of the server setting from <disableac></disableac><br/>
+Enabled SD contains the contents of the server setting from <enablesd></enablesd><br/>
+Allowed client files contains numbers to indicate which client files the server allows to be modified. The numbers represent these files:
+*1 - "data/carmods.dat"
+*2 - "data/animgrp.dat"
+*4 - "data/ar_stats.dat"
+*5 - "data/melee.dat"
+*6 - "data/clothes.dat"
+*7 - "data/object.dat"
+*8 - "data/default.dat"
+*9 - "data/surface.dat"
+*10 - "data/default.ide"
+*12 - "data/gta.dat"
+*13 - "data/surfinfo.dat"
+*14 - "data/peds.ide"
+*15 - "data/vehicles.ide"
+*16 - "data/pedstats.dat"
+*17 - "data/water.dat"
+*18 - "data/txdcut.ide"
+*19 - "data/water1.dat"
+*20 - "models/coll/weapons.col"
+*21 - "data/weapon.dat"
+*22 - "data/plants.dat"
+*23 - "anim/ped.ifp"
+*24 - "data/furnitur.dat"
+*25 - "data/procobj.dat"
+*26 - "data/maps"
+
+
+===Using modified files===
+If you want to use modified data files from your GTA:SA install directory, check this check box:<br/>
+    Settings->Multiplayer->Use customized GTA:SA files
+(check box only appears if your GTA:SA data files are customized)<br/>
+
+Note that this will restrict your access to public servers as most do not allow customized data files.
+
+
+=AC Panel resource=
+An anti-cheat helper resource called '''acpanel''' is included with the default resources.
+
+It shows the current anti-cheat status of your server, along with an option to keep your clients up to date and a basic implementation of [[/onPlayerModInfo.md|onPlayerModInfo]] to block modified img files.
+
+
+[[/Category: Support.md|Category: Support]]
+[[/ru:Anti-cheat guide.md|ru:Anti-cheat guide]]

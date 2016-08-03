@@ -1,0 +1,33 @@
+
+{{Server function}}
+
+This function returns the [[/player.md|player]] element that is currently using a specified [[/account.md|account]], i.e. is logged into it. Only one player can use an account at a time.
+==Syntax== 
+<syntaxhighlight lang="lua">
+player getAccountPlayer ( account theAccount )
+</syntaxhighlight> 
+{{OOP||[[/account.md|account]]:getPlayer|player|}}
+===Required Arguments=== 
+*'''theAccount:''' The [[/account.md|account]] you wish to get the [[/player.md|player]] of.
+
+===Returns===
+Returns a [[/player.md|player]] element if the account is currently in use, ''false'' otherwise.
+
+==Example== 
+This example checks if the user attached to an account is a player, and if so if they're alive.
+<syntaxhighlight lang="lua">
+function isAccountUserAlive ( theAccount )
+    local thePlayer = getAccountPlayer ( theAccount )       -- get the client attached to the account
+    if ( getElementType ( thePlayer ) == "player" ) then    -- see if it really is a player (rather than a console admin for example)
+        return not isPedDead(thePlayer)             -- if the player's health is greater than 0 
+    end
+    return false
+end
+</syntaxhighlight>
+
+==See Also==
+{{Account functions}}
+
+[[/ru:getAccountPlayer.md|ru:getAccountPlayer]]
+[[/ar:getAccountPlayer.md|ar:getAccountPlayer]]
+[[/pl:GetAccountPlayer.md|pl:GetAccountPlayer]]

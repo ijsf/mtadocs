@@ -1,0 +1,29 @@
+{{Server event}}
+
+This event is triggered when a resource is started.
+
+'''Important:''' If you attach this event to the root element it will called when ''any'' resource starts, not just the resource your script is running inside. As such, most of the time you will want to check that the resource passed to this event matches your resource (compare with the value returned by [[/getThisResource.md|getThisResource]]) before doing anything. Alternatively you can attach the event to [[/getResourceRootElement.md|getResourceRootElement]]([[/getThisResource.md|getThisResource]]()).
+
+==Parameters==
+<syntaxhighlight lang="lua">
+resource startedResource
+</syntaxhighlight> 
+
+*'''startedResource''': The resource that was started
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the root [[/element.md|element]] in the resource that started.
+
+==Cancel effect==
+If this event is [[/Event_system#Canceling.md|canceled]], the resource starting is aborted and is stopped again.
+
+==Example==
+This code will output the name of any resource that is started.
+<syntaxhighlight lang="lua">
+function displayLoadedRes ( res )
+	outputChatBox ( "Resource " .. getResourceName(res) .. " loaded", getRootElement(), 255, 255, 255 )
+end
+addEventHandler ( "onResourceStart", getRootElement(), displayLoadedRes )
+</syntaxhighlight>
+
+{{See also/Server event|Resource events}}

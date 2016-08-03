@@ -1,0 +1,29 @@
+{{Client function}}
+
+This gets the dimensions of the supplied [[/material.md|material]] element.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+int, int [, int] dxGetMaterialSize ( element material )
+</syntaxhighlight> 
+{{OOP||[[/material.md|material]]:getSize}}
+===Required Arguments=== 
+*'''material :''' The material element whose size is to be gotten
+
+===Returns===
+Returns two ''ints'' representing the width and height in pixels of the material, or false if an invalid parameter was passed to the function. 
+If the material is a volume texture, this function will return three ''ints'' representing the width, height and depth.
+
+==Example== 
+<syntaxhighlight lang="lua">
+myTexture = dxCreateTexture( "man.png" )
+local width, height = dxGetMaterialSize( myTexture )
+outputChatBox( "man.png is " .. tostring(width) .. " pixels wide and " .. tostring(height) .. " pixels high" )
+</syntaxhighlight>
+
+==Changelog==
+{{ChangelogHeader}}
+{{ChangelogItem|1.3.0-9.04021|Added third return value for volume textures}}
+
+==See Also==
+{{Drawing_functions}}

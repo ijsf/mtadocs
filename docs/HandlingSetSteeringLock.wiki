@@ -1,0 +1,23 @@
+
+{{Server function}}
+Sets the steering lock for a handling element. This determines how strongly a vehicle can steer.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool handlingSetSteeringLock ( handling theHandling, float steeringLock )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''theHandling:''' the handling of which you want to change the steering lock.
+*'''steeringLock:''' the steering lock to set.
+
+===Returns===
+Returns ''true'' on success, ''false'' in case of failure.
+
+==Example==
+<syntaxhighlight lang="lua">
+--TODO
+</syntaxhighlight>
+
+==See Also==
+{{Handling_functions}}

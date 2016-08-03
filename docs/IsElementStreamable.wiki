@@ -1,0 +1,19 @@
+
+{{Client function}}
+{{Needs Example}}
+This function checks whether an [[/element.md|element]] is streamable as set by [[/setElementStreamable.md|setElementStreamable]] or not.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool isElementStreamable ( element theElement )
+</syntaxhighlight>
+{{New feature/item|3.0141|1.4.0|6987|{{OOP||[[/element.md|element]]:isStreamable|streamable|setElementStreamable}}}}
+
+===Required Arguments===
+* '''theElement''': The [[/element.md|element]] to check the streamability of.
+
+===Returns===
+Returns ''true'' if the passed element is streamable like normal, ''false'' if this element must always be streamed in.
+
+==See Also==
+{{Client element functions}}

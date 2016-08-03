@@ -1,0 +1,751 @@
+{{Needs Checking|This page is partially outdated.}}
+The new OOP in MTA allows for better code organization and readability. This is a list of [[/Client_Scripting_Functions.md|client-side functions]].
+
+''See also: [[/OOP.md|OOP]]''
+
+
+==Element==
+ 
+ areCollisionsEnabled (function: [[/getElementCollisionsEnabled.md|getElementCollisionsEnabled]])
+ attach (function: [[/attachElements.md|attachElements]])
+ clearVisibleTo (function: [[/clearElementVisibleTo.md|clearElementVisibleTo]])
+ clone (function: [[/cloneElement.md|cloneElement]])
+ create (function: [[/createElement.md|createElement]])
+ destroy (function: [[/destroyElement.md|destroyElement]])
+ detach (function: [[/detachElements.md|detachElements]])
+ getAllByType (function: [[/getElementsByType.md|getElementsByType]])
+ getAllData (function: [[/getAllElementData.md|getAllElementData]])
+ getAlpha (function: [[/getElementAlpha.md|getElementAlpha]])
+ getAttachedElements (function: [[/getAttachedElements.md|getAttachedElements]])
+ getAttachedOffsets (function: [[/getElementAttachedOffsets.md|getElementAttachedOffsets]])
+ getAttachedTo (function: [[/getElementAttachedTo.md|getElementAttachedTo]])
+ getBoundingBox (function: [[/getElementBoundingBox.md|getElementBoundingBox]])
+ getByID (function: [[/getElementByID.md|getElementByID]])
+ getByType (function: [[/getElementsByType.md|getElementsByType]])
+ getChild (function: [[/getElementChild.md|getElementChild]])
+ getChildren (function: [[/getElementChildren.md|getElementChildren]])
+ getChildrenCount (function: [[/getElementChildrenCount.md|getElementChildrenCount]])
+ getColShape (function: [[/getElementColShape.md|getElementColShape]])
+ getData (function: [[/getElementData.md|getElementData]])
+ getDimension (function: [[/getElementDimension.md|getElementDimension]])
+ getDistanceFromCentreOfMassToBaseOfModel (function: [[/GetElementDistanceFromCentreOfMassToBaseOfModel.md|GetElementDistanceFromCentreOfMassToBaseOfModel]])
+ getHealth (function: [[/getElementHealth.md|getElementHealth]])
+ getID (function: [[/getElementID.md|getElementID]])
+ getInterior (function: [[/getElementInterior.md|getElementInterior]])
+ getLowLOD (function: [[/getLowLODElement.md|getLowLODElement]])
+ getModel (function: [[/getElementModel.md|getElementModel]])
+ getParent (function: [[/getElementParent.md|getElementParent]])
+ getSyncer (function: [[/getElementSyncer.md|getElementSyncer]])
+ getType (function: [[/getElementType.md|getElementType]])
+ getVelocity (function: [[/getElementVelocity.md|getElementVelocity]])
+ getWithinColShape (function: [[/getElementsWithinColShape.md|getElementsWithinColShape]])
+ getZoneName (function: [[/getElementZoneName.md|getElementZoneName]])
+ isAttached (function: [[/isElementAttached.md|isElementAttached]])
+ isCallPropagationEnabled (function: [[/isElementCallPropagationEnabled.md|isElementCallPropagationEnabled]])
+ isDoubleSided (function: [[/isElementDoubleSided.md|isElementDoubleSided]])
+ isFrozen (function: [[/isElementFrozen.md|isElementFrozen]])
+ isInWater (function: [[/isElementInWater.md|isElementInWater]])
+ isLowLOD (function: [[/isElementLowLOD.md|isElementLowLOD]])
+ isVisibleTo (function: [[/isElementVisibleTo.md|isElementVisibleTo]])
+ isWithinColShape (function: [[/isElementWithinColShape.md|isElementWithinColShape]])
+ isWithinMarker (function: [[/isElementWithinMarker.md|isElementWithinMarker]])
+ removeData (function: [[/removeElementData.md|removeElementData]])
+ setAlpha (function: [[/setElementAlpha.md|setElementAlpha]])
+ setAttachedOffsets (function: [[/setElementAttachedOffsets.md|setElementAttachedOffsets]])
+ setCallPropagationEnabled (function: [[/setElementCallPropagationEnabled.md|setElementCallPropagationEnabled]])
+ setCollisionsEnabled (function: [[/setElementCollisionsEnabled.md|setElementCollisionsEnabled]])
+ setData (function: [[/setElementData.md|setElementData]])
+ setDimension (function: [[/setElementDimension.md|setElementDimension]])
+ setDoubleSided (function: [[/setElementDoubleSided.md|setElementDoubleSided]])
+ setFrozen (function: [[/setElementFrozen.md|setElementFrozen]])
+ setHealth (function: [[/setElementHealth.md|setElementHealth]])
+ setID (function: [[/setElementID.md|setElementID]])
+ setInterior (function: [[/setElementInterior.md|setElementInterior]])
+ setLowLOD (function: [[/setLowLODElement.md|setLowLODElement]])
+ setMatrix (function: [[/setElementMatrix.md|setElementMatrix]])
+ setModel (function: [[/setElementModel.md|setElementModel]])
+ setParent (function: [[/setElementParent.md|setElementParent]])
+ setPosition (function: [[/setElementPosition.md|setElementPosition]])
+ setVelocity (function: [[/setElementVelocity.md|setElementVelocity]])
+ setVisibleTo (function: [[/setElementVisibleTo.md|setElementVisibleTo]])
+
+==Vehicle==
+''Inherited from [[/#Element.md|Element]]''
+ 
+ addUpgrade (function: [[/addVehicleUpgrade.md|addVehicleUpgrade]])
+ attachTrailer (function: [[/attachTrailerToVehicle.md|attachTrailerToVehicle]])
+ blow (function: [[/blowVehicle.md|blowVehicle]])
+ create (function: [[/createVehicle.md|createVehicle]])
+ detachTrailer (function: [[/detachTrailerFromVehicle.md|detachTrailerFromVehicle]])
+ fix (function: [[/fixVehicle.md|fixVehicle]])
+ getAdjustableProperty (function: [[/getVehicleAdjustableProperty.md|getVehicleAdjustableProperty]])
+ getColor (function: [[/getVehicleColor.md|getVehicleColor]])
+ getCompatibleUpgrades (function: [[/getVehicleCompatibleUpgrades.md|getVehicleCompatibleUpgrades]])
+ getComponentPosition (function: [[/getVehicleComponentPosition.md|getVehicleComponentPosition]])
+ getComponentRotation (function: [[/getVehicleComponentRotation.md|getVehicleComponentRotation]])
+ getComponents (function: [[/getVehicleComponents.md|getVehicleComponents]])
+ getComponentVisible (function: [[/getVehicleComponentVisible.md|getVehicleComponentVisible]])
+ getController (function: [[/getVehicleController.md|getVehicleController]])
+ getDoorOpenRatio (function: [[/getVehicleDoorOpenRatio.md|getVehicleDoorOpenRatio]])
+ getDoorState (function: [[/getVehicleDoorState.md|getVehicleDoorState]])
+ getEngineState (function: [[/getVehicleEngineState.md|getVehicleEngineState]])
+ getGear (function: [[/getVehicleCurrentGear.md|getVehicleCurrentGear]])
+ getGravity (function: [[/getVehicleGravity.md|getVehicleGravity]])
+ getHandling (function: [[/getVehicleHandling.md|getVehicleHandling]])
+ getHeadLightColor (function: [[/getVehicleHeadLightColor.md|getVehicleHeadLightColor]])
+ getHelicopterRotorSpeed (function: [[/getHelicopterRotorSpeed.md|getHelicopterRotorSpeed]])
+ getLandingGearDown (function: [[/getVehicleLandingGearDown.md|getVehicleLandingGearDown]])
+ getLightState (function: [[/getVehicleLightState.md|getVehicleLightState]])
+ getMaxPassengers (function: [[/getVehicleMaxPassengers.md|getVehicleMaxPassengers]])
+ getName (function: [[/getVehicleName.md|getVehicleName]])
+ getNitroCount (function: [[/getVehicleNitroCount.md|getVehicleNitroCount]])
+ getNitroLevel (function: [[/getVehicleNitroLevel.md|getVehicleNitroLevel]])
+ getOccupant (function: [[/getVehicleOccupant.md|getVehicleOccupant]])
+ getOccupants (function: [[/getVehicleOccupants.md|getVehicleOccupants]])
+ getOverrideLights (function: [[/getVehicleOverrideLights.md|getVehicleOverrideLights]])
+ getPaintjob (function: [[/getVehiclePaintjob.md|getVehiclePaintjob]])
+ getPanelState (function: [[/getVehiclePanelState.md|getVehiclePanelState]])
+ getPlateText (function: [[/getVehiclePlateText.md|getVehiclePlateText]])
+ getSirens (function: [[/getVehicleSirens.md|getVehicleSirens]])
+ getSirensOn (function: [[/getVehicleSirensOn.md|getVehicleSirensOn]])
+ getTowedByVehicle (function: [[/getVehicleTowedByVehicle.md|getVehicleTowedByVehicle]])
+ getTowingVehicle (function: [[/getVehicleTowingVehicle.md|getVehicleTowingVehicle]])
+ getTrainDirection (function: [[/getTrainDirection.md|getTrainDirection]])
+ getTrainSpeed (function: [[/getTrainSpeed.md|getTrainSpeed]])
+ getTurnVelocity (function: [[/getVehicleTurnVelocity.md|getVehicleTurnVelocity]])
+ getTurretPosition (function: [[/getVehicleTurretPosition.md|getVehicleTurretPosition]])
+ getUpgrades (function: [[/getVehicleUpgrades.md|getVehicleUpgrades]])
+ getUpgradeSlotName (function: [[/getVehicleUpgradeSlotName.md|getVehicleUpgradeSlotName]])
+ getVariant (function: [[/getVehicleVariant.md|getVehicleVariant]])
+ getVehicleType (function: [[/getVehicleType.md|getVehicleType]])
+ getWheelStates (function: [[/getVehicleWheelStates.md|getVehicleWheelStates]])
+ isBlown (function: [[/isVehicleBlown.md|isVehicleBlown]])
+ isDamageProof (function: [[/isVehicleDamageProof.md|isVehicleDamageProof]])
+ isFuelTankExplodable (function: [[/isVehicleFuelTankExplodable.md|isVehicleFuelTankExplodable]])
+ isLocked (function: [[/isVehicleLocked.md|isVehicleLocked]])
+ isNitroActivated (function: [[/isVehicleNitroActivated.md|isVehicleNitroActivated]])
+ isNitroRecharging (function: [[/isVehicleNitroRecharging.md|isVehicleNitroRecharging]])
+ isOnGround (function: [[/isVehicleOnGround.md|isVehicleOnGround]])
+ isTaxiLightOn (function: [[/isVehicleTaxiLightOn.md|isVehicleTaxiLightOn]])
+ isTrainDerailable (function: [[/setTrainDerailable.md|setTrainDerailable]])
+ isTrainDerailed (function: [[/isTrainDerailed.md|isTrainDerailed]])
+ removeUpgrade (function: [[/removeVehicleUpgrade.md|removeVehicleUpgrade]])
+ resetComponentPosition (function: [[/resetVehicleComponentPosition.md|resetVehicleComponentPosition]])
+ resetComponentRotation (function: [[/resetVehicleComponentRotation.md|resetVehicleComponentRotation]])
+ setAdjustableProperty (function: [[/setVehicleAdjustableProperty.md|setVehicleAdjustableProperty]])
+ setColor (function: [[/setVehicleColor.md|setVehicleColor]])
+ setComponentPosition (function: [[/setVehicleComponentPosition.md|setVehicleComponentPosition]])
+ setComponentRotation (function: [[/setVehicleComponentRotation.md|setVehicleComponentRotation]])
+ setComponentVisible (function: [[/setVehicleComponentVisible.md|setVehicleComponentVisible]])
+ setDamageProof (function: [[/setVehicleDamageProof.md|setVehicleDamageProof]])
+ setDirtLevel (function: [[/setVehicleDirtLevel.md|setVehicleDirtLevel]])
+ setDoorOpenRatio (function: [[/setVehicleDoorOpenRatio.md|setVehicleDoorOpenRatio]])
+ setDoorState (function: [[/setVehicleDoorState.md|setVehicleDoorState]])
+ setDoorsUndamageable (function: [[/setVehicleDoorsUndamageable.md|setVehicleDoorsUndamageable]])
+ setEngineState (function: [[/setVehicleEngineState.md|setVehicleEngineState]])
+ setFuelTankExplodable (function: [[/setVehicleFuelTankExplodable.md|setVehicleFuelTankExplodable]])
+ setGravity (function: [[/setVehicleGravity.md|setVehicleGravity]])
+ setHeadLightColor (function: [[/setVehicleHeadLightColor.md|setVehicleHeadLightColor]])
+ setHelicopterRotorSpeed (function: [[/setHelicopterRotorSpeed.md|setHelicopterRotorSpeed]])
+ setLandingGearDown (function: [[/setVehicleLandingGearDown.md|setVehicleLandingGearDown]])
+ setLightState (function: [[/setVehicleLightState.md|setVehicleLightState]])
+ setLocked (function: [[/setVehicleLocked.md|setVehicleLocked]])
+ setNitroActivated (function: [[/setVehicleNitroActivated.md|setVehicleNitroActivated]])
+ setNitroCount (function: [[/setVehicleNitroCount.md|setVehicleNitroCount]])
+ setNitroLevel (function: [[/setVehicleNitroLevel.md|setVehicleNitroLevel]])
+ setOverrideLights (function: [[/setVehicleOverrideLights.md|setVehicleOverrideLights]])
+ setPaintjob (function: [[/setVehiclePaintjob.md|setVehiclePaintjob]])
+ setPanelState (function: [[/setVehiclePanelState.md|setVehiclePanelState]])
+ setSirens (function: [[/setVehicleSirens.md|setVehicleSirens]])
+ setSirensOn (function: [[/setVehicleSirensOn.md|setVehicleSirensOn]])
+ setTaxiLightOn (function: [[/setVehicleTaxiLightOn.md|setVehicleTaxiLightOn]])
+ setTrainDerailable (function: [[/setTrainDerailable.md|setTrainDerailable]])
+ setTrainDerailed (function: [[/setTrainDerailed.md|setTrainDerailed]])
+ setTrainDirection (function: [[/setTrainDirection.md|setTrainDirection]])
+ setTrainSpeed (function: [[/setTrainSpeed.md|setTrainSpeed]])
+ setTurnVelocity (function: [[/setVehicleTurnVelocity.md|setVehicleTurnVelocity]])
+ setTurretPosition (function: [[/setVehicleTurretPosition.md|setVehicleTurretPosition]])
+ setVariant (function: [[/setVehicleVariant.md|setVehicleVariant]])
+ setWheelStates (function: [[/setVehicleWheelStates.md|setVehicleWheelStates]])
+
+==Ped==
+''Inherited from [[/#Element.md|Element]]''
+ 
+ addClothes (function: [[/addPedClothes.md|addPedClothes]])
+ canBeKnockedOffBike (function: [[/canPedBeKnockedOffBike.md|canPedBeKnockedOffBike]])
+ create (function: [[/createPed.md|createPed]])
+ doesHaveJetPack (function: [[/doesPedHaveJetPack.md|doesPedHaveJetPack]])
+ getAmmoInClip (function: [[/getPedAmmoInClip.md|getPedAmmoInClip]])
+ getAnalogControlState (function: [[/getPedAnalogControlState.md|getPedAnalogControlState]])
+ getAnimation (function: [[/getPedAnimation.md|getPedAnimation]])
+ getAnimationData (function: [[/getPedAnimationData.md|getPedAnimationData]])
+ getArmor (function: [[/getPedArmor.md|getPedArmor]])
+ getBodyPartName (function: [[/getBodyPartName.md|getBodyPartName]])
+ getBonePosition (function: [[/getPedBonePosition.md|getPedBonePosition]])
+ getCameraRotation (function: [[/getPedCameraRotation.md|getPedCameraRotation]])
+ getClothes (function: [[/getPedClothes.md|getPedClothes]])
+ getClothesByTypeIndex (function: [[/getClothesByTypeIndex.md|getClothesByTypeIndex]])
+ getClothesTypeName (function: [[/getClothesTypeName.md|getClothesTypeName]])
+ getContactElement (function: [[/getPedContactElement.md|getPedContactElement]])
+ getControlState (function: [[/getPedControlState.md|getPedControlState]])
+ getMoveState (function: [[/getPedMoveState.md|getPedMoveState]])
+ getOccupiedVehicle (function: [[/GetPedOccupiedVehicle.md|GetPedOccupiedVehicle]])
+ getOxygenLevel (function: [[/getPedOxygenLevel.md|getPedOxygenLevel]])
+ getSimplestTask (function: [[/getPedSimplestTask.md|getPedSimplestTask]])
+ getStat (function: [[/getPedStat.md|getPedStat]])
+ getTarget (function: [[/getPedTarget.md|getPedTarget]])
+ getTargetCollision (function: [[/getPedTargetCollision.md|getPedTargetCollision]])
+ getTargetEnd (function: [[/getPedTargetEnd.md|getPedTargetEnd]])
+ getTargetStart (function: [[/getPedTargetStart.md|getPedTargetStart]])
+ getTask (function: [[/getPedTask.md|getPedTask]])
+ getTotalAmmo (function: [[/getPedTotalAmmo.md|getPedTotalAmmo]])
+ getTypeIndexFromClothes (function: [[/getTypeIndexFromClothes.md|getTypeIndexFromClothes]])
+ getValidModels (function: [[/getValidPedModels.md|getValidPedModels]])
+ getVoice (function: [[/getPedVoice.md|getPedVoice]])
+ getWalkingStyle (function: [[/getPedWalkingStyle.md|getPedWalkingStyle]])
+ getWeapon (function: [[/getPedWeapon.md|getPedWeapon]])
+ getWeaponMuzzlePosition (function: [[/getPedWeaponMuzzlePosition.md|getPedWeaponMuzzlePosition]])
+ isChocking (function: [[/isPedChoking.md|isPedChoking]])
+ isDoingGangDriveby (function: [[/isPedDoingGangDriveby.md|isPedDoingGangDriveby]])
+ isDoingTask (function: [[/isPedDoingTask.md|isPedDoingTask]])
+ isDucked (function: [[/isPedDucked.md|isPedDucked]])
+ isHeadless (function: [[/isPedHeadless.md|isPedHeadless]])
+ isInVehicle (function: [[/isPedInVehicle.md|isPedInVehicle]])
+ isOnFire (function: [[/isPedOnFire.md|isPedOnFire]])
+ isOnGround (function: [[/isPedOnGround.md|isPedOnGround]])
+ isTargetingMarkerEnabled (function: [[/isPedTargetingMarkerEnabled.md|isPedTargetingMarkerEnabled]])
+ removeClothes (function: [[/removePedClothes.md|removePedClothes]])
+ removeFromVehicle (function: [[/removePedFromVehicle.md|removePedFromVehicle]])
+ setAimTarget (function: [[/setPedAimTarget.md|setPedAimTarget]])
+ setAnalogControlState (function: [[/setPedAnalogControlState.md|setPedAnalogControlState]])
+ setAnimation (function: [[/setPedAnimation.md|setPedAnimation]])
+ setAnimationProgress (function: [[/setPedAnimationProgress.md|setPedAnimationProgress]])
+ setCameraRotation (function: [[/setPedCameraRotation.md|setPedCameraRotation]])
+ setCanBeKnockedOffBike (function: [[/setPedCanBeKnockedOffBike.md|setPedCanBeKnockedOffBike]])
+ setControlState (function: [[/setPedControlState.md|setPedControlState]])
+ setDoingGangDriveby (function: [[/setPedDoingGangDriveby.md|setPedDoingGangDriveby]])
+ setFootBloodEnabled (function: [[/setPedFootBloodEnabled.md|setPedFootBloodEnabled]])
+ setHeadless (function: [[/setPedHeadless.md|setPedHeadless]])
+ setLookAt (function: [[/setPedLookAt.md|setPedLookAt]])
+ setOnFire (function: [[/setPedOnFire.md|setPedOnFire]])
+ setOxygenLevel (function: [[/setPedOxygenLevel.md|setPedOxygenLevel]])
+ setTargetingMarkerEnabled (function: [[/setPedTargetingMarkerEnabled.md|setPedTargetingMarkerEnabled]])
+ setVoice (function: [[/setPedVoice.md|setPedVoice]])
+ setWalkingStyle (function: [[/setPedWalkingStyle.md|setPedWalkingStyle]])
+ setWeaponSlot (function: [[/setPedWeaponSlot.md|setPedWeaponSlot]])
+ warpIntoVehicle (function: [[/warpPedIntoVehicle.md|warpPedIntoVehicle]])
+
+==Player==
+''Inherited from [[/#Ped.md|Ped]]''
+ 
+ create (function: [[/getPlayerFromName.md|getPlayerFromName]])
+ getBlurLevel (function: [[/getPlayerBlurLevel.md|getPlayerBlurLevel]])
+ getMapBoundingBox (function: [[/getPlayerMapBoundingBox.md|getPlayerMapBoundingBox]])
+ getMoney (function: [[/getPlayerMoney.md|getPlayerMoney]])
+ getName (function: [[/getPlayerName.md|getPlayerName]])
+ getNametagColor (function: [[/getPlayerNametagColor.md|getPlayerNametagColor]])
+ getNametagText (function: [[/getPlayerNametagText.md|getPlayerNametagText]])
+ getPing (function: [[/getPlayerPing.md|getPlayerPing]])
+ getSerial (function: [[/getPlayerSerial.md|getPlayerSerial]])
+ getTeam (function: [[/getPlayerTeam.md|getPlayerTeam]])
+ getWantedLevel (function: [[/getPlayerWantedLevel.md|getPlayerWantedLevel]])
+ giveMoney (function: [[/givePlayerMoney.md|givePlayerMoney]])
+ isHudComponentVisible (function: [[/isPlayerHudComponentVisible.md|isPlayerHudComponentVisible]])
+ isMapForced (function: [[/isPlayerMapForced.md|isPlayerMapForced]])
+ isMapVisible (function: [[/isPlayerMapVisible.md|isPlayerMapVisible]])
+ isNametagShowing (function: [[/isPlayerNametagShowing.md|isPlayerNametagShowing]])
+ setBlurLevel (function: [[/setPlayerBlurLevel.md|setPlayerBlurLevel]])
+ setMoney (function: [[/setPlayerMoney.md|setPlayerMoney]])
+ setNametagColor (function: [[/setPlayerNametagColor.md|setPlayerNametagColor]])
+ setNametagShowing (function: [[/setPlayerNametagShowing.md|setPlayerNametagShowing]])
+ setNametagText (function: [[/setPlayerNametagText.md|setPlayerNametagText]])
+ showHudComponent (function: [[/showPlayerHudComponent.md|showPlayerHudComponent]])
+ takeMoney (function: [[/takePlayerMoney.md|takePlayerMoney]])
+
+==Object==
+''Inherited from [[/#Element.md|Element]]''
+ 
+ break (function: [[/breakObject.md|breakObject]])
+ create (function: [[/createObject.md|createObject]])
+ getMass (function: [[/getObjectMass.md|getObjectMass]])
+ getScale (function: [[/getObjectScale.md|getObjectScale]])
+ isBreakable (function: [[/isObjectBreakable.md|isObjectBreakable]])
+ move (function: [[/moveObject.md|moveObject]])
+ respawn (function: [[/respawnObject.md|respawnObject]])
+ setBreakable (function: [[/setObjectBreakable.md|setObjectBreakable]])
+ setMass (function: [[/setObjectMass.md|setObjectMass]])
+ setScale (function: [[/setObjectScale.md|setObjectScale]])
+ stop (function: [[/stopObject.md|stopObject]])
+ toggleObjectRespawn (function: [[/toggleObjectRespawn.md|toggleObjectRespawn]])
+
+==Marker==
+''Inherited from [[/#Element.md|Element]]''
+ 
+ create (function: [[/createMarker.md|createMarker]])
+ getColor (function: [[/getMarkerColor.md|getMarkerColor]])
+ getCount (function: [[/getMarkerCount.md|getMarkerCount]])
+ getIcon (function: [[/getMarkerIcon.md|getMarkerIcon]])
+ getSize (function: [[/getMarkerSize.md|getMarkerSize]])
+ getTarget (function: [[/getMarkerTarget.md|getMarkerTarget]])
+ getType (function: [[/getMarkerType.md|getMarkerType]])
+ setColor (function: [[/setMarkerColor.md|setMarkerColor]])
+ setIcon (function: [[/setMarkerIcon.md|setMarkerIcon]])
+ setSize (function: [[/setMarkerSize.md|setMarkerSize]])
+ setTarget (function: [[/setMarkerTarget.md|setMarkerTarget]])
+ setType (function: [[/setMarkerType.md|setMarkerType]])
+
+==Blip==
+''Inherited from [[/#Element.md|Element]]''
+ 
+ create (function: [[/createBlip.md|createBlip]])
+ createAttachedTo (function: [[/createBlipAttachedTo.md|createBlipAttachedTo]])
+ getColor (function: [[/getBlipColor.md|getBlipColor]])
+ getIcon (function: [[/getBlipIcon.md|getBlipIcon]])
+ getOrdering (function: [[/getBlipOrdering.md|getBlipOrdering]])
+ getSize (function: [[/getBlipSize.md|getBlipSize]])
+ getVisibleDistance (function: [[/getBlipVisibleDistance.md|getBlipVisibleDistance]])
+ setColor (function: [[/setBlipColor.md|setBlipColor]])
+ setIcon (function: [[/setBlipIcon.md|setBlipIcon]])
+ setOrdering (function: [[/setBlipOrdering.md|setBlipOrdering]])
+ setSize (function: [[/setBlipSize.md|setBlipSize]])
+ setVisibleDistance (function: [[/setBlipVisibleDistance.md|setBlipVisibleDistance]])
+
+==Pickup==
+''Inherited from [[/#Element.md|Element]]''
+ 
+ create (function: [[/createPickup.md|createPickup]])
+ getAmmo (function: [[/getPickupAmmo.md|getPickupAmmo]])
+ getAmount (function: [[/getPickupAmount.md|getPickupAmount]])
+ getType (function: [[/getPickupType.md|getPickupType]])
+ getWeapon (function: [[/getPickupWeapon.md|getPickupWeapon]])
+ setType (function: [[/setPickupType.md|setPickupType]])
+
+==ColShape==
+''Inherited from [[/#Element.md|Element]]''
+ 
+ Circle (function: [[/createColCircle.md|createColCircle]])
+ Cuboid (function: [[/createColCuboid.md|createColCuboid]])
+ getElementsWithin (function: [[/getElementsWithinColShape.md|getElementsWithinColShape]])
+ isElementWithin (function: [[/isElementWithinColShape.md|isElementWithinColShape]])
+ Polygon (function: [[/createColPolygon.md|createColPolygon]])
+ Rectangle (function: [[/createColRectangle.md|createColRectangle]])
+ Sphere (function: [[/createColSphere.md|createColSphere]])
+ Tube (function: [[/createColTube.md|createColTube]])
+
+==Projectile==
+''Inherited from [[/#Element.md|Element]]''
+ 
+ create (function: [[/createProjectile.md|createProjectile]])
+ getCounter (function: [[/getProjectileCounter.md|getProjectileCounter]])
+ getCreator (function: [[/getProjectileCreator.md|getProjectileCreator]])
+ getForce (function: [[/getProjectileForce.md|getProjectileForce]])
+ getTarget (function: [[/getProjectileTarget.md|getProjectileTarget]])
+ getType (function: [[/getProjectileType.md|getProjectileType]])
+ setCounter (function: [[/setProjectileCounter.md|setProjectileCounter]])
+
+==RadarArea==
+''Inherited from [[/#Element.md|Element]]''
+ 
+ create (function: [[/createRadarArea.md|createRadarArea]])
+ getColor (function: [[/getRadarAreaColor.md|getRadarAreaColor]])
+ getSize (function: [[/getRadarAreaSize.md|getRadarAreaSize]])
+ isFlashing (function: [[/isRadarAreaFlashing.md|isRadarAreaFlashing]])
+ isInside (function: [[/isInsideRadarArea.md|isInsideRadarArea]])
+ setColor (function: [[/setRadarAreaColor.md|setRadarAreaColor]])
+ setFlashing (function: [[/setRadarAreaFlashing.md|setRadarAreaFlashing]])
+ setSize (function: [[/setRadarAreaSize.md|setRadarAreaSize]])
+
+==Team==
+''Inherited from [[/#Element.md|Element]]''
+ 
+ countPlayers (function: [[/countPlayersInTeam.md|countPlayersInTeam]])
+ create (function: [[/getTeamFromName.md|getTeamFromName]])
+ getColor (function: [[/getTeamColor.md|getTeamColor]])
+ getFriendlyFire (function: [[/getTeamFriendlyFire.md|getTeamFriendlyFire]])
+ getFromName (function: [[/getTeamFromName.md|getTeamFromName]])
+ getName (function: [[/getTeamName.md|getTeamName]])
+
+==Water==
+''Inherited from [[/#Element.md|Element]]''
+ 
+ create (function: [[/createWater.md|createWater]])
+ getColor (function: [[/getWaterColor.md|getWaterColor]])
+ getLevel (function: [[/getWaterLevel.md|getWaterLevel]])
+ getVertexPosition (function: [[/getWaterVertexPosition.md|getWaterVertexPosition]])
+ getWaveHeight (function: [[/getWaveHeight.md|getWaveHeight]])
+ isDrawnLast (function: [[/isWaterDrawnLast.md|isWaterDrawnLast]])
+ resetColor (function: [[/resetWaterColor.md|resetWaterColor]])
+ resetLevel (function: [[/resetWaterLevel.md|resetWaterLevel]])
+ setColor (function: [[/setWaterColor.md|setWaterColor]])
+ setDrawnLast (function: [[/setWaterDrawnLast.md|setWaterDrawnLast]])
+ setLevel (function: [[/setWaterLevel.md|setWaterLevel]])
+ setVertexPosition (function: [[/setWaterVertexPosition.md|setWaterVertexPosition]])
+ setWaveHeight (function: [[/setWaveHeight.md|setWaveHeight]])
+ testLineAgainst (function: [[/testLineAgainstWater.md|testLineAgainstWater]])
+
+==Sound==
+''Inherited from [[/#Element.md|Element]]''
+ 
+ create (function: [[/playSound.md|playSound]])
+ getBPM (function: [[/getSoundBPM.md|getSoundBPM]])
+ getEffects (function: [[/getSoundEffects.md|getSoundEffects]])
+ getFFTData (function: [[/getSoundFFTData.md|getSoundFFTData]])
+ getLength (function: [[/getSoundLength.md|getSoundLength]])
+ getLevelData (function: [[/getSoundLevelData.md|getSoundLevelData]])
+ getMetaTags (function: [[/getSoundMetaTags.md|getSoundMetaTags]])
+ getPan (function: [[/getSoundPan.md|getSoundPan]])
+ getPlaybackPosition (function: [[/getSoundPosition.md|getSoundPosition]])
+ getProperties (function: [[/getSoundProperties.md|getSoundProperties]])
+ getSpeed (function: [[/getSoundSpeed.md|getSoundSpeed]])
+ getVolume (function: [[/getSoundVolume.md|getSoundVolume]])
+ getWaveData (function: [[/getSoundWaveData.md|getSoundWaveData]])
+ isPaused (function: [[/isSoundPaused.md|isSoundPaused]])
+ setEffectEnabled (function: [[/setSoundEffectEnabled.md|setSoundEffectEnabled]])
+ setPan (function: [[/setSoundPan.md|setSoundPan]])
+ setPaused (function: [[/setSoundPaused.md|setSoundPaused]])
+ setPlaybackPosition (function: [[/setSoundPosition.md|setSoundPosition]])
+ setProperties (function: [[/setSoundProperties.md|setSoundProperties]])
+ setSpeed (function: [[/setSoundSpeed.md|setSoundSpeed]])
+ setVolume (function: [[/setSoundVolume.md|setSoundVolume]])
+ stop (function: [[/stopSound.md|stopSound]])
+
+==Sound3D==
+''Inherited from [[/#Sound.md|Sound]]''
+ 
+ create (function: [[/playSound3D.md|playSound3D]])
+ getMaxDistance (function: [[/getSoundMaxDistance.md|getSoundMaxDistance]])
+ getMinDistance (function: [[/getSoundMinDistance.md|getSoundMinDistance]])
+ setMaxDistance (function: [[/setSoundMaxDistance.md|setSoundMaxDistance]])
+ setMinDistance (function: [[/setSoundMinDistance.md|setSoundMinDistance]])
+
+==Weapon==
+''Inherited from [[/#Element.md|Element]]''
+ 
+ create (function: [[/createWeapon.md|createWeapon]])
+ fire (function: [[/fireWeapon.md|fireWeapon]])
+ getAmmo (function: [[/getWeaponAmmo.md|getWeaponAmmo]])
+ getClipAmmo (function: [[/getWeaponClipAmmo.md|getWeaponClipAmmo]])
+ getFiringRate (function: [[/getWeaponFiringRate.md|getWeaponFiringRate]])
+ getFlags (function: [[/getWeaponFlags.md|getWeaponFlags]])
+ getOwner (function: [[/getWeaponOwner.md|getWeaponOwner]])
+ getProperty (function: [[/setWeaponProperty.md|setWeaponProperty]])
+ getState (function: [[/getWeaponState.md|getWeaponState]])
+ getTarget (function: [[/getWeaponTarget.md|getWeaponTarget]])
+ resetFiringRate (function: [[/resetWeaponFiringRate.md|resetWeaponFiringRate]])
+ setAmmo (function: [[/setWeaponAmmo.md|setWeaponAmmo]])
+ setClipAmmo (function: [[/setWeaponClipAmmo.md|setWeaponClipAmmo]])
+ setFiringRate (function: [[/setWeaponFiringRate.md|setWeaponFiringRate]])
+ setFlags (function: [[/setWeaponFlags.md|setWeaponFlags]])
+ setOwner (function: [[/setWeaponOwner.md|setWeaponOwner]])
+ setProperty (function: [[/setWeaponProperty.md|setWeaponProperty]])
+ setState (function: [[/setWeaponState.md|setWeaponState]])
+ setTarget (function: [[/setWeaponTarget.md|setWeaponTarget]])
+
+==Effect==
+''Inherited from [[/#Element.md|Element]]''
+ 
+ addBlood (function: [[/fxAddBlood.md|fxAddBlood]])
+ addBulletImpact (function: [[/fxAddBulletImpact.md|fxAddBulletImpact]])
+ addBulletSplash (function: [[/fxAddBulletSplash.md|fxAddBulletSplash]])
+ addDebris (function: [[/fxAddDebris.md|fxAddDebris]])
+ addFootSplash (function: [[/fxAddFootSplash.md|fxAddFootSplash]])
+ addGlass (function: [[/fxAddGlass.md|fxAddGlass]])
+ addGunshot (function: [[/fxAddGunshot.md|fxAddGunshot]])
+ addPunchImpact (function: [[/fxAddPunchImpact.md|fxAddPunchImpact]])
+ addSparks (function: [[/fxAddSparks.md|fxAddSparks]])
+ addTankFire (function: [[/fxAddTankFire.md|fxAddTankFire]])
+ addTyreBurst (function: [[/fxAddTyreBurst.md|fxAddTyreBurst]])
+ addWaterHydrant (function: [[/fxAddWaterHydrant.md|fxAddWaterHydrant]])
+ addWaterSplash (function: [[/fxAddWaterSplash.md|fxAddWaterSplash]])
+ addWood (function: [[/fxAddWood.md|fxAddWood]])
+ create (function: [[/createEffect.md|createEffect]])
+ getDensity (function: [[/getEffectDensity.md|getEffectDensity]])
+ getSpeed (function: [[/getEffectSpeed.md|getEffectSpeed]])
+ setDensity (function: [[/setEffectDensity.md|setEffectDensity]])
+ setSpeed (function: [[/setEffectSpeed.md|setEffectSpeed]])
+
+==GuiElement==
+''Inherited from [[/#Element.md|Element]]''
+
+ bringToFront (function: [[/guiBringToFront.md|guiBringToFront]])
+ moveToBack (function: [[/guiMoveToBack.md|guiMoveToBack]])
+ isChatBoxInputActive (function: [[/isChatBoxInputActive.md|isChatBoxInputActive]])
+ isConsoleActive (function: [[/isConsoleActive.md|isConsoleActive]])
+ isDebugViewActive (function: [[/isDebugViewActive.md|isDebugViewActive]])
+ isMainMenuActive (function: [[/isMainMenuActive.md|isMainMenuActive]])
+ isMTAWindowActive (function: [[/isMTAWindowActive.md|isMTAWindowActive]])
+ isTransferBoxActive (function: [[/isTransferBoxActive.md|isTransferBoxActive]])
+ isInputEnabled (function: [[/guiGetInputEnabled.md|guiGetInputEnabled]])
+ getInputMode (function: [[/guiGetInputMode.md|guiGetInputMode]])
+ getScreenSize (function: [[/guiGetScreenSize.md|guiGetScreenSize]])
+ getProperties (function: [[/guiGetProperties.md|guiGetProperties]])
+ getAlpha (function: [[/guiGetAlpha.md|guiGetAlpha]])
+ getFont (function: [[/guiGetFont.md|guiGetFont]])
+ getEnabled (function: [[/guiGetEnabled.md|guiGetEnabled]])
+ getVisible (function: [[/guiGetVisible.md|guiGetVisible]])
+ getText (function: [[/guiGetText.md|guiGetText]])
+ getPosition (function: [[/guiGetPosition.md|guiGetPosition]])
+ getSize (function: [[/guiGetSize.md|guiGetSize]])
+ getProperty (function: [[/guiGetProperty.md|guiGetProperty]])
+ setInputEnabled (function: [[/guiSetInputEnabled.md|guiSetInputEnabled]])
+ setAlpha (function: [[/guiSetAlpha.md|guiSetAlpha]])
+ setEnabled (function: [[/guiSetEnabled.md|guiSetEnabled]])
+ setFont (function: [[/guiSetFont.md|guiSetFont]])
+ setVisible (function: [[/guiSetVisible.md|guiSetVisible]])
+ setText (function: [[/guiSetText.md|guiSetText]])
+ setInputMode (function: [[/guiSetInputMode.md|guiSetInputMode]])
+ setProperty (function: [[/guiSetProperty.md|guiSetProperty]])
+ setPosition (function: [[/guiSetPosition.md|guiSetPosition]])
+ setSize (function: [[/guiSetSize.md|guiSetSize]])
+==GuiWindow==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateWindow.md|guiCreateWindow]])
+ setMovable (function: [[/guiWindowSetMovable.md|guiWindowSetMovable]])
+ setSizable (function: [[/guiWindowSetSizable.md|guiWindowSetSizable]])
+==GuiButton==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateButton.md|guiCreateButton]])
+==GuiEdit==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateEdit.md|guiCreateEdit]])
+ getCaretIndex (function: [[/guiEditGetCaretIndex.md|guiEditGetCaretIndex]])
+ setCaretIndex (function: [[/guiEditSetCaretIndex.md|guiEditSetCaretIndex]])
+ setReadOnly (function: [[/guiEditSetReadOnly.md|guiEditSetReadOnly]])
+ setMasked (function: [[/guiEditSetMasked.md|guiEditSetMasked]])
+ setMaxLength (function: [[/guiEditSetMaxLength.md|guiEditSetMaxLength]])
+==GuiLabel==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateLabel.md|guiCreateLabel]])
+ getFontHeight (function: [[/guiLabelGetFontHeight.md|guiLabelGetFontHeight]])
+ getTextExtent (function: [[/guiLabelGetTextExtent.md|guiLabelGetTextExtent]])
+ getColor (function: [[/guiLabelGetColor.md|guiLabelGetColor]])
+ setColor (function: [[/guiLabelSetColor.md|guiLabelSetColor]])
+ setHorizontalAlign (function: [[/guiLabelSetHorizontalAlign.md|guiLabelSetHorizontalAlign]])
+ setVerticalAlign (function: [[/guiLabelSetVerticalAlign.md|guiLabelSetVerticalAlign]])
+==GuiMemo==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateMemo.md|guiCreateMemo]])
+ getCaretIndex (function: [[/guiMemoGetCaretIndex.md|guiMemoGetCaretIndex]])
+ setCaretIndex (function: [[/guiMemoSetCaretIndex.md|guiMemoSetCaretIndex]])
+ setReadOnly (function: [[/guiMemoSetReadOnly.md|guiMemoSetReadOnly]])
+==GuiStaticImage==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateStaticImage.md|guiCreateStaticImage]])
+ loadImage (function: [[/guiStaticImageLoadImage.md|guiStaticImageLoadImage]])
+==GuiComboBox==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateComboBox.md|guiCreateComboBox]])
+ addItem (function: [[/guiComboBoxAddItem.md|guiComboBoxAddItem]])
+ clear (function: [[/guiComboBoxClear.md|guiComboBoxClear]])
+ removeItem (function: [[/guiComboBoxRemoveItem.md|guiComboBoxRemoveItem]])
+ getSelected (function: [[/guiComboBoxGetSelected.md|guiComboBoxGetSelected]])
+ getItemText (function: [[/guiComboBoxGetItemText.md|guiComboBoxGetItemText]])
+ setItemText (function: [[/guiComboBoxSetItemText.md|guiComboBoxSetItemText]])
+ setSelected (function: [[/guiComboBoxSetSelected.md|guiComboBoxSetSelected]])
+==GuiCheckBox==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateCheckBox.md|guiCreateCheckBox]])
+ getSelected (function: [[/guiCheckBoxGetSelected.md|guiCheckBoxGetSelected]])
+ setSelected (function: [[/guiCheckBoxSetSelected.md|guiCheckBoxSetSelected]])
+==GuiRadioButton==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateRadioButton.md|guiCreateRadioButton]])
+ getSelected (function: [[/guiRadioButtonGetSelected.md|guiRadioButtonGetSelected]])
+ setSelected (function: [[/guiRadioButtonSetSelected.md|guiRadioButtonSetSelected]])
+==GuiScrollPane==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateScrollPane.md|guiCreateScrollPane]])
+ getHorizontalScrollPosition (function: [[/guiScrollPaneGetHorizontalScrollPosition.md|guiScrollPaneGetHorizontalScrollPosition]])
+ getVerticalScrollPosition (function: [[/guiScrollPaneGetVerticalScrollPosition.md|guiScrollPaneGetVerticalScrollPosition]])
+ setHorizontalScrollPosition (function: [[/guiScrollPaneSetHorizontalScrollPosition.md|guiScrollPaneSetHorizontalScrollPosition]])
+ setScrollBars (function: [[/guiScrollPaneSetScrollBars.md|guiScrollPaneSetScrollBars]])
+ setVerticalScrollPosition (function: [[/guiScrollPaneSetVerticalScrollPosition.md|guiScrollPaneSetVerticalScrollPosition]])
+==GuiScrollBar==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateScrollBar.md|guiCreateScrollBar]])
+ getScrollPosition (function: [[/guiScrollBarGetScrollPosition.md|guiScrollBarGetScrollPosition]])
+ setScrollPosition (function: [[/guiScrollBarSetScrollPosition.md|guiScrollBarSetScrollPosition]])
+==GuiProgressBar==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateProgressBar.md|guiCreateProgressBar]])
+ getProgress (function: [[/guiProgressBarGetProgress.md|guiProgressBarGetProgress]])
+ setProgress (function: [[/guiProgressBarSetProgress.md|guiProgressBarSetProgress]])
+==GuiGridlist==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateGridList.md|guiCreateGridList]])
+ addColumn (function: [[/guiGridListAddColumn.md|guiGridListAddColumn]])
+ addRow (function: [[/guiGridListAddRow.md|guiGridListAddRow]])
+ autoSizeColumn (function: [[/guiGridListAutoSizeColumn.md|guiGridListAutoSizeColumn]])
+ clear (function: [[/guiGridListClear.md|guiGridListClear]])
+ insertRowAfter (function: [[/guiGridListInsertRowAfter.md|guiGridListInsertRowAfter]])
+ removeColumn (function: [[/guiGridListRemoveColumn.md|guiGridListRemoveColumn]])
+ removeRow (function: [[/guiGridListRemoveRow.md|guiGridListRemoveRow]])
+ getItemData (function: [[/guiGridListGetItemData.md|guiGridListGetItemData]])
+ getItemText (function: [[/guiGridListGetItemText.md|guiGridListGetItemText]])
+ getRowCount (function: [[/guiGridListGetRowCount.md|guiGridListGetRowCount]])
+ getSelectedItem (function: [[/guiGridListGetSelectedItem.md|guiGridListGetSelectedItem]])
+ getItemColor (function: [[/guiGridListGetItemColor.md|guiGridListGetItemColor]])
+ getColumnTitle (function: [[/guiGridListGetColumnTitle.md|guiGridListGetColumnTitle]])
+ getHorizontalScrollPosition (function: [[/guiGridListGetHorizontalScrollPosition.md|guiGridListGetHorizontalScrollPosition]])
+ getVerticalScrollPosition (function: [[/guiGridListGetVerticalScrollPosition.md|guiGridListGetVerticalScrollPosition]])
+ getSelectedCount (function: [[/guiGridListGetSelectedCount.md|guiGridListGetSelectedCount]])
+ getSelectedItems (function: [[/guiGridListGetSelectedItems.md|guiGridListGetSelectedItems]])
+ getColumnCount (function: [[/guiGridListGetColumnCount.md|guiGridListGetColumnCount]])
+ setItemData (function: [[/guiGridListSetItemData.md|guiGridListSetItemData]])
+ setItemText (function: [[/guiGridListSetItemText.md|guiGridListSetItemText]])
+ setScrollBars (function: [[/guiGridListSetScrollBars.md|guiGridListSetScrollBars]])
+ setSelectedItem (function: [[/guiGridListSetSelectedItem.md|guiGridListSetSelectedItem]])
+ setSelectionMode (function: [[/guiGridListSetSelectionMode.md|guiGridListSetSelectionMode]])
+ setSortingEnabled (function: [[/guiGridListSetSortingEnabled.md|guiGridListSetSortingEnabled]])
+ setColumnWidth (function: [[/guiGridListSetColumnWidth.md|guiGridListSetColumnWidth]])
+ setItemColor (function: [[/guiGridListSetItemColor.md|guiGridListSetItemColor]])
+ setColumnTitle (function: [[/guiGridListSetColumnTitle.md|guiGridListSetColumnTitle]])
+ setHorizontalScrollPosition (function: [[/guiGridListSetHorizontalScrollPosition.md|guiGridListSetHorizontalScrollPosition]])
+ setVerticalScrollPosition (function: [[/guiGridListSetVerticalScrollPosition.md|guiGridListSetVerticalScrollPosition]])
+==GuiTabPanel==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateTabPanel.md|guiCreateTabPanel]])
+ getSelectedTab (function: [[/guiGetSelectedTab.md|guiGetSelectedTab]])
+ setSelectedTab (function: [[/guiSetSelectedTab.md|guiSetSelectedTab]])
+==GuiTab==
+''Inherited from [[/#GuiElement.md|GuiElement]]''
+
+ create (function: [[/guiCreateTab.md|guiCreateTab]])
+ delete (function: [[/guiDeleteTab.md|guiDeleteTab]])
+==GuiFont==
+''Inherited from [[/#Element.md|Element]]''
+
+ create (function: [[/guiCreateFont.md|guiCreateFont]])
+==Resource==
+ create (function: [[/getResourceFromName.md|getResourceFromName]])
+ fromName (function: [[/getResourceFromName.md|getResourceFromName]])
+ getGuiElement (function: [[/getResourceGUIElement.md|getResourceGUIElement]])
+ getRootElement (function: [[/getResourceRootElement.md|getResourceRootElement]])
+ getName (function: [[/getResourceName.md|getResourceName]])
+ getThis (function: [[/getThisResource.md|getThisResource]])
+ getConfig (function: [[/getResourceConfig.md|getResourceConfig]])
+ getConfig (function: [[/getResourceConfig.md|getResourceConfig]])
+ getDynamicElementRoot (function: [[/getResourceDynamicElementRoot.md|getResourceDynamicElementRoot]])
+ getExportedFunctions (function: [[/getResourceExportedFunctions.md|getResourceExportedFunctions]])
+ getState (function: [[/getResourceState.md|getResourceState]])
+==Timer==
+ create (function: [[/setTimer.md|setTimer]])
+ destroy (function: [[/killTimer.md|killTimer]])
+ reset (function: [[/resetTimer.md|resetTimer]])
+ isValid (function: [[/isTimer.md|isTimer]])
+ getDetails (function: [[/getTimerDetails.md|getTimerDetails]])
+==File==
+ create (function: [[/fileOpen.md|fileOpen]])
+ destroy (function: [[/fileClose.md|fileClose]])
+ close (function: [[/fileClose.md|fileClose]])
+ new (function: [[/fileCreate.md|fileCreate]])
+ delete (function: [[/fileDelete.md|fileDelete]])
+ exists (function: [[/fileExists.md|fileExists]])
+ flush (function: [[/fileFlush.md|fileFlush]])
+ getPos (function: [[/fileGetPos.md|fileGetPos]])
+ getSize (function: [[/fileGetSize.md|fileGetSize]])
+ isEOF (function: [[/fileIsEOF.md|fileIsEOF]])
+ read (function: [[/fileRead.md|fileRead]])
+ rename (function: [[/fileRename.md|fileRename]])
+ setPos (function: [[/fileSetPos.md|fileSetPos]])
+ write (function: [[/fileWrite.md|fileWrite]])
+ copy (function: [[/fileCopy.md|fileCopy]])
+==XML==
+ load (function: [[/xmlLoadFile.md|xmlLoadFile]])
+ unload (function: [[/xmlUnloadFile.md|xmlUnloadFile]])
+ copy (function: [[/xmlCopyFile.md|xmlCopyFile]])
+ create (function: [[/xmlCreateFile.md|xmlCreateFile]])
+ destroy (function: [[/xmlDestroyNode.md|xmlDestroyNode]])
+ setValue (function: [[/xmlNodeGetValue.md|xmlNodeGetValue]])
+ setAttribute (function: [[/xmlNodeSetAttribute.md|xmlNodeSetAttribute]])
+ setValue (function: [[/xmlNodeSetValue.md|xmlNodeSetValue]])
+ saveFile (function: [[/xmlSaveFile.md|xmlSaveFile]])
+ createChild (function: [[/xmlCreateChild.md|xmlCreateChild]])
+ findChild (function: [[/xmlFindChild.md|xmlFindChild]])
+ getAttributes (function: [[/xmlNodeGetAttributes.md|xmlNodeGetAttributes]])
+ getChildren (function: [[/xmlNodeGetChildren.md|xmlNodeGetChildren]])
+ getName (function: [[/xmlNodeGetName.md|xmlNodeGetName]])
+ getParent (function: [[/xmlNodeGetParent.md|xmlNodeGetParent]])
+ getAttribute (function: [[/xmlNodeGetAttribute.md|xmlNodeGetAttribute]])
+ setName (function: [[/xmlNodeSetName.md|xmlNodeSetName]])
+==Camera==
+ fade (function: [[/fadeCamera.md|fadeCamera]])
+ getTarget (function: [[/getCameraTarget.md|getCameraTarget]])
+ getInterior (function: [[/getCameraInterior.md|getCameraInterior]])
+ getViewMode (function: [[/getCameraViewMode.md|getCameraViewMode]])
+ getGoggleEffect (function: [[/getCameraGoggleEffect.md|getCameraGoggleEffect]])
+ setInterior (function: [[/setCameraInterior.md|setCameraInterior]])
+ setTarget (function: [[/setCameraTarget.md|setCameraTarget]])
+ setViewMode (function: [[/setCameraViewMode.md|setCameraViewMode]])
+ setGoggleEffect (function: [[/setCameraGoggleEffect.md|setCameraGoggleEffect]])
+ setClip (function: [[/setCameraClip.md|setCameraClip]])
+==Engine==
+ restoreCOL (function: [[/engineRestoreCOL.md|engineRestoreCOL]])
+ restoreModel (function: [[/engineRestoreModel.md|engineRestoreModel]])
+ setAsynchronousLoading (function: [[/engineSetAsynchronousLoading.md|engineSetAsynchronousLoading]])
+ setModelLODDistance (function: [[/engineSetModelLODDistance.md|engineSetModelLODDistance]])
+ getVisibleTextureName (function: [[/engineGetVisibleTextureNames.md|engineGetVisibleTextureNames]])
+ getModelLODDistance (function: [[/engineGetModelLODDistance.md|engineGetModelLODDistance]])
+ getModelTextureNames (function: [[/engineGetModelTextureNames.md|engineGetModelTextureNames]])
+ getModelIDFromName (function: [[/engineGetModelIDFromName.md|engineGetModelIDFromName]])
+ getModelNameFromID (function: [[/engineGetModelNameFromID.md|engineGetModelNameFromID]])
+==EngineCOL==
+''Inherited from [[/#Element.md|Element]]''
+
+ create (function: [[/engineLoadCOL.md|engineLoadCOL]])
+ replace (function: [[/engineReplaceCOL.md|engineReplaceCOL]])
+==EngineTXD==
+''Inherited from [[/#Element.md|Element]]''
+
+ create (function: [[/engineLoadTXD.md|engineLoadTXD]])
+ import (function: [[/engineImportTXD.md|engineImportTXD]])
+==EngineDFF==
+''Inherited from [[/#Element.md|Element]]''
+
+ create (function: [[/engineLoadDFF.md|engineLoadDFF]])
+ replace (function: [[/engineReplaceModel.md|engineReplaceModel]])
+==DxMaterial==
+''Inherited from [[/#Element.md|Element]]''
+
+ getSize (function: [[/dxGetMaterialSize.md|dxGetMaterialSize]])
+==DxTexture==
+''Inherited from [[/#DxMaterial.md|DxMaterial]]''
+
+ create (function: [[/dxCreateTexture.md|dxCreateTexture]])
+ setEdge (function: [[/dxSetTextureEdge.md|dxSetTextureEdge]])
+ setPixels (function: [[/dxSetTexturePixels.md|dxSetTexturePixels]])
+ getPixels (function: [[/dxGetTexturePixels.md|dxGetTexturePixels]])
+==DxFont==
+ create (function: [[/dxCreateFont.md|dxCreateFont]])
+ getHeight (function: [[/dxGetFontHeight.md|dxGetFontHeight]])
+ getTextWidth (function: [[/dxGetTextWidth.md|dxGetTextWidth]])
+==DxShader==
+''Inherited from [[/#DxMaterial.md|DxMaterial]]''
+
+ create (function: [[/dxCreateShader.md|dxCreateShader]])
+ setValue (function: [[/dxSetShaderValue.md|dxSetShaderValue]])
+ setTessellation (function: [[/dxSetShaderTessellation.md|dxSetShaderTessellation]])
+ setTransform (function: [[/dxSetShaderTransform.md|dxSetShaderTransform]])
+ value (function: [[/dxGetFontHeight.md|dxGetFontHeight]])
+==DxScreenSource==
+ create (function: [[/dxCreateScreenSource.md|dxCreateScreenSource]])
+ update (function: [[/dxUpdateScreenSource.md|dxUpdateScreenSource]])
+==DxRenderTarget==
+ create (function: [[/dxCreateRenderTarget.md|dxCreateRenderTarget]])
+ setAsTarget (function: [[/dxSetRenderTarget.md|dxSetRenderTarget]])
+
+[[/Category:OOP.md|Category:OOP]]

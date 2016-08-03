@@ -1,0 +1,50 @@
+
+{{Client function}}
+This function set component rotation for [[/vehicle.md|vehicle]].
+{{Note|Before r6974 the component rotations went the wrong way (i.e. opposite to the vehicle rotations). This has been corrected, so you'll have to modify any scripts written before r6974 that use this function.}}
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool setVehicleComponentRotation ( vehicle theVehicle, string theComponent, float rotX, float rotY, float rotZ [, string base = "parent"] )
+</syntaxhighlight>
+
+===Required Arguments=== 
+*'''theVehicle:''' The [[/vehicle.md|vehicle]] you wish to set component rotation.
+*'''theComponent:''' A vehicle component (this is the frame name from the model file of the component you wish to modify) 
+*'''rotX:''' The component's rotation around the x axis in degrees.
+*'''rotY:''' The component's rotation around the y axis in degrees.
+*'''rotZ:''' The component's rotation around the z axis in degrees.
+
+===Optional Arguments=== 
+{{New feature/item|3.0141|1.4.0|7013|
+*'''base:''' A string representing what the supplied rotation is relative to. It can be one of the following values:
+**'''parent:''' The rotation is relative to the parent component.
+**'''root:''' The rotation is relative to the root component.
+**'''world:''' The rotation is a world rotation.
+}}
+
+===Returns=== 
+Return ''true'' if component rotation was set successfully, ''false'' otherwise.
+
+==Example== 
+'''Example 1:''' This example would change the roatation of the component when the player enters a vehicle.  
+<syntaxhighlight lang="lua">
+addEventHandler("onClientVehicleEnter", getRootElement(),
+    function()
+        local theVeh = getPedOccupiedVehicle(localPlayer)
+        local getComponent = getVehicleComponents(theVeh) -- returns table with all the components of the vehicle
+        if (theVeh) then
+	    for k in pairs (getComponent) do
+	        local rx, ry, rz = getVehicleComponentRotation(theVeh, k) --get the rotation of the component
+                setVehicleComponentRotation(theVeh, k, rx+10, ry+10, rz+10) -- increases by 10 unit
+	    end
+        end
+    end
+)
+</syntaxhighlight>
+
+==Changelog==
+{{ChangelogHeader}}
+{{ChangelogItem|1.4.0-9.07013|Added '''base''' argument}}
+
+==See Also==
+{{Client_vehicle_functions}}

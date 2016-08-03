@@ -1,0 +1,29 @@
+
+{{Client event}}
+{{New feature/item|3.0150|1.5||
+The event is executed when the browser loads a new page.
+}}
+
+==Parameters== 
+<syntaxhighlight lang="lua">
+string targetURL, bool isBlocked, bool isMainFrame
+</syntaxhighlight>
+*'''targetURL:''' The page the browser loaded
+*'''isBlocked:''' If the browser was created with '''isLocal''' set to '''true''', and the browser tried to load a remote page, this would be set to '''true''' (and vice-versa)
+* {{New feature/item|3.0160|1.6|7888|'''isMainFrame:''' Whether the entire page (main frame) was loaded or an ''<iframe>'' inside the page was loaded}}
+
+==Source==
+The [[/Element/Browser.md|browser]] element
+
+==Example== 
+{{Example}}
+
+== Issues ==
+{{Issues|
+{{Issue|9173|onClientBrowserNavigate is triggered for <iframe> elements}}
+}}
+
+[[/pl:onClientBrowserNavigate.md|pl:onClientBrowserNavigate]]
+
+==See Also==
+{{CEF_events}}

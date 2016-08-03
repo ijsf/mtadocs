@@ -1,0 +1,39 @@
+
+{{Server client function}}
+This function checks if a value is an [[/element.md|element]] or not.
+{{Note|This function is not reliable as element ids are eventually recycled. Always make sure you nil variables containing an element after calling [[/destroyElement.md|destroyElement]] or handle [[/onElementDestroy.md|onElementDestroy]] for players and elements that might be destroyed by another resource}}
+==Syntax==
+<syntaxhighlight lang="lua">bool isElement ( var theValue )</syntaxhighlight>
+
+===Required Arguments===
+* '''theValue''': The value that we want to check.
+
+===Returns===
+Returns ''true'' if the passed value is an element, ''false'' otherwise.
+
+==Example==
+<section name="Server" class="server" show="true">
+This serverside function kills a player when it's passed his name or his element.
+<syntaxhighlight lang="lua">
+function killPlayer2 ( argument )
+	-- if the argument is an element, and also a player,
+	if isElement( argument ) and getElementType( argument ) == "player" then
+		-- kill him
+		killPed ( argument )
+
+	-- if it isn't an element, but a string, it could be a name
+	elseif type ( argument ) == "string" then
+		-- retrieve the player with that name
+		local playerElement = getPlayerFromName( argument )
+		-- if a player with such a name exists,
+		if playerElement then
+			-- kill him
+			killPed ( playerElement )
+		end
+	end
+end
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Element functions}}

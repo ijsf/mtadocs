@@ -1,0 +1,29 @@
+{{Server client function}}
+
+{{New feature/item|3.0132|1.3.2|5340|
+This function returns the unsigned number formed by var value with replacement specified at bits field to field + width - 1
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+uint bitReplace ( uint var, uint replaceValue, int field, int width = 1 )
+</syntaxhighlight>
+
+===Required arguments===
+*'''var:''' The value
+*'''replaceValue:''' The replaceValue
+*'''field:''' The field number
+*'''width:''' Number of bits to extract
+
+===Returns===
+Returns the replaced value/bit sequence.
+
+==Example==
+<syntaxhighlight lang="lua">
+function replaceColorAlpha(color, alpha)
+   return bitReplace(color,alpha,24,8) -- return value with replaced bits 24-32 ( the alpha, http://en.wikipedia.org/wiki/RGBA_color_space ) 
+end
+</syntaxhighlight>
+
+==See Also==
+{{Bit_functions}}

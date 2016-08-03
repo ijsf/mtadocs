@@ -1,0 +1,28 @@
+
+The word "ped" is short for "pedestrian" and describes any person in GTA, be it a player or an NPC character. (And even though "pedestrian" doesn't technically apply to people that drive, they still fall under this name)
+
+The [[/createPed.md|createPed]] function specifically creates an NPC, but all other ped functions work on both players and NPC's as they're pretty much the same thing to San Andreas.
+
+The element type of a NPC is '''"ped"'''.
+
+==XML syntax==
+<syntaxhighlight lang="xml">
+<ped model="" posX="" posY="" posZ="" rotZ="" interior="" frozen="" />
+</syntaxhighlight>
+
+===Required Attributes===
+* '''model''': The [[/Character_Skins.md|character skin ID]] of the ped being created.
+* '''posX''': A float representing the X position of the ped.
+* '''posY''': A float representing the Y position of the ped.
+* '''posZ''': A float representing the Z position of the ped.
+
+===Optional Attributes===
+* '''rotZ''': A float representing the Z rotation of the ped.
+* '''interior''': A interior where the ped spawns.
+{{New feature|3.0110|1.1|
+* '''frozen''': A bool indicating whether the ped should be capable of moving
+}}
+
+==Related scripting functions==
+{{Ped functions}}
+[[/Category:Element Types.md|Category:Element Types]]

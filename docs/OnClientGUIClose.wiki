@@ -1,0 +1,18 @@
+[[/Category:Incomplete Event.md|Category:Incomplete Event]]
+
+ 
+This event is blahblah and is used for blahblah.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+void onClientGUIClose ( element theElement )
+</syntaxhighlight> 
+
+==Example== 
+This example does...
+<syntaxhighlight lang="lua">
+--This line does...
+blabhalbalhb --abababa
+--This line does this...
+mooo
+</syntaxhighlight>

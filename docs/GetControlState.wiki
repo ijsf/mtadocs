@@ -1,0 +1,67 @@
+{{Server client function}}
+
+This function will check if a player is pressing a particular control. Controls are those that affect GTA. If you wish to get the state of another key, use [[/bindKey.md|bindKey]] and a command function.
+
+Note: Not all control states are sent to the server at all times, as such their state may be given incorrectly. As a rule, keys that move or affect the player or their vehicle are most likely to be accurate. For increased accuracy (and also increased bandwidth usage) use bindKey instead to bind a GTA control name to a function.
+
+==Syntax== 
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">bool getControlState ( player thePlayer, string controlName )</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''thePlayer:''' The player you wish to get the control state of. Do not use this parameter when scripting for client.
+*'''controlName:''' The control that you want to get the state of. See [[/control names.md|control names]] for a list of possible controls.
+'''Note:''' several controls are not synched with the server, therefore the function will always return ''false'' for these controls serverside. These controls are:
+*next_weapon
+*previous_weapon
+*jump
+*zoom_in
+*zoom_out
+*look_behind
+*change_camera
+*conversation_yes
+*conversation_no
+*group_control_forwards
+*group_control_back
+*sub_mission
+*radio_next
+*radio_previous
+*vehicle_look_left
+*vehicle_look_right
+*vehicle_look_behind
+*vehicle_mouse_look
+*special_control_*
+</section>
+
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">bool getControlState ( string controlName ) </syntaxhighlight> 
+
+===Required Arguments=== 
+*'''controlName:''' The control that you want to get the state of. See [[/control names.md|control names]] for a list of possible controls.
+</section>
+
+===Returns===
+Returns the state of the control, ''false'' if the control doesn't exist or if the player is dead.
+
+==Example==  
+<section name="Server" class="server" show="true">
+This example starts a repeating check when a player spawns, if a player presses the fire key, they'll be killed. 
+<syntaxhighlight lang="lua">
+function onPlayerSpawn ( theSpawnpoint )
+    killPlayerIfTheyPressThisKey ( source, "fire" ) -- start a repeating check
+end
+addEventHandler ( "onPlayerSpawn", root, onPlayerSpawn )
+
+function killPlayerIfTheyPressThisKey ( thePlayer, key )
+    if ( getControlState ( thePlayer, key ) ) then        -- if they're pressing the fire key
+        outputChatBox ( "Violence will not be tolerated!", thePlayer )
+        killPed ( thePlayer )                          -- kill them
+    else                                                  -- otherwise..
+        setTimer ( killPlayerIfTheyPressThisKey, 500, 1, thePlayer, key ) -- call this function again in 500ms
+    end
+end
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Input functions}}

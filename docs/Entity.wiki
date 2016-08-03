@@ -1,0 +1,3 @@
+An entity is an element that has a position and a physical representation in the world. The following elements are entities:
+{{Entities}}
+[[/Category:Scripting Concepts.md|Category:Scripting Concepts]]

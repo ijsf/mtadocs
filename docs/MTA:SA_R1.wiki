@@ -1,0 +1,17 @@
+{{Historical}}
+==Introduction==
+Multi Theft Auto: San Andreas R1 is the first release of Multi Theft Auto for San Andreas. It is based around vehicle synchronisation and does not feature walking player sync (i.e. you cannot get out of your car). Deathmatch is currently in development, which will allow you to do so.
+
+MTA:SA R1 was released on Sunday 22nd of January at approximately 22:10 GMT.
+
+It is compatible with the [[/MTA:mA.md|MTA:mA]] 4 series.
+
+==Links==
+* [http://light.mtavc.com Download link for MTA:SA R1]
+* [[/Server_Setup_Guides.md|Setup guides for the MTA:SA server]]
+* [[/MTASA_FAQ.md|FAQ]]
+* [[/Map_Editor.md|Map Editor Tutorial]]
+
+[[/Category:MTA:SA Race.md|Category:MTA:SA Race]]
+[[/es:MTA:SA R1_ES.md|es:MTA:SA R1_ES]]
+[[/pl:MTA:SA R1_PL.md|pl:MTA:SA R1_PL]]

@@ -1,0 +1,34 @@
+{{Delete|Function does not exist}}
+
+{{Client_function}}
+{{New feature/item|3.0150|1.5||
+This function injects a keyboard key (state: up). 
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool injectBrowserKeyUp ( browser webBrowser, string key )
+</syntaxhighlight>
+{{OOP|todo}}
+
+===Required arguments===
+*'''webBrowser:''' The web browser
+*'''Key:''' Key
+
+===Returns===
+Returns ''true'' if the key was successfully injected, ''false'' otherwise.
+
+==Example==
+<section name="Clientside script" class="client" show="true">
+<code>addEventHandler("onClientKey", root,
+	function(button, pressedKey)
+		if pressedKey then
+			injectBrowserKeyDown(browser, button)
+		else
+			injectBrowserKeyUp(browser, button)
+		end
+	end
+)</syntaxhighlight>
+</section>
+==See also==
+{{CEF_functions}}

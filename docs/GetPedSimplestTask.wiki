@@ -1,0 +1,29 @@
+
+{{Client function}}
+This function is used to get the name of a specified ped's current simplest [[/task.md|task]].<br>
+
+''Note: See [[/getPedTask.md|getPedTask]] to get a all tasks.''
+
+==Syntax==
+<syntaxhighlight lang="lua">
+string getPedSimplestTask ( ped thePed )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''thePed''': The [[/ped.md|ped]] whose [[/task.md|task]] you want to retrieve.
+
+===Returns===
+Returns a string representing the name of the ped's simplest, active [[/task.md|task]].
+
+==Example==
+This example prints the name of a player's simplest task to the chat, when they use the "sTask" command.
+<syntaxhighlight lang="lua">
+function showSTask ()
+  local thetask = getPedSimplestTask ( getLocalPlayer() )
+  outputChatBox ( getPlayerName ( getLocalPlayer() ) .. "'s simplest task is: " .. thetask )
+end
+addCommandHandler ( "sTask", showSTask )
+</syntaxhighlight>
+
+==See Also==
+{{Client_ped_functions}}

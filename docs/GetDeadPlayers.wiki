@@ -1,0 +1,36 @@
+
+{{Server function}}
+This function returns a table of all currently dead players on the server.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+table getDeadPlayers()
+</syntaxhighlight>
+{{OOP||[[/Player.md|Player]].getAllDead||}}
+===Returns===
+Returns a table of all the dead players.
+
+==Example==
+This example prints the list of dead players to the chat box.
+<syntaxhighlight lang="lua">
+-- Print a list of all the dead players
+  deadPlayers = getDeadPlayers ()
+  if ( deadPlayers ) then -- if we got the table
+    deadPlayersList = "none"
+    -- Loop through the table
+    for playerKey, playerValue in deadPlayers do
+      -- add their name to the list
+      if ( deadPlayersList == "none" ) then
+        deadPlayersList = getPlayerName ( playerValue )
+      else
+        deadPlayersList = deadPlayersList .. ", " .. getPlayerName ( playerValue )
+      end
+    end
+    outputChatBox ( "Dead Players: " .. deadPlayersList )    
+  end
+</syntaxhighlight>
+
+==See Also==
+{{Player functions}}
+
+[[/ru:getDeadPlayers.md|ru:getDeadPlayers]]

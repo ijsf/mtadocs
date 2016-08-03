@@ -1,0 +1,41 @@
+
+{{Useful Function}}
+This function checks if the specified [[/player.md|player]] is in the specified [[/team.md|team]].
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool isPlayerInTeam ( player thePlayer [, team/string theTeam = nil ] )
+</syntaxhighlight>
+
+===Arguments===
+* '''thePlayer''': the [[/player.md|player]] you want to check if it's in the specified [[/team.md|team]].
+* '''theTeam''': a [[/team.md|team]] element or name to check if the [[/player.md|player]] is in it. If not specified, this function will return ''true'' if the [[/player.md|player]] is in any [[/team.md|team]].
+
+==Code==
+<section name="Function source" class="both" show="true"><syntaxhighlight lang="lua">
+function isPlayerInTeam(player, team)
+    assert(isElement(player) and getElementType(player) == "player", "Bad argument 1 @ isPlayerInTeam [player expected, got " .. tostring(player) .. "]")
+    assert((not team) or type(team) == "string" or (isElement(team) and getElementType(team) == "team"), "Bad argument 2 @ isPlayerInTeam [nil/string/team expected, got " .. tostring(team) .. "]")
+    return getPlayerTeam(player) == (type(team) == "string" and getTeamFromName(team) or (type(team) == "userdata" and team or (getPlayerTeam(player) or true)))
+end
+</syntaxhighlight></section>
+
+==Example==
+<section name="Server" class="server" show="true">
+This example adds a /onduty command which gives a cop uniform and nightstick to the player who types it, if he's on a team named "SAPD".
+<syntaxhighlight lang="lua">
+function duty(player)
+    if isPlayerInTeam(player, "SAPD") then
+        setElementModel(player, 280)
+        setPedArmor(player, 100)
+        takeAllWeapons(player)
+        giveWeapon(player, 3, 1, true)
+        outputChatBox("* Now " .. getPlayerName(player) .. " is on duty!", root, 0, 0, 200)
+    end
+end
+addCommandHandler("onduty", duty)
+</syntaxhighlight>
+</section>
+
+==See also==
+{{Useful Functions}}

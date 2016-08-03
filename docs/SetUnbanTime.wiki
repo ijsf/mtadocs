@@ -1,0 +1,32 @@
+ 
+{{Server function}}
+{{New items|3.014|1.4|
+This function sets a new unban time of a given [[/ban.md|ban]] using unix timestamp (seconds since Jan 01 1970).
+}}
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool setUnbanTime( ban theBan, int theTime )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''theBan:''' The [[/ban.md|ban]] of which to change the unban time of
+*'''theTime:''' the new unban time
+
+===Returns===
+Returns ''true'' if changed successfully, ''false'' otherwise.
+
+==Example==
+<syntaxhighlight lang="lua">
+addCommandHandler("banMe",
+function (player)
+local ban = banPlayer(player)
+setUnbanTime(ban, 500)
+end
+)
+
+</syntaxhighlight>
+
+==See Also==
+{{Admin_functions}}
+[[/ru:setUnbanTime.md|ru:setUnbanTime]]

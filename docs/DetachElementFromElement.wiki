@@ -1,0 +1,64 @@
+
+{{Server client function}}
+{{Deprecated|detachElements|}}
+
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This function detaches attached elements from one another.
+
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+bool detachElementFromElement ( element theElement, [ element theAttachToElement ] )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+<!-- List each argument one per line. This should be the argument's name as in the argument list above, NOT the argument's data type -->
+*'''theElement:''' The element to be detached (the "child")
+
+<!-- Only include this section below if there are optional arguments -->
+===Optional Arguments=== 
+{{OptionalArg}} 
+*'''theAttachToElement:''' The element you wish to detach from, will detach from the attached element if this isn't specified.
+
+===Returns===
+<!-- Make this descriptive. Explain what cases will return false. If you're unsure, add a tag to it so we can check -->
+Returns ''true'' if the detaching was successful, ''false'' otherwise.
+
+==Example== 
+'''Example 1:''' This example attaches a marker to a vehicle, and detaches it when it blows up:
+<syntaxhighlight lang="lua">
+function attachMarkerToVehicle ( theVehicle )
+    -- create the marker to attach
+    local arrowMarker = createMarker ( 0, 0, 0, "arrow", 1.5, 0, 0, 255, 255 )
+    -- attach the marker above the vehicle
+    attachElementToElement ( arrowMarker, theVehicle, 0, 0, 2 )
+    -- add an event handler for when the vehicle blows up
+    addEventHandler ( "onVehicleExplode", theVehicle, "onMarkedCarExplode" )
+end
+
+function onMarkedCarExplode ()
+    -- get the elements attached to the vehicle
+    local attachedElements = getAttachedElements ( source )
+    -- loop through the table of elements
+    for i,v in ipairs ( attachedElements ) do
+        -- detach the element from the vehicle
+        detachElementFromElement ( v, source )
+    end
+    -- remove the event handler
+    removeEventHandler ( "onVehicleExplode", source, "onMarkedCarExplode" )
+end
+</syntaxhighlight>
+'''Example 2:''' This function will detach any elements that might have been attached to the passed element:
+<syntaxhighlight lang="lua">
+function freeElement( theElement )
+      if ( isElementAttached( theElement ) ) then --If the specified element is attached to something
+            detachElementFromElement( theElement ) --Detach it.
+      else
+            outputChatBox( "Element is not attached" ) --If not, say it wasn't attached in the first place.
+      end
+end
+</syntaxhighlight>
+
+==See Also==
+<!-- Change FunctionArea to the area that this function is in on the main function list page, e.g. Server, Player, Vehicle etc -->
+{{Element_functions}}

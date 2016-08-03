@@ -1,0 +1,27 @@
+ 
+{{Client function}}
+This function can be used to change the playback speed of the specified [[/sound.md|sound]] [[/element.md|element]].
+
+==Syntax== 
+<syntaxhighlight lang="lua">bool setSoundSpeed ( element theSound, float speed )</syntaxhighlight> 
+{{OOP||[[/sound.md|sound]]:setSpeed|speed|getSoundSpeed}}
+===Required Arguments=== 
+*'''theSound:''' the [[/sound.md|sound]] [[/element.md|element]] which volume you want to modify.
+*'''speed:''' a [[/float.md|float]]ing point number representing the desired sound playback speed.
+
+===Returns===
+Returns ''true'' if the [[/sound.md|sound]] element playback speed was successfully changed, ''false'' otherwise.
+
+==Example== 
+<syntaxhighlight lang="lua">
+function soundFunc()
+sound = playSound ( "/sounds/jizzy.mp3",true) -- Let's play a sound
+setSoundSpeed ( sound, 1.2 ) -- And it will be a little bit faster !
+end
+addCommandHandler("play",soundFunc)
+</syntaxhighlight>
+
+==See Also==
+{{Client_audio_functions}}
+
+[[/ar:setSoundSpeed.md|ar:setSoundSpeed]]

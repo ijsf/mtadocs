@@ -1,0 +1,106 @@
+{{Server client function}}
+
+<section name="setWeaponProperty" class="server" show="true">
+This function sets the weapon property of the specified weapons specified weapon type. See lower down the page for documentation related to weapon creation.
+
+==Syntax==
+<syntaxhighlight lang="lua">bool setWeaponProperty ( int weaponID/string weaponName, string weaponSkill, string property, int/float theValue )</syntaxhighlight>
+
+==Required Arguments==
+*'''weaponID:''' The ID or name of the [[/Weapons.md|weapon]] you want to set a property of. Names can be:
+{{Some Weapon Types}}
+*'''weaponSkill:''' Either: "pro", "std" or "poor". The player must have this skill level set to have the effect.
+*'''property:''' The property you want to set the value of:
+{{Weapon Properties Writable}}
+*'''theValue:''' The value to set the property to.
+
+==Returns==
+On success:
+
+'''bool:''' Returns true if the weapon property was successfully set
+
+On failure:
+
+'''bool:''' Returns false if the weapon property was unable to be set
+
+==Example==
+This example sets the weapon range of the M4 at poor skill level to 75
+<syntaxhighlight lang="lua">
+local rangeSet = setWeaponProperty(31, "poor", "weapon_range", 75)
+if (rangeSet) then
+    outputChatBox("M4 range at poor skill is set now 75!")
+end
+</syntaxhighlight>
+
+This example makes the silenced pistol dual wielded at pro skill level
+<syntaxhighlight lang="lua">
+setWeaponProperty(23, "pro", "flags", 0x000800) -- Warning - Depends on the current flag setting
+setWeaponProperty(23, "pro", "flags", 0x000002) -- Warning - Depends on the current flag setting
+setWeaponProperty(23, "pro", "maximum_clip_ammo", 34)
+</syntaxhighlight>
+
+This examples doubles the range of the colt 45 hand gun
+<syntaxhighlight lang="lua">
+setWeaponProperty(22, "poor", "weapon_range", 70)
+setWeaponProperty(22, "std", "weapon_range", 70)
+setWeaponProperty(22, "pro", "weapon_range", 70)
+</syntaxhighlight>
+
+This example makes the minigun able to fire all its ammo without the short reload time
+<syntaxhighlight lang="lua">
+setWeaponProperty("minigun", "pro", "maximum_clip_ammo", 1000)
+</syntaxhighlight>
+
+This example turns off auto aim for all weapons
+<syntaxhighlight lang="lua">
+function setAutoAimForAllWeapons( bEnable )
+    weaponList = { "colt 45", "silenced", "deagle", "shotgun", "sawed-off", "combat shotgun", "uzi", "mp5", "ak-47", "m4", "tec-9", "rifle", "sniper", "minigun" }
+    for _,weapon in ipairs( weaponList ) do
+        for _,skill in ipairs( { "poor", "std", "pro" } ) do
+            setWeaponPropertyFlag( weapon, skill, 0x0001, not bEnable )
+        end
+    end
+end
+
+-- Set or clear an individual weapon flag bit
+function setWeaponPropertyFlag( weapon, skill, flagBit, bSet )
+    local bIsSet = bitAnd( getWeaponProperty(weapon, skill, "flags"), flagBit ) ~= 0
+    if bIsSet ~= bSet then
+        setWeaponProperty(weapon, skill, "flags", flagBit)
+    end
+end
+
+-- Turn off auto aim
+setAutoAimForAllWeapons( false )
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|1.3|n/a|}}
+</section>
+
+<section name="setWeaponProperty" class="client" show="true">
+==Syntax (custom weapons)==
+<syntaxhighlight lang="lua">bool setWeaponProperty ( weapon theWeapon, string strProperty, value theValue )</syntaxhighlight>
+{{OOP||[[/Element/Weapon.md|weapon]]:setProperty||getWeaponProperty}}
+
+==Required Arguments==
+
+* '''theWeapon:''' the weapon to change the property of.
+* '''strProperty:''' the property to edit:
+{{Custom Weapon Properties Writable}}
+* '''theValue:''' The value to set the property to.
+
+==Returns==
+Returns ''true'' if the property was set.
+
+==Requirements==
+{{Requirements|n/a|1.3.0-9.04555|}}
+
+==Changelog==
+{{ChangelogHeader}}
+{{ChangelogItem|1.4.0-9.06339|Added 'fire_rotation' property}}
+
+</section>
+
+==See also==
+{{Weapon functions}}

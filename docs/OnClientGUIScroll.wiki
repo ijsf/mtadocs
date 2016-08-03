@@ -1,0 +1,29 @@
+{{Client event}}
+ 
+This event is fired when a GUI scrollbar is scrolled.
+
+==Parameters== 
+<syntaxhighlight lang="lua">
+element Scrolled
+</syntaxhighlight>
+* '''Scrolled''':  The scrollbar element that was scrolled
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the scrollbar element that got scrolled.
+
+==Example== 
+This example outputs a message with the new scroll position when a scrollbar is scrolled.
+<syntaxhighlight lang="lua">
+function OnScroll(Scrolled)
+	outputChatBox("The new scroll position is "..guiScrollBarGetScrollPosition(Scrolled))
+end
+addEventHandler("onClientGUIScroll",getRootElement(),OnScroll)
+</syntaxhighlight>
+
+[[/pl:onClientGUIScroll.md|pl:onClientGUIScroll]]
+
+==See Also==
+===GUI events===
+{{GUI_events}}
+===Client event functions===
+{{Client_event_functions}}

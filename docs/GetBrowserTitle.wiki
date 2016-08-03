@@ -1,0 +1,32 @@
+
+{{Client function}}
+{{New feature/item|3.0150|1.5||
+This function returns the title of the passed [[/Element/Browser.md|browser]].
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+string getBrowserTitle ( browser webBrowser )
+</syntaxhighlight>
+{{OOP||[[/Element/Browser.md|browser]]:getTitle|title}}
+
+===Required arguments===
+*'''webBrowser:''' The browser
+
+===Returns===
+Returns the title as a [[/string.md|string]]. Returns false if invalid arguments were passed.
+
+==Example==
+<syntaxhighlight lang="lua">
+addCommandHandler("browsers",
+	function()
+		outputChatBox("List of browser titles:")
+		for k, v in pairs( getElementByType("web-browser") ) do
+			outputChatBox(k .. ". " .. getBrowserTitle(v))
+		end
+	end
+)
+</syntaxhighlight>
+
+==See Also==
+{{CEF_functions}}

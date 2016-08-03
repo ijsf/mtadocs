@@ -1,0 +1,71 @@
+
+{{Server function}}
+This function frees a database query handle. dbFree only needs to be used if a result has not been obtained with [[/dbPoll.md|dbPoll]]
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool dbFree ( handle queryHandle )
+</syntaxhighlight>
+{{OOP||queryHandle:free}}
+===Required Arguments===
+*'''queryHandle:''' A query handle previously returned from [[/dbQuery.md|dbQuery]]
+
+===Returns===
+Returns ''true'' if the handle was successfully freed, ''false'' otherwise.
+
+==Example==
+=====These examples show when dbFree should be used:=====
+<div style="margin-left:20px">
+Required because [[/dbPoll.md|dbPoll]] was not called:
+<syntaxhighlight lang="lua">
+local qh = dbQuery( connection, "SELECT * FROM table_name" )
+dbFree ( qh )
+</syntaxhighlight>
+Required because [[/dbPoll.md|dbPoll]] was not called:
+<syntaxhighlight lang="lua">
+function aaa()
+    dbQuery( myCallback, connection, "SELECT * FROM table_name" )
+end
+
+function myCallback(qh)
+    dbFree ( qh )
+end
+</syntaxhighlight>
+
+Required because [[/dbPoll.md|dbPoll]] is called, but the result was not ready and no more attempts will be made:
+<syntaxhighlight lang="lua">
+local qh = dbQuery( connection, "SELECT * FROM table_name" )
+local result = dbPoll( qh, 10 )     -- Get result with a timeout of 10ms
+if result == nil then
+    result = dbPoll( qh, 10 )       -- Try again to get result with a timeout of 10ms
+    if result == nil then
+        dbFree( qh )                -- Give up
+    end
+end
+</syntaxhighlight>
+</div><br>
+=====These examples show when dbFree should NOT be used:=====
+<div style="margin-left:20px">
+Not required because [[/dbPoll.md|dbPoll]] was called with a -1 timeout:
+<syntaxhighlight lang="lua">
+local qh = dbQuery( connection, "SELECT * FROM table_name" )
+local result = dbPoll( qh, -1 )    -- Wait until result has been gotten
+</syntaxhighlight>
+
+Not required because [[/dbPoll.md|dbPoll]] was called from the callback:
+<syntaxhighlight lang="lua">
+function aaa()
+    dbQuery( myCallback, connection, "SELECT * FROM table_name" )
+end
+
+function myCallback(qh)
+    local result = dbPoll( qh, 0 )  -- Timeout doesn't matter here because the result will always be ready
+end
+</syntaxhighlight>
+</div>
+
+==Requirements==
+{{Requirements|1.1.1-9.03328|n/a}}
+
+==See Also==
+{{Registry_functions}}

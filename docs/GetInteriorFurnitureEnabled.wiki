@@ -1,0 +1,31 @@
+
+{{Client function}}
+{{New feature/item|9.06101|1.3.5|6101|
+This function will tell you if interior furniture are enabled or disabled in a specified room ID.
+}}
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool getInteriorFurnitureEnabled ( int roomID )
+</syntaxhighlight> 
+
+===Returns===
+Returns ''true'' if interior furniture is enabled or ''false'' if interior furniture is disabled.
+
+==Example== 
+<syntaxhighlight lang="lua">function checkIntFurniture( cmd, roomID )
+	local roomID = tonumber( roomID )
+	if not roomID or roomID < 0 or roomID > 4 then
+		outputChatBox( "Syntax: /" .. cmd .. " [room id: 0-4]", 220, 175, 20, false )
+	else
+		if getInteriorFurnitureEnabled( roomID ) then
+			outputChatBox("Interior furniture is enabled.", 20, 220, 20, false )
+		else
+			outputChatBox("Interior furniture is disabled.", 220, 20, 20, false )
+		end
+	end
+end
+addCommandHandler( "furniture", checkIntFurniture )</syntaxhighlight>
+
+==See Also==
+{{World functions}}

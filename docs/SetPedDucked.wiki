@@ -1,0 +1,1 @@
+{{Delete|Not in the game and therefore does not deserve a page. If you want to make this an actual function, then make it a useful function and write your own Lua hook to it.}}

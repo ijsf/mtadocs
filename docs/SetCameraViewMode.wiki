@@ -1,0 +1,26 @@
+
+{{Client function}}
+This function allows you to set the camera's view mode if you are inside a [[/vehicle.md|vehicle]]. This indicates at what distance the camera will follow the player.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool setCameraViewMode ( int viewMode )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''viewMode''': The view mode you wish to use
+{{Camera view modes}}
+
+===Returns===
+Returns ''true'' if the view was set correctly, ''false'' otherwise.
+
+==Example==
+This example sets the camera to bumper view when the local player enters any vehicle.
+<syntaxhighlight lang="lua">
+addEventHandler("onClientPlayerVehicleEnter", localPlayer, function()
+  setCameraViewMode(0)
+end)
+</syntaxhighlight>
+
+==See Also==
+{{Client camera functions}}

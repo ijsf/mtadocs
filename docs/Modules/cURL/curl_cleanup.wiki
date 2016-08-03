@@ -1,0 +1,30 @@
+
+{{ModuleFunction|cURL}}
+Cleans up the curl handle.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+curlCleanup(curl handler)
+</syntaxhighlight>
+
+==Required arguments==
+* '''curl''' The curl handler
+
+==Returns==
+Nothing usefull
+
+==Example==
+<syntaxhighlight lang="lua">
+curl = curlInit("http://mtasa.com/");
+if not curl then
+    outputDebugString("Can't connect to http://mtasa.com/ with cURL");
+else
+    curlPerform(curl);
+    curlCleanup(curl);
+    curlClose(curl);
+end
+</syntaxhighlight>
+
+
+==See also==
+{{Modules/cURL/functions}}

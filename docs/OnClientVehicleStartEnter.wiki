@@ -1,0 +1,38 @@
+{{Client event}}
+
+This event is triggered when a player starts entering a vehicle. Once the entering animation completes, [[/onClientVehicleEnter.md|onClientVehicleEnter]] is triggered.
+
+==Parameters== 
+{{Deprecated_feature|3|1.0|
+<syntaxhighlight lang="lua">
+player thePlayer, int seat
+</syntaxhighlight>
+}}
+{{new_feature/item|3|1.0||
+<syntaxhighlight lang="lua">
+player thePlayer, int seat, int door
+</syntaxhighlight>
+}}
+*'''thePlayer:''' the player that just started entering a vehicle.
+*'''seat:''' the number of the seat he is going to sit on.
+{{new_feature/item|3|1.0||
+*'''door:''' An integer of which door the player used (0-3). 0 is driver side door, 1 is front passenger, 2 is back left, 3 is back right.
+}}
+
+==Source==
+The source of this event is the vehicle the player is entering.
+
+==Example==
+This example outputs if the player is sitting in the drivers seat. (TESTED!)
+<syntaxhighlight lang="lua">addEventHandler("onClientVehicleStartEnter",root,function(player,seat,door)
+	if(seat==0)and(door==0)then
+		outputChatBox("You are going to sit in the drivers seat.",player)
+	end
+end)</syntaxhighlight>
+
+==See Also==
+===Client vehicle events===
+{{Client_vehicle_events}}
+===Client event functions===
+{{Client_event_functions}}
+[[/es:onClientVehicleStartEnter.md|es:onClientVehicleStartEnter]]

@@ -1,0 +1,37 @@
+
+{{Server function}}
+{{Deprecated|getPedFightingStyle|}}
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This allows you to retrieve what fighting style a player is currently using.
+
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+int getPlayerFightingStyle ( player thePlayer ) 
+</syntaxhighlight> 
+
+===Required Arguments=== 
+<!-- List each argument one per line. This should be the argument's name as in the argument list above, NOT the argument's data type -->
+*'''thePlayer:''' The player whose current fighting style ID you wish to retrieve
+
+===Returns===
+<!-- Make this descriptive. Explain what cases will return false. If you're unsure, add a tag to it so we can check -->
+Returns the player's current fighting style as an integer ID, ''false'' if it fails to retrieve a value.
+
+{{Fighting Styles}}
+
+==Example== 
+<!-- Explain what the example is in a single sentance -->
+This will allow any player to check what fighting style they are currently using, by typing the 'getfightingstyle' command.
+<!-- Add the code below, an emphasis should be on making it clear, not optimized. You could provide two versions if you wish, one clear and well commented, the other optimized -->
+<syntaxhighlight lang="lua">
+function getPlayerFightStyle ( thePlayer, commandName )
+	local playerstyle = getPlayerFightingStyle ( thePlayer )   -- store the fighting style in a variable
+	outputChatBox ( tostring(playerstyle), thePlayer )         -- output it to the player
+end
+addCommandHandler ( "getfightingstyle", getPlayerFightStyle )
+</syntaxhighlight>
+
+==See Also==
+<!-- Change FunctionArea to the area that this function is in on the main function list page, e.g. Server, Player, Vehicle etc -->
+{{Player_functions}}

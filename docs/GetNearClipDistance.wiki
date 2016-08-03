@@ -1,0 +1,20 @@
+ 
+{{Client function}}
+{{New feature/item|3.0141|1.4.1|6948|This function gets the distance from the [[/camera.md|camera]] at which the world starts rendering. For more information about this please refer to [[/setNearClipDistance.md|setNearClipDistance]].}}
+
+==Syntax== 
+<syntaxhighlight lang="lua">float getNearClipDistance ( )</syntaxhighlight> 
+
+===Returns===
+This function returns a ''[[/float.md|float]]'' containing the actual near clip distance.
+
+==Example==
+This example adds a ''/testmynearclipdistance'' command which outputs different things deppending of the current near clip distance. 
+<code>local function tellPlayerNearClipFacts()
+    local nearClipDistance = getNearClipDistance()
+    outputChatBox(nearClipDistance == 0.3 and "Your near clip distance is normal." or (nearClipDistance > 0.3 and "Be aware! You shouldn't be able to see very near objects so well!" or "You should be able to see very near objects so well!"))
+end
+addCommandHandler("testmynearclipdistance", tellPlayerNearClipFacts)</syntaxhighlight>
+
+==See also==
+{{Client world functions}}

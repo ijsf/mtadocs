@@ -1,0 +1,22 @@
+{{Client function}}
+
+{{New feature/item|3.0135|1.3.5|6054|
+This function returns the caret (the text cursor) position within the memo box.
+}}
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+int guiMemoGetCaretIndex ( element theElement )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''theElement:''' The memo box you want to get the caret position from
+
+===Returns===
+Returns the caret index on success, ''false'' otherwise.
+
+==Example==
+<syntaxhighlight lang="lua">Todo</syntaxhighlight>
+
+==See Also==
+{{GUI_functions}}

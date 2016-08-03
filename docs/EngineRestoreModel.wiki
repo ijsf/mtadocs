@@ -1,0 +1,48 @@
+ 
+{{Client function}}<!-- Change this to "Client function" or "Server function" appropriately-->
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This function restores the visual DFF model of the given model ID. This restores the result of [[/engineReplaceModel.md|engineReplaceModel]].
+
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+bool engineRestoreModel ( int modelID )
+</syntaxhighlight> 
+{{OOP||Engine.restoreModel}}
+===Required Arguments=== 
+<!-- List each argument one per line. This should be the argument's name as in the argument list above, NOT the argument's data type -->
+*'''modelID:''' The model ID to restore the visuals of
+
+===Returns===
+<!-- Make this descriptive. Explain what cases will return false. If you're unsure, add a tag to it so we can check -->
+Returns ''true'' if the model was successfully restored, ''false'' or ''nil'' if it failed for some reason.
+
+==Example== 
+<!-- Explain what the example is in a single sentance -->
+<!-- Add the code below, an emphasis should be on making it clear, not optimized. You could provide two versions if you wish, one clear and well commented, the other optimized -->
+<section name="Client" class="client" show="true">
+Client-Side example for restoring model / vehicle.
+<syntaxhighlight lang="lua">
+function ResetModel ( )
+    engineRestoreModel ( 587 )  -- Object / Vehicle to restore to default GTA one.
+end
+
+addEvent ( "restoreClientModel", true )
+addEventHandler ( "restoreClientModel", root, ResetModel )
+</syntaxhighlight>
+</section>
+
+
+<section name="Server" class="server" show="true">
+Server-Side example for triggering model / vehicle restore function with "restore" command.
+<syntaxhighlight lang="lua">
+function RestoreModel ( )
+    triggerClientEvent ( "restoreClientModel", root, restoreClientModel )
+end
+addCommandHandler( "restore", RestoreModel )
+</syntaxhighlight>
+</section>
+
+==See Also==
+<!-- Change FunctionArea to the area that this function is in on the main function list page, e.g. Server, Player, Vehicle etc -->
+{{Engine_functions}}

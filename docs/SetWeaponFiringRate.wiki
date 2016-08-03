@@ -1,0 +1,33 @@
+
+{{Client function}}
+This function sets the firing rate to be used when a [[/Element/Weapon.md|custom weapon]] is in ''firing'' state.
+
+==Syntax==
+<syntaxhighlight lang="lua">bool setWeaponFiringRate ( weapon theWeapon, int firingRate )</syntaxhighlight>
+{{OOP||[[/Element/Weapon.md|weapon]]:setFiringRate|firingRate|getWeaponFiringRate}}
+
+===Required Arguments===
+* '''theWeapon:''' The weapon to modify the firing rate of.
+* '''firingRate:''' The weapon firing rate. It seems to be a kind of frecuency value, so the lower the quicker the [[/Element/Weapon.md|custom weapon]] will shoot.
+
+===Returns===
+Returns ''true'' on success, ''false'' otherwise.
+
+==Example==
+This example makes the Desert Eagle gun fire faster.
+<syntaxhighlight lang="lua">
+addEventHandler("onClientResourceStart", resourceRoot,
+function()
+   local weapon = createWeapon ("deagle",0,0,10) -- create the weapon (deagle)
+   setWeaponAmmo(weapon,5000) -- set weapon ammo to 5000
+   setWeaponState(weapon, "firing") -- in firing state.
+   setWeaponFiringRate (weapon,2) -- change the weapon firing rate
+end
+)
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|n/a|1.3.0-9.04555|}}
+
+==See also==
+{{Client weapon creation functions}}

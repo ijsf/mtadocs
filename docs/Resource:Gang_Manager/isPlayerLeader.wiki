@@ -1,0 +1,19 @@
+{{Server client function}}
+Checks if player is leader of his current gang.
+
+==Syntax==
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">bool isPlayerLeader ( player Player )</syntaxhighlight>
+
+==Required Arguments==
+*'''Player:''' Player element who you want to check if he is the leader of his current gang
+</section>
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">bool isPlayerLeader ( player Player )</syntaxhighlight>
+
+==Required Arguments==
+*'''Player:''' Player element who you want to check if he is the leader of his current gang
+</section>
+
+==Returns==
+*'''IsLeader:''' Boolean that is true if player is leader of his current gang and false otherwise

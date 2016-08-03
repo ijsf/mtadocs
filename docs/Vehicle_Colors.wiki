@@ -1,0 +1,13 @@
+These are the vehicle colors you can use with [[/setVehicleColor.md|setVehicleColor]] and [[/getVehicleColor.md|getVehicleColor]].
+{{Vehicle colors}}
+
+==Vehicle Functions==
+{{Vehicle functions}}
+
+==See also==
+[[/id.md|ID Lists]]
+
+[[/Category:ID Lists.md|Category:ID Lists]]
+[[/ru:Vehicle colors.md|ru:Vehicle colors]]
+[[/de:Fahrzeugfarben.md|de:Fahrzeugfarben]]
+[[/pl:Vehicle colors.md|pl:Vehicle colors]]

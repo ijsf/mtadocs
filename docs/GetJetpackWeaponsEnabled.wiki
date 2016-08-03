@@ -1,0 +1,36 @@
+{{Useful Function}}
+<lowercasetitle/>
+
+This function returns all the weapons that are usable on a jetpack similar to [[/getJetpackWeaponEnabled.md|getJetpackWeaponEnabled]].
+
+==Syntax==
+<syntaxhighlight lang="lua"> table getJetpackWeaponsEnabled() </syntaxhighlight>
+
+===Returns===
+Returns a table filled with weapon names, else an empty table.
+
+===Code===
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">function getJetpackWeaponsEnabled()
+	local enabled = {}
+	for i=0, 46 do
+		local wepName = getWeaponNameFromID(i)
+		if getJetpackWeaponEnabled(wepName) then
+			table.insert(enabled,wepName)
+		end
+	end
+	return enabled
+end</syntaxhighlight></section>
+===Example===
+<section name="Server" class="server" show="true">
+This example outputs everything in the returned table.
+<syntaxhighlight lang="lua">addCommandHandler("weps",function()
+	for _,v in ipairs(getJetpackWeaponsEnabled())do
+		outputChatBox(v)
+		outputConsole(v)
+		outputDebugString(v)
+	end
+end)</syntaxhighlight></section>
+
+==See Also==
+{{Useful_Functions}}

@@ -1,0 +1,46 @@
+
+{{Server client function}}
+This function will trigger a named [[/event.md|event]] on a specific [[/element.md|element]] in the [[/element tree.md|element tree]]. See [[/event system.md|event system]] for more information on how the event system works.
+
+You can use the value returned from this function to determine if the event was cancelled by one of the event handlers. You should determine what your response (if any) to this should be based on the event's purpose. Generally, cancelling an event should prevent any further code being run that is dependent on whatever triggered that event. For example, if you have an ''onFlagCapture'' event, cancelling it would be expected to prevent the flag being able to be captured. Similarly, if you have ''onPlayerKill'' as an event you trigger, canceling it would either be expected to prevent the player being killed from dying or at least prevent the player from getting a score for it.
+{{Note|You should avoid triggering events on the [[/root element.md|root element]] unless you really need to. Doing this triggers the event on every element in the element tree, which is potentially very CPU intensive. Use as specific (i.e. low down the tree) element as you can.}}
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool triggerEvent ( string eventName, element baseElement, [ var argument1, ... ] )    
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''eventName:''' The name of the event you wish to trigger
+*'''baseElement:''' The element you wish to trigger the event on. See [[/event system.md|event system]] for information on how this works.
+
+===Optional Arguments=== 
+{{OptionalArg}} 
+*'''argument1:''' The first argument that the event handler expects should be added after the ''baseElement'' variable.
+**''NOTE:'' This function can have more than one of these arguments specified, once for each argument the event handler is expecting.
+
+===Returns===
+* Returns '''nil''' if the arguments are invalid or the event could not be found.  
+* Returns '''true''' if the event was triggered successfully, and ''was not'' cancelled using [[/cancelEvent.md|cancelEvent]].
+* Returns '''false''' if the event was triggered successfully, and ''was'' cancelled using [[/cancelEvent.md|cancelEvent]].
+
+==Example== 
+If you define a new custom event as follows:
+<syntaxhighlight lang="lua">
+-- Add a new event called onSpecialEvent
+addEvent ( "onSpecialEvent", true )
+-- Define our handler function
+function specialEventHandler ( text )
+	outputChatBox ( text )
+end
+-- Add the event handler
+addEventHandler ( "onSpecialEvent", root, specialEventHandler )
+</syntaxhighlight>
+
+You can then trigger this event later on using:
+<syntaxhighlight lang="lua">
+triggerEvent ( "onSpecialEvent", root, "test" )
+</syntaxhighlight>
+
+==See Also==
+{{Event_functions}}
+[[/ru:triggerEvent.md|ru:triggerEvent]]

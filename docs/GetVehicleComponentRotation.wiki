@@ -1,0 +1,48 @@
+
+{{Client function}}
+This function get component rotation for [[/vehicle.md|vehicle]].
+{{Note|Before r6974 the component rotations went the wrong way (i.e. opposite to the vehicle rotations). This has been corrected, so you'll have to modify any scripts written before r6974 that use this function.}}
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+float, float, float getVehicleComponentRotation ( vehicle theVehicle, string theComponent [, string base = "parent"] )
+</syntaxhighlight>
+
+===Required Arguments=== 
+*'''theVehicle:''' The [[/vehicle.md|vehicle]] you wish to get component rotation.
+*'''theComponent:''' A vehicle component (this is the frame name from the model file of the component you wish to modify)
+
+===Optional Arguments=== 
+{{New feature/item|3.0141|1.4.0|7013|
+*'''base:''' A string representing what the returned rotation is relative to. It can be one of the following values:
+**'''parent:''' The rotation is relative to the parent component.
+**'''root:''' The rotation is relative to the root component.
+**'''world:''' The rotation is a world rotation.
+}}
+
+===Returns=== 
+Returns three ''floats'' indicating the rotation of the component, ''x'', ''y'' and ''z'' respectively.
+
+==Example== 
+'''Example 1:''' This example would get the name and the position of the components and output it in the chat.
+<syntaxhighlight lang="lua">
+addCommandHandler("vcr", -- short for 'vehicle component rotation'
+    function()
+        local theVeh = getPedOccupiedVehicle(localPlayer)
+	local getComponent = getVehicleComponents(theVeh) -- returns table with all the components of the vehicle
+        if (theVeh) then
+            for k in pairs (getComponent) do
+		local rx, ry, rz = getVehicleComponentRotation(theVeh, k)
+                outputChatBox("Rotation of "..k.." is "..rx.." "..ry.." "..rz)
+            end
+        end
+    end
+)
+</syntaxhighlight>
+
+==Changelog==
+{{ChangelogHeader}}
+{{ChangelogItem|1.4.0-9.07013|Added '''base''' argument}}
+
+==See Also==
+{{Client_vehicle_functions}}

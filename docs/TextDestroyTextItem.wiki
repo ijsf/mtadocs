@@ -1,0 +1,23 @@
+
+{{Server function}}
+This function destroys a [[/textitem.md|textitem]] object.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+void textDestroyTextItem ( textitem theTextitem )             
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''theTextitem:''' The text item you wish to destroy.
+
+==Example== 
+This example creates then destroys a [[/textitem.md|textitem]].
+<syntaxhighlight lang="lua">
+-- Create a new text item
+text = textCreateTextItem ( "Hello, world!" )
+-- Destroy it
+textDestroyTextItem ( text )
+</syntaxhighlight>
+
+==See Also==
+{{Text_functions}}

@@ -1,0 +1,36 @@
+
+{{Client function}}
+This function checks whether an [[/element.md|element]] is currently streamed in (not virtualized) and are actual GTA objects in the world. You can force an element to be streamed in using [[/setElementStreamable.md|setElementStreamable]].<br>
+{{Deprecated feature|3|1.0|
+DP2 can return true even if this element is not fully streamed in. This can happen during the period when the vehicle/object model is loading while the element is not actually fully created yet.
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool isElementStreamedIn ( element theElement )
+</syntaxhighlight>
+
+===Required Arguments===
+* '''theElement''': The [[/element.md|element]] to check whether is streamed in or not.
+
+===Returns===
+Returns ''true'' if the passed element is currently streamed in, ''false'' if it is virtualized.
+
+==Example==
+This command shows you how many objects you have streamed in.
+<syntaxhighlight lang="lua">
+function checkTheObjects ( cmd )
+	local amount = 0 -- When starting the command, we don't have any objects looped.
+	for k,v in ipairs ( getElementsByType ( "object" ) ) do -- Looping all the objects in the server
+		if isElementStreamedIn ( v ) then -- If the object is streamed in
+			amount = amount + 1 -- It's an object more streamed in
+		end
+	end
+	outputChatBox ( "You have currently " ..amount.. " objects streamed in." ) -- Send the player the amount of objects that are streamed in
+end
+addCommandHandler ( "checkobjects", checkTheObjects )
+</syntaxhighlight>
+Note: Objects can already stream from a very long distance, so even when you can't see some objects, they can still be returned.
+
+==See Also==
+{{Client element functions}}

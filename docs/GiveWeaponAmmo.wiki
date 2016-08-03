@@ -1,0 +1,31 @@
+ 
+{{Server function}}
+{{Deprecated|giveWeapon|}}
+<!--
+{{Needs_Checking|I cant actually think of a use for this function anymore.  giveWeapon is capable of doing everything this function does - and from my testing this function doesnt allow giving ammo to a weapon that shares ammo with another, e.g. giving AK-47 ammo when a player has M4 will not work. --[[/User:Talidan2.md|Talidan2]] 17:06, 29 July 2007 (CDT)}}
+-->
+giveWeaponAmmo gives a specified ammount of ammo to a certain player, for a specified weapon (if they already have it).
+
+==Syntax== 
+<syntaxhighlight lang="lua"> bool giveWeaponAmmo ( player thePlayer, int weapon, int ammo )</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''thePlayer:''' A [[/player.md|player]] object referencing the specified player  
+*'''weapon:''' A whole number integer that refers to a [[/weapon.md|weapon]] ID.
+*'''ammo:''' A whole number integer serving as the ammo amount for the given weapon
+
+==Returns==
+Returns a boolean value ''true'' or ''false'' that tells you if it was successful or not.
+
+==Example==  
+This example will give players an M4 weapon with 200 ammo followed by 5 more ammo when they spawn.
+<syntaxhighlight lang="lua">
+function scriptOnSpawnpointUse ( thePlayer )
+    giveWeapon ( thePlayer, 31, 200 ) -- Gives the M4 weapon with 200 ammo to any player when they use a spawnpoint
+    giveWeaponAmmo ( thePlayer, 31, 5 ) -- Gives the player 5 more ammo for the M4
+end
+addEventHandler ( "onSpawnpointUse", getRootElement(), onSpawnpointUse )</syntaxhighlight>
+
+==See Also==
+{{Weapon functions}}
+[[/ru:giveWeaponAmmo.md|ru:giveWeaponAmmo]]

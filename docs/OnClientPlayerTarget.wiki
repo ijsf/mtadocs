@@ -1,0 +1,30 @@
+
+{{Client event}}
+This event is triggered whenever the local player targets an element.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+element target
+</syntaxhighlight> 
+ 
+*'''target:''' The element the player targetted.
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/player.md|player]] that targeted the element.
+
+==Example== 
+This example outputs the type of the target the client is aiming at
+<syntaxhighlight lang="lua">
+function targetingActivated ( target )
+	if ( target ) then
+		outputChatBox(tostring(getElementType(target)))
+	end
+end
+addEventHandler ( "onClientPlayerTarget", getRootElement(), targetingActivated )
+</syntaxhighlight>
+
+==See Also==
+===Client player events===
+{{Client_player_events}}
+===Client event functions===
+{{Client_event_functions}}

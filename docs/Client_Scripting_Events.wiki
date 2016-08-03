@@ -1,0 +1,58 @@
+<pageclass class="client"></pageclass>
+This page lists all '''client-side''' scripting [[/event.md|event]]s that have been implemented and are available in the Deathmatch mod.
+
+To request a function or event, use [[/Requested Functions and Events.md|Requested Functions and Events]].
+
+'''Server-side scripting events can be found here: [[/Server Scripting Events.md|Server Scripting Events]]
+
+==Browser events==
+{{CEF_events}}
+
+==Colshape events==
+{{Client_colshape_events}}
+
+==Element events==
+{{Client_element_events}}
+
+==GUI events==
+{{GUI_events}}
+
+==Marker events==
+{{Client_marker_events}}
+
+==Ped events==
+{{Client_ped_events}}
+
+==Pickup events==
+{{Client_pickup_events}}
+
+==Player events==
+{{Client_player_events}}
+
+==Object events==
+{{Client_object_events}}
+
+==Projectile events==
+{{Client_projectile_events}}
+
+==Resource events==
+{{Client_resource_events}}
+
+==Sound events==
+{{Sound_events}}
+
+==Vehicle events==
+{{Client_vehicle_events}}
+
+==Weapon creation events==
+{{Client_weapon_creation_events}}
+
+==Other events==
+{{Client_other_events}}
+
+[[/pl:PL/Client Scripting Events.md|pl:PL/Client Scripting Events]]
+[[/ru:Client Scripting Events.md|ru:Client Scripting Events]]
+[[/es:Client Scripting Events.md|es:Client Scripting Events]]
+[[/fr:Client Scripting Events.md|fr:Client Scripting Events]]
+[[/tr:Client Taraflı Eventler.md|tr:Client Taraflı Eventler]]
+[[/ar:Client Scripting Events.md|ar:Client Scripting Events]]

@@ -1,0 +1,23 @@
+
+{{Server function}}
+Sets the upper limit of the suspension for a handling element. This determines how high the wheels can bump up.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool handlingSetSuspensionUpperLimit ( handling theHandling, float upper )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''theHandling:''' the handling of which you want to change the upper suspension limit.
+*'''upper:''' the upper suspension limit to set.
+
+===Returns===
+Returns ''true'' on success, ''false'' in case of failure.
+
+==Example==
+<syntaxhighlight lang="lua">
+--TODO
+</syntaxhighlight>
+
+==See Also==
+{{Handling_functions}}

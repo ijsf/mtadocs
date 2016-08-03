@@ -1,0 +1,49 @@
+ 
+{{Server function}} 
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This function destroys the given ACL group. The destroyed ACL group will no longer be valid.
+
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+bool aclDestroyGroup ( aclgroup aclGroup )
+</syntaxhighlight> 
+{{OOP||[[/aclgroup.md|aclgroup]]:destroy||}}
+===Required Arguments=== 
+<!-- List each argument one per line. This should be the argument's name as in the argument list above, NOT the argument's data type -->
+*'''aclGroup:''' The [[/aclgroup.md|aclgroup]] element to destroy
+
+===Returns===
+<!-- Make this descriptive. Explain what cases will return false. If you're unsure, add a tag to it so we can check -->
+Returns ''true'' if the ACL group was successfully deleted, ''false'' if it could not be deleted for some reason (ie. invalid argument).
+
+==Example== 
+<!-- Explain what the example is in a single sentance -->
+This example allows admins to remove an ACL group they specify.
+<!-- Add the code below, an emphasis should be on making it clear, not optimized. You could provide two versions if you wish, one clear and well commented, the other optimized -->
+<syntaxhighlight lang="lua">
+function removeACLGroup ( source, command, groupName )
+-- Check if they're an admin...
+	if ( isObjectInACLGroup ( "user." .. getAccountName ( getPlayerAccount ( source )), aclGetGroup ( "Admin" ) ) ) then
+		if ( groupName ) then -- Check if they specified the group name
+			local group = aclGetGroup ( groupName ) -- Return any groups matching the name
+				if ( group ) then -- If any were returned then...
+					aclDestroyGroup ( group ) -- Destroy that group
+				else
+					-- Tell them if no groups with that name were found...
+					outputChatBox ( "No group with that name was found.", source, 255, 0, 0 )
+				end
+	
+		else -- If they didn't specify the group
+			outputChatBox ( "Please specify the group name.", source, 255, 0, 0 ) -- Tell them that they must
+		end
+	else -- If they're not an admin....
+		outputChatBox ( "You must be an admin to use this command", source, 255, 0, 0 ) -- Tell them it's restricted
+	end
+end
+addCommandHandler ( "removeACL", removeACLGroup ) -- Make it happen when somebody types "/removeACL"
+</syntaxhighlight>
+
+==See Also==
+<!-- Change FunctionArea to the area that this function is in on the main function list page, e.g. Server, Player, Vehicle etc -->
+{{ACL_functions}}

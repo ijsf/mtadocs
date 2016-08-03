@@ -1,0 +1,27 @@
+
+{{Client function}}
+{{Note box|See Also: [[/setWorldSoundEnabled.md|setWorldSoundEnabled]]}}
+
+This function allows you to disable some background sound effects.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool setAmbientSoundEnabled( string theType, bool enable )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''theType:''' The type of ambient sound to toggle. Can be either "gunfire" or "general".
+*'''enable :''' Set ''false'' to turn off, ''true'' to turn on
+
+===Returns===
+Returns ''true'' if the ambient sound was set correctly, ''false'' if invalid values were passed.
+
+==Example== 
+This example turns off the ambient water and gunfire sounds:
+<syntaxhighlight lang="lua">
+setAmbientSoundEnabled( "general", false )
+setAmbientSoundEnabled( "gunfire", false )
+</syntaxhighlight>
+
+==See Also==
+{{Client world functions}}

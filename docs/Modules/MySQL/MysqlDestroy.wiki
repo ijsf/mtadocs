@@ -1,0 +1,14 @@
+
+{{ModuleFunction|MySQL}}
+
+This functions destroys a mysql object (gracefully), and cleans up any data it used.
+
+==Syntax==
+<syntaxhighlight lang="lua">nil mysqlClose ( mysql mysqlobj )</syntaxhighlight>
+
+===Required Arguments===
+*'''mysqlobj''' : The [[/mysql.md|mysql]] object created by [[/Modules/MySQL/MysqlCreate.md|mysqlCreate]]
+
+===Optional Arguments===
+
+''None''

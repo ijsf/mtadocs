@@ -1,0 +1,13 @@
+{{Server function}}
+Gets current name of the gang.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+string getGangName ( string Gang )
+</syntaxhighlight>
+
+===Required Arguments=== 
+*'''Gang:''' ID of the gang you wish to get name of
+
+===Returns===
+*'''GangName:''' Name of the gang

@@ -1,0 +1,35 @@
+
+{{Client event}} 
+This event is triggered every time before GTA renders a new frame.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+float timeSlice
+</syntaxhighlight>
+*'''timeSlice:''' The interval between this frame and the previous one in milliseconds (delta time).
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the client's [[/root element.md|root element]].
+
+==Example==
+This example makes the camera follow the player in a GTA2-like way.
+<syntaxhighlight lang="lua">
+root = getRootElement ()
+function updateCamera ()
+	local x, y, z = getElementPosition ( getLocalPlayer () )
+	setCameraMatrix ( x, y, z + 50, x, y, z )
+end
+addEventHandler ( "onClientPreRender", root, updateCamera )
+</syntaxhighlight>
+
+==Warning==
+This event and [[/onClientRender.md|onClientRender]] will trigger whatever function it is attached to with every frame. Depending on the server's maximum FPS and what your computer might handle - you might end up triggering the function 30-60 times '''per second'''.
+
+As a result, this event may cause severe lag and/or even crashes if not used cautiously.
+
+==See Also==
+===[[/Game_Processing_Order.md|Game Processing Order]]===
+===Other client events===
+{{Client_other_events}}
+===Client event functions===
+{{Client_event_functions}}

@@ -1,0 +1,47 @@
+
+{{Server client function}}
+This function will set the color of a vehicle. Colors are in RGB format, vehicles can have up to 4 colors. Most vehicles have 2 colors only.
+
+{{New feature|3.0110|1.1|
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool setVehicleColor ( vehicle theVehicle, int r1, int g1, int b1, [int r2, int g2, int b2, int r3, int g3, int b3, int r4, int g4, int b4] )            
+</syntaxhighlight> 
+
+{{OOP||[[/vehicle.md|vehicle]]:setColor}}
+===Required Arguments=== 
+*'''theVehicle:''' The [[/vehicle.md|vehicle]] that you wish to set the color of.
+*'''r1, g1, b1:''' Three integers indicating the red, green and blue components of the first (main) color for the vehicle
+===Optional Arguments===
+*'''r2, g2, b2:''' Three integers indicating the red, green and blue components of the second color for the vehicle
+*'''r3, g3, b3:''' Three integers indicating the red, green and blue components of the third color for the vehicle
+*'''r4, g4, b4:''' Three integers indicating the red, green and blue components of the fourth color for the vehicle
+}}
+===Returns===
+Returns ''true'' if vehicle's color was set, ''false'' if an invalid vehicle or invalid colors were specified.
+
+==Example== 
+<section name="Example 1" class="server" show="true">
+This example implements a serverside ''random_color'' console command.
+<syntaxhighlight lang="lua">
+addCommandHandler( 'random_color',
+	function( uPlayer )
+		if isPedInVehicle( uPlayer ) then
+			local uVehicle = getPedOccupiedVehicle( uPlayer )
+			if uVehicle then
+				local r, g, b = math.random( 255 ), math.random( 255 ), math.random( 255 )
+				setVehicleColor( uVehicle, r, g, b )
+			end
+		end
+	end
+)
+</syntaxhighlight> 
+</section>
+
+== Issues ==
+{{Issues|
+{{Issue|9033|Clientside setVehicleColor doesn't work directly after creation}}
+}}
+
+==See Also==
+{{Vehicle_functions}}

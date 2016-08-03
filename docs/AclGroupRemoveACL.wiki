@@ -1,0 +1,35 @@
+ 
+{{Server function}} 
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This function removes the given ACL from the given ACL group. ('''Please NOTE:''' The resource that's using this function needs the right to remove an acl.)
+
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+bool aclGroupRemoveACL ( aclgroup theGroup, acl theACL )
+</syntaxhighlight> 
+{{OOP||[[/aclgroup.md|aclgroup]]:removeACL||}}
+===Required Arguments=== 
+<!-- List each argument one per line. This should be the argument's name as in the argument list above, NOT the argument's data type -->
+*'''theGroup:''' The group to remove the given ACL from
+*'''theACL:''' The ACL to remove from the given group
+
+===Returns===
+<!-- Make this descriptive. Explain what cases will return false. If you're unsure, add a tag to it so we can check -->
+Returns ''true'' if the ACL was successfully removed from the ACL group, ''false''/''nil'' if it could not be removed for some reason, ie. either of the elements were invalid.
+
+==Example== 
+This example outputs to the console if the Admin acl was removed from the Moderator ACL Group. (TESTED!)
+<syntaxhighlight lang="lua">addEventHandler("onResourceStart",resourceRoot,function()
+	if(aclGroupRemoveACL(aclGetGroup("Moderator"),aclGet("Admin")))then
+		aclSave()
+		outputConsole("The Admin acl was removed from the Moderator group.")-- If it was successfully removed
+	else
+		outputConsole("Unsuccessful... Admin might have been removed from the Moderator group before.")-- if it was removed before or didn't existed
+	end
+end)	
+</syntaxhighlight>
+
+==See Also==
+<!-- Change FunctionArea to the area that this function is in on the main function list page, e.g. Server, Player, Vehicle etc -->
+{{ACL_functions}}

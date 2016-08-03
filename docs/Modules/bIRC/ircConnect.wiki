@@ -1,0 +1,35 @@
+{{ml_birc}}
+
+This function is used to connect an {{ml_birc|ircbot}} created with {{ml_birc|ircCreateBot}} to a server.<br>
+'''Note:''' The maximum number of simultanuous connections is 5. There is no limit for ircbots but it is not possible to connect more than 5 bots at a time.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool ircConnect ( ircbot theBot, string server, int port, [ string password ] )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''theBot:''' The ircbot which will be connected.
+*'''server:''' The name of the server to which the bot will connect, eg. "irc.gtanet.com".
+*'''port:''' The port number of the IRC server.
+
+===Optional Arguments=== 
+{{OptionalArg}}
+*'''password:''' The password for the IRC server.
+
+===Returns===
+Returns ''true'' if passed arguments were valid, ''false'' otherwise.<br>
+'''Note:''' Does not return ''true'' if ircbot was successfully connected or ''false'' if the bot didn't connect. You can check if the bot connected by using callbacks {{ml_birc|event_ircOnConnect}} and {{ml_birc|event_ircOnFailedConnection}}.
+
+==Example==
+This example creates an ircbot called ''DummyBot'' and makes it connect to irc.gtanet.com server on resource start.
+<syntaxhighlight lang="lua">
+function resourceStart()
+    theBot = ircCreateBot ( "DummyBot" )
+    ircConnect ( theBot, "irc.gtanet.com", 6667 )
+end
+addEventHandler ( "onResourceStart", getResourceRootElement (), resourceStart )
+</syntaxhighlight>
+
+==See Also==
+{{ml_birc functions}}

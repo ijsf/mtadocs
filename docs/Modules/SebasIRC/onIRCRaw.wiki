@@ -1,0 +1,28 @@
+{{ml_irc}}
+
+This event triggers when raw data is sent from the IRC server to the module. Thanks to this, scripts can know when something has happened on IRC. (i.e. chatting)
+
+==Parameters==
+<syntaxhighlight lang="lua">
+string content
+</syntaxhighlight> 
+
+*'''content''': The raw command that has been sent to the module
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/root element.md|root element]].
+
+==Example==
+<syntaxhighlight lang="lua">
+local root = getRootElement()
+
+function handleRawIRCData(msg)
+  if msg then
+    outputServerLog(msg) -- Shows all incoming IRC data as a string
+  end
+end
+addEventHandler("onIRCRaw", root, handleRawIRCData)
+</syntaxhighlight>
+
+==See also==
+{{Modules/SebasIRC/Events}}

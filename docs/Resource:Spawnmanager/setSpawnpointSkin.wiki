@@ -1,0 +1,27 @@
+
+{{Server function}}
+This function sets the skin that players will spawn with when they spawn at the specified spawnpoint.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool setSpawnpointSkin ( spawnpoint theSpawnpoint, int skin )
+</syntaxhighlight>
+
+===Required Arguments=== 
+*'''theSpawnpoint:''' The spawnpoint you want to change skin of.
+*'''skin:''' An [[/int.md|int]] corresponding to the ID of the desired skin. See [[/Character Skins.md|Character Skins]].
+
+===Returns===
+Returns ''true'' if the skin was successfully set, ''false'' if invalid arguments were passed.
+
+==Example==
+This code alters all existing spawnpoints so everyone spawns as construction workers.
+<syntaxhighlight lang="lua">
+-- get a table of all spawnpoints
+local allSpawnpoints = getElementsByType("spawnpoint")
+-- for each spawnpoint,
+for index, spawn in ipairs (allSpawnpoints) do
+    -- change the spawn skin to 27
+    call(getResourceFromName("spawnmanager"), "setSpawnpointSkin", spawn, 27 )
+end
+</syntaxhighlight>

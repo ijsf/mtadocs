@@ -1,0 +1,24 @@
+{{Server function}}
+{{Needs_Example}}
+
+This function retrieves the priority of a text item.  Priority defines the rate at whihc a text item is updated
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+int textItemGetPriority ( textitem textitemToCheck )              
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''textitemToCheck:''' The text item you wish to retrieve the priority of.
+
+===Returns===
+Returns a integer of the priority of a text item, 0 = low, 1 = medium, 2 = high.
+
+==Example== 
+This page does not have an example.
+<syntaxhighlight lang="lua">
+--add an example here
+</syntaxhighlight>
+
+==See Also==
+{{Text_functions}}

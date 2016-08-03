@@ -1,0 +1,12 @@
+{| border="1"
+| {{Clothes|index=0|type=11|model=11grove|texture=11GROVE}}
+| {{Clothes|index=1|type=11|model=11grove2|texture=11GROV2}}
+| {{Clothes|index=2|type=11|model=11grove3|texture=11GROV3}}
+| {{Clothes|index=3|type=11|model=11dice|texture=11DICE}}
+|-
+| {{Clothes|index=4|type=11|model=11dice2|texture=11DICE2}}
+| {{Clothes|index=5|type=11|model=11jail|texture=11JAIL}}
+| {{Clothes|index=6|type=11|model=11godsgift|texture=11GGIFT}}
+|}
+
+[[/pl:CJ_Clothes%5CTattoos:_Stomach_(11).md|pl:CJ_Clothes%5CTattoos:_Stomach_(11)]]

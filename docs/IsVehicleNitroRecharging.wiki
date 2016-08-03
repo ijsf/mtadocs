@@ -1,0 +1,20 @@
+ 
+{{Client function}}
+{{New feature/item|3.0132|1.3.1|4993|
+This function checks if nitro is recharging on the [[/vehicle.md|vehicle]].
+}}
+{{Warning|Only works if the vehicle is steamed in}}
+==Syntax== 
+<syntaxhighlight lang="lua">bool isVehicleNitroRecharging ( vehicle theVehicle )</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''theVehicle''' The [[/vehicle.md|vehicle]], which you want to check for recharging.
+
+===Returns===
+Returns ''true'' if the nitro is currently recharging on the vehicle, ''false'' otherwise.
+
+==Requirements==
+{{Requirements|n/a|1.3.1-9.04993|}}
+
+==See Also==
+{{Client_vehicle_functions}}

@@ -1,0 +1,22 @@
+
+{{Server function}}
+This function returns a random [[/player.md|player]].
+
+==Syntax==
+<syntaxhighlight lang="lua">
+player getRandomPlayer ( )
+</syntaxhighlight>
+{{OOP||[[/Player.md|Player]].getRandom}}
+===Returns===
+Returns a random [[/player.md|player]], ''false'' if the server is empty.
+
+==Example==
+This code outputs a random player's name.
+<syntaxhighlight lang="lua">
+local randomPlayer = getRandomPlayer ( )
+outputChatBox ( getPlayerName ( randomPlayer ).." is now the fugitive!" )
+</syntaxhighlight>
+
+==See Also==
+{{Player functions}}
+[[/pl:getRandomPlayer.md|pl:getRandomPlayer]]

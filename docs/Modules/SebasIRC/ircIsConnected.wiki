@@ -1,0 +1,31 @@
+{{ml_irc}}
+
+{{ModuleFunction|SebasIRC}}
+
+This function will check if the irc bot is connected.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool ircIsConnected()
+</syntaxhighlight>
+
+===Returns===
+True if connected, otherwise false.
+
+==Example==
+<syntaxhighlight lang="lua">
+addCommandHandler("connected",
+  function()
+    if ircIsConnected() then
+      outputChatBox("-IRC- Connection is ok!")
+    else
+      outputChatBox("-IRC- Not connected!")
+    end
+  end
+)
+</syntaxhighlight>
+
+[[/pl:Modules/SebasIRC/ircIsConnected.md|pl:Modules/SebasIRC/ircIsConnected]]
+
+==See also==
+{{Modules/SebasIRC/Functions}}

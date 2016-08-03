@@ -1,0 +1,51 @@
+
+{{Server client function}}
+{{New items|3.0135|1.3.5|
+This function performs a regular expression search and replace and returns the replaced string.
+}}
+{{Warning|When declaring a pattern string in quotes, the backslash character should be doubled up. e.g. "\\(" will match a single bracket. This also applies to the replacement string.}} 
+{{Warning|Multiline flag does not work correctly}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+string pregReplace ( string subject, string pattern, string replacement [, int/string flags ] )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''subject:''' The input [[/string.md|string]].
+*'''pattern:''' The pattern [[/string.md|string]] to search for in the input [[/string.md|string]].
+*'''replacement:''' The replacement [[/string.md|string]] to replace all matches within the input [[/string.md|string]].
+
+===Optional Arguments===
+*'''flags:''' Conjuncted value that contains flags ( 1 - ignorecase, 2 - multiline, 4 - dotall, 8 - extended ) or ( i - Ignore case, m - Multiline, d - Dotall, e - Extended )
+
+===Returns===
+Returns the replaced ''[[/string.md|string]]'', or [[/bool.md|bool]] ''false'' otherwise.
+
+==Example== 
+<section name="Shared ( client and server )" class="both" show="true">
+Some examples:
+<syntaxhighlight lang="lua">
+addCommandHandler('examples',
+    function ()
+        -- Replace doh with done
+        outputDebugString( pregReplace( 'I doh this, guys.', 'doh', 'done' ) or 'not replaced' ) -- Result: I done this, guys
+
+        -- Remove all uppercase alphabetic characters
+        outputDebugString( pregReplace( 'AaaBbbZzz', '[A-Z]{1,}', '' ) or 'not replaced' ) -- Result: aabbzz
+
+        -- Use simple backreference in replacement string
+        outputDebugString( pregReplace( "I love Lua!", "(Lua)", "Moon\\1" ) ) -- Result: I love MoonLua!
+
+        -- Remove repeated characters
+        outputDebugString( pregReplace( "Keeeeeep this shooooooort.", "((.)\\2{2})\\2+", "\\1" ) ) -- Result: Keeep this shooort.
+    end
+)
+</syntaxhighlight>
+</section>
+
+==Requirements==
+{{Requirements|1.3.5-9.06056|1.3.5-9.06056|}}
+
+==See Also==
+{{Utility_functions}}

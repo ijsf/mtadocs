@@ -1,0 +1,23 @@
+{| border="1"
+| {{Clothes|index=0|type=15|model=grouchos|texture=groucho}}
+| {{Clothes|index=1|type=15|model=zorromask|texture=zorro}}
+| {{Clothes|index=2|type=15|model=eyepatch|texture=eyepatch}}
+| {{Clothes|index=3|type=15|model=glasses01|texture=glasses01}}
+| {{Clothes|index=4|type=15|model=glasses04|texture=glasses04}}
+| {{Clothes|index=5|type=15|model=bandmask|texture=bandred3}}
+|-
+| {{Clothes|index=6|type=15|model=bandmask|texture=bandblue3}}
+| {{Clothes|index=7|type=15|model=bandmask|texture=bandgang3}}
+| {{Clothes|index=8|type=15|model=bandmask|texture=bandblack3}}
+| {{Clothes|index=9|type=15|model=glasses01|texture=glasses01dark}}
+| {{Clothes|index=10|type=15|model=glasses04|texture=glasses04dark}}
+| {{Clothes|index=11|type=15|model=glasses03|texture=glasses03}}
+|-
+| {{Clothes|index=12|type=15|model=glasses03|texture=glasses03red}}
+| {{Clothes|index=13|type=15|model=glasses03|texture=glasses03blue}}
+| {{Clothes|index=14|type=15|model=glasses03|texture=glasses03dark}}
+| {{Clothes|index=15|type=15|model=glasses03|texture=glasses05dark}}
+| {{Clothes|index=16|type=15|model=glasses03|texture=glasses05}}
+|}
+
+[[/PL:CJ_Clothes%5CGlasses_(15).md|PL:CJ_Clothes%5CGlasses_(15)]]

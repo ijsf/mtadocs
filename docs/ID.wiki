@@ -1,0 +1,43 @@
+ID stands for identification. It is a whole-number integer that refers to many mechanics of San Andreas.
+----
+Game elements using IDs:
+''Note: does not include small ID lists related to specific functions or IDs created by MTA''
+*[[/Animations.md|Animations]]
+*[[/Character Skins.md|Character Skins]]
+*[[/CJ_Clothes.md|Clothing styles]]
+*[[/Death Reasons.md|Death Reasons]]
+*[[/Garage.md|Garage IDs]]
+*[[/Interior IDs.md|Interior IDs]]
+*[[/Material IDs.md|Material IDs]]
+*[[/Paintjob.md|Paintjobs]]
+*[[/Projectiles.md|Projectiles]]
+*[[/Radar Blips.md|Radar Blips]]
+*[[/Sounds.md|Sounds]]
+*[[/Vehicle IDs.md|Vehicle IDs]]
+*[[/Vehicle Colors.md|Vehicle Colors]]
+*[[/Vehicle Upgrades.md|Vehicle Upgrades]]
+*[[/Vehicle Components.md|Vehicle Components]]
+*[[/Weapons.md|Weapons]]
+*[[/Weather.md|Weather]] ''Note: blended weather allows for many more undocumented effects''
+
+==See Also==
+*[[/Vending.md|List of San Andreas Vending machine locations]]
+*[[/IDE_List.md|San Andreas IDE List]]
+
+
+==Credits==
+{{IDs}}
+;Credit for information contained in the pages:
+:Ransom (initial creation, formatting, and all lists not credited to others)
+:eAi (vehicle colors list)
+:erorr404/Talidan/Brophy (sound list)
+:Talidan (radar blip pictures/vehicle list)
+:Hellfish (skin pictures [http://www.gtaforums.com/index.php?showtopic=205220 SOURCE])
+:Brophy/Ratt/Panther/Twig (lots of inital ID data)
+:GTAForums (Allowing Ransom to find IDs for lists)
+
+[[/de:Id.md|de:Id]]
+[[/ru:Id.md|ru:Id]]
+[[/zh-cn:ID 列表.md|zh-cn:ID 列表]]
+
+[[/Category:ID Lists.md|Category:ID Lists]]

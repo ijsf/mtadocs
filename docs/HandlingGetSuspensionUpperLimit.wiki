@@ -1,0 +1,24 @@
+
+{{Server function}}
+Returns the suspension upper limit of a handling element or vehicle ID (how high the wheels can go).
+
+==Syntax==
+<syntaxhighlight lang="lua">
+float handlingGetSuspensionUpperLimit ( handling theHandling )
+float handlingGetSuspensionUpperLimit ( int vehicleID )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''theHandling:''' the handling of which you want to get the suspension upper limit, ''or''
+*'''vehicleID:''' the vehicle ID of which you want to get the suspension upper limit.
+
+===Returns===
+If you specified a handling element, returns its suspension upper limit if one is set, or ''nil'' otherwise. If you specified a vehicle ID, returns the suspension upper limit that currently applies to vehicles of that ID. Returns ''false'' in case of failure.
+
+==Example==
+<syntaxhighlight lang="lua">
+--TODO
+</syntaxhighlight>
+
+==See Also==
+{{Handling_functions}}

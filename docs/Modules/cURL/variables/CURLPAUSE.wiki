@@ -1,0 +1,9 @@
+* '''CURLPAUSE_RECV''' - Pause receiving data.
+* '''CURLPAUSE_SEND''' - Pause sending a request.
+* '''CURLPAUSE_ALL''' - Pause requesting and receiving.
+* '''CURLPAUSE_CONT''' - Unpause both receiving and requesting.
+
+
+== Feature variables (not yet implemented) ==
+* '''CURLPAUSE_RECV_CONT''' - Unpause receiving data.
+* '''CURLPAUSE_SEND_CONT''' - Unpause a request.

@@ -1,0 +1,85 @@
+{{Server event}}
+ 
+This event is triggered when an element gets destroyed by [[/destroyElement.md|destroyElement]] or when the creator resource is stopping. It is also triggered when a parent element of this element is destroyed.
+
+==Parameters==
+''None''
+
+==Source==
+The source of this event is the element that is being destroyed.
+
+==Example== 
+This example sends a message to the vehicle occupants when it's being destroyed.
+<syntaxhighlight lang="lua">
+addEventHandler("onElementDestroy", getRootElement(), function ()
+  if getElementType(source) == "vehicle" then
+    local nPassengers = getVehicleMaxPassengers(source)
+    for i=0,nPassengers-1 do
+      local occupant = getVehicleOccupant(source, i)
+      if occupant then
+        outputChatBox("The vehicle that you were in has been destroyed by the script", occupant)
+      end
+    end
+  end
+end)
+</syntaxhighlight>
+
+This example outputs a message every time an element is destroyed saying which resource created the element
+<syntaxhighlight lang="lua">
+function getSourceResourceOfElementDestruction()
+	-- Players aren't destroyed by any resource
+	if (getElementType(source) == "player") then
+		outputChatBox("Player "..getPlayerName(source).." destroyed")
+		return true
+	end
+	
+	local sourceResourceRoot = getElementParent(getElementParent(source)) -- Get the resource root element of the element
+	-- Now to get the resource from the resource root element
+	local theResource = false
+	for ind, res in pairs(getResources()) do -- Loop all resources
+		if (getResourceRootElement(res) == sourceResourceRoot) then -- Compare each resources root element to what we've got
+			theResource = res -- We've found the source
+			break -- End the loop
+		end
+	end
+	if (theResource) then -- Did we find it?
+		local resourceName = getResourceName(theResource) -- Get the resources name
+		outputChatBox(resourceName.." destroyed a "..getElementType(source)) -- Output the resource name along with element type
+	end
+end
+addEventHandler("onElementDestroy", root, getSourceResourceOfElementDestruction) -- All elements
+</syntaxhighlight>
+
+This example only works in builds above 1.3.4-5937 and will tell you if a script is causing bugs with other scripts if it's deleting elements from other scripts because element IDs are being re-used and some scripts don't dereference an element after destroying it.
+<syntaxhighlight lang="lua">
+function checkForNaughtyScriptsThatDeleteRandomElements()
+	-- Ignore players
+	if (getElementType(source) == "player") then
+		return true
+	end
+	
+	-- Get the resource that created the element
+	local sourceResourceRoot = getElementParent(getElementParent(source))
+	local theResource = false
+	for ind, res in pairs(getResources()) do
+		if (getResourceRootElement(res) == sourceResourceRoot) then
+			theResource = res
+			break
+		end
+	end
+	
+	-- Output info if the destroying resource isn't the same as the creator resource
+	if (theResource and theResource ~= sourceResource) then
+		local destroyerResource = tostring(getResourceName(theResource))
+		local creatorResource = tostring(getResourceName(sourceResource))
+		outputDebugString(destroyerResource.." destroyed a "..getElementType(source).." made by "..creatorResource)
+	end
+end
+addEventHandler("onElementDestroy", root, checkForNaughtyScriptsThatDeleteRandomElements)
+</syntaxhighlight>
+
+==See Also==
+===Element events===
+{{Element_events}}
+===Event functions===
+{{Event_functions}}

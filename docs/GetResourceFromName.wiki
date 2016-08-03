@@ -1,0 +1,32 @@
+
+{{Server client function}}
+This function is used to retrieve a resource from its name. A resource's name is the same as its folder or file archive name on the server (without the extension).
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+resource getResourceFromName ( string resourceName )
+</syntaxhighlight>
+{{OOP|This function is a static function underneath the Resource class. {{New feature/item|3.0141|1.4.1|7005|OOP function available client side}}|[[/Resource.md|Resource]].getFromName}}
+
+===Required Arguments=== 
+*'''resourceName:''' the name of the resource you wish to get.
+
+===Returns===
+Returns the ''resource'' with the specified name, or ''false'' if no resource of that name exists.
+
+==Example==
+<section name="Server" class="server" show="true">
+This example prints out a message to the chatbox when a resource named ''playerblips'' is started.
+<syntaxhighlight lang="lua">
+function onStart( theResource )
+     local blipsResource = getResourceFromName ( "playerblips" ) -- get the resource of name "playerblips"
+     if ( blipsResource and theResource == blipsResource ) then -- check if the resource started was it
+          outputChatBox ( "Blips resource started!" )
+     end
+end
+addEventHandler ( "onResourceStart", getRootElement(), onStart )
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Resource_functions}}

@@ -1,0 +1,43 @@
+
+{{Server client function}}
+{{New feature/item|3.0133|1.3.3|5394|
+This function can be used to set the numberplate text of a car.
+}}
+{{New feature/item|3.0160|1.5.2|8077|
+It now also changes the numberplate text of any vehicle that has visual numberplates.
+}}
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool setVehiclePlateText( element theVehicle, string numberplate )
+</syntaxhighlight>
+{{OOP||[[/vehicle.md|vehicle]]:setPlateText|plateText|getVehiclePlateText}}
+===Required Arguments===
+*'''theVehicle:''' the [[/vehicle.md|vehicle]] whose numberplate you want to change.
+*'''numberplate:''' a string that will go on the number plate of the car (max 8 characters).
+
+===Returns===
+Returns ''true'' if the numberplate was changed successfully, or ''false'' if invalid arguments were passed
+
+==Requirements==
+{{Requirements|1.3.3|1.3.3|}}
+
+==Example==
+<syntaxhighlight lang="lua">
+function PlateText(thePlayer,commandName,text)
+	local Vehicle = getPedOccupiedVehicle(thePlayer)
+	if Vehicle then
+		if text then
+			setVehiclePlateText( Vehicle, text )
+		else
+			outputChatBox("You must enter a message.",thePlayer)
+		end
+	else
+		outputChatBox("You must be in a Vehicle.",thePlayer)
+	end
+end
+addCommandHandler("setplate",PlateText)
+</syntaxhighlight>
+
+==See Also==
+{{Vehicle_functions}}

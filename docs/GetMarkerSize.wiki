@@ -1,0 +1,27 @@
+
+{{Server client function}}
+This function returns a [[/float.md|float]] containing the size of the specified marker.
+
+==Syntax==
+<syntaxhighlight lang="lua">float getMarkerSize ( marker myMarker )</syntaxhighlight>
+{{OOP||[[/Marker.md|Marker]]:getSize|size|setMarkerSize}}
+===Required Arguments===
+*'''myMarker''': The [[/marker.md|marker]] that you wish to retrieve the size of.
+
+===Returns===
+Returns a [[/float.md|float]] containing the size of the specified marker.
+
+==Example==
+This example creates a marker and outputs the size to everyone.
+<syntaxhighlight lang="lua">
+-- Create a maker
+newMarker = createMarker ( 1, 1000, 1000, 1000, 1,0,0 )
+-- If the marker was created successfully then...
+if ( newMarker ~= false ) then
+	-- Tell everyone about it
+	outputChatBox ( "Current marker size: " .. getMarkerSize ( newMarker ) )
+end
+</syntaxhighlight>
+
+==See Also==
+{{Marker functions}}

@@ -1,0 +1,52 @@
+{{Resource page}}
+{{Note_box|It is strongly advised that you validate the functions being called or potentially a client can do anything they want with your server - banning players, adding themselves as admin (depending how well your ACL is set up) etc. This is why this function is not built into MTA.}}
+
+This resource was made off of the functions:
+[[/CallClientFunction.md|CallClientFunction]]
+and
+[[/CallServerFunction.md|CallServerFunction]]
+
+==Calling Functions==
+<section name="callSF" class="client" show="true">
+<syntaxhighlight lang="lua"> ) </syntaxhighlight>
+=Required=
+*'''funcname''': The name of the function that should be called serverside. May also be a function in a table, e.g. "math.round".
+=Optional=
+*'''agr1-argn''': The arguments that should be passed to the function.
+=Example=
+This example removes the player from his team. 
+<syntaxhighlight lang="lua">-- get the local player element
+local _local = getLocalPlayer()
+-- define the leaveTeam command handler function
+function cmdLeaveTeam()
+    -- set the player's team to nil
+    callServerFunction("setPlayerTeam", _local)
+end
+-- add the command handler
+addCommandHandler("leaveTeam", cmdLeaveTeam, false)
+</syntaxhighlight>
+</section>
+<section name="callCF" class="server" show="true">
+<syntaxhighlight lang="lua"> ) </syntaxhighlight>
+=Required=
+*'''Client''': The element of the player who should be affected. 
+*'''funcname''': The name of the function that should be called serverside. May also be a function in a table, e.g. "math.round".
+=Optional=
+*'''agr1-argn''': The arguments that should be passed to the function.
+=Example=
+This example sets the player's minute duration.
+<syntaxhighlight lang="lua">-- define the onPlayerJoin handler function
+function onPlayerJoin()
+    -- set the minute duration
+    callClientFunction(source, "setMinuteDuration", 10000)
+end
+-- add the event handler
+addEventHandler("onPlayerJoin", root, onPlayerJoin)
+</syntaxhighlight>
+</section>
+
+I give all thanks to Neon Black for making these functions.
+==See Also==
+*[http://community.mtasa.com/index.php?p=resources&s=details&id=4858 Download]
+*[[/callServerFunction.md|callServerFunction]]
+*[[/callClientFunction.md|callClientFunction]]

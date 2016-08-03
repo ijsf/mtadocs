@@ -1,0 +1,34 @@
+{{Server function}}
+ 
+This function allows you to change ASE announce values for any player using a specified key.
+As an example this can be used to change the "score" value which will be shown at [http://www.game-monitor.com game-monitor.com]'s server list.
+
+==Syntax== 
+
+<syntaxhighlight lang="lua">
+bool setPlayerAnnounceValue ( element thePlayer, string key, string value )
+</syntaxhighlight> 
+{{OOP||[[/player.md|player]]:setAnnounceValue||getPlayerAnnounceValue}}
+===Required Arguments=== 
+*'''thePlayer:''' The [[/player.md|player]] whos announce value you wish to change.
+*'''key:''' The key which the value will be stored at.
+*'''value:''' The value you wish to store.
+
+===Returns===
+Returns ''true'' if the value was set succesfully, ''false'' otherwise.
+
+==Example== 
+<section name="Server" class="server" show="true">
+This small example adds a command that allows you to set your own "score" value.
+<syntaxhighlight lang="lua">function setScore ( playerSource, cmdName, scoreValue )
+    if ( scoreValue ) then
+        setPlayerAnnounceValue ( playerSource, "score", scoreValue )
+    end
+end
+
+addCommandHandler ( "score", setScore )
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Player_functions}}

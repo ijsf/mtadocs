@@ -1,0 +1,10 @@
+{| border="1"
+| {{Clothes|index=0|type=10|model=10ls|texture=10LS}}
+| {{Clothes|index=1|type=10|model=10ls2|texture=10LS2}}
+| {{Clothes|index=2|type=10|model=10ls3|texture=10LS3}}
+| {{Clothes|index=3|type=10|model=10ls4|texture=10LS4}}
+|-
+| {{Clothes|index=4|type=10|model=10ls5|texture=10ls5}}
+| {{Clothes|index=5|type=10|model=10og|texture=10OG}}
+| {{Clothes|index=6|type=10|model=10weed|texture=10WEED}}
+|}

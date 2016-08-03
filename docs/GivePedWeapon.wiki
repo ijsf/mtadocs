@@ -1,0 +1,44 @@
+ 
+{{Client function}}
+{{New feature/item|3.0141|1.4.1|6937|
+This function gives the specified weapon to the specified ped. This function can't be used on players, use [[/giveWeapon.md|giveWeapon]] for that.
+
+This function is mainly useful for client side created peds however you can use it on a server side ped, though note that the weapon wouldn't be synced between clients unless your script gives the weapon to the ped on every client.
+
+There is an optional argument to specify ammunition and whether to set as the current weapon. If you don't specify an ammo value it will give 30 ammo by default and for a melee weapon you can specify just 1 or above.
+}}
+{{Note|
+*When setting ammo for [[/Weapon.md|weapons in slot]] 0,1,10,11 or 12 the maximum ammo is 1
+*When setting ammo for [[/Weapon.md|weapons in slot]] 3,4,5 the ammo is added
+*When setting ammo for [[/Weapon.md|weapons in slot]] 2,6,7,8,9 and the slot weapon is changing, the ammo is replaced
+}}
+
+==Syntax== 
+<syntaxhighlight lang="lua"> )</syntaxhighlight> 
+
+===Required Arguments===
+*'''thePed:''' A [[/ped.md|ped]] element.
+*'''weapon:''' A whole number integer that refers to a [[/Weapon.md|Weapon]] ID. Click [[/Weapon.md|here]] for a list of possible weapon IDs.
+
+===Optional Arguments===
+{{OptionalArg}}
+*'''ammo:''' A whole number integer serving as the ammo amount for the given weapon. For weapons that do not require ammo, such as melee, this should be at least 1.
+*'''setAsCurrent:''' A boolean value determining whether or not the weapon will be set as the peds currently selected weapon.
+
+===Returns===
+Returns ''true'' if weapon was successfully given to the ped, ''false'' otherwise.
+
+==Example==
+'''Example 1:''' This example creates a client side ped, gives them an M4 and make them shoot once you do the command '/armedped'
+<syntaxhighlight lang="lua">
+function cmdArmedPed( command )
+    local x, y, z = getElementPosition(localPlayer) -- Get your position
+    local thePed = createPed(0, x + 1, y, z) -- Create a CJ ped nearby
+    givePedWeapon(thePed, 31, 5000, true) -- Give him 5000 rounds of M4
+    setControlState(thePed, "fire", true) -- Make him shoot continuously
+end
+addCommandHandler("armedped", cmdArmedPed)
+</syntaxhighlight>
+
+==See Also==
+{{Client ped functions}}

@@ -1,0 +1,38 @@
+ 
+{{Server function}}
+This function clears any settings added by setElementVisibleTo and restores an element to its default visibility.  This does not work with all entities - [[/vehicle.md|vehicle]]s, [[/player.md|player]]s and [[/object.md|object]]s are exempt. This is because these objects are required for accurate sync (they're physical objects). This function is particularily useful for changing the visibility of markers, radar blips and radar areas.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool clearElementVisibleTo ( element theElement )   
+</syntaxhighlight> 
+{{OOP|||[[/element.md|element]]:clearVisibility||}}
+
+===Required Arguments=== 
+*'''theElement:''' The element in which you wish to restore to its default visibility
+
+===Returns===
+Returns ''true'' if the operation was successful, ''false'' otherwise.
+
+==Example== 
+This example clears any visibility settings after a player dies, so everyone can see his blip for a short period
+<syntaxhighlight lang="lua">
+-- specify the getBlipAttachedTo function
+function getBlipAttachedTo( thePlayer )
+	local blips = getElementsByType( "blip" )
+	for k, theBlip in ipairs( blips ) do
+		if getElementAttachedTo( theBlip ) == thePlayer then
+			return theBlip
+		end
+	end
+	return false
+end
+
+function clearVisibilityWasted ( totalammo, killer, killerweapon, bodypart ) -- when a player dies
+    clearElementVisibleTo ( getBlipAttachedTo ( source ) ) -- clear any visiblity settings of his blip
+end
+addEventHandler ( "onPlayerWasted", getRootElement(), clearVisibilityWasted  ) --add an event handler for onPlayerWasted
+</syntaxhighlight>
+
+==See Also==
+{{Element_functions}}

@@ -1,0 +1,50 @@
+{{Useless Function}}
+<lowercasetitle></lowercasetitle>
+
+This function get all groups from player.
+
+==Syntax==
+<syntaxhighlight lang="lua">Groups getPlayerAllGroups ( element Player)</syntaxhighlight>
+
+
+===Return===
+Returns a [[/Groups.md|Groups]]   else false.
+
+==Code==
+<syntaxhighlight lang="lua">
+
+function getPlayerAllGroups(player)
+    local account = getPlayerAccount ( player)
+    if ( isGuestAccount ( account ) ) then
+        return false
+    end
+                  local  AclList = {}
+                                  AclList["Groups"] = {}
+                  AclList["getGroups"] = {}
+        for _, group in ipairs ( aclGroupList() ) do
+                table.insert ( AclList["Groups"],aclGroupGetName ( group ) )
+        end
+        for k ,v in pairs(AclList.Groups) do
+            if isObjectInACLGroup ( "user."..getAccountName ( account ), aclGetGroup (v) ) then
+                table.insert ( AclList["getGroups"],v)
+            end
+        end
+        return table.concat(AclList.getGroups, ",")
+end
+
+
+</syntaxhighlight>
+
+
+
+==Example==
+<section name="Example" class="both" show="true">
+<syntaxhighlight lang="lua">
+-- A simple example:
+
+
+
+</syntaxhighlight>
+</section>
+
+Author: Booo

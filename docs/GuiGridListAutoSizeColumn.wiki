@@ -1,0 +1,41 @@
+{{Client function}}
+
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This allows you to automatically size a column to display everything in it correctly, with the most minimal width.
+
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+bool guiGridListAutoSizeColumn ( element gridList, int columnIndex )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+<!-- List each argument one per line. This should be the argument's name as in the argument list above, NOT the argument's data type -->
+*'''gridList:''' The [[/Element/GUI/Gridlist.md|grid list]] element where the column is located.
+*'''columnIndex:''' The ID of the column you want to be auto-sized.
+
+===Returns===
+Returns ''true'' if the column was auto-sized, ''false'' otherwise.
+
+==Example== 
+This example creates a random list of numbers of various lengths. This function is used to adjust the width to display them all.
+<syntaxhighlight lang="lua">
+function clientsideResourceStart ()
+    local numberList = guiCreateGridList ( 0.80, 0.10, 0.15, 0.60, true ) --Create a gridlist
+    local column = guiGridListAddColumn( numberList, "Column Title", 0.85 ) --Create a column on the gridlist
+    if ( column ) then --If the column was created successfully
+        local count = 0 -- Set the varible 'count' to the value 0
+        while count <= 10 do --Loop through 10 times adding random numbers in rows for the column
+            local row = guiGridListAddRow ( numberList )
+            guiGridListSetItemText ( numberList, row, column, tostring(math.random(0, 10) ^ 100), false, false )
+            count = count + 1
+        end
+        guiGridListAutoSizeColumn ( numberList, column ) --After the numbers are added in rows, perform auto sizing on the column
+    end
+end
+addEventHandler ( "onClientResourceStart", resourceRoot, clientsideResourceStart )</syntaxhighlight>
+
+
+==See Also==
+<!-- Change FunctionArea to the area that this function is in on the main function list page, e.g. Server, Player, Vehicle etc -->
+{{GUI functions}}

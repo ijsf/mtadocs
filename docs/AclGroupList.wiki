@@ -1,0 +1,31 @@
+ 
+{{Server function}} 
+This function returns a table of all the ACL groups.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+table aclGroupList ()
+</syntaxhighlight> 
+{{OOP|This function is a static function underneath the ACL Group class.|[[/aclgroup.md|ACLGroup]].list||}}
+===Returns===
+Returns a table of all the ACL groups if successful, returns an empty table if no ACL groups exist. ''false''/''nil'' can be returned if this function fails for some other reason.
+
+==Example== 
+<!-- Explain what the example is in a single sentance -->
+This example shows, how to output all ACL Group Names by ''showAclGroups''
+<!-- Add the code below, an emphasis should be on making it clear, not optimized. You could provide two versions if you wish, one clear and well commented, the other optimized -->
+<syntaxhighlight lang="lua">
+function showGroups(player)
+	local groups = {}
+	groups = aclGroupList()
+	for i,v in ipairs(groups) do
+		local name = aclGroupGetName(v)
+		outputChatBox(tostring(name),player)
+	end
+end
+addCommandHandler("showAclGroups",showGroups)
+</syntaxhighlight>
+
+==See Also==
+<!-- Change FunctionArea to the area that this function is in on the main function list page, e.g. Server, Player, Vehicle etc -->
+{{ACL_functions}}

@@ -1,0 +1,9 @@
+
+[[/Image:gui-radiobutton.png.md|frame|Example GUI radio buttons.]]
+The GUI radio button class represents GUI radio buttons in MTA's GUI system. These can be checked or unchecked and work quite similiar as the GUI [[/Element/GUI/Checkbox.md|checkboxes]].
+
+The element type of this class is '''"gui-radiobutton"'''.
+
+==Related scripting functions==
+===Client===
+{{GUI_functions}}

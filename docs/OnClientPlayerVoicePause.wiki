@@ -1,0 +1,29 @@
+{{Client event}}
+ 
+This event is triggered when a player's voice sound is paused using [[/setSoundPaused.md|setSoundPaused]].
+
+==Parameters== 
+<syntaxhighlight lang="lua">
+string reason
+</syntaxhighlight> 
+
+*'''reason''': the reason for the pause, this can be only "paused".
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/Element/Player.md|player]] whose voice got paused.
+
+==Example== 
+This example outputs nick of whoever's voice is paused.
+<syntaxhighlight lang="lua">
+addEventHandler("onClientPlayerVoicePause", root,
+    function ()
+        outputChatBox(getPlayerName(source) .. "'s voice got paused.")
+    end
+)
+</syntaxhighlight>
+
+==See Also==
+===Client player events===
+{{Client_player_events}}
+===Client event functions===
+{{Client_event_functions}}

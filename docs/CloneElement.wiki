@@ -1,0 +1,45 @@
+ 
+{{Server function}}
+This function clones (creates an exact copy of) an already existing element. The root node, and player elements, cannot be cloned. If a player element is a child of an element that is cloned, it will be skipped, along with the elements that exist as a child to the player element.
+
+Players are not the only elements that cannot be cloned. This list also includes remoteclients, and console elements.
+
+The cloned element will be placed on the [[/element tree.md|element tree]] as a child of the same parent as the cloned element.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+element cloneElement ( element theElement, [ float xPos = 0, float yPos = 0, float zPos = 0, bool cloneChildren = false ] )  
+</syntaxhighlight> 
+{{OOP||[[/element.md|element]]:clone||}}
+
+===Required Arguments=== 
+*'''theElement:''' The element that you wish to clone.
+
+===Optional Arguments===
+{{OptionalArg}}
+* '''xPos''': A floating point number representing the X coordinate on the map.
+* '''yPos''': A floating point number representing the Y coordinate on the map.
+* '''zPos''': A floating point number representing the Z coordinate on the map.
+* '''cloneChildren''': A boolean value representing whether or not the element's children will be cloned.
+'''Note: if 'cloneChildren' is true, the position floats will be offsets from the cloned element's position.'''
+
+===Returns===
+Returns the handle of the new cloned element of the parent, ''false'' if invalid arguments were passed.
+
+==Example== 
+This example clones the vehicle a player is in.  This allows carrying over of the current state of the vehicle, including mods, for example.
+<syntaxhighlight lang="lua">
+function cloneVehicle ( thePlayer, commandName )
+	local occupiedVehicle = getPedOccupiedVehicle ( thePlayer ) -- get the player's vehicle
+	if occupiedVehicle then -- If the player is actually in a vehicle
+		local x, y, z = getElementPosition ( occupiedVehicle )   -- get the vehicle's position
+		local clone = cloneElement ( occupiedVehicle, x+5, y, z ) -- create a clone of the vehicle near it
+	else
+		outputChatBox ( "You can't clone a vehicle if you're not in a vehicle", thePlayer, 255, 0, 0 )
+	end
+end
+addCommandHandler ( "clone", cloneVehicle )
+</syntaxhighlight>
+
+==See Also==
+{{Element functions}}

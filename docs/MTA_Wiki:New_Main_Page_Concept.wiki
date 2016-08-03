@@ -1,0 +1,170 @@
+{| width="100%" cellspacing="0" cellpadding="0"
+| colspan="2" |
+<div style="/*border: 1px solid #D8D8D8;*/ padding-left: 15px; padding-right: 15px; height: 100%;">
+[[/File:Mtalogo.png.md|left|100px|link=http://wiki.multitheftauto.com/]]'''Welcome to the [[/Multi Theft Auto.md|Multi Theft Auto]] wiki.''' On this wiki you'll find a wealth of information on using Multi Theft Auto.
+
+There are many [[/How_you_can_help.md|things you can do to help us]] improve MTA - create a map, a gamemode, help document scripting functions, write example code, write tutorials or just play MTA and report the bugs you find.
+
+If you have any questions or problems related to scripting, feel free to get in touch with us on our [[/IRC Channel.md|IRC Channel]].
+<br/><br/>[ Stop playing with yourself ]
+</div>
+|}
+{| width="100%" cellspacing="0" cellpadding="0"
+| colspan="2" |
+|-
+|width="50%" style="vertical-align:top;" |<div style="border: 1px solid #D8D8D8; padding:4px 8px 8px 8px; margin:10px; background: #FFFCF2;">
+<div style="float:right; width: 32px;">[[/File:Input-gaming.png‎.md|link=]]</div>
+<h3>Play</h3>
+<div style="background: #FFEEAA; border: 1px solid #FFCD19;">
+[[/File:Go-down.png.md|link=http://mtasa.com/]] ''' [http://mtasa.com/ Download Multi Theft Auto: San Andreas {{Current Version|full}}]'''</div>
+* [[/Client Manual.md|Client Manual]]
+<!-- * [[/Changes_in_{{padleft:.md|3|{{Current Version|full}}}}| Changes in {{padleft:|3|{{Current Version|full}}}}]] -->
+* [[/Changes_in_{{padleft:.md|5|{{Current Version|full}}}}| Changes in {{padleft:|5|{{Current Version|full}}}}]]
+* [[/Known_Issues_-_FAQ.md|Known Issues]]
+* [[/Upgrading_from_MTA:Race.md|Migrating from MTA:Race to MTA:SA {{padleft:|3|{{Current Version|full}}}}]]
+* [[/Server Manual.md|Server Manual]]
+* [[/Map_manager.md|Map Manager]]
+
+<h3>Map Editor</h3>
+*[[/Resource:Editor.md|Manual]]
+*[[/Resource:Editor/EDF.md|Editor Definition Format]]
+*[[/Resource:Editor/Plugins.md|Plugins]]
+*[[/Resource:Editor#FAQ.md|Frequently Asked Questions]]
+</div>
+<div style="border: 1px solid #D8D8D8; padding:4px 8px 8px 8px; margin:10px;">
+<div style="float:right; width: 32px;">[[/File:Package-x-generic.png‎.md|link=]]</div>
+<h3>Databases</h3>
+This section outlines all the Lua capabilites MTA or resources provide.
+* [[/:Category:Resource.md|Resource Catalogue]] - You must learn these to make proper scripts
+* [[/Client side scripts.md|Client side scripts]]
+* [[/Modules.md|Modules]]
+</div>
+
+<div style="border: 1px solid #D8D8D8; padding:4px 8px 8px 8px; margin:10px;">
+<div style="float:right; width: 32px;">[[/File:Applications-development.png‎‎‎.md|link=]]</div>
+<h3>Developing Multi Theft Auto</h3>
+[[/File:Go-down.png.md|link=http://nightly.mtasa.com/]] [http://nightly.mtasa.com/ Nightly builds]
+* [[/Compiling_MTASA.md|Compiling MTASA on Windows]]
+* [[/Building_MTASA_Server_on_Mac_OS_X.md|Compiling MTASA on Mac OS X]]
+* [[/Building_MTASA_Server_on_GNU_Linux.md|Compiling MTASA on GNU/Linux]]
+* [[/Coding guidelines.md|Coding guidelines]]
+* [http://code.google.com/p/mtasa-blue Google Code SVN]
+* [[/Roadmap.md|Roadmap]]
+* [http://bugs.mtasa.com/ Bugtracker]
+* [[/Branches.md|Branches]]
+</div>
+<div style="border: 1px solid #D8D8D8; padding:4px 8px 8px 8px; margin:10px;">
+<div style="float:right; width: 32px;">[[/File:Applications-office.png.md|link=]]</div>
+<h3>Wiki - How can you help</h3>
+* Finish documentation for [[/:Category:Incomplete.md|Incomplete functions]].
+* [[/:Category:Needs_Example.md|Add examples to functions and events]].
+* Review and verify [[/:Category:Needs_Checking.md|pages that need checking]].
+* Write tutorials to help new people.
+* Translate wiki pages.
+</div>
+
+<div style="border: 1px solid #D8D8D8; padding:4px 8px 8px 8px; margin:10px;">
+<div style="float:right; width: 32px;">[[/File:Internet-group-chat.png‎.md|link=]]</div>
+<h3>Community</h3>
+* [http://forum.multitheftauto.com/ Forum]
+* IRC: [irc://irc.multitheftauto.com/mta irc.multitheftauto.com #mta]
+* [http://community.mtasa.com/ MTA Community] - Share and download resources.
+* [http://twitter.com/#!/MTAQA/ Twitter] - [http://www.youtube.com/user/MTAQA Youtube] - [http://plus.google.com/102014133442331779727/ Google+] - [http://www.moddb.com/mods/multi-theft-auto-san-andreas ModDB]
+</div>
+
+| width="50%" style="vertical-align:top;" |
+
+<div style="padding:4px 8px 8px 8px; margin:10px;">
+'''&raquo; Did you know MTA is played by 45,000 unique players every day?'''
+<br/>To keep the project going, we need donations to pay for the computers and bandwidth.
+<span style="line-height:2.5;" >[http://www.mtasa.com/donate/ [[/File:Emblem-favorite.png.md|link=|left]]'''Donate to Multi Theft Auto''']</span>
+</div>
+<div style="border: 1px solid #D8D8D8; padding:4px 8px 8px 8px; margin:10px;">
+<div style="float:right; width: 32px;">[[/File:Accessories-text-editor.png.md|link=]]</div>
+<h3>Scripting</h3>
+* [[/Scripting_Introduction.md|Introduction to Scripting]]
+* [[/Introduction to Scripting the GUI.md|Introduction to Scripting the GUI]]
+* [[/Debugging.md|Debugging Tutorial]] - How to find errors in your scripts
+* [[/Resources.md|Introduction to Resources]]
+** [[/Resource Web Access.md|Resource Web Access]] - How you can write websites with resources
+** [[/:Category:Resource.md|Resource Catalogue]]
+** [[/Meta.xml.md|Meta.xml]] - Behind every resource is a meta file that defines it
+** [[/ACL.md|ACL]] - Access Control List, this is vital for complex scripts to work
+* [[/Writing_Gamemodes.md|Writing Gamemodes]]
+* [[/Useful_Functions.md|Useful functions]]
+* [http://forum.mtasa.com/viewtopic.php?f=13&t=29363 Offline Wiki Copies]
+<div style="float:right; width: 32px;">[[/File:start-here.png.md|link=]]</div>
+<h3>General Lua Help</h3>
+Pages designed to aid your understanding of Lua
+*[http://www.lua.org/pil/index.html "Programming in Lua" Manual]
+**[http://www.lua.org/manual/5.1/#index Internal Lua functions reference]
+*[http://lua-users.org/wiki/TutorialDirectory Lua Wiki]
+*[http://nixstaller.berlios.de/manual/0.2/nixstaller_9.html A general guide to Lua from Nixstaller]
+</div>
+
+<div style="border: 1px solid #D8D8D8; padding:4px 8px 8px 8px; margin:10px; background:#F2F2FF;">
+<div style="float:right; width: 32px;">[[/File:Preferences-system.png.md|link=]]</div>
+<h3>Reference</h3>
+* [[/Client_Scripting_Functions.md|Client-side Functions]]
+* [[/Client_Scripting_Events.md|Client-side Events]]
+* [[/Server_Scripting_Functions.md|Server-side Functions]]
+* [[/Server_Scripting_Events.md|Server-side Events]]
+<!-- Incomplete * [[/Module_functions.md|Server-side external module scripting functions list]] -->
+* [[/MTA Classes.md|MTA Classes]] - Detailed descriptions of all MTA custom types
+** [[/Element.md|MTA Elements]] / [[/Element tree.md|Element tree]]
+</div>
+<div style="border: 1px solid #D8D8D8; padding:4px 8px 8px 8px; margin:10px;">
+<div style="float:right; width: 32px;">[[/File:System-file-manager.png.md|link=]]</div>
+<h3>[[/Id.md|ID Lists]]</h3>
+*[[/Animations.md|Animations]]
+*[[/Character Skins.md|Character Skins]]
+*[[/CJ_Clothes.md|Clothing styles]]
+*[[/Garage.md|Garage IDs]]
+*[[/Interior IDs.md|Interior IDs]]
+*[[/Material IDs.md|Material IDs]]
+*[[/Projectiles.md|Projectiles]]
+*[[/Radar Blips.md|Radar Blips]]
+*[[/Sounds.md|Sounds]]
+*[[/Vehicle IDs.md|Vehicle IDs]]
+*[[/Vehicle Colors.md|Vehicle Colors]]
+*[[/Vehicle Upgrades.md|Vehicle Upgrades]]
+*[[/Vehicle_variants.md|Vehicle Variants]]
+*[[/Vehicle component manipulation.md|Vehicle component manipulation]]
+*[[/Weapons.md|Weapons]]
+*[[/Weather.md|Weather]]
+</div>
+<div style="padding:4px 8px 8px 8px; margin:10px;">
+[[/File:Osi_symbol.png.md|75px|link=http://opensource.org/|left]]
+'''Multi Theft Auto''' is '''Open Source'''. 
+<br/>This means anyone can contribute to making Multi Theft Auto even better!
+</div>
+|-
+| colspan="2" |
+|}
+{| width="100%" cellspacing="0" cellpadding="0"
+| colspan="2" |
+<div style="padding-left: 15px; padding-right: 15px;" class="plainlinks">
+[[/File:MTALogo_8ball.png.md|left|85px|link=Archive]]
+<ul style="list-style: none; width: 200px; float: left;">
+  <li>'''About [[/Multi Theft Auto.md|Multi Theft Auto]]'''</li>
+  <li>[[/Archive.md|Archive]]</li>
+  <li>[[/Press Coverage.md|Press Coverage]]</li>
+  <li>[http://code.google.com/p/mtasa-blue/people/list Developers]</li>
+</ul>
+<ul style="list-style: none; width: 200px; float: left;">
+  <li>'''Multi Theft Auto 0.5'''</li>
+  <li>[[/Archive#Multi_Theft_Auto_0.5.md|Download]]</li>
+  <li>[[/MTA_0.5r2_Known_Issues.md|Known Issues]]</li>
+</ul>
+<ul style="list-style: none; width: 200px; float: left;">
+  <li>'''Wiki Stats'''</li>
+  <li>{{NUMBEROFARTICLES}} Articles</li>
+  <li>{{NUMBEROFPAGES}} Pages</li>
+  <li>{{NUMBEROFUSERS}} Registered Users</li>
+</ul>
+</div>
+|}
+
+
+
+{{Languages list|en}}

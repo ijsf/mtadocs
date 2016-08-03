@@ -1,0 +1,27 @@
+{{ml_irc}}
+
+{{ModuleFunction|SebasIRC}}
+
+This function disconnects the server from the IRC server it's connected to.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool ircDisconnect( [ string reason = "MTABot" ] )
+</syntaxhighlight>
+
+===Optional Arguments=== 
+{{OptionalArg}} 
+*'''reason :''' The quit reason.
+
+===Returns===
+Returns ''true'' if successfully disconnected from the server, ''false'' otherwise.
+
+==Example==
+<syntaxhighlight lang="lua">
+-- Example here
+</syntaxhighlight>
+
+[[/pl:Modules/SebasIRC/ircDisconnect.md|pl:Modules/SebasIRC/ircDisconnect]]
+
+==See also==
+{{Modules/SebasIRC/Functions}}

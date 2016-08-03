@@ -1,0 +1,29 @@
+{{Server function}}
+{{Delete|It seems this page was created in confusion.}}
+This function detonates the thrown satchels of a player, as if they had fired the detonator. Please use [[/detonateSatchels.md|detonateSatchels]] instead.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool detonatePlayerSatchels( player thePlayer )         
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''thePlayer:''' the player that should have their thrown satchels detonated.
+
+===Returns===
+Returns ''true'' if a valid player element was passed, false otherwise.
+
+==Example==  
+This example will allow players to detonate their thrown satchels via the command /detonate
+<syntaxhighlight lang="lua">
+function cmdDetonateSatchels(plr)
+	detonatePlayerSatchels(plr)
+end
+addCommandHandler("detonate", cmdDetonateSatchels)
+</syntaxhighlight>
+
+==Requirements==
+{{Requirements|1.1|n/a|}}
+
+==See Also==
+{{Player functions}}

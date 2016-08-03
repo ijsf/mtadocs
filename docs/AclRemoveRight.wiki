@@ -1,0 +1,31 @@
+ 
+{{Server function}} 
+<!-- Describe in plain english what this function does. Don't go into details, just give an overview -->
+This function removes the given right (string) from the given ACL.
+
+==Syntax== 
+<!-- NOTE: don't use 'special' names for variable names, e.g. you shouldn't be writing things like 'player player, vehicle vehicle', instead write something like 'player thePlayer, vehicle vehicleToGetInto'. This is less confusing and prevents the syntax highlighting being odd -->
+<syntaxhighlight lang="lua">
+bool aclRemoveRight ( acl theAcl, string rightName ) 
+</syntaxhighlight> 
+{{OOP||[[/acl.md|acl]]:removeRight||}}
+===Required Arguments=== 
+<!-- List each argument one per line. This should be the argument's name as in the argument list above, NOT the argument's data type -->
+*'''theAcl:''' The ACL to remove the right from
+*'''rightName:''' The ACL name to remove from the right from
+
+===Returns===
+<!-- Make this descriptive. Explain what cases will return false. If you're unsure, add a tag to it so we can check -->
+Returns ''true'' if the given right was successfully removed from the given ACL, ''false'' or ''nil'' if it could not be removed for some reason, ie. it didn't exist in the ACL.
+
+==Example== 
+This example removes an acl right on resource start.
+<syntaxhighlight lang="lua">
+addEventHandler("onResourceStart",resourceRoot,function()
+   aclRemoveRight(aclGet("Admin"),"function.setServerPassword")
+end)
+</syntaxhighlight>
+
+==See Also==
+<!-- Change FunctionArea to the area that this function is in on the main function list page, e.g. Server, Player, Vehicle etc -->
+{{ACL_functions}}

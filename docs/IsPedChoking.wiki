@@ -1,0 +1,28 @@
+
+{{Server client function}}
+This function checks if the specified [[/ped.md|ped]] is choking (coughing) or not. This happens as a result of weapons that produce smoke - smoke grenades, fire extinguisher and the spray can. 
+
+==Syntax==
+<syntaxhighlight lang="lua">bool isPedChoking ( ped thePed )</syntaxhighlight>
+{{OOP||[[/ped.md|ped]]:isChoking|choking|setPedChoking}}
+
+===Required Arguments===
+*'''thePed''': The [[/ped.md|ped]] you wish to check
+
+===Returns===
+Returns ''true'' if the ped is choking, ''false'' otherwise.
+
+==Example==
+<section class="both" name="Server&Client" show="true">
+This example checks if a random player is choking or not, and if so displays a message in the chat box.
+<syntaxhighlight lang="lua">
+local players = getElementsByType ( "player" )
+local randomPlayer = players[math.random(#players)]
+if isPedChoking ( randomPlayer ) then
+	outputChatBox ( getPlayerName ( randomPlayer ) .. " is choking.  Keep away from those cigarettes!" )
+end
+</syntaxhighlight>
+</section>
+
+==See Also==
+{{Ped functions}}

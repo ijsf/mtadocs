@@ -1,0 +1,23 @@
+
+{{Server function}}
+This function removes every weapons from a specified [[/ped.md|ped]], rendering it unarmed.
+{{Note|Weapons are removed when a ped dies by default. This means that it is only appropriate to use this function while a ped is alive.}}
+
+==Syntax==
+<syntaxhighlight lang="lua">bool takeAllWeapons ( ped thePed )</syntaxhighlight>
+
+===Required Arguments===
+*'''thePed''': A [[/ped.md|ped]] element referencing the specified ped
+
+===Returns===
+Returns ''true'' if the function succeeded, ''false'' otherwise.
+
+==Example==
+This example removes all weapons from every player
+<syntaxhighlight lang="lua">
+takeAllWeapons ( getRootElement() )  --remove all the weapons
+outputChatBox ( "Weapons are not permitted!" ) --tell the players why they lost their weapons</syntaxhighlight>
+
+==See Also==
+{{Weapon functions}}
+[[/ru:takeAllWeapons.md|ru:takeAllWeapons]]

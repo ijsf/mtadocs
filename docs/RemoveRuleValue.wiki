@@ -1,0 +1,23 @@
+ 
+{{Server function}}
+This function removes a set rule value that can be viewed by server browsers.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool removeRuleValue ( string key )              
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''key:''' The name of the rule you wish to remove
+
+===Returns===
+Returns ''true'' if the rule value was removed, ''false'' if it failed.
+
+==Example== 
+This example shows how you could set a rule that shows that your script is running on the server.
+<syntaxhighlight lang="lua">
+removeRuleValue ( "myScriptRunning" )
+</syntaxhighlight>
+
+==See Also==
+{{Announce functions}}

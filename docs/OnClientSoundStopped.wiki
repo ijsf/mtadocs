@@ -1,0 +1,35 @@
+{{Client event}}
+ 
+{{New items|3.0140|1.4|
+This event is triggered when a '''sound''' is stopped.
+}}
+==Parameters== 
+<syntaxhighlight lang="lua">
+string reason
+</syntaxhighlight> 
+
+*'''reason''': the reason the '''sound''' was stopped, can be "finished", "paused" or "destroyed".
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/Element/Sound.md|sound's element]].
+
+==Example== 
+This example outputs the reason the sound stopped.
+<syntaxhighlight lang="lua">
+function onSoundStopped ( reason )
+    if ( reason == "destroyed" ) then
+        outputChatBox ( "sound destroyed" )
+    elseif ( reason == "finished" ) then
+        outputChatBox ( "end of sound" )
+    elseif ( reason == "paused" ) then
+        outputChatBox ( "sound paused" )
+    end
+end
+addEventHandler ( "onClientSoundStopped", getRootElement(), onSoundStopped )
+</syntaxhighlight>
+
+==See Also==
+===Client sound events===
+{{Sound_events}}
+===Client event functions===
+{{Client_event_functions}}

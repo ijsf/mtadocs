@@ -1,0 +1,26 @@
+
+{{Server function}}
+Sets the engine type of a handling element (or more specifically, what kind of fuel it uses).
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool handlingSetEngineType ( handling theHandling, string engineType )
+</syntaxhighlight>
+
+===Required Arguments===
+*'''theHandling:''' the handling of which you want to change the engine type.
+*'''engineType:''' one of the following strings:
+**'''diesel'''
+**'''electric'''
+**'''petrol'''
+
+===Returns===
+Returns ''true'' on success, ''false'' in case of failure.
+
+==Example==
+<syntaxhighlight lang="lua">
+--TODO
+</syntaxhighlight>
+
+==See Also==
+{{Handling_functions}}

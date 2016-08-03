@@ -1,0 +1,27 @@
+{{ml_irc}}
+
+{{ModuleFunction|SebasIRC}}
+{{Modules/SebasIRC/Warning|This function is disabled in the ml_irc-rewrite branch!}}
+
+Changes the name of your bot.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool ircChangeNick(string newNick)
+</syntaxhighlight>
+
+===Required arguments===
+* '''newNick:''' How you want your bot to be called.
+
+===Returns===
+Returns true if the nick was changed successfully, false otherwise.
+
+==Example==
+<syntaxhighlight lang="lua">
+-- Example here
+</syntaxhighlight>
+
+[[/pl:Modules/SebasIRC/ircChangeNick.md|pl:Modules/SebasIRC/ircChangeNick]]
+
+==See also==
+{{Modules/SebasIRC/Functions}}

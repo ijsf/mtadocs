@@ -1,0 +1,36 @@
+{{Server client function}}
+
+This function can be used to detonate a players satchels.
+==Syntax==
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+bool detonateSatchels ( )
+</syntaxhighlight>
+</section>
+
+<section name="Server" class="server" show="true">
+<syntaxhighlight lang="lua">
+bool detonateSatchels ( player Player )
+</syntaxhighlight>
+</section>
+
+==Returns==
+Returns ''true'' if successful, ''false'' otherwise.
+
+==Example==
+The below example allows a player to detonate any of their placed satchels via the command /blowsatchels
+<section name="Client" class="client" show="true">
+<syntaxhighlight lang="lua">
+function blowMySatchels()
+    detonateSatchels()
+    outputChatBox("Satchels blown!", 0, 255, 0)
+end
+addCommandHandler("blowsatchels", blowMySatchels)
+</syntaxhighlight>
+</section>
+
+==See also==
+{{Client projectile functions}}
+
+[[/it:detonateSatchels.md|it:detonateSatchels]]
+[[/pl:detonateSatchels.md|pl:detonateSatchels]]

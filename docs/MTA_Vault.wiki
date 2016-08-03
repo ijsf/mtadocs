@@ -1,0 +1,93 @@
+== The MTA Vault, a walk down memory lane ==
+
+=== GTA3:AM ===
+
+[[/Image:Gta3am01.jpg.md|Image:Gta3am01.jpg]]
+
+The first client: GTA3:AM.
+
+[http://files.mtasa.com/apps/pre-0.1/gta3am01a.zip Download GTA3:AM.]
+
+[http://files.mtasa.com/media/gta3am/first_movie.zip Download the first GTA3:AM movie.]
+
+=== GTA3:MTA 0.1a - 0.2.2 ===
+
+[[/Image:022client.png.md|350px]]
+
+The 0.2.2 (0.2a) client. Click to enlarge. [http://wiki.multitheftauto.com/images/1/1b/02aclientsmall.jpg Click here] for an old, but very small, image with a working "server list".
+
+[[/image:am4.jpg.md|image:am4.jpg]]<br />
+[[/Previous-car-method.md|Previous-car-method]] in action. Notice the red lights.
+
+[[/image:Am2.jpg.md|image:Am2.jpg]]<br />
+2 F16 flying out of formation (pilot error).
+
+[[/image:Am3.jpg.md|image:Am3.jpg]]<br />
+Proof of concept. No AI would be driving like that.
+
+[[/image:Am1.jpg.md|250px]]<br />
+From a long lost movie. The first stunt movie ever.
+
+[http://files.mtasa.com/media/gta3mta/Videos/gta3mta-movie2.zip Download "Pursuing a Dodo".]
+
+=== GTA3:MTA 0.3b ===
+
+[[/Image:03betaclient.jpg.md|Image:03betaclient.jpg]]
+
+An unreleased version of the 0.3b client.
+
+[[/image:3b1.jpg.md|image:3b1.jpg]]<br />
+Testing of the actor system.
+
+[[/image:3b2.jpg.md|image:3b2.jpg]]<br />
+Testing of the vehicles.
+
+[[/image:3b3.jpg.md|image:3b3.jpg]]<br />
+More actor placements.
+
+[[/image:3b4.JPG.md|image:3b4.JPG]]<br />
+First rounds fired.
+
+[[/image:3b5.jpg.md|image:3b5.jpg]]<br />
+Fighting it out. Notice the color bug on the cars.
+
+[http://files.mtasa.com/media/gta3mta/Videos/mta0.3binprogress3.rar Download the 0.3b teaser trailer.]
+
+=== GTA3:MTA 0.4 ===
+
+[[/image:4b1.jpg.md|350px]]<br />
+
+
+[[/image:4b2.jpg.md|350px]]<br />
+
+
+[[/image:4b3.jpg.md|350px]]<br />
+
+=== MTA:VC 0.1 (MTA 0.2-Based) ===
+
+[[/image:vc0.1-1.jpg.md|350px]]<br />
+The first chat system.
+
+[[/image:vc0.1-2.jpg.md|350px]]<br />
+
+[[/image:vc0.1-3.jpg.md|350px]]<br />
+Bad aim,
+
+[[/image:vc0.1-4.jpg.md|350px]]<br />
+but targets are easy to find!
+
+=== General ===
+
+[http://www.gonnaplay.com/fileInfo.php?g=20101&f=10 1 Year MTA Movie] [http://files.mtasa.com/media/1yrmta.zip Mirror]
+
+== Client Downloads ==
+
+[http://files.mtasa.com/apps/pre-0.1/gta3am01a.zip GTA3:AM]<br />
+[http://files.mtasa.com/apps/0.2/mta022_client_gta3.exe GTA3:MTA 0.2.2]<br />
+[http://multitheftauto.com/mta_archived/mta03b.zip GTA3:MTA 0.3b] (dead link)<br /><br />
+
+MTA:VC 0.1: [http://files.mtasa.com/apps/0.1/mta01_client.exe Client] [http://files.mtasa.com/apps/0.1/mta01_server_win32.zip Windows Server] [http://files.mtasa.com/apps/0.1/mta01_server_linux.tar.gz Linux Server]<br />
+MTA:VC 0.2: [http://files.mtasa.com/apps/0.2/mta020_client_gtavc.exe Client] [http://files.mtasa.com/apps/0.2/mta020_server_win32.zip Windows Server] [http://files.mtasa.com/apps/0.2/mta020_server_linux.tar.gz Linux Server]<br />
+MTA:VC 0.2.2: [http://files.mtasa.com/apps/0.2/mta022_client_gtavc.exe Client] [http://files.mtasa.com/apps/0.2/mta022_server_win32.zip Windows Server] [http://files.mtasa.com/apps/0.2/mta022_server_linux.tar.gz Linux Server]<br />
+[http://files.mtasa.com/apps/ MTA:VC 0.3 and above]<br />
+[[/Category:GTA3.md|Category:GTA3]] [[/Category:Vice City.md|Category:Vice City]] [[/Category:Historical.md|Category:Historical]]

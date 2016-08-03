@@ -1,0 +1,14 @@
+These are the blip icon [[/id.md|id]]s you can use in [[/createBlip.md|createBlip]], [[/createBlipAttachedTo.md|createBlipAttachedTo]], [[/getBlipIcon.md|getBlipIcon]] and [[/setBlipIcon.md|setBlipIcon]].
+{{Blip Icons}}
+
+==Blip Functions==
+{{Blip_functions}}
+
+==See also==
+[[/id.md|ID Lists]]
+
+[[/Category:ID Lists.md|Category:ID Lists]]
+
+[[/de:Radarsymbole.md|de:Radarsymbole]]
+[[/ru:Radar blips.md|ru:Radar blips]]
+[[/pl:Radar Blips.md|pl:Radar Blips]]

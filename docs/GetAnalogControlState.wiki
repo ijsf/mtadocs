@@ -1,0 +1,43 @@
+
+{{Client function}}
+This retrieves the analog control state of a control.  This is useful for detecting sensitive controls, such as those used on a joypad.
+
+==Syntax==
+<syntaxhighlight lang="lua">float getAnalogControlState ( string controlName )</syntaxhighlight>
+
+===Required Arguments===
+*'''controlName :''' the name of the control you wish to get the analog state of.  Possible values are:
+**'''left'''
+**'''right'''
+**'''forwards'''
+**'''backwards'''
+**'''vehicle_left'''
+**'''vehicle_right'''
+**'''steer_forward'''
+**'''steer_back'''
+**'''accelerate'''
+**'''brake_reverse'''
+**'''special_control_left'''
+**'''special_control_right'''
+**'''special_control_up'''
+**'''special_control_down'''
+
+===Returns===
+Returns a float between 0 and 1 indicating the amount the control is pressed.
+
+==Example==
+/analog command starts to go forward control state if you are not, if you are going forward by control state then you will stop.
+<syntaxhighlight lang="lua">
+function analog()
+if (getAnalogControlState("forwards") == 0) then
+setAnalogControlState ("forwards",1)
+else
+setAnalogControlState ("forwards",0)
+end
+end
+addCommandHandler("analog",analog)
+</syntaxhighlight>
+This example written by '''Samurai'''
+
+==See Also==
+{{Client input functions}}

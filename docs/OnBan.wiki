@@ -1,0 +1,30 @@
+
+{{Server event}}
+This event is triggered when an IP address or serial is banned from the server.
+
+==Parameters==
+<syntaxhighlight lang="lua">
+ban theBan
+</syntaxhighlight> 
+
+*'''theBan ''': The [[/ban.md|ban]] which was added.
+
+==Source==
+The [[/event_system#Event_source.md|source]] of this event is the [[/element.md|element]] that was responsible for the banning. If no responsible was specified, the source is the global root element.
+
+==Cancel effect==
+This event cannot be canceled.
+
+==Example== 
+This example outputs a simple message to all players when a player added a ban.
+<syntaxhighlight lang="lua">
+function announceBan( theBan )
+	if getElementType( source ) then --Check if a player banned the IP/Serial
+		outputChatBox( getPlayerName( source ) .. " banned " .. ( getBanSerial(theBan) or getBanIP(theBan) ) ) --Output to the chatbox saying the player has banned the IP/Serial
+	end
+end
+
+addEventHandler( "onBan", root, announceBan ) --Adds the event handler for 'onBan' and must be bound to root
+</syntaxhighlight>
+
+{{See also/Server event|Server events}}

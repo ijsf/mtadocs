@@ -1,0 +1,30 @@
+ 
+{{Server client function}}
+This function is used to check whether a vehicle's landing gear is down or not. Only planes can be used with this function.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool getVehicleLandingGearDown ( vehicle theVehicle )
+</syntaxhighlight> 
+{{OOP||[[/vehicle.md|vehicle]]:getLangingGearDown|landingGearDown|setVehicleLandingGearDown}}
+===Required Arguments=== 
+*'''theVehicle:''' the [[/vehicle.md|vehicle]] of which you wish to check the landing gear state.
+
+===Returns===
+Returns ''true'' if landing gear is down, ''false'' if the landing gear is up.<br />
+Returns ''nil'' if the vehicle has no landing gear, or is invalid.
+
+==Example== 
+This function tells you to pull up the landing gear if you're in a Hydra with its landing gear down.
+<syntaxhighlight lang="lua">
+function checkGear( thePlayer )
+    local theVehicle = getPedOccupiedVehicle( thePlayer )    --Get the players vehicle
+    if ( getElementModel(theVehicle) == 520 and getVehicleLandingGearDown( theVehicle ) == false ) then    --if the vehicle is a hydra, and the landing gear is up
+        outputChatBox( "Pull up!", thePlayer )    --tell the player to pull up.
+    end
+end
+</syntaxhighlight>
+
+==See Also==
+{{Vehicle functions}}
+[[/ru:getVehicleLandingGearDown .md|ru:getVehicleLandingGearDown ]]

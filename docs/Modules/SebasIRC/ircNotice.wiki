@@ -1,0 +1,26 @@
+{{ml_irc}}
+
+{{ModuleFunction|SebasIRC}}
+Sends a message to a Player
+
+==Syntax==
+<syntaxhighlight lang="lua">
+bool ircNotice(string user , string text)
+</syntaxhighlight>
+
+===Required arguments===
+* '''user:''' Player name.
+* '''text:''' The Text.
+
+===Returns===
+True if joined, otherwise false.
+
+==Example==
+<syntaxhighlight lang="lua">
+-- Example here
+</syntaxhighlight>
+
+[[/pl:Modules/SebasIRC/ircNotice.md|pl:Modules/SebasIRC/ircNotice]]
+
+==See also==
+{{Modules/SebasIRC/Functions}}

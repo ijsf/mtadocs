@@ -1,0 +1,18 @@
+<pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass>
+
+{{ModuleFunction|MTA-MySQL}}
+Sets the row cursor of a result in the given row offset. The offset must be a value between '''1''' and '''[[/Modules/MTA-MySQL/mysql_num_rows.md|mysql_num_rows()]]'''.
+
+==Syntax==
+<syntaxhighlight lang="lua">
+mysql_data_seek ( MySQLResult result, int offset )
+</syntaxhighlight>
+===Required arguments===
+* '''result:''' A valid MySQL result
+* '''offset:''' A valid row offset
+
+===Returns===
+This function doesn't return any value.
+
+==See also==
+{{Modules/MTA-MySQL/Result_functions}}

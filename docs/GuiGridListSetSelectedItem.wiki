@@ -1,0 +1,29 @@
+{{Client function}}
+
+This function selects an item from a gridlist. If you wish to deselect whatever item is selected, pass ''0'' as both the ''rowIndex'' and  ''columnIndex'' arguments.
+
+==Syntax== 
+<syntaxhighlight lang="lua">
+bool guiGridListSetSelectedItem ( element gridList, int rowIndex, int columnIndex [, bool bReset = true ] )
+</syntaxhighlight> 
+
+===Required Arguments=== 
+*'''gridList:''' the grid list you want to select an item from
+*'''rowIndex:''' the row you want to select (index 0 is the first row)
+*'''columnIndex:''' the column you want to select (index 1 is the first column)
+{{New feature|3.0111|1.1.1|
+==Optional Arguments==
+{{OptionalArg}}
+*'''bReset:''' set to false for multiple selections
+}}
+
+===Returns===
+Returns ''true'' if the passed arguments are correct and the item has been selected, ''false'' otherwise.
+
+==Example==
+<syntaxhighlight lang="lua">
+guiGridListSetSelectedItem ( spawnScreenGridList, 0, 0) -- resets selection to zero
+</syntaxhighlight>
+
+==See Also==
+{{GUI functions}}
