@@ -12,6 +12,7 @@ After conversion to separate files and directories, the following rules were app
 
 * Spaces converted to underscore (_).
 * Back slashes (\) converted to forward slashes (/).
+* Semicolons (:) converted to dashes (-).
 * All links appended with .md extension.
 * Conversion of <code>[...]</code> into <syntaxhighlight lang="..."></syntaxhighlight> which is understood by Pandoc:
 
