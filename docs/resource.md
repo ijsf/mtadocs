@@ -9,4 +9,4 @@ Related scripting functions
 
 ### Client
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")

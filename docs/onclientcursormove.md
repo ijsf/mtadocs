@@ -40,7 +40,7 @@ addEventHandler( "onClientCursorMove", getRootElement( ),
 );
 ```
 
-[pl:onClientCursorMove](/docs/pl:onclientcursormove.md "wikilink")
+[pl:onClientCursorMove](/docs/pl-onclientcursormove.md "wikilink")
 
 See Also
 --------

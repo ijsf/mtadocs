@@ -30,4 +30,4 @@ outputConsole(xmlNodeName) --This should output "nextTest".
 See Also
 --------
 
-[ru:xmlNodeGetName](/docs/ru:xmlnodegetname.md "wikilink")
+[ru:xmlNodeGetName](/docs/ru-xmlnodegetname.md "wikilink")

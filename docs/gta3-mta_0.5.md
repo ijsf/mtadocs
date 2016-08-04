@@ -6,6 +6,6 @@ It includes three deathmatch game maps:
 -   [Shoreside Vale](/docs/gta3_ssv.md "wikilink")
 -   [Staunton Island](/docs/gta3_staunton.md "wikilink")
 
-It is compatible with [MTA:mA v3](/docs/mta:ma#v3_series.md "wikilink").
+It is compatible with [MTA:mA v3](/docs/mta-ma#v3_series.md "wikilink").
 
-[Category: MTA 0.5](/docs/category:_mta_0.5.md "wikilink") [Category: GTA3](/docs/category:_gta3.md "wikilink")
+[Category: MTA 0.5](/docs/category-_mta_0.5.md "wikilink") [Category: GTA3](/docs/category-_gta3.md "wikilink")

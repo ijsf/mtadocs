@@ -64,4 +64,4 @@ addCommandHandler ( "createObject", consoleCreateObject )
 See Also
 --------
 
-[de:createObject](/docs/de:createobject.md "wikilink")
+[de:createObject](/docs/de-createobject.md "wikilink")

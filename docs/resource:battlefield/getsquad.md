@@ -1,7 +1,7 @@
 Purpose
 -------
 
-This command retrieves a [squad](/docs/resource:battlefield/squad.md "wikilink") element when given the name or [shortname](/docs/resource:battlefield/shortname.md "wikilink") of a squad and the team.
+This command retrieves a [squad](/docs/resource-battlefield/squad.md "wikilink") element when given the name or [shortname](/docs/resource-battlefield/shortname.md "wikilink") of a squad and the team.
 
 Syntax
 ------
@@ -50,4 +50,4 @@ end
 
 |                                                                       |
 |-----------------------------------------------------------------------|
-| [Return to Battlefield Resource](/docs/resource:battlefield.md "wikilink") |
+| [Return to Battlefield Resource](/docs/resource-battlefield.md "wikilink") |

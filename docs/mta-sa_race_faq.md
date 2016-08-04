@@ -4,7 +4,7 @@ A: You can get it from [here](http://mtasa.com/downloads.php).
 
 -   **Q: I've encountered a bug or other issue**
 
-A: See the [Know Issues](/docs/mta:sa_race_known_issues.md "wikilink") page.
+A: See the [Know Issues](/docs/mta-sa_race_known_issues.md "wikilink") page.
 
 -   **Q: Is it true that MTA:SA is racing only?**
 
@@ -44,4 +44,4 @@ A: There is no reason for this to be the case, beyond the fact that MTA uses up 
 
 A: In R1, they are only partially synchronised. This means that sometimes the missiles will hit and sometimes they will not, depending on lag. They will be fully synced in a future release.
 
-[Category:MTA:SA Race](/docs/category:mta:sa_race.md "wikilink")
+[Category:MTA:SA Race](/docs/category-mta-sa_race.md "wikilink")

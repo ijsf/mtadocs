@@ -38,6 +38,6 @@ XML syntax
 Related scripting functions
 ---------------------------
 
-[Category:Element Types](/docs/category:element_types.md "wikilink")
+[Category:Element Types](/docs/category-element_types.md "wikilink")
 
-[it:Elemento/Veicolo](/docs/it:elemento/veicolo.md "wikilink")
+[it:Elemento/Veicolo](/docs/it-elemento/veicolo.md "wikilink")

@@ -68,4 +68,4 @@ addEventHandler ( "onPlayerSpawn", getRootElement(), addInfoToSQL )
 See Also
 --------
 
-[ru:executeSQLSelect](/docs/ru:executesqlselect.md "wikilink")
+[ru:executeSQLSelect](/docs/ru-executesqlselect.md "wikilink")

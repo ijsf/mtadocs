@@ -48,7 +48,7 @@ function outputEditBox ( button )
 end
 ```
 
-[pl:onClientGUIClick](/docs/pl:onclientguiclick.md "wikilink")
+[pl:onClientGUIClick](/docs/pl-onclientguiclick.md "wikilink")
 
 See Also
 --------

@@ -67,4 +67,4 @@ addCommandHandler( "ban-serial", banSerial )
 See Also
 --------
 
-[ru:addBan](/docs/ru:addban.md "wikilink")
+[ru:addBan](/docs/ru-addban.md "wikilink")

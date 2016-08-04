@@ -41,4 +41,4 @@ addEventHandler( "doShowObjectBrowser", getRootElement(), showObjectBrowser )
 triggerClientEvent ( somePlayer, "doShowObjectBrowser", getRootElement(), 1034 )
 ```
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [ru:Client side scripts](/docs/ru:client_side_scripts.md "wikilink") [it:Script client-side](/docs/it:script_client-side.md "wikilink") [es:Scripts de Cliente](/docs/es:scripts_de_cliente.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink") [ru:Client side scripts](/docs/ru-client_side_scripts.md "wikilink") [it:Script client-side](/docs/it-script_client-side.md "wikilink") [es:Scripts de Cliente](/docs/es-scripts_de_cliente.md "wikilink")

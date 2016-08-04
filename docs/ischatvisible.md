@@ -24,4 +24,4 @@ addCommandHandler("sc",
 See Also
 --------
 
-[ru:isChatVisible](/docs/ru:ischatvisible.md "wikilink")
+[ru:isChatVisible](/docs/ru-ischatvisible.md "wikilink")

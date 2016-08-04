@@ -30,4 +30,4 @@ addCommandHandler("getAccounts",
 See Also
 --------
 
-[pl:getAccountsBySerial](/docs/pl:getaccountsbyserial.md "wikilink")
+[pl:getAccountsBySerial](/docs/pl-getaccountsbyserial.md "wikilink")

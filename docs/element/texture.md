@@ -8,4 +8,4 @@ Texture elements are created by the following functions:
 -   [dxCreateRenderTarget](/docs/dxcreaterendertarget.md "wikilink")
 -   [dxCreateScreenSource](/docs/dxcreatescreensource.md "wikilink")
 
-[Category:Element Types](/docs/category:element_types.md "wikilink")
+[Category:Element Types](/docs/category-element_types.md "wikilink")

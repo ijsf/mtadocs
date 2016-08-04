@@ -30,4 +30,4 @@ addEventHandler("onPlayerLogin",getRootElement(),outputOnLogin ) --add an event 
 See Also
 --------
 
-[ru:getAccountName](/docs/ru:getaccountname.md "wikilink") [es:getAccountName](/docs/es:getaccountname.md "wikilink") [ar:getAccountName](/docs/ar:getaccountname.md "wikilink") [pl:GetAccountName](/docs/pl:getaccountname.md "wikilink")
+[ru:getAccountName](/docs/ru-getaccountname.md "wikilink") [es:getAccountName](/docs/es-getaccountname.md "wikilink") [ar:getAccountName](/docs/ar-getaccountname.md "wikilink") [pl:GetAccountName](/docs/pl-getaccountname.md "wikilink")

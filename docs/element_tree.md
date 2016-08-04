@@ -1,4 +1,4 @@
-[frame|Element tree](/docs/file:tre.png.md "wikilink") MTA uses a so-called *element tree* to store all the elements that exist on the server and the client. This is directly related to the set of running [resources](/docs/resources.md "wikilink") and their map files' XML layout, although it can be changed at run-time by scripts.
+[frame|Element tree](/docs/file-tre.png.md "wikilink") MTA uses a so-called *element tree* to store all the elements that exist on the server and the client. This is directly related to the set of running [resources](/docs/resources.md "wikilink") and their map files' XML layout, although it can be changed at run-time by scripts.
 
 If you are familiar with the concept of *trees* in computer-science, this should be easy to understand. If you are not, think of it like a family tree - except everyone only has a single parent. Every [element](/docs/element.md "wikilink") has a *parent* element.
 
@@ -111,4 +111,4 @@ Another thing that has to be considered related to the tree of elements is the f
 Element browser
 ---------------
 
-You can start the resource *elementbrowser* to see a live view of the element tree on your server. Just start the resource and browser to your server's web page and choose the *Element browser* option in the sidebar (firefox only currently). [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [es:Árbol de elementos](/docs/es:Árbol_de_elementos.md "wikilink") [ru:Element tree](/docs/ru:element_tree.md "wikilink")
+You can start the resource *elementbrowser* to see a live view of the element tree on your server. Just start the resource and browser to your server's web page and choose the *Element browser* option in the sidebar (firefox only currently). [Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink") [es:Árbol de elementos](/docs/es-Árbol_de_elementos.md "wikilink") [ru:Element tree](/docs/ru-element_tree.md "wikilink")

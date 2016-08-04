@@ -20,7 +20,7 @@ Example
     )
 ```
 
-[pl:onClientBrowserCreated](/docs/pl:onclientbrowsercreated.md "wikilink")
+[pl:onClientBrowserCreated](/docs/pl-onclientbrowsercreated.md "wikilink")
 
 See Also
 --------

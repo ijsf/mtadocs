@@ -41,4 +41,4 @@ end
 See Also
 --------
 
-[ru:get](/docs/ru:get.md "wikilink")
+[ru:get](/docs/ru-get.md "wikilink")

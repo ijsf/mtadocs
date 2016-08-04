@@ -1,11 +1,11 @@
-[thumb|Proof of concept.](/docs/file:am3.jpg.md "wikilink") Multi Theft Auto (MTA) is the world's first multiplayer add-on for the Grand Theft Auto 3 Trilogy[1]. Starting as a very simple two player system with no on-foot support, has become one of the most active (multiplayer) add-ons for Grand Theft Auto.
+[thumb|Proof of concept.](/docs/file-am3.jpg.md "wikilink") Multi Theft Auto (MTA) is the world's first multiplayer add-on for the Grand Theft Auto 3 Trilogy[1]. Starting as a very simple two player system with no on-foot support, has become one of the most active (multiplayer) add-ons for Grand Theft Auto.
 
 Although often referred to as a modification, Multi Theft Auto is based on [code injection](http://en.wikipedia.org/wiki/Code_injection) and [hooking](http://en.wikipedia.org/wiki/Hooking) techniques whereby the game is manipulated without altering any original files supplied with the game. The software functions as a [game engine](http://en.wikipedia.org/wiki/Game_engine) that installs itself as an extension of the original game, adding core functionality such as [networking](http://en.wikipedia.org/wiki/Computer_networking) and [GUI rendering](http://en.wikipedia.org/wiki/Graphical_User_Interface) while exposing the original game's engine functionality through a [scripting language](http://en.wikipedia.org/wiki/Scripting_Language).
 
 Before Multi Theft Auto
 -----------------------
 
-[thumb|GTA3:Alternative Multiplayer](/docs/file:gta3am01.jpg.md "wikilink") In February 2003, IJs (formerly known as IJsVogel), founder of the project, was searching for a trainer for GTA3. He stumbled upon the GTA3 Admin Console[2] and its source code. When looking through the code he found a way to read all the data from the previous used car, and he decided to synchronize this with two computers over a network. The result of this was the creation of GTA3:AM, less than an hour later.
+[thumb|GTA3:Alternative Multiplayer](/docs/file-gta3am01.jpg.md "wikilink") In February 2003, IJs (formerly known as IJsVogel), founder of the project, was searching for a trainer for GTA3. He stumbled upon the GTA3 Admin Console[2] and its source code. When looking through the code he found a way to read all the data from the previous used car, and he decided to synchronize this with two computers over a network. The result of this was the creation of GTA3:AM, less than an hour later.
 
 However, after the release it was difficult to convince people it actually worked because of various hoaxes and earlier attempts that had failed. This was the start of the MTA project.
 
@@ -18,7 +18,7 @@ Main article: [Timeline](/docs/timeline.md "wikilink")
 
 ### Milestones since 2006
 
-[thumb|MTA:SA 1.0 Main Menu](/docs/file:mta_main_menu_1.0.x.png.md "wikilink")
+[thumb|MTA:SA 1.0 Main Menu](/docs/file-mta_main_menu_1.0.x.png.md "wikilink")
 
 -   **January 3, 2008 MTA:San Andreas 1.0 Deathmatch Developer Preview(s)**
 
@@ -111,7 +111,7 @@ When Vice City was released it didn't take long before the MTA project switched 
 
 In late 2003 a spin-off project was launched codenamed Blue. The goal of this project was to try out new ideas and then backport them to the current codebase. Due to the “ugly” coding of the MTA:VC codebase it was decided that there would be no backporting and that the Blue codebase would form the basis of a new MTA project that, when finished, would be easy to adapt to new games. Initially set for Vice City, the development didn't pick up pace until San Andreas was released in June 2005. MTA:SA is built upon the Blue project. The concepts used in this project also make it possible for user add-ons to be added to the game, and therefore a decision was made to not simply create a multiplayer mod, but rather a multiplayer-enabled Software Development Kit (SDK).
 
-### [MTA:SA Race](/docs/archive#mta:_san_andreas_race.md "wikilink")
+### [MTA:SA Race](/docs/archive#mta-_san_andreas_race.md "wikilink")
 
 The first release of MTA:SA incorporates only vehicle synchronisation. The team has decided to start once more from scratch and build a modular codebase. Another decision made was to focus on one area of the game at a time and release when that area is completed. Therefore the first release will only feature gameplay in cars. Also a basic map editor has been added. Even though there is no on-foot sync like with GTA3:AM, there is no comparison between them on a technical basis.
 
@@ -147,9 +147,9 @@ References
 ----------
 
 <references/>
-[Category:Historical](/docs/category:historical.md "wikilink")
+[Category:Historical](/docs/category-historical.md "wikilink")
 
-[pl:Multi\_Theft\_Auto](/docs/pl:multi_theft_auto.md "wikilink") [es:Multi\_Theft\_Auto](/docs/es:multi_theft_auto.md "wikilink")
+[pl:Multi\_Theft\_Auto](/docs/pl-multi_theft_auto.md "wikilink") [es:Multi\_Theft\_Auto](/docs/es-multi_theft_auto.md "wikilink")
 
 [1] Trilogy: Grand Theft Auto III, Grand Theft Auto: Vice City and Grand Theft Auto: San Andreas
 

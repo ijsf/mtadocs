@@ -60,4 +60,4 @@ end
 See Also
 --------
 
-[ru:setGarageOpen](/docs/ru:setgarageopen.md "wikilink")
+[ru:setGarageOpen](/docs/ru-setgarageopen.md "wikilink")

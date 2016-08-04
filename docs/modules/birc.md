@@ -15,4 +15,4 @@ Add the following line in your mtaserver.conf: <code lang="xml"> <module src="ml
 Provided scripting functionality
 --------------------------------
 
-[ru:Modules/bIRC](/docs/ru:modules/birc.md "wikilink")
+[ru:Modules/bIRC](/docs/ru-modules/birc.md "wikilink")

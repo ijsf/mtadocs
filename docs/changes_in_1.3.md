@@ -75,6 +75,6 @@ Editor
 
 -   Added LOD information to aid removing LOD's
 
-[ru:Changes in 1.3](/docs/ru:changes_in_1.3.md "wikilink") [pt-br:Novidades na versão 1.3](/docs/pt-br:novidades_na_versão_1.3.md "wikilink") [es:Cambios en la versión 1.3](/docs/es:cambios_en_la_versión_1.3.md "wikilink")
+[ru:Changes in 1.3](/docs/ru-changes_in_1.3.md "wikilink") [pt-br:Novidades na versão 1.3](/docs/pt-br-novidades_na_versão_1.3.md "wikilink") [es:Cambios en la versión 1.3](/docs/es-cambios_en_la_versión_1.3.md "wikilink")
 
-[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Changes in 1.3](/docs/category:changes_in_1.3.md "wikilink")
+[Category:Changelog](/docs/category-changelog.md "wikilink") [Category:Changes in 1.3](/docs/category-changes_in_1.3.md "wikilink")

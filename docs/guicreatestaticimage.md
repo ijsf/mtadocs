@@ -9,7 +9,7 @@ element guiCreateStaticImage ( float x, float y, float width, float height, stri
 
 ### Required Arguments
 
-[frame|Example GUI static image.](/docs/image:gui-staticimage.png.md "wikilink")
+[frame|Example GUI static image.](/docs/image-gui-staticimage.png.md "wikilink")
 
 -   **x:** A float of the 2D x position of the image on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the image on a player's screen. This is affected by the *relative* argument.

@@ -352,4 +352,4 @@ Useful links
 -   [Official MTA OOP Introduction](/docs/oop_introduction.md "wikilink")
 -   [OOP](/docs/oop.md "wikilink")
 
-[Category:Tutorials](/docs/category:tutorials.md "wikilink")
+[Category:Tutorials](/docs/category-tutorials.md "wikilink")

@@ -1,4 +1,4 @@
-[frame|Example GUI edit field.](/docs/image:gui-edit.png.md "wikilink")
+[frame|Example GUI edit field.](/docs/image-gui-edit.png.md "wikilink")
 
 <table>
 <tr>
@@ -63,4 +63,4 @@ guiEditSetCaretIndex( editBox, 1 )
 See Also
 --------
 
-[ru:guiCreateEdit](/docs/ru:guicreateedit.md "wikilink")
+[ru:guiCreateEdit](/docs/ru-guicreateedit.md "wikilink")

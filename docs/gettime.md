@@ -39,4 +39,4 @@ addCommandHandler("gettime", currentTime)
 See Also
 --------
 
-[ru:getTime](/docs/ru:gettime.md "wikilink")
+[ru:getTime](/docs/ru-gettime.md "wikilink")

@@ -29,7 +29,7 @@ end
 addEventHandler("onClientCharacter", getRootElement(), outputPressedCharacter)
 ```
 
-[pl:onClientCharacter](/docs/pl:onclientcharacter.md "wikilink")
+[pl:onClientCharacter](/docs/pl-onclientcharacter.md "wikilink")
 
 See Also
 --------

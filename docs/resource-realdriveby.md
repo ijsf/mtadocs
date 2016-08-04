@@ -21,7 +21,7 @@ All settings can be modified using MTA's set() functions, modifying the meta.xml
 ### Driver weapons
 
 -   **Setting name:** *driveby\_driver*
--   **Description:** Sets the weapons that a driver can driveby with. To disable driver drivebys, just pass an empty table. See [here](/docs/resource:realdriveby#gta_driveby_compatible_weapons.md "wikilink") for compatible weapons.
+-   **Description:** Sets the weapons that a driver can driveby with. To disable driver drivebys, just pass an empty table. See [here](/docs/resource-realdriveby#gta_driveby_compatible_weapons.md "wikilink") for compatible weapons.
 -   **XML Example:**
     ``` xml
     "/>
@@ -30,7 +30,7 @@ All settings can be modified using MTA's set() functions, modifying the meta.xml
 ### Passenger weapons
 
 -   **Setting name:** *driveby\_passenger*
--   **Description:** Sets the weapons that a passenger can driveby with. To disable passenger drivebys, just pass an empty table. See [here](/docs/resource:realdriveby#gta_driveby_compatible_weapons.md "wikilink") for compatible weapons.
+-   **Description:** Sets the weapons that a passenger can driveby with. To disable passenger drivebys, just pass an empty table. See [here](/docs/resource-realdriveby#gta_driveby_compatible_weapons.md "wikilink") for compatible weapons.
 -   **XML Example:**
     ``` xml
     "/>
@@ -125,7 +125,7 @@ This function allows you to set what weapons the local player can use while a dr
 bool setDriverDrivebyAbility ( table weapons )
 ```
 
--   **weapons:** An an array/table containing weapon IDs that the driver may use. See [here](/docs/resource:realdriveby#gta_driveby_compatible_weapons.md "wikilink") for compatible weapons.
+-   **weapons:** An an array/table containing weapon IDs that the driver may use. See [here](/docs/resource-realdriveby#gta_driveby_compatible_weapons.md "wikilink") for compatible weapons.
 
 ### getDriverDrivebyAbility
 
@@ -145,7 +145,7 @@ This function allows you to set what weapons the local player can use while a pa
 bool setPassengerDrivebyAbility ( table weapons )
 ```
 
--   **weapons:** An an array/table containing weapon IDs that the passenger may use. See [here](/docs/resource:realdriveby#gta_driveby_compatible_weapons.md "wikilink") for compatible weapons.
+-   **weapons:** An an array/table containing weapon IDs that the passenger may use. See [here](/docs/resource-realdriveby#gta_driveby_compatible_weapons.md "wikilink") for compatible weapons.
 
 ### getPassengerDrivebyAbility
 
@@ -386,4 +386,4 @@ Minigun
 </td>
 </tr>
 </table>
-[ru:<Resource:Realdriveby>](/docs/ru:resource:realdriveby.md "wikilink")
+[ru:<Resource:Realdriveby>](/docs/ru-resource-realdriveby.md "wikilink")

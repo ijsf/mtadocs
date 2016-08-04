@@ -36,4 +36,4 @@ addCommandHandler ( "setfps", fpsFunction ) -- Attach the setfps command to fpsF
 See Also
 --------
 
-[pl:setFPSLimit](/docs/pl:setfpslimit.md "wikilink") [ru:setFPSLimit](/docs/ru:setfpslimit.md "wikilink")
+[pl:setFPSLimit](/docs/pl-setfpslimit.md "wikilink") [ru:setFPSLimit](/docs/ru-setfpslimit.md "wikilink")

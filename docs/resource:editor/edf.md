@@ -10,7 +10,7 @@ The problem with these custom elements is that, unlike built-in MTA elements, th
 Using definition files in the editor
 ------------------------------------
 
-As described in the [main editor manual](/docs/resource:editor.md "wikilink"), to be able to create the custom elements of a resource in your map you need to add it in the *Definitions* window. Click the *Definitions* button in the main menu and double click the resource in the left list. Then close the window and roll the mousewheel in the element panel until the resource comes up. At that point you can create and manipulate custom elements of that resource like any other element.
+As described in the [main editor manual](/docs/resource-editor.md "wikilink"), to be able to create the custom elements of a resource in your map you need to add it in the *Definitions* window. Click the *Definitions* button in the main menu and double click the resource in the left list. Then close the window and roll the mousewheel in the element panel until the resource comes up. At that point you can create and manipulate custom elements of that resource like any other element.
 
 Writing EDF files
 -----------------
@@ -219,4 +219,4 @@ These are the types you can choose from for the properties (&lt;data&gt;) of you
 | element:type            | Element of a certain type, for example: element:flag | The element's ID   |
 | selection:val1,val2,... | Shows a dropdown box from which to pick one value.   | The selected value |
 
-[ru:<Resource:Editor/EDF>](/docs/ru:resource:editor/edf.md "wikilink")
+[ru:<Resource:Editor/EDF>](/docs/ru-resource-editor/edf.md "wikilink")

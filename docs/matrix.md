@@ -107,4 +107,4 @@ local positionBelow = {offX-pX, offY-pY, offZ-pZ}
 local positionBelow = vehicle.position - vehicle.matrix.up
 ```
 
-[ru:Matrix](/docs/ru:matrix.md "wikilink") [Category:OOP](/docs/category:oop.md "wikilink")
+[ru:Matrix](/docs/ru-matrix.md "wikilink") [Category:OOP](/docs/category-oop.md "wikilink")

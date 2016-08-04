@@ -120,4 +120,4 @@ Go back to [Character skins](/docs/character_skins.md "wikilink")
 
 '''309 '''![Skin309.jpg](/images/skin309.jpg) '''310 '''![Skin310.jpg](/images/skin310.jpg) '''311 '''![Skin311.jpg](/images/skin311.jpg) '''312 '''![Skin312.jpg](/images/skin312.jpg)
 
-[it:Tutte Le Skin](/docs/it:tutte_le_skin.md "wikilink") [zh-cn:全部皮肤](/docs/zh-cn:全部皮肤.md "wikilink")
+[it:Tutte Le Skin](/docs/it-tutte_le_skin.md "wikilink") [zh-cn:全部皮肤](/docs/zh-cn-全部皮肤.md "wikilink")

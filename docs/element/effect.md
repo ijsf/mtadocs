@@ -115,4 +115,4 @@ Related scripting functions
 -   [setEffectDensity](/docs/seteffectdensity.md "wikilink")
 -   [setEffectDensity](/docs/seteffectdensity.md "wikilink")
 
-[Category:Element Types](/docs/category:element_types.md "wikilink") [ru:Element/Effect](/docs/ru:element/effect.md "wikilink")
+[Category:Element Types](/docs/category-element_types.md "wikilink") [ru:Element/Effect](/docs/ru-element/effect.md "wikilink")

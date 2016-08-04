@@ -1,4 +1,4 @@
-This function will let you change the color of a blip. This color is only applicable to the default blip icon ([12px](/docs/image:blipid0s.png.md "wikilink"), [12px](/docs/image:blipid0u.png.md "wikilink") or [12px](/docs/image:blipid0d.png.md "wikilink")). All other icons will ignore this.
+This function will let you change the color of a blip. This color is only applicable to the default blip icon ([12px](/docs/image-blipid0s.png.md "wikilink"), [12px](/docs/image-blipid0u.png.md "wikilink") or [12px](/docs/image-blipid0d.png.md "wikilink")). All other icons will ignore this.
 
 Syntax
 ------

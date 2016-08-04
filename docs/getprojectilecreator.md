@@ -37,4 +37,4 @@ end)
 See also
 --------
 
-[it:getProjectileCreator](/docs/it:getprojectilecreator.md "wikilink")
+[it:getProjectileCreator](/docs/it-getprojectilecreator.md "wikilink")

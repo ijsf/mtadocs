@@ -123,4 +123,4 @@ An anti-cheat helper resource called **acpanel** is included with the default re
 
 It shows the current anti-cheat status of your server, along with an option to keep your clients up to date and a basic implementation of [onPlayerModInfo](/docs/onplayermodinfo.md "wikilink") to block modified img files.
 
-[Category: Support](/docs/category:_support.md "wikilink") [ru:Anti-cheat guide](/docs/ru:anti-cheat_guide.md "wikilink")
+[Category: Support](/docs/category-_support.md "wikilink") [ru:Anti-cheat guide](/docs/ru-anti-cheat_guide.md "wikilink")

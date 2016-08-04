@@ -24,4 +24,4 @@ outputChatBox ( "The current weather ID is " .. weatherID )
 See Also
 --------
 
-[ru:getWeather](/docs/ru:getweather.md "wikilink")
+[ru:getWeather](/docs/ru-getweather.md "wikilink")

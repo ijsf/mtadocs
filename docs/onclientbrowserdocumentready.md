@@ -23,7 +23,7 @@ addEventHandler ( "onClientBrowserDocumentReady" , root ,
 )
 ```
 
-[pl:onClientBrowserDocumentReady](/docs/pl:onclientbrowserdocumentready.md "wikilink")
+[pl:onClientBrowserDocumentReady](/docs/pl-onclientbrowserdocumentready.md "wikilink")
 
 See Also
 --------

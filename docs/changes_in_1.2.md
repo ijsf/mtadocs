@@ -111,4 +111,4 @@ Editor
 
 -   None yet
 
-[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Changes in 1.2](/docs/category:changes_in_1.2.md "wikilink")
+[Category:Changelog](/docs/category-changelog.md "wikilink") [Category:Changes in 1.2](/docs/category-changes_in_1.2.md "wikilink")

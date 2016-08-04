@@ -44,4 +44,4 @@ addCommandHandler ( "checkmodules", printModuleInfo )
 See Also
 --------
 
-[ru:getModuleInfo](/docs/ru:getmoduleinfo.md "wikilink")
+[ru:getModuleInfo](/docs/ru-getmoduleinfo.md "wikilink")

@@ -38,4 +38,4 @@ addCommandHandler("deregister",onCmdDeregister)
 See Also
 --------
 
-[ar:setAccountPassword](/docs/ar:setaccountpassword.md "wikilink")
+[ar:setAccountPassword](/docs/ar-setaccountpassword.md "wikilink")

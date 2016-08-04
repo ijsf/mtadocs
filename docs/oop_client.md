@@ -874,4 +874,4 @@ DxRenderTarget
 `create (function: `[`dxCreateRenderTarget`](/docs/dxcreaterendertarget.md "wikilink")`)`
 `setAsTarget (function: `[`dxSetRenderTarget`](/docs/dxsetrendertarget.md "wikilink")`)`
 
-[Category:OOP](/docs/category:oop.md "wikilink")
+[Category:OOP](/docs/category-oop.md "wikilink")

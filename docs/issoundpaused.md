@@ -41,4 +41,4 @@ Changelog
 See Also
 --------
 
-[ar:isSoundPaused](/docs/ar:issoundpaused.md "wikilink")
+[ar:isSoundPaused](/docs/ar-issoundpaused.md "wikilink")

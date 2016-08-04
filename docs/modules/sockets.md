@@ -30,8 +30,8 @@ See Also
 
 ### Resources
 
--   [<resource:irc>](/docs/resource:irc.md "wikilink")
+-   [<resource:irc>](/docs/resource-irc.md "wikilink")
 
-[Category:Modules](/docs/category:modules.md "wikilink")
+[Category:Modules](/docs/category-modules.md "wikilink")
 
-[ru:Modules/Sockets](/docs/ru:modules/sockets.md "wikilink")
+[ru:Modules/Sockets](/docs/ru-modules/sockets.md "wikilink")

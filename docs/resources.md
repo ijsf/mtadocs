@@ -95,4 +95,4 @@ The resource system can be manipulated by script. As such, the following Servers
 
 The following events are also provided:
 
-[it:Introduzione alle Risorse](/docs/it:introduzione_alle_risorse.md "wikilink") [pt-br:Recursos](/docs/pt-br:recursos.md "wikilink") [ru:Resources](/docs/ru:resources.md "wikilink")
+[it:Introduzione alle Risorse](/docs/it-introduzione_alle_risorse.md "wikilink") [pt-br:Recursos](/docs/pt-br-recursos.md "wikilink") [ru:Resources](/docs/ru-resources.md "wikilink")

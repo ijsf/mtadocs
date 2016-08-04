@@ -1,4 +1,4 @@
-The DirectX scoreboard displays connected players, teams, pings and other data for players ingame. It also has a javascript-enabled web interface, so it can be viewed from a browser. It's created as a replacement for the old [scoreboard](/docs/resource:oldscoreboard.md "wikilink") resource created by [jbeta](/docs/user:jbeta.md "wikilink").
+The DirectX scoreboard displays connected players, teams, pings and other data for players ingame. It also has a javascript-enabled web interface, so it can be viewed from a browser. It's created as a replacement for the old [scoreboard](/docs/resource-oldscoreboard.md "wikilink") resource created by [jbeta](/docs/user-jbeta.md "wikilink").
 
 The biggest difference to the old resource is that it is created fully using MTA's DirectX drawing functions. When you add a column to the scoreboard, it's linked to the element data field of the same name, so if you add the “score” column, element data in the field “score” will be shown for all players and teams.
 
@@ -276,4 +276,4 @@ You can set the scoreboard data with setElementData:
 setElementData ( player, "Wanted level", 3 ) 
 ```
 
-[ru:<Resource:Scoreboard>](/docs/ru:resource:scoreboard.md "wikilink")
+[ru:<Resource:Scoreboard>](/docs/ru-resource-scoreboard.md "wikilink")

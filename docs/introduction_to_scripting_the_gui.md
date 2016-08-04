@@ -1,6 +1,6 @@
 One important feature in MTA:SA is the ability to script customized GUI (Graphic User Interface). The GUI consists of windows, button, edit boxes, check boxes... Almost every standard form components in graphical environments. They can be displayed while the user is in game, and used for inputs and outputs in place of traditional commands.
 
-[thumb|Admin Console GUI](/docs/image:admingui.png.md "wikilink")
+[thumb|Admin Console GUI](/docs/image-admingui.png.md "wikilink")
 
 A tutorial to make a login window
 ---------------------------------
@@ -284,6 +284,6 @@ Finally, do not forget to include the new gui.lua file in the meta.xml of the ma
 
 At this point, we now have a basic login window that checks the player's username and password when the login button is clicked. If they are correct, the player is automatically spawned.
 
-For further help with GUI, see the [GUI tutorials](/docs/:category:gui_tutorials.md "wikilink").
+For further help with GUI, see the [GUI tutorials](/docs/-category-gui_tutorials.md "wikilink").
 
-[Category:GUI\_Tutorials](/docs/category:gui_tutorials.md "wikilink") [it:Introduzione\_allo\_scripting\_della\_GUI](/docs/it:introduzione_allo_scripting_della_gui.md "wikilink") [ru:Introduction to Scripting the GUI](/docs/ru:introduction_to_scripting_the_gui.md "wikilink") [es:Introducción a la Programación de GUI](/docs/es:introducción_a_la_programación_de_gui.md "wikilink")
+[Category:GUI\_Tutorials](/docs/category-gui_tutorials.md "wikilink") [it:Introduzione\_allo\_scripting\_della\_GUI](/docs/it-introduzione_allo_scripting_della_gui.md "wikilink") [ru:Introduction to Scripting the GUI](/docs/ru-introduction_to_scripting_the_gui.md "wikilink") [es:Introducción a la Programación de GUI](/docs/es-introducción_a_la_programación_de_gui.md "wikilink")

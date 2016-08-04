@@ -9,6 +9,6 @@ Provided Functions
 -   sha384
 -   sha512
 
-[Category:Modules](/docs/category:modules.md "wikilink")
+[Category:Modules](/docs/category-modules.md "wikilink")
 
-[ru:Modules/SHA](/docs/ru:modules/sha.md "wikilink")
+[ru:Modules/SHA](/docs/ru-modules/sha.md "wikilink")

@@ -58,7 +58,7 @@ end
 ```
 
 </section>
-[ru:IsPedDucked](/docs/ru:ispedducked.md "wikilink")
+[ru:IsPedDucked](/docs/ru-ispedducked.md "wikilink")
 
 See Also
 --------

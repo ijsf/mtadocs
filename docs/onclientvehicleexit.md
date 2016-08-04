@@ -46,4 +46,4 @@ See Also
 
 ### Client event functions
 
-[es:onClientVehicleExit](/docs/es:onclientvehicleexit.md "wikilink")
+[es:onClientVehicleExit](/docs/es-onclientvehicleexit.md "wikilink")

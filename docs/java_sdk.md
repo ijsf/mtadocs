@@ -54,4 +54,4 @@ Download
 
 -   [Download Version 0.1](http://misc.opencoding.net/mta/mtajavasdk_0.1.zip)
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")

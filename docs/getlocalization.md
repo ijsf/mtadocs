@@ -34,4 +34,4 @@ addEventHandler("onClientResourceStart", resourceRoot,
 See Also
 --------
 
-[ru:GetLocalization](/docs/ru:getlocalization.md "wikilink")
+[ru:GetLocalization](/docs/ru-getlocalization.md "wikilink")

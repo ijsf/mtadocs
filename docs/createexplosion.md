@@ -156,4 +156,4 @@ addEventHandler("fakeBomb",getRootElement(),fakeBomb)
 See Also
 --------
 
-[ru:createExplosion](/docs/ru:createexplosion.md "wikilink")
+[ru:createExplosion](/docs/ru-createexplosion.md "wikilink")

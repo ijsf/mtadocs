@@ -30,4 +30,4 @@ addEventHandler("onClientProjectileCreation", getRootElement(), projectileCreati
 See also
 --------
 
-[it:getProjectileType](/docs/it:getprojectiletype.md "wikilink")
+[it:getProjectileType](/docs/it-getprojectiletype.md "wikilink")

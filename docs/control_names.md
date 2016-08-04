@@ -97,4 +97,4 @@ MTA COMMANDS
 -   **radar\_attach** Attaches the view to the local-player on the radar-map
 
 </div>
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")

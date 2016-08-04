@@ -122,4 +122,4 @@ Heres an example of a meta file using some of the tags mentioned: {{\#tag:code |
 `    `<right name="function.setPlayerMuted" access="true" />
 `    `</aclrequest>
 
-</meta> |lang=“xml”}} [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [cs:Meta.xml](/docs/cs:meta.xml.md "wikilink") [de:Meta.xml](/docs/de:meta.xml.md "wikilink") [es:Sobre el archivo “meta.xml”](/docs/es:sobre_el_archivo_"meta.xml".md "wikilink") [it:Meta.xml](/docs/it:meta.xml.md "wikilink") [pl:Meta.xml](/docs/pl:meta.xml.md "wikilink") [ru:Meta.xml](/docs/ru:meta.xml.md "wikilink")
+</meta> |lang=“xml”}} [Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink") [cs:Meta.xml](/docs/cs-meta.xml.md "wikilink") [de:Meta.xml](/docs/de-meta.xml.md "wikilink") [es:Sobre el archivo “meta.xml”](/docs/es-sobre_el_archivo_"meta.xml".md "wikilink") [it:Meta.xml](/docs/it-meta.xml.md "wikilink") [pl:Meta.xml](/docs/pl-meta.xml.md "wikilink") [ru:Meta.xml](/docs/ru-meta.xml.md "wikilink")

@@ -23,4 +23,4 @@ Related scripting functions
 -   [aclListRights](/docs/acllistrights.md "wikilink")
 -   [aclRemoveRight](/docs/aclremoveright.md "wikilink")
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")

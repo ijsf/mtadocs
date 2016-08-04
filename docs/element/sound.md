@@ -5,7 +5,7 @@ A sound element is created using [playSound3D](/docs/playsound3d.md "wikilink") 
 -   [setElementPosition](/docs/setelementposition.md "wikilink")
 -   [setElementDimension](/docs/setelementdimension.md "wikilink")
 
-Sound elements can also be manipulated using the other [Client audio functions](/docs/template:client_audio_functions.md "wikilink").
+Sound elements can also be manipulated using the other [Client audio functions](/docs/template-client_audio_functions.md "wikilink").
 
 The element type of this class is **“sound”**.
 
@@ -14,4 +14,4 @@ Related scripting functions
 
 ### Client
 
-[Category:Element Types](/docs/category:element_types.md "wikilink")
+[Category:Element Types](/docs/category-element_types.md "wikilink")

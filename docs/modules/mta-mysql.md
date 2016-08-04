@@ -51,6 +51,6 @@ A function alias is a second name for a function, which makes calling any of the
 -   result:num\_fields() is the same as result:numfields()
 -   result:free\_result() is the same as result:free()
 
-[Category:Modules](/docs/category:modules.md "wikilink")
+[Category:Modules](/docs/category-modules.md "wikilink")
 
-[ru:Modules/MTA-MySQL](/docs/ru:modules/mta-mysql.md "wikilink")
+[ru:Modules/MTA-MySQL](/docs/ru-modules/mta-mysql.md "wikilink")

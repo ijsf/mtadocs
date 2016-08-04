@@ -122,4 +122,4 @@ World functions
 XML functions
 -------------
 
-[ar:Server Scripting Functions](/docs/ar:server_scripting_functions.md "wikilink") [ru:Server Scripting Functions](/docs/ru:server_scripting_functions.md "wikilink") [es:Funciones\_del\_Server](/docs/es:funciones_del_server.md "wikilink") [de:Server-Seitige Scripting Funktionen](/docs/de:server-seitige_scripting_funktionen.md "wikilink") [pl:Server Scripting Functions](/docs/pl:server_scripting_functions.md "wikilink")
+[ar:Server Scripting Functions](/docs/ar-server_scripting_functions.md "wikilink") [ru:Server Scripting Functions](/docs/ru-server_scripting_functions.md "wikilink") [es:Funciones\_del\_Server](/docs/es-funciones_del_server.md "wikilink") [de:Server-Seitige Scripting Funktionen](/docs/de-server-seitige_scripting_funktionen.md "wikilink") [pl:Server Scripting Functions](/docs/pl-server_scripting_functions.md "wikilink")

@@ -11,7 +11,7 @@ element guiCreateComboBox ( float x, float y, float width, float height, string 
 
 ### Required Arguments
 
-[frame|Example GUI ComboBox.](/docs/image:gui-combobox.jpg.md "wikilink")
+[frame|Example GUI ComboBox.](/docs/image-gui-combobox.jpg.md "wikilink")
 
 -   **x:** A float of the 2D x position of the GUI combobox on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the GUI combobox on a player's screen. This is affected by the *relative* argument.

@@ -29,4 +29,4 @@ Server
 Client
 ------
 
-[ru:PowerupManager](/docs/ru:powerupmanager.md "wikilink")
+[ru:PowerupManager](/docs/ru-powerupmanager.md "wikilink")

@@ -80,7 +80,7 @@ addEventHandler("onClientBrowserLoadingFailed", root,
 )
 ```
 
-[pl:onClientBrowserLoadingFailed](/docs/pl:onclientbrowserloadingfailed.md "wikilink")
+[pl:onClientBrowserLoadingFailed](/docs/pl-onclientbrowserloadingfailed.md "wikilink")
 
 See Also
 --------

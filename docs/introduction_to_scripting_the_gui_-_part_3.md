@@ -4,7 +4,7 @@ In this tutorial we will make a simple city teleport window, with 3 buttons (one
 
 **Note that this tutorial builds on content covered in the [GUI Scripting Introduction](/docs/introduction_to_scripting_the_gui.md "wikilink").**
 
-[thumb|GUI Teleport Window](/docs/image:gui_teleport_tutorial.png.md "wikilink")
+[thumb|GUI Teleport Window](/docs/image-gui_teleport_tutorial.png.md "wikilink")
 
 Making the GUI
 --------------
@@ -13,7 +13,7 @@ Making the GUI
 
 The first thing we need to do is create our GUI elements. For this tutorial we will be using one [window](/docs/element/gui/window.md "wikilink"), three [buttons](/docs/element/gui/button.md "wikilink") and one [label](/docs/element/gui/text_label.md "wikilink"). We will be using **absolute** position values.
 
-As noted in [Previous tutorials](/docs/:category:gui_tutorials.md "wikilink"), all the GUI must be made client side.
+As noted in [Previous tutorials](/docs/-category-gui_tutorials.md "wikilink"), all the GUI must be made client side.
 
 If you are following on from that tutorial, open up your gui.lua file to work with.
 
@@ -294,6 +294,6 @@ Also note the use of the variable “client”, it's an internal variable used b
 
 At this point, you should have a basic teleport window, allowing the player to teleport to any of the 3 major cities in San Andreas.
 
-For further help with GUI, see the [GUI tutorials](/docs/:category:gui_tutorials.md "wikilink").
+For further help with GUI, see the [GUI tutorials](/docs/-category-gui_tutorials.md "wikilink").
 
-[Category:GUI\_Tutorials](/docs/category:gui_tutorials.md "wikilink")
+[Category:GUI\_Tutorials](/docs/category-gui_tutorials.md "wikilink")

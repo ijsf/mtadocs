@@ -37,4 +37,4 @@ end
 See Also
 --------
 
-[ru:getAlivePlayers](/docs/ru:getaliveplayers.md "wikilink")
+[ru:getAlivePlayers](/docs/ru-getaliveplayers.md "wikilink")

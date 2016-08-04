@@ -155,7 +155,7 @@ If your Linux server crashes, please obtain a backtrace and post a report on our
 
 It's usually called 'core', and usually over 100MB, and looks something like this:
 
-[`Image:Core.png`](/docs/image:core.png.md "wikilink")
+[`Image:Core.png`](/docs/image-core.png.md "wikilink")
 
 #### If you have a core dump file in the the MTA server directory:
 

@@ -30,4 +30,4 @@ addCommandHandler("play",soundFunc)
 See Also
 --------
 
-[ar:setSoundSpeed](/docs/ar:setsoundspeed.md "wikilink")
+[ar:setSoundSpeed](/docs/ar-setsoundspeed.md "wikilink")

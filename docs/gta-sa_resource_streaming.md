@@ -34,7 +34,7 @@ The internal CModelInfoSA array represents each resource entry in .IMG files. Th
 | MODEL\_QUEUE       | A slicer is currently reading data from disk for this resource.                                                                            |
 | MODEL\_RELOAD      | This resource is currently being loaded in coroutine fashion. Data that is associated with it is too big to be loaded in one go.           |
 
-[960px](/docs/file:res_loader_sys.png.md "wikilink")
+[960px](/docs/file-res_loader_sys.png.md "wikilink")
 
 ### (Threaded) Resource Reading
 
@@ -80,8 +80,8 @@ Problem with such a proposal is that the RenderWare streaming functions are hook
 
 ### Fibered Loading
 
-This is a technique utilized in MTA:Eir to improve the performance of low-end computers. It generally smoothens the FPS count of the game by removing lag-spikes. In native GTA:SA, resources are mostly loaded in one go. Using [fibered loading](/docs/mta:eir/functions/enginestreamingsetfiberedloadingenabled.md "wikilink") on the other hand, loading of resources depends on the time the Streaming system may take per frame. The time it may take is derived from the total execution time of last frame.
+This is a technique utilized in MTA:Eir to improve the performance of low-end computers. It generally smoothens the FPS count of the game by removing lag-spikes. In native GTA:SA, resources are mostly loaded in one go. Using [fibered loading](/docs/mta-eir/functions/enginestreamingsetfiberedloadingenabled.md "wikilink") on the other hand, loading of resources depends on the time the Streaming system may take per frame. The time it may take is derived from the total execution time of last frame.
 
-Imagine that a very big TXD container is stored inside of GTA3.IMG. Such resources take a relatively long time to be buffered into game memory and an initialization attempt during Streaming loading may cause a lagspike, since much data is processed at once. If fibered loading is enabled, a coroutine (a.k.a. fiber) is created for every resource loading *slicer* with its own execution stack. When the loader attempts to read resources from the buffer, the fiber executive manager checks whether the fiber has taken [its time](/docs/mta:eir/functions/enginestreamingsetfiberedperfmultiplier.md "wikilink") already. If so, it yields during the read process. Execution will continue next game frame.
+Imagine that a very big TXD container is stored inside of GTA3.IMG. Such resources take a relatively long time to be buffered into game memory and an initialization attempt during Streaming loading may cause a lagspike, since much data is processed at once. If fibered loading is enabled, a coroutine (a.k.a. fiber) is created for every resource loading *slicer* with its own execution stack. When the loader attempts to read resources from the buffer, the fiber executive manager checks whether the fiber has taken [its time](/docs/mta-eir/functions/enginestreamingsetfiberedperfmultiplier.md "wikilink") already. If so, it yields during the read process. Execution will continue next game frame.
 
-[ru:GTA:SA\_Resource\_Streaming](/docs/ru:gta:sa_resource_streaming.md "wikilink") [Category: Development](/docs/category:_development.md "wikilink")
+[ru:GTA:SA\_Resource\_Streaming](/docs/ru-gta-sa_resource_streaming.md "wikilink") [Category: Development](/docs/category-_development.md "wikilink")

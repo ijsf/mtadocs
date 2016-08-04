@@ -17,4 +17,4 @@ Requirements
 See Also
 --------
 
-[pl:GetDevelopmentMode](/docs/pl:getdevelopmentmode.md "wikilink")
+[pl:GetDevelopmentMode](/docs/pl-getdevelopmentmode.md "wikilink")

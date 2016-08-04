@@ -1,4 +1,4 @@
-A level/experience system made from scratch by [Castillo](/docs/user:castillo.md "wikilink").
+A level/experience system made from scratch by [Castillo](/docs/user-castillo.md "wikilink").
 It uses SQLite to save level and experience.
 
 Exported Functions
@@ -374,4 +374,4 @@ See also
 ========
 
 [Download page](http://community.mtasa.com/index.php?p=resources&s=details&id=1253)
-[Category:Resource](/docs/category:resource.md "wikilink")
+[Category:Resource](/docs/category-resource.md "wikilink")

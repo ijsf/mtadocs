@@ -30,4 +30,4 @@ addCommandHandler ( "gravity", getGravityLevel )
 See Also
 --------
 
-[ru:getGravity](/docs/ru:getgravity.md "wikilink")
+[ru:getGravity](/docs/ru-getgravity.md "wikilink")

@@ -36,4 +36,4 @@ addCommandHandler("isthistrainachainengine", checkTrainChainEngine)
 See also
 --------
 
-[ru:IsTrainChainEngine](/docs/ru:istrainchainengine.md "wikilink")
+[ru:IsTrainChainEngine](/docs/ru-istrainchainengine.md "wikilink")

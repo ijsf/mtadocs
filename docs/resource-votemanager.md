@@ -226,4 +226,4 @@ Default settings
 </settings>
 ```
 
-[ru:<Resource:Votemanager>](/docs/ru:resource:votemanager.md "wikilink")
+[ru:<Resource:Votemanager>](/docs/ru-resource-votemanager.md "wikilink")

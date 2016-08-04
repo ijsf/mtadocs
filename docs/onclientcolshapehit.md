@@ -31,7 +31,7 @@ end
 addEventHandler("onClientColShapeHit",getRootElement(),onClientColShapeHit)
 ```
 
-[pl:onClientColShapeHit](/docs/pl:onclientcolshapehit.md "wikilink")
+[pl:onClientColShapeHit](/docs/pl-onclientcolshapehit.md "wikilink")
 
 See Also
 --------

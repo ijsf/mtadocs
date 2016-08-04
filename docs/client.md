@@ -7,4 +7,4 @@ The players' clients are also responsible of informing the server about the stat
 Related scripting functions
 ---------------------------
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")

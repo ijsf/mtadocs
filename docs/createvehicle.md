@@ -146,4 +146,4 @@ addCommandHandler ( "tank", scriptCreateTank )
 See Also
 --------
 
-[de:createVehicle](/docs/de:createvehicle.md "wikilink") [pl:createVehicle](/docs/pl:createvehicle.md "wikilink") [RU:CreateVehicle](/docs/ru:createvehicle.md "wikilink")
+[de:createVehicle](/docs/de-createvehicle.md "wikilink") [pl:createVehicle](/docs/pl-createvehicle.md "wikilink") [RU:CreateVehicle](/docs/ru-createvehicle.md "wikilink")

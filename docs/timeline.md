@@ -158,7 +158,7 @@ References
 
 [3] <http://www.youtube.com/watch?v=zQHK8h2XAg0>
 
-[4] [MTA:mA](/docs/mta:ma.md "wikilink")
+[4] [MTA:mA](/docs/mta-ma.md "wikilink")
 
 [5] <http://files.mtasa.com/media/1yrmta.zip>
 

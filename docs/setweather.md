@@ -28,4 +28,4 @@ outputChatBox ( "Weather changed to foggy!" )
 See Also
 --------
 
-[ru:setWeather](/docs/ru:setweather.md "wikilink")
+[ru:setWeather](/docs/ru-setweather.md "wikilink")

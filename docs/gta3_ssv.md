@@ -15,7 +15,7 @@ Model: Kenji Kasen
 
 Spawn location: Pike Creek
 
-[220px](/docs/image:gta3_ssv_yakuzaspawn.jpg.md "wikilink")
+[220px](/docs/image-gta3_ssv_yakuzaspawn.jpg.md "wikilink")
 
 </td>
 <td>
@@ -24,7 +24,7 @@ Model: Miguel
 
 Spawn location: Cedar Grove
 
-[220px](/docs/image:gta3_ssv_columbianspawn.jpg.md "wikilink")
+[220px](/docs/image-gta3_ssv_columbianspawn.jpg.md "wikilink")
 
 </td>
 </tr>
@@ -35,7 +35,7 @@ Model: 8-Ball
 
 Spawn location: Witchita Gardens
 
-[220px](/docs/image:gta3_ssv_hoodspawn.jpg.md "wikilink")
+[220px](/docs/image-gta3_ssv_hoodspawn.jpg.md "wikilink")
 
 </td>
 <td>
@@ -44,7 +44,7 @@ Model: Pedestrian Cop
 
 Spawn location: Pike Creek
 
-[220px](/docs/image:gta3_ssv_copspawn.jpg.md "wikilink")
+[220px](/docs/image-gta3_ssv_copspawn.jpg.md "wikilink")
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Within the five different [Ammunation](/docs/ammunation.md "wikilink") locations
 <table>
 <tr>
 <td>
-[220px](/docs/image:mta05_speed.jpg.md "wikilink")
+[220px](/docs/image-mta05_speed.jpg.md "wikilink")
 
 </td>
 <td>
@@ -118,7 +118,7 @@ Reward: $3000
 </tr>
 <tr>
 <td>
-[220px](/docs/image:gta3_ssv_vanheist.jpg.md "wikilink")
+[220px](/docs/image-gta3_ssv_vanheist.jpg.md "wikilink")
 
 </td>
 <td>
@@ -131,7 +131,7 @@ Reward: $5000
 </tr>
 <tr>
 <td>
-[220px](/docs/image:gta3_ssv_gta.jpg.md "wikilink")
+[220px](/docs/image-gta3_ssv_gta.jpg.md "wikilink")
 
 </td>
 <td>
@@ -142,7 +142,7 @@ Steal a car from a rival gang leader and bring it to your base. Cops do not part
 </tr>
 <tr>
 <td>
-[220px](/docs/image:gta3_ssv_ransack.jpg.md "wikilink")
+[220px](/docs/image-gta3_ssv_ransack.jpg.md "wikilink")
 
 </td>
 <td>
@@ -153,7 +153,7 @@ A warehouse was once used as a firearms storage. Collect the firearms before tim
 </tr>
 <tr>
 <td>
-[220px](/docs/image:ssv_scramble.png.md "wikilink")
+[220px](/docs/image-ssv_scramble.png.md "wikilink")
 
 </td>
 <td>
@@ -163,4 +163,4 @@ A race around Shoreside Vale with up to three other players. Similar to the “T
 </td>
 </tr>
 </table>
-[Category:MTA 0.5](/docs/category:mta_0.5.md "wikilink") [Category:GTA3](/docs/category:gta3.md "wikilink") [Category:Historical](/docs/category:historical.md "wikilink") [es:GTA3\_SSV\_ES](/docs/es:gta3_ssv_es.md "wikilink")
+[Category:MTA 0.5](/docs/category-mta_0.5.md "wikilink") [Category:GTA3](/docs/category-gta3.md "wikilink") [Category:Historical](/docs/category-historical.md "wikilink") [es:GTA3\_SSV\_ES](/docs/es-gta3_ssv_es.md "wikilink")

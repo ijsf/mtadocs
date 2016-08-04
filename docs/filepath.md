@@ -4,4 +4,4 @@ Note: Server side filepaths which refer to resources will work correctly even if
 
 ### Client file security
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")

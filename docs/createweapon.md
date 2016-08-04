@@ -45,4 +45,4 @@ addCommandHandler("createminigun", createMinigunWeapon)
 See also
 --------
 
-[ru:createWeapon](/docs/ru:createweapon.md "wikilink")
+[ru:createWeapon](/docs/ru-createweapon.md "wikilink")

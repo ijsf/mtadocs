@@ -245,7 +245,7 @@ For further commands, type [help](/docs/server_commands#help.md "wikilink") in a
 Starting a map/gamemode
 -----------------------
 
-See the commands section of the documentation for [mapmanager](/docs/resource:map_manager.md "wikilink") for more information.
+See the commands section of the documentation for [mapmanager](/docs/resource-map_manager.md "wikilink") for more information.
 
 Useful Notes
 ------------
@@ -259,6 +259,6 @@ Useful Notes
 
 Why not pop over to our [Forums](http://forum.mtasa.com/) or join us on [IRC](irc://irc.multitheftauto.com/mta) (irc.multitheftauto.com \#mta - [mIRC](http://www.mirc.com))
 
-[es:Manual del Servidor](/docs/es:manual_del_servidor.md "wikilink") [de:Server Anleitung](/docs/de:server_anleitung.md "wikilink") [it:Manuale del Server](/docs/it:manuale_del_server.md "wikilink") [nl:Server Manual](/docs/nl:server_manual.md "wikilink") [ru:Server Manual](/docs/ru:server_manual.md "wikilink") [pl:Server Manual](/docs/pl:server_manual.md "wikilink") [pt-br:Manual do Servidor](/docs/pt-br:manual_do_servidor.md "wikilink") [hu:Server Manual](/docs/hu:server_manual.md "wikilink")
+[es:Manual del Servidor](/docs/es-manual_del_servidor.md "wikilink") [de:Server Anleitung](/docs/de-server_anleitung.md "wikilink") [it:Manuale del Server](/docs/it-manuale_del_server.md "wikilink") [nl:Server Manual](/docs/nl-server_manual.md "wikilink") [ru:Server Manual](/docs/ru-server_manual.md "wikilink") [pl:Server Manual](/docs/pl-server_manual.md "wikilink") [pt-br:Manual do Servidor](/docs/pt-br-manual_do_servidor.md "wikilink") [hu:Server Manual](/docs/hu-server_manual.md "wikilink")
 
-[Category:Support](/docs/category:support.md "wikilink")
+[Category:Support](/docs/category-support.md "wikilink")

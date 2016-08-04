@@ -37,4 +37,4 @@ addEventHandler ( "onResourceStart", getResourceRootElement(), logoutAll )
 See Also
 --------
 
-[ar:setAccountPassword](/docs/ar:setaccountpassword.md "wikilink")
+[ar:setAccountPassword](/docs/ar-setaccountpassword.md "wikilink")

@@ -166,4 +166,4 @@ OTHER
 -   **=**
 
 </div>
-[pl:Key names](/docs/pl:key_names.md "wikilink") [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[pl:Key names](/docs/pl-key_names.md "wikilink") [Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")

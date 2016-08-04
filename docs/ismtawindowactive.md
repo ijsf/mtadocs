@@ -35,4 +35,4 @@ setTimer ( dontAllowAnyOpenWindow, 50, 0 )
 See Also
 --------
 
-[ru:isMTAWindowActive](/docs/ru:ismtawindowactive.md "wikilink")
+[ru:isMTAWindowActive](/docs/ru-ismtawindowactive.md "wikilink")

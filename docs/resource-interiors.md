@@ -177,4 +177,4 @@ The [source](/docs/event_system#event_source.md "wikilink") of this event is the
 
 ### Examples
 
-**Coming soon** [ru:<Resource:Interiors>](/docs/ru:resource:interiors.md "wikilink")
+**Coming soon** [ru:<Resource:Interiors>](/docs/ru-resource-interiors.md "wikilink")

@@ -29,4 +29,4 @@ end
 See Also
 --------
 
-[ru:setUnbanTime](/docs/ru:setunbantime.md "wikilink")
+[ru:setUnbanTime](/docs/ru-setunbantime.md "wikilink")

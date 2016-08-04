@@ -120,7 +120,7 @@
 |                                                                           |
 |---------------------------------------------------------------------------|
 | <div style="padding-left: 15px; padding-right: 15px;" class="plainlinks"> 
- [left|85px|link=Archive](/docs/file:mtalogo_8ball.png.md "wikilink")            
+ [left|85px|link=Archive](/docs/file-mtalogo_8ball.png.md "wikilink")            
                                                                             
  -   **About [Multi Theft Auto](/docs/multi_theft_auto.md "wikilink")**          
  -   [Archive](/docs/archive.md "wikilink")                                      

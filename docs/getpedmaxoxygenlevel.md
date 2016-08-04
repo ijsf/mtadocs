@@ -1,6 +1,6 @@
 <lowercasetitle></lowercasetitle>
 
-This functions gets the maximum oxigen level a [ped](/docs/ped.md "wikilink") should have, considering its max underwater stamina (225) [stat](/docs/template:stats.md "wikilink").
+This functions gets the maximum oxigen level a [ped](/docs/ped.md "wikilink") should have, considering its max underwater stamina (225) [stat](/docs/template-stats.md "wikilink").
 
 Syntax
 ------

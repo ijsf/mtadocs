@@ -129,14 +129,14 @@ There are basicially two ways to use the helpmanager:
 -   Provide a simple text that explains how to use your gamemode
 -   Request a GUI element from the helpmanager that will be displayed in its own tab in the helpmanager window and lets you add any GUI elements to it. This is the recommended way for gamemodes that need to display more complex information that needs its own GUI.
 
-Read the [helpmanager help page](/docs/resource:helpmanager.md "wikilink") for details on how to do it.
+Read the [helpmanager help page](/docs/resource-helpmanager.md "wikilink") for details on how to do it.
 
 ### Scoreboard
 
-Scoreboard displays players and teams currently ingame. You add custom columns to it to provide map specific information. For example the column 'points' in the 'ctf' gamemode could represent the player's points gained through kills or captures. As usual, see the [scoreboard help page](/docs/resource:dxscoreboard.md "wikilink") for more information.
+Scoreboard displays players and teams currently ingame. You add custom columns to it to provide map specific information. For example the column 'points' in the 'ctf' gamemode could represent the player's points gained through kills or captures. As usual, see the [scoreboard help page](/docs/resource-dxscoreboard.md "wikilink") for more information.
 
 ### Map cycler
 
 The map cycler controls what gamemodes and maps are played on a server. You can specifiy for example how many times in a row a map will be played until it switches to the next. To achieve this, you need to tell the map cycler when your gamemode finished (e.g. when a round ends).
 
-[it:Scrivere una gamemode](/docs/it:scrivere_una_gamemode.md "wikilink") [ru:Writing Gamemodes](/docs/ru:writing_gamemodes.md "wikilink") [de:Gamemodes schreiben](/docs/de:gamemodes_schreiben.md "wikilink") [Category:Tutorials](/docs/category:tutorials.md "wikilink")
+[it:Scrivere una gamemode](/docs/it-scrivere_una_gamemode.md "wikilink") [ru:Writing Gamemodes](/docs/ru-writing_gamemodes.md "wikilink") [de:Gamemodes schreiben](/docs/de-gamemodes_schreiben.md "wikilink") [Category:Tutorials](/docs/category-tutorials.md "wikilink")

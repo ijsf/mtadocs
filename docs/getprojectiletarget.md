@@ -38,4 +38,4 @@ addCommandHandler("rocket",projectileCreating) -- Bind the 'rocket' command to p
 See also
 --------
 
-[it:getProjectileTarget](/docs/it:getprojectiletarget.md "wikilink")
+[it:getProjectileTarget](/docs/it-getprojectiletarget.md "wikilink")

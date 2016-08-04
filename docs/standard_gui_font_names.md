@@ -38,6 +38,6 @@ sa-gothic
 </div>
 Beckett regular, 47px auto-scaled
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")
 
-[ru:GUI Fonts](/docs/ru:gui_fonts.md "wikilink")
+[ru:GUI Fonts](/docs/ru-gui_fonts.md "wikilink")

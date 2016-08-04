@@ -29,6 +29,6 @@ This provides automatic memory cleanup when you forget to destroy images some re
 Functions
 ---------
 
-[Category:Modules](/docs/category:modules.md "wikilink")
+[Category:Modules](/docs/category-modules.md "wikilink")
 
-[ru:Modules/Texturizer](/docs/ru:modules/texturizer.md "wikilink")
+[ru:Modules/Texturizer](/docs/ru-modules/texturizer.md "wikilink")

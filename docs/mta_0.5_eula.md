@@ -18,4 +18,4 @@ NO WARRANTY
 END OF TERMS AND CONDITIONS
 This license will terminate automatically and the software may not be used if you fail to comply with any of the above terms and conditions. The license may be terminated by either party at any time and without notice. The owner of the software has reserved the right to change the EULA at any time. The latest version of the EULA can be found at any time on the website.
 
-[Category: MTA 0.5](/docs/category:_mta_0.5.md "wikilink") [Category: Historical](/docs/category:_historical.md "wikilink")
+[Category: MTA 0.5](/docs/category-_mta_0.5.md "wikilink") [Category: Historical](/docs/category-_historical.md "wikilink")

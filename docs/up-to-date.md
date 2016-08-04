@@ -73,6 +73,6 @@ See also
 -   [IRC Channel](/docs/irc_channel.md "wikilink")
 -   [Multi Theft Auto Bugtracker](http://bugs.mtasa.com)
 
-[ru:Up-to-date](/docs/ru:up-to-date.md "wikilink")
+[ru:Up-to-date](/docs/ru-up-to-date.md "wikilink")
 
-[Category:Support](/docs/category:support.md "wikilink")
+[Category:Support](/docs/category-support.md "wikilink")

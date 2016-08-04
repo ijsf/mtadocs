@@ -20,4 +20,4 @@ The complete list of classes to be found in scripts follows:
 -   [XML node](/docs/xmlnode.md "wikilink")
 -   [Connection](/docs/connection.md "wikilink")
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [es:Clases MTA](/docs/es:clases_mta.md "wikilink") [it:Classi di MTA](/docs/it:classi_di_mta.md "wikilink") [ru:Классы MTA](/docs/ru:Классы_mta.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink") [es:Clases MTA](/docs/es-clases_mta.md "wikilink") [it:Classi di MTA](/docs/it-classi_di_mta.md "wikilink") [ru:Классы MTA](/docs/ru-Классы_mta.md "wikilink")

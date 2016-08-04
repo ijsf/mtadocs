@@ -9,7 +9,7 @@ element guiCreateProgressBar ( float x, float y, float width, float height, bool
 
 ### Required Arguments
 
-[frame|Example GUI progress bar.](/docs/image:gui-progressbar.png.md "wikilink")
+[frame|Example GUI progress bar.](/docs/image-gui-progressbar.png.md "wikilink")
 
 -   **x:** A float of the 2D x position of the progress bar on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the progress bar on a player's screen. This is affected by the *relative* argument.

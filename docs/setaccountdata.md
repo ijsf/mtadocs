@@ -62,4 +62,4 @@ setAccountData(account, "myKey", tostring(0.123))
 See Also
 --------
 
-[ar:setAccountData](/docs/ar:setaccountdata.md "wikilink") [es:setAccountData](/docs/es:setaccountdata.md "wikilink")
+[ar:setAccountData](/docs/ar-setaccountdata.md "wikilink") [es:setAccountData](/docs/es-setaccountdata.md "wikilink")

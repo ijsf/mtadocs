@@ -3,7 +3,7 @@
 | <div style="/*border: 1px solid #D8D8D8;*/ padding: 5px; height: 100%; text-align:center;">                                   
  **Multi Theft Auto Archive**                                                                                                   
                                                                                                                                 
- [100px|link=Archive](/docs/file:mtalogo_8ball.png.md "wikilink")                                                                    
+ [100px|link=Archive](/docs/file-mtalogo_8ball.png.md "wikilink")                                                                    
                                                                                                                                 
  \[ Eliminating the need to play with yourself since [2003](/docs/version_history#list_of_.28released.29_versions.md "wikilink") \]  
                                                                                                                                 
@@ -18,7 +18,7 @@
                                                                                                                                                                                                                             
  </h3>                                                                                                                                                                                                                      
  <div style="background: #FFEEAA; border: 1px solid #FFCD19;">                                                                                                                                                              
- [link=<http://hosting.jworld137.com/files/mta05r2_full_installer.exe>](/docs/file:go-down.png.md "wikilink") *' [Download Multi Theft Auto 0.5r2](https://mega.co.nz/#!DFNz2JSY!3-Yc3y0ek40HG7MTrH6kxuphmojlzqtBrCeQ4feM84U)*'  
+ [link=<http://hosting.jworld137.com/files/mta05r2_full_installer.exe>](/docs/file-go-down.png.md "wikilink") *' [Download Multi Theft Auto 0.5r2](https://mega.co.nz/#!DFNz2JSY!3-Yc3y0ek40HG7MTrH6kxuphmojlzqtBrCeQ4feM84U)*'  
                                                                                                                                                                                                                             
  </div>                                                                                                                                                                                                                     
  -   [Known Issues](/docs/mta_0.5r2_known_issues.md "wikilink")                                                                                                                                                                  
@@ -30,8 +30,8 @@
                                                                                                                                                                                                                             
  ### Gamemodes                                                                                                                                                                                                              
                                                                                                                                                                                                                             
- -   [Vice City Deathmatch](/docs/mta:vc_deathmatch_gamemode.md "wikilink")                                                                                                                                                      
- -   [Vice City Stunt](/docs/mta:vc_stunt_gamemode.md "wikilink")                                                                                                                                                                
+ -   [Vice City Deathmatch](/docs/mta-vc_deathmatch_gamemode.md "wikilink")                                                                                                                                                      
+ -   [Vice City Stunt](/docs/mta-vc_stunt_gamemode.md "wikilink")                                                                                                                                                                
  -   [GTA3 Shoreside Vale](/docs/gta3_ssv.md "wikilink")                                                                                                                                                                         
  -   [GTA3 Portland](/docs/gta3_portland.md "wikilink")                                                                                                                                                                          
  -   [GTA3 Staunton](/docs/gta3_staunton.md "wikilink")                                                                                                                                                                          
@@ -47,9 +47,9 @@
                                                                                                                                                                                                                             
  </h3>                                                                                                                                                                                                                      
  -   [Race File Archive](http://files.mtasa.com/apps/1.0/race/)                                                                                                                                                             
- -   [Frequently Asked Questions (FAQ)](/docs/mta:sa_race_faq.md "wikilink")                                                                                                                                                     
+ -   [Frequently Asked Questions (FAQ)](/docs/mta-sa_race_faq.md "wikilink")                                                                                                                                                     
  -   [Blue](/docs/blue.md "wikilink") - Information about the *Blue Core* for race.                                                                                                                                              
- -   [Windows Server Guide](/docs/mta:sa_race-windows_server_guide.md "wikilink")                                                                                                                                                
+ -   [Windows Server Guide](/docs/mta-sa_race-windows_server_guide.md "wikilink")                                                                                                                                                
                                                                                                                                                                                                                             
  <div style="font-size: 85%; padding-top: 10px;">                                                                                                                                                                           
  MTA:San Andreas Race only works on Windows XP                                                                                                                                                                              

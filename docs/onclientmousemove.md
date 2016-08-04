@@ -41,7 +41,7 @@ addEventHandler( "onClientMouseMove", getRootElement( ),
 )
 ```
 
-[pl:onClientMouseMove](/docs/pl:onclientmousemove.md "wikilink")
+[pl:onClientMouseMove](/docs/pl-onclientmousemove.md "wikilink")
 
 See Also
 --------

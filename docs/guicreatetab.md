@@ -9,7 +9,7 @@ element guiCreateTab ( string text, element parent )
 
 ### Required Arguments
 
-[frame|Example GUI tab panel with two tabs.](/docs/image:gui-tabpanelandtab.png.md "wikilink")
+[frame|Example GUI tab panel with two tabs.](/docs/image-gui-tabpanelandtab.png.md "wikilink")
 
 -   **text:** The caption for the tab
 -   **parent:** The parent tab panel, as a tab panel [element](/docs/element.md "wikilink") type

@@ -32,4 +32,4 @@ outputChatBox ( "Font used in the GUI label: " .. guiGetFont ( dummyGuiElement )
 See Also
 --------
 
-[ru:guiGetFont](/docs/ru:guigetfont.md "wikilink")
+[ru:guiGetFont](/docs/ru-guigetfont.md "wikilink")

@@ -1,4 +1,4 @@
-This function sets the spawn wave time. This can be used in conjunction with [spawnPlayerAtSpawnpoint](/docs/resource:spawnmanager/spawnplayeratspawnpoint.md "wikilink") to spawn players when a wave is reached.
+This function sets the spawn wave time. This can be used in conjunction with [spawnPlayerAtSpawnpoint](/docs/resource-spawnmanager/spawnplayeratspawnpoint.md "wikilink") to spawn players when a wave is reached.
 
 Syntax
 ------

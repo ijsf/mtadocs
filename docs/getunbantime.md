@@ -37,4 +37,4 @@ addCommandHandler ( "bans", listBans ) -- Add "/bans" as the trigger for the fun
 See Also
 --------
 
-[ru:getUnbanTime](/docs/ru:getunbantime.md "wikilink")
+[ru:getUnbanTime](/docs/ru-getunbantime.md "wikilink")

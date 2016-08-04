@@ -66,4 +66,4 @@ addCommandHandler( "give",
 See Also
 --------
 
-[ru:giveWeapon](/docs/ru:giveweapon.md "wikilink")
+[ru:giveWeapon](/docs/ru-giveweapon.md "wikilink")

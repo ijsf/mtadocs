@@ -57,4 +57,4 @@ end)
 See Also
 --------
 
-[Category:Needs\_More\_Examples](/docs/category:needs_more_examples.md "wikilink")
+[Category:Needs\_More\_Examples](/docs/category-needs_more_examples.md "wikilink")

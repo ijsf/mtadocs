@@ -59,4 +59,4 @@ There are no limits on the amount of moving, hidden or showing parts and anythin
 
 This means that there is nothing stopping anyone from making a fully transforming transformer robot which changes from a car to a robot but this will require a lot of work on both the modelling and scripting side.
 
-[Category:ID Lists](/docs/category:id_lists.md "wikilink")
+[Category:ID Lists](/docs/category-id_lists.md "wikilink")

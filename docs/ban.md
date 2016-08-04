@@ -11,6 +11,6 @@ A [ban](/docs/ban.md "wikilink") is a pointer that represents a banned player ar
 -   [getBanUsername](/docs/getbanusername.md "wikilink")
 -   [removeBan](/docs/removeban.md "wikilink")
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")
 
-[ar:الباند](/docs/ar:الباند.md "wikilink") [de:Bann](/docs/de:bann.md "wikilink") [ru:Ban](/docs/ru:ban.md "wikilink")
+[ar:الباند](/docs/ar-الباند.md "wikilink") [de:Bann](/docs/de-bann.md "wikilink") [ru:Ban](/docs/ru-ban.md "wikilink")

@@ -2,9 +2,9 @@ MTA:VC 0.5 is part of Multi Theft Auto 0.5, which is currently the latest MTA re
 
 It includes two game modes:
 
--   [Deathmatch](/docs/mta:vc_deathmatch_gamemode.md "wikilink")
--   [Stunt Mode](/docs/mta:vc_stunt_gamemode.md "wikilink")
+-   [Deathmatch](/docs/mta-vc_deathmatch_gamemode.md "wikilink")
+-   [Stunt Mode](/docs/mta-vc_stunt_gamemode.md "wikilink")
 
-It is compatible with [MTA:mA v3](/docs/mta:ma#v3_series.md "wikilink").
+It is compatible with [MTA:mA v3](/docs/mta-ma#v3_series.md "wikilink").
 
-[Category: MTA 0.5](/docs/category:_mta_0.5.md "wikilink") [Category: Vice City](/docs/category:_vice_city.md "wikilink")
+[Category: MTA 0.5](/docs/category-_mta_0.5.md "wikilink") [Category: Vice City](/docs/category-_vice_city.md "wikilink")

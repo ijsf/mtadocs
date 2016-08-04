@@ -69,4 +69,4 @@ Requirements
 See also
 --------
 
-[ru:setWeaponAmmo](/docs/ru:setweaponammo.md "wikilink")
+[ru:setWeaponAmmo](/docs/ru-setweaponammo.md "wikilink")

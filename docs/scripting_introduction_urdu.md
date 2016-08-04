@@ -1,4 +1,4 @@
-Ye Scripting Introduction Urdu Meu Originally Translate Ki Gai Hai, Is Meu Kisi Bhi Tarah Ke Translator Ki Madad Nahi Li Gai, Ye Officially Created Ki Gai Hi By [Bilal](/docs/user:bilal.md "wikilink"). Ye tutorial ab complete hai.
+Ye Scripting Introduction Urdu Meu Originally Translate Ki Gai Hai, Is Meu Kisi Bhi Tarah Ke Translator Ki Madad Nahi Li Gai, Ye Officially Created Ki Gai Hi By [Bilal](/docs/user-bilal.md "wikilink"). Ye tutorial ab complete hai.
 
 Lets Start
 ----------
@@ -315,4 +315,4 @@ Ab ap ko mta ki basic scripting ka pata chal chuka ho gaya ho ga aur thora sa do
 -   [Advanced Topics](/docs/advanced_topics.md "wikilink")
 -   [OOP English Scripting Introduction](/docs/oop_introduction.md "wikilink")
 
-[es:Introducción a la Programación](/docs/es:introducción_a_la_programación.md "wikilink") [it:Introduzione allo scripting](/docs/it:introduzione_allo_scripting.md "wikilink") [nl:Scripting\_introductie](/docs/nl:scripting_introductie.md "wikilink") [pt-br:Introdução ao Scripting](/docs/pt-br:introdução_ao_scripting.md "wikilink") [ru:Scripting Introduction](/docs/ru:scripting_introduction.md "wikilink") [ar:مقدمه\_في\_البرمجه](/docs/ar:مقدمه_في_البرمجه.md "wikilink") [zh-cn:脚本编写介绍](/docs/zh-cn:脚本编写介绍.md "wikilink") [Category:Tutorials](/docs/category:tutorials.md "wikilink")
+[es:Introducción a la Programación](/docs/es-introducción_a_la_programación.md "wikilink") [it:Introduzione allo scripting](/docs/it-introduzione_allo_scripting.md "wikilink") [nl:Scripting\_introductie](/docs/nl-scripting_introductie.md "wikilink") [pt-br:Introdução ao Scripting](/docs/pt-br-introdução_ao_scripting.md "wikilink") [ru:Scripting Introduction](/docs/ru-scripting_introduction.md "wikilink") [ar:مقدمه\_في\_البرمجه](/docs/ar-مقدمه_في_البرمجه.md "wikilink") [zh-cn:脚本编写介绍](/docs/zh-cn-脚本编写介绍.md "wikilink") [Category:Tutorials](/docs/category-tutorials.md "wikilink")

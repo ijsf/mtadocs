@@ -296,7 +296,7 @@ addEventHandler("onColShapeLeave",getRootElement(),colShapeLeave)
 Debugging Performance Issues
 ----------------------------
 
-If your server is using up more resources than it should or you just want to make sure your scripts are efficient, you can find the source of the issue by using a great tool that comes with the default resource package called [performancebrowser](/docs/resource:performancebrowser.md "wikilink"). You can start it with **'start performancebrowser**'. If it doesn't exist then you can get the latest resources from the [GitHub repository](https://github.com/multitheftauto/mtasa-resources). This tool provides an incredible amount of information for performance debugging. Memory leaks, element leaks and CPU intensive scripts are all easily findable via performancebrowser. If you use the **'d**' option in Lua timing you can see which functions are using up the CPU.
+If your server is using up more resources than it should or you just want to make sure your scripts are efficient, you can find the source of the issue by using a great tool that comes with the default resource package called [performancebrowser](/docs/resource-performancebrowser.md "wikilink"). You can start it with **'start performancebrowser**'. If it doesn't exist then you can get the latest resources from the [GitHub repository](https://github.com/multitheftauto/mtasa-resources). This tool provides an incredible amount of information for performance debugging. Memory leaks, element leaks and CPU intensive scripts are all easily findable via performancebrowser. If you use the **'d**' option in Lua timing you can see which functions are using up the CPU.
 
 To access performancebrowser you will need to go to your web browser and enter the address: [http://serverIPHere:serverHTTPPortHere/performancebrowser/](http://serverIPHere:serverHTTPPortHere/performancebrowser/) Note that the / at the end is required. So for example: <http://127.0.0.1:22005/performancebrowser/> You will then need to login with an in-game admin account or any account that has access to **'resource.performancebrowser.http**' and **'resource.ajax.http**'. Most of the information you will need are in the categories Lua timing and Lua memory, look for values that are much higher than other values.
 
@@ -351,4 +351,4 @@ function someDodgyCode()
 end
 ```
 
-[it:Guida al Debug](/docs/it:guida_al_debug.md "wikilink") [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [ru:Debugging](/docs/ru:debugging.md "wikilink") [Category:Tutorials](/docs/category:tutorials.md "wikilink")
+[it:Guida al Debug](/docs/it-guida_al_debug.md "wikilink") [Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink") [ru:Debugging](/docs/ru-debugging.md "wikilink") [Category:Tutorials](/docs/category-tutorials.md "wikilink")

@@ -39,4 +39,4 @@ See Also
 -   [Client on Linux Manual](/docs/client_on_linux_manual.md "wikilink") - For somewhat relevant information.
 -   [nightly.mtasa.com](http://nightly.mtasa.com/) - For nightly builds.
 
-[Category:Support](/docs/category:support.md "wikilink")
+[Category:Support](/docs/category-support.md "wikilink")

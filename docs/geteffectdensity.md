@@ -25,4 +25,4 @@ end)
 See also
 --------
 
-[ru:getEffectDensity](/docs/ru:geteffectdensity.md "wikilink")
+[ru:getEffectDensity](/docs/ru-geteffectdensity.md "wikilink")

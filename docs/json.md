@@ -4,4 +4,4 @@ MTA uses JSON in a number of places, most significantly it is used for communica
 
 For more general information about JSON, see <http://www.json.org>.
 
-[pl:JSON](/docs/pl:json.md "wikilink") [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[pl:JSON](/docs/pl-json.md "wikilink") [Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")

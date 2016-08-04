@@ -101,4 +101,4 @@ onHelpShown ()
 onHelpHidden ()
 ```
 
-[ru:<Resource:Helpmanager>](/docs/ru:resource:helpmanager.md "wikilink")
+[ru:<Resource:Helpmanager>](/docs/ru-resource-helpmanager.md "wikilink")

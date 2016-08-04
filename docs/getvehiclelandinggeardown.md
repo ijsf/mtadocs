@@ -33,4 +33,4 @@ end
 See Also
 --------
 
-[ru:getVehicleLandingGearDown ](/docs/ru:getvehiclelandinggeardown_.md "wikilink")
+[ru:getVehicleLandingGearDown ](/docs/ru-getvehiclelandinggeardown_.md "wikilink")

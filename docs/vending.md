@@ -113,4 +113,4 @@ vendingMachines = {
 See Also
 --------
 
-[ID Lists](/docs/id.md "wikilink") [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[ID Lists](/docs/id.md "wikilink") [Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")

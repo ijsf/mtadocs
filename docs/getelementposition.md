@@ -43,4 +43,4 @@ attachElementToElement ( samsite, myElegy, 0, 0, 0 )
 See Also
 --------
 
-[de:GetElementPosition](/docs/de:getelementposition.md "wikilink")
+[de:GetElementPosition](/docs/de-getelementposition.md "wikilink")

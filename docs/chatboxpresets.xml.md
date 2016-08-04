@@ -93,4 +93,4 @@ This file holds all the MTA ChatBox Presets. Everything in this file deals with 
 
 </chatboxpresets> |lang=“xml”}}
 
-[Category:Incomplete](/docs/category:incomplete.md "wikilink")
+[Category:Incomplete](/docs/category-incomplete.md "wikilink")

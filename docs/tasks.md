@@ -23,4 +23,4 @@ There are two types of tasks - complex tasks and simple tasks. Simple tasks actu
 
 If a complex task is in a slot, you can get what task that complex task is running using [getPedTask](/docs/getpedtask.md "wikilink") and an index value of 1. If that itself has a child task, then you can retrieve that using an index value of 2 etc.
 
-You can see a complete list of tasks on the [list of player tasks](/docs/list_of_player_tasks.md "wikilink") page. [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+You can see a complete list of tasks on the [list of player tasks](/docs/list_of_player_tasks.md "wikilink") page. [Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")

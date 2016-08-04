@@ -45,4 +45,4 @@ addEventHandler("onClientResourceStart", resourceRoot, editSongSound) -- Execute
 See Also
 --------
 
-[ar:setSoundProperties](/docs/ar:setsoundproperties.md "wikilink")
+[ar:setSoundProperties](/docs/ar-setsoundproperties.md "wikilink")

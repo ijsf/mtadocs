@@ -76,4 +76,4 @@ addCommandHandler("dance",dance)
 See Also
 --------
 
-[ru:setPedAnimation](/docs/ru:setpedanimation.md "wikilink")
+[ru:setPedAnimation](/docs/ru-setpedanimation.md "wikilink")

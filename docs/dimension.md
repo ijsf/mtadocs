@@ -17,6 +17,6 @@ See Also
 
 -   [Interior](/docs/interior.md "wikilink")
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")
 
-[de:Dimension](/docs/de:dimension.md "wikilink")
+[de:Dimension](/docs/de-dimension.md "wikilink")

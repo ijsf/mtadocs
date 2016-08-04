@@ -566,4 +566,4 @@ Timer
 `isValid (function: `[`isTimer`](/docs/istimer.md "wikilink")`)`
 `reset (function: `[`resetTimer`](/docs/resettimer.md "wikilink")`)`
 
-[Category:OOP](/docs/category:oop.md "wikilink")
+[Category:OOP](/docs/category-oop.md "wikilink")

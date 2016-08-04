@@ -1,4 +1,4 @@
-This creates a GUI scroll pane. [frame|Example GUI ScrollPane.](/docs/image:gui-scrollpane.png.md "wikilink")
+This creates a GUI scroll pane. [frame|Example GUI ScrollPane.](/docs/image-gui-scrollpane.png.md "wikilink")
 
 Syntax
 ------

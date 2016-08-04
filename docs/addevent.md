@@ -48,4 +48,4 @@ This will cause the handler to be triggered, so “test” will be output to the
 See Also
 --------
 
-[ru:addEvent](/docs/ru:addevent.md "wikilink")
+[ru:addEvent](/docs/ru-addevent.md "wikilink")

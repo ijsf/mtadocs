@@ -28,7 +28,7 @@ addEventHandler( "onClientGUIAccepted", editBox,
 )
 ```
 
-[pl:onClientGUIAccepted](/docs/pl:onclientguiaccepted.md "wikilink")
+[pl:onClientGUIAccepted](/docs/pl-onclientguiaccepted.md "wikilink")
 
 See Also
 --------

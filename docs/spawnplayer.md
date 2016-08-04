@@ -57,4 +57,4 @@ addEventHandler("onPlayerLogin", getRootElement(), spawnOnLogin)
 See Also
 --------
 
-[ru:spawnPlayer](/docs/ru:spawnplayer.md "wikilink")
+[ru:spawnPlayer](/docs/ru-spawnplayer.md "wikilink")

@@ -20,7 +20,7 @@ Example
 Issues
 ------
 
-[pl:onClientBrowserNavigate](/docs/pl:onclientbrowsernavigate.md "wikilink")
+[pl:onClientBrowserNavigate](/docs/pl-onclientbrowsernavigate.md "wikilink")
 
 See Also
 --------

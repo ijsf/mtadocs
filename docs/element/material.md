@@ -5,4 +5,4 @@ Elements which are materials:
 -   [Texture](/docs/texture.md "wikilink")
 -   [Shader](/docs/shader.md "wikilink")
 
-[pl:Element/Material](/docs/pl:element/material.md "wikilink")
+[pl:Element/Material](/docs/pl-element/material.md "wikilink")

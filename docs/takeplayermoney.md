@@ -45,4 +45,4 @@ addCommandHandler ( "takecash", takeCash )           -- add a handler function f
 See Also
 --------
 
-[ru:takePlayerMoney](/docs/ru:takeplayermoney.md "wikilink")
+[ru:takePlayerMoney](/docs/ru-takeplayermoney.md "wikilink")

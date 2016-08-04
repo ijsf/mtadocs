@@ -30,4 +30,4 @@ end)
 See also
 --------
 
-[ru:setEffectDensity](/docs/ru:seteffectdensity.md "wikilink")
+[ru:setEffectDensity](/docs/ru-seteffectdensity.md "wikilink")

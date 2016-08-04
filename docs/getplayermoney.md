@@ -51,4 +51,4 @@ addCommandHandler("checkMoney", checkMoney)                                    -
 See Also
 --------
 
-[ru:getPlayerMoney](/docs/ru:getplayermoney.md "wikilink")
+[ru:getPlayerMoney](/docs/ru-getplayermoney.md "wikilink")

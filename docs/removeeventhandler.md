@@ -44,4 +44,4 @@ addCommandHandler("stoptext", doText)
 See Also
 --------
 
-[ru:removeEventHandler](/docs/ru:removeeventhandler.md "wikilink")
+[ru:removeEventHandler](/docs/ru-removeeventhandler.md "wikilink")

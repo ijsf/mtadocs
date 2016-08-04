@@ -56,4 +56,4 @@ addCommandHandler("leet", leetmoney)
 See Also
 --------
 
-[ru:setPlayerMoney](/docs/ru:setplayermoney.md "wikilink")
+[ru:setPlayerMoney](/docs/ru-setplayermoney.md "wikilink")

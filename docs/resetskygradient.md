@@ -27,4 +27,4 @@ addCommandHandler("resetsky",
 See Also
 --------
 
-[ru:ResetSkyGradient](/docs/ru:resetskygradient.md "wikilink")
+[ru:ResetSkyGradient](/docs/ru-resetskygradient.md "wikilink")

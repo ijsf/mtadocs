@@ -40,4 +40,4 @@ Changelog
 See Also
 --------
 
-[ar:setSoundEffectEnabled](/docs/ar:setsoundeffectenabled.md "wikilink")
+[ar:setSoundEffectEnabled](/docs/ar-setsoundeffectenabled.md "wikilink")

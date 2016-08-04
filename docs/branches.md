@@ -41,7 +41,7 @@ Custom Animations is a branch for loading animations from .ifp files
 
 ### General Notes
 
-See [User:Cazomino05](/docs/user:cazomino05.md "wikilink") for bugs.
+See [User:Cazomino05](/docs/user-cazomino05.md "wikilink") for bugs.
 
 Custom Weapon Stats
 -------------------
@@ -143,7 +143,7 @@ Possibility to create ingame browser.
 
 ### Functions
 
-See [User:Jusonex](/docs/user:jusonex.md "wikilink").
+See [User:Jusonex](/docs/user-jusonex.md "wikilink").
 
 ### Media
 
@@ -153,6 +153,6 @@ See [User:Jusonex](/docs/user:jusonex.md "wikilink").
 
 ### General notes
 
-See [User:Jusonex](/docs/user:jusonex.md "wikilink").
+See [User:Jusonex](/docs/user-jusonex.md "wikilink").
 
-[Category: Development](/docs/category:_development.md "wikilink")
+[Category: Development](/docs/category-_development.md "wikilink")

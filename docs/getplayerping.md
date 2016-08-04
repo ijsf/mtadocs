@@ -50,4 +50,4 @@ addCommandHandler("ping", checkPing)
 See Also
 --------
 
-[ru:getPlayerPing](/docs/ru:getplayerping.md "wikilink")
+[ru:getPlayerPing](/docs/ru-getplayerping.md "wikilink")

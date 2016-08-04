@@ -202,6 +202,6 @@ Extra information
 
 :\* [MTASA 1.3.5 released](http://forum.mtasa.com/viewtopic.php?f=31&t=71767)
 
-[Category:Changes in 1.3](/docs/category:changes_in_1.3.md "wikilink") [Category:Incomplete](/docs/category:incomplete.md "wikilink")
+[Category:Changes in 1.3](/docs/category-changes_in_1.3.md "wikilink") [Category:Incomplete](/docs/category-incomplete.md "wikilink")
 
-[pl:Changes in 1.3.5](/docs/pl:changes_in_1.3.5.md "wikilink") [pt-br:Novidades na versão 1.3.5](/docs/pt-br:novidades_na_versão_1.3.5.md "wikilink") [fi:Uutta versiossa 1.3.5](/docs/fi:uutta_versiossa_1.3.5.md "wikilink")
+[pl:Changes in 1.3.5](/docs/pl-changes_in_1.3.5.md "wikilink") [pt-br:Novidades na versão 1.3.5](/docs/pt-br-novidades_na_versão_1.3.5.md "wikilink") [fi:Uutta versiossa 1.3.5](/docs/fi-uutta_versiossa_1.3.5.md "wikilink")

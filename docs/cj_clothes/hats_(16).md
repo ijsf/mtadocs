@@ -16,4 +16,4 @@
 |     |     |     |     |
 |     |
 
-[PL:CJ\_Clothes%5CHats\_(16)](/docs/pl:cj_clothes%5chats_(16).md "wikilink")
+[PL:CJ\_Clothes%5CHats\_(16)](/docs/pl-cj_clothes%5chats_(16).md "wikilink")

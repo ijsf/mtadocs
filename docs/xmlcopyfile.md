@@ -41,4 +41,4 @@ xmlUnloadFile(config)
 See Also
 --------
 
-[ru:xmlCopyFile](/docs/ru:xmlcopyfile.md "wikilink")
+[ru:xmlCopyFile](/docs/ru-xmlcopyfile.md "wikilink")

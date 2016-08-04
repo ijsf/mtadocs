@@ -51,4 +51,4 @@ Changelog
 See Also
 --------
 
-[ru:getRealTime](/docs/ru:getrealtime.md "wikilink")
+[ru:getRealTime](/docs/ru-getrealtime.md "wikilink")

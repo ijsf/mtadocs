@@ -34,4 +34,4 @@ addCommandHandler ( "clothes", getClothes )
 See Also
 --------
 
-[pl:GetClothesTypeName](/docs/pl:getclothestypename.md "wikilink")
+[pl:GetClothesTypeName](/docs/pl-getclothestypename.md "wikilink")

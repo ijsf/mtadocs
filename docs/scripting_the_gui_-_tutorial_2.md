@@ -4,7 +4,7 @@ In this tutorial we will look at creating GUI keypads with combination codes for
 
 **Note that this tutorial assumes you are familiar with all the content covered in the [GUI Scripting Introduction](/docs/introduction_to_scripting_gui.md "wikilink").**
 
-[thumb|GUI Keypad](/docs/image:gui_keypad_tutorial.png.md "wikilink")
+[thumb|GUI Keypad](/docs/image-gui_keypad_tutorial.png.md "wikilink")
 
 Setting up the Keypad
 ---------------------
@@ -355,4 +355,4 @@ You should now have a working example of a GUI Keypad controlling an A51 Gate.
 
 For further GUI tutorials, see [Tutorial 3 (Scrolling News Feed)](/docs/scripting_the_gui_-_tutorial_3.md "wikilink")
 
-[Category:GUI\_Tutorials](/docs/category:gui_tutorials.md "wikilink")
+[Category:GUI\_Tutorials](/docs/category-gui_tutorials.md "wikilink")

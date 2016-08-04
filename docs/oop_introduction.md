@@ -1,4 +1,4 @@
-This is a scripting tutorial explaining to you what object orientated programming is and teaching you how to use the OOP features of MTA. This was originally created by [qaisjp](/docs/user:qais.md "wikilink") ([talk](/docs/user_talk:qais.md "wikilink")) 22:48, 8 June 2014 (UTC). [Forum post.](http://forum.mtasa.com/viewtopic.php?f=148&t=76388)
+This is a scripting tutorial explaining to you what object orientated programming is and teaching you how to use the OOP features of MTA. This was originally created by [qaisjp](/docs/user-qais.md "wikilink") ([talk](/docs/user_talk-qais.md "wikilink")) 22:48, 8 June 2014 (UTC). [Forum post.](http://forum.mtasa.com/viewtopic.php?f=148&t=76388)
 
 Introduction to OOP
 -------------------
@@ -16,7 +16,7 @@ destroyElement(vehicle)
 
 More often than not, you know what you're dealing with. The variable almost always links back to the type, you would name a vehicle that exploded as **explodedVehicle**, or at-least in context you would understand that **exploded** implies a vehicle when in the **onVehicleExplode** event. So you have to write a long function *and* refer to the vehicle manually when working procedurally. Painful. Object orientated programming is very different to this and works with each “object” individually. Instead of having to call a function and referencing it inside the call, you actually call the function INSIDE the class.
 
-You probably think everything you can create and pass to functions are elements. A vehicle is an element. A player is an element. Anything that is an element is also a class. Connections create an instance of a class, but "**connection**" isn't an element, it's an instance - an object. Throughout the tutorial when I say *object*, I don't mean [createObject](/docs/createobject.md "wikilink") (unless I actually mention it, but to make things clearer I will avoid mentioning physical objects as I write this article. Here is a fancy venn diagram I created to show the simple organisation of classes and elements. [500px|left|venn diagram](/docs/file:classes,_elements_and_problem_children.png.md "wikilink") The functions on the left are sorted to show what kind of category the returned value rests in. We've got Classes, Elements and “Problem children”. Problem children aren't real categories written in the code, just functions that break rules. Everything you can play with are classes: resources, vehicles, and teams. All elements are classes, you can do:
+You probably think everything you can create and pass to functions are elements. A vehicle is an element. A player is an element. Anything that is an element is also a class. Connections create an instance of a class, but "**connection**" isn't an element, it's an instance - an object. Throughout the tutorial when I say *object*, I don't mean [createObject](/docs/createobject.md "wikilink") (unless I actually mention it, but to make things clearer I will avoid mentioning physical objects as I write this article. Here is a fancy venn diagram I created to show the simple organisation of classes and elements. [500px|left|venn diagram](/docs/file-classes,_elements_and_problem_children.png.md "wikilink") The functions on the left are sorted to show what kind of category the returned value rests in. We've got Classes, Elements and “Problem children”. Problem children aren't real categories written in the code, just functions that break rules. Everything you can play with are classes: resources, vehicles, and teams. All elements are classes, you can do:
 
 ``` lua
 destroyElement(resource)
@@ -89,4 +89,4 @@ Other useful OOP related pages:
 -   [Vector](/docs/vector.md "wikilink")
 -   [Matrix](/docs/matrix.md "wikilink")
 
-[Category:OOP](/docs/category:oop.md "wikilink") [Category:Incomplete](/docs/category:incomplete.md "wikilink") [Category:Tutorials](/docs/category:tutorials.md "wikilink")
+[Category:OOP](/docs/category-oop.md "wikilink") [Category:Incomplete](/docs/category-incomplete.md "wikilink") [Category:Tutorials](/docs/category-tutorials.md "wikilink")

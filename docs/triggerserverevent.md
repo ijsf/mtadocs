@@ -57,4 +57,4 @@ When the command “greet” is executed (by typing it in the server console or 
 See Also
 --------
 
-[ru:triggerServerEvent](/docs/ru:triggerserverevent.md "wikilink")
+[ru:triggerServerEvent](/docs/ru-triggerserverevent.md "wikilink")

@@ -57,4 +57,4 @@ setBindKeyWindowShow ( Window, "f2" ) -- Enable function on it.
 See Also
 --------
 
-[Category:Useful Functions](/docs/category:useful_functions.md "wikilink")
+[Category:Useful Functions](/docs/category-useful_functions.md "wikilink")

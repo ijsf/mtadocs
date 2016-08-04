@@ -48,4 +48,4 @@ addCommandHandler ( "kick", kickPlayerHandler )
 See Also
 --------
 
-[es:kickPlayer](/docs/es:kickplayer.md "wikilink") [ru:kickPlayer](/docs/ru:kickplayer.md "wikilink")
+[es:kickPlayer](/docs/es-kickplayer.md "wikilink") [ru:kickPlayer](/docs/ru-kickplayer.md "wikilink")

@@ -35,4 +35,4 @@ addEventHandler("onResourceStart", getResourceRootElement(), resourceStart)
 See Also
 --------
 
-[ru:setMinuteDuration](/docs/ru:setminuteduration.md "wikilink")
+[ru:setMinuteDuration](/docs/ru-setminuteduration.md "wikilink")

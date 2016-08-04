@@ -43,4 +43,4 @@ This examples adds a “jetpack” console command, which gives or removes a jet
 See Also
 --------
 
-[ru:givePedJetPack](/docs/ru:givepedjetpack.md "wikilink")
+[ru:givePedJetPack](/docs/ru-givepedjetpack.md "wikilink")

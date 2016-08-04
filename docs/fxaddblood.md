@@ -1,4 +1,4 @@
-[thumb|200px|Blood splatter](/docs/image:fxblood.png.md "wikilink") Creates a blood splatter particle effect.
+[thumb|200px|Blood splatter](/docs/image-fxblood.png.md "wikilink") Creates a blood splatter particle effect.
 
 Syntax
 ------
@@ -39,4 +39,4 @@ addEventHandler( "onClientPlayerDamage", root, BloodonDamage ) -- calls the func
 See Also
 --------
 
-[ru:FxAddBlood](/docs/ru:fxaddblood.md "wikilink")
+[ru:FxAddBlood](/docs/ru-fxaddblood.md "wikilink")

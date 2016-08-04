@@ -1,6 +1,6 @@
 Post here your proposed Q&A, regarding the known problems with MTA:SA and their solutions, especially the problems we are encountering now, that might be also encountered by users in the final release. You are also welcome to edit them grammar/style wise.
 
--   [Map editor FAQ/known issues can be found here.](/docs/resource:editor#faq.md "wikilink")
+-   [Map editor FAQ/known issues can be found here.](/docs/resource-editor#faq.md "wikilink")
 -   [Known issues for MTA 0.5r2 can be found here.](/docs/mta_0.5r2_known_issues.md "wikilink")
 
 Client
@@ -368,6 +368,6 @@ No known reported issues in .
   
 Temporary fix, disable the nohup file: 'nohup ./mta\_server &gt; /dev/null &'
 
-[es:Problemas Conocidos - FAQ](/docs/es:problemas_conocidos_-_faq.md "wikilink") [it:Bugs noti e FAQ](/docs/it:bugs_noti_e_faq.md "wikilink") [ru:Known Issues - FAQ](/docs/ru:known_issues_-_faq.md "wikilink") [de:Known Issues - FAQ](/docs/de:known_issues_-_faq.md "wikilink") [pt-br:Soluções de Problemas - FAQ](/docs/pt-br:soluções_de_problemas_-_faq.md "wikilink") [hu:Known Issues - FAQ](/docs/hu:known_issues_-_faq.md "wikilink") [zh-cn:已知问题 - 常见问题](/docs/zh-cn:已知问题_-_常见问题.md "wikilink")
+[es:Problemas Conocidos - FAQ](/docs/es-problemas_conocidos_-_faq.md "wikilink") [it:Bugs noti e FAQ](/docs/it-bugs_noti_e_faq.md "wikilink") [ru:Known Issues - FAQ](/docs/ru-known_issues_-_faq.md "wikilink") [de:Known Issues - FAQ](/docs/de-known_issues_-_faq.md "wikilink") [pt-br:Soluções de Problemas - FAQ](/docs/pt-br-soluções_de_problemas_-_faq.md "wikilink") [hu:Known Issues - FAQ](/docs/hu-known_issues_-_faq.md "wikilink") [zh-cn:已知问题 - 常见问题](/docs/zh-cn-已知问题_-_常见问题.md "wikilink")
 
-[Category:Support](/docs/category:support.md "wikilink")
+[Category:Support](/docs/category-support.md "wikilink")

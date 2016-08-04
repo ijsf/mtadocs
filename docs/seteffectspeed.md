@@ -30,4 +30,4 @@ end)
 See also
 --------
 
-[ru:setEffectSpeed](/docs/ru:seteffectspeed.md "wikilink")
+[ru:setEffectSpeed](/docs/ru-seteffectspeed.md "wikilink")

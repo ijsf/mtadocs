@@ -257,4 +257,4 @@ Additional Information
 
 -   If you don't want a specific vehicle to be respawned by assault, set it's Elementdata item 'noRespawn' to *true* by script or add the attribute noRespawn=“1” to the element in the mapfile. Remember that it will never be automatically respawned then, so if you want to have it return to it's original place, for example after the round ends or when it is destroyed, you have to respawn it yourself.
 
-[ru:<Resource:Assault>](/docs/ru:resource:assault.md "wikilink")
+[ru:<Resource:Assault>](/docs/ru-resource-assault.md "wikilink")

@@ -11,7 +11,7 @@ Syntax
 
 ### Required Arguments
 
-[thumb|An example of how dxDrawCircle function works in practice.](/docs/image:dxdrawcircle_example.png.md "wikilink")
+[thumb|An example of how dxDrawCircle function works in practice.](/docs/image-dxdrawcircle_example.png.md "wikilink")
 
 -   **posX**: An integer representing the **absolute** X position of the circle center, represented by pixels on the screen.
 -   **posY**: An integer representing the **absolute** Y position of the circle center, represented by pixels on the screen.

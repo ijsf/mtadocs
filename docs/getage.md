@@ -61,4 +61,4 @@ Function created by **Alexander de Jong AKA mrdejong**.
 See Also
 --------
 
-[pl:GetAge](/docs/pl:getage.md "wikilink")
+[pl:GetAge](/docs/pl-getage.md "wikilink")

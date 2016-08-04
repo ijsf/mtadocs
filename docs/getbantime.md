@@ -31,4 +31,4 @@ end
 See Also
 --------
 
-[ru:getBanTime](/docs/ru:getbantime.md "wikilink")
+[ru:getBanTime](/docs/ru-getbantime.md "wikilink")

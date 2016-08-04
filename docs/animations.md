@@ -2229,6 +2229,6 @@ See Also
 
 [ID Lists](/docs/id.md "wikilink")
 
-[Category:ID Lists](/docs/category:id_lists.md "wikilink")
+[Category:ID Lists](/docs/category-id_lists.md "wikilink")
 
-[de:Animationen](/docs/de:animationen.md "wikilink") [zh-cn:动画](/docs/zh-cn:动画.md "wikilink")
+[de:Animationen](/docs/de-animationen.md "wikilink") [zh-cn:动画](/docs/zh-cn-动画.md "wikilink")

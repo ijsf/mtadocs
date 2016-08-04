@@ -22,6 +22,6 @@ Then, add the following line in mtaserver.conf:
 Functions
 ---------
 
-[Category:Modules](/docs/category:modules.md "wikilink")
+[Category:Modules](/docs/category-modules.md "wikilink")
 
-[ru:Modules/hashing](/docs/ru:modules/hashing.md "wikilink")
+[ru:Modules/hashing](/docs/ru-modules/hashing.md "wikilink")

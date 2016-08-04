@@ -79,4 +79,4 @@ Extra information
 
 :\* [MTA: SA Official Resources](https://github.com/multitheftauto/mtasa-resources)
 
-[Category:Changelog](/docs/category:changelog.md "wikilink")
+[Category:Changelog](/docs/category-changelog.md "wikilink")

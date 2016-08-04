@@ -27,7 +27,7 @@ addEventHandler("onClientMouseLeave", getRootElement(), function(aX, aY)
 end)
 ```
 
-[pl:onClientMouseLeave](/docs/pl:onclientmouseleave.md "wikilink")
+[pl:onClientMouseLeave](/docs/pl-onclientmouseleave.md "wikilink")
 
 See Also
 --------

@@ -35,4 +35,4 @@ end)
 See Also
 --------
 
-[ar:getAccount](/docs/ar:getaccount.md "wikilink") [es:getAccount](/docs/es:getaccount.md "wikilink") [pl:GetAccount](/docs/pl:getaccount.md "wikilink") [ru:getAccount](/docs/ru:getaccount.md "wikilink")
+[ar:getAccount](/docs/ar-getaccount.md "wikilink") [es:getAccount](/docs/es-getaccount.md "wikilink") [pl:GetAccount](/docs/pl-getaccount.md "wikilink") [ru:getAccount](/docs/ru-getaccount.md "wikilink")

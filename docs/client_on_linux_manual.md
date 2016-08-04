@@ -94,4 +94,4 @@ See Also
 -   [nightly.mtasa.com](http://nightly.mtasa.com/) - For nightly builds.
 -   <https://bugs.mtasa.com/view.php?id=8895> - a bug report containing useful info for running MTA in Wine
 
-[Category:Support](/docs/category:support.md "wikilink") [ru:Client on Linux Manual](/docs/ru:client_on_linux_manual.md "wikilink") [hu:Client on Linux Manual](/docs/hu:client_on_linux_manual.md "wikilink")
+[Category:Support](/docs/category-support.md "wikilink") [ru:Client on Linux Manual](/docs/ru-client_on_linux_manual.md "wikilink") [hu:Client on Linux Manual](/docs/hu-client_on_linux_manual.md "wikilink")

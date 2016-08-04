@@ -118,4 +118,4 @@ Also there is Miscellaneous operators supported by Lua Language include concaten
     -- Example 2:
     outputChatBox(#W) -- Result: 5
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")

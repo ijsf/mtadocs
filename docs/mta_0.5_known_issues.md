@@ -119,4 +119,4 @@ Please follow **Aeron**'s instructions regarding its use.
 
 A big thank-you to **Mike** for discovering the cause of this problem and **Aeron** for getting a fix out so quickly.
 
-[Category:Vice\_City](/docs/category:vice_city.md "wikilink") [Category:GTA3](/docs/category:gta3.md "wikilink") [Category:MTA\_0.5](/docs/category:mta_0.5.md "wikilink")
+[Category:Vice\_City](/docs/category-vice_city.md "wikilink") [Category:GTA3](/docs/category-gta3.md "wikilink") [Category:MTA\_0.5](/docs/category-mta_0.5.md "wikilink")

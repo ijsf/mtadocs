@@ -61,4 +61,4 @@ addEventHandler(“onPlayerJoin”, getRootElement(),
 See Also
 --------
 
-[ru:xmlNodeGetChildren](/docs/ru:xmlnodegetchildren.md "wikilink")
+[ru:xmlNodeGetChildren](/docs/ru-xmlnodegetchildren.md "wikilink")

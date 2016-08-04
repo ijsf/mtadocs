@@ -21,7 +21,7 @@ Use the [batch converter](http://files.mtasa.com/apps/1.0/raceconv.zip) to conve
 Map syntax
 ----------
 
-You can create race maps using the new MTA:SA [map editor](/docs/resource:editor.md "wikilink"). The map syntax is given here for reference.
+You can create race maps using the new MTA:SA [map editor](/docs/resource-editor.md "wikilink"). The map syntax is given here for reference.
 
 ### .map file
 
@@ -307,4 +307,4 @@ Exported Server functions
                                   ```               |
 ||
 
-[ru:<Resource:Race>](/docs/ru:resource:race.md "wikilink")
+[ru:<Resource:Race>](/docs/ru-resource-race.md "wikilink")

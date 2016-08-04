@@ -201,4 +201,4 @@ addCommandHandler("pm", pmHandler)
 ```
 
 </section>
-[Category:Tutorials](/docs/category:tutorials.md "wikilink")
+[Category:Tutorials](/docs/category-tutorials.md "wikilink")

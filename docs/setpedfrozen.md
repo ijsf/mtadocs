@@ -33,4 +33,4 @@ addCommandHandler ( "togglefreeze", toggleFreeze )
 See Also
 --------
 
-[ru:setPedFrozen](/docs/ru:setpedfrozen.md "wikilink")
+[ru:setPedFrozen](/docs/ru-setpedfrozen.md "wikilink")

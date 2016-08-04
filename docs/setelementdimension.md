@@ -44,4 +44,4 @@ addEventHandler ( "onPlayerVehicleExit", root, onPlayerExitVehicle )
 See Also
 --------
 
-[de:setElementDimension](/docs/de:setelementdimension.md "wikilink")
+[de:setElementDimension](/docs/de-setelementdimension.md "wikilink")

@@ -38,4 +38,4 @@ addCommandHandler("blowsatchels", blowMySatchels)
 See also
 --------
 
-[it:detonateSatchels](/docs/it:detonatesatchels.md "wikilink") [pl:detonateSatchels](/docs/pl:detonatesatchels.md "wikilink")
+[it:detonateSatchels](/docs/it-detonatesatchels.md "wikilink") [pl:detonateSatchels](/docs/pl-detonatesatchels.md "wikilink")

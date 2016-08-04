@@ -42,4 +42,4 @@ createVehicle(carmodel, tonumber(carX), tonumber(carY), tonumber(carZ), 0.0, 0.0
 See Also
 --------
 
-[ru:xmlNodeGetAttribute](/docs/ru:xmlnodegetattribute.md "wikilink")
+[ru:xmlNodeGetAttribute](/docs/ru-xmlnodegetattribute.md "wikilink")

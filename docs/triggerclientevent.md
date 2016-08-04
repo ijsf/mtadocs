@@ -95,4 +95,4 @@ Changelog
 See Also
 --------
 
-[ru:triggerClientEvent](/docs/ru:triggerclientevent.md "wikilink")
+[ru:triggerClientEvent](/docs/ru-triggerclientevent.md "wikilink")

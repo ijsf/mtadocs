@@ -71,4 +71,4 @@ Example
 See Also
 --------
 
-[Category:Useful Functions](/docs/category:useful_functions.md "wikilink")
+[Category:Useful Functions](/docs/category-useful_functions.md "wikilink")

@@ -9,7 +9,7 @@ Syntax
 txd engineLoadTXD ( string txd_file / string raw_data [, bool filteringEnabled = true ] )
 ```
 
-[thumb|Difference between texture filtering modes (left = filtering disabled, right = filtering enabled).|284x230px](/docs/image:filtering.jpg.md "wikilink")
+[thumb|Difference between texture filtering modes (left = filtering disabled, right = filtering enabled).|284x230px](/docs/image-filtering.jpg.md "wikilink")
 
 ### Required Arguments
 

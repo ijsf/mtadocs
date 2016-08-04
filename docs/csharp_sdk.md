@@ -1,4 +1,4 @@
-Many languages can make HTTP POST requests with JSON, C\# can do too. This is C\# SDK for MTA. It allows you to call any HTTP exported functions from resources. The SDK itself is very basic and easy to use. It was mainly created to extend [MTA:Script Editor](/docs/mtase.md "wikilink") functionality. Feel free to modify it however you like but don't remove original author. If you want your changes to be published, please speak to [50p](/docs/user:50p.md "wikilink") on MTA forums [HERE](http://forum.multitheftauto.com/memberlist.php?mode=viewprofile&u=19953)
+Many languages can make HTTP POST requests with JSON, C\# can do too. This is C\# SDK for MTA. It allows you to call any HTTP exported functions from resources. The SDK itself is very basic and easy to use. It was mainly created to extend [MTA:Script Editor](/docs/mtase.md "wikilink") functionality. Feel free to modify it however you like but don't remove original author. If you want your changes to be published, please speak to [50p](/docs/user-50p.md "wikilink") on MTA forums [HERE](http://forum.multitheftauto.com/memberlist.php?mode=viewprofile&u=19953)
 
 How to
 ------

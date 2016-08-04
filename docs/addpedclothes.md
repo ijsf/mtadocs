@@ -44,4 +44,4 @@ addEventHandler ( "onPlayerVehicleExit", root, onExitVehicle )
 See Also
 --------
 
-[pl:AddPedClothes](/docs/pl:addpedclothes.md "wikilink")
+[pl:AddPedClothes](/docs/pl-addpedclothes.md "wikilink")

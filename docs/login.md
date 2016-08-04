@@ -35,4 +35,4 @@ addCommandHandler ( "log-in", loginPlayer ) -- Make it trigger for "/log-in", NO
 See Also
 --------
 
-[ru:logIn](/docs/ru:login.md "wikilink") [ar:logIn](/docs/ar:login.md "wikilink")
+[ru:logIn](/docs/ru-login.md "wikilink") [ar:logIn](/docs/ar-login.md "wikilink")

@@ -103,6 +103,6 @@
 | 125 | }     |
 | 126 | ~     |
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")
 
-[de:ASCII](/docs/de:ascii.md "wikilink")
+[de:ASCII](/docs/de-ascii.md "wikilink")

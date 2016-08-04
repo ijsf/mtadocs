@@ -151,4 +151,4 @@ Credits
 -   [Cazomino05](http://forum.mtasa.com/memberlist.php?mode=viewprofile&u=22437) - XML files with MTA functions and events.
 -   MTA Developers - Delivering the amazing GTA:SA Multiplayer MOD that has almost unlimited possibilities...
 
-[es:MTASE](/docs/es:mtase.md "wikilink")
+[es:MTASE](/docs/es-mtase.md "wikilink")

@@ -45,4 +45,4 @@ addEventHandler ( "onPlayerWasted", root, deathMessageOnWasted )
 See Also
 --------
 
-[PL:GetBodyPartName](/docs/pl:getbodypartname.md "wikilink")
+[PL:GetBodyPartName](/docs/pl-getbodypartname.md "wikilink")

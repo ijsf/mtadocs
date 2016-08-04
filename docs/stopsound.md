@@ -33,4 +33,4 @@ addCommandHandler ( "stopsound", stopMySound ) --using the command 'stopsound' w
 See Also
 --------
 
-[AR:stopSound](/docs/ar:stopsound.md "wikilink")
+[AR:stopSound](/docs/ar-stopsound.md "wikilink")

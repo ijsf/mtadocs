@@ -27,4 +27,4 @@ addCommandHandler ( "getradio",
 See Also
 --------
 
-[AR:getRadioChannel](/docs/ar:getradiochannel.md "wikilink") [RU:GetRadioChannel](/docs/ru:getradiochannel.md "wikilink") [PL:GetRadioChannel](/docs/pl:getradiochannel.md "wikilink")
+[AR:getRadioChannel](/docs/ar-getradiochannel.md "wikilink") [RU:GetRadioChannel](/docs/ru-getradiochannel.md "wikilink") [PL:GetRadioChannel](/docs/pl-getradiochannel.md "wikilink")

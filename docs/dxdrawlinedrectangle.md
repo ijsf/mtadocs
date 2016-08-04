@@ -1,4 +1,4 @@
-[:Category:Useful\_Functions](/docs/:category:useful_functions.md "wikilink")
+[:Category:Useful\_Functions](/docs/-category-useful_functions.md "wikilink")
 
 This is a function that will create a rectangle outline with dx lines.
 

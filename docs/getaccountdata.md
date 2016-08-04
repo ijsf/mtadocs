@@ -45,4 +45,4 @@ addEventHandler("onPlayerLogin", getRootElement(), onPlayerLogin) -- add an even
 See Also
 --------
 
-[ru:getAccountData](/docs/ru:getaccountdata.md "wikilink") [ar:getAccountData](/docs/ar:getaccountdata.md "wikilink") [pl:getAccountData](/docs/pl:getaccountdata.md "wikilink")
+[ru:getAccountData](/docs/ru-getaccountdata.md "wikilink") [ar:getAccountData](/docs/ar-getaccountdata.md "wikilink") [pl:getAccountData](/docs/pl-getaccountdata.md "wikilink")

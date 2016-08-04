@@ -68,4 +68,4 @@ Issues
 See also
 --------
 
-[it:createProjectile](/docs/it:createprojectile.md "wikilink")
+[it:createProjectile](/docs/it-createprojectile.md "wikilink")

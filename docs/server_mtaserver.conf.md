@@ -151,7 +151,7 @@ Minimum client version. Clients with a lower version will not be allowed to conn
 
 This parameter can changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
-**Note that this setting only determines if the client should be prompted to update. The actual build number they receive will be the [<http://nightly.mtasa.com/ver> highest available](/docs/http://nightly.mtasa.com/ver_highest_available.md "wikilink").**
+**Note that this setting only determines if the client should be prompted to update. The actual build number they receive will be the [<http://nightly.mtasa.com/ver> highest available](/docs/http-//nightly.mtasa.com/ver_highest_available.md "wikilink").**
 
 #### recommendedclientversion
 
@@ -162,7 +162,7 @@ Recommended client version. When connecting, if clients have a lower version, th
 
 This parameter can changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
-**Note that this setting only determines if the client should be prompted to update. The actual build number they receive will be the [<http://nightly.mtasa.com/ver> highest available](/docs/http://nightly.mtasa.com/ver_highest_available.md "wikilink").**
+**Note that this setting only determines if the client should be prompted to update. The actual build number they receive will be the [<http://nightly.mtasa.com/ver> highest available](/docs/http-//nightly.mtasa.com/ver_highest_available.md "wikilink").**
 
 #### ase
 
@@ -549,4 +549,4 @@ In addition, there are several flags which control how the server deals with eac
 
 :\* **default**: if given a “1”, “true” or “yes” value, this resource will be the one who populates the built-in HTTP server main page, which is seen when no resource is given in the web address. It is not possible to have more than one default resource.
 
-[Category: Support](/docs/category:_support.md "wikilink") [ru:Server mtaserver.conf](/docs/ru:server_mtaserver.conf.md "wikilink")
+[Category: Support](/docs/category-_support.md "wikilink") [ru:Server mtaserver.conf](/docs/ru-server_mtaserver.conf.md "wikilink")

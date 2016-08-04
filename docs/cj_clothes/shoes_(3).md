@@ -8,4 +8,4 @@
 |     |     |     |     |     |     |
 |     |     |
 
-[pl:CJ\_Clothes%5CShoes\_(3)](/docs/pl:cj_clothes%5cshoes_(3).md "wikilink")
+[pl:CJ\_Clothes%5CShoes\_(3)](/docs/pl-cj_clothes%5cshoes_(3).md "wikilink")

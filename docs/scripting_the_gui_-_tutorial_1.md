@@ -462,4 +462,4 @@ This comletes the second section of the tutorial.
 
 For further GUI tutorials, see [Tutorial 2 (Gates and Keypads)](/docs/scripting_the_gui_-_tutorial_2.md "wikilink")
 
-[Category:GUI\_Tutorials](/docs/category:gui_tutorials.md "wikilink")
+[Category:GUI\_Tutorials](/docs/category-gui_tutorials.md "wikilink")

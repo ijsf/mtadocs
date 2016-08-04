@@ -9,7 +9,7 @@ Syntax
  ) 
 ```
 
-[thumb|Example of how it should looks like.|284x230px](/docs/file:dxdrawimageonelement.png.md "wikilink")
+[thumb|Example of how it should looks like.|284x230px](/docs/file-dxdrawimageonelement.png.md "wikilink")
 
 Required arguments
 ------------------

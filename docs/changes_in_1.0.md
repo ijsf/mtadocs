@@ -79,7 +79,7 @@ Many of the default resources have been changed or updated, and new ones have al
 Scripting
 ---------
 
-Much of the scripting interface has changed in 1.0. Almost all resources will need updating in order to function, although the extent of this varies between scripts. All the affected scripting changes can be viewed on [Changes in 1.0](/docs/:category:changes_in_1.0.md "wikilink") page.
+Much of the scripting interface has changed in 1.0. Almost all resources will need updating in order to function, although the extent of this varies between scripts. All the affected scripting changes can be viewed on [Changes in 1.0](/docs/-category-changes_in_1.0.md "wikilink") page.
 
 ### Camera functions
 
@@ -87,4 +87,4 @@ The [Camera Functions](/docs/server_scripting_functions#camera_functions.md "wik
 
 ### Player functions
 
-Some [Player functions](/docs/server_scripting_functions#player_functions.md "wikilink") have been renamed to [Ped functions](/docs/server_scripting_functions#ped_functions.md "wikilink"). [Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Changes in 1.0](/docs/category:changes_in_1.0.md "wikilink")
+Some [Player functions](/docs/server_scripting_functions#player_functions.md "wikilink") have been renamed to [Ped functions](/docs/server_scripting_functions#ped_functions.md "wikilink"). [Category:Changelog](/docs/category-changelog.md "wikilink") [Category:Changes in 1.0](/docs/category-changes_in_1.0.md "wikilink")

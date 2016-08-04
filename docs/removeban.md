@@ -49,4 +49,4 @@ end
 See Also
 --------
 
-[ru:removeBan](/docs/ru:removeban.md "wikilink")
+[ru:removeBan](/docs/ru-removeban.md "wikilink")

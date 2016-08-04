@@ -50,4 +50,4 @@ addCommandHandler("markercolor", changeConfigMarkerColor)
 See Also
 --------
 
-[ru:xmlNodeSetAttribute](/docs/ru:xmlnodesetattribute.md "wikilink")
+[ru:xmlNodeSetAttribute](/docs/ru-xmlnodesetattribute.md "wikilink")

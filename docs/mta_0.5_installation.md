@@ -39,7 +39,7 @@ Joining a server
 
 '''NOTE: Currently, there is no functioning built-in server browser due to the All Seeing Eye shutting down several years ago. There is an external server browsing application bundled with the [latest repack of MTA 0.5's installer](http://dl.dropbox.com/u/12783812/mta05r2_full_installer.exe).
 
-[475px](/docs/image:mtaserverbrowser0.5.png.md "wikilink")
+[475px](/docs/image-mtaserverbrowser0.5.png.md "wikilink")
 
 Starting the game
 -----------------
@@ -59,6 +59,6 @@ Once you're in-game it should be quite self explanatory. You can chat using by p
 
 '''Have fun! '''
 
-[nl:MTA 0.5 Installatie](/docs/nl:mta_0.5_installatie.md "wikilink")
+[nl:MTA 0.5 Installatie](/docs/nl-mta_0.5_installatie.md "wikilink")
 
-[Category:MTA 0.5](/docs/category:mta_0.5.md "wikilink")
+[Category:MTA 0.5](/docs/category-mta_0.5.md "wikilink")

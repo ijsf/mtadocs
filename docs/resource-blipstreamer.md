@@ -9,5 +9,5 @@ Functions
 
 Blip Streamer exports two functions, both clientside and serverside:
 
--   [setBlipStreamable](/docs/resource:blipstreamer/setblipstreamable.md "wikilink")
--   [getBlipStreamRadius](/docs/resource:blipstreamer/getblipstreamradius.md "wikilink")
+-   [setBlipStreamable](/docs/resource-blipstreamer/setblipstreamable.md "wikilink")
+-   [getBlipStreamRadius](/docs/resource-blipstreamer/getblipstreamradius.md "wikilink")

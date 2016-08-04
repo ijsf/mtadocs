@@ -67,14 +67,14 @@ List of (released) versions
 MTA 0.5
 -------
 
-The latest stable release for GTA III and GTA: Vice City bundled in one client and server. This release was also the first version that had a server browser build in the client. [Spawnscreen in Vice City at Robbers spawn|right|thumb|230px](/docs/file:800px-robber.jpg.md "wikilink")
+The latest stable release for GTA III and GTA: Vice City bundled in one client and server. This release was also the first version that had a server browser build in the client. [Spawnscreen in Vice City at Robbers spawn|right|thumb|230px](/docs/file-800px-robber.jpg.md "wikilink")
 
 ### Gamemodes
 
 | GTA                                           | Gamemode Name                                           | Uses Spawnscreen |
 |-----------------------------------------------|---------------------------------------------------------|------------------|
-| GTA: Vice City                                | [Deathmatch](/docs/mta:vc_deathmatch_gamemode.md "wikilink") |                  |
-| [Stunt](/docs/mta:vc_stunt_gamemode.md "wikilink") |                                                         |
+| GTA: Vice City                                | [Deathmatch](/docs/mta-vc_deathmatch_gamemode.md "wikilink") |                  |
+| [Stunt](/docs/mta-vc_stunt_gamemode.md "wikilink") |                                                         |
 | GTA III                                       | [Portland](/docs/gta3_portland.md "wikilink")                |                  |
 | [Shoreside Vale](/docs/gta3_ssv.md "wikilink")     |                                                         |
 | [Staunton](/docs/gta3_staunton.md "wikilink")      |                                                         |
@@ -144,10 +144,10 @@ The latest stable release for GTA III and GTA: Vice City bundled in one client a
 -   [EULA](/docs/mta_0.5_eula.md "wikilink")
 -   [Installation](/docs/mta_0.5_installation.md "wikilink")
 -   [Known Issues](/docs/mta_0.5_known_issues.md "wikilink")
--   [0.5 Vice City](/docs/mta:vc_0.5.md "wikilink")
--   [Vice City Deathmatch Gamemode](/docs/mta:vc_deathmatch_gamemode.md "wikilink")
--   [Vice City Stunt Gamemode](/docs/mta:vc_stunt_gamemode.md "wikilink")
--   [MTA:mA](/docs/mta:ma.md "wikilink")
+-   [0.5 Vice City](/docs/mta-vc_0.5.md "wikilink")
+-   [Vice City Deathmatch Gamemode](/docs/mta-vc_deathmatch_gamemode.md "wikilink")
+-   [Vice City Stunt Gamemode](/docs/mta-vc_stunt_gamemode.md "wikilink")
+-   [MTA:mA](/docs/mta-ma.md "wikilink")
 -   [Using the server with screen utility](/docs/using_a_0.5_server_with_screen.md "wikilink")
 
 ### See Also
@@ -159,7 +159,7 @@ MTA:San Andreas Race
 
 MTA:SA Race is the first release that was made with the blue framework, a new approach to control the game (GTA). The sync was also better over the previous releases and the client is in game not an external application. Notice the blue GUI in the screenshot.
 
-A new slogan was introduced: “Stop Playing With Yourself.” [MTA Loading screen with the new slogan: “Stop Playing With Yourself.”|thumb|230px](/docs/file:mtavcbluelaunching.png.md "wikilink")
+A new slogan was introduced: “Stop Playing With Yourself.” [MTA Loading screen with the new slogan: “Stop Playing With Yourself.”|thumb|230px](/docs/file-mtavcbluelaunching.png.md "wikilink")
 
 ### Gamemodes
 
@@ -173,7 +173,7 @@ As the name suggests it is only race (you cannot get out of your vehicle).
 
 ### Features
 
-[Racing in MTA:SA|right|thumb|230px](/docs/file:mtasa-race-racing.jpg.md "wikilink")
+[Racing in MTA:SA|right|thumb|230px](/docs/file-mtasa-race-racing.jpg.md "wikilink")
 
 -   In game client.
 -   Map Editor to create a map in game.
@@ -214,16 +214,16 @@ No more releases for MTA:SA Race, the new MTA release made the race version obso
 
 ### Archived Wiki pages
 
--   [MTA:SA Race FAQ](/docs/mta:sa_race_faq.md "wikilink")
+-   [MTA:SA Race FAQ](/docs/mta-sa_race_faq.md "wikilink")
 -   [Blue](/docs/blue.md "wikilink")
--   [MTA:SA R1](/docs/mta:sa_r1.md "wikilink")
--   [MTA:SA Race-Windows Server Guide](/docs/mta:sa_race-windows_server_guide.md "wikilink")
+-   [MTA:SA R1](/docs/mta-sa_r1.md "wikilink")
+-   [MTA:SA Race-Windows Server Guide](/docs/mta-sa_race-windows_server_guide.md "wikilink")
 -   [MTA General FAQ](/docs/mta_general_faq.md "wikilink")
 -   [MTA R1 remote administration\_protocol](/docs/mta_r1_remote_administration_protocol.md "wikilink")
 
 ### See Also
 
--   [Upgrading from MTA:Race](/docs/upgrading_from_mta:race.md "wikilink")
+-   [Upgrading from MTA:Race](/docs/upgrading_from_mta-race.md "wikilink")
 
 MTA:San Andreas (Deathmatch) 1.0.x
 ----------------------------------
@@ -359,4 +359,4 @@ See Also
 -   [MTA Vault](/docs/mta_vault.md "wikilink") - Overview of releases before MTA 0.5.
 -   [Archive](/docs/archive.md "wikilink") - Multi Theft Auto Archive.
 
-[Category: Historical](/docs/category:_historical.md "wikilink")
+[Category: Historical](/docs/category-_historical.md "wikilink")

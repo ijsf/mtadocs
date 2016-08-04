@@ -488,4 +488,4 @@ end
 
 That concludes this section of the tutorial.
 
-[Category:GUI\_Tutorials](/docs/category:gui_tutorials.md "wikilink")
+[Category:GUI\_Tutorials](/docs/category-gui_tutorials.md "wikilink")

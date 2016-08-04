@@ -5,7 +5,7 @@ Multi Theft Auto: San Andreas R1 is the first release of Multi Theft Auto for Sa
 
 MTA:SA R1 was released on Sunday 22nd of January at approximately 22:10 GMT.
 
-It is compatible with the [MTA:mA](/docs/mta:ma.md "wikilink") 4 series.
+It is compatible with the [MTA:mA](/docs/mta-ma.md "wikilink") 4 series.
 
 Links
 -----
@@ -15,4 +15,4 @@ Links
 -   [FAQ](/docs/mtasa_faq.md "wikilink")
 -   [Map Editor Tutorial](/docs/map_editor.md "wikilink")
 
-[Category:MTA:SA Race](/docs/category:mta:sa_race.md "wikilink") [es:MTA:SA R1\_ES](/docs/es:mta:sa_r1_es.md "wikilink") [pl:MTA:SA R1\_PL](/docs/pl:mta:sa_r1_pl.md "wikilink")
+[Category:MTA:SA Race](/docs/category-mta-sa_race.md "wikilink") [es:MTA:SA R1\_ES](/docs/es-mta-sa_r1_es.md "wikilink") [pl:MTA:SA R1\_PL](/docs/pl-mta-sa_r1_pl.md "wikilink")

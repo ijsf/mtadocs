@@ -77,6 +77,6 @@ Extra information
 
 :\* [MTA: SA Official Resources](https://code.google.com/p/mtasa-resources/source/list)
 
-[pt-br:Novidades\_na\_versão\_1.4.1](/docs/pt-br:novidades_na_versão_1.4.1.md "wikilink")
+[pt-br:Novidades\_na\_versão\_1.4.1](/docs/pt-br-novidades_na_versão_1.4.1.md "wikilink")
 
-[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Incomplete](/docs/category:incomplete.md "wikilink")
+[Category:Changelog](/docs/category-changelog.md "wikilink") [Category:Incomplete](/docs/category-incomplete.md "wikilink")

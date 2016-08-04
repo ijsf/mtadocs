@@ -50,4 +50,4 @@ Canceling
 
 Events can be canceled with [cancelEvent](/docs/cancelevent.md "wikilink"). This can have a variety of effects, but in general this means that the server will not perform whatever action it would usually do. For example, canceling [onPickupUse](/docs/onpickupuse.md "wikilink") would prevent a player being given what they tried to pick up, canceling [onVehicleStartEnter](/docs/onvehiclestartenter.md "wikilink") would prevent the player entering the vehicle. You can check if the currently active event has been canceled using [wasEventCanceled](/docs/waseventcanceled.md "wikilink"). It's important to note that canceling event *does not* prevent other event handlers being triggered.
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [es:Sistema de eventos](/docs/es:sistema_de_eventos.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink") [es:Sistema de eventos](/docs/es-sistema_de_eventos.md "wikilink")

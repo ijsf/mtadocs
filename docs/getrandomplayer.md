@@ -24,4 +24,4 @@ outputChatBox ( getPlayerName ( randomPlayer ).." is now the fugitive!" )
 See Also
 --------
 
-[pl:getRandomPlayer](/docs/pl:getrandomplayer.md "wikilink")
+[pl:getRandomPlayer](/docs/pl-getrandomplayer.md "wikilink")

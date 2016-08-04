@@ -29,4 +29,4 @@ addEventHandler ( "onSpawnpointUse", getRootElement(), onSpawnpointUse )
 See Also
 --------
 
-[ru:takeWeaponAmmo](/docs/ru:takeweaponammo.md "wikilink")
+[ru:takeWeaponAmmo](/docs/ru-takeweaponammo.md "wikilink")

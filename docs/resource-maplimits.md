@@ -34,4 +34,4 @@ While this would create two triangles:
 <point x="1" y="0" />
 ```
 
-[ru:<Resource:Maplimits>](/docs/ru:resource:maplimits.md "wikilink")
+[ru:<Resource:Maplimits>](/docs/ru-resource-maplimits.md "wikilink")

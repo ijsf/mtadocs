@@ -46,7 +46,7 @@ addCommandHandler("part",
 )
 ```
 
-[pl:Modules/SebasIRC/ircPart](/docs/pl:modules/sebasirc/ircpart.md "wikilink")
+[pl:Modules/SebasIRC/ircPart](/docs/pl-modules/sebasirc/ircpart.md "wikilink")
 
 See also
 --------

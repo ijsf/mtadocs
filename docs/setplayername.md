@@ -69,4 +69,4 @@ addCommandHandler ( "changetag", tagPlayer )
 See Also
 --------
 
-[ru:setPlayerName](/docs/ru:setplayername.md "wikilink")
+[ru:setPlayerName](/docs/ru-setplayername.md "wikilink")

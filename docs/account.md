@@ -11,6 +11,6 @@ Related scripting functions
 
 ### Server
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")
 
-[it:Account](/docs/it:account.md "wikilink") [de:Account](/docs/de:account.md "wikilink") [ru:Account](/docs/ru:account.md "wikilink")
+[it:Account](/docs/it-account.md "wikilink") [de:Account](/docs/de-account.md "wikilink") [ru:Account](/docs/ru-account.md "wikilink")

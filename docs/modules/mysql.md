@@ -14,6 +14,6 @@ bool [mysqlQuery](/docs/modules/mysql/mysqlquery.md "wikilink") ( mysql, functio
 
 string [mysqlSafeString](/docs/modules/mysql/mysqlsafestring.md "wikilink") ( string )
 
-[Category:Modules](/docs/category:modules.md "wikilink")
+[Category:Modules](/docs/category-modules.md "wikilink")
 
-[ru:Modules/MySQL](/docs/ru:modules/mysql.md "wikilink")
+[ru:Modules/MySQL](/docs/ru-modules/mysql.md "wikilink")

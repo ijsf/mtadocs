@@ -54,4 +54,4 @@ author = me
 See Also
 --------
 
-[ru:xmlNodeGetAttributes](/docs/ru:xmlnodegetattributes.md "wikilink")
+[ru:xmlNodeGetAttributes](/docs/ru-xmlnodegetattributes.md "wikilink")

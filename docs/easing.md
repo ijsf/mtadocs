@@ -58,7 +58,7 @@ Linear
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-linear.png>](/docs/file:qeasingcurve-linear.png.md "wikilink")
+[<File:Qeasingcurve-linear.png>](/docs/file-qeasingcurve-linear.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -76,7 +76,7 @@ InQuad
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inquad.png>](/docs/file:qeasingcurve-inquad.png.md "wikilink")
+[<File:Qeasingcurve-inquad.png>](/docs/file-qeasingcurve-inquad.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -94,7 +94,7 @@ OutQuad
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outquad.png>](/docs/file:qeasingcurve-outquad.png.md "wikilink")
+[<File:Qeasingcurve-outquad.png>](/docs/file-qeasingcurve-outquad.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -112,7 +112,7 @@ InOutQuad
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inoutquad.png>](/docs/file:qeasingcurve-inoutquad.png.md "wikilink")
+[<File:Qeasingcurve-inoutquad.png>](/docs/file-qeasingcurve-inoutquad.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -130,7 +130,7 @@ OutInQuad
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outinquad.png>](/docs/file:qeasingcurve-outinquad.png.md "wikilink")
+[<File:Qeasingcurve-outinquad.png>](/docs/file-qeasingcurve-outinquad.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -148,7 +148,7 @@ InElastic
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inelastic.png>](/docs/file:qeasingcurve-inelastic.png.md "wikilink")
+[<File:Qeasingcurve-inelastic.png>](/docs/file-qeasingcurve-inelastic.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -172,7 +172,7 @@ OutElastic
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outelastic.png>](/docs/file:qeasingcurve-outelastic.png.md "wikilink")
+[<File:Qeasingcurve-outelastic.png>](/docs/file-qeasingcurve-outelastic.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -196,7 +196,7 @@ InOutElastic
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inoutelastic.png>](/docs/file:qeasingcurve-inoutelastic.png.md "wikilink")
+[<File:Qeasingcurve-inoutelastic.png>](/docs/file-qeasingcurve-inoutelastic.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -220,7 +220,7 @@ OutInElastic
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outinelastic.png>](/docs/file:qeasingcurve-outinelastic.png.md "wikilink")
+[<File:Qeasingcurve-outinelastic.png>](/docs/file-qeasingcurve-outinelastic.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -244,7 +244,7 @@ InBack
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inback.png>](/docs/file:qeasingcurve-inback.png.md "wikilink")
+[<File:Qeasingcurve-inback.png>](/docs/file-qeasingcurve-inback.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -266,7 +266,7 @@ OutBack
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outback.png>](/docs/file:qeasingcurve-outback.png.md "wikilink")
+[<File:Qeasingcurve-outback.png>](/docs/file-qeasingcurve-outback.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -288,7 +288,7 @@ InOutBack
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inoutback.png>](/docs/file:qeasingcurve-inoutback.png.md "wikilink")
+[<File:Qeasingcurve-inoutback.png>](/docs/file-qeasingcurve-inoutback.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -310,7 +310,7 @@ OutInBack
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outinback.png>](/docs/file:qeasingcurve-outinback.png.md "wikilink")
+[<File:Qeasingcurve-outinback.png>](/docs/file-qeasingcurve-outinback.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -330,7 +330,7 @@ InBounce
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inbounce.png>](/docs/file:qeasingcurve-inbounce.png.md "wikilink")
+[<File:Qeasingcurve-inbounce.png>](/docs/file-qeasingcurve-inbounce.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -350,7 +350,7 @@ OutBounce
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outbounce.png>](/docs/file:qeasingcurve-outbounce.png.md "wikilink")
+[<File:Qeasingcurve-outbounce.png>](/docs/file-qeasingcurve-outbounce.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -370,7 +370,7 @@ InOutBounce
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inoutbounce.png>](/docs/file:qeasingcurve-inoutbounce.png.md "wikilink")
+[<File:Qeasingcurve-inoutbounce.png>](/docs/file-qeasingcurve-inoutbounce.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -390,7 +390,7 @@ OutInBounce
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outinbounce.png>](/docs/file:qeasingcurve-outinbounce.png.md "wikilink")
+[<File:Qeasingcurve-outinbounce.png>](/docs/file-qeasingcurve-outinbounce.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -410,7 +410,7 @@ SineCurve
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-sincurve.png>](/docs/file:qeasingcurve-sincurve.png.md "wikilink")
+[<File:Qeasingcurve-sincurve.png>](/docs/file-qeasingcurve-sincurve.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -430,7 +430,7 @@ CosineCurve
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-coscurve.png>](/docs/file:qeasingcurve-coscurve.png.md "wikilink")
+[<File:Qeasingcurve-coscurve.png>](/docs/file-qeasingcurve-coscurve.png.md "wikilink")
 
 </td>
 <td align="center">

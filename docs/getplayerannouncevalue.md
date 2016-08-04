@@ -35,4 +35,4 @@ addCommandHandler ( "getscore", getScore )
 See Also
 --------
 
-[Category:Changes\_in\_1.0](/docs/category:changes_in_1.0.md "wikilink")
+[Category:Changes\_in\_1.0](/docs/category-changes_in_1.0.md "wikilink")

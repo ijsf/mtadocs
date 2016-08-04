@@ -24,7 +24,7 @@ These are the buttons in the main menu:
 -   ![Editor\_Locations.png](/images/editor_locations.png) Stored game world locations. The editor comes with a great list of San Andreas Interior locations but you can also add your own interior and non-interior locations to the list.
 -   ![Editor\_Current\_elements.png](/images/editor_current_elements.png) List all the elements the map contains (objects, vehicles, markers, pickups etc.)
 -   ![Editor\_Map\_settings.png](/images/editor_map_settings.png) Map specific settings, like time of day, gravity etc. Here you can also specify what gamemodes the map is compatible with.
--   ![Editor\_Definitions.png](/docs/images/editor_definitions.png) load [editor definition files (edf)](/resource:editor/edf.md "wikilink") that you want to use.
+-   ![Editor\_Definitions.png](/docs/images/editor_definitions.png) load [editor definition files (edf)](/resource-editor/edf.md "wikilink") that you want to use.
 -   ![Editor\_Test.png](/images/editor_test.png) Go into play mode to try out the map. This will load up the gamemode the map is made for.
 
 ### Element menu
@@ -35,9 +35,9 @@ The element menu is used to add new elements to the map.
 -   ![Editor\_Object.png](/images/editor_object.png) Create a new object (buildings, roads and other scenery).
 -   ![Editor\_Pickup.png](/images/editor_pickup.png) Create a new pickup (health, armor, weapons and custom).
 -   ![Editor\_Marker.png](/images/editor_marker.png) Create a new marker (checkpoint, ring, cylinder, arrow and corona).
--   [<File:Crosshair.png>‎](/docs/file:crosshair.png‎.md "wikilink") Select world object.
+-   [<File:Crosshair.png>‎](/docs/file-crosshair.png‎.md "wikilink") Select world object.
 
-Additionally, if you have [editor definitions loaded](/docs/resource:editor/edf.md "wikilink"), you can roll the mousewheel in this menu to bring up custom elements.
+Additionally, if you have [editor definitions loaded](/docs/resource-editor/edf.md "wikilink"), you can roll the mousewheel in this menu to bring up custom elements.
 
 Using the editor
 ----------------
@@ -52,16 +52,16 @@ To access the editor's interface and control panel you need to switch to *cursor
 
 Camera mode can be recognized by a crosshair in the center of the screen. You can use it to select and move elements just like in cursor mode.
 
-[center](/docs/image:editor_crosshair.png.md "wikilink")
+[center](/docs/image-editor_crosshair.png.md "wikilink")
 
 ### Starting a new map
 
 -   Start the editor, or if it is already started, click the *New* menu button.
 -   Click the *Map settings* button. In the *Meta* tab, fill in the Name and Author fields with the name of the map and your name respectively. Also open the *Gamemodes* tab and add the gamemodes your map is meant for (they will be moved to the *Added gamemodes* list). You can do this by selecting them and clicking *Add*, or by double clicking them. Click OK when you're done.
 
-[center](/docs/image:editor_mapsettings.png.md "wikilink")
+[center](/docs/image-editor_mapsettings.png.md "wikilink")
 
--   Click the *Definitions* window and add the resources of which you want to use the custom elements. These will consist of the gamemodes you selected in the *Map settings* window, plus eventual additional resources. For more information about editor definitions, see [EDF](/docs/resource:editor/edf.md "wikilink"). Click OK when you're done.
+-   Click the *Definitions* window and add the resources of which you want to use the custom elements. These will consist of the gamemodes you selected in the *Map settings* window, plus eventual additional resources. For more information about editor definitions, see [EDF](/docs/resource-editor/edf.md "wikilink"). Click OK when you're done.
 
 ### Creating new elements
 
@@ -71,11 +71,11 @@ Adding elements to your map, such as vehicles and objects, is very straightforwa
 -   Click the button in the element menu that represents what you want. E.g., click the button with a car on it to add a vehicle.
 -   A new element of the selected type will be created and attached to your cursor. Move it to the location where you want it and **left click** to drop it off.
 
-[center](/docs/image:editor_addelem.png.md "wikilink")
+[center](/docs/image-editor_addelem.png.md "wikilink")
 
-To create custom elements that are specific to a resource, hover the cursor over the element menu and turn the scroll wheel until the desired resource comes up. Note that for this to work, you first have to add the [EDF](/docs/resource:editor/edf.md "wikilink") file of the resource in the *Definitions* window.
+To create custom elements that are specific to a resource, hover the cursor over the element menu and turn the scroll wheel until the desired resource comes up. Note that for this to work, you first have to add the [EDF](/docs/resource-editor/edf.md "wikilink") file of the resource in the *Definitions* window.
 
-[center](/docs/image:editor_selectedf.png.md "wikilink")
+[center](/docs/image-editor_selectedf.png.md "wikilink")
 
 ### Selecting
 
@@ -127,7 +127,7 @@ Or:
 
 With both methods you can additionally hold **ALT** to decrease the rotation speed or **SHIFT** to increase it.
 
-[center](/docs/image:editor_rotateelem.png.md "wikilink")
+[center](/docs/image-editor_rotateelem.png.md "wikilink")
 
 ### Changing model and other properties
 
@@ -137,7 +137,7 @@ Most elements have a variety of options that can be altered to change their appe
 -   Make any alterations that you want. For example, to change the model of a car or object, click the **Browse** button next to “model” to open the model browser.
 -   Click OK when you're done.
 
-[center](/docs/image:editor_props.png.md "wikilink")
+[center](/docs/image-editor_props.png.md "wikilink")
 
 ### Cloning
 
@@ -162,7 +162,7 @@ Creating maps for specific gamemodes
 To make a map for a specific gamemode, you have to do two things:
 
 -   Click the **Map Settings** button in the top menu, go to the **Gamemodes** tab and add any gamemodes that your map is to be used with.
--   You will likely also need to add one or more [Editor Definition Files](/docs/resource:editor/edf.md "wikilink"). These will allow you to place gamemode specific elements in the map, like spawnpoints, race checkpoints, or CTF flags. You can add EDF's by clicking the **Definitions** menu button and adding the relevant gamemodes.
+-   You will likely also need to add one or more [Editor Definition Files](/docs/resource-editor/edf.md "wikilink"). These will allow you to place gamemode specific elements in the map, like spawnpoints, race checkpoints, or CTF flags. You can add EDF's by clicking the **Definitions** menu button and adding the relevant gamemodes.
 
 Controls
 --------
@@ -283,4 +283,4 @@ Sometimes resetting the map editor will solve certain issues. The easiest way to
 
 Please use the official [bugtracker](http://bugs.mtasa.com) for reporting bugs. Feel free to also join us on [IRC](http://www.multitheftauto.com/irc.html).
 
-[ru:<Resource:Editor>](/docs/ru:resource:editor.md "wikilink") [es:<Resource:Editor>](/docs/es:resource:editor.md "wikilink")
+[ru:<Resource:Editor>](/docs/ru-resource-editor.md "wikilink") [es:<Resource:Editor>](/docs/es-resource-editor.md "wikilink")

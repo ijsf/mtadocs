@@ -368,4 +368,4 @@ Client Functions
 Server Function
 ---------------
 
-[Category:ID Lists](/docs/category:id_lists.md "wikilink") [it:Armi](/docs/it:armi.md "wikilink") [ru:Weapons](/docs/ru:weapons.md "wikilink") [de:Waffen](/docs/de:waffen.md "wikilink") [pl:Weapons](/docs/pl:weapons.md "wikilink")
+[Category:ID Lists](/docs/category-id_lists.md "wikilink") [it:Armi](/docs/it-armi.md "wikilink") [ru:Weapons](/docs/ru-weapons.md "wikilink") [de:Waffen](/docs/de-waffen.md "wikilink") [pl:Weapons](/docs/pl-weapons.md "wikilink")

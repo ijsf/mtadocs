@@ -62,4 +62,4 @@ The vote mode picks a new mode at random when the rounds finishes.
 
 **skipmap** (admin only; cycles to the next mode/map)
 
-[ru:<Resource:Mapcycler>](/docs/ru:resource:mapcycler.md "wikilink")
+[ru:<Resource:Mapcycler>](/docs/ru-resource-mapcycler.md "wikilink")

@@ -314,4 +314,4 @@ Map Editor
 -   Added option to clone world buildings
 -   Fixed a bug when not being able to open maps
 
-[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Changes in 1.1](/docs/category:changes_in_1.1.md "wikilink")
+[Category:Changelog](/docs/category-changelog.md "wikilink") [Category:Changes in 1.1](/docs/category-changes_in_1.1.md "wikilink")

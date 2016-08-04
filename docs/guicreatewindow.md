@@ -9,7 +9,7 @@ element guiCreateWindow ( float x, float y, float width, float height, string ti
 
 ### Required Arguments
 
-[frame|Example Window.](/docs/image:gui-window.png.md "wikilink")
+[frame|Example Window.](/docs/image-gui-window.png.md "wikilink")
 
 -   **x:** A float of the 2D x position of the GUI window on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the GUI window on a player's screen. This is affected by the *relative* argument.
@@ -91,4 +91,4 @@ addEventHandler ( "onClientResourceStart", getResourceRootElement(getThisResourc
 See Also
 --------
 
-[ru:guiCreateWindow](/docs/ru:guicreatewindow.md "wikilink")
+[ru:guiCreateWindow](/docs/ru-guicreatewindow.md "wikilink")

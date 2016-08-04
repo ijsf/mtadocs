@@ -48,4 +48,4 @@ addEventHandler ( "onPlayerVehicleExit", root, removeHelmetOnExit )
 See Also
 --------
 
-[pl:RemovePedClothes](/docs/pl:removepedclothes.md "wikilink")
+[pl:RemovePedClothes](/docs/pl-removepedclothes.md "wikilink")

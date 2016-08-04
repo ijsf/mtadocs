@@ -31,4 +31,4 @@ See Also
 
 ### Client event functions
 
-[es:onClientVehicleStartEnter](/docs/es:onclientvehiclestartenter.md "wikilink")
+[es:onClientVehicleStartEnter](/docs/es-onclientvehiclestartenter.md "wikilink")

@@ -92,4 +92,4 @@ Addressing these issues is a tough task. Here are ways that they can be addresse
 -   bring up questions once in a while, even if they seem trivial
 -   do not be afraid to be wrong, because the developer community as a whole is right
 
-[Category: Development](/docs/category:_development.md "wikilink")
+[Category: Development](/docs/category-_development.md "wikilink")

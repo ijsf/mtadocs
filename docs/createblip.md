@@ -69,4 +69,4 @@ setElementParent( myBlip, myPlayer )
 See Also
 --------
 
-[AR:createBlip](/docs/ar:createblip.md "wikilink") [es:createBlip](/docs/es:createblip.md "wikilink") [DE:createBlip](/docs/de:createblip.md "wikilink")
+[AR:createBlip](/docs/ar-createblip.md "wikilink") [es:createBlip](/docs/es-createblip.md "wikilink") [DE:createBlip](/docs/de-createblip.md "wikilink")

@@ -29,7 +29,7 @@ addEventHandler( "onClientMouseEnter", getRootElement(),
 )
 ```
 
-[pl:onClientMouseEnter](/docs/pl:onclientmouseenter.md "wikilink")
+[pl:onClientMouseEnter](/docs/pl-onclientmouseenter.md "wikilink")
 
 See Also
 --------

@@ -36,4 +36,4 @@ addCommandHandler("createfile", createFileHandler)
 See Also
 --------
 
-[ru:xmlSaveFile](/docs/ru:xmlsavefile.md "wikilink")
+[ru:xmlSaveFile](/docs/ru-xmlsavefile.md "wikilink")

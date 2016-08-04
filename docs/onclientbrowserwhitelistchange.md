@@ -15,7 +15,7 @@ The [browser](/docs/element/browser.md "wikilink") element
 Example
 -------
 
-[pl:onClientBrowserWhitelistChange](/docs/pl:onclientbrowserwhitelistchange.md "wikilink")
+[pl:onClientBrowserWhitelistChange](/docs/pl-onclientbrowserwhitelistchange.md "wikilink")
 
 See Also
 --------

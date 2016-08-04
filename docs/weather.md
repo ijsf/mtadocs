@@ -176,6 +176,6 @@ See also
 
 [ID lists](/docs/id.md "wikilink")
 
-[pl:Weather](/docs/pl:weather.md "wikilink") [ru:Weather](/docs/ru:weather.md "wikilink") [es:Climas](/docs/es:climas.md "wikilink") [de:Wetter](/docs/de:wetter.md "wikilink")
+[pl:Weather](/docs/pl-weather.md "wikilink") [ru:Weather](/docs/ru-weather.md "wikilink") [es:Climas](/docs/es-climas.md "wikilink") [de:Wetter](/docs/de-wetter.md "wikilink")
 
-[Category:ID Lists](/docs/category:id_lists.md "wikilink")
+[Category:ID Lists](/docs/category-id_lists.md "wikilink")

@@ -29,4 +29,4 @@ end)
 See also
 --------
 
-[ru:getEffectSpeed](/docs/ru:geteffectspeed.md "wikilink")
+[ru:getEffectSpeed](/docs/ru-geteffectspeed.md "wikilink")

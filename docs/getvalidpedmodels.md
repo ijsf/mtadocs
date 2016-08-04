@@ -44,4 +44,4 @@ addCommandHandler("checkskin",isValidSkin) -- bind 'checkskin' command to 'isVal
 See Also
 --------
 
-[pl:GetValidPedModels](/docs/pl:getvalidpedmodels.md "wikilink")
+[pl:GetValidPedModels](/docs/pl-getvalidpedmodels.md "wikilink")

@@ -1,6 +1,6 @@
 <lowercasetitle></lowercasetitle>
 
-This functions gets the maximum health a [ped](/docs/ped.md "wikilink") should have, considering its max health (24) [stat](/docs/template:stats.md "wikilink").
+This functions gets the maximum health a [ped](/docs/ped.md "wikilink") should have, considering its max health (24) [stat](/docs/template-stats.md "wikilink").
 
 Syntax
 ------

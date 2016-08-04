@@ -29,4 +29,4 @@ addEventHandler( "onWeaponFire", root,
 )
 ```
 
-[ru:OnWeaponFire](/docs/ru:onweaponfire.md "wikilink")
+[ru:OnWeaponFire](/docs/ru-onweaponfire.md "wikilink")

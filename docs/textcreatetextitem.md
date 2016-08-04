@@ -42,4 +42,4 @@ textDisplayAddText ( myDisplay, myTextItem )                  -- add created ite
 See Also
 --------
 
-[ru:textCreateTextItem](/docs/ru:textcreatetextitem.md "wikilink")
+[ru:textCreateTextItem](/docs/ru-textcreatetextitem.md "wikilink")

@@ -22,6 +22,6 @@ local deathReasons = {
 }
 ```
 
-[ru:Death Reasons](/docs/ru:death_reasons.md "wikilink") [de:Todesgründe](/docs/de:todesgründe.md "wikilink")
+[ru:Death Reasons](/docs/ru-death_reasons.md "wikilink") [de:Todesgründe](/docs/de-todesgründe.md "wikilink")
 
-[Category:ID Lists](/docs/category:id_lists.md "wikilink")
+[Category:ID Lists](/docs/category-id_lists.md "wikilink")

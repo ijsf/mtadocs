@@ -37,4 +37,4 @@ Requirements
 See Also
 --------
 
-[ar:getSoundBPM](/docs/ar:getsoundbpm.md "wikilink")
+[ar:getSoundBPM](/docs/ar-getsoundbpm.md "wikilink")

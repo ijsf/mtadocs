@@ -1,4 +1,4 @@
-[Category:Useful\_Functions](/docs/category:useful_functions.md "wikilink") <lowercasetitle/>
+[Category:Useful\_Functions](/docs/category-useful_functions.md "wikilink") <lowercasetitle/>
 
 This function allows you get a ped's clothing ID, allowing you to forget about texture and model names. <strong>This is intended to overwrite the native getPedClothes function, but has been renamed getPedClothesID here on the wiki. It is also intended to be used in conjunction with [setPedClothes](/docs/setpedclothes.md "wikilink").</strong>
 

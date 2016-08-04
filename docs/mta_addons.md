@@ -35,7 +35,7 @@ MTA:mA
 
 MTA:mA is an mIRC based admin client that enables server owners to run mIRC scripts on their servers, amongst other things.
 
-More details available [here](/docs/mta:ma.md "wikilink").
+More details available [here](/docs/mta-ma.md "wikilink").
 
 MTA Stop Watch
 --------------

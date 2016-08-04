@@ -860,4 +860,4 @@ Contact
 
 The author (MCvarial) can be contacted using IRC (\#mta,\#mta.dutch) Or by email (MCvarial@gmail.com)
 
-[nl:<Resource:Irc>](/docs/nl:resource:irc.md "wikilink") [ru:<Resource:Irc>](/docs/ru:resource:irc.md "wikilink")
+[nl:<Resource:Irc>](/docs/nl-resource-irc.md "wikilink") [ru:<Resource:Irc>](/docs/ru-resource-irc.md "wikilink")

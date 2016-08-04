@@ -30,6 +30,6 @@ XML syntax
 Related scripting functions
 ---------------------------
 
-[Category:Element Types](/docs/category:element_types.md "wikilink")
+[Category:Element Types](/docs/category-element_types.md "wikilink")
 
-[it:Elemento/Collision shape](/docs/it:elemento/collision_shape.md "wikilink")
+[it:Elemento/Collision shape](/docs/it-elemento/collision_shape.md "wikilink")

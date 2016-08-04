@@ -11,7 +11,7 @@ Syntax
  )
 ```
 
-[thumb|Example of water quadrant.|284x230px](/docs/image:waterareas.jpg.md "wikilink")
+[thumb|Example of water quadrant.|284x230px](/docs/image-waterareas.jpg.md "wikilink")
 
 ### Required Arguments
 

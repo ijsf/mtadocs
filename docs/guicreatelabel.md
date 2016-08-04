@@ -1,4 +1,4 @@
-[frame|Example GUI label.](/docs/image:gui-label.png.md "wikilink")
+[frame|Example GUI label.](/docs/image-gui-label.png.md "wikilink")
 
 <table>
 <tr>
@@ -72,4 +72,4 @@ addEventHandler ( "onClientClick", getRootElement(), addLabelOnClick )
 See Also
 --------
 
-[ru:guiCreateLabel](/docs/ru:guicreatelabel.md "wikilink")
+[ru:guiCreateLabel](/docs/ru-guicreatelabel.md "wikilink")

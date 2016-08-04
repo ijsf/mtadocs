@@ -31,4 +31,4 @@ function detachTrailer(theTruck)
 addEventHandler("onTrailerAttach", getRootElement(), detachTrailer)
 ```
 
-[ru:onTrailerAttach](/docs/ru:ontrailerattach.md "wikilink")
+[ru:onTrailerAttach](/docs/ru-ontrailerattach.md "wikilink")

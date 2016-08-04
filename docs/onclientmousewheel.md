@@ -27,7 +27,7 @@ addEventHandler( "onClientMouseWheel", root,
 )
 ```
 
-[pl:onClientMouseWheel](/docs/pl:onclientmousewheel.md "wikilink")
+[pl:onClientMouseWheel](/docs/pl-onclientmousewheel.md "wikilink")
 
 See Also
 --------

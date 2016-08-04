@@ -6,4 +6,4 @@ Audio Functions
 See Also
 --------
 
-[ID Lists](/docs/id.md "wikilink") [Category:ID Lists](/docs/category:id_lists.md "wikilink") [de:Sounds](/docs/de:sounds.md "wikilink") [ru:Sounds](/docs/ru:sounds.md "wikilink")
+[ID Lists](/docs/id.md "wikilink") [Category:ID Lists](/docs/category-id_lists.md "wikilink") [de:Sounds](/docs/de-sounds.md "wikilink") [ru:Sounds](/docs/ru-sounds.md "wikilink")

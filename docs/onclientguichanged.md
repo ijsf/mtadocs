@@ -35,7 +35,7 @@ addEventHandler("onClientGUIChanged", editBox, function()
 end)
 ```
 
-[pl:onClientGUIChanged](/docs/pl:onclientguichanged.md "wikilink")
+[pl:onClientGUIChanged](/docs/pl-onclientguichanged.md "wikilink")
 
 See Also
 --------

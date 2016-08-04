@@ -27,7 +27,7 @@ bool callRemote ( string URL[, int connectionAttempts = 10 ], callback callbackF
 -   **resourceName:** This is a name of the resource that contains the exported function you want to call.
 -   **functionName:** This is a string with the name of the function which you want to call.
 -   **URL:** A full URL in the format *http://hostname/path/file.ext*. A port can be specified with a colon followed by a port number appended to the hostname.
--   **callbackFunction:** This is the function that should receive the data returned from the remote function call. The argument list should match the format of the data returned. The callback function will be passed a string containing “ERROR” followed by an integer indicating the error code when an error occurs calling the function. A list of error codes [can be found here](/docs/template:error_codes_for_callremote_and_fetchremote.md "wikilink").
+-   **callbackFunction:** This is the function that should receive the data returned from the remote function call. The argument list should match the format of the data returned. The callback function will be passed a string containing “ERROR” followed by an integer indicating the error code when an error occurs calling the function. A list of error codes [can be found here](/docs/template-error_codes_for_callremote_and_fetchremote.md "wikilink").
 
 ### Optional Arguments
 

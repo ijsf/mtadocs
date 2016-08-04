@@ -114,6 +114,6 @@ Extra information
 
 :\* [MTA: SA Official Resources](https://code.google.com/p/mtasa-resources/source/list)
 
-[pl:Changes\_in\_1.4](/docs/pl:changes_in_1.4.md "wikilink") [pt-br:Novidades\_na\_versão\_1.4.0](/docs/pt-br:novidades_na_versão_1.4.0.md "wikilink") [ru:Changes\_in\_1.4.0](/docs/ru:changes_in_1.4.0.md "wikilink")
+[pl:Changes\_in\_1.4](/docs/pl-changes_in_1.4.md "wikilink") [pt-br:Novidades\_na\_versão\_1.4.0](/docs/pt-br-novidades_na_versão_1.4.0.md "wikilink") [ru:Changes\_in\_1.4.0](/docs/ru-changes_in_1.4.0.md "wikilink")
 
-[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Changes in 1.4](/docs/category:changes_in_1.4.md "wikilink")
+[Category:Changelog](/docs/category-changelog.md "wikilink") [Category:Changes in 1.4](/docs/category-changes_in_1.4.md "wikilink")

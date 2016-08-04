@@ -3,7 +3,7 @@ There are common issues when wanting to port [FileSystem](/docs/modules/filesyst
 There is No 'This Resource' Directory serverside
 ------------------------------------------------
 
-While the [MTA:Eir](/docs/mta:eir.md "wikilink") client exposes a secure API that bases translator creation around resource folders, the FileSystem module **cannot do that**. The reason is very technical. Hence if you want to get the resource directory you are *operating* in, you need to **hardcode** it.
+While the [MTA:Eir](/docs/mta-eir.md "wikilink") client exposes a secure API that bases translator creation around resource folders, the FileSystem module **cannot do that**. The reason is very technical. Hence if you want to get the resource directory you are *operating* in, you need to **hardcode** it.
 
 ``` lua
 -- Create a translator in our resource directory.

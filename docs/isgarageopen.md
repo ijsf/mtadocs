@@ -59,4 +59,4 @@ end
 See Also
 --------
 
-[ru:isGarageOpen](/docs/ru:isgarageopen.md "wikilink")
+[ru:isGarageOpen](/docs/ru-isgarageopen.md "wikilink")

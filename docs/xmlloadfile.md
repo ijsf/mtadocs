@@ -32,4 +32,4 @@ node = xmlLoadFile ( ":ctv/settings.xml" )
 See Also
 --------
 
-[ru:xmlLoadFile](/docs/ru:xmlloadfile.md "wikilink")
+[ru:xmlLoadFile](/docs/ru-xmlloadfile.md "wikilink")

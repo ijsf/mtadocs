@@ -1,4 +1,4 @@
-[left|caption](/docs/file:mta_game_proccess.png.md "wikilink")
+[left|caption](/docs/file-mta_game_proccess.png.md "wikilink")
 
 Game processing order
 ---------------------

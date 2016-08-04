@@ -39,4 +39,4 @@ addCommandHandler ( "call_admin", callAdmin )
 See Also
 --------
 
-[ar:isGuestAccount](/docs/ar:isguestaccount.md "wikilink")
+[ar:isGuestAccount](/docs/ar-isguestaccount.md "wikilink")

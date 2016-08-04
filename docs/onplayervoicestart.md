@@ -1,5 +1,5 @@
 <div style="border: 1px dotted blue; background: #00CC66;padding:4px;margin-bottom:2px;">
-**Note**: This event should only be used as a low-level function for advanced users. For typical Voice scripting, please see the [Voice Resource](/docs/resource:voice.md "wikilink")
+**Note**: This event should only be used as a low-level function for advanced users. For typical Voice scripting, please see the [Voice Resource](/docs/resource-voice.md "wikilink")
 
 </div>
 This event is triggered when a player starts talking through voice chat.

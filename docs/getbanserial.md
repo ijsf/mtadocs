@@ -39,4 +39,4 @@ addCommandHandler ( "ban", banPlayerCommand )
 See Also
 --------
 
-[ru:getBanSerial](/docs/ru:getbanserial.md "wikilink")
+[ru:getBanSerial](/docs/ru-getbanserial.md "wikilink")

@@ -95,4 +95,4 @@ Changelog
 See Also
 --------
 
-[ru:dbConnect](/docs/ru:dbconnect.md "wikilink")
+[ru:dbConnect](/docs/ru-dbconnect.md "wikilink")

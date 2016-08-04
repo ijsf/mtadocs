@@ -52,6 +52,6 @@ See Also
 
 [ID Lists](/docs/id.md "wikilink")
 
-[tr:Karakter Tipleri](/docs/tr:karakter_tipleri.md "wikilink") [it:Skin Personaggi](/docs/it:skin_personaggi.md "wikilink") [ru:Character Skins](/docs/ru:character_skins.md "wikilink") [es:Skins de Personajes](/docs/es:skins_de_personajes.md "wikilink") [de:Charakterskins](/docs/de:charakterskins.md "wikilink") [zh-cn:角色皮肤](/docs/zh-cn:角色皮肤.md "wikilink")
+[tr:Karakter Tipleri](/docs/tr-karakter_tipleri.md "wikilink") [it:Skin Personaggi](/docs/it-skin_personaggi.md "wikilink") [ru:Character Skins](/docs/ru-character_skins.md "wikilink") [es:Skins de Personajes](/docs/es-skins_de_personajes.md "wikilink") [de:Charakterskins](/docs/de-charakterskins.md "wikilink") [zh-cn:角色皮肤](/docs/zh-cn-角色皮肤.md "wikilink")
 
-[Category:ID Lists](/docs/category:id_lists.md "wikilink")
+[Category:ID Lists](/docs/category-id_lists.md "wikilink")

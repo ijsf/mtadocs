@@ -36,4 +36,4 @@ addCommandHandler("modules", checkModules)
 See Also
 --------
 
-[ru:getLoadedModules](/docs/ru:getloadedmodules.md "wikilink")
+[ru:getLoadedModules](/docs/ru-getloadedmodules.md "wikilink")

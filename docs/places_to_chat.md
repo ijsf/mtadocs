@@ -36,6 +36,6 @@ These aren't all the places/ways of talking with other members of the MTA commun
 
 Please feel free to edit this page if you have something else to add.
 
-[es:Places\_To\_Chat\_ES](/docs/es:places_to_chat_es.md "wikilink") [ru:Places To Chat](/docs/ru:places_to_chat.md "wikilink") [hu:Places To Chat](/docs/hu:places_to_chat.md "wikilink")
+[es:Places\_To\_Chat\_ES](/docs/es-places_to_chat_es.md "wikilink") [ru:Places To Chat](/docs/ru-places_to_chat.md "wikilink") [hu:Places To Chat](/docs/hu-places_to_chat.md "wikilink")
 
-[Category:Support](/docs/category:support.md "wikilink")
+[Category:Support](/docs/category-support.md "wikilink")

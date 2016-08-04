@@ -35,4 +35,4 @@ outputChatBox( "There are " .. resourceCount .. " loaded resources." )
 See Also
 --------
 
-[ru:getRootElement](/docs/ru:getrootelement.md "wikilink")
+[ru:getRootElement](/docs/ru-getrootelement.md "wikilink")

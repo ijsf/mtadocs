@@ -244,4 +244,4 @@ The following settings from the [registry](/docs/settings_system.md "wikilink") 
 **minplayers** \[number\]: The required minimum number of players to start the map.
 **maxplayers** \[number\]: The allowed maximum number of players to start the map.
 
-[it:Map manager](/docs/it:map_manager.md "wikilink") [ru:<Resource:Mapmanager>](/docs/ru:resource:mapmanager.md "wikilink")
+[it:Map manager](/docs/it-map_manager.md "wikilink") [ru:<Resource:Mapmanager>](/docs/ru-resource-mapmanager.md "wikilink")

@@ -21,7 +21,7 @@ Projects explained
 -   Dependencies: Has a load of 3rd party code, modules like sqlite, curl, lua, ehs, etc.
 -   CEGUI: Crazy Eddie's GUI system is a graphical user interface C++ library.
 
-Some of the code may be explained in detail in pages under the this category: [Classes (Blue)](/docs/:category:classes_(blue).md "wikilink")
+Some of the code may be explained in detail in pages under the this category: [Classes (Blue)](/docs/-category-classes_(blue).md "wikilink")
 
 Simplification of data types
 ----------------------------
@@ -115,4 +115,4 @@ Entity types
 -   CCLIENTSCREENSOURCE - DxScreenSource
 -   CCLIENTRENDERTARGET - DxRenderTarget
 
-[Category: Development](/docs/category:_development.md "wikilink")
+[Category: Development](/docs/category-_development.md "wikilink")

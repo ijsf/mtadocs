@@ -48,4 +48,4 @@ addCommandHandler ( "giveweapons", givePlayerWeapons )
 See Also
 --------
 
-[ru:setPedWeaponSlot](/docs/ru:setpedweaponslot.md "wikilink")
+[ru:setPedWeaponSlot](/docs/ru-setpedweaponslot.md "wikilink")

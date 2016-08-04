@@ -32,7 +32,7 @@ end
 addEventHandler("onClientDoubleClick", root, onMyMouseDoubleClick)
 ```
 
-[pl:onClientDoubleClick](/docs/pl:onclientdoubleclick.md "wikilink")
+[pl:onClientDoubleClick](/docs/pl-onclientdoubleclick.md "wikilink")
 
 See Also
 --------

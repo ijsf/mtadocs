@@ -23,7 +23,7 @@ addEventHandler("onClientElementDestroy", getRootElement(), function ()
 end)
 ```
 
-[pl:onClientElementDestroy](/docs/pl:onclientelementdestroy.md "wikilink")
+[pl:onClientElementDestroy](/docs/pl-onclientelementdestroy.md "wikilink")
 
 See Also
 --------

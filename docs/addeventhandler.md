@@ -61,4 +61,4 @@ Changelog
 See Also
 --------
 
-[ru:addEventHandler](/docs/ru:addeventhandler.md "wikilink")
+[ru:addEventHandler](/docs/ru-addeventhandler.md "wikilink")

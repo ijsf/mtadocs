@@ -42,4 +42,4 @@ end
 addEventHandler ( "onConsole", getRootElement(), input_Console ) -- add an event handler for onConsole
 ```
 
-[ru:onConsole](/docs/ru:onconsole.md "wikilink")
+[ru:onConsole](/docs/ru-onconsole.md "wikilink")

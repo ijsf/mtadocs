@@ -1,4 +1,4 @@
-[thumb|right|The logo](/docs/image:rcg.png.md "wikilink") Roller Coaster Generator resources for Multi Theft Auto: San Andreas
+[thumb|right|The logo](/docs/image-rcg.png.md "wikilink") Roller Coaster Generator resources for Multi Theft Auto: San Andreas
 
 History and concept
 -------------------
@@ -55,7 +55,7 @@ Usage
 
 #### Control point
 
-[thumb|right|300px|Modifying the power with PageUp, PageDown.The](/docs/image:rcg_powermove.png.md "wikilink") control point defines the positions and directions of the track, and defines the rotations of the track elements. You can select 3 parts of the control point.
+[thumb|right|300px|Modifying the power with PageUp, PageDown.The](/docs/image-rcg_powermove.png.md "wikilink") control point defines the positions and directions of the track, and defines the rotations of the track elements. You can select 3 parts of the control point.
 
 -   Center
       
@@ -83,7 +83,7 @@ The track connects two control points, and it creates the series of objects. A t
 
 ### Advanced usage
 
-[thumb|right|300px|Edited model and relative rotation on a control point.](/docs/image:rcg_relativerotation.png.md "wikilink")
+[thumb|right|300px|Edited model and relative rotation on a control point.](/docs/image-rcg_relativerotation.png.md "wikilink")
 
 #### Model
 

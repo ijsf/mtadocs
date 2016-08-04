@@ -85,4 +85,4 @@ Changelog
 See Also
 --------
 
-[ES:getSoundFFTData](/docs/es:getsoundfftdata.md "wikilink") [AR:getSoundFFTData](/docs/ar:getsoundfftdata.md "wikilink")
+[ES:getSoundFFTData](/docs/es-getsoundfftdata.md "wikilink") [AR:getSoundFFTData](/docs/ar-getsoundfftdata.md "wikilink")

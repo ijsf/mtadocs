@@ -34,4 +34,4 @@ Changelog
 See Also
 --------
 
-[AR:setSoundVolume](/docs/ar:setsoundvolume.md "wikilink")
+[AR:setSoundVolume](/docs/ar-setsoundvolume.md "wikilink")

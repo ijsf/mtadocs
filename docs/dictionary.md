@@ -36,4 +36,4 @@ Over the years MTA's community has come across some new terms and words. They ar
 `-Used to discribe a situation where an admin uses his powers to force his own opinion onto `
 `a person or a group of people.`
 
-[Category:Historical](/docs/category:historical.md "wikilink")
+[Category:Historical](/docs/category-historical.md "wikilink")

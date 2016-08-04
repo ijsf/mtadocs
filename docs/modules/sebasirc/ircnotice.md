@@ -23,7 +23,7 @@ Example
 -- Example here
 ```
 
-[pl:Modules/SebasIRC/ircNotice](/docs/pl:modules/sebasirc/ircnotice.md "wikilink")
+[pl:Modules/SebasIRC/ircNotice](/docs/pl-modules/sebasirc/ircnotice.md "wikilink")
 
 See also
 --------

@@ -484,4 +484,4 @@ This packet is sent to change the max players of the server. The server will als
 
 Max players will be 0x00 if the attempt to change them failed, otherwise it will be the hexadecimal value of the new number of max players.
 
-[Category:MTA:SA Race](/docs/category:mta:sa_race.md "wikilink")
+[Category:MTA:SA Race](/docs/category-mta-sa_race.md "wikilink")

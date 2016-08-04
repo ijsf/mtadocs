@@ -1,4 +1,4 @@
-[thumb|200px|Tyre burst](/docs/image:fxtyreburst.png.md "wikilink") Creates a tyre burst particle effect (a small white smoke puff).
+[thumb|200px|Tyre burst](/docs/image-fxtyreburst.png.md "wikilink") Creates a tyre burst particle effect (a small white smoke puff).
 
 Syntax
 ------

@@ -371,6 +371,6 @@ For more information on the [ACL](/docs/acl.md "wikilink"), see the [ACL](/docs/
 
 That concludes this tutorial. You should now have a fully working rules window for your server.
 
-For further help with GUI, see the [GUI tutorials](/docs/:category:gui_tutorials.md "wikilink").
+For further help with GUI, see the [GUI tutorials](/docs/-category-gui_tutorials.md "wikilink").
 
-[Category:GUI\_Tutorials](/docs/category:gui_tutorials.md "wikilink")
+[Category:GUI\_Tutorials](/docs/category-gui_tutorials.md "wikilink")

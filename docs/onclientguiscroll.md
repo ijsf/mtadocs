@@ -26,7 +26,7 @@ end
 addEventHandler("onClientGUIScroll",getRootElement(),OnScroll)
 ```
 
-[pl:onClientGUIScroll](/docs/pl:onclientguiscroll.md "wikilink")
+[pl:onClientGUIScroll](/docs/pl-onclientguiscroll.md "wikilink")
 
 See Also
 --------

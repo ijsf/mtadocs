@@ -69,4 +69,4 @@ Links
 [Screen FAQ](http://www4.informatik.uni-erlangen.de/~weigert/screen-faq.html)
 [Screen on GNU.org](http://www.gnu.org/software/screen/)
 
-[Category:MTA 0.5](/docs/category:mta_0.5.md "wikilink") [Category:Historical](/docs/category:historical.md "wikilink")
+[Category:MTA 0.5](/docs/category-mta_0.5.md "wikilink") [Category:Historical](/docs/category-historical.md "wikilink")

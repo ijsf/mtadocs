@@ -3,7 +3,7 @@ This page contains some example shader resources to try. If you are looking to m
 Road shine
 ----------
 
-[200px|thumb|left|Road shine](/docs/image:roadshinescreen.jpg.md "wikilink")
+[200px|thumb|left|Road shine](/docs/image-roadshinescreen.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -24,7 +24,7 @@ Surface normals are not usually present in the ground and building models, but a
 Road shine 2
 ------------
 
-[200px|thumb|left|Road shine 2](/docs/image:roadshine2screen.jpg.md "wikilink")
+[200px|thumb|left|Road shine 2](/docs/image-roadshine2screen.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -39,7 +39,7 @@ Best used with the play resource as the model it modifies is near the initial sp
 Road shine 3 (Deluxe edition)
 -----------------------------
 
-[200px|thumb|left|Road shine 3](/docs/image:roadshine3screen.jpg.md "wikilink")
+[200px|thumb|left|Road shine 3](/docs/image-roadshine3screen.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -59,7 +59,7 @@ The final effect is a faster shader with less rendering issues than the previous
 UV scroll
 ---------
 
-[200px|thumb|left|UV scroll](/docs/image:uvscollscreen.jpg.md "wikilink")
+[200px|thumb|left|UV scroll](/docs/image-uvscollscreen.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -73,7 +73,7 @@ This resource scrolls a texture from left to right. It doesn't use vertex or pix
 UV scripted
 -----------
 
-[200px|thumb|left|UV scripted](/docs/image:uvscriptedscreen.jpg.md "wikilink")
+[200px|thumb|left|UV scripted](/docs/image-uvscriptedscreen.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -87,7 +87,7 @@ This resource controls a texture's UVs using Lua. It shows that anything is poss
 Car paint
 ---------
 
-[200px|thumb|left|Car paint](/docs/image:carpaintscreen.jpg.md "wikilink")
+[200px|thumb|left|Car paint](/docs/image-carpaintscreen.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -101,7 +101,7 @@ This resource shows you how to apply a shader to the vehicle models. The shader 
 Water
 -----
 
-[200px|thumb|left|Water](/docs/image:waterscreen.jpg.md "wikilink")
+[200px|thumb|left|Water](/docs/image-waterscreen.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -115,7 +115,7 @@ This resource applies a shader to the GTA world water. The Lua script shows how 
 Bloom
 -----
 
-[200px|thumb|left|Bloom](/docs/image:bloomscreen.jpg.md "wikilink")
+[200px|thumb|left|Bloom](/docs/image-bloomscreen.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -129,7 +129,7 @@ This resource shows you how 'bounce' full screen effects using a render target p
 Block world
 -----------
 
-[200px|thumb|left|Block world](/docs/image:blockworld.jpg.md "wikilink")
+[200px|thumb|left|Block world](/docs/image-blockworld.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -143,7 +143,7 @@ This resource makes the textures look all blocky. It also changes colors when th
 Texture names
 -------------
 
-[200px|thumb|left|Texture names](/docs/image:texnames.jpg.md "wikilink")
+[200px|thumb|left|Texture names](/docs/image-texnames.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -159,7 +159,7 @@ num\_8 shows/hides the texture list, num\_7 and num\_9 step through the list, an
 Skid marks
 ----------
 
-[200px|thumb|left|Skid marks](/docs/image:skidmarks.jpg.md "wikilink")
+[200px|thumb|left|Skid marks](/docs/image-skidmarks.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -173,7 +173,7 @@ This resource shows you how to do multiple passes in a shader, and input differe
 HDR contrast
 ------------
 
-[200px|thumb|left|HDR contrast](/docs/image:shadercontrast.jpg.md "wikilink")
+[200px|thumb|left|HDR contrast](/docs/image-shadercontrast.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -187,7 +187,7 @@ This resource applies a 'High Dynamic Range' contrast effect. It uses a 1 pixel 
 Tessellation
 ------------
 
-[200px|thumb|left|Tessellation action](/docs/image:shader_flag.jpg.md "wikilink")
+[200px|thumb|left|Tessellation action](/docs/image-shader_flag.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -203,7 +203,7 @@ The example has a GUI (press numpad-8) so you can fiddle with the settings.
 Radial blur
 -----------
 
-[200px|thumb|left|Radial blur](/docs/image:shader_radial_blur.jpg.md "wikilink")
+[200px|thumb|left|Radial blur](/docs/image-shader_radial_blur.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -220,7 +220,7 @@ The file ***c\_switch.lua*** contains information on how to toggle the effect fr
 Detail
 ------
 
-[200px|thumb|left|Detail](/docs/image:shader_detail.jpg.md "wikilink")
+[200px|thumb|left|Detail](/docs/image-shader_detail.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -236,7 +236,7 @@ Applies a few monochrome detail textures, at various scales, to (parts of) the w
 Ped morph
 ---------
 
-[200px|thumb|left|Ped morph](/docs/image:pedmorphscreen.jpg.md "wikilink")
+[200px|thumb|left|Ped morph](/docs/image-pedmorphscreen.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -251,7 +251,7 @@ When the resource has started, use the 'k' and 'l' keys to change morph size.
 Ped shell
 ---------
 
-[200px|thumb|left|Ped shell](/docs/image:pedshellscreen.jpg.md "wikilink")
+[200px|thumb|left|Ped shell](/docs/image-pedshellscreen.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -266,7 +266,7 @@ When the resource has started, use the 'm' key to see the shell effect.
 Hud mask
 --------
 
-[200px|thumb|left|Hud mask](/docs/image:shader_hud_mask.jpg.md "wikilink")
+[200px|thumb|left|Hud mask](/docs/image-shader_hud_mask.jpg.md "wikilink")
 
 <table border=0>
 <tr>
@@ -280,7 +280,7 @@ This resource shows how to draw a hud texture with a shape mask.
 dxDrawCircle
 ------------
 
-[200px|thumb|left|dxDrawCircle](/docs/image:dxdrawcircle.jpg.md "wikilink")
+[200px|thumb|left|dxDrawCircle](/docs/image-dxdrawcircle.jpg.md "wikilink")
 
 <table border=0>
 <tr>

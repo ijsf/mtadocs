@@ -31,4 +31,4 @@ end
 See Also
 --------
 
-[ru:xmlNodeSetName](/docs/ru:xmlnodesetname.md "wikilink")
+[ru:xmlNodeSetName](/docs/ru-xmlnodesetname.md "wikilink")

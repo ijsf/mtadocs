@@ -31,4 +31,4 @@ addCommandHandler("toggletrafficlights",toggleTrafficLights)
 See Also
 --------
 
-[ru:areTrafficLightsLocked](/docs/ru:aretrafficlightslocked.md "wikilink")
+[ru:areTrafficLightsLocked](/docs/ru-aretrafficlightslocked.md "wikilink")

@@ -69,7 +69,7 @@ Cursor IDs
 | CT\_GRABBING                 | 42  |
 | CT\_CUSTOM                   | 43  |
 
-[pl:onClientBrowserCursorChange](/docs/pl:onclientbrowsercursorchange.md "wikilink")
+[pl:onClientBrowserCursorChange](/docs/pl-onclientbrowsercursorchange.md "wikilink")
 
 See Also
 --------

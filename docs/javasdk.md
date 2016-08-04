@@ -227,4 +227,4 @@ If you have any questions/suggestions you can contact author on MTA forum.
 
 -   [Skyline (laserlaser)](http://forum.mtasa.com/memberlist.php?mode=viewprofile&u=51246)
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")

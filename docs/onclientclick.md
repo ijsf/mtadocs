@@ -45,7 +45,7 @@ end
 addEventHandler ( "onClientClick", getRootElement(), addLabelOnClick )
 ```
 
-[pl:onClientClick](/docs/pl:onclientclick.md "wikilink")
+[pl:onClientClick](/docs/pl-onclientclick.md "wikilink")
 
 See Also
 --------

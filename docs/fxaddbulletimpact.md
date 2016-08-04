@@ -1,4 +1,4 @@
-[thumb|200px|Bullet impact](/docs/image:fxbulletimpact.png.md "wikilink") Creates a bullet impact particle effect, consisting of a small smoke cloud and a number of sparks.
+[thumb|200px|Bullet impact](/docs/image-fxbulletimpact.png.md "wikilink") Creates a bullet impact particle effect, consisting of a small smoke cloud and a number of sparks.
 
 Syntax
 ------

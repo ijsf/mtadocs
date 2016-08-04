@@ -1,4 +1,4 @@
-<noinclude>Here is the list of blip icons that can be used in [createBlip](/docs/createblip.md "wikilink") and [createBlipAttachedTo](/docs/createblipattachedto.md "wikilink"). </noinclude>\* **0:** Marker  [12px](/docs/image:blipid0s.png.md "wikilink")    '' If higher than player: [12px](/docs/image:blipid0u.png.md "wikilink")   If lower than player: [12px](/docs/image:blipid0d.png.md "wikilink") ''
+<noinclude>Here is the list of blip icons that can be used in [createBlip](/docs/createblip.md "wikilink") and [createBlipAttachedTo](/docs/createblipattachedto.md "wikilink"). </noinclude>\* **0:** Marker  [12px](/docs/image-blipid0s.png.md "wikilink")    '' If higher than player: [12px](/docs/image-blipid0u.png.md "wikilink")   If lower than player: [12px](/docs/image-blipid0d.png.md "wikilink") ''
 
 -   **1:** White\_square ![Blipid1b.png](/images/blipid1b.png) *Note: it's actually white, darkened for display here*
 -   **2:** Centre ![Blipid2.png](/images/blipid2.png)

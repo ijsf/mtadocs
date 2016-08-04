@@ -34,4 +34,4 @@ Changelog
 See Also
 --------
 
-[ar:getSoundVolume](/docs/ar:getsoundvolume.md "wikilink")
+[ar:getSoundVolume](/docs/ar-getsoundvolume.md "wikilink")

@@ -14,4 +14,4 @@ Required Arguments
 -   **squadTeam**: The team element the squad is attached to. if this is nil or false then it checks the second argument (squadElement).
 -   **squadElement**: The squad you want the ID/shortn from.
 
-[<Resource:battlefield>](/docs/resource:battlefield.md "wikilink")
+[<Resource:battlefield>](/docs/resource-battlefield.md "wikilink")

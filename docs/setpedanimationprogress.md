@@ -47,4 +47,4 @@ Issues
 See Also
 --------
 
-[ru:setPedAnimationProgress](/docs/ru:setpedanimationprogress.md "wikilink")
+[ru:setPedAnimationProgress](/docs/ru-setpedanimationprogress.md "wikilink")

@@ -205,7 +205,7 @@ This creates a blur box and attaches it to a created window element.
 
 Of course when you want to use these functions in your resources you have to include the blur\_box resource in meta.
 
-[Blurbox example](/docs/file:15323.png.md "wikilink")
+[Blurbox example](/docs/file-15323.png.md "wikilink")
 
 See Also
 --------

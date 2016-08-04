@@ -50,4 +50,4 @@ triggerEvent ( "onSpecialEvent", root, "test" )
 See Also
 --------
 
-[ru:triggerEvent](/docs/ru:triggerevent.md "wikilink")
+[ru:triggerEvent](/docs/ru-triggerevent.md "wikilink")

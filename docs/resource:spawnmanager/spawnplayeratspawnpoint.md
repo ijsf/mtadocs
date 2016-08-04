@@ -14,7 +14,7 @@ bool spawnPlayerAtSpawnpoint ( player thePlayer, [spawnpoint theSpawnpoint = ran
 ### Optional Arguments
 
 -   **theSpawnpoint:** the spawnpoint element at which to spawn the player. If this is not specified, or *false* is passed, a random spawnpoint will be used.
--   **useWaves:** Specifies whether spawn waves will be used from [setSpawnWave](/docs/resource:spawnmanager/setspawnwave.md "wikilink"). If no wave has been set, this will be ignored.
+-   **useWaves:** Specifies whether spawn waves will be used from [setSpawnWave](/docs/resource-spawnmanager/setspawnwave.md "wikilink"). If no wave has been set, this will be ignored.
 
 ### Returns
 

@@ -44,4 +44,4 @@ Changelog
 See Also
 --------
 
-[ru:createEffect](/docs/ru:createeffect.md "wikilink")
+[ru:createEffect](/docs/ru-createeffect.md "wikilink")

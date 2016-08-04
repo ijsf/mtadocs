@@ -191,4 +191,4 @@ Scripting functions
 Scripting events
 ================
 
-[Category:Tutorials](/docs/category:tutorials.md "wikilink")
+[Category:Tutorials](/docs/category-tutorials.md "wikilink")

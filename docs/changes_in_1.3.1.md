@@ -201,6 +201,6 @@ Editor
 -   Added object scale option
 -   Added object collisions option
 
-[hu:Changes in 1.3.1](/docs/hu:changes_in_1.3.1.md "wikilink") [pt-br:Novidades na versão 1.3.1](/docs/pt-br:novidades_na_versão_1.3.1.md "wikilink") [ru:Changes in 1.3.1](/docs/ru:changes_in_1.3.1.md "wikilink")
+[hu:Changes in 1.3.1](/docs/hu-changes_in_1.3.1.md "wikilink") [pt-br:Novidades na versão 1.3.1](/docs/pt-br-novidades_na_versão_1.3.1.md "wikilink") [ru:Changes in 1.3.1](/docs/ru-changes_in_1.3.1.md "wikilink")
 
-[Category:Changes in 1.3](/docs/category:changes_in_1.3.md "wikilink")
+[Category:Changes in 1.3](/docs/category-changes_in_1.3.md "wikilink")

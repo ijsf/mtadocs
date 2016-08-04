@@ -36,4 +36,4 @@ See Also
 
 ### Client event functions
 
-[es:onClientTrailerAttach](/docs/es:onclienttrailerattach.md "wikilink")
+[es:onClientTrailerAttach](/docs/es-onclienttrailerattach.md "wikilink")

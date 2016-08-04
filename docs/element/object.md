@@ -27,4 +27,4 @@ XML syntax
 Related scripting functions
 ---------------------------
 
-[Category:Element Types](/docs/category:element_types.md "wikilink") [ru:Element/Object](/docs/ru:element/object.md "wikilink") [it:Elemento/Oggetto](/docs/it:elemento/oggetto.md "wikilink")
+[Category:Element Types](/docs/category-element_types.md "wikilink") [ru:Element/Object](/docs/ru-element/object.md "wikilink") [it:Elemento/Oggetto](/docs/it-elemento/oggetto.md "wikilink")

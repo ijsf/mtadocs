@@ -29,4 +29,4 @@ addCommandHandler( "accountcount", printAmountOfAccounts ) -- add a command hand
 See Also
 --------
 
-[ru:getAccounts](/docs/ru:getaccounts.md "wikilink")
+[ru:getAccounts](/docs/ru-getaccounts.md "wikilink")

@@ -20,7 +20,7 @@ The [browser](/docs/element/browser.md "wikilink") element
 Example
 -------
 
-[pl:onClientBrowserResourceBlocked](/docs/pl:onclientbrowserresourceblocked.md "wikilink")
+[pl:onClientBrowserResourceBlocked](/docs/pl-onclientbrowserresourceblocked.md "wikilink")
 
 See Also
 --------

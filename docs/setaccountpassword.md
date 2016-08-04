@@ -63,4 +63,4 @@ addCommandHandler("changepass", ChangePlayerPassword)
 See Also
 --------
 
-[ar:setAccountPassword](/docs/ar:setaccountpassword.md "wikilink") [es:setAccountPassword](/docs/es:setaccountpassword.md "wikilink")
+[ar:setAccountPassword](/docs/ar-setaccountpassword.md "wikilink") [es:setAccountPassword](/docs/es-setaccountpassword.md "wikilink")

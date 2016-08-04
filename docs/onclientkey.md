@@ -45,7 +45,7 @@ addEventHandler( "onClientKey", root, function(button,press)
 end )
 ```
 
-[pl:onClientKey](/docs/pl:onclientkey.md "wikilink")
+[pl:onClientKey](/docs/pl-onclientkey.md "wikilink")
 
 See Also
 --------

@@ -23,4 +23,4 @@ This is a list of upgrades that correspond to [getVehicleUpgradeOnSlot](/docs/ge
 | **16** | Misc.         |
 ||
 
-[it:Cris G. / Morelli](/docs/it:cris_g._/_morelli.md "wikilink")
+[it:Cris G. / Morelli](/docs/it-cris_g._/_morelli.md "wikilink")

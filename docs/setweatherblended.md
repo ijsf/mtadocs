@@ -30,4 +30,4 @@ setWeatherBlended ( 9 )
 See Also
 --------
 
-[ru:setWeatherBlended](/docs/ru:setweatherblended.md "wikilink")
+[ru:setWeatherBlended](/docs/ru-setweatherblended.md "wikilink")

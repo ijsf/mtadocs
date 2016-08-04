@@ -38,4 +38,4 @@ Grab the latest **net.so** from the Downloads page on GitHub and place it in you
     cd MTA10_Server/output
     ./mta-server
 
-[ru:Building MTASA Server on Mac OS X](/docs/ru:building_mtasa_server_on_mac_os_x.md "wikilink") [Category: Development](/docs/category:_development.md "wikilink")
+[ru:Building MTASA Server on Mac OS X](/docs/ru-building_mtasa_server_on_mac_os_x.md "wikilink") [Category: Development](/docs/category-_development.md "wikilink")

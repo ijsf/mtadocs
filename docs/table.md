@@ -13,6 +13,6 @@ See also
 
 [Tables at lua.org](http://www.lua.org/pil/2.5.html)
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category-scripting_concepts.md "wikilink")
 
-[DE:table](/docs/de:table.md "wikilink") [RU:Table](/docs/ru:table.md "wikilink")
+[DE:table](/docs/de-table.md "wikilink") [RU:Table](/docs/ru-table.md "wikilink")

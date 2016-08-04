@@ -7,4 +7,4 @@ See also
 -   [OOP Introduction](/docs/oop_introduction.md "wikilink")
 -   [Matrix](/docs/matrix.md "wikilink")
 
-[Category:OOP](/docs/category:oop.md "wikilink")
+[Category:OOP](/docs/category-oop.md "wikilink")

@@ -29,7 +29,7 @@ function ( dataName )
 end )
 ```
 
-[pl:onClientElementDataChange](/docs/pl:onclientelementdatachange.md "wikilink")
+[pl:onClientElementDataChange](/docs/pl-onclientelementdatachange.md "wikilink")
 
 See Also
 --------

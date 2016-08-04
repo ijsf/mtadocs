@@ -33,4 +33,4 @@ addCommandHandler("setmaxdistance", maxdistanceFunc)
 See Also
 --------
 
-[ar:setSoundMaxDistance](/docs/ar:setsoundmaxdistance.md "wikilink")
+[ar:setSoundMaxDistance](/docs/ar-setsoundmaxdistance.md "wikilink")

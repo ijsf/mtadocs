@@ -29,4 +29,4 @@ Functions
 Callbacks
 ---------
 
-[ru:Modules/IRCEcho](/docs/ru:modules/ircecho.md "wikilink")
+[ru:Modules/IRCEcho](/docs/ru-modules/ircecho.md "wikilink")

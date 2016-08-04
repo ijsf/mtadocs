@@ -30,4 +30,4 @@ end
 See Also
 --------
 
-[ru:getBanUsername](/docs/ru:getbanusername.md "wikilink")
+[ru:getBanUsername](/docs/ru-getbanusername.md "wikilink")

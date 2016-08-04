@@ -12,4 +12,4 @@ The projectile class represents the projectiles of certain weapons that are crea
 See also
 --------
 
-[Category:Element Types](/docs/category:element_types.md "wikilink")
+[Category:Element Types](/docs/category-element_types.md "wikilink")

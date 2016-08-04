@@ -32,4 +32,4 @@ addCommandHandler ( "setgravity", grav )
 See Also
 --------
 
-[ru:setGravity](/docs/ru:setgravity.md "wikilink")
+[ru:setGravity](/docs/ru-setgravity.md "wikilink")

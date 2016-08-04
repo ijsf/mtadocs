@@ -46,4 +46,4 @@ Issues
 See Also
 --------
 
-[ru:warpPedIntoVehicle](/docs/ru:warppedintovehicle.md "wikilink")
+[ru:warpPedIntoVehicle](/docs/ru-warppedintovehicle.md "wikilink")

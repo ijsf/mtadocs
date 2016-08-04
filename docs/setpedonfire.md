@@ -38,4 +38,4 @@ addEventHandler("onClientResourceStart", resourceRoot,
 See Also
 --------
 
-[ru:setPedOnFire](/docs/ru:setpedonfire.md "wikilink")
+[ru:setPedOnFire](/docs/ru-setpedonfire.md "wikilink")

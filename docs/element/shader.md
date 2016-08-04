@@ -204,7 +204,7 @@ This shader just replaces the texture and allows GTA to control all the render s
         }
     }
 
-===Not so simple=== This shader can be used as a base for replacing a world texture if you intend to add some fancy effect. It uses [<http://nightly.mtasa.com/files/shaders/mta-helper.fx> mta-helper.fx](/docs/http://nightly.mtasa.com/files/shaders/mta-helper.fx_mta-helper.fx.md "wikilink") to handle consistent naming of the preset shader settings (gWorld, gTexture0 etc.)
+===Not so simple=== This shader can be used as a base for replacing a world texture if you intend to add some fancy effect. It uses [<http://nightly.mtasa.com/files/shaders/mta-helper.fx> mta-helper.fx](/docs/http-//nightly.mtasa.com/files/shaders/mta-helper.fx_mta-helper.fx.md "wikilink") to handle consistent naming of the preset shader settings (gWorld, gTexture0 etc.)
 ***mta-helper.fx*** also contains some helpful functions which calculate GTA lighting.
 
     //-----------------------------------------------------------------------
@@ -363,4 +363,4 @@ to:
 
 ### Client
 
-[Category:Element Types](/docs/category:element_types.md "wikilink")
+[Category:Element Types](/docs/category-element_types.md "wikilink")

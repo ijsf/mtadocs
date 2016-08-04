@@ -76,4 +76,4 @@ To remove a missiontimer from the screen, use [destroyElement](/docs/destroyelem
 
 Missiontimer is only compatible with MTASA 1.0 onwards.
 
-[ru:<Resource:Missiontimer>](/docs/ru:resource:missiontimer.md "wikilink")
+[ru:<Resource:Missiontimer>](/docs/ru-resource-missiontimer.md "wikilink")
