@@ -1,4 +1,4 @@
-This function retrieves the current mapname as set by [setMapName](/setMapName.md "wikilink").
+This function retrieves the current mapname as set by [setMapName](/docs/setMapName.md "wikilink").
 
 Syntax
 ------

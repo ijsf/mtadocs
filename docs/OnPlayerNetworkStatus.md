@@ -11,7 +11,7 @@ int status, int ticks
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that has the network interruption.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that has the network interruption.
 
 Example
 -------

@@ -7,7 +7,7 @@ bool setVehicleNitroActivated ( vehicle theVehicle, bool state )
 
 ### Required Arguments
 
--   **theVehicle** The [vehicle](/vehicle.md "wikilink") to activate or deactivate the nitro on.
+-   **theVehicle** The [vehicle](/docs/vehicle.md "wikilink") to activate or deactivate the nitro on.
 -   **state** *true* if you want to activate the nitro, *false* if you want to disable it.
 
 ### Returns

@@ -1,4 +1,4 @@
-This function is used to return the playback length of the specified [sound](/sound.md "wikilink") element.
+This function is used to return the playback length of the specified [sound](/docs/sound.md "wikilink") element.
 
 Syntax
 ------
@@ -9,11 +9,11 @@ float getSoundLength ( element theSound )
 
 ### Required Arguments
 
--   **theSound:** the [sound](/sound.md "wikilink") element which length you want to return.
+-   **theSound:** the [sound](/docs/sound.md "wikilink") element which length you want to return.
 
 ### Returns
 
-Returns an [float](/float.md "wikilink") value indicating the playback length of the [sound](/sound.md "wikilink") element in seconds.
+Returns an [float](/docs/float.md "wikilink") value indicating the playback length of the [sound](/sound.md "wikilink") element in seconds.
 
 Example
 -------
@@ -32,4 +32,4 @@ Changelog
 See Also
 --------
 
-[ar:getSoundLength](/ar:getSoundLength.md "wikilink")
+[ar:getSoundLength](/docs/ar:getSoundLength.md "wikilink")

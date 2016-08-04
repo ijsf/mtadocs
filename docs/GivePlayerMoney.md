@@ -1,4 +1,4 @@
-This function adds money to a [player](/player.md "wikilink")'s current money amount. To set absolute values, [setPlayerMoney](/setPlayerMoney.md "wikilink") can be used.
+This function adds money to a [player](/docs/player.md "wikilink")'s current money amount. To set absolute values, [setPlayerMoney](/setPlayerMoney.md "wikilink") can be used.
 
 Syntax
 ------
@@ -10,7 +10,7 @@ bool givePlayerMoney ( player thePlayer, int amount )
 
 ### Required Arguments
 
--   **thePlayer:** the [player](/player.md "wikilink") you are giving the money to.
+-   **thePlayer:** the [player](/docs/player.md "wikilink") you are giving the money to.
 -   **amount:** a positive integer number specifying the amount of money to give to the player.
 
 </section>
@@ -71,4 +71,4 @@ addEventHandler ( "onPickupUse", money, pickupUse )
 See Also
 --------
 
-[ru:GivePlayerMoney](/ru:GivePlayerMoney.md "wikilink")
+[ru:GivePlayerMoney](/docs/ru:GivePlayerMoney.md "wikilink")

@@ -1,4 +1,4 @@
-This function is used to return the root node of a configuration file. Config files must be predefined in a resource's [meta file](/Meta.xml.md "wikilink"). An alternative way to load XML files is to use [xmlLoadFile](/xmlLoadFile.md "wikilink").
+This function is used to return the root node of a configuration file. Config files must be predefined in a resource's [meta file](/docs/Meta.xml.md "wikilink"). An alternative way to load XML files is to use [xmlLoadFile](/xmlLoadFile.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ xmlnode getResourceConfig ( string filePath )
 
 ### Required Arguments
 
--   **filePath:** The [filepath](/filepath.md "wikilink") of the file in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the file is in, and 'path' is the path from the root directory of the resource to the file.
+-   **filePath:** The [filepath](/docs/filepath.md "wikilink") of the file in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the file is in, and 'path' is the path from the root directory of the resource to the file.
 
   
 For example, if there is a file named 'settings.xml' in the resource 'ctf', it can be accessed from another resource this way: *getResourceConfig(":ctf/settings.xml")*.

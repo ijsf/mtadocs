@@ -160,7 +160,7 @@ During the irc proces some events are triggered to help you write extensions for
 Exported functions
 ------------------
 
-These functions can be called from another resource to help you write extensions for the irc resource. Use the exports table or [call](/call.md "wikilink") to use them
+These functions can be called from another resource to help you write extensions for the irc resource. Use the exports table or [call](/docs/call.md "wikilink") to use them
 
 Example 1:
 
@@ -570,7 +570,7 @@ Example 2:
                                                            ```                |
 ||
 
-**NOTE:** All parameters that are between brackets are optional, see [optional arguments](/optional_arguments.md "wikilink")
+**NOTE:** All parameters that are between brackets are optional, see [optional arguments](/docs/optional_arguments.md "wikilink")
 
 Commands
 --------
@@ -860,4 +860,4 @@ Contact
 
 The author (MCvarial) can be contacted using IRC (\#mta,\#mta.dutch) Or by email (MCvarial@gmail.com)
 
-[nl:<Resource:Irc>](/nl:Resource:Irc.md "wikilink") [ru:<Resource:Irc>](/ru:Resource:Irc.md "wikilink")
+[nl:<Resource:Irc>](/docs/nl:Resource:Irc.md "wikilink") [ru:<Resource:Irc>](/ru:Resource:Irc.md "wikilink")

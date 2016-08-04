@@ -11,7 +11,7 @@ float getObjectMass ( object theObject )
 
 ### Returns
 
--   A [float](/float.md "wikilink") representing the mass of the object.
+-   A [float](/docs/float.md "wikilink") representing the mass of the object.
 -   *false* if invalid arguments were passed.
 -   *-1* if object was never streamed in.
 

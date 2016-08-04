@@ -9,8 +9,8 @@ int int getTypeIndexFromClothes ( string clothesTexture, string clothesModel )
 
 ### Required Arguments
 
--   **clothesTexture**: A string determining the clothes texture that you wish to retrieve the type and index from. See the [clothes catalog](/CJ_Clothes.md "wikilink").
--   **clothesModel**: A string determining the corresponding clothes model that you wish to retrieve the type and index from. See the [clothes catalog](/CJ_Clothes.md "wikilink").
+-   **clothesTexture**: A string determining the clothes texture that you wish to retrieve the type and index from. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
+-   **clothesModel**: A string determining the corresponding clothes model that you wish to retrieve the type and index from. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
 
 Returns
 -------

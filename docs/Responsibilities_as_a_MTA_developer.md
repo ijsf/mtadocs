@@ -23,7 +23,7 @@ You are coding on the MTA platform. This implies that you keep yourself up to da
 
 But you also face the game, GTA:SA. What does that **mean to you**?
 
--   Acquire a basic knowledge of the [engine fundamentals](/GTA:SA_Engine_Research.md "wikilink")
+-   Acquire a basic knowledge of the [engine fundamentals](/docs/GTA:SA_Engine_Research.md "wikilink")
 -   Know the background of engine-specific functions
 -   Get to know about engine 'bugs' that you face
 -   Know how to optimize your creations for the MTA runtime

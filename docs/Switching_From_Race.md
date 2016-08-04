@@ -2,7 +2,7 @@ With the release of Multi Theft Auto: San Andreas 1.0, the older MTA:SA Race mod
 
 The latest version of MTA:SA features a fully customizable Race mode that includes all of the features of the older MTA:SA Race mods, and many more.
 
-Rather than having a separate mod, Race now exists as a [resource](/resources.md "wikilink") in MTA:SA 1.0 that utilizes MTA's powerful game scripting system. What this means is that Race is now fully editable and customizable, allowing any features imaginable to be added and any existing feature to be altered. The latest version of the Race resource is well-polished and includes *all of the features* that MTA:SA Race fans are used to. For this reason, MTA:SA 1.0 (along with the Race resource) can be considered as a superset of the older versions of MTA:SA Race.
+Rather than having a separate mod, Race now exists as a [resource](/docs/resources.md "wikilink") in MTA:SA 1.0 that utilizes MTA's powerful game scripting system. What this means is that Race is now fully editable and customizable, allowing any features imaginable to be added and any existing feature to be altered. The latest version of the Race resource is well-polished and includes *all of the features* that MTA:SA Race fans are used to. For this reason, MTA:SA 1.0 (along with the Race resource) can be considered as a superset of the older versions of MTA:SA Race.
 
 While there are no disadvantages to switching to MTA:SA 1.0, there are numerous advantages. Here are just some of the improvements the new Race mode has to offer:
 
@@ -22,7 +22,7 @@ MTA:SA 1.0's server is optimized to use less bandwidth and achieve higher perfor
 
 ### Add-ons system
 
-[thumb|Custom vehicle and object models in Race.](/Image:Sfr_custom_carmodel.png.md "wikilink") The powerful scripting system in MTA:SA 1.0 and the design of the Race mode allow add-ons and other mods to be included in the game. Race's add-ons system let's developers create new features for Race that can easily be added or removed by server admins. Some of the current add-ons include a Need For Speed style NOS feature and a map ratings system. There is also a speedometer resource that adds a stylish new on-screen speedometer.
+[thumb|Custom vehicle and object models in Race.](/docs/Image:Sfr_custom_carmodel.png.md "wikilink") The powerful scripting system in MTA:SA 1.0 and the design of the Race mode allow add-ons and other mods to be included in the game. Race's add-ons system let's developers create new features for Race that can easily be added or removed by server admins. Some of the current add-ons include a Need For Speed style NOS feature and a map ratings system. There is also a speedometer resource that adds a stylish new on-screen speedometer.
 
 ### Custom models
 
@@ -32,11 +32,11 @@ MTA now fully supports vehicle, as well as object modifications through it's res
 
 ### Map editor
 
-The [new map editor](/Resource:Editor.md "wikilink") allows you to create race maps with ease, while offering many new and advanced features not present in the old race editor.
+The [new map editor](/docs/Resource:Editor.md "wikilink") allows you to create race maps with ease, while offering many new and advanced features not present in the old race editor.
 
 ### Backward compatibility
 
-[thumb|Race's new GUI and spectator system.](/Image:Sfr_race_specgui.png.md "wikilink") Although \*.map files now have a different syntax, it's easy to convert all your old MTA:SA Race maps for full compatibility with MTA:SA 1.0. You can download our official batch converter [here](http://files.mtasa.com/apps/1.0/raceconv.zip).
+[thumb|Race's new GUI and spectator system.](/docs/Image:Sfr_race_specgui.png.md "wikilink") Although \*.map files now have a different syntax, it's easy to convert all your old MTA:SA Race maps for full compatibility with MTA:SA 1.0. You can download our official batch converter [here](http://files.mtasa.com/apps/1.0/raceconv.zip).
 
 ### Enhancements
 

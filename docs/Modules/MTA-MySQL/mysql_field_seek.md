@@ -1,6 +1,6 @@
 <pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass>
 
-Sets the field cursor of a result in the given field offset. The offset must be a value between **1** and **[mysql\_num\_fields()](/Modules/MTA-MySQL/mysql_num_fields.md "wikilink")**.
+Sets the field cursor of a result in the given field offset. The offset must be a value between **1** and **[mysql\_num\_fields()](/docs/Modules/MTA-MySQL/mysql_num_fields.md "wikilink")**.
 
 Syntax
 ------

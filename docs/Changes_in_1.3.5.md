@@ -13,12 +13,12 @@ Scripting
 
 #### Client
 
--   Added [dxSetTextureEdge](/dxSetTextureEdge.md "wikilink")
--   Added [guiEditGetCaretIndex](/guiEditGetCaretIndex.md "wikilink")
--   Added [guiMemoGetCaretIndex](/guiMemoGetCaretIndex.md "wikilink")
--   Added [getCamera](/getCamera.md "wikilink")
--   Added [setInteriorFurnitureEnabled](/setInteriorFurnitureEnabled.md "wikilink")
--   Added [getInteriorFurnitureEnabled](/getInteriorFurnitureEnabled.md "wikilink")
+-   Added [dxSetTextureEdge](/docs/dxSetTextureEdge.md "wikilink")
+-   Added [guiEditGetCaretIndex](/docs/guiEditGetCaretIndex.md "wikilink")
+-   Added [guiMemoGetCaretIndex](/docs/guiMemoGetCaretIndex.md "wikilink")
+-   Added [getCamera](/docs/getCamera.md "wikilink")
+-   Added [setInteriorFurnitureEnabled](/docs/setInteriorFurnitureEnabled.md "wikilink")
+-   Added [getInteriorFurnitureEnabled](/docs/getInteriorFurnitureEnabled.md "wikilink")
 
 #### Server
 
@@ -26,23 +26,23 @@ Scripting
 
 #### Shared (*Client & Server side*)
 
--   Added [addDebugHook](/addDebugHook.md "wikilink")
--   Added [removeDebugHook](/removeDebugHook.md "wikilink")
--   Added [base64Encode](/base64Encode.md "wikilink")
--   Added [base64Decode](/base64Decode.md "wikilink")
--   Added [teaEncode](/teaEncode.md "wikilink")
--   Added [teaDecode](/teaDecode.md "wikilink")
--   Added [pregFind](/pregFind.md "wikilink")
--   Added [pregReplace](/pregReplace.md "wikilink")
--   Added [pregMatch](/pregMatch.md "wikilink")
--   Added [setElementCallPropagationEnabled](/setElementCallPropagationEnabled.md "wikilink")
--   Added [isElementCallPropagationEnabled](/isElementCallPropagationEnabled.md "wikilink")
+-   Added [addDebugHook](/docs/addDebugHook.md "wikilink")
+-   Added [removeDebugHook](/docs/removeDebugHook.md "wikilink")
+-   Added [base64Encode](/docs/base64Encode.md "wikilink")
+-   Added [base64Decode](/docs/base64Decode.md "wikilink")
+-   Added [teaEncode](/docs/teaEncode.md "wikilink")
+-   Added [teaDecode](/docs/teaDecode.md "wikilink")
+-   Added [pregFind](/docs/pregFind.md "wikilink")
+-   Added [pregReplace](/docs/pregReplace.md "wikilink")
+-   Added [pregMatch](/docs/pregMatch.md "wikilink")
+-   Added [setElementCallPropagationEnabled](/docs/setElementCallPropagationEnabled.md "wikilink")
+-   Added [isElementCallPropagationEnabled](/docs/isElementCallPropagationEnabled.md "wikilink")
 
 ### Scripting: New Events
 
 #### Client
 
--   Added [onClientVehicleDamage](/onClientVehicleDamage.md "wikilink")
+-   Added [onClientVehicleDamage](/docs/onClientVehicleDamage.md "wikilink")
 
 #### Server
 
@@ -50,33 +50,33 @@ Scripting
 
 ### Scripting: Changes, Bugfixes and Additions
 
--   Added option to specify timeout length for [callRemote](/callRemote.md "wikilink") and [fetchRemote](/fetchRemote.md "wikilink")
--   Added error message parameter to [onPlayerScreenShot](/onPlayerScreenShot.md "wikilink") in case of failure
--   Added rotation parameter for [dxDrawText](/dxDrawText.md "wikilink")
+-   Added option to specify timeout length for [callRemote](/docs/callRemote.md "wikilink") and [fetchRemote](/fetchRemote.md "wikilink")
+-   Added error message parameter to [onPlayerScreenShot](/docs/onPlayerScreenShot.md "wikilink") in case of failure
+-   Added rotation parameter for [dxDrawText](/docs/dxDrawText.md "wikilink")
 -   Added flags (1 ignorecase; 2 multiline; 4 dotall; 8 extented) to preg functions
 -   Added character option to preg option flags
 -   Added easier way to set weapon flags
 -   Added warning message for server scripts that might be causing a long freeze
 -   Fixed some weapon flags
--   Fixed [isPedOnFire](/isPedOnFire.md "wikilink") not working correctly
--   Fixed [onPlayerVoiceStart](/onPlayerVoiceStart.md "wikilink") re-triggering when cancelled
--   Fixed double [dbPoll](/dbPoll.md "wikilink") freeze
--   Fixed [setPedAimTarget](/setPedAimTarget.md "wikilink") returning true for local player
--   Fixed [takePlayerScreenShot](/takePlayerScreenShot.md "wikilink") sometimes returning a blank screen
+-   Fixed [isPedOnFire](/docs/isPedOnFire.md "wikilink") not working correctly
+-   Fixed [onPlayerVoiceStart](/docs/onPlayerVoiceStart.md "wikilink") re-triggering when cancelled
+-   Fixed double [dbPoll](/docs/dbPoll.md "wikilink") freeze
+-   Fixed [setPedAimTarget](/docs/setPedAimTarget.md "wikilink") returning true for local player
+-   Fixed [takePlayerScreenShot](/docs/takePlayerScreenShot.md "wikilink") sometimes returning a blank screen
 -   Fixed event handler *sourceResource* global variable
--   Fixed [dxGetPixelsFormat](/dxGetPixelsFormat.md "wikilink") not recognising some jpeg files
--   Fixed [dxCreateFont](/dxCreateFont.md "wikilink") not closing the file after creating font
--   Fixed [onPedWasted](/onPedWasted.md "wikilink") / [onClientPedWasted](/onClientPedWasted.md "wikilink") always returning 63 (blown) as weapon
--   Fixed [setPedStat](/setPedStat.md "wikilink") being sometimes not synced to client
--   Fixed [onClientSoundStopped](/onClientSoundStopped.md "wikilink") sometimes being late
--   Fixed [attachElements](/attachElements.md "wikilink") with the camera not removing the camera target
+-   Fixed [dxGetPixelsFormat](/docs/dxGetPixelsFormat.md "wikilink") not recognising some jpeg files
+-   Fixed [dxCreateFont](/docs/dxCreateFont.md "wikilink") not closing the file after creating font
+-   Fixed [onPedWasted](/docs/onPedWasted.md "wikilink") / [onClientPedWasted](/onClientPedWasted.md "wikilink") always returning 63 (blown) as weapon
+-   Fixed [setPedStat](/docs/setPedStat.md "wikilink") being sometimes not synced to client
+-   Fixed [onClientSoundStopped](/docs/onClientSoundStopped.md "wikilink") sometimes being late
+-   Fixed [attachElements](/docs/attachElements.md "wikilink") with the camera not removing the camera target
 -   Fixed inability to bind num\_enter key
 -   Fixed an inconsistence - Details: [r5852](https://code.google.com/p/mtasa-blue/source/detail?r=5852)
 -   Fixed Backspace key not working in NoCurses mode
--   Fixed explosions created with [createExplosion](/createExplosion.md "wikilink") passing through servers
--   Fixed [isElementInWater](/isElementInWater.md "wikilink") returning false with peds
--   Fixed [guiScrollPaneSetHorizontalScrollPosition](/guiScrollPaneSetHorizontalScrollPosition.md "wikilink") and [guiScrollPaneSetVerticalScrollPosition](/guiScrollPaneSetVerticalScrollPosition.md "wikilink") not correctly using floating point numbers
--   Disabled [destroyElement](/destroyElement.md "wikilink") and [setElementParent](/setElementParent.md "wikilink") for the camera element
+-   Fixed explosions created with [createExplosion](/docs/createExplosion.md "wikilink") passing through servers
+-   Fixed [isElementInWater](/docs/isElementInWater.md "wikilink") returning false with peds
+-   Fixed [guiScrollPaneSetHorizontalScrollPosition](/docs/guiScrollPaneSetHorizontalScrollPosition.md "wikilink") and [guiScrollPaneSetVerticalScrollPosition](/guiScrollPaneSetVerticalScrollPosition.md "wikilink") not correctly using floating point numbers
+-   Disabled [destroyElement](/docs/destroyElement.md "wikilink") and [setElementParent](/setElementParent.md "wikilink") for the camera element
 -   Updated Lua to 5.1.5-2
 
 Client
@@ -104,7 +104,7 @@ Client
 -   Fixed launch crash
 -   Fixed crash caused by a custom model restoring conflict somewhere
 -   Fixed a bug when throwing grenade could cause crash
--   Fixed [onClientElementStreamOut](/onClientElementStreamOut.md "wikilink") crash
+-   Fixed [onClientElementStreamOut](/docs/onClientElementStreamOut.md "wikilink") crash
 -   Fixed graphics driver crash bug
 -   Fixed another graphics driver crash bug
 -   Fixed crash in loader
@@ -122,17 +122,17 @@ Client
 -   Fixed a cursor alpha issue
 -   Fixed ped attached objects sliding when ped walks on slopes
 -   Fixed Intel clipping issues
--   Fixed [engineLoadTXD](/engineLoadTXD.md "wikilink") and [engineReplaceModel](/engineReplaceModel.md "wikilink") not properly closing invalid files
--   Fixed progress spinner not showing when server is using [latency reduction](/mtaserver.conf#latency_reduction.md "wikilink")
--   Fixed network trouble message causing WSOD when server is using [latency reduction](/mtaserver.conf#latency_reduction.md "wikilink")
+-   Fixed [engineLoadTXD](/docs/engineLoadTXD.md "wikilink") and [engineReplaceModel](/engineReplaceModel.md "wikilink") not properly closing invalid files
+-   Fixed progress spinner not showing when server is using [latency reduction](/docs/mtaserver.conf#latency_reduction.md "wikilink")
+-   Fixed network trouble message causing WSOD when server is using [latency reduction](/docs/mtaserver.conf#latency_reduction.md "wikilink")
 -   Fixed progress spinner not showing when processing downloaded client files
 -   Fixed Windows “Not responding” warning when client is busy
 -   Fixed a bug when player could not enter any vehicle after trying to enter a vehicle in water
 -   Fixed gta\_sa.exe not generating correctly
 -   Fixed custom binds not saving properly
 -   Fixed a startup freeze
--   Sped up [engineGetVisibleTextureNames](/engineGetVisibleTextureNames.md "wikilink")
--   Made glitches more compatible with [latency\_reduction](/mtaserver.conf#latency_reduction.md "wikilink") mode
+-   Sped up [engineGetVisibleTextureNames](/docs/engineGetVisibleTextureNames.md "wikilink")
+-   Made glitches more compatible with [latency\_reduction](/docs/mtaserver.conf#latency_reduction.md "wikilink") mode
 -   Improved bad install path detection on client launch
 -   Improved client error messages
 -   Tweaked client launcher trouble detection
@@ -144,11 +144,11 @@ Server
 
 ### Server: Additions
 
--   Added 2 special detections - Details: [mtaserver.conf -&gt; enablesd](/Anti-cheat_guide#.3Cenablesd.3E.3C.2Fenablesd.3E.md "wikilink")
+-   Added 2 special detections - Details: [mtaserver.conf -&gt; enablesd](/docs/Anti-cheat_guide#.3Cenablesd.3E.3C.2Fenablesd.3E.md "wikilink")
 -   Added option to enable optimized vehicle parts state sync - Details: [r6107](https://code.google.com/p/mtasa-blue/source/detail?r=6107)
 -   Added server option to log loadstring calls
 -   Added option to compact internal databases
--   Added option to automatically update [minclientversion](/mtaserver.conf#minclientversion.md "wikilink") - Details: [minclientversion\_auto\_update](/mtaserver.conf#minclientversion_auto_update.md "wikilink")
+-   Added option to automatically update [minclientversion](/docs/mtaserver.conf#minclientversion.md "wikilink") - Details: [minclientversion\_auto\_update](/mtaserver.conf#minclientversion_auto_update.md "wikilink")
 -   Added thread performance stats
 -   Added server stats for RPC packets
 -   Added server stats for usage of event and element data names
@@ -158,13 +158,13 @@ Server
 
 -   Fixed server stalls caused by open ports tester and master server announcer
 -   Fixed several server crashes
--   Fixed [killPlayer](/killPlayer.md "wikilink") crashing server
+-   Fixed [killPlayer](/docs/killPlayer.md "wikilink") crashing server
 -   Fixed a server exit crash
 -   Fixed server crash during shutdown
--   Fixed server crash when calling [setControlState](/setControlState.md "wikilink") with a ped
+-   Fixed server crash when calling [setControlState](/docs/setControlState.md "wikilink") with a ped
 -   Fixed server --maxplayers command line argument not working as advertised
 -   Fixed includes failing when a resource changes
--   Fixed bug when player could not walk sideways while aiming with [latency\_reduction](/mtaserver.conf#latency_reduction.md "wikilink") enabled
+-   Fixed bug when player could not walk sideways while aiming with [latency\_reduction](/docs/mtaserver.conf#latency_reduction.md "wikilink") enabled
 -   Fixed unnecessary syncing of attached marker positions
 -   Fixed synced health and armor values so the fractional part is more consistent
 -   Fixed vehicle wheel states not syncing properly
@@ -189,7 +189,7 @@ Resources
 Editor
 ------
 
--   Added support for hardcoded [fileCopy](/fileCopy.md "wikilink") function
+-   Added support for hardcoded [fileCopy](/docs/fileCopy.md "wikilink") function
 
 Extra information
 -----------------
@@ -202,6 +202,6 @@ Extra information
 
 :\* [MTASA 1.3.5 released](http://forum.mtasa.com/viewtopic.php?f=31&t=71767)
 
-[Category:Changes in 1.3](/Category:Changes_in_1.3.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Changes in 1.3](/docs/Category:Changes_in_1.3.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
 
-[pl:Changes in 1.3.5](/pl:Changes_in_1.3.5.md "wikilink") [pt-br:Novidades na versão 1.3.5](/pt-br:Novidades_na_versão_1.3.5.md "wikilink") [fi:Uutta versiossa 1.3.5](/fi:Uutta_versiossa_1.3.5.md "wikilink")
+[pl:Changes in 1.3.5](/docs/pl:Changes_in_1.3.5.md "wikilink") [pt-br:Novidades na versão 1.3.5](/pt-br:Novidades_na_versão_1.3.5.md "wikilink") [fi:Uutta versiossa 1.3.5](/fi:Uutta_versiossa_1.3.5.md "wikilink")

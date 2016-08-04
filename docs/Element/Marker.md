@@ -26,6 +26,6 @@ XML syntax
 Related scripting functions
 ---------------------------
 
-[Category:Element Types](/Category:Element_Types.md "wikilink")
+[Category:Element Types](/docs/Category:Element_Types.md "wikilink")
 
-[it:Elemento/Marker](/it:Elemento/Marker.md "wikilink") [ru:Элемент/Маркер](/ru:Элемент/Маркер.md "wikilink")
+[it:Elemento/Marker](/docs/it:Elemento/Marker.md "wikilink") [ru:Элемент/Маркер](/ru:Элемент/Маркер.md "wikilink")

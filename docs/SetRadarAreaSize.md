@@ -1,4 +1,4 @@
-This function changes the size of an existing [radar area](/radararea.md "wikilink").
+This function changes the size of an existing [radar area](/docs/radararea.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setRadarAreaSize ( radararea theRadararea, float x, float y )
 
 ### Required Arguments
 
--   **theRadararea:** the [radararea](/radararea.md "wikilink") element whose size is to be changed.
+-   **theRadararea:** the [radararea](/docs/radararea.md "wikilink") element whose size is to be changed.
 -   **x:** the x length of the radar area.
 -   **y:** the y length of the radar area.
 

@@ -7,8 +7,8 @@ bool pregFind ( string subject, string pattern [, int/string flags ] )
 
 ### Required Arguments
 
--   **subject:** The input [string](/string.md "wikilink")
--   **pattern:** The pattern [string](/string.md "wikilink") to search for in the input [string](/string.md "wikilink").
+-   **subject:** The input [string](/docs/string.md "wikilink")
+-   **pattern:** The pattern [string](/docs/string.md "wikilink") to search for in the input [string](/string.md "wikilink").
 
 ### Optional Arguments
 

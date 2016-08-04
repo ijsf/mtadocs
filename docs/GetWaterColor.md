@@ -11,7 +11,7 @@ int, int, int, int getWaterColor ( )
 
 ### Returns
 
-Returns 4 [ints](/int.md "wikilink"), indicating the color of the water. (RGBA)
+Returns 4 [ints](/docs/int.md "wikilink"), indicating the color of the water. (RGBA)
 
 Example
 -------

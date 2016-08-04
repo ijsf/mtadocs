@@ -1,4 +1,4 @@
-This function is used to get the element a [player](/player.md "wikilink") is currently targeting.
+This function is used to get the element a [player](/docs/player.md "wikilink") is currently targeting.
 
 Syntax
 ------
@@ -9,11 +9,11 @@ element getPlayerTarget ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") whose target you want to retrieve.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") whose target you want to retrieve.
 
 ### Returns
 
-Returns the [element](/element.md "wikilink") that's being targeted, or *false* if there isn't one.
+Returns the [element](/docs/element.md "wikilink") that's being targeted, or *false* if there isn't one.
 
 This is only effective on physical GTA elements, namely:
 
@@ -41,7 +41,7 @@ end
 setTimer ( playerTargetCheck, 1000, 0 )                            -- call the check function every second
 ```
 
-*Note: A more efficient way to do this would be to use the [onPlayerTarget](/onPlayerTarget.md "wikilink") event.*
+*Note: A more efficient way to do this would be to use the [onPlayerTarget](/docs/onPlayerTarget.md "wikilink") event.*
 
 See Also
 --------

@@ -24,7 +24,7 @@ Required Arguments
 Optional Arguments
 ------------------
 
--   **visibleTo:** This specifies who the chat is visible to. Any players in this element will see the chat message. See [visibility](/visibility.md "wikilink").
+-   **visibleTo:** This specifies who the chat is visible to. Any players in this element will see the chat message. See [visibility](/docs/visibility.md "wikilink").
 -   **r:** The amount of red in the color of the text. Default value is 231.
 -   **g:** The amount of green in the color of the text. Default value is 217.
 -   **b:** The amount of blue in the color of the text. Default value is 176.
@@ -144,4 +144,4 @@ addEventHandler("onPlayerJoin", root, onJoin)
 See Also
 --------
 
-[cs:outputChatBox](/cs:outputChatBox.md "wikilink") [pl:outputChatBox](/pl:outputChatBox.md "wikilink") [ru:outputChatBox](/ru:outputChatBox.md "wikilink")
+[cs:outputChatBox](/docs/cs:outputChatBox.md "wikilink") [pl:outputChatBox](/pl:outputChatBox.md "wikilink") [ru:outputChatBox](/ru:outputChatBox.md "wikilink")

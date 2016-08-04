@@ -9,11 +9,11 @@ table getVehicleOccupants ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle:** the [vehicle](/vehicle.md "wikilink") of which you wish to retrieve the occupants.
+-   **theVehicle:** the [vehicle](/docs/vehicle.md "wikilink") of which you wish to retrieve the occupants.
 
 ### Returns
 
-Returns a [table](/table.md "wikilink") with seat ID as an index and the occupant as an element like this: table\[seat\] = occupant
+Returns a [table](/docs/table.md "wikilink") with seat ID as an index and the occupant as an element like this: table\[seat\] = occupant
 
 Returns *false* if an invalid vehicle was passed or if the vehicle has no seats (like a trailer)
 

@@ -9,7 +9,7 @@ gui-memo guiCreateMemo ( float x, float y, float width, float height, string tex
 
 ### Required Arguments
 
-[frame|Example GUI memo.](/Image:Gui-memo.png.md "wikilink")
+[frame|Example GUI memo.](/docs/Image:Gui-memo.png.md "wikilink")
 
 -   **x:** A float of the 2D x position of the GUI memo on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the GUI memo on a player's screen. This is affected by the *relative* argument.

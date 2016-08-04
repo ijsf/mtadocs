@@ -24,7 +24,7 @@ addCommandHandler("reset2000",
 )
 ```
 
-[pl:resetHeatHaze](/pl:resetHeatHaze.md "wikilink")
+[pl:resetHeatHaze](/docs/pl:resetHeatHaze.md "wikilink")
 
 See Also
 --------

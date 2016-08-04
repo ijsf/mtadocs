@@ -12,7 +12,7 @@ int upOrDown
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the GUI element on which the mouse scroll was scrolled.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the GUI element on which the mouse scroll was scrolled.
 
 Example
 -------
@@ -27,7 +27,7 @@ addEventHandler( "onClientMouseWheel", root,
 )
 ```
 
-[pl:onClientMouseWheel](/pl:onClientMouseWheel.md "wikilink")
+[pl:onClientMouseWheel](/docs/pl:onClientMouseWheel.md "wikilink")
 
 See Also
 --------

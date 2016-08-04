@@ -1,4 +1,4 @@
-This function is used to set the current clothes of a certain type on a [player](/player.md "wikilink"). It can only be used on players with the CJ skin (id 0).
+This function is used to set the current clothes of a certain type on a [player](/docs/player.md "wikilink"). It can only be used on players with the CJ skin (id 0).
 
 Syntax
 ------
@@ -9,10 +9,10 @@ bool addPlayerClothes ( player thePlayer, string clothesTexture, string clothesM
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/player.md "wikilink") whose clothes you want to change.
--   **clothesTexture**: A string determining the clothes texture that will be added. See the [clothes catalog](/CJ_Clothes.md "wikilink").
--   **clothesModel**: A string determining the clothes model that will be added. See the [clothes catalog](/CJ_Clothes.md "wikilink").
--   **clothesType**: A integer representing the clothes slot/type the clothes should be added to. See the [clothes catalog](/CJ_Clothes.md "wikilink").
+-   **thePlayer**: The [player](/docs/player.md "wikilink") whose clothes you want to change.
+-   **clothesTexture**: A string determining the clothes texture that will be added. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
+-   **clothesModel**: A string determining the clothes model that will be added. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
+-   **clothesType**: A integer representing the clothes slot/type the clothes should be added to. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
 
 Returns
 -------

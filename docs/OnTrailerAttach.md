@@ -12,12 +12,12 @@ vehicle theTruck
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the trailer [vehicle](/vehicle.md "wikilink") that the truck got attached to.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the trailer [vehicle](/vehicle.md "wikilink") that the truck got attached to.
 
 Cancel effect
 -------------
 
-If this event is [canceled](/Event_system#Canceling.md "wikilink"), the trailer will detach from the truck again.
+If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the trailer will detach from the truck again.
 
 Example
 -------
@@ -31,4 +31,4 @@ function detachTrailer(theTruck)
 addEventHandler("onTrailerAttach", getRootElement(), detachTrailer)
 ```
 
-[ru:onTrailerAttach](/ru:onTrailerAttach.md "wikilink")
+[ru:onTrailerAttach](/docs/ru:onTrailerAttach.md "wikilink")

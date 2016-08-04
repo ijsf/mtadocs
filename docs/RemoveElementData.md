@@ -1,4 +1,4 @@
-This function removes the [element data](/element_data.md "wikilink") with the given key for that element. The element data removal is synced with all the clients.
+This function removes the [element data](/docs/element_data.md "wikilink") with the given key for that element. The element data removal is synced with all the clients.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool removeElementData ( element theElement, string key )
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") you wish to remove the data from.
+-   **theElement:** The [element](/docs/element.md "wikilink") you wish to remove the data from.
 -   **key:** The key string you wish to remove.
 
 ### Returns

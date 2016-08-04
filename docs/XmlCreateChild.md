@@ -9,12 +9,12 @@ xmlnode xmlCreateChild ( xmlnode parentNode, string tagName )
 
 ### Required Arguments
 
--   **parentNode:** the [xmlnode](/xmlnode.md "wikilink") you want to create a new child node under.
+-   **parentNode:** the [xmlnode](/docs/xmlnode.md "wikilink") you want to create a new child node under.
 -   **tagName:** the type of the child node that will be created.
 
 ### Returns
 
-Returns the created [xmlnode](/xmlnode.md "wikilink") if successful, *false* otherwise.
+Returns the created [xmlnode](/docs/xmlnode.md "wikilink") if successful, *false* otherwise.
 
 Example
 -------
@@ -37,4 +37,4 @@ addCommandHandler("createfile", createFileHandler)
 See Also
 --------
 
-[ru:xmlCreateChild](/ru:xmlCreateChild.md "wikilink")
+[ru:xmlCreateChild](/docs/ru:xmlCreateChild.md "wikilink")

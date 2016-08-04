@@ -11,8 +11,8 @@ bool isElementWithinColShape ( element theElement, colshape theShape )
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") you're checking.
--   **theShape:** The [colshape](/colshape.md "wikilink") you're checking
+-   **theElement:** The [element](/docs/element.md "wikilink") you're checking.
+-   **theShape:** The [colshape](/docs/colshape.md "wikilink") you're checking
 
 ### Returns
 

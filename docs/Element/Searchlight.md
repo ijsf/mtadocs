@@ -23,4 +23,4 @@ XML syntax
 Related scripting functions
 ---------------------------
 
-[Category:Element Types](/Category:Element_Types.md "wikilink")
+[Category:Element Types](/docs/Category:Element_Types.md "wikilink")

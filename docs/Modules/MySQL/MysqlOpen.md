@@ -1,4 +1,4 @@
-This function opens a MySQL connection to a specific database on a database server. As soon as a connection is made (or timed out), the callback\_function you passed as parameter is called and you can read/write to the database by using the [mysqlQuery](/mysqlQuery.md "wikilink") function.
+This function opens a MySQL connection to a specific database on a database server. As soon as a connection is made (or timed out), the callback\_function you passed as parameter is called and you can read/write to the database by using the [mysqlQuery](/docs/mysqlQuery.md "wikilink") function.
 
 Syntax
 ------

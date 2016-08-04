@@ -1,6 +1,6 @@
-Analogous to [onResourceStart](/onResourceStart.md "wikilink"), but triggered before script files are initialised.
+Analogous to [onResourceStart](/docs/onResourceStart.md "wikilink"), but triggered before script files are initialised.
 
-**Important:** If you attach this event to the [root element](/root_element.md "wikilink") it will be called when *any* [resource](/resource.md "wikilink") starts - attach it to to the [root element](/root_element.md "wikilink") of the desired resource, eg. [getResourceRootElement](/getResourceRootElement.md "wikilink")([getResourceFromName](/getResourceFromName.md "wikilink")(“freeroam”)).
+**Important:** If you attach this event to the [root element](/docs/root_element.md "wikilink") it will be called when *any* [resource](/resource.md "wikilink") starts - attach it to to the [root element](/root_element.md "wikilink") of the desired resource, eg. [getResourceRootElement](/getResourceRootElement.md "wikilink")([getResourceFromName](/getResourceFromName.md "wikilink")(“freeroam”)).
 
 Parameters
 ----------
@@ -14,7 +14,7 @@ resource startingResource
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the root [element](/element.md "wikilink") of the resource.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the root [element](/element.md "wikilink") of the resource.
 
 Cancel effect
 -------------

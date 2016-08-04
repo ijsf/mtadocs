@@ -11,7 +11,7 @@ string fileName, bool success
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [root element](/root_element.md "wikilink") of the resource that called [downloadFile](/downloadFile.md "wikilink").
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [root element](/root_element.md "wikilink") of the resource that called [downloadFile](/downloadFile.md "wikilink").
 
 Example
 -------

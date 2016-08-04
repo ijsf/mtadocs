@@ -19,7 +19,7 @@ Syntax
 
 ### Returns
 
-Returns an [texture](/texture.md "wikilink") of the [browser](/browser.md "wikilink") if it was created successfully, *false* otherwise. Returns also *false*, if the user disabled remote pages and *isLocal* was set to *false*.
+Returns an [texture](/docs/texture.md "wikilink") of the [browser](/browser.md "wikilink") if it was created successfully, *false* otherwise. Returns also *false*, if the user disabled remote pages and *isLocal* was set to *false*.
 
 Local Example
 -------------
@@ -55,7 +55,7 @@ Remote Example
 --------------
 
 This example shows you how to create a fullscreen web browser (showing youtube.com) without input-handling.
-Remember, that youtube.com is on the global whitelist. If you want to load a domain/page that is not on the global whitelist, you have to request it with [requestBrowserDomains](/requestBrowserDomains.md "wikilink").
+Remember, that youtube.com is on the global whitelist. If you want to load a domain/page that is not on the global whitelist, you have to request it with [requestBrowserDomains](/docs/requestBrowserDomains.md "wikilink").
 
 ``` lua
 --In order to render the browser on the full screen, we need to know the dimensions.

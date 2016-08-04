@@ -7,7 +7,7 @@ Commands
 
 In the server console you can use many different commands, affecting the players using the server. Please note that only console commands can be used, and that some commands can not be used through the in-game client console, only through the Server Console.
 
-[<File:Mta_console_help.png>](/File:Mta_console_help.png.md "wikilink")
+[<File:Mta_console_help.png>](/docs/File:Mta_console_help.png.md "wikilink")
 
 Note that the console list does not show the usage of the commands. Some commands may also not be listed (possibly related to the [admin](http://wiki.multitheftauto.com/wiki/Admin) resource.(unconfirmed)).
 
@@ -38,7 +38,7 @@ Definitions
 
 **openports**: Outputs whether the ports “serverport”,“httpport”,“aseport” is open or closed.(if they are closed, please see this topic on how to open it: <http://forum.mtasa.com/viewtopic.php?f=114&t=33722&p=444572#p352164> )
 
-**aclrequest**: Usage: aclrequest \[list|allow|deny\] <resource-name> \[<right>|all\]| Manage ACL requests from resources implementing <aclrequest> in their [meta.xml](/meta.xml.md "wikilink").
+**aclrequest**: Usage: aclrequest \[list|allow|deny\] <resource-name> \[<right>|all\]| Manage ACL requests from resources implementing <aclrequest> in their [meta.xml](/docs/meta.xml.md "wikilink").
 
 **start**: Usage: start <resource-name> | Start a loaded resource eg:“start admin”.
 
@@ -96,6 +96,6 @@ Outputs:
 
 ### See Also
 
-[Server\_Commands](/Server_Commands.md "wikilink")
+[Server\_Commands](/docs/Server_Commands.md "wikilink")
 
-[Category:Element Types](/Category:Element_Types.md "wikilink")
+[Category:Element Types](/docs/Category:Element_Types.md "wikilink")

@@ -1,4 +1,4 @@
-This function gets a [client](/client.md "wikilink")'s name (a client can either be a [player](/player.md "wikilink") or an admin).
+This function gets a [client](/docs/client.md "wikilink")'s name (a client can either be a [player](/player.md "wikilink") or an admin).
 
 Syntax
 ------
@@ -9,7 +9,7 @@ string getClientName ( client theClient )
 
 ### Required Arguments
 
--   **theClient:** the [client](/client.md "wikilink") element (player or admin) you want to get the name of.
+-   **theClient:** the [client](/docs/client.md "wikilink") element (player or admin) you want to get the name of.
 
 ### Returns
 

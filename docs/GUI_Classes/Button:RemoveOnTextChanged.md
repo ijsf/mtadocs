@@ -1,6 +1,6 @@
 <pageclass class="client" subcaption="GUI Class method"></pageclass>
 
-You can use this method to remove a function that was attached to the sham event with [object:AddOnTextChanged](/GUI_Classes/Button:AddOnTextChanged.md "wikilink"). The function you pass to this method will be removed from the list and will no longer be triggered when text changes.
+You can use this method to remove a function that was attached to the sham event with [object:AddOnTextChanged](/docs/GUI_Classes/Button:AddOnTextChanged.md "wikilink"). The function you pass to this method will be removed from the list and will no longer be triggered when text changes.
 
 Syntax
 ------
@@ -61,4 +61,4 @@ end
 See Also
 --------
 
-[Back to GUI Classes page](/GUI_Classes.md "wikilink")
+[Back to GUI Classes page](/docs/GUI_Classes.md "wikilink")

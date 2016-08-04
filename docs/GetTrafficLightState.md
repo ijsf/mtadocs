@@ -9,7 +9,7 @@ int getTrafficLightState ( )
 
 ### Returns
 
-Returns the current [state](/Traffic_light_states.md "wikilink") of the traffic lights.
+Returns the current [state](/docs/Traffic_light_states.md "wikilink") of the traffic lights.
 
 Example
 -------

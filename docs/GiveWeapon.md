@@ -9,8 +9,8 @@ Syntax
 
 ### Required Arguments
 
--   **thePlayer:** A [player](/player.md "wikilink") or [ped](/ped.md "wikilink") object referencing the specified player (or [ped](/ped.md "wikilink"))
--   **weapon:** A whole number integer that refers to a [Weapon](/Weapon.md "wikilink") ID. Click [here](/Weapon.md "wikilink") for a list of possible weapon IDs.
+-   **thePlayer:** A [player](/docs/player.md "wikilink") or [ped](/ped.md "wikilink") object referencing the specified player (or [ped](/ped.md "wikilink"))
+-   **weapon:** A whole number integer that refers to a [Weapon](/docs/Weapon.md "wikilink") ID. Click [here](/Weapon.md "wikilink") for a list of possible weapon IDs.
 
 ### Optional Arguments
 
@@ -66,4 +66,4 @@ addCommandHandler( "give",
 See Also
 --------
 
-[ru:giveWeapon](/ru:giveWeapon.md "wikilink")
+[ru:giveWeapon](/docs/ru:giveWeapon.md "wikilink")

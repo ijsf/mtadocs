@@ -1,4 +1,4 @@
-This function changes the specified [client](/client.md "wikilink")'s name.
+This function changes the specified [client](/docs/client.md "wikilink")'s name.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setClientName ( client theClient, string newName )
 
 ### Required Arguments
 
--   **theClient:** the [client](/client.md "wikilink") that will have its name set.
+-   **theClient:** the [client](/docs/client.md "wikilink") that will have its name set.
 -   **newName:** the new name to set for the client.
 
 ### Returns

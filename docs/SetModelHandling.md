@@ -9,7 +9,7 @@ bool setModelHandling ( int modelId, string property, var value )
 
 ### Required Arguments
 
--   **modelId:** The [vehicle model](/Vehicle_IDs.md "wikilink") you wish to set the handling of.
+-   **modelId:** The [vehicle model](/docs/Vehicle_IDs.md "wikilink") you wish to set the handling of.
 -   **property:** The property you wish to set the handling of the vehicle to, or *nil* if you want to reset the all the handling properties.
 -   **value:** The value of the models's handling property you wish to set, or *nil* if you want to reset the handling property to its default value.
 

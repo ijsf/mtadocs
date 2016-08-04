@@ -143,9 +143,9 @@ MTA:SA Race 1.1.1 was released. This fixed several serious issues with 1.1, incl
 See Also
 --------
 
--   [Archive](/Archive.md "wikilink")
--   [Version History](/Version_History.md "wikilink")
--   [MTA Vault](/MTA_Vault.md "wikilink") - Screenshots of previous versions
+-   [Archive](/docs/Archive.md "wikilink")
+-   [Version History](/docs/Version_History.md "wikilink")
+-   [MTA Vault](/docs/MTA_Vault.md "wikilink") - Screenshots of previous versions
 
 References
 ----------
@@ -158,11 +158,11 @@ References
 
 [3] <http://www.youtube.com/watch?v=zQHK8h2XAg0>
 
-[4] [MTA:mA](/MTA:mA.md "wikilink")
+[4] [MTA:mA](/docs/MTA:mA.md "wikilink")
 
 [5] <http://files.mtasa.com/media/1yrmta.zip>
 
-[6] [Car-Killers](/Car-Killers.md "wikilink")
+[6] [Car-Killers](/docs/Car-Killers.md "wikilink")
 
 [7] <http://www.youtube.com/watch?v=6xA-P3UVNEE>
 
@@ -174,7 +174,7 @@ References
 
 [11] <http://files.mtasa.com/web/mta_sa_launch/>
 
-[12] [Blue](/Blue.md "wikilink")
+[12] [Blue](/docs/Blue.md "wikilink")
 
 [13] <http://www.youtube.com/watch?v=q54av6_GkOo>
 

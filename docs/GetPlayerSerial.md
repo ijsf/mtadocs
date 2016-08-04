@@ -1,4 +1,4 @@
-This function returns the [serial](/serial.md "wikilink") for a specified [player](/player.md "wikilink").
+This function returns the [serial](/docs/serial.md "wikilink") for a specified [player](/player.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ string getPlayerSerial ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer:** A [player](/player.md "wikilink") object referencing the specified player.
+-   **thePlayer:** A [player](/docs/player.md "wikilink") object referencing the specified player.
 
 Returns
 -------

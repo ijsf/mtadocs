@@ -1,4 +1,4 @@
-Toggles whether you want the traffic lights to be locked. If the lights are locked, it means they won't change unless you do [setTrafficLightState](/setTrafficLightState.md "wikilink").
+Toggles whether you want the traffic lights to be locked. If the lights are locked, it means they won't change unless you do [setTrafficLightState](/docs/setTrafficLightState.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setTrafficLightsLocked ( bool toggle )
 
 ### Required Arguments
 
--   **toggle**: A [bool](/bool.md "wikilink") indicating whether you want the traffic lights to change automatically, or not
+-   **toggle**: A [bool](/docs/bool.md "wikilink") indicating whether you want the traffic lights to change automatically, or not
 
 ### Returns
 

@@ -9,7 +9,7 @@ bool guiGridListAutoSizeColumn ( element gridList, int columnIndex )
 
 ### Required Arguments
 
--   **gridList:** The [grid list](/Element/GUI/Gridlist.md "wikilink") element where the column is located.
+-   **gridList:** The [grid list](/docs/Element/GUI/Gridlist.md "wikilink") element where the column is located.
 -   **columnIndex:** The ID of the column you want to be auto-sized.
 
 ### Returns

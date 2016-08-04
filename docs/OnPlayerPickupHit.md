@@ -1,4 +1,4 @@
-This event is triggered when a [player](/player.md "wikilink") hits a [pickup](/pickup.md "wikilink").
+This event is triggered when a [player](/docs/player.md "wikilink") hits a [pickup](/pickup.md "wikilink").
 
 Parameters
 ----------
@@ -13,12 +13,12 @@ pickup pickupHit, bool matchingDimension
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that hit the pickup.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that hit the pickup.
 
 Cancel effect
 -------------
 
-If this event is [canceled](/Event_system#Canceling.md "wikilink"), the player will not be able to pick up this pickup.
+If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the player will not be able to pick up this pickup.
 
 Example
 -------

@@ -7,7 +7,7 @@ Parameters
 int weaponID, ped responsiblePed
 ```
 
--   **weapon:** an [int](/int.md "wikilink") representing the ID of the [weapon](/weapon.md "wikilink") which caused the choking.
+-   **weapon:** an [int](/docs/int.md "wikilink") representing the ID of the [weapon](/weapon.md "wikilink") which caused the choking.
 -   **responsiblePed:** the ped responsible for causing the choking, possiblly nil.
 
 Source
@@ -18,7 +18,7 @@ The source of this event is the player who is choking. (Local player only)
 Cancel effect
 -------------
 
-If this event is [canceled](/Event_system#Canceling.md "wikilink"), the player will not be choked.
+If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the player will not be choked.
 
 Example
 -------

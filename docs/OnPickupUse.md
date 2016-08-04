@@ -1,4 +1,4 @@
-This event is triggered when a [player](/player.md "wikilink") stands on a [pickup](/pickup.md "wikilink") while not in a [vehicle](/vehicle.md "wikilink"). Pickups use [colshapes](/colshape.md "wikilink"), you can get the [colshape](/colshape.md "wikilink") of the [pickup](/pickup.md "wikilink") with [getElementColShape](/getElementColShape.md "wikilink") and use [colshape](/colshape.md "wikilink") [events](/event.md "wikilink") to it
+This event is triggered when a [player](/docs/player.md "wikilink") stands on a [pickup](/pickup.md "wikilink") while not in a [vehicle](/vehicle.md "wikilink"). Pickups use [colshapes](/colshape.md "wikilink"), you can get the [colshape](/colshape.md "wikilink") of the [pickup](/pickup.md "wikilink") with [getElementColShape](/getElementColShape.md "wikilink") and use [colshape](/colshape.md "wikilink") [events](/event.md "wikilink") to it
 
 Parameters
 ----------
@@ -12,11 +12,11 @@ player playerWhoUsed
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [pickup](/pickup.md "wikilink") that is getting used by the player.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [pickup](/pickup.md "wikilink") that is getting used by the player.
 
 ### Canceling
 
-If this event is [canceled](/Event_system_#Canceling.md "wikilink"), the player will not be given the item they picked up.
+If this event is [canceled](/docs/Event_system_#Canceling.md "wikilink"), the player will not be given the item they picked up.
 
 Example
 -------

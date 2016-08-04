@@ -11,7 +11,7 @@ float float float getVehicleRotation ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle**: The [vehicle](/vehicle.md "wikilink") whose rotation you want to retrieve.
+-   **theVehicle**: The [vehicle](/docs/vehicle.md "wikilink") whose rotation you want to retrieve.
 
 ### Returns
 

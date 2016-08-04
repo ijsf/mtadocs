@@ -1,4 +1,4 @@
-This function allows you to set the armor value of a [ped](/ped.md "wikilink").
+This function allows you to set the armor value of a [ped](/docs/ped.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setPedArmor ( ped thePed, float armor )
 
 ### Required Arguments
 
--   **thePed**: the [ped](/ped.md "wikilink") whose armor you want to modify.
+-   **thePed**: the [ped](/docs/ped.md "wikilink") whose armor you want to modify.
 -   **armor**: the amount of armor you want to set on the ped. Valid values are from 0 to 100.
 
 ### Returns
@@ -56,4 +56,4 @@ addCommandHandler( "addarmor", givePlayerArmor )
 See Also
 --------
 
-[ru:setPedArmor](/ru:setPedArmor.md "wikilink")
+[ru:setPedArmor](/docs/ru:setPedArmor.md "wikilink")

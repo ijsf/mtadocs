@@ -13,7 +13,7 @@ table ircGetBots ()
 
 ### Returns
 
-Returns a [table](/table.md "wikilink") over all created ircbots. Returns an empty table if no ircbots exist.
+Returns a [table](/docs/table.md "wikilink") over all created ircbots. Returns an empty table if no ircbots exist.
 
 Example
 -------

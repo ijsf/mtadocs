@@ -9,7 +9,7 @@ bool fileExists ( string filePath )
 
 ### Required Arguments
 
--   **filePath:** The [filepath](/filepath.md "wikilink") of the file, whose existence is going to be checked, in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the file is checked to be in, and 'path' is the path from the root directory of the resource to the file.
+-   **filePath:** The [filepath](/docs/filepath.md "wikilink") of the file, whose existence is going to be checked, in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the file is checked to be in, and 'path' is the path from the root directory of the resource to the file.
 
   
 For example, if you want to check whether a file named 'myfile.txt' exists in the resource 'mapcreator', it can be done from another resource this way: *fileExists(":mapcreator/myfile.txt")*.

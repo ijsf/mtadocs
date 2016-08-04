@@ -9,7 +9,7 @@ float getWaveHeight()
 
 ### Returns
 
-Returns the height as a [float](/float.md "wikilink"), *false* otherwise.
+Returns the height as a [float](/docs/float.md "wikilink"), *false* otherwise.
 
 Example
 -------

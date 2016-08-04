@@ -1,4 +1,4 @@
-This function copies a specified [resource](/resource.md "wikilink") with a new name.
+This function copies a specified [resource](/docs/resource.md "wikilink") with a new name.
 
 Syntax
 ------
@@ -18,7 +18,7 @@ resource copyResource ( resource theResource, string newResourceName [, string o
 
 ### Returns
 
-Returns the [resource](/resource.md "wikilink") element of the copy. Returns *false* if the arguments are incorrect.
+Returns the [resource](/docs/resource.md "wikilink") element of the copy. Returns *false* if the arguments are incorrect.
 
 Example
 -------

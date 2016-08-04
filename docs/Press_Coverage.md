@@ -104,4 +104,4 @@ Other Media
 
 -   MTA Forum | [2003 official R\* reaction](http://forum.mtasa.com/viewtopic.php?f=5&t=128#p810) | 2003
 
-[Category:Historical](/Category:Historical.md "wikilink")
+[Category:Historical](/docs/Category:Historical.md "wikilink")

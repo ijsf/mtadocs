@@ -2,7 +2,7 @@ This function clones (creates an exact copy of) an already existing element. The
 
 Players are not the only elements that cannot be cloned. This list also includes remoteclients, and console elements.
 
-The cloned element will be placed on the [element tree](/element_tree.md "wikilink") as a child of the same parent as the cloned element.
+The cloned element will be placed on the [element tree](/docs/element_tree.md "wikilink") as a child of the same parent as the cloned element.
 
 Syntax
 ------

@@ -1,4 +1,4 @@
-This function returns the alpha (transparency) value for the specified [element](/element.md "wikilink"). This can be a [player](/player.md "wikilink"), [ped](/ped.md "wikilink"), [object](/object.md "wikilink"), [vehicle](/vehicle.md "wikilink") or [weapon](/Element/Weapon.md "wikilink").
+This function returns the alpha (transparency) value for the specified [element](/docs/element.md "wikilink"). This can be a [player](/player.md "wikilink"), [ped](/ped.md "wikilink"), [object](/object.md "wikilink"), [vehicle](/vehicle.md "wikilink") or [weapon](/Element/Weapon.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ int getElementAlpha ( element theElement )
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") whose alpha you want to retrieve.
+-   **theElement:** The [element](/docs/element.md "wikilink") whose alpha you want to retrieve.
 
 ### Returns
 

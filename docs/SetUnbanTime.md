@@ -7,7 +7,7 @@ bool setUnbanTime( ban theBan, int theTime )
 
 ### Required Arguments
 
--   **theBan:** The [ban](/ban.md "wikilink") of which to change the unban time of
+-   **theBan:** The [ban](/docs/ban.md "wikilink") of which to change the unban time of
 -   **theTime:** the new unban time
 
 ### Returns
@@ -29,4 +29,4 @@ end
 See Also
 --------
 
-[ru:setUnbanTime](/ru:setUnbanTime.md "wikilink")
+[ru:setUnbanTime](/docs/ru:setUnbanTime.md "wikilink")

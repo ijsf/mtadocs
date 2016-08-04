@@ -1,4 +1,4 @@
-This function will force the specified player to resend their mod info, triggering the [onPlayerModInfo](/onPlayerModInfo.md "wikilink") event again.
+This function will force the specified player to resend their mod info, triggering the [onPlayerModInfo](/docs/onPlayerModInfo.md "wikilink") event again.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool resendPlayerModInfo ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer**: A [player](/player.md "wikilink") object referencing the specified player
+-   **thePlayer**: A [player](/docs/player.md "wikilink") object referencing the specified player
 
 ### Returns
 
@@ -18,7 +18,7 @@ Returns *true* if the mod info will be resent, *false* otherwise.
 Example
 -------
 
-This example shows how to resend each players mod info during [onResourceStart](/onResourceStart.md "wikilink")
+This example shows how to resend each players mod info during [onResourceStart](/docs/onResourceStart.md "wikilink")
 
 ``` lua
 addEventHandler( "onResourceStart", resourceRoot,

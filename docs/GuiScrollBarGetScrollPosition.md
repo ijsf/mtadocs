@@ -13,7 +13,7 @@ float guiScrollBarGetScrollPosition ( gui-scrollBar theScrollBar )
 
 ### Returns
 
-Returns a [float](/float.md "wikilink") ranging between 0 and 100, representing the amount the scrollbar has been scrolled.
+Returns a [float](/docs/float.md "wikilink") ranging between 0 and 100, representing the amount the scrollbar has been scrolled.
 
 Example
 -------
@@ -27,4 +27,4 @@ This page lacks an example
 See Also
 --------
 
-[Catogory:Needs\_Example](/Catogory:Needs_Example.md "wikilink")
+[Catogory:Needs\_Example](/docs/Catogory:Needs_Example.md "wikilink")

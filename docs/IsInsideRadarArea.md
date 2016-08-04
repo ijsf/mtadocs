@@ -1,4 +1,4 @@
-This function checks if a 2D position is inside a [radar area](/radararea.md "wikilink") or not.
+This function checks if a 2D position is inside a [radar area](/docs/radararea.md "wikilink") or not.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool isInsideRadarArea ( radararea theArea, float posX, float posY )
 
 ### Required Arguments
 
--   **theArea:** The [radar area](/radararea.md "wikilink") you're checking the position against.
+-   **theArea:** The [radar area](/docs/radararea.md "wikilink") you're checking the position against.
 -   **posX:** The X coordinate of the position you're checking.
 -   **posY:** The Y coordinate of the position you're checking.
 

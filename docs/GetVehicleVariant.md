@@ -1,4 +1,4 @@
-This function gets the variant of a specified vehicle. In GTA SA some vehicles are different for example the labelling on trucks or the contents of a pick-up truck and the varying types of a motor bike. For the default GTA SA variant list see: [Vehicle variants](/Vehicle_variants.md "wikilink")
+This function gets the variant of a specified vehicle. In GTA SA some vehicles are different for example the labelling on trucks or the contents of a pick-up truck and the varying types of a motor bike. For the default GTA SA variant list see: [Vehicle variants](/docs/Vehicle_variants.md "wikilink")
 
 Syntax
 ------
@@ -10,15 +10,15 @@ int, int getVehicleVariant ( vehicle theVehicle )
 Required Arguments
 ------------------
 
--   **theVehicle:** A handle to the [vehicle](/vehicle.md "wikilink") that you want to get the variant of.
+-   **theVehicle:** A handle to the [vehicle](/docs/vehicle.md "wikilink") that you want to get the variant of.
 
 Returns
 -------
 
 On success:
 
--   **int**: An integer for the first vehicle variant see [Vehicle variants](/Vehicle_variants.md "wikilink")
--   **int**: An integer for the second vehicle variant see [Vehicle variants](/Vehicle_variants.md "wikilink")
+-   **int**: An integer for the first vehicle variant see [Vehicle variants](/docs/Vehicle_variants.md "wikilink")
+-   **int**: An integer for the second vehicle variant see [Vehicle variants](/docs/Vehicle_variants.md "wikilink")
 
 On failure:
 

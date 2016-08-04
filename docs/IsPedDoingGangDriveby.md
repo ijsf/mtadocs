@@ -9,7 +9,7 @@ bool isPedDoingGangDriveby ( ped thePed )
 
 ### Required Arguments
 
--   **thePed:** The [ped](/ped.md "wikilink") element whose state is to be checked.
+-   **thePed:** The [ped](/docs/ped.md "wikilink") element whose state is to be checked.
 
 ### Returns
 

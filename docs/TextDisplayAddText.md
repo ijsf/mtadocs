@@ -1,4 +1,4 @@
-This function adds a [textitem](/textitem.md "wikilink") to a [textdisplay](/textdisplay.md "wikilink"). This allows any observers of the [textdisplay](/textdisplay.md "wikilink") to see the [textitem](/textitem.md "wikilink").
+This function adds a [textitem](/docs/textitem.md "wikilink") to a [textdisplay](/textdisplay.md "wikilink"). This allows any observers of the [textdisplay](/textdisplay.md "wikilink") to see the [textitem](/textitem.md "wikilink").
 
 Syntax
 ------
@@ -9,8 +9,8 @@ void textDisplayAddText ( textdisplay displayToAddTo, textitem itemToAdd )
 
 ### Required Arguments
 
--   **displayToAddTo**: The [textdisplay](/textdisplay.md "wikilink") to add the [textitem](/textitem.md "wikilink") to.
--   **itemToAdd**: The [textitem](/textitem.md "wikilink") to add to the display.
+-   **displayToAddTo**: The [textdisplay](/docs/textdisplay.md "wikilink") to add the [textitem](/textitem.md "wikilink") to.
+-   **itemToAdd**: The [textitem](/docs/textitem.md "wikilink") to add to the display.
 
 Example
 -------

@@ -3,7 +3,7 @@ This resource allowe you to draw 3D-DX texts any where in the game .
 How it works
 ------------
 
-You only need to use the exported function from the resource **dxDraw3DText** and draw the text . ( To use the exported function use [call](/call.md "wikilink") function ) .
+You only need to use the exported function from the resource **dxDraw3DText** and draw the text . ( To use the exported function use [call](/docs/call.md "wikilink") function ) .
 
 The dxDraw3DText function
 -------------------------
@@ -16,16 +16,16 @@ The dxDraw3DText function
 
 ### Required Arguments
 
--   **text :** A [string](/string.md "wikilink") representing the text you wish to draw .
+-   **text :** A [string](/docs/string.md "wikilink") representing the text you wish to draw .
 -   **x, y, z :** Three integers representing the world coordinates of where you want the text to be .
 
 ### Optional Arguments
 
--   **scale :** An [int](/int.md "wikilink") representing the size of the font .
--   **font :** A [string](/string.md "wikilink") representing the font type, This CAN'T be a [DX font](/DX_font.md "wikilink") element, It can ONLY be :
+-   **scale :** An [int](/docs/int.md "wikilink") representing the size of the font .
+-   **font :** A [string](/docs/string.md "wikilink") representing the font type, This CAN'T be a [DX font](/DX_font.md "wikilink") element, It can ONLY be :
 
 -   **r, g, b :** Three integers representing the RGB Color codes for the text .
--   *' maxDistance :*' An [int](/int.md "wikilink") representing the max distance the text will show in .
+-   *' maxDistance :*' An [int](/docs/int.md "wikilink") representing the max distance the text will show in .
 
 ### Returns
 
@@ -54,7 +54,7 @@ Notes
 -----
 
 -   The *dxDraw3DText* function is client side only .
--   The *dxDraw3DText* function doesn't need the [onClientRender](/onClientRender.md "wikilink") event to work .
+-   The *dxDraw3DText* function doesn't need the [onClientRender](/docs/onClientRender.md "wikilink") event to work .
 -   The *dxDraw3DText* function only creates a *text element*, The drawing and stuff is done in the resource, So it MUST be running so the texts show .
 
 Download

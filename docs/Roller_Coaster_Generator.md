@@ -1,4 +1,4 @@
-[thumb|right|The logo](/Image:Rcg.png.md "wikilink") Roller Coaster Generator resources for Multi Theft Auto: San Andreas
+[thumb|right|The logo](/docs/Image:Rcg.png.md "wikilink") Roller Coaster Generator resources for Multi Theft Auto: San Andreas
 
 History and concept
 -------------------
@@ -28,15 +28,15 @@ Setup
 
 1.  Click on the *Definitions* icon.
       
-    [Image:Editor\_Definitions.png](/Image:Editor_Definitions.png.md "wikilink")
+    [Image:Editor\_Definitions.png](/docs/Image:Editor_Definitions.png.md "wikilink")
 
 2.  Add *rcg* definition.
       
-    [Image:Rcg\_setup1.png](/Image:Rcg_setup1.png.md "wikilink")
+    [Image:Rcg\_setup1.png](/docs/Image:Rcg_setup1.png.md "wikilink")
 
 3.  Click Ok.
       
-    [Image:Rcg\_setup2.png](/Image:Rcg_setup2.png.md "wikilink")
+    [Image:Rcg\_setup2.png](/docs/Image:Rcg_setup2.png.md "wikilink")
 
 Usage
 -----
@@ -47,15 +47,15 @@ Usage
 
 1.  Go over the icons with your cursor.
       
-    [Image:Rcg\_def1.png](/Image:Rcg_def1.png.md "wikilink")
+    [Image:Rcg\_def1.png](/docs/Image:Rcg_def1.png.md "wikilink")
 
 2.  Scroll with your mouse wheel.
       
-    [Image:Rcg\_def2.png](/Image:Rcg_def2.png.md "wikilink")
+    [Image:Rcg\_def2.png](/docs/Image:Rcg_def2.png.md "wikilink")
 
 #### Control point
 
-[thumb|right|300px|Modifying the power with PageUp, PageDown.The](/Image:Rcg_powermove.png.md "wikilink") control point defines the positions and directions of the track, and defines the rotations of the track elements. You can select 3 parts of the control point.
+[thumb|right|300px|Modifying the power with PageUp, PageDown.The](/docs/Image:Rcg_powermove.png.md "wikilink") control point defines the positions and directions of the track, and defines the rotations of the track elements. You can select 3 parts of the control point.
 
 -   Center
       
@@ -83,7 +83,7 @@ The track connects two control points, and it creates the series of objects. A t
 
 ### Advanced usage
 
-[thumb|right|300px|Edited model and relative rotation on a control point.](/Image:Rcg_relativerotation.PNG.md "wikilink")
+[thumb|right|300px|Edited model and relative rotation on a control point.](/docs/Image:Rcg_relativerotation.PNG.md "wikilink")
 
 #### Model
 
@@ -117,8 +117,8 @@ Used tools
 See also
 --------
 
--   [Editor](/Editor.md "wikilink")
--   [Editor/Plugins](/Editor/Plugins.md "wikilink")
+-   [Editor](/docs/Editor.md "wikilink")
+-   [Editor/Plugins](/docs/Editor/Plugins.md "wikilink")
 
 External links
 --------------

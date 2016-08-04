@@ -9,7 +9,7 @@ table getValidPedModels ( )
 
 ### Returns
 
-Returns a [table](/table.md "wikilink") with all valid ped models.
+Returns a [table](/docs/table.md "wikilink") with all valid ped models.
 
 Example
 -------
@@ -44,4 +44,4 @@ addCommandHandler("checkskin",isValidSkin) -- bind 'checkskin' command to 'isVal
 See Also
 --------
 
-[pl:GetValidPedModels](/pl:GetValidPedModels.md "wikilink")
+[pl:GetValidPedModels](/docs/pl:GetValidPedModels.md "wikilink")

@@ -48,4 +48,4 @@ addEventHandler( "onClientResourceStart", getResourceRootElement(getThisResource
 See Also
 --------
 
-[ru:setSkyGradient](/ru:setSkyGradient.md "wikilink")
+[ru:setSkyGradient](/docs/ru:setSkyGradient.md "wikilink")

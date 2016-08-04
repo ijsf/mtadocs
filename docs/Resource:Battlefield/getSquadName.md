@@ -8,4 +8,4 @@ Syntax
 string getSquadName ( squad squadElement, team squadTeam )
 ```
 
-[<Resource:battlefield>](/Resource:battlefield.md "wikilink")
+[<Resource:battlefield>](/docs/Resource:battlefield.md "wikilink")

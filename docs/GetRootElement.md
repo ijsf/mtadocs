@@ -1,4 +1,4 @@
-This function returns the root node of the [element tree](/element_tree.md "wikilink"), called *root*. This node contains every other element: all resource root elements, players and remote clients. It is never destroyed and cannot be destroyed using [destroyElement](/destroyElement.md "wikilink").
+This function returns the root node of the [element tree](/docs/element_tree.md "wikilink"), called *root*. This node contains every other element: all resource root elements, players and remote clients. It is never destroyed and cannot be destroyed using [destroyElement](/destroyElement.md "wikilink").
 
 It is often used to attach handler functions to events triggered for any element, or also to make a scripting function affect all elements.
 
@@ -11,7 +11,7 @@ element getRootElement ( )
 
 ### Returns
 
-Returns the root [element](/element.md "wikilink").
+Returns the root [element](/docs/element.md "wikilink").
 
 Example
 -------
@@ -35,4 +35,4 @@ outputChatBox( "There are " .. resourceCount .. " loaded resources." )
 See Also
 --------
 
-[ru:getRootElement](/ru:getRootElement.md "wikilink")
+[ru:getRootElement](/docs/ru:getRootElement.md "wikilink")

@@ -1,4 +1,4 @@
-This function checks whether an element is double-sided as set by [setElementDoubleSided](/setElementDoubleSided.md "wikilink") or not.
+This function checks whether an element is double-sided as set by [setElementDoubleSided](/docs/setElementDoubleSided.md "wikilink") or not.
 
 Syntax
 ------

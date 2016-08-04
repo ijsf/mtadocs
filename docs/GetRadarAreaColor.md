@@ -1,4 +1,4 @@
-This function can be used to retrieve the current color of a [radar area](/radararea.md "wikilink").
+This function can be used to retrieve the current color of a [radar area](/docs/radararea.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ int, int, int, int getRadarAreaColor ( radararea theRadararea )
 
 ### Required Arguments
 
--   **theRadararea:** The [radar area](/radararea.md "wikilink") you wish to retrieve the colour of.
+-   **theRadararea:** The [radar area](/docs/radararea.md "wikilink") you wish to retrieve the colour of.
 
 ### Returns
 

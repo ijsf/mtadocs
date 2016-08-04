@@ -1,7 +1,7 @@
 <lowercasetitle></lowercasetitle>
 
 This function splits a string into a table. There is no separator in this function, so all characters will be split no matter what.
-If you are looking for a function to split a string from a separator, you should look at [split](/split.md "wikilink").
+If you are looking for a function to split a string from a separator, you should look at [split](/docs/split.md "wikilink").
 
 Syntax
 ------

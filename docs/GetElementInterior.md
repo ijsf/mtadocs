@@ -13,7 +13,7 @@ int getElementInterior ( element theElement )
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") for the interior if **theElement** is valid, *false* otherwise.
+Returns an [int](/docs/int.md "wikilink") for the interior if **theElement** is valid, *false* otherwise.
 
 Example
 -------
@@ -36,4 +36,4 @@ addCommandHandler ( "AmIOutside", AmIOutside )
 See Also
 --------
 
-[de:getElementInterior](/de:getElementInterior.md "wikilink") [ar:getElementInterior](/ar:getElementInterior.md "wikilink")
+[de:getElementInterior](/docs/de:getElementInterior.md "wikilink") [ar:getElementInterior](/ar:getElementInterior.md "wikilink")

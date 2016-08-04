@@ -1,4 +1,4 @@
-This event is triggered when a player starts entering a vehicle. Once the entering animation completes, [onClientVehicleEnter](/onClientVehicleEnter.md "wikilink") is triggered.
+This event is triggered when a player starts entering a vehicle. Once the entering animation completes, [onClientVehicleEnter](/docs/onClientVehicleEnter.md "wikilink") is triggered.
 
 Parameters
 ----------
@@ -31,4 +31,4 @@ See Also
 
 ### Client event functions
 
-[es:onClientVehicleStartEnter](/es:onClientVehicleStartEnter.md "wikilink")
+[es:onClientVehicleStartEnter](/docs/es:onClientVehicleStartEnter.md "wikilink")

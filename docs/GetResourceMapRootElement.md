@@ -1,4 +1,4 @@
-This function retrieves the root element of a certain [map](/map.md "wikilink") in a specified [resource](/resource.md "wikilink").
+This function retrieves the root element of a certain [map](/docs/map.md "wikilink") in a specified [resource](/resource.md "wikilink").
 
 Syntax
 ------
@@ -14,7 +14,7 @@ element getResourceMapRootElement ( resource theResource, string mapName )
 
 ### Returns
 
-Returns an the resource's map root [element](/element.md "wikilink") if the map exists and resource specified was valid and active (currently running), *false* otherwise.
+Returns an the resource's map root [element](/docs/element.md "wikilink") if the map exists and resource specified was valid and active (currently running), *false* otherwise.
 
 Example
 -------

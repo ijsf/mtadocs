@@ -29,4 +29,4 @@ addCommandHandler( "gamespeed", gameSpeedValue )
 See Also
 --------
 
-[ru:getGameSpeed](/ru:getGameSpeed.md "wikilink")
+[ru:getGameSpeed](/docs/ru:getGameSpeed.md "wikilink")

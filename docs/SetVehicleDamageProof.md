@@ -9,7 +9,7 @@ bool setVehicleDamageProof ( vehicle theVehicle, bool damageProof )
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") you wish to make damage proof.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") you wish to make damage proof.
 -   **damageProof:** *true* is damage proof, *false* is damageable.
 
 ### Returns

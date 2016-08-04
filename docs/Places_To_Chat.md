@@ -21,7 +21,7 @@ There is an IRC Channel available for help with MTA Scripting. You can find it a
 
 #### How To Get Help
 
--   Try to find your Answer on the [Main Page](/Main_Page.md "wikilink"), especially on its upper part
+-   Try to find your Answer on the [Main Page](/docs/Main_Page.md "wikilink"), especially on its upper part
 -   Ask your question once and only repeat it after a reasonable amount of time, given the channel is busy and people just coming online won't see your question else (like 10 minutes). NOT after 10 seconds.
 -   Your question should at least contain:
     -   What are you trying to do.
@@ -36,6 +36,6 @@ These aren't all the places/ways of talking with other members of the MTA commun
 
 Please feel free to edit this page if you have something else to add.
 
-[es:Places\_To\_Chat\_ES](/es:Places_To_Chat_ES.md "wikilink") [ru:Places To Chat](/ru:Places_To_Chat.md "wikilink") [hu:Places To Chat](/hu:Places_To_Chat.md "wikilink")
+[es:Places\_To\_Chat\_ES](/docs/es:Places_To_Chat_ES.md "wikilink") [ru:Places To Chat](/ru:Places_To_Chat.md "wikilink") [hu:Places To Chat](/hu:Places_To_Chat.md "wikilink")
 
-[Category:Support](/Category:Support.md "wikilink")
+[Category:Support](/docs/Category:Support.md "wikilink")

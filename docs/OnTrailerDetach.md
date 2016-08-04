@@ -12,7 +12,7 @@ vehicle theTruck
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the trailer [vehicle](/vehicle.md "wikilink") that the truck got detached from.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the trailer [vehicle](/vehicle.md "wikilink") that the truck got detached from.
 
 Example
 -------

@@ -21,7 +21,7 @@ All settings can be modified using MTA's set() functions, modifying the meta.xml
 ### Driver weapons
 
 -   **Setting name:** *driveby\_driver*
--   **Description:** Sets the weapons that a driver can driveby with. To disable driver drivebys, just pass an empty table. See [here](/Resource:Realdriveby#GTA_Driveby_Compatible_weapons.md "wikilink") for compatible weapons.
+-   **Description:** Sets the weapons that a driver can driveby with. To disable driver drivebys, just pass an empty table. See [here](/docs/Resource:Realdriveby#GTA_Driveby_Compatible_weapons.md "wikilink") for compatible weapons.
 -   **XML Example:**
     ``` xml
     "/>
@@ -30,7 +30,7 @@ All settings can be modified using MTA's set() functions, modifying the meta.xml
 ### Passenger weapons
 
 -   **Setting name:** *driveby\_passenger*
--   **Description:** Sets the weapons that a passenger can driveby with. To disable passenger drivebys, just pass an empty table. See [here](/Resource:Realdriveby#GTA_Driveby_Compatible_weapons.md "wikilink") for compatible weapons.
+-   **Description:** Sets the weapons that a passenger can driveby with. To disable passenger drivebys, just pass an empty table. See [here](/docs/Resource:Realdriveby#GTA_Driveby_Compatible_weapons.md "wikilink") for compatible weapons.
 -   **XML Example:**
     ``` xml
     "/>
@@ -84,7 +84,7 @@ All settings can be modified using MTA's set() functions, modifying the meta.xml
 ### Toggle driveby mode key
 
 -   **Setting name:** *driveby\_toggle\_mode*
--   **Description:** Sets the [key](/Key_names.md "wikilink") which will be used to toggle driveby mode.
+-   **Description:** Sets the [key](/docs/Key_names.md "wikilink") which will be used to toggle driveby mode.
 -   **XML Example:**
     ``` xml
     <setting name="driveby_toggle_mode" value="mouse2"/>
@@ -93,7 +93,7 @@ All settings can be modified using MTA's set() functions, modifying the meta.xml
 ### Next driveby weapon key
 
 -   **Setting name:** *driveby\_next\_weapon*
--   **Description:** Sets the [key](/Key_names.md "wikilink") which will be used to change to the next driveby weapon (if there is one).
+-   **Description:** Sets the [key](/docs/Key_names.md "wikilink") which will be used to change to the next driveby weapon (if there is one).
 -   **XML Example:**
     ``` xml
     <setting name="driveby_next_weapon" value="vehicle_look_right"/>
@@ -102,7 +102,7 @@ All settings can be modified using MTA's set() functions, modifying the meta.xml
 ### Previous driveby weapon key
 
 -   **Setting name:** *driveby\_prev\_weapon*
--   **Description:** Sets the [key](/Key_names.md "wikilink") which will be used to change to the previous driveby weapon (if there is one).
+-   **Description:** Sets the [key](/docs/Key_names.md "wikilink") which will be used to change to the previous driveby weapon (if there is one).
 -   **XML Example:**
     ``` xml
     <setting name="driveby_prev_weapon" value="vehicle_look_left"/>
@@ -111,7 +111,7 @@ All settings can be modified using MTA's set() functions, modifying the meta.xml
 Scripting functions
 -------------------
 
-All scripting functions are **clientside** and therefore only affect the **local player**. All functions must be called using the [call](/call.md "wikilink") function, e.g.
+All scripting functions are **clientside** and therefore only affect the **local player**. All functions must be called using the [call](/docs/call.md "wikilink") function, e.g.
 
 ``` lua
 call(getResourceFromName("realdriveby"),"setWeaponShotDelay",22,300)
@@ -125,7 +125,7 @@ This function allows you to set what weapons the local player can use while a dr
 bool setDriverDrivebyAbility ( table weapons )
 ```
 
--   **weapons:** An an array/table containing weapon IDs that the driver may use. See [here](/Resource:Realdriveby#GTA_Driveby_Compatible_weapons.md "wikilink") for compatible weapons.
+-   **weapons:** An an array/table containing weapon IDs that the driver may use. See [here](/docs/Resource:Realdriveby#GTA_Driveby_Compatible_weapons.md "wikilink") for compatible weapons.
 
 ### getDriverDrivebyAbility
 
@@ -145,7 +145,7 @@ This function allows you to set what weapons the local player can use while a pa
 bool setPassengerDrivebyAbility ( table weapons )
 ```
 
--   **weapons:** An an array/table containing weapon IDs that the passenger may use. See [here](/Resource:Realdriveby#GTA_Driveby_Compatible_weapons.md "wikilink") for compatible weapons.
+-   **weapons:** An an array/table containing weapon IDs that the passenger may use. See [here](/docs/Resource:Realdriveby#GTA_Driveby_Compatible_weapons.md "wikilink") for compatible weapons.
 
 ### getPassengerDrivebyAbility
 
@@ -165,7 +165,7 @@ This function allows setting of a certain weapon's shot delay for the local play
 bool setWeaponShotDelay(int weaponID, int delay)
 ```
 
--   **weaponID:** An integer representing the [weapon ID](/Weapons.md "wikilink") of the delay that you wish to set.
+-   **weaponID:** An integer representing the [weapon ID](/docs/Weapons.md "wikilink") of the delay that you wish to set.
 -   **delay:** An integer representing the delay in between each shot, in **milliseconds**.
 
 ### getWeaponShotDelay
@@ -176,7 +176,7 @@ This function allows retrieving of a certain weapon's shot delay for the local p
 int getWeaponShotDelay(int weaponID)
 ```
 
--   **weaponID:** An integer representing the [weapon ID](/Weapons.md "wikilink") of the delay that you wish to retrieve.
+-   **weaponID:** An integer representing the [weapon ID](/docs/Weapons.md "wikilink") of the delay that you wish to retrieve.
 
 Returns an integer representing the weapon delay in between each shot.
 
@@ -386,4 +386,4 @@ Minigun
 </td>
 </tr>
 </table>
-[ru:<Resource:Realdriveby>](/ru:Resource:Realdriveby.md "wikilink")
+[ru:<Resource:Realdriveby>](/docs/ru:Resource:Realdriveby.md "wikilink")

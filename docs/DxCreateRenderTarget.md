@@ -1,6 +1,6 @@
-This function creates a render target element, which is a special type of [texture](/texture.md "wikilink") that can be drawn on with the dx functions. Successful render target creation is not guaranteed, and may fail due to hardware or memory limitations.
+This function creates a render target element, which is a special type of [texture](/docs/texture.md "wikilink") that can be drawn on with the dx functions. Successful render target creation is not guaranteed, and may fail due to hardware or memory limitations.
 
-To see if creation is likely to fail, use [dxGetStatus](/dxGetStatus.md "wikilink"). (When **VideoMemoryFreeForMTA** is zero, failure *is* guaranteed.)
+To see if creation is likely to fail, use [dxGetStatus](/docs/dxGetStatus.md "wikilink"). (When **VideoMemoryFreeForMTA** is zero, failure *is* guaranteed.)
 
 Syntax
 ------
@@ -17,7 +17,7 @@ element dxCreateRenderTarget ( int width, int height [, bool withAlpha = false ]
 
 ### Returns
 
-Returns a [texture](/texture.md "wikilink") element if successful, *false* if the system is unable to create a render target.
+Returns a [texture](/docs/texture.md "wikilink") element if successful, *false* if the system is unable to create a render target.
 
 **You should always check to see if this function has returned false.**
 

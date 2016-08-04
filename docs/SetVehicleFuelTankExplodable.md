@@ -9,7 +9,7 @@ bool setVehicleFuelTankExplodable ( vehicle theVehicle, bool explodable )
 
 ### Required Arguments
 
--   **theVehicle**: The [vehicle](/vehicle.md "wikilink") you wish to change the fuel tank explodable state of.
+-   **theVehicle**: The [vehicle](/docs/vehicle.md "wikilink") you wish to change the fuel tank explodable state of.
 -   **explodable**: A boolean value representing whether or not the fuel tank will be explodable.
 
 ### Returns

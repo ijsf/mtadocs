@@ -48,4 +48,4 @@ A: IRC (Internet Relay Chat) is the most commonly used method of internet chatti
 
 A: Download mIRC from [www.mirc.com](http://www.mirc.com) and follow the instructions that you can find [here](http://forum.mtavc.com/viewtopic.php?t=30).
 
-[Category:Support](/Category:Support.md "wikilink")
+[Category:Support](/docs/Category:Support.md "wikilink")

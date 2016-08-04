@@ -1,6 +1,6 @@
 <lowercasetitle/>
 
-This function returns all the weapons that are usable on a jetpack similar to [getJetpackWeaponEnabled](/getJetpackWeaponEnabled.md "wikilink").
+This function returns all the weapons that are usable on a jetpack similar to [getJetpackWeaponEnabled](/docs/getJetpackWeaponEnabled.md "wikilink").
 
 Syntax
 ------

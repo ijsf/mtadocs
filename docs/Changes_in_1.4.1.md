@@ -18,7 +18,7 @@ Scripting
 
 #### Shared (*Client & Server side*)
 
--   Added [hash](/hash.md "wikilink")
+-   Added [hash](/docs/hash.md "wikilink")
 -   Added 'sourceTimer' global variable to timer function
 
 ### Scripting: New Events
@@ -33,8 +33,8 @@ Scripting
 
 ### Scripting: Changes, Bugfixes and Additions
 
--   Now [forcePlayerMap](/forcePlayerMap.md "wikilink") is a client-side and server-side function
--   Fixed a bug when redefining [Vectors](/Vector.md "wikilink") and [Matrices](/Matrix.md "wikilink") (issue [\#8660](http://bugs.multitheftauto.com/view.php?id=8660))
+-   Now [forcePlayerMap](/docs/forcePlayerMap.md "wikilink") is a client-side and server-side function
+-   Fixed a bug when redefining [Vectors](/docs/Vector.md "wikilink") and [Matrices](/Matrix.md "wikilink") (issue [\#8660](http://bugs.multitheftauto.com/view.php?id=8660))
 -   Fixed a crash when trying to get the key of a control bound to a function clientside (issue [\#8474](http://bugs.multitheftauto.com/view.php?id=8474))
 -   Fixed setWeaponFlags(weapon, “flags”) returning *false* (issue [\#8686](http://bugs.multitheftauto.com/view.php?id=8686))
 
@@ -77,6 +77,6 @@ Extra information
 
 :\* [MTA: SA Official Resources](https://code.google.com/p/mtasa-resources/source/list)
 
-[pt-br:Novidades\_na\_versão\_1.4.1](/pt-br:Novidades_na_versão_1.4.1.md "wikilink")
+[pt-br:Novidades\_na\_versão\_1.4.1](/docs/pt-br:Novidades_na_versão_1.4.1.md "wikilink")
 
-[Category:Changelog](/Category:Changelog.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Changelog](/docs/Category:Changelog.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")

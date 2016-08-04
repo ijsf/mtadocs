@@ -44,4 +44,4 @@ addEventHandler ( "onPlayerSpawn", root, PlayerSpawn )
 See Also
 --------
 
-[ru:setPedChoking](/ru:setPedChoking.md "wikilink")
+[ru:setPedChoking](/docs/ru:setPedChoking.md "wikilink")

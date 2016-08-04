@@ -1,4 +1,4 @@
-This function returns the current [Weather](/Weather.md "wikilink") ID.
+This function returns the current [Weather](/docs/Weather.md "wikilink") ID.
 
 Syntax
 ------
@@ -24,4 +24,4 @@ outputChatBox ( "The current weather ID is " .. weatherID )
 See Also
 --------
 
-[ru:getWeather](/ru:getWeather.md "wikilink")
+[ru:getWeather](/docs/ru:getWeather.md "wikilink")

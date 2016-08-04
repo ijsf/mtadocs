@@ -25,7 +25,7 @@ The *settingName* can be anything you want.
 Manager
 -------
 
-You can manage your settings with the default [admin](/Resource:admin.md "wikilink") manager resource. In addition you can add some attributes in a setting, which will be useful in the settings manager:
+You can manage your settings with the default [admin](/docs/Resource:admin.md "wikilink") manager resource. In addition you can add some attributes in a setting, which will be useful in the settings manager:
 
 ``` xml
 <settings>
@@ -46,7 +46,7 @@ You can manage your settings with the default [admin](/Resource:admin.md "wikili
 Scripting functions
 -------------------
 
-There are two scripting functions in the setting system: [set](/set.md "wikilink") and [get](/get.md "wikilink").
+There are two scripting functions in the setting system: [set](/docs/set.md "wikilink") and [get](/get.md "wikilink").
 
 Console functions
 -----------------

@@ -1,4 +1,4 @@
-Creates an area of [water](/water.md "wikilink").
+Creates an area of [water](/docs/water.md "wikilink").
 
 The largest possible size of a water area is 5996×5996. Also be aware that the function will change all x and y coordinates you specify into even integer numbers if necessary: this is because of a limitation of San Andreas.
 
@@ -11,7 +11,7 @@ Syntax
  )
 ```
 
-[thumb|Example of water quadrant.|284x230px](/Image:WaterAreas.jpg.md "wikilink")
+[thumb|Example of water quadrant.|284x230px](/docs/Image:WaterAreas.jpg.md "wikilink")
 
 ### Required Arguments
 
@@ -28,13 +28,13 @@ Syntax
 
 ### Returns
 
-Returns a water element if successful, *false* otherwise. The water element can be repositioned with [setElementPosition](/setElementPosition.md "wikilink") and destroyed with [destroyElement](/destroyElement.md "wikilink").
+Returns a water element if successful, *false* otherwise. The water element can be repositioned with [setElementPosition](/docs/setElementPosition.md "wikilink") and destroyed with [destroyElement](/destroyElement.md "wikilink").
 
 Example
 -------
 
 <section name="Client" class="client" show="true">
-Example code for creating a water area to cover the entire San Andreas Map (flood the cities). Also, [setWaterLevel](/setWaterLevel.md "wikilink") is used to raise the existing rivers and lakes.
+Example code for creating a water area to cover the entire San Andreas Map (flood the cities). Also, [setWaterLevel](/docs/setWaterLevel.md "wikilink") is used to raise the existing rivers and lakes.
 
 ``` lua
 -- Setting water properties.

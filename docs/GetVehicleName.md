@@ -9,7 +9,7 @@ string getVehicleName ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle:** the [vehicle](/vehicle.md "wikilink") you want to get the name of.
+-   **theVehicle:** the [vehicle](/docs/vehicle.md "wikilink") you want to get the name of.
 
 ### Returns
 
@@ -35,4 +35,4 @@ addEventHandler ( "onPlayerVehicleEnter", getRootElement(), planeEnter )
 See Also
 --------
 
-[ru:getVehicleName](/ru:getVehicleName.md "wikilink")
+[ru:getVehicleName](/docs/ru:getVehicleName.md "wikilink")

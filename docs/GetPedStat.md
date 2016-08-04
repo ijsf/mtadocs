@@ -1,4 +1,4 @@
-This function returns the value of the specified statistic of a specific [ped](/ped.md "wikilink").
+This function returns the value of the specified statistic of a specific [ped](/docs/ped.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ float getPedStat ( ped thePed, int stat )
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink") whose stat you want to retrieve.
+-   **thePed**: The [ped](/docs/ped.md "wikilink") whose stat you want to retrieve.
 -   **stat**: A whole number determining the stat ID.
 
 ### Returns

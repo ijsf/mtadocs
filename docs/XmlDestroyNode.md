@@ -9,11 +9,11 @@ bool xmlDestroyNode ( xmlnode theXMLNode )
 
 ### Required Arguments
 
--   **theXMLNode:** The [xml node](/xml_node.md "wikilink") you want to destroy.
+-   **theXMLNode:** The [xml node](/docs/xml_node.md "wikilink") you want to destroy.
 
 ### Returns
 
-Returns *true* if the [xml node](/xml_node.md "wikilink") was successfully destroyed, *false* otherwise.
+Returns *true* if the [xml node](/docs/xml_node.md "wikilink") was successfully destroyed, *false* otherwise.
 
 ### Example
 
@@ -44,4 +44,4 @@ end)
 See Also
 --------
 
-[ru:xmlDestroyNode](/ru:xmlDestroyNode.md "wikilink")
+[ru:xmlDestroyNode](/docs/ru:xmlDestroyNode.md "wikilink")

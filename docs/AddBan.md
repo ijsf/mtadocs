@@ -1,4 +1,4 @@
-This function will add a [ban](/ban.md "wikilink") for the specified IP/username/serial to the server.
+This function will add a [ban](/docs/ban.md "wikilink") for the specified IP/username/serial to the server.
 
 Syntax
 ------
@@ -25,13 +25,13 @@ ban addBan ( [ string IP, string Username, string Serial, player responsibleElem
 
 ### Optional Arguments
 
--   **responsibleElement:** The element that is responsible for banning the IP/username/serial. This can be a player or the root ([getRootElement](/getRootElement.md "wikilink")()).
+-   **responsibleElement:** The element that is responsible for banning the IP/username/serial. This can be a player or the root ([getRootElement](/docs/getRootElement.md "wikilink")()).
 -   **reason:** The reason the IP/username/serial will be banned from the server.
 -   **seconds:** The amount of seconds the player will be banned from the server for. This can be 0 for an infinite amount of time.
 
 ### Returns
 
-Returns the new [ban](/ban.md "wikilink") if the IP/username/serial was banned successfully, *false* if invalid arguments are specified.
+Returns the new [ban](/docs/ban.md "wikilink") if the IP/username/serial was banned successfully, *false* if invalid arguments are specified.
 
 Example
 -------
@@ -67,4 +67,4 @@ addCommandHandler( "ban-serial", banSerial )
 See Also
 --------
 
-[ru:addBan](/ru:addBan.md "wikilink")
+[ru:addBan](/docs/ru:addBan.md "wikilink")

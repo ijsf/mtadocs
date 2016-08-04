@@ -1,7 +1,7 @@
 Description
 -----------
 
-This function returns a float that contains the value of the specified statistic, for a specific [player](/player.md "wikilink").
+This function returns a float that contains the value of the specified statistic, for a specific [player](/docs/player.md "wikilink").
 
 Syntax
 ------
@@ -12,12 +12,12 @@ float getPlayerStat ( player thePlayer, int stat )
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/player.md "wikilink") whose stat you want to retrieve.
+-   **thePlayer**: The [player](/docs/player.md "wikilink") whose stat you want to retrieve.
 -   **stat**: A whole number determining the stat ID.
 
 ### Returns
 
-Returns a [float](/float.md "wikilink") indicating the statistic value.
+Returns a [float](/docs/float.md "wikilink") indicating the statistic value.
 
 Example
 -------

@@ -7,7 +7,7 @@ element getCamera ()
 
 ### Returns
 
-Returns an [element](/element.md "wikilink") that corresponds to the game camera
+Returns an [element](/docs/element.md "wikilink") that corresponds to the game camera
 
 Example
 -------

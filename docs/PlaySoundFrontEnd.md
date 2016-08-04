@@ -10,8 +10,8 @@ bool playSoundFrontEnd ( player thePlayer, int sound )
 
 ### Required Arguments
 
--   **thePlayer:** the [player](/player.md "wikilink") you want the sound to play for.
--   **sound:** a whole [int](/int.md "wikilink") specifying the sound id to play. Valid values are:
+-   **thePlayer:** the [player](/docs/player.md "wikilink") you want the sound to play for.
+-   **sound:** a whole [int](/docs/int.md "wikilink") specifying the sound id to play. Valid values are:
 
 </section>
 <section name="Client" class="client" show="false">
@@ -21,7 +21,7 @@ bool playSoundFrontEnd ( int sound )
 
 ### Required Arguments
 
--   **sound:** a whole [int](/int.md "wikilink") specifying the sound id to play. Valid values are:
+-   **sound:** a whole [int](/docs/int.md "wikilink") specifying the sound id to play. Valid values are:
 
 </section>
 ### Returns
@@ -56,4 +56,4 @@ addCommandHandler("sound", onSoundEvent)
 See Also
 --------
 
-[de:playSoundFrontEnd](/de:playSoundFrontEnd.md "wikilink") [ar:playSoundFrontEnd](/ar:playSoundFrontEnd.md "wikilink")
+[de:playSoundFrontEnd](/docs/de:playSoundFrontEnd.md "wikilink") [ar:playSoundFrontEnd](/ar:playSoundFrontEnd.md "wikilink")

@@ -9,7 +9,7 @@ string getPlayerTask ( player thePlayer, string priority, int taskType, [int ind
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/player.md "wikilink") whose task you want to retrieve.
+-   **thePlayer**: The [player](/docs/player.md "wikilink") whose task you want to retrieve.
 -   **priority**: A string determining which set of tasks you want to retrieve it from. This must be either “primary” or “secondary”.
 -   **taskType**: An integer value representing the task type (or slot) you want to get the task from. Types can be:
     -   **PRIMARY TASKS**
@@ -32,7 +32,7 @@ string getPlayerTask ( player thePlayer, string priority, int taskType, [int ind
 
 ### Returns
 
-Returns a string containing the name of a task. See [list of player tasks](/list_of_player_tasks.md "wikilink") for valid strings. Returns *false* if invalid arguments are specified or if there is no task of the type or index specified.
+Returns a string containing the name of a task. See [list of player tasks](/docs/list_of_player_tasks.md "wikilink") for valid strings. Returns *false* if invalid arguments are specified or if there is no task of the type or index specified.
 
 Example
 -------

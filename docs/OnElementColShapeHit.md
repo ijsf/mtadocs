@@ -7,13 +7,13 @@ Parameters
 colshape theColShape, bool matchingDimension
 ```
 
--   **theColShape**: The [colshape](/colshape.md "wikilink") that this element collided with
+-   **theColShape**: The [colshape](/docs/colshape.md "wikilink") that this element collided with
 -   **matchingDimension**: True if the element and the colshape are in the same dimension
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") or [vehicle](/vehicle.md "wikilink") that collided with the colshape.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") or [vehicle](/vehicle.md "wikilink") that collided with the colshape.
 
 Example
 -------

@@ -7,9 +7,9 @@ string pregReplace ( string subject, string pattern, string replacement [, int/s
 
 ### Required Arguments
 
--   **subject:** The input [string](/string.md "wikilink").
--   **pattern:** The pattern [string](/string.md "wikilink") to search for in the input [string](/string.md "wikilink").
--   **replacement:** The replacement [string](/string.md "wikilink") to replace all matches within the input [string](/string.md "wikilink").
+-   **subject:** The input [string](/docs/string.md "wikilink").
+-   **pattern:** The pattern [string](/docs/string.md "wikilink") to search for in the input [string](/string.md "wikilink").
+-   **replacement:** The replacement [string](/docs/string.md "wikilink") to replace all matches within the input [string](/string.md "wikilink").
 
 ### Optional Arguments
 
@@ -17,7 +17,7 @@ string pregReplace ( string subject, string pattern, string replacement [, int/s
 
 ### Returns
 
-Returns the replaced *[string](/string.md "wikilink")*, or [bool](/bool.md "wikilink") *false* otherwise.
+Returns the replaced *[string](/docs/string.md "wikilink")*, or [bool](/bool.md "wikilink") *false* otherwise.
 
 Example
 -------

@@ -1,6 +1,6 @@
 This function sets the maximum number of player slots on the server.
 
-**Note**: This function can not set more than <maxplayers> as defined in [mtaserver.conf](/mtaserver.conf.md "wikilink"). (To find out the <maxplayers> value, use getServerConfigSetting(“maxplayers”))
+**Note**: This function can not set more than <maxplayers> as defined in [mtaserver.conf](/docs/mtaserver.conf.md "wikilink"). (To find out the <maxplayers> value, use getServerConfigSetting(“maxplayers”))
 
 Syntax
 ------

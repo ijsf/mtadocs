@@ -1,4 +1,4 @@
-This event is fired when a memo or an editbox has changed (either by the user or by [guiSetText](/guiSetText.md "wikilink")).
+This event is fired when a memo or an editbox has changed (either by the user or by [guiSetText](/docs/guiSetText.md "wikilink")).
 
 Parameters
 ----------
@@ -12,7 +12,7 @@ element theElement
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the element which was changed.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the element which was changed.
 
 Example
 -------
@@ -35,7 +35,7 @@ addEventHandler("onClientGUIChanged", editBox, function()
 end)
 ```
 
-[pl:onClientGUIChanged](/pl:onClientGUIChanged.md "wikilink")
+[pl:onClientGUIChanged](/docs/pl:onClientGUIChanged.md "wikilink")
 
 See Also
 --------

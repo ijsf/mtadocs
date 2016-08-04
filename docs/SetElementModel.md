@@ -11,9 +11,9 @@ bool setElementModel ( element theElement, int model )
 
 -   **theElement:** the element you want to change.
 -   **model:** the model ID to set.
-    -   For players/peds: A GTASA player model (skin) ID. See [Character Skins](/Character_Skins.md "wikilink").
-    -   For vehicles: The [vehicle ID](/Vehicle_IDs.md "wikilink") of the vehicle being changed.
-    -   For objects/projectiles/weapons: An [int](/int.md "wikilink") specifying the model id.
+    -   For players/peds: A GTASA player model (skin) ID. See [Character Skins](/docs/Character_Skins.md "wikilink").
+    -   For vehicles: The [vehicle ID](/docs/Vehicle_IDs.md "wikilink") of the vehicle being changed.
+    -   For objects/projectiles/weapons: An [int](/docs/int.md "wikilink") specifying the model id.
 
 ### Returns
 

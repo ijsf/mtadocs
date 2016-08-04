@@ -1,4 +1,4 @@
-This function makes a vehicle's doors undamageable, so they won't fall off when they're hit. Note that the vehicle **has** to be locked using [setVehicleLocked](/setVehicleLocked.md "wikilink") for this setting to have any effect.
+This function makes a vehicle's doors undamageable, so they won't fall off when they're hit. Note that the vehicle **has** to be locked using [setVehicleLocked](/docs/setVehicleLocked.md "wikilink") for this setting to have any effect.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setVehicleDoorsUndamageable ( vehicle theVehicle, bool state )
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") of which you wish to set the car door damageability.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") of which you wish to set the car door damageability.
 -   **state:** A boolean denoting whether the vehicle's doors are undamageable (*true*) or damageable (*false*).
 
 ### Returns

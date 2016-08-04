@@ -14,7 +14,7 @@ string button, int absoluteX, int absoluteY
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the GUI element that was clicked.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the GUI element that was clicked.
 
 Example
 -------

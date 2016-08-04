@@ -1,4 +1,4 @@
-This function gets the flags of a [custom weapon](/Element/Weapon.md "wikilink").
+This function gets the flags of a [custom weapon](/docs/Element/Weapon.md "wikilink").
 
 Syntax
 ------
@@ -14,11 +14,11 @@ bool getWeaponFlags ( weapon theWeapon, string theFlag )
     -   **disable\_model**: makes the weapon and muzzle effect invisible or not.
     -   **flags**: returns the flags used to get where the gun shoots at. These flags are (by order):
         -   **checkBuildings**: allows the shoot to be blocked by GTA's internally placed buildings, i.e. the world map.
-        -   **checkCarTires**: allows the shoot to be blocked by [vehicle](/vehicle.md "wikilink") tires.
+        -   **checkCarTires**: allows the shoot to be blocked by [vehicle](/docs/vehicle.md "wikilink") tires.
         -   **checkDummies**: allows the shoot to be blocked by GTA's internal dummies. These are not used in the current MTA version so this argument can be set to *false*.
-        -   **checkObjects**: allows the shoot to be blocked by [objects](/object.md "wikilink").
-        -   **checkPeds**: allows the shoot to be blocked by [peds](/ped.md "wikilink") and [players](/player.md "wikilink").
-        -   **checkVehicles**: allows the shoot to be blocked by [vehicles](/vehicle.md "wikilink").
+        -   **checkObjects**: allows the shoot to be blocked by [objects](/docs/object.md "wikilink").
+        -   **checkPeds**: allows the shoot to be blocked by [peds](/docs/ped.md "wikilink") and [players](/player.md "wikilink").
+        -   **checkVehicles**: allows the shoot to be blocked by [vehicles](/docs/vehicle.md "wikilink").
         -   **checkSeeThroughStuff**: allows the shoot to be blocked by translucent game objects, e.g. glass.
         -   **checkShootThroughStuff**: allows the shoot to be blocked by things that can be shot through.
     -   **instant\_reload**: if enabled, the weapon reloads instantly rather than waiting the reload time until shooting again.

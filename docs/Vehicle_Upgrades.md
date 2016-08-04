@@ -422,8 +422,8 @@ Vehicle Functions
 See Also
 --------
 
-[ID Lists](/id.md "wikilink")
+[ID Lists](/docs/id.md "wikilink")
 
-[pl:Vehicle\_Upgrades](/pl:Vehicle_Upgrades.md "wikilink") [it:Miglioramenti Veicoli](/it:Miglioramenti_Veicoli.md "wikilink")
+[pl:Vehicle\_Upgrades](/docs/pl:Vehicle_Upgrades.md "wikilink") [it:Miglioramenti Veicoli](/it:Miglioramenti_Veicoli.md "wikilink")
 
-[Category:ID Lists](/Category:ID_Lists.md "wikilink")
+[Category:ID Lists](/docs/Category:ID_Lists.md "wikilink")

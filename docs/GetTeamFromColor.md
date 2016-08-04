@@ -17,7 +17,7 @@ team getTeamFromColor ( int r, int g, int b)
 
 ### Return
 
-Returns a [team](/team.md "wikilink") else false if bad arguments were given or a team doesn't have the same color.
+Returns a [team](/docs/team.md "wikilink") else false if bad arguments were given or a team doesn't have the same color.
 
 Code
 ----

@@ -15,7 +15,7 @@ Syntax
 
 ### Optional Arguments
 
--   **font**: Either a custom [DX font](/DX_font.md "wikilink") element or the name of a built-in dx font:
+-   **font**: Either a custom [DX font](/docs/DX_font.md "wikilink") element or the name of a built-in dx font:
 
 ### Returns
 
@@ -54,4 +54,4 @@ Author: bartekPL
 See Also
 --------
 
-[Category:Useful Functions](/Category:Useful_Functions.md "wikilink")
+[Category:Useful Functions](/docs/Category:Useful_Functions.md "wikilink")

@@ -14,7 +14,7 @@ int absoluteX, int absoluteY, element enteredGUI
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the GUI element that the mouse was moved from.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the GUI element that the mouse was moved from.
 
 Example
 -------
@@ -27,7 +27,7 @@ addEventHandler("onClientMouseLeave", getRootElement(), function(aX, aY)
 end)
 ```
 
-[pl:onClientMouseLeave](/pl:onClientMouseLeave.md "wikilink")
+[pl:onClientMouseLeave](/docs/pl:onClientMouseLeave.md "wikilink")
 
 See Also
 --------

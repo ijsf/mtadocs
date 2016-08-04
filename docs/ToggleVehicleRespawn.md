@@ -9,7 +9,7 @@ bool toggleVehicleRespawn ( vehicle theVehicle, bool Respawn )
 
 ### Required Arguments
 
--   **theVehicle**: The [vehicle](/vehicle.md "wikilink") you wish to toggle the respawning of.
+-   **theVehicle**: The [vehicle](/docs/vehicle.md "wikilink") you wish to toggle the respawning of.
 -   **Respawn**: A boolean determining if the vehicle will respawn or not.
 
 Returns

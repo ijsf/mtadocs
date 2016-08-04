@@ -1,4 +1,4 @@
-This function is used to get the development mode of the client. For more information see [setDevelopmentMode](/setDevelopmentMode.md "wikilink")
+This function is used to get the development mode of the client. For more information see [setDevelopmentMode](/docs/setDevelopmentMode.md "wikilink")
 
 Syntax
 ------
@@ -17,4 +17,4 @@ Requirements
 See Also
 --------
 
-[pl:GetDevelopmentMode](/pl:GetDevelopmentMode.md "wikilink")
+[pl:GetDevelopmentMode](/docs/pl:GetDevelopmentMode.md "wikilink")

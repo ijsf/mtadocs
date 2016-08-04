@@ -1,4 +1,4 @@
-This event is triggered when a [player](/player.md "wikilink") hits a [pickup](/pickup.md "wikilink").
+This event is triggered when a [player](/docs/player.md "wikilink") hits a [pickup](/pickup.md "wikilink").
 
 Parameters
 ----------
@@ -7,17 +7,17 @@ Parameters
 player thePlayer
 ```
 
--   **thePlayer**: a player [element](/element.md "wikilink") referring to the player who moved over the pickup.
+-   **thePlayer**: a player [element](/docs/element.md "wikilink") referring to the player who moved over the pickup.
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [pickup](/pickup.md "wikilink") that was hit by the player.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [pickup](/pickup.md "wikilink") that was hit by the player.
 
 Cancel effect
 -------------
 
-If this event is [canceled](/Event_system#Canceling.md "wikilink"), the pickup does not disappear and the player does not receive its bonus.
+If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the pickup does not disappear and the player does not receive its bonus.
 
 Example
 -------

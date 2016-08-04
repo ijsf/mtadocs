@@ -22,7 +22,7 @@ Example
 -- Example here
 ```
 
-[pl:Modules/SebasIRC/ircRaw](/pl:Modules/SebasIRC/ircRaw.md "wikilink")
+[pl:Modules/SebasIRC/ircRaw](/docs/pl:Modules/SebasIRC/ircRaw.md "wikilink")
 
 See also
 --------

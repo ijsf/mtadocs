@@ -18,7 +18,7 @@ bool dxDrawOutLinedRectangle( float x, float y, float width, float height[, int 
 
 ### Optional Arguments
 
--   **color:** the hex color of the rectangle, produced using [tocolor](/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
+-   **color:** the hex color of the rectangle, produced using [tocolor](/docs/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
 -   **postGUI:** A bool representing whether the line should be drawn on top of or behind any ingame GUI.
 
 ### Returns

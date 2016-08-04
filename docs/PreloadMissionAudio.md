@@ -1,4 +1,4 @@
-This function preloads a game sound into a specific sound slot. The sound can then be played with [PlayMissionAudio](/PlayMissionAudio.md "wikilink").
+This function preloads a game sound into a specific sound slot. The sound can then be played with [PlayMissionAudio](/docs/PlayMissionAudio.md "wikilink").
 
 Syntax
 ------
@@ -10,9 +10,9 @@ bool preloadMissionAudio ( player thePlayer, int sound, int slot )
 
 ### Required Arguments
 
--   **thePlayer:** the [player](/player.md "wikilink") you want to play the sound for.
--   **sound:** the [int](/int.md "wikilink") sound id to play (interpreted as unsigned short). Valid values are those from the **data/AudioEvents.txt** file.
--   **slot:** [int](/int.md "wikilink") sound slot in which you preloaded the sound.
+-   **thePlayer:** the [player](/docs/player.md "wikilink") you want to play the sound for.
+-   **sound:** the [int](/docs/int.md "wikilink") sound id to play (interpreted as unsigned short). Valid values are those from the **data/AudioEvents.txt** file.
+-   **slot:** [int](/docs/int.md "wikilink") sound slot in which you preloaded the sound.
 
 </section>
 <section name="Client" class="client" show="true">
@@ -22,8 +22,8 @@ bool preloadMissionAudio ( int sound, int slot )
 
 ### Required Arguments
 
--   **sound:** the [int](/int.md "wikilink") sound id to play (interpreted as unsigned short). Valid values are those from the **data/AudioEvents.txt** file.
--   **slot:** [int](/int.md "wikilink") sound slot in which you preloaded the sound.
+-   **sound:** the [int](/docs/int.md "wikilink") sound id to play (interpreted as unsigned short). Valid values are those from the **data/AudioEvents.txt** file.
+-   **slot:** [int](/docs/int.md "wikilink") sound slot in which you preloaded the sound.
 
 </section>
 ### Returns

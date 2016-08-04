@@ -22,7 +22,7 @@ searchlight createSearchLight ( float startX, float startY, float startZ, float 
 
 ### Returns
 
-If every argument is correct and the limit of 1000 searchlights has not been reached, this function returns a [searchlight element](/Element/Searchlight.md "wikilink"). Otherwise, it returns *false*.
+If every argument is correct and the limit of 1000 searchlights has not been reached, this function returns a [searchlight element](/docs/Element/Searchlight.md "wikilink"). Otherwise, it returns *false*.
 
 Example
 -------

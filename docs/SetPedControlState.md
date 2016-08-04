@@ -1,4 +1,4 @@
-This function makes a [ped](/ped.md "wikilink") press or release a certain control. It doesn't work with the local player, so use [setControlState](/setControlState.md "wikilink") instead.
+This function makes a [ped](/docs/ped.md "wikilink") press or release a certain control. It doesn't work with the local player, so use [setControlState](/setControlState.md "wikilink") instead.
 
 Syntax
 ------
@@ -10,7 +10,7 @@ bool setPedControlState ( ped thePed, string control, bool state )
 ### Required Arguments
 
 -   **thePed:** the ped you want to press or release a control.
--   **control:** the name of the control of which to change the state. See [control names](/control_names.md "wikilink") for a list of valid names.
+-   **control:** the name of the control of which to change the state. See [control names](/docs/control_names.md "wikilink") for a list of valid names.
 -   **state:** the new control state. *true* means pressed, *false* is released.
 
 ### Returns

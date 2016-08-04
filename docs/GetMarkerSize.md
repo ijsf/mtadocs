@@ -1,4 +1,4 @@
-This function returns a [float](/float.md "wikilink") containing the size of the specified marker.
+This function returns a [float](/docs/float.md "wikilink") containing the size of the specified marker.
 
 Syntax
 ------
@@ -9,11 +9,11 @@ float getMarkerSize ( marker myMarker )
 
 ### Required Arguments
 
--   **myMarker**: The [marker](/marker.md "wikilink") that you wish to retrieve the size of.
+-   **myMarker**: The [marker](/docs/marker.md "wikilink") that you wish to retrieve the size of.
 
 ### Returns
 
-Returns a [float](/float.md "wikilink") containing the size of the specified marker.
+Returns a [float](/docs/float.md "wikilink") containing the size of the specified marker.
 
 Example
 -------

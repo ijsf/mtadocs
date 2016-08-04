@@ -9,8 +9,8 @@ takeWeaponAmmo ( player thePlayer, int weapon, int ammo )
 
 ### Required Arguments
 
--   **thePlayer:** A [player](/player.md "wikilink") object referencing the specified player
--   **weapon:** A whole number integer that refers to a [weapon](/weapon.md "wikilink") ID.
+-   **thePlayer:** A [player](/docs/player.md "wikilink") object referencing the specified player
+-   **weapon:** A whole number integer that refers to a [weapon](/docs/weapon.md "wikilink") ID.
 -   **ammo:** A whole number integer serving as the ammo amount for the given weapon
 
 Example
@@ -29,4 +29,4 @@ addEventHandler ( "onSpawnpointUse", getRootElement(), onSpawnpointUse )
 See Also
 --------
 
-[ru:takeWeaponAmmo](/ru:takeWeaponAmmo.md "wikilink")
+[ru:takeWeaponAmmo](/docs/ru:takeWeaponAmmo.md "wikilink")

@@ -1,6 +1,6 @@
-This event is triggered when a physical [element](/element.md "wikilink") hits a [colshape](/colshape.md "wikilink").
+This event is triggered when a physical [element](/docs/element.md "wikilink") hits a [colshape](/colshape.md "wikilink").
 
-**NOTE**: The hit won't be detected if the [element](/element.md "wikilink") that entered the colshape is a colshape.
+**NOTE**: The hit won't be detected if the [element](/docs/element.md "wikilink") that entered the colshape is a colshape.
 
 Parameters
 ----------
@@ -9,13 +9,13 @@ Parameters
 element hitElement, bool matchingDimension
 ```
 
--   **hitElement**: the [element](/element.md "wikilink") that entered the colshape.
+-   **hitElement**: the [element](/docs/element.md "wikilink") that entered the colshape.
 -   **matchingDimension**: a boolean referring to whether the hit collision shape was in the same dimension as the element.
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [colshape](/colshape.md "wikilink") that got hit by a player or vehicle.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [colshape](/colshape.md "wikilink") that got hit by a player or vehicle.
 
 Example
 -------

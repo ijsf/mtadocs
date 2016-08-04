@@ -1,4 +1,4 @@
-These are the standard CEGUI fonts that are used in Multi Theft Auto and can be accessed with the GUI scripting functions [guiGetFont](/guiGetFont.md "wikilink") and [guiSetFont](/guiSetFont.md "wikilink").
+These are the standard CEGUI fonts that are used in Multi Theft Auto and can be accessed with the GUI scripting functions [guiGetFont](/docs/guiGetFont.md "wikilink") and [guiSetFont](/guiSetFont.md "wikilink").
 
 Image:mta-font\_default-normal.gif|
 
@@ -38,6 +38,6 @@ sa-gothic
 </div>
 Beckett regular, 47px auto-scaled
 
-[Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink")
 
-[ru:GUI Fonts](/ru:GUI_Fonts.md "wikilink")
+[ru:GUI Fonts](/docs/ru:GUI_Fonts.md "wikilink")

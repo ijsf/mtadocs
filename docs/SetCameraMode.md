@@ -16,7 +16,7 @@ bool setCameraMode ( player thePlayer, string mode )
 
 ### Returns
 
-Returns a [bool](/bool.md "wikilink") with a value of *true* if the function was successful, *false* otherwise.
+Returns a [bool](/docs/bool.md "wikilink") with a value of *true* if the function was successful, *false* otherwise.
 
 Example
 -------

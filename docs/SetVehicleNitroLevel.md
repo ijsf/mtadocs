@@ -7,7 +7,7 @@ bool setVehicleNitroLevel ( vehicle theVehicle, float level )
 
 ### Required Arguments
 
--   **theVehicle** The [vehicle](/vehicle.md "wikilink"), which you want to set.
+-   **theVehicle** The [vehicle](/docs/vehicle.md "wikilink"), which you want to set.
 -   **level** Nitro level you want to set (ranges from 0.0001 to 1.0).
 
 ### Returns

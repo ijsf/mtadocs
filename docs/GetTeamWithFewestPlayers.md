@@ -15,7 +15,7 @@ Syntax
 
 ### Return
 
-Returns a table containing [teams](/team.md "wikilink"). If it fails (invalid table provided) or if there are no teams; returns false.
+Returns a table containing [teams](/docs/team.md "wikilink"). If it fails (invalid table provided) or if there are no teams; returns false.
 
 Code
 ----

@@ -26,4 +26,4 @@ Example
 See Also
 --------
 
-[Category:Needs Example](/Category:Needs_Example.md "wikilink")
+[Category:Needs Example](/docs/Category:Needs_Example.md "wikilink")

@@ -1,4 +1,4 @@
-This function is used to get the element a [ped](/ped.md "wikilink") is currently targeting.
+This function is used to get the element a [ped](/docs/ped.md "wikilink") is currently targeting.
 
 Syntax
 ------
@@ -9,11 +9,11 @@ element getPedTarget ( ped thePed )
 
 ### Required Arguments
 
--   **thePed:** The [ped](/ped.md "wikilink") whose target you want to retrieve.
+-   **thePed:** The [ped](/docs/ped.md "wikilink") whose target you want to retrieve.
 
 ### Returns
 
-Returns the [element](/element.md "wikilink") that's being targeted, or *false* if there isn't one.
+Returns the [element](/docs/element.md "wikilink") that's being targeted, or *false* if there isn't one.
 
 This is only effective on physical GTA elements, namely:
 
@@ -42,7 +42,7 @@ end
 setTimer ( playerTargetCheck, 1000, 0 )                            -- call the check function every second
 ```
 
-*Note: A more efficient way to do this would be to use the [onPlayerTarget](/onPlayerTarget.md "wikilink") event.*
+*Note: A more efficient way to do this would be to use the [onPlayerTarget](/docs/onPlayerTarget.md "wikilink") event.*
 
 </section>
 See Also

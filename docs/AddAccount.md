@@ -1,4 +1,4 @@
-This function adds an [account](/account.md "wikilink") to the list of registered accounts of the current server.
+This function adds an [account](/docs/account.md "wikilink") to the list of registered accounts of the current server.
 
 Syntax
 ------
@@ -18,7 +18,7 @@ Syntax
 
 ### Returns
 
-Returns an [account](/account.md "wikilink") or *false* if the account already exists or an error occured.
+Returns an [account](/docs/account.md "wikilink") or *false* if the account already exists or an error occured.
 
 ### Limits
 
@@ -105,4 +105,4 @@ addCommandHandler ( "register", registerPlayer ) -- add the command handler
 See Also
 --------
 
-[ar:addAcount](/ar:addAcount.md "wikilink") [es:addAcount](/es:addAcount.md "wikilink") [ru:addAccount](/ru:addAccount.md "wikilink") [pl:addAccount](/pl:addAccount.md "wikilink")
+[ar:addAcount](/docs/ar:addAcount.md "wikilink") [es:addAcount](/es:addAcount.md "wikilink") [ru:addAccount](/ru:addAccount.md "wikilink") [pl:addAccount](/pl:addAccount.md "wikilink")

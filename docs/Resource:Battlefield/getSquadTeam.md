@@ -26,4 +26,4 @@ function getSquadTeam(squadElement)
 end
 ```
 
-[<Resource:Battlefield>](/Resource:Battlefield.md "wikilink")
+[<Resource:Battlefield>](/docs/Resource:Battlefield.md "wikilink")

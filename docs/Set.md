@@ -1,6 +1,6 @@
-This function is used to save arbitrary data under a certain name on the [settings registry](/settings_system.md "wikilink").
+This function is used to save arbitrary data under a certain name on the [settings registry](/docs/settings_system.md "wikilink").
 
-It's important to note that set *always* writes to the settings.xml file, even if [get](/get.md "wikilink") read the value from a resource's meta.xml. This means that the admin can specify settings in the settings.xml that override the resource's defaults, but that the defaults can still be retrieved if need be. As a general principle, resources should not be designed so that the admin is required to modify them, they should be 'black boxes'.
+It's important to note that set *always* writes to the settings.xml file, even if [get](/docs/get.md "wikilink") read the value from a resource's meta.xml. This means that the admin can specify settings in the settings.xml that override the resource's defaults, but that the defaults can still be retrieved if need be. As a general principle, resources should not be designed so that the admin is required to modify them, they should be 'black boxes'.
 
 Syntax
 ------
@@ -11,8 +11,8 @@ bool set ( string settingName, var value )
 
 ### Required Arguments
 
--   **settingName:** The name of the setting you want to set. See [setting names](/settings_system#Setting_names.md "wikilink") for information on settings names.
--   **value:** The value to set the setting to. This can be any Lua data type, except for functions, most userdata (only [resources](/resource.md "wikilink") can't be stored) and threads.
+-   **settingName:** The name of the setting you want to set. See [setting names](/docs/settings_system#Setting_names.md "wikilink") for information on settings names.
+-   **value:** The value to set the setting to. This can be any Lua data type, except for functions, most userdata (only [resources](/docs/resource.md "wikilink") can't be stored) and threads.
 
 ### Returns
 

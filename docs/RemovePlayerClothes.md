@@ -1,4 +1,4 @@
-This function is used to remove the current clothes of a certain type on a [player](/player.md "wikilink"). It will remove them if the clothesTexture and clothesModel aren't specified, or if they match the current clothes on that slot.
+This function is used to remove the current clothes of a certain type on a [player](/docs/player.md "wikilink"). It will remove them if the clothesTexture and clothesModel aren't specified, or if they match the current clothes on that slot.
 
 Syntax
 ------
@@ -9,13 +9,13 @@ bool removePlayerClothes ( player thePlayer, int clothesType, [ string clothesTe
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/player.md "wikilink") whose clothes you want to remove.
--   **clothesType**: A integer representing the clothes slot/type to remove. See the [clothes catalog](/CJ_Clothes.md "wikilink").
+-   **thePlayer**: The [player](/docs/player.md "wikilink") whose clothes you want to remove.
+-   **clothesType**: A integer representing the clothes slot/type to remove. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
 
 ### Optional Arguments
 
--   **clothesTexture**: A string determining the clothes texture that will be removed. See the [clothes catalog](/CJ_Clothes.md "wikilink").
--   **clothesModel**: A string determining the clothes model that will be removed. See the [clothes catalog](/CJ_Clothes.md "wikilink").
+-   **clothesTexture**: A string determining the clothes texture that will be removed. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
+-   **clothesModel**: A string determining the clothes model that will be removed. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
 
 Returns
 -------

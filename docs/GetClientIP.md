@@ -9,7 +9,7 @@ string getClientIP ( client theClient )
 
 ### Required Arguments
 
--   **theClient:** The client [element](/element.md "wikilink") (player or admin) you want to get the IP of.
+-   **theClient:** The client [element](/docs/element.md "wikilink") (player or admin) you want to get the IP of.
 
 ### Returns
 

@@ -1,4 +1,4 @@
-This function stores [element data](/element_data.md "wikilink") under a certain key, attached to an element. Element data set using this is then synced with all clients and the server. The data can contain server created elements, but you should avoid passing data that is not able to be synced such as xmlnodes, acls, aclgroups etc.
+This function stores [element data](/docs/element_data.md "wikilink") under a certain key, attached to an element. Element data set using this is then synced with all clients and the server. The data can contain server created elements, but you should avoid passing data that is not able to be synced such as xmlnodes, acls, aclgroups etc.
 
 As element data is synced to all clients, it can generate a lot of network traffic and consume server CPU. Events are much more efficient for sending data from a client to the server only, or from the server to a specific client.
 
@@ -11,9 +11,9 @@ bool setElementData ( element theElement, string key, var value [, bool synchron
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") you wish to attach the data to.
+-   **theElement:** The [element](/docs/element.md "wikilink") you wish to attach the data to.
 -   **key:** The key you wish to store the data under. (Maximum 31 characters.)
--   **value:** The value you wish to store. See [element data](/element_data.md "wikilink") for a list of acceptable datatypes.
+-   **value:** The value you wish to store. See [element data](/docs/element_data.md "wikilink") for a list of acceptable datatypes.
 
 ### Optional Arguments
 

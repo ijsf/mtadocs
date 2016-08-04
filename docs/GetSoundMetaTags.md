@@ -9,11 +9,11 @@ table getSoundMetaTags ( element sound )
 
 ### Required Arguments
 
--   **sound:** a [sound](/sound.md "wikilink") element.
+-   **sound:** a [sound](/docs/sound.md "wikilink") element.
 
 ### Returns
 
-Returns a [table](/table.md "wikilink") with all data available (keys are listed below) for the sound if successful, *false* otherwise.
+Returns a [table](/docs/table.md "wikilink") with all data available (keys are listed below) for the sound if successful, *false* otherwise.
 
 Example
 -------
@@ -29,4 +29,4 @@ end)
 See Also
 --------
 
-[AR:getSoundMetaTags](/AR:getSoundMetaTags.md "wikilink")
+[AR:getSoundMetaTags](/docs/AR:getSoundMetaTags.md "wikilink")

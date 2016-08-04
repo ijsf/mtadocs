@@ -1,4 +1,4 @@
-This event is triggered when a player starts exiting a vehicle. Once the exiting animation completes, [onClientVehicleExit](/onClientVehicleExit.md "wikilink") is triggered.
+This event is triggered when a player starts exiting a vehicle. Once the exiting animation completes, [onClientVehicleExit](/docs/onClientVehicleExit.md "wikilink") is triggered.
 
 Parameters
 ----------
@@ -36,4 +36,4 @@ See Also
 
 ### Client event functions
 
-[es:onClientVehicleStartExit](/es:onClientVehicleStartExit.md "wikilink")
+[es:onClientVehicleStartExit](/docs/es:onClientVehicleStartExit.md "wikilink")

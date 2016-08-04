@@ -4,17 +4,17 @@ If an attempt is made to attach two elements that are already attached the oppos
 
 This is not compatible with all elements. The following elements are compatible:
 
--   [Markers](/Marker.md "wikilink")
--   [Blips](/Blip.md "wikilink")
--   [Objects](/Object.md "wikilink")
--   [Players](/Player.md "wikilink")
--   [Vehicles](/Vehicle.md "wikilink")
--   [Sounds](/Sound.md "wikilink")
--   [Colshapes](/Colshape.md "wikilink")
--   [Cameras](/Camera.md "wikilink")
--   [Weapons](/createWeapon.md "wikilink")
+-   [Markers](/docs/Marker.md "wikilink")
+-   [Blips](/docs/Blip.md "wikilink")
+-   [Objects](/docs/Object.md "wikilink")
+-   [Players](/docs/Player.md "wikilink")
+-   [Vehicles](/docs/Vehicle.md "wikilink")
+-   [Sounds](/docs/Sound.md "wikilink")
+-   [Colshapes](/docs/Colshape.md "wikilink")
+-   [Cameras](/docs/Camera.md "wikilink")
+-   [Weapons](/docs/createWeapon.md "wikilink")
 
-**Note:** The offset coodinates reflect the object space, not the world space. This means that you cannot calculate the exact offsets between two objects by pre-positioning them in the map editor as a reference. Please see [attachElementsOffsets](/attachElementsOffsets.md "wikilink") for more details.
+**Note:** The offset coodinates reflect the object space, not the world space. This means that you cannot calculate the exact offsets between two objects by pre-positioning them in the map editor as a reference. Please see [attachElementsOffsets](/docs/attachElementsOffsets.md "wikilink") for more details.
 
 **Note \#2:** Due to a limitation in GTA, unexpected attach rotations may occur if all rotation offsets are non-zero. (i.e. Try to ensure at least one of 'xRotOffset', 'yRotOffset' or 'zRotOffset' is zero)
 

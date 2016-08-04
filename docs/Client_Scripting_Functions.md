@@ -1,6 +1,6 @@
-<pageclass class="client"></pageclass> This page lists all the **client-side** scripting functions that have been implemented and are available as native functions from the Deathmatch mod. To request a function or event, use [Requested Functions and Events](/Requested_Functions_and_Events.md "wikilink")
+<pageclass class="client"></pageclass> This page lists all the **client-side** scripting functions that have been implemented and are available as native functions from the Deathmatch mod. To request a function or event, use [Requested Functions and Events](/docs/Requested_Functions_and_Events.md "wikilink")
 
-For more functions, check the [useful functions page](/Useful_Functions.md "wikilink").
+For more functions, check the [useful functions page](/docs/Useful_Functions.md "wikilink").
 
 Audio functions
 ---------------
@@ -118,4 +118,4 @@ World functions
 XML functions
 -------------
 
-[ar:Client Scripting Functions](/ar:Client_Scripting_Functions.md "wikilink") [pl:Funkcje po stronie klienta](/pl:Funkcje_po_stronie_klienta.md "wikilink") [it:Funzioni Client-side](/it:Funzioni_Client-side.md "wikilink") [ru:Client Scripting Functions](/ru:Client_Scripting_Functions.md "wikilink") [es:Funciones del cliente](/es:Funciones_del_cliente.md "wikilink") [de:Clientseitige\_Funktionen](/de:Clientseitige_Funktionen.md "wikilink") [tr:Client Taraflı Fonksiyonlar](/tr:Client_Taraflı_Fonksiyonlar.md "wikilink")
+[ar:Client Scripting Functions](/docs/ar:Client_Scripting_Functions.md "wikilink") [pl:Funkcje po stronie klienta](/pl:Funkcje_po_stronie_klienta.md "wikilink") [it:Funzioni Client-side](/it:Funzioni_Client-side.md "wikilink") [ru:Client Scripting Functions](/ru:Client_Scripting_Functions.md "wikilink") [es:Funciones del cliente](/es:Funciones_del_cliente.md "wikilink") [de:Clientseitige\_Funktionen](/de:Clientseitige_Funktionen.md "wikilink") [tr:Client Taraflı Fonksiyonlar](/tr:Client_Taraflı_Fonksiyonlar.md "wikilink")

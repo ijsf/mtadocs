@@ -1,5 +1,5 @@
 This function changes the paintjob on the specified vehicle.
-See [paintjob](/Paintjob.md "wikilink") for list of supported vehicles.
+See [paintjob](/docs/Paintjob.md "wikilink") for list of supported vehicles.
 
 Syntax
 ------
@@ -10,7 +10,7 @@ bool setVehiclePaintjob ( vehicle theVehicle, int value )
 
 ### Required Arguments
 
--   **theVehicle**: The [vehicle](/vehicle.md "wikilink") you wish to change the paintjob of.
+-   **theVehicle**: The [vehicle](/docs/vehicle.md "wikilink") you wish to change the paintjob of.
 -   **value**: A whole number representing the new paintjob id. Ranges from 0 up to 3.
 
 Returns

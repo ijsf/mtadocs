@@ -7,7 +7,7 @@ bool isVehicleNitroRecharging ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle** The [vehicle](/vehicle.md "wikilink"), which you want to check for recharging.
+-   **theVehicle** The [vehicle](/docs/vehicle.md "wikilink"), which you want to check for recharging.
 
 ### Returns
 

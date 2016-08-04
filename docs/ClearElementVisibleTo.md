@@ -1,4 +1,4 @@
-This function clears any settings added by setElementVisibleTo and restores an element to its default visibility. This does not work with all entities - [vehicles](/vehicle.md "wikilink"), [players](/player.md "wikilink") and [objects](/object.md "wikilink") are exempt. This is because these objects are required for accurate sync (they're physical objects). This function is particularily useful for changing the visibility of markers, radar blips and radar areas.
+This function clears any settings added by setElementVisibleTo and restores an element to its default visibility. This does not work with all entities - [vehicles](/docs/vehicle.md "wikilink"), [players](/player.md "wikilink") and [objects](/object.md "wikilink") are exempt. This is because these objects are required for accurate sync (they're physical objects). This function is particularily useful for changing the visibility of markers, radar blips and radar areas.
 
 Syntax
 ------

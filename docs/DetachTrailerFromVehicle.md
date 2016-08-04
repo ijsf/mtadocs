@@ -9,7 +9,7 @@ Syntax
 
 ### Required Arguments
 
--   **theVehicle**: The [vehicle](/vehicle.md "wikilink") you wish to detach a trailer from.
+-   **theVehicle**: The [vehicle](/docs/vehicle.md "wikilink") you wish to detach a trailer from.
 
 ### Optional Arguments
 

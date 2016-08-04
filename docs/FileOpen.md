@@ -9,7 +9,7 @@ file fileOpen ( string filePath [, bool readOnly = false ])
 
 ### Required Arguments
 
--   **filePath:** The [filepath](/filepath.md "wikilink") of the file in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the file is in, and 'path' is the path from the root directory of the resource to the file.
+-   **filePath:** The [filepath](/docs/filepath.md "wikilink") of the file in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the file is in, and 'path' is the path from the root directory of the resource to the file.
 
   
 For example, if there is a file named 'coolObjects.txt' in the resource 'objectSearch', it can be opened from another resource this way: *fileOpen(":objectSearch/coolObjects.txt")*.

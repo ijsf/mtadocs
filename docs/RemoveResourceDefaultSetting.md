@@ -1,4 +1,4 @@
-This function is used to remove a default setting from specified [resource](/resource.md "wikilink").
+This function is used to remove a default setting from specified [resource](/docs/resource.md "wikilink").
 
 Syntax
 ------

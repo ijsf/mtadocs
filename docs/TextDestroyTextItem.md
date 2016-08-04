@@ -1,4 +1,4 @@
-This function destroys a [textitem](/textitem.md "wikilink") object.
+This function destroys a [textitem](/docs/textitem.md "wikilink") object.
 
 Syntax
 ------
@@ -14,7 +14,7 @@ void textDestroyTextItem ( textitem theTextitem )
 Example
 -------
 
-This example creates then destroys a [textitem](/textitem.md "wikilink").
+This example creates then destroys a [textitem](/docs/textitem.md "wikilink").
 
 ``` lua
 -- Create a new text item

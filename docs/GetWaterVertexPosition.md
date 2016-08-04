@@ -1,4 +1,4 @@
-Gets the world position of a vertex (i.e. corner) of a [water](/water.md "wikilink") area. Each water area is either a triangle or quad (rectangle) so each has 3 or 4 corners.
+Gets the world position of a vertex (i.e. corner) of a [water](/docs/water.md "wikilink") area. Each water area is either a triangle or quad (rectangle) so each has 3 or 4 corners.
 
 Syntax
 ------

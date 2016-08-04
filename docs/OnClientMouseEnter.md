@@ -14,7 +14,7 @@ int absoluteX, int absoluteY, element leftGUI
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the GUI element that was pointed at.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the GUI element that was pointed at.
 
 Example
 -------
@@ -29,7 +29,7 @@ addEventHandler( "onClientMouseEnter", getRootElement(),
 )
 ```
 
-[pl:onClientMouseEnter](/pl:onClientMouseEnter.md "wikilink")
+[pl:onClientMouseEnter](/docs/pl:onClientMouseEnter.md "wikilink")
 
 See Also
 --------

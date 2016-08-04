@@ -1,4 +1,4 @@
-This function returns the current input mode as set by [guiSetInputMode](/guiSetInputMode.md "wikilink"). Default mode is *“allow\_binds”*.
+This function returns the current input mode as set by [guiSetInputMode](/docs/guiSetInputMode.md "wikilink"). Default mode is *“allow\_binds”*.
 
 Syntax
 ------
@@ -30,7 +30,7 @@ end )
 Note
 ----
 
-This function, introduced in 1.1, is **not** a replacement of [guiGetInputEnabled](/guiGetInputEnabled.md "wikilink"), indeed for the mode *“no\_binds\_when\_editing”* the actual state of binds depends on the currently focused GUI widget. However:
+This function, introduced in 1.1, is **not** a replacement of [guiGetInputEnabled](/docs/guiGetInputEnabled.md "wikilink"), indeed for the mode *“no\_binds\_when\_editing”* the actual state of binds depends on the currently focused GUI widget. However:
 
 -   when *guiGetInputMode ( )* returns *“allow\_binds”* you can be sure that *guiGetInputEnabled ()* will return *false*
 -   when *guiGetInputMode ( )* returns *“no\_binds”* you can be sure that *guiGetInputEnabled ()* will return *true*

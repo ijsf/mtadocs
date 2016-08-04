@@ -21,15 +21,15 @@ History
 
 Upon the release of Vice City, the team decided to switch from GTA3. This also was a time of great change within the team itself, as it had merged with the team members from YAMM (Yet Another Multiplayer Mod) and switched from Visual Basic to C++. Consequently, the first release of MTA: Vice City was very stable in comparison with its predecessors and many of the netcode problems from GTA3:MTA 0.3b were no longer apparent. The release was met with success.
 
-MTA:VC 0.2.2 then added the [Stunt Gamemode](/MTA:VC_Stunt_Gamemode.md "wikilink") in addition to the already successful deathmatch mode. This was never as popular though.
+MTA:VC 0.2.2 then added the [Stunt Gamemode](/docs/MTA:VC_Stunt_Gamemode.md "wikilink") in addition to the already successful deathmatch mode. This was never as popular though.
 
 The release of MTA:VC 0.3 finally offered player movement animation synchronisation. This stopped players from “floating” around and made the game much more realistic. 0.3 is considered by some people to be the best version of MTA:VC Deathmatch.
 
 0.4 added many features such as spectator mode (useful for spotting cheaters) and a new spawn menu, but most of the development time had been spent on the GTA3 aspect, which the client also supported. Several adjustments to the weapons had been made in an attempt to balance the gameplay but some players complained about this.
 
-0.5 mainly fixed bugs with the previous version. Again, much of the work in 0.5 had gone into GTA3's deathmatch and Vice City's [Stunt Gamemode](/MTA:VC_Stunt_Gamemode.md "wikilink") so not many new features had been added. However, the weapon damage levels had been tweaked again. This caused problems within the community as many players believed that the weapons were underpowered now and complained about the fact that you could no longer jump with the stubby. This prevented a glitch that some players had used to an unfair advantage in 0.4, but several glitches still existed.
+0.5 mainly fixed bugs with the previous version. Again, much of the work in 0.5 had gone into GTA3's deathmatch and Vice City's [Stunt Gamemode](/docs/MTA:VC_Stunt_Gamemode.md "wikilink") so not many new features had been added. However, the weapon damage levels had been tweaked again. This caused problems within the community as many players believed that the weapons were underpowered now and complained about the fact that you could no longer jump with the stubby. This prevented a glitch that some players had used to an unfair advantage in 0.4, but several glitches still existed.
 
-The future of MTA:VC (and 0.5 in general) is uncertain. Previously, plans were to have GTA3 and VC run on the [Blue](/Blue.md "wikilink") core, but plans seem to have dissipated. A future release of the 0.x core is also uncertain.
+The future of MTA:VC (and 0.5 in general) is uncertain. Previously, plans were to have GTA3 and VC run on the [Blue](/docs/Blue.md "wikilink") core, but plans seem to have dissipated. A future release of the 0.x core is also uncertain.
 
 0.5 Deathmatch
 --------------
@@ -42,34 +42,34 @@ The spectator mode is somewhat unstable, though it has proven to be useful for s
 <table>
 <tr>
 <td>
--   **Cops** - Spawns at a cop station around town.[150px|none|thumb|Cops](/Image:800px-Cops.JPG.md "wikilink")
+-   **Cops** - Spawns at a cop station around town.[150px|none|thumb|Cops](/docs/Image:800px-Cops.JPG.md "wikilink")
 
 </td>
 <td>
--   **Mexicans** - Spawns at Escobar International Airport's terminal. [150px|none|thumb|Mexicans](/Image:800px-Mexican.JPG.md "wikilink")
+-   **Mexicans** - Spawns at Escobar International Airport's terminal. [150px|none|thumb|Mexicans](/docs/Image:800px-Mexican.JPG.md "wikilink")
 
 </td>
 <td>
--   **Robbers** - Spawns at Phil's Place in Little Haiti. [150px|none|thumb|Robbers](/Image:800px-Robber.jpg.md "wikilink")
+-   **Robbers** - Spawns at Phil's Place in Little Haiti. [150px|none|thumb|Robbers](/docs/Image:800px-Robber.jpg.md "wikilink")
 
 </td>
 <td>
--   **Vice City Crusader** - Spawns at a random location around Vice Point. [150px|none|thumb|Crusader](/Image:800px-Crusader.JPG.md "wikilink")
+-   **Vice City Crusader** - Spawns at a random location around Vice Point. [150px|none|thumb|Crusader](/docs/Image:800px-Crusader.JPG.md "wikilink")
 
 </td>
 </tr>
 <tr>
 <td>
--   **Secret Service** - Spawns under a shelter in Ocean Beach. [150px|none|thumb|Secret Service](/Image:800px-Secretservice.JPG.md "wikilink")
+-   **Secret Service** - Spawns under a shelter in Ocean Beach. [150px|none|thumb|Secret Service](/docs/Image:800px-Secretservice.JPG.md "wikilink")
 
 </td>
 <td>
--   **Sailors** - Spawns at the Vice Docks. [150px|none|thumb|Sailors](/Image:800px-Sailor.JPG.md "wikilink")
+-   **Sailors** - Spawns at the Vice Docks. [150px|none|thumb|Sailors](/docs/Image:800px-Sailor.JPG.md "wikilink")
 
 </td>
 <td>
--   **Spectator** - This mode is used to simply watch other players, you don't spawn anywhere. [150px|none|thumb|Spectator](/Image:800px-Spectatordm.JPG.md "wikilink")
+-   **Spectator** - This mode is used to simply watch other players, you don't spawn anywhere. [150px|none|thumb|Spectator](/docs/Image:800px-Spectatordm.JPG.md "wikilink")
 
 </td>
 </table>
-[Category:MTA 0.5](/Category:MTA_0.5.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink") [Category:Vice\_City](/Category:Vice_City.md "wikilink")
+[Category:MTA 0.5](/docs/Category:MTA_0.5.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink") [Category:Vice\_City](/Category:Vice_City.md "wikilink")

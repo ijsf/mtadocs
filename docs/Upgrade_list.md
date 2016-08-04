@@ -1,4 +1,4 @@
-This is a list of upgrades that correspond to [getVehicleUpgradeOnSlot](/getVehicleUpgradeOnSlot.md "wikilink").
+This is a list of upgrades that correspond to [getVehicleUpgradeOnSlot](/docs/getVehicleUpgradeOnSlot.md "wikilink").
 
 ------------------------------------------------------------------------
 
@@ -23,4 +23,4 @@ This is a list of upgrades that correspond to [getVehicleUpgradeOnSlot](/getVehi
 | **16** | Misc.         |
 ||
 
-[it:Cris G. / Morelli](/it:Cris_G._/_Morelli.md "wikilink")
+[it:Cris G. / Morelli](/docs/it:Cris_G._/_Morelli.md "wikilink")

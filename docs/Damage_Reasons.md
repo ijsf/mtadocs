@@ -1,4 +1,4 @@
-The list of reasons-weapons to such events as [onPlayerDamage](/onPlayerDamage.md "wikilink") or [onPlayerWasted](/onPlayerWasted.md "wikilink"). The following values are valid:
+The list of reasons-weapons to such events as [onPlayerDamage](/docs/onPlayerDamage.md "wikilink") or [onPlayerWasted](/onPlayerWasted.md "wikilink"). The following values are valid:
 
 -   **ID** Name
     -   **0** Fist
@@ -55,4 +55,4 @@ The list of reasons-weapons to such events as [onPlayerDamage](/onPlayerDamage.m
 See Also
 --------
 
-[ID Lists](/id.md "wikilink")
+[ID Lists](/docs/id.md "wikilink")

@@ -1,4 +1,4 @@
-This function returns the number of children an element has. Note that only the direct children are counted and not elements that are further down the [element tree](/element_tree.md "wikilink").
+This function returns the number of children an element has. Note that only the direct children are counted and not elements that are further down the [element tree](/docs/element_tree.md "wikilink").
 
 Syntax
 ------

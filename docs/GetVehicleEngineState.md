@@ -9,7 +9,7 @@ bool getVehicleEngineState ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle**: the [vehicle](/vehicle.md "wikilink") you wish to get the engine state of.
+-   **theVehicle**: the [vehicle](/docs/vehicle.md "wikilink") you wish to get the engine state of.
 
 ### Returns
 

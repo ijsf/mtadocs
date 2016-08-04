@@ -13,7 +13,7 @@ vehicle theVehicle, int seat
 Source
 ------
 
-The source of this event is the [player](/player.md "wikilink") that exited the vehicle.
+The source of this event is the [player](/docs/player.md "wikilink") that exited the vehicle.
 
 Example
 -------

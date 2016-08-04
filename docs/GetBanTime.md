@@ -1,4 +1,4 @@
-This function will return the time the specified [ban](/ban.md "wikilink") was created, in **seconds**.
+This function will return the time the specified [ban](/docs/ban.md "wikilink") was created, in **seconds**.
 
 Syntax
 ------
@@ -9,12 +9,12 @@ int getBanTime ( ban theBan )
 
 ### Required Arguments
 
--   **theBan:** The [ban](/ban.md "wikilink") of which you wish to retrieve the time of.
+-   **theBan:** The [ban](/docs/ban.md "wikilink") of which you wish to retrieve the time of.
 
 ### Returns
 
--   Returns an integer of the banning time in the format of seconds from the year 1970. Use in conjunction with [getRealTime](/getRealTime.md "wikilink") in order to retrieve detailed information.
--   Returns **false** if invalid arguments were specified or if there was no banning time specified for the [ban](/ban.md "wikilink").
+-   Returns an integer of the banning time in the format of seconds from the year 1970. Use in conjunction with [getRealTime](/docs/getRealTime.md "wikilink") in order to retrieve detailed information.
+-   Returns **false** if invalid arguments were specified or if there was no banning time specified for the [ban](/docs/ban.md "wikilink").
 
 Example
 -------
@@ -31,4 +31,4 @@ end
 See Also
 --------
 
-[ru:getBanTime](/ru:getBanTime.md "wikilink")
+[ru:getBanTime](/docs/ru:getBanTime.md "wikilink")

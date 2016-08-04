@@ -10,7 +10,7 @@ bool setVehiclePanelState ( vehicle theVehicle, int panelID, int state )
 Required Arguments
 ------------------
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") you would like to modify the panel of.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") you would like to modify the panel of.
 -   **panelID:** An ID specifying the part of the vehicle. Possible values are:
 
 <!-- -->

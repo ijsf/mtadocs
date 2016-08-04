@@ -1,4 +1,4 @@
-This function checks if a player can see the specified [textdisplay](/textdisplay.md "wikilink").
+This function checks if a player can see the specified [textdisplay](/docs/textdisplay.md "wikilink").
 
 Syntax
 ------
@@ -9,12 +9,12 @@ bool textDisplayIsObserver ( textdisplay display, player thePlayer )
 
 ### Required Arguments
 
--   **display**: The [textdisplay](/textdisplay.md "wikilink").
--   **thePlayer**: The [player](/player.md "wikilink").
+-   **display**: The [textdisplay](/docs/textdisplay.md "wikilink").
+-   **thePlayer**: The [player](/docs/player.md "wikilink").
 
 ### Returns
 
-Return true if [textdisplay](/textdisplay.md "wikilink") is showing, or false if not.
+Return true if [textdisplay](/docs/textdisplay.md "wikilink") is showing, or false if not.
 
 Example
 -------

@@ -1,6 +1,6 @@
-A [resource](/resource.md "wikilink") object refers to a resource that is loaded in the server.
+A [resource](/docs/resource.md "wikilink") object refers to a resource that is loaded in the server.
 
-A name, state, root element, base directory path are associated to a [resource](/resource.md "wikilink"), among other attributes.
+A name, state, root element, base directory path are associated to a [resource](/docs/resource.md "wikilink"), among other attributes.
 
 Related scripting functions
 ---------------------------
@@ -9,4 +9,4 @@ Related scripting functions
 
 ### Client
 
-[Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink")

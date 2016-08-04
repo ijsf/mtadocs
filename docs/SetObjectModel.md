@@ -1,4 +1,4 @@
-Please use [setElementModel](/setElementModel.md "wikilink")
+Please use [setElementModel](/docs/setElementModel.md "wikilink")
 
 This sets a new object model to the specified element.
 
@@ -11,8 +11,8 @@ bool setObjectModel ( object theObject, int id )
 
 ### Required Arguments
 
--   **theObject:** A valid [object](/object.md "wikilink").
--   **id:** An [int](/int.md "wikilink") specifying the model id.
+-   **theObject:** A valid [object](/docs/object.md "wikilink").
+-   **id:** An [int](/docs/int.md "wikilink") specifying the model id.
 
 ### Returns
 

@@ -1,4 +1,4 @@
-This function returns all the currently loaded [modules](/modules.md "wikilink") of the server.
+This function returns all the currently loaded [modules](/docs/modules.md "wikilink") of the server.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ table getLoadedModules ()
 
 ### Returns
 
-Returns a table of all the currently loaded [modules](/modules.md "wikilink"). If no modules are loaded, the table will be empty.
+Returns a table of all the currently loaded [modules](/docs/modules.md "wikilink"). If no modules are loaded, the table will be empty.
 
 Example
 -------
@@ -36,4 +36,4 @@ addCommandHandler("modules", checkModules)
 See Also
 --------
 
-[ru:getLoadedModules](/ru:getLoadedModules.md "wikilink")
+[ru:getLoadedModules](/docs/ru:getLoadedModules.md "wikilink")

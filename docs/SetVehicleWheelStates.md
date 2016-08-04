@@ -12,7 +12,7 @@ Syntax
 Required Arguments
 ------------------
 
--   **theVehicle:** A handle to the [vehicle](/vehicle.md "wikilink") that you wish to change the wheel states of.
+-   **theVehicle:** A handle to the [vehicle](/docs/vehicle.md "wikilink") that you wish to change the wheel states of.
 -   **frontLeft:** A whole number representing the wheel state (-1 for no change)
 
 Optional Arguments

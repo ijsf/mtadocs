@@ -9,11 +9,11 @@ float getObjectScale ( object theObject )
 
 ### Required Arguments
 
--   **theObject**: the [object](/object.md "wikilink") you wish to return the scale of.
+-   **theObject**: the [object](/docs/object.md "wikilink") you wish to return the scale of.
 
 ### Returns
 
--   A [float](/float.md "wikilink") indicating the scale of the object, if successful.
+-   A [float](/docs/float.md "wikilink") indicating the scale of the object, if successful.
 -   *false* otherwise.
 
 Example

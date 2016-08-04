@@ -1,4 +1,4 @@
-[thumb|200px|Water splash](/Image:Fxwatersplash.png.md "wikilink") This function creates a water splash particle effect.
+[thumb|200px|Water splash](/docs/Image:Fxwatersplash.png.md "wikilink") This function creates a water splash particle effect.
 
 Syntax
 ------

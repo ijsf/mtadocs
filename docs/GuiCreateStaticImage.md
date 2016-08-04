@@ -9,13 +9,13 @@ element guiCreateStaticImage ( float x, float y, float width, float height, stri
 
 ### Required Arguments
 
-[frame|Example GUI static image.](/Image:gui-staticimage.png.md "wikilink")
+[frame|Example GUI static image.](/docs/Image:gui-staticimage.png.md "wikilink")
 
 -   **x:** A float of the 2D x position of the image on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the image on a player's screen. This is affected by the *relative* argument.
 -   **width:** A float of the width of the image. This is affected by the *relative* argument.
 -   **height:** A float of the height of the image. This is affected by the *relative* argument.
--   **path:** The [filepath](/filepath.md "wikilink") of the image file that is being loaded.
+-   **path:** The [filepath](/docs/filepath.md "wikilink") of the image file that is being loaded.
 -   **relative:** This is whether sizes and positioning are relative. If this is *true*, then all x,y,width,height floats must be between 0 and 1, representing measures relative to the parent.
 
 ### Optional Arguments
@@ -24,7 +24,7 @@ element guiCreateStaticImage ( float x, float y, float width, float height, stri
 
 ### Returns
 
-Returns [element](/element.md "wikilink") if image was created successfully, *false* otherwise.
+Returns [element](/docs/element.md "wikilink") if image was created successfully, *false* otherwise.
 
 Example
 -------
@@ -40,7 +40,7 @@ This example will display an image (imagename.png) on the client's (player's) sc
 
 </section>
 <section name="meta.xml" class="server" show="true">
-In this example [Meta.xml](/Meta.xml.md "wikilink") is used to tell the server which files it will be using.
+In this example [Meta.xml](/docs/Meta.xml.md "wikilink") is used to tell the server which files it will be using.
 
 ``` xml
 <meta>

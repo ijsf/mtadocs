@@ -1,4 +1,4 @@
-This function is used for testing scripts written using [guiCreateFont](/guiCreateFont.md "wikilink"), [dxCreateFont](/dxCreateFont.md "wikilink"), [dxCreateShader](/dxCreateShader.md "wikilink") and [dxCreateRenderTarget](/dxCreateRenderTarget.md "wikilink").
+This function is used for testing scripts written using [guiCreateFont](/docs/guiCreateFont.md "wikilink"), [dxCreateFont](/dxCreateFont.md "wikilink"), [dxCreateShader](/dxCreateShader.md "wikilink") and [dxCreateRenderTarget](/dxCreateRenderTarget.md "wikilink").
 
 Each one of the 3 test modes should be used in turn to help highlight any potential problems.
 

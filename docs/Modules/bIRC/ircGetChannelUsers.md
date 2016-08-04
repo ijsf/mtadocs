@@ -14,7 +14,7 @@ table ircGetChannelUsers ( ircbot theBot, string channel )
 
 ### Returns
 
-Returns a [table](/table.md "wikilink") over all channel users. Returns an empty table if there's no users on that channel or *false* if invalid arguments were passed.
+Returns a [table](/docs/table.md "wikilink") over all channel users. Returns an empty table if there's no users on that channel or *false* if invalid arguments were passed.
 
 Example
 -------

@@ -1,9 +1,9 @@
-This function sets the target of a [custom weapon](/Element/Weapon.md "wikilink"). There are 3 different targeting modes, which are explained below.
+This function sets the target of a [custom weapon](/docs/Element/Weapon.md "wikilink"). There are 3 different targeting modes, which are explained below.
 
 Syntax (target an element)
 --------------------------
 
-Fires the weapon at a physical [element](/element.md "wikilink").
+Fires the weapon at a physical [element](/docs/element.md "wikilink").
 
 ``` lua
  )
@@ -12,18 +12,18 @@ Fires the weapon at a physical [element](/element.md "wikilink").
 ### Required arguments
 
 -   **theWeapon:** The weapon to set the target of.
--   **theTarget:** The [element](/element.md "wikilink") to shoot at. It can be a [player](/player.md "wikilink"), [ped](/ped.md "wikilink"), [vehicle](/vehicle.md "wikilink") or [object](/object.md "wikilink").
+-   **theTarget:** The [element](/docs/element.md "wikilink") to shoot at. It can be a [player](/player.md "wikilink"), [ped](/ped.md "wikilink"), [vehicle](/vehicle.md "wikilink") or [object](/object.md "wikilink").
 
 ### Optional arguments
 
 -   **theComponent:** The component of the target to shoot at. This argument is only relevant when used in the following element types:
-    -   **[Vehicles](/Vehicle.md "wikilink")**:
+    -   **[Vehicles](/docs/Vehicle.md "wikilink")**:
         -   **0**: front left tire.
         -   **1**: front right tire.
         -   **2**: rear left tire.
         -   **3**: rear right tire.
-        -   **255**: center of the car (position returned by [getElementPosition](/getElementPosition.md "wikilink")).
-    -   **[Peds](/Ped.md "wikilink")** (players **not** included; see [getPedBonePosition](/getPedBonePosition.md "wikilink") to know where is located each bone):
+        -   **255**: center of the car (position returned by [getElementPosition](/docs/getElementPosition.md "wikilink")).
+    -   **[Peds](/docs/Ped.md "wikilink")** (players **not** included; see [getPedBonePosition](/getPedBonePosition.md "wikilink") to know where is located each bone):
         -   **1:** *BONE\_PELVIS1* position.
         -   **2:** *BONE\_PELVIS* position.
         -   **3:** *BONE\_SPINE1* position.
@@ -52,7 +52,7 @@ Fires the weapon at a physical [element](/element.md "wikilink").
         -   **52:** *BONE\_RIGHTKNEE* position.
         -   **53:** *BONE\_RIGHTANKLE* position.
         -   **54:** *BONE\_RIGHTFOOT* position.
-        -   **255**: center of the ped (position returned by [getElementPosition](/getElementPosition.md "wikilink")).
+        -   **255**: center of the ped (position returned by [getElementPosition](/docs/getElementPosition.md "wikilink")).
 
 ### Returns
 

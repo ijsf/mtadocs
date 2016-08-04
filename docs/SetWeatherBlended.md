@@ -1,4 +1,4 @@
-This function will change the current [weather](/weather.md "wikilink") to another in a smooth manner, over the period of 2 in-game hours (unlike [setWeather](/setWeather.md "wikilink"), which sets a new weather instantly). To ensure this transition performs as expected, you should not call this function until [getWeather](/getWeather.md "wikilink") indicates that no transition is already being done.
+This function will change the current [weather](/docs/weather.md "wikilink") to another in a smooth manner, over the period of 2 in-game hours (unlike [setWeather](/setWeather.md "wikilink"), which sets a new weather instantly). To ensure this transition performs as expected, you should not call this function until [getWeather](/getWeather.md "wikilink") indicates that no transition is already being done.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setWeatherBlended ( int weatherID )
 
 ### Required Arguments
 
--   **weatherID:** The ID of the [weather](/weather.md "wikilink") state you wish to set. Valid values are 0 to 255 inclusive.
+-   **weatherID:** The ID of the [weather](/docs/weather.md "wikilink") state you wish to set. Valid values are 0 to 255 inclusive.
 
 ### Returns
 
@@ -30,4 +30,4 @@ setWeatherBlended ( 9 )
 See Also
 --------
 
-[ru:setWeatherBlended](/ru:setWeatherBlended.md "wikilink")
+[ru:setWeatherBlended](/docs/ru:setWeatherBlended.md "wikilink")

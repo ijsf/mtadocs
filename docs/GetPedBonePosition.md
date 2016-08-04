@@ -12,7 +12,7 @@ float float float getPedBonePosition ( ped thePed, int bone )
 -   **thePed:** the ped you want to inspect.
 -   **bone:** the number of the bone to get the position of.
 
-[thumb|Bone numbers](/Image:Bones.jpg.md "wikilink")
+[thumb|Bone numbers](/docs/Image:Bones.jpg.md "wikilink")
 
 <div style="border: 3px red solid; margin-bottom:3px; padding-left:5px;">
 -   **1:** BONE\_PELVIS1
@@ -94,4 +94,4 @@ This one draw all local player's bones
 See Also
 --------
 
-[ru:GetPedBonePosition](/ru:GetPedBonePosition.md "wikilink")
+[ru:GetPedBonePosition](/docs/ru:GetPedBonePosition.md "wikilink")

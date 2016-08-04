@@ -1,4 +1,4 @@
-This function changes the selected weapon slot of a [ped](/ped.md "wikilink").
+This function changes the selected weapon slot of a [ped](/docs/ped.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setPedWeaponSlot ( ped thePed, int weaponSlot )
 
 ### Required Arguments
 
--   **thePed:** the [ped](/ped.md "wikilink") whose weapon slot you want to set. In a clientside script, this cannot be used on remote players.
+-   **thePed:** the [ped](/docs/ped.md "wikilink") whose weapon slot you want to set. In a clientside script, this cannot be used on remote players.
 -   **weaponSlot:** the weapon slot to set.
 
 ### Returns
@@ -48,4 +48,4 @@ addCommandHandler ( "giveweapons", givePlayerWeapons )
 See Also
 --------
 
-[ru:setPedWeaponSlot](/ru:setPedWeaponSlot.md "wikilink")
+[ru:setPedWeaponSlot](/docs/ru:setPedWeaponSlot.md "wikilink")

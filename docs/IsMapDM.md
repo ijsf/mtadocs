@@ -15,7 +15,7 @@ bool isMapDM()
 
 ### Returns
 
-Returns *true* if the [map](/map.md "wikilink") find in name \[DM\] , *false* if not find in name map \[DM\] .
+Returns *true* if the [map](/docs/map.md "wikilink") find in name \[DM\] , *false* if not find in name map \[DM\] .
 
 Code
 ----

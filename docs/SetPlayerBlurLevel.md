@@ -10,7 +10,7 @@ bool setPlayerBlurLevel ( player thePlayer, int level )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") whose blur level will be changed.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") whose blur level will be changed.
 -   **level:** The level to set the blur to (default: 36)
 
 </section>

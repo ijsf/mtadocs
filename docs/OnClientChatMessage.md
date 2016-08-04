@@ -15,12 +15,12 @@ string text, int r, int g, int b
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the root element.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the root element.
 
 Cancel effect
 -------------
 
-AS OF 1.3.2 If this event is [canceled](/Event_system#Canceling.md "wikilink"), the game's chat system won't deliver the posts. You may use [outputChatBox](/outputChatBox.md "wikilink") to send the messages then.
+AS OF 1.3.2 If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the game's chat system won't deliver the posts. You may use [outputChatBox](/outputChatBox.md "wikilink") to send the messages then.
 
 Example
 -------

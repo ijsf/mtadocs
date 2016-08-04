@@ -7,23 +7,23 @@ bool setSoundProperties(element sound, float fSampleRate, float fTempo, float fP
 
 ### Required Arguments
 
--   **sound:** a [sound](/sound.md "wikilink") [element](/element.md "wikilink") that is created using [playSound](/playSound.md "wikilink") or [playSound3D](/playSound3D.md "wikilink")
+-   **sound:** a [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") that is created using [playSound](/playSound.md "wikilink") or [playSound3D](/playSound3D.md "wikilink")
 
 <!-- -->
 
--   **fSampleRate:** a [float](/float.md "wikilink") that defines the new sound's [sample rate](http://en.wikipedia.org/wiki/Sampling_rate)
+-   **fSampleRate:** a [float](/docs/float.md "wikilink") that defines the new sound's [sample rate](http://en.wikipedia.org/wiki/Sampling_rate)
 
 <!-- -->
 
--   **fTempo:** a [float](/float.md "wikilink") that defines the new sound [tempo](http://en.wikipedia.org/wiki/Tempo)
+-   **fTempo:** a [float](/docs/float.md "wikilink") that defines the new sound [tempo](http://en.wikipedia.org/wiki/Tempo)
 
 <!-- -->
 
--   **fPitch:** a [float](/float.md "wikilink") that defines the new sound [pitch](http://en.wikipedia.org/wiki/Pitch_%28music%29)
+-   **fPitch:** a [float](/docs/float.md "wikilink") that defines the new sound [pitch](http://en.wikipedia.org/wiki/Pitch_%28music%29)
 
 <!-- -->
 
--   **bReverse:** a [boolean](/boolean.md "wikilink") representing whether the sound will be reversed or not.
+-   **bReverse:** a [boolean](/docs/boolean.md "wikilink") representing whether the sound will be reversed or not.
 
 ### Returns
 
@@ -45,4 +45,4 @@ addEventHandler("onClientResourceStart", resourceRoot, editSongSound) -- Execute
 See Also
 --------
 
-[ar:setSoundProperties](/ar:setSoundProperties.md "wikilink")
+[ar:setSoundProperties](/docs/ar:setSoundProperties.md "wikilink")

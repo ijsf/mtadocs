@@ -1,4 +1,4 @@
-This function returns the position that the player's camera would have if the camera mode was fixed (see [setCameraMode](/setCameraMode.md "wikilink")).
+This function returns the position that the player's camera would have if the camera mode was fixed (see [setCameraMode](/docs/setCameraMode.md "wikilink")).
 
 Procedural
 ----------
@@ -7,7 +7,7 @@ Procedural
 float float float getCameraPosition ()
 ```
 
-This function returns the X, Y and Z coordinates as three [floats](/float.md "wikilink") if the function was successful, *false* otherwise.
+This function returns the X, Y and Z coordinates as three [floats](/docs/float.md "wikilink") if the function was successful, *false* otherwise.
 
 ### Example
 

@@ -9,7 +9,7 @@ bool setVehicleTurnVelocity ( vehicle theVehicle, float rx, float ry, float rz )
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") to apply the spin to.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") to apply the spin to.
 -   **rx:** velocity around the X axis
 -   **ry:** velocity around the Y axis
 -   **rz:** velocity around the Z axis

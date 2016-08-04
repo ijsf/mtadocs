@@ -1,4 +1,4 @@
-This function retrieves the analog control state of a ped, as set by [setPedAnalogControlState](/setPedAnalogControlState.md "wikilink").
+This function retrieves the analog control state of a ped, as set by [setPedAnalogControlState](/docs/setPedAnalogControlState.md "wikilink").
 
 Syntax
 ------
@@ -10,7 +10,7 @@ float getPedAnalogControlState ( ped thePed, string controlName )
 ### Required Arguments
 
 -   **thePed:** The ped you wish to retrieve the control state of.
--   **controlName:** The control. See [control names](/control_names.md "wikilink") for a list of possible controls.
+-   **controlName:** The control. See [control names](/docs/control_names.md "wikilink") for a list of possible controls.
 
 ### Returns
 

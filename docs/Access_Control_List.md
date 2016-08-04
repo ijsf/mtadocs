@@ -4,7 +4,7 @@ The key concept of MTA's ACL (and ACLs in general) is that you're giving a speci
 
 What this essentially means is that the ACL allows you to choose exactly what functions a resource or user can perform. This can obviously be invaluable - for example preventing all your server's players from being able to ban each other, or preventing your new untested resources from doing the same.
 
-Of course, *with great power comes great responsibility* and it is very easily possible to completely break resources - for example, disabling [spawnPlayer](/spawnPlayer.md "wikilink") for all resources would be a Bad Thing. Of course, there are situations when you might want to do this - if you want to force all your resources to use a spawn manager resource for example, but even this is somewhat draconian.
+Of course, *with great power comes great responsibility* and it is very easily possible to completely break resources - for example, disabling [spawnPlayer](/docs/spawnPlayer.md "wikilink") for all resources would be a Bad Thing. Of course, there are situations when you might want to do this - if you want to force all your resources to use a spawn manager resource for example, but even this is somewhat draconian.
 
 Understanding the ACL
 ---------------------
@@ -29,7 +29,7 @@ MTA has provided some default groups with increasing permissions. These groups a
 -   **SuperModerator**
 -   **Admin**
 -   **Console** - This controls permissions of people who are using the console through **<object name="user.Console" />**
--   **RPC** - Remote Procedure Call. Specifically grants access to [callRemote](/callRemote.md "wikilink") only and disables commands of default resources. Check the function for details.
+-   **RPC** - Remote Procedure Call. Specifically grants access to [callRemote](/docs/callRemote.md "wikilink") only and disables commands of default resources. Check the function for details.
 
 To explain further, I will use the Everyone group as an example. By default it looks like this:
 
@@ -68,8 +68,8 @@ Now, scroll further down the ACL and you will see the **<acl name="Default" />**
 
 \***Function** entries are MTA scripting functions. For example, if a resource needed to use restartResource and was only in the 'Everyone' group (with the 'Default' list), it would be denied access to restartResource and fail to work correctly.
 
--   **Commands** are created when a resource uses [addCommandHandler](/addCommandHandler.md "wikilink"). An example would be typing **/createvehicle \[vehicle\]** in the chatbox for the freeroam resource. This controls whether users in the group using this ACL can use the command. *Note: commands have no effect on resources within the group. Commands are only related to users.*
-    -   *General is a custom right name group created by the admin resource but it works on the same principles. The script works with them by using [hasObjectPermissionTo](/hasObjectPermissionTo.md "wikilink")*
+-   **Commands** are created when a resource uses [addCommandHandler](/docs/addCommandHandler.md "wikilink"). An example would be typing **/createvehicle \[vehicle\]** in the chatbox for the freeroam resource. This controls whether users in the group using this ACL can use the command. *Note: commands have no effect on resources within the group. Commands are only related to users.*
+    -   *General is a custom right name group created by the admin resource but it works on the same principles. The script works with them by using [hasObjectPermissionTo](/docs/hasObjectPermissionTo.md "wikilink")*
 
 You will notice some groups such as admin have multiple **<acl name="" />** nodes. An example is the admin group:
 
@@ -119,11 +119,11 @@ There are three ways you can modify the ACL - how you do it depends who you are.
 
 ### HTTP Interface
 
-You can use the [webadmin](/Resource/webadmin.md "wikilink") http interface to modify the ACL in your web browser. This is by far the easiest way to do so. Just make sure the *webadmin* resource is started on your server and visit *http://ServerIP:HttpPort/*. You can then use the two sections - ACLs and Groups. ACLs allows you to create your Access Control Lists - lists of rights. Groups allow you to group together collections of users and assign ACLs to them. For example, the ACLs section allows you to specify that the Admin ACL has access to the *start* console command. You can the go to the Groups section and create an Admin *group* that has access to your Admin *acl*. You can then add users to your Admin *group*.
+You can use the [webadmin](/docs/Resource/webadmin.md "wikilink") http interface to modify the ACL in your web browser. This is by far the easiest way to do so. Just make sure the *webadmin* resource is started on your server and visit *http://ServerIP:HttpPort/*. You can then use the two sections - ACLs and Groups. ACLs allows you to create your Access Control Lists - lists of rights. Groups allow you to group together collections of users and assign ACLs to them. For example, the ACLs section allows you to specify that the Admin ACL has access to the *start* console command. You can the go to the Groups section and create an Admin *group* that has access to your Admin *acl*. You can then add users to your Admin *group*.
 
 ### XML file
 
-You can modify the ACL.xml file manually. This has a fairly straightforward syntax, but it can get a bit confusing at times. If you do it while the server is running, don't forget to call the scripting function [aclReload](/aclReload.md "wikilink") (“start runcode”, “run aclReload()”) so the new ACL is loaded, or otherwise stop your server before modifying. This also prevents your changes from being accidentally overwritten by the server.
+You can modify the ACL.xml file manually. This has a fairly straightforward syntax, but it can get a bit confusing at times. If you do it while the server is running, don't forget to call the scripting function [aclReload](/docs/aclReload.md "wikilink") (“start runcode”, “run aclReload()”) so the new ACL is loaded, or otherwise stop your server before modifying. This also prevents your changes from being accidentally overwritten by the server.
 
 ### Scripting functions
 
@@ -132,4 +132,4 @@ You can use a large number of ACL scripting functions to modify the ACL on the f
 See Also
 --------
 
-[Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink") [ru:Access Control List](/ru:Access_Control_List.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")
+[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink") [ru:Access Control List](/ru:Access_Control_List.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")

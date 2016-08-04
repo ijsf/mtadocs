@@ -13,8 +13,8 @@ bool setPedAnimation ( ped thePed [, string block=nil, string anim=nil, int time
 
 ### Optional Arguments
 
--   **block:** the [animation](/Animations.md "wikilink") block's name.
--   **anim:** the name of the [animation](/Animations.md "wikilink") within the block.
+-   **block:** the [animation](/docs/Animations.md "wikilink") block's name.
+-   **anim:** the name of the [animation](/docs/Animations.md "wikilink") within the block.
 -   **time:** how long the animation will run for in milliseconds.
 -   **loop:** indicates whether or not the animation will loop.
 -   **updatePosition:** will change the actual coordinates of the ped according to the animation. Use this for e.g. walking animations.
@@ -76,4 +76,4 @@ addCommandHandler("dance",dance)
 See Also
 --------
 
-[ru:setPedAnimation](/ru:setPedAnimation.md "wikilink")
+[ru:setPedAnimation](/docs/ru:setPedAnimation.md "wikilink")

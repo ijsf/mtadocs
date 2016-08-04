@@ -1,4 +1,4 @@
-Please use [setElementModel](/setElementModel.md "wikilink")
+Please use [setElementModel](/docs/setElementModel.md "wikilink")
 
 This function changes the skin of a player.
 
@@ -11,8 +11,8 @@ bool setPlayerSkin ( player thePlayer, int skinID )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") whose model will be changed.
--   **skinID:** A GTASA player model (skin) ID. See [Character Skins](/Character_Skins.md "wikilink").
+-   **thePlayer:** The [player](/docs/player.md "wikilink") whose model will be changed.
+-   **skinID:** A GTASA player model (skin) ID. See [Character Skins](/docs/Character_Skins.md "wikilink").
 
 Example
 -------

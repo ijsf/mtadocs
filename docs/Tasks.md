@@ -21,6 +21,6 @@ Each slot can contain one task at a time, or be empty.
 
 There are two types of tasks - complex tasks and simple tasks. Simple tasks actually perform actions that affect the player, such as opening a car door, walking forwards etc. Complex tasks trigger off simple tasks in a sequence to perform more complex things, such as walking to a car, opening the door and getting in.
 
-If a complex task is in a slot, you can get what task that complex task is running using [getPedTask](/getPedTask.md "wikilink") and an index value of 1. If that itself has a child task, then you can retrieve that using an index value of 2 etc.
+If a complex task is in a slot, you can get what task that complex task is running using [getPedTask](/docs/getPedTask.md "wikilink") and an index value of 1. If that itself has a child task, then you can retrieve that using an index value of 2 etc.
 
-You can see a complete list of tasks on the [list of player tasks](/list_of_player_tasks.md "wikilink") page. [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")
+You can see a complete list of tasks on the [list of player tasks](/docs/list_of_player_tasks.md "wikilink") page. [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")

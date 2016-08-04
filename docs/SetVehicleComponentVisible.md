@@ -7,7 +7,7 @@ bool setVehicleComponentVisible ( vehicle theVehicle, string theComponent, bool 
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") you wish to set component visibility of.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") you wish to set component visibility of.
 -   **theComponent:** A vehicle component (this is the frame name from the model file of the component you wish to modify)
 -   **visible:** a *bool* which determines if the component should be visible
 

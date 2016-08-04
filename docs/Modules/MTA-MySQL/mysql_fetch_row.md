@@ -1,6 +1,6 @@
 <pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass>
 
-Returns a table containing the current row of the last executed query. You can call this function repeatedly to retreive all the result rows. When there aren't more rows in the result it returns nil. You can go to a specific row calling [mysql\_data\_seek()](/Modules/MTA-MySQL/mysql_data_seek.md "wikilink")
+Returns a table containing the current row of the last executed query. You can call this function repeatedly to retreive all the result rows. When there aren't more rows in the result it returns nil. You can go to a specific row calling [mysql\_data\_seek()](/docs/Modules/MTA-MySQL/mysql_data_seek.md "wikilink")
 
 Syntax
 ------

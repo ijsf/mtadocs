@@ -16,4 +16,4 @@ Returns a dxCreateRootPane if it was successfully created which then can make ch
 See Also
 --------
 
-[Back to dxGUI page](/DxGUI.md "wikilink")
+[Back to dxGUI page](/docs/DxGUI.md "wikilink")

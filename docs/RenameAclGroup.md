@@ -1,6 +1,6 @@
 <lowercasetitle/>
 
-This function is used to rename an [ACL group](/Aclgroup.md "wikilink").
+This function is used to rename an [ACL group](/docs/Aclgroup.md "wikilink").
 
 Syntax
 ------

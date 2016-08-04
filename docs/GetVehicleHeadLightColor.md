@@ -9,7 +9,7 @@ int, int, int getVehicleHeadLightColor ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") that you wish to set the headlight color of.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") that you wish to set the headlight color of.
 
 ### Returns
 

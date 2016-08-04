@@ -1,4 +1,4 @@
-This function updates the offsets of an element that has been attached to another element using [attachElements](/attachElements.md "wikilink").
+This function updates the offsets of an element that has been attached to another element using [attachElements](/docs/attachElements.md "wikilink").
 
 Syntax
 ------

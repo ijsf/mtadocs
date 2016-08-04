@@ -9,11 +9,11 @@ float, float getVehicleTurretPosition ( vehicle turretVehicle )
 
 ### Required Arguments
 
--   **turretVehicle**: The [vehicle](/vehicle.md "wikilink") whose turret position you want to retrieve. This should be a vehicle with a turret.
+-   **turretVehicle**: The [vehicle](/docs/vehicle.md "wikilink") whose turret position you want to retrieve. This should be a vehicle with a turret.
 
 ### Returns
 
-Returns two [floats](/float.md "wikilink") for the X (horizontal) and Y (vertical) axis rotation respectively. These values are in radians. The function will return *0, 0* if the vehicle is not a vehicle with a turret.
+Returns two [floats](/docs/float.md "wikilink") for the X (horizontal) and Y (vertical) axis rotation respectively. These values are in radians. The function will return *0, 0* if the vehicle is not a vehicle with a turret.
 
 Example
 -------

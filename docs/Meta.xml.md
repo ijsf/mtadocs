@@ -5,7 +5,7 @@ Tags
 
 XML is a textual data format which is widely used for the representation of data. MTA uses an XML-based language to describe the metadata for resources by using the tags below:
 
--   **<info />** Information about this resource, possible parameters include (any arbitrary parameters can be used and read using [getResourceInfo](/getResourceInfo.md "wikilink")):
+-   **<info />** Information about this resource, possible parameters include (any arbitrary parameters can be used and read using [getResourceInfo](/docs/getResourceInfo.md "wikilink")):
     -   **author:** The author of this resource
     -   **version:** The version of this resource
     -   **name:** The name of this resource
@@ -34,7 +34,7 @@ XML is a textual data format which is widely used for the representation of data
 -   **<config />** Config file (.xml) can be accessed by resource, possible parameters are:
     -   **src:** The file name of the config file
     -   **type:** The type of the config file: “client” or “server”
--   **<export />** This exports functions from this resource, so other resources can use them with [call](/call.md "wikilink")
+-   **<export />** This exports functions from this resource, so other resources can use them with [call](/docs/call.md "wikilink")
     -   **function:** The function name
     -   **type** Whether function is exported server-side or client-side (valid values are: “client”, “server” and “shared”)
     -   **http:** Can the function be called via HTTP (true/false)
@@ -45,11 +45,11 @@ XML is a textual data format which is widely used for the representation of data
     -   **src:** The filename for the HTTP file (can be a path)
     -   **default:** The html file is one that is shown by default when visiting /resourceName/ on the server. Only one html can be default, the rest are ignored. (true/false)
     -   **raw:** The html file is not parsed by the Lua interpreter and is treated as binary data. Must be used for binary files (images mainly) (true/false)
--   **<settings> <setting name="" value=""/> </settings>:** Most gamemodes use [settings system](/settings_system.md "wikilink") to let server admins to configure it how they like. For instance you could set round time and then use [get](/get.md "wikilink") and [set](/set.md "wikilink") to get the value or change it, respectively.
+-   **<settings> <setting name="" value=""/> </settings>:** Most gamemodes use [settings system](/docs/settings_system.md "wikilink") to let server admins to configure it how they like. For instance you could set round time and then use [get](/get.md "wikilink") and [set](/set.md "wikilink") to get the value or change it, respectively.
 -   **<min_mta_version />** Minimum version requirements for this resource to run correctly. When authoring resources, the minimum version should usually be set to the current released version of MTA:SA (which at the moment is ""). See example for example.
     -   **client:** The minimum client version
     -   **server:** The minimum server version
--   **<aclrequest />** A list of [ACL](/Access_Control_List.md "wikilink") rights this resource will need.
+-   **<aclrequest />** A list of [ACL](/docs/Access_Control_List.md "wikilink") rights this resource will need.
 
 Example
 -------
@@ -122,4 +122,4 @@ Heres an example of a meta file using some of the tags mentioned: {{\#tag:code |
 `    `<right name="function.setPlayerMuted" access="true" />
 `    `</aclrequest>
 
-</meta> |lang=“xml”}} [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink") [cs:Meta.xml](/cs:Meta.xml.md "wikilink") [de:Meta.xml](/de:Meta.xml.md "wikilink") [es:Sobre el archivo “meta.xml”](/es:Sobre_el_archivo_"meta.xml".md "wikilink") [it:Meta.xml](/it:Meta.xml.md "wikilink") [pl:Meta.xml](/pl:Meta.xml.md "wikilink") [ru:Meta.xml](/ru:Meta.xml.md "wikilink")
+</meta> |lang=“xml”}} [Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink") [cs:Meta.xml](/cs:Meta.xml.md "wikilink") [de:Meta.xml](/de:Meta.xml.md "wikilink") [es:Sobre el archivo “meta.xml”](/es:Sobre_el_archivo_"meta.xml".md "wikilink") [it:Meta.xml](/it:Meta.xml.md "wikilink") [pl:Meta.xml](/pl:Meta.xml.md "wikilink") [ru:Meta.xml](/ru:Meta.xml.md "wikilink")

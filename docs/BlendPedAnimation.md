@@ -11,8 +11,8 @@ bool blendPedAnimation ( ped thePed [, string block, string name, float speed=1.
 
 ### Optional Arguments
 
--   **block:** the [animation](/Animations.md "wikilink") block's name.
--   **anim:** the name of the [animation](/Animations.md "wikilink") within the block.
+-   **block:** the [animation](/docs/Animations.md "wikilink") block's name.
+-   **anim:** the name of the [animation](/docs/Animations.md "wikilink") within the block.
 -   **speed:** the speed at which the animation is played.
 -   **blendSpeed:** the speed at which the previous and current animation are blended.
 -   **startTime:** how far into the animation (in seconds) you want to skip

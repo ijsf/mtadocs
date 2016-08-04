@@ -1,4 +1,4 @@
-This function will return the unbanning time of the specified [ban](/ban.md "wikilink") in **seconds**.
+This function will return the unbanning time of the specified [ban](/docs/ban.md "wikilink") in **seconds**.
 
 Syntax
 ------
@@ -9,12 +9,12 @@ int getUnbanTime ( ban theBan )
 
 ### Required Arguments
 
--   **theBan:** The [ban](/ban.md "wikilink") in which you wish to retrieve the unban time of.
+-   **theBan:** The [ban](/docs/ban.md "wikilink") in which you wish to retrieve the unban time of.
 
 ### Returns
 
--   Returns an integer of the unbanning time in the format of seconds from the year 1970. Use in conjunction with [getRealTime](/getRealTime.md "wikilink") in order to retrieve detailed information.
--   Returns **false** if invalid arguments are specified or if there was no unbanning time specified for the [ban](/ban.md "wikilink").
+-   Returns an integer of the unbanning time in the format of seconds from the year 1970. Use in conjunction with [getRealTime](/docs/getRealTime.md "wikilink") in order to retrieve detailed information.
+-   Returns **false** if invalid arguments are specified or if there was no unbanning time specified for the [ban](/docs/ban.md "wikilink").
 
 Example
 -------
@@ -37,4 +37,4 @@ addCommandHandler ( "bans", listBans ) -- Add "/bans" as the trigger for the fun
 See Also
 --------
 
-[ru:getUnbanTime](/ru:getUnbanTime.md "wikilink")
+[ru:getUnbanTime](/docs/ru:getUnbanTime.md "wikilink")

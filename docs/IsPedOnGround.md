@@ -9,7 +9,7 @@ bool isPedOnGround ( ped thePed )
 
 ### Required Arguments
 
--   **thePed:** The [ped](/ped.md "wikilink") you are checking.
+-   **thePed:** The [ped](/docs/ped.md "wikilink") you are checking.
 
 ### Returns
 

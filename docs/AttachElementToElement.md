@@ -4,11 +4,11 @@ If an attempt is made to attach two elements that are already attached the oppos
 
 This is not compatible with all elements. The following elements are compatible:
 
--   [Markers](/Marker.md "wikilink")
--   [Blips](/Blip.md "wikilink")
--   [Objects](/Object.md "wikilink")
--   [Players](/Player.md "wikilink")
--   [Vehicles](/Vehicle.md "wikilink")
+-   [Markers](/docs/Marker.md "wikilink")
+-   [Blips](/docs/Blip.md "wikilink")
+-   [Objects](/docs/Object.md "wikilink")
+-   [Players](/docs/Player.md "wikilink")
+-   [Vehicles](/docs/Vehicle.md "wikilink")
 
 Syntax
 ------

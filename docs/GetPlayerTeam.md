@@ -1,4 +1,4 @@
-This function gets the current [team](/team.md "wikilink") a [player](/player.md "wikilink") is on.
+This function gets the current [team](/docs/team.md "wikilink") a [player](/player.md "wikilink") is on.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ team getPlayerTeam ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/player.md "wikilink") whose team you want to find out.
+-   **thePlayer**: The [player](/docs/player.md "wikilink") whose team you want to find out.
 
 ### Returns
 

@@ -7,7 +7,7 @@ bool setVehicleComponentPosition ( vehicle theVehicle, string theComponent, floa
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") you wish to set component position.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") you wish to set component position.
 -   **theComponent:** A vehicle component (this is the frame name from the model file of the component you wish to modify)
 -   **posX:** The x position of this component from the center of the vehicle.
 -   **posY:** The y position of this component from the center of the vehicle.

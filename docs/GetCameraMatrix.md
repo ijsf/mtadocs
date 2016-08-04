@@ -21,7 +21,7 @@ float float float float float float float float getCameraMatrix ()
 ```
 
 </section>
-This function returns 8 [floats](/float.md "wikilink") if the argument is valid (when applicable); the first three indicate the position of the camera, the next three indicate the position of the point it's facing, and the last two are the roll and field of view. Returns *false* if the argument is invalid.
+This function returns 8 [floats](/docs/float.md "wikilink") if the argument is valid (when applicable); the first three indicate the position of the camera, the next three indicate the position of the point it's facing, and the last two are the roll and field of view. Returns *false* if the argument is invalid.
 
 ### Example
 

@@ -1,4 +1,4 @@
-Please use [setElementFrozen](/setElementFrozen.md "wikilink")
+Please use [setElementFrozen](/docs/setElementFrozen.md "wikilink")
 
 This function freezes a vehicle (stops it in its position and disables movement) or unfreezes it.
 
@@ -12,7 +12,7 @@ bool setVehicleFrozen ( vehicle theVehicle, bool freezeStatus )
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") whose freeze status we want to change.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") whose freeze status we want to change.
 -   **freezeStatus:** A boolean denoting whether we want to freeze (*true*) or unfreeze (*false*) it.
 
 ### Returns

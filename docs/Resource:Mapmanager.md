@@ -5,7 +5,7 @@ Specifically, the map manager lists gamemodes/maps and manages gamemode/map load
 A simple tutorial
 -----------------
 
-In this section we are going to continue the basic gamemode we created in the [Introduction to Scripting](/Scripting_Introduction.md "wikilink"). We will add a simple map resource that only contains the spawnpoint data for the players, and load the data in the main script when the player needs to spawn.
+In this section we are going to continue the basic gamemode we created in the [Introduction to Scripting](/docs/Scripting_Introduction.md "wikilink"). We will add a simple map resource that only contains the spawnpoint data for the players, and load the data in the main script when the player needs to spawn.
 
 First of all, we make a folder under /Your MTA Server/mods/deathmatch/resources/, and name it “mymap”. Then under /mymap/ directory, create a text file and name it “meta.xml”, which is required for every resource.
 
@@ -28,7 +28,7 @@ Now let's create another text file under /mymap/ and name it “mymap.map”, an
 </map>
 ```
 
-Note that “spawnpoint” is the type of the element, used in [getElementsByType](/getElementsByType.md "wikilink") function; likewise, “id” is used in [getElementByID](/getElementByID.md "wikilink") function.
+Note that “spawnpoint” is the type of the element, used in [getElementsByType](/docs/getElementsByType.md "wikilink") function; likewise, “id” is used in [getElementByID](/getElementByID.md "wikilink") function.
 
 To load the map data, the main script needs access to the map resource itself. Now let's edit the script.lua file in “myserver” resource. Enter the following code:
 
@@ -234,7 +234,7 @@ Fired before a GM map is stopped.
 Supported map settings
 ----------------------
 
-The following settings from the [registry](/settings_system.md "wikilink") are applied by the map manager when a map is started:
+The following settings from the [registry](/docs/settings_system.md "wikilink") are applied by the map manager when a map is started:
 **gamespeed** \[number\]: The map's game speed.
 **gravity** \[number\]: The map's gravity.
 **time** \[string of the form **hh:mm**\]: The map's time.
@@ -244,4 +244,4 @@ The following settings from the [registry](/settings_system.md "wikilink") are a
 **minplayers** \[number\]: The required minimum number of players to start the map.
 **maxplayers** \[number\]: The allowed maximum number of players to start the map.
 
-[it:Map manager](/it:Map_manager.md "wikilink") [ru:<Resource:Mapmanager>](/ru:Resource:Mapmanager.md "wikilink")
+[it:Map manager](/docs/it:Map_manager.md "wikilink") [ru:<Resource:Mapmanager>](/ru:Resource:Mapmanager.md "wikilink")

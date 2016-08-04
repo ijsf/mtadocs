@@ -9,7 +9,7 @@ bool setTeamFriendlyFire ( team theTeam , bool friendlyFire )
 
 ### Required Arguments
 
--   **theTeam:** The [team](/team.md "wikilink") that will have friendly fire set
+-   **theTeam:** The [team](/docs/team.md "wikilink") that will have friendly fire set
 -   **friendlyFire:** A boolean denoting whether friendly fire is on (*true*) or off (*false*).
 
 ### Returns

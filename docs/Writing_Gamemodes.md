@@ -1,4 +1,4 @@
-This guide tries to outline the process of how to write a proper gamemode. If you just started with scripting for MTA, you may want to check the other scripting tutorials at the [Main Page](/Main_Page.md "wikilink") first.
+This guide tries to outline the process of how to write a proper gamemode. If you just started with scripting for MTA, you may want to check the other scripting tutorials at the [Main Page](/docs/Main_Page.md "wikilink") first.
 
 Introduction
 ------------
@@ -56,7 +56,7 @@ for key, value in pairs(flagElements) do
 end
 ```
 
-The [getElementsByType](/getElementsByType.md "wikilink") function retrieves a table of all the elements of a certain type (the type corresponds to the node name in the .map file). This works for both custom types and built-in MTA types (like “vehicle” or “player”). [getElementData](/getElementData.md "wikilink") can be used to retrieve the xml attributes set in the .map file. In this simple example, an object is created at the flag's location and a message is outputted in the chatbox. In reality, you will of course need to do more during map loading, like in this case setting up collision shapes to detect players taking the flag.
+The [getElementsByType](/docs/getElementsByType.md "wikilink") function retrieves a table of all the elements of a certain type (the type corresponds to the node name in the .map file). This works for both custom types and built-in MTA types (like “vehicle” or “player”). [getElementData](/getElementData.md "wikilink") can be used to retrieve the xml attributes set in the .map file. In this simple example, an object is created at the flag's location and a message is outputted in the chatbox. In reality, you will of course need to do more during map loading, like in this case setting up collision shapes to detect players taking the flag.
 
 Map manager
 -----------
@@ -66,7 +66,7 @@ Having read the section above it should be clear that a gamemode should always c
 -   The gamemode resource that always stays the same
 -   Many different maps resources that give the gamemode map-specific information
 
-Now instead of writing a map-loader for every single gamemode, the [Map manager](/Map_manager.md "wikilink") provides functions to load gamemodes and maps. Simply put, when you enter the correct command (for example 'gamemode ctf ctf-italy') it will start both resources 'ctf' and 'ctf-italy' while triggering an event ([onGamemodeMapStart](/onGamemodeMapStart.md "wikilink")) to tell the 'ctf' resource that a map was loaded. The 'ctf' resource can then access the information 'ctf-italy' contains and start spawning players etc.
+Now instead of writing a map-loader for every single gamemode, the [Map manager](/docs/Map_manager.md "wikilink") provides functions to load gamemodes and maps. Simply put, when you enter the correct command (for example 'gamemode ctf ctf-italy') it will start both resources 'ctf' and 'ctf-italy' while triggering an event ([onGamemodeMapStart](/onGamemodeMapStart.md "wikilink")) to tell the 'ctf' resource that a map was loaded. The 'ctf' resource can then access the information 'ctf-italy' contains and start spawning players etc.
 
 ### How to use the mapmanager
 
@@ -113,7 +113,7 @@ To make a map compatible with your gamemode, open its resource's meta.xml and ta
 
 Once you have everything set up, admins will use these two commands to start/stop gamemodes: /gamemode gamemodeName \[mapName\] (optional parameter allows picking an initial map, defaults to none) /changemap mapName \[gamemodeName\] (optional parameter specifies the gamemode to start the map with, defaults to the current one)
 
-[Map manager](/Map_manager.md "wikilink") exports a few more access functions which you don't have to use, but may be useful.
+[Map manager](/docs/Map_manager.md "wikilink") exports a few more access functions which you don't have to use, but may be useful.
 
 What else should you do
 -----------------------
@@ -129,14 +129,14 @@ There are basicially two ways to use the helpmanager:
 -   Provide a simple text that explains how to use your gamemode
 -   Request a GUI element from the helpmanager that will be displayed in its own tab in the helpmanager window and lets you add any GUI elements to it. This is the recommended way for gamemodes that need to display more complex information that needs its own GUI.
 
-Read the [helpmanager help page](/Resource:Helpmanager.md "wikilink") for details on how to do it.
+Read the [helpmanager help page](/docs/Resource:Helpmanager.md "wikilink") for details on how to do it.
 
 ### Scoreboard
 
-Scoreboard displays players and teams currently ingame. You add custom columns to it to provide map specific information. For example the column 'points' in the 'ctf' gamemode could represent the player's points gained through kills or captures. As usual, see the [scoreboard help page](/Resource:Dxscoreboard.md "wikilink") for more information.
+Scoreboard displays players and teams currently ingame. You add custom columns to it to provide map specific information. For example the column 'points' in the 'ctf' gamemode could represent the player's points gained through kills or captures. As usual, see the [scoreboard help page](/docs/Resource:Dxscoreboard.md "wikilink") for more information.
 
 ### Map cycler
 
 The map cycler controls what gamemodes and maps are played on a server. You can specifiy for example how many times in a row a map will be played until it switches to the next. To achieve this, you need to tell the map cycler when your gamemode finished (e.g. when a round ends).
 
-[it:Scrivere una gamemode](/it:Scrivere_una_gamemode.md "wikilink") [ru:Writing Gamemodes](/ru:Writing_Gamemodes.md "wikilink") [de:Gamemodes schreiben](/de:Gamemodes_schreiben.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")
+[it:Scrivere una gamemode](/docs/it:Scrivere_una_gamemode.md "wikilink") [ru:Writing Gamemodes](/ru:Writing_Gamemodes.md "wikilink") [de:Gamemodes schreiben](/de:Gamemodes_schreiben.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")

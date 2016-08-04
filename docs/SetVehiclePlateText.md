@@ -7,7 +7,7 @@ bool setVehiclePlateText( element theVehicle, string numberplate )
 
 ### Required Arguments
 
--   **theVehicle:** the [vehicle](/vehicle.md "wikilink") whose numberplate you want to change.
+-   **theVehicle:** the [vehicle](/docs/vehicle.md "wikilink") whose numberplate you want to change.
 -   **numberplate:** a string that will go on the number plate of the car (max 8 characters).
 
 ### Returns

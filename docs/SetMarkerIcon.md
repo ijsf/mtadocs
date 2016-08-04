@@ -12,7 +12,7 @@ bool setMarkerIcon ( marker theMarker, string icon )
 
 ### Required Arguments
 
--   **theMarker:** The [marker](/marker.md "wikilink") to change the visual style of
+-   **theMarker:** The [marker](/docs/marker.md "wikilink") to change the visual style of
 -   **icon:** A string referring to the type of icon, acceptable values are:
     -   **“none”**: No icon
     -   **“arrow”**: Arrow icon

@@ -10,7 +10,7 @@ bool isPlayerOnGround ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") you are checking.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") you are checking.
 
 ### Returns
 

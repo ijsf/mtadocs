@@ -1,6 +1,6 @@
 This function allows you to set a player's camera to follow other elements instead. Currently supported element type is:
 
--   [Players](/Player.md "wikilink")
+-   [Players](/docs/Player.md "wikilink")
 
 Syntax
 ------

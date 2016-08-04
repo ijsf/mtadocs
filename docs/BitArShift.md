@@ -20,7 +20,7 @@ Example
 -------
 
 <section name="Client" class="client" show="true">
-This example adds the clientside command **/arshift \[value\] \[positions = 1\]**, which will print the result from the function [bitArShift](/bitArShift.md "wikilink").
+This example adds the clientside command **/arshift \[value\] \[positions = 1\]**, which will print the result from the function [bitArShift](/docs/bitArShift.md "wikilink").
 
 ``` lua
 function getNumberAsBitString(value)

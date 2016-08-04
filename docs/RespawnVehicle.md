@@ -1,4 +1,4 @@
-This function respawns a vehicle according to its set respawn position, set by [setVehicleRespawnPosition](/setVehicleRespawnPosition.md "wikilink") or the position and rotation it was created on. To spawn a vehicle to a specific location just once, [spawnVehicle](/spawnVehicle.md "wikilink") can be used.
+This function respawns a vehicle according to its set respawn position, set by [setVehicleRespawnPosition](/docs/setVehicleRespawnPosition.md "wikilink") or the position and rotation it was created on. To spawn a vehicle to a specific location just once, [spawnVehicle](/spawnVehicle.md "wikilink") can be used.
 
 Syntax
 ------

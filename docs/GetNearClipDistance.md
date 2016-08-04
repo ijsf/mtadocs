@@ -7,7 +7,7 @@ float getNearClipDistance ( )
 
 ### Returns
 
-This function returns a *[float](/float.md "wikilink")* containing the actual near clip distance.
+This function returns a *[float](/docs/float.md "wikilink")* containing the actual near clip distance.
 
 Example
 -------

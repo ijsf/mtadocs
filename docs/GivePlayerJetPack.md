@@ -6,7 +6,7 @@ This function is not guaranteed to succeed. There are some cases where the jetpa
 -   If the player is falling
 -   Probably others too.
 
-As such, you should either expect it to fail sometimes, or repeatedly try to give a jetpack every second or so until [doesPlayerHaveJetPack](/doesPlayerHaveJetPack.md "wikilink") returns true. Alternatively, you can force the player into a 'safe' position (e.g. standing on the ground) before giving the jetpack, or user a pickup to handle it.
+As such, you should either expect it to fail sometimes, or repeatedly try to give a jetpack every second or so until [doesPlayerHaveJetPack](/docs/doesPlayerHaveJetPack.md "wikilink") returns true. Alternatively, you can force the player into a 'safe' position (e.g. standing on the ground) before giving the jetpack, or user a pickup to handle it.
 
 Syntax
 ------
@@ -17,7 +17,7 @@ bool givePlayerJetPack ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") you want to give a jetpack to.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") you want to give a jetpack to.
 
 ### Returns
 

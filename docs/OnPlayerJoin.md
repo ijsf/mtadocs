@@ -8,7 +8,7 @@ No parameters.
 Source
 ------
 
-The source of this event is the [player](/player.md "wikilink") who joined.
+The source of this event is the [player](/docs/player.md "wikilink") who joined.
 
 Example
 -------

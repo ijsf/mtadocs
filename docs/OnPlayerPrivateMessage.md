@@ -8,17 +8,17 @@ string message, player recipient
 ```
 
 -   **message**: A string representing the private message typed.
--   **recipient**: The [player](/player.md "wikilink") to whom the message is being sent.
+-   **recipient**: The [player](/docs/player.md "wikilink") to whom the message is being sent.
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who sent the private message.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who sent the private message.
 
 Cancel effect
 -------------
 
-If this event is [canceled](/Event_system#Canceling.md "wikilink"), the game's chat system won't deliver the message. You may use [outputChatBox](/outputChatBox.md "wikilink") to send the messages then.
+If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the game's chat system won't deliver the message. You may use [outputChatBox](/outputChatBox.md "wikilink") to send the messages then.
 
 Example
 -------

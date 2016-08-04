@@ -1,6 +1,6 @@
 <pageclass class="server"></pageclass> The language system is a small system. But really it helps you a lot!
 
-For example. Someone just found a pot of gold, you can simple do ([Chatbox functions](/MTA_Framework/Chatbox.md "wikilink")):
+For example. Someone just found a pot of gold, you can simple do ([Chatbox functions](/docs/MTA_Framework/Chatbox.md "wikilink")):
 
 ``` lua
 local Event = eventLoader:loadServerEvents();

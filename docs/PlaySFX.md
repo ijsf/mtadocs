@@ -13,12 +13,12 @@ element playSFX ( string containerName, int bankId, int soundId [, bool looped =
 
 ### Optional Arguments
 
--   **looped:** A [boolean](/boolean.md "wikilink") representing whether the sound will be looped
+-   **looped:** A [boolean](/docs/boolean.md "wikilink") representing whether the sound will be looped
 
 Returns
 -------
 
-Returns a [sound](/sound.md "wikilink") element if the sound was successfully created, *false* otherwise.
+Returns a [sound](/docs/sound.md "wikilink") element if the sound was successfully created, *false* otherwise.
 
 Example
 -------

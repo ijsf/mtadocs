@@ -1,6 +1,6 @@
-[Category:Useful\_Functions](/Category:Useful_Functions.md "wikilink") <lowercasetitle/>
+[Category:Useful\_Functions](/docs/Category:Useful_Functions.md "wikilink") <lowercasetitle/>
 
-This function allows you get a ped's clothing ID, allowing you to forget about texture and model names. <strong>This is intended to overwrite the native getPedClothes function, but has been renamed getPedClothesID here on the wiki. It is also intended to be used in conjunction with [setPedClothes](/setPedClothes.md "wikilink").</strong>
+This function allows you get a ped's clothing ID, allowing you to forget about texture and model names. <strong>This is intended to overwrite the native getPedClothes function, but has been renamed getPedClothesID here on the wiki. It is also intended to be used in conjunction with [setPedClothes](/docs/setPedClothes.md "wikilink").</strong>
 
 Syntax
 ------
@@ -12,11 +12,11 @@ int getPedClothesID(ped thePed, int clothingSlot)
 ### Required Arguments
 
 -   **thePed**: The ped to examine.
--   **clothingSlot**: The clothing slot to examine. See the [clothes catalog](/CJ_Clothes.md "wikilink") for more info.
+-   **clothingSlot**: The clothing slot to examine. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink") for more info.
 
 ### Returns
 
-This function returns the [clothing ID](/CJ_Clothes.md "wikilink") if successful, false otherwise.
+This function returns the [clothing ID](/docs/CJ_Clothes.md "wikilink") if successful, false otherwise.
 
 Code
 ----

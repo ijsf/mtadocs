@@ -1,4 +1,4 @@
-This function returns the ping of a specified [player](/player.md "wikilink"). The ping is the number of milliseconds that data takes to travel from the player's client to the server or vice versa.
+This function returns the ping of a specified [player](/docs/player.md "wikilink"). The ping is the number of milliseconds that data takes to travel from the player's client to the server or vice versa.
 
 Syntax
 ------
@@ -9,11 +9,11 @@ int getPlayerPing ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/player.md "wikilink") whose ping you want to determine.
+-   **thePlayer**: The [player](/docs/player.md "wikilink") whose ping you want to determine.
 
 ### Returns
 
-Returns the ping as an [int](/int.md "wikilink"), or *false* if the player is invalid.
+Returns the ping as an [int](/docs/int.md "wikilink"), or *false* if the player is invalid.
 
 Example
 -------
@@ -50,4 +50,4 @@ addCommandHandler("ping", checkPing)
 See Also
 --------
 
-[ru:getPlayerPing](/ru:getPlayerPing.md "wikilink")
+[ru:getPlayerPing](/docs/ru:getPlayerPing.md "wikilink")

@@ -8,38 +8,38 @@ Event like onServerTick wich is run very often. Like the clientside onClientRend
 onVehicleCreated or an equivalent... shouldn't be too hard? -Robhol (14:15 Jul 6, 08)
 
   
-If we did it, it'd be onElementCreated - what do you want this for? [eAi](/User:EAi.md "wikilink") 08:58, 7 July 2008 (CDT)
+If we did it, it'd be onElementCreated - what do you want this for? [eAi](/docs/User:EAi.md "wikilink") 08:58, 7 July 2008 (CDT)
 
   
 onElementCreated is a good idea - it could be used for lots of things. Also, how about onVehicleDrown or whatever? that is, when a vehicle hits deep water. Checking for collisions and stuff is very awkward, and client-side only, and has to be checked constantly.. -Robhol (17:31 Jul 9 08)
 
   
-I second that. It would be useful if you use like me element data like the fuel amount or other stuff. And an event like this would help me to setup those element data, when a car spawns. Otherwise I would either have to edit every car spawn script I use or do a post-setup when someone is entering the car.. [User:MaddDogg14](/User:MaddDogg14.md "wikilink") (04:34 Apr 4, 10 (CEST))
+I second that. It would be useful if you use like me element data like the fuel amount or other stuff. And an event like this would help me to setup those element data, when a car spawns. Otherwise I would either have to edit every car spawn script I use or do a post-setup when someone is entering the car.. [User:MaddDogg14](/docs/User:MaddDogg14.md "wikilink") (04:34 Apr 4, 10 (CEST))
 
   
 i definetly agree, onElementCreated would be VERY useful for utility/librares scripts, but i think this should be limited by ACL, because “evil” scripts could abuse this othervise -Karlis (9:10 Apr 5, 10)
 
 ------------------------------------------------------------------------
 
-I ask for a function that detects if a ped is on floor, eg. **isPedOnFloor(ped thePed)**, thanks. --<span style="font-family:Courier New, Courier, monospace">[Shadd](/User:Shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/User_talk:Shadd.md "wikilink"))</sub> 11:29, 15 June 2008 (CDT)
+I ask for a function that detects if a ped is on floor, eg. **isPedOnFloor(ped thePed)**, thanks. --<span style="font-family:Courier New, Courier, monospace">[Shadd](/docs/User:Shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/User_talk:Shadd.md "wikilink"))</sub> 11:29, 15 June 2008 (CDT)
 
   
-[isPedOnGround](/isPedOnGround.md "wikilink")? [Awwu](/User:Awwu.md "wikilink") 12:58, 15 June 2008 (CDT)
+[isPedOnGround](/docs/isPedOnGround.md "wikilink")? [Awwu](/User:Awwu.md "wikilink") 12:58, 15 June 2008 (CDT)
 
   
-I need to know if the player has its back touching the ground, not if it's simply “on ground”. --<span style="font-family:Courier New, Courier, monospace">[Shadd](/User:Shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/User_talk:Shadd.md "wikilink"))</sub> 14:16, 16 June 2008 (CDT)
+I need to know if the player has its back touching the ground, not if it's simply “on ground”. --<span style="font-family:Courier New, Courier, monospace">[Shadd](/docs/User:Shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/User_talk:Shadd.md "wikilink"))</sub> 14:16, 16 June 2008 (CDT)
 
   
-Check what task the player has, they should have TASK\_COMPLEX\_FALL\_AND\_GET\_UP or TASK\_COMPLEX\_FALL\_AND\_STAY\_DOWN... [eAi](/User:EAi.md "wikilink") 19:12, 16 June 2008 (CDT)
+Check what task the player has, they should have TASK\_COMPLEX\_FALL\_AND\_GET\_UP or TASK\_COMPLEX\_FALL\_AND\_STAY\_DOWN... [eAi](/docs/User:EAi.md "wikilink") 19:12, 16 June 2008 (CDT)
 
   
-Thanks. What task does player have after being hitten by a melee attack that cause it to fall down? Would “TASK\_SIMPLE\_BE\_KICKED\_ON\_GROUND” and “TASK\_SIMPLE\_GET\_UP” work? --<span style="font-family:Courier New, Courier, monospace">[Shadd](/User:Shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/User_talk:Shadd.md "wikilink"))</sub> 09:35, 17 June 2008 (CDT)
+Thanks. What task does player have after being hitten by a melee attack that cause it to fall down? Would “TASK\_SIMPLE\_BE\_KICKED\_ON\_GROUND” and “TASK\_SIMPLE\_GET\_UP” work? --<span style="font-family:Courier New, Courier, monospace">[Shadd](/docs/User:Shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/User_talk:Shadd.md "wikilink"))</sub> 09:35, 17 June 2008 (CDT)
 
   
-Try it, I'm not entirely sure. You should be able to produce some code to show the player's current tasks very easily... [eAi](/User:EAi.md "wikilink") 19:20, 17 June 2008 (CDT)
+Try it, I'm not entirely sure. You should be able to produce some code to show the player's current tasks very easily... [eAi](/docs/User:EAi.md "wikilink") 19:20, 17 June 2008 (CDT)
 
   
-My goal is to edit the standard damage of the attacks, in this case i have to know when player is on ground to cause higher damage. However it doesn't seem to work, when i hit the player it simply gets up without animation with no damage. --<span style="font-family:Courier New, Courier, monospace">[Shadd](/User:Shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/User_talk:Shadd.md "wikilink"))</sub> 19:10, 19 June 2008 (CDT)
+My goal is to edit the standard damage of the attacks, in this case i have to know when player is on ground to cause higher damage. However it doesn't seem to work, when i hit the player it simply gets up without animation with no damage. --<span style="font-family:Courier New, Courier, monospace">[Shadd](/docs/User:Shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/User_talk:Shadd.md "wikilink"))</sub> 19:10, 19 June 2008 (CDT)
 
 ------------------------------------------------------------------------
 
@@ -49,7 +49,7 @@ It may looks strange and useless (waste of time?) but I think that it could be a
 definetly useles and waste of time, suporting xfire enought. -karlis
 
   
-Really Karlis, who asked you bro. It could be very useful, actually. For example, creating dynamic billboards. Instead of changing the TXD, they could set up a browser object over the billboard. That way they can also set up a timer to change the image, etc. [JacobS](/User:JacobS.md "wikilink") 20:08, 1 August 2010 (UTC)
+Really Karlis, who asked you bro. It could be very useful, actually. For example, creating dynamic billboards. Instead of changing the TXD, they could set up a browser object over the billboard. That way they can also set up a timer to change the image, etc. [JacobS](/docs/User:JacobS.md "wikilink") 20:08, 1 August 2010 (UTC)
 
 ------------------------------------------------------------------------
 
@@ -61,22 +61,22 @@ Security: Disable file downloads, disable popups (disable flash, javascript and 
 
 ------------------------------------------------------------------------
 
-Should be a Client and server function. --[Masterofquebec](/User:Masterofquebec.md "wikilink") 00:10, 15 October 2009 (UTC)
+Should be a Client and server function. --[Masterofquebec](/docs/User:Masterofquebec.md "wikilink") 00:10, 15 October 2009 (UTC)
 
 ------------------------------------------------------------------------
 
-Support of tooltips from CEGUI would be cool. I saw a property for that, but it didn't work for me. [User:MaddDogg14](/User:MaddDogg14.md "wikilink") (04:36 Apr 4, 10 (CEST))
+Support of tooltips from CEGUI would be cool. I saw a property for that, but it didn't work for me. [User:MaddDogg14](/docs/User:MaddDogg14.md "wikilink") (04:36 Apr 4, 10 (CEST))
 
 ------------------------------------------------------------------------
 
 I request a function that gets all clothes from a ped, just like getPedClothes but for all bodyparts. With this function it would be more ease to save clothes to database.
 
   
-That's so easy to do yourself that it's barely worth adding. Just loop all the indexes 0-17 and save them to a table. [Awwu](/User:Awwu.md "wikilink") 19:26, 17 April 2010 (UTC)
+That's so easy to do yourself that it's barely worth adding. Just loop all the indexes 0-17 and save them to a table. [Awwu](/docs/User:Awwu.md "wikilink") 19:26, 17 April 2010 (UTC)
 
 ------------------------------------------------------------------------
 
-[setProjectileTarget](/setProjectileTarget.md "wikilink") for setting a projectile to target a specific entity. I am trying to create a Battlefield Bad Company type of gamemode and in that game, you can plant a 'tracer'. Any rocket fired (if the tracer is on screen) will seek the tracer. [LeetWoovie](/User:LeetWoovie.md "wikilink") 05:01, 19 April 2010 (UTC)
+[setProjectileTarget](/docs/setProjectileTarget.md "wikilink") for setting a projectile to target a specific entity. I am trying to create a Battlefield Bad Company type of gamemode and in that game, you can plant a 'tracer'. Any rocket fired (if the tracer is on screen) will seek the tracer. [LeetWoovie](/User:LeetWoovie.md "wikilink") 05:01, 19 April 2010 (UTC)
 
 ------------------------------------------------------------------------
 
@@ -84,19 +84,19 @@ That's so easy to do yourself that it's barely worth adding. Just loop all the i
 
 ------------------------------------------------------------------------
 
-moveElement available for markers, objects, pedestrians and players or maybe more if you can do. [Socialz](/User:Socialz.md "wikilink") 13:10, 1 January 2012 (CET)
+moveElement available for markers, objects, pedestrians and players or maybe more if you can do. [Socialz](/docs/User:Socialz.md "wikilink") 13:10, 1 January 2012 (CET)
 
 Client-Side
 -----------
 
-Function "**isPlayerStunting**" for add options to events "*onClientPlayerStuntStart*" and "*onClientPlayerStuntFinish*" --[Dfigfjf](/User:Dfigfjf.md "wikilink") 18:52, 4 October 2015 (UTC)
+Function "**isPlayerStunting**" for add options to events "*onClientPlayerStuntStart*" and "*onClientPlayerStuntFinish*" --[Dfigfjf](/docs/User:Dfigfjf.md "wikilink") 18:52, 4 October 2015 (UTC)
 
 ------------------------------------------------------------------------
 
 Event “onClientVehicleFire”, which would be triggered when a vehicle shoots.
 
   
-See [OnVehicleWeaponFire](/OnVehicleWeaponFire.md "wikilink") --[X86dev](/User:X86dev.md "wikilink") 12:11, 19 April 2013 (UTC)
+See [OnVehicleWeaponFire](/docs/OnVehicleWeaponFire.md "wikilink") --[X86dev](/User:X86dev.md "wikilink") 12:11, 19 April 2013 (UTC)
 
 ------------------------------------------------------------------------
 
@@ -118,26 +118,26 @@ I need a function which could get current target of hydra or a HS rocket launche
 
 It'd be useful to have something to disable elements of the default hud (weapon display, health display, armor, radar, etcetera) so that you can create your own HUDs. Something like **setHudElement(element name, toggle)**.
 
-[Lord Xalphox](/User:Lord_Xalphox.md "wikilink") 19:32, 22 March 2009 (CET)
+[Lord Xalphox](/docs/User:Lord_Xalphox.md "wikilink") 19:32, 22 March 2009 (CET)
 
   
-[showPlayerHudComponent](/showPlayerHudComponent.md "wikilink")? [Awwu](/User:Awwu.md "wikilink") 19:43, 22 March 2009 (CET)
+[showPlayerHudComponent](/docs/showPlayerHudComponent.md "wikilink")? [Awwu](/User:Awwu.md "wikilink") 19:43, 22 March 2009 (CET)
 
 ------------------------------------------------------------------------
 
-I'd like to have a function that sets the chatbox input line text. Then I could script my own chat history function (that inserts the last sent text into the input line again by pressing arrow up) (which samp has since 0.2 btw) since nobody builds it into the client. [NeonBlack](/User:NeonBlack.md "wikilink") 12:03, 4 July 2009 (CEST) PS.: samp also supports cut, copy and paste :P
+I'd like to have a function that sets the chatbox input line text. Then I could script my own chat history function (that inserts the last sent text into the input line again by pressing arrow up) (which samp has since 0.2 btw) since nobody builds it into the client. [NeonBlack](/docs/User:NeonBlack.md "wikilink") 12:03, 4 July 2009 (CEST) PS.: samp also supports cut, copy and paste :P
 
 ------------------------------------------------------------------------
 
-A function setElementMatrix, doing the exact opposite of getElementMatrix would be much appreciated. --[Kayl](/User:Kayl.md "wikilink") 15:21, 13 November 2009 (UTC)
+A function setElementMatrix, doing the exact opposite of getElementMatrix would be much appreciated. --[Kayl](/docs/User:Kayl.md "wikilink") 15:21, 13 November 2009 (UTC)
 
 ------------------------------------------------------------------------
 
-Functions like setTrainPosition(train,track,pos) and track,pos getTrainPosition(train) would be great in order to allow more script side control of trains. The track argument would be an index of the track number (currently there are around 4 tracks handled, including 1 incompletely defined). The position would be a float between 0 and 1 (or however you guys handle it) telling where on the track the train currently is. It would be great if those functions could be available client and server side. --[Kayl](/User:Kayl.md "wikilink") 12:58, 23 November 2009 (UTC)
+Functions like setTrainPosition(train,track,pos) and track,pos getTrainPosition(train) would be great in order to allow more script side control of trains. The track argument would be an index of the track number (currently there are around 4 tracks handled, including 1 incompletely defined). The position would be a float between 0 and 1 (or however you guys handle it) telling where on the track the train currently is. It would be great if those functions could be available client and server side. --[Kayl](/docs/User:Kayl.md "wikilink") 12:58, 23 November 2009 (UTC)
 
 ------------------------------------------------------------------------
 
-need this function client and server side **movePlayerHudComponent(string component, float x, float y)** --[SuatEyrice](/User:SuatEyrice.md "wikilink") 00:18, 26 February 2010 (UTC)
+need this function client and server side **movePlayerHudComponent(string component, float x, float y)** --[SuatEyrice](/docs/User:SuatEyrice.md "wikilink") 00:18, 26 February 2010 (UTC)
 
 ------------------------------------------------------------------------
 
@@ -145,11 +145,11 @@ need this function client and server side **movePlayerHudComponent(string compon
 
 ------------------------------------------------------------------------
 
-OnPedDamage (serverside) event. There is OnClientPedDamage, but it's clientside. [damage22](/User:damage22.md "wikilink")
+OnPedDamage (serverside) event. There is OnClientPedDamage, but it's clientside. [damage22](/docs/User:damage22.md "wikilink")
 
 ------------------------------------------------------------------------
 
-**setRadioVolume(element thePlayer, int volume)**, to create GUI volume control, turn off the radio without changing the station, etc. [JacobS](/User:JacobS.md "wikilink") 14:47, 29 July 2010 (UTC)
+**setRadioVolume(element thePlayer, int volume)**, to create GUI volume control, turn off the radio without changing the station, etc. [JacobS](/docs/User:JacobS.md "wikilink") 14:47, 29 July 2010 (UTC)
 
 ------------------------------------------------------------------------
 
@@ -157,15 +157,15 @@ OnPedDamage (serverside) event. There is OnClientPedDamage, but it's clientside.
 
 ------------------------------------------------------------------------
 
-**createFire(x, y, z, theSize, dimension)**, just like [createFire](/createFire.md "wikilink"), only with the option to enter a dimension for the fire to appear in
+**createFire(x, y, z, theSize, dimension)**, just like [createFire](/docs/createFire.md "wikilink"), only with the option to enter a dimension for the fire to appear in
 
 ------------------------------------------------------------------------
 
-**setGunshotsEnabled(bool enabled)**, **getGunshotsEnabled()** and **createGunshot(x,y,z,radius)** - to enable/disable the game's gunshot ambience, and to create gunshots at specific locations with radii that it is audible in [JacobS.](/User:JacobS..md "wikilink") 19:28, 11 September 2010 (MDT)
+**setGunshotsEnabled(bool enabled)**, **getGunshotsEnabled()** and **createGunshot(x,y,z,radius)** - to enable/disable the game's gunshot ambience, and to create gunshots at specific locations with radii that it is audible in [JacobS.](/docs/User:JacobS..md "wikilink") 19:28, 11 September 2010 (MDT)
 
 ------------------------------------------------------------------------
 
-onClick should pass the name of the clicked SUBobject too (eg: vehicle parts, bone names etc.)--[Lcaseidefensis](/User:Lcaseidefensis.md "wikilink") 16:48, 21 May 2012 (UTC)
+onClick should pass the name of the clicked SUBobject too (eg: vehicle parts, bone names etc.)--[Lcaseidefensis](/docs/User:Lcaseidefensis.md "wikilink") 16:48, 21 May 2012 (UTC)
 
 ------------------------------------------------------------------------
 

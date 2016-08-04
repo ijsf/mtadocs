@@ -15,7 +15,7 @@ bool unbindKey ( player thePlayer, string key, [ string keyState, function handl
 ### Required Arguments
 
 -   **thePlayer:** The player you wish to unbind the key of.
--   **key:** The key you wish to unbind. See [Key names](/Key_names.md "wikilink") for a list of valid key names.
+-   **key:** The key you wish to unbind. See [Key names](/docs/Key_names.md "wikilink") for a list of valid key names.
 -   **keyState:** Can be either:
     -   **“up”:** If the bound key triggered a function when the key was released
     -   **“down”:** If the bound key triggered a function when the key was pressed
@@ -45,7 +45,7 @@ bool unbindKey ( string key, [ string keyState, function handler ] )
 
 ### Required Arguments
 
--   **key:** The key you wish to unbind. See [Key names](/Key_names.md "wikilink") for a list of valid key names.
+-   **key:** The key you wish to unbind. See [Key names](/docs/Key_names.md "wikilink") for a list of valid key names.
 -   **keyState:** Can be either:
     -   **“up”:** If the bound key triggered a function when the key was released
     -   **“down”:** If the bound key triggered a function when the key was pressed

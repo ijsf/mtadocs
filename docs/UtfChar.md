@@ -13,7 +13,7 @@ string utfChar ( int characterCode )
 
 ### Returns
 
-Returns a *[string](/string.md "wikilink")* if the function was successful, *false* otherwise.
+Returns a *[string](/docs/string.md "wikilink")* if the function was successful, *false* otherwise.
 
 ### Example
 

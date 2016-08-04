@@ -7,7 +7,7 @@ float getVehicleNitroLevel ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle** The [vehicle](/vehicle.md "wikilink"), which you want to get a nitro level.
+-   **theVehicle** The [vehicle](/docs/vehicle.md "wikilink"), which you want to get a nitro level.
 
 ### Returns
 

@@ -1,8 +1,8 @@
 This function sets the position of an element to the specified coordinates.
 
 <div style="background: #FF7070; border: 3px solid #FF0000;">
-**Attention:** Do not use this function to spawn a [player](/player.md "wikilink"). It will cause problems with other functions like [warpPedIntoVehicle](/warpPedIntoVehicle.md "wikilink").
-Use [spawnPlayer](/spawnPlayer.md "wikilink") instead.
+**Attention:** Do not use this function to spawn a [player](/docs/player.md "wikilink"). It will cause problems with other functions like [warpPedIntoVehicle](/warpPedIntoVehicle.md "wikilink").
+Use [spawnPlayer](/docs/spawnPlayer.md "wikilink") instead.
 
 </div>
 Syntax
@@ -14,7 +14,7 @@ bool setElementPosition ( element theElement, float x, float y, float z [, bool 
 
 ### Required Arguments
 
--   **theElement:** A valid [element](/element.md "wikilink") to be moved.
+-   **theElement:** A valid [element](/docs/element.md "wikilink") to be moved.
 -   **x:** The x coordinate of the destination.
 -   **y:** The y coordinate of the destination.
 -   **z:** The z coordinate of the destination.

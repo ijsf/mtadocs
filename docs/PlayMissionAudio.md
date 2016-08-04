@@ -1,4 +1,4 @@
-This function plays a game sound in a specific slot. Be sure to preload your sound with [PreloadMissionAudio](/PreloadMissionAudio.md "wikilink") into the slot beforehand. An optional position element can be specified.
+This function plays a game sound in a specific slot. Be sure to preload your sound with [PreloadMissionAudio](/docs/PreloadMissionAudio.md "wikilink") into the slot beforehand. An optional position element can be specified.
 
 Usage
 -----
@@ -15,11 +15,11 @@ bool playMissionAudio ( player thePlayer, int slot, float x, float y, float z )
 
 ### Required Arguments
 
--   **thePlayer**: the [player](/player.md "wikilink") you want to play the sound for.
--   **slot**: [int](/int.md "wikilink") sound slot in which you preloaded the sound
--   **x**: [float](/float.md "wikilink") position's x coordinate
--   **y**: [float](/float.md "wikilink") position's y coordinate
--   **z**: [float](/float.md "wikilink") position's z coordinate
+-   **thePlayer**: the [player](/docs/player.md "wikilink") you want to play the sound for.
+-   **slot**: [int](/docs/int.md "wikilink") sound slot in which you preloaded the sound
+-   **x**: [float](/docs/float.md "wikilink") position's x coordinate
+-   **y**: [float](/docs/float.md "wikilink") position's y coordinate
+-   **z**: [float](/docs/float.md "wikilink") position's z coordinate
 
 </section>
 <section name="Client" class="client" show="false">
@@ -29,11 +29,11 @@ bool playMissionAudio ( int slot, float x, float y, float z )
 
 ### Required Arguments
 
--   **thePlayer**: the [player](/player.md "wikilink") you want to play the sound for.
--   **slot**: [int](/int.md "wikilink") sound slot in which you preloaded the sound
--   **x**: [float](/float.md "wikilink") position's x coordinate
--   **y**: [float](/float.md "wikilink") position's y coordinate
--   **z**: [float](/float.md "wikilink") position's z coordinate
+-   **thePlayer**: the [player](/docs/player.md "wikilink") you want to play the sound for.
+-   **slot**: [int](/docs/int.md "wikilink") sound slot in which you preloaded the sound
+-   **x**: [float](/docs/float.md "wikilink") position's x coordinate
+-   **y**: [float](/docs/float.md "wikilink") position's y coordinate
+-   **z**: [float](/docs/float.md "wikilink") position's z coordinate
 
 </section>
 ### Returns

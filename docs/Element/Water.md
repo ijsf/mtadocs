@@ -1,4 +1,4 @@
-In San Andreas, the water in the game world (rivers, lakes, seas) is defined through a large number of water polygons, which can be quadrilateral or triangular. A water element represents one such polygon. You can create water elements with [createWater](/createWater.md "wikilink") or through a &lt;water/&gt; map element.
+In San Andreas, the water in the game world (rivers, lakes, seas) is defined through a large number of water polygons, which can be quadrilateral or triangular. A water element represents one such polygon. You can create water elements with [createWater](/docs/createWater.md "wikilink") or through a &lt;water/&gt; map element.
 
 XML syntax
 ----------
@@ -26,4 +26,4 @@ Related scripting functions
 
 ### Client
 
-[Category:Element Types](/Category:Element_Types.md "wikilink")
+[Category:Element Types](/docs/Category:Element_Types.md "wikilink")

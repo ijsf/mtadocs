@@ -9,7 +9,7 @@ int getPedOccupiedVehicleSeat ( ped thePed )
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink") whose vehicle seat you're looking up.
+-   **thePed**: The [ped](/docs/ped.md "wikilink") whose vehicle seat you're looking up.
 
 ### Returns
 

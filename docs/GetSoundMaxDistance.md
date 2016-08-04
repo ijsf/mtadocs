@@ -1,4 +1,4 @@
-Gets a custom [sound](/sound.md "wikilink") max distance at which the sound stops.
+Gets a custom [sound](/docs/sound.md "wikilink") max distance at which the sound stops.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ int getSoundMaxDistance ( element sound )
 
 ### Required Arguments
 
--   **sound:** a [sound](/sound.md "wikilink") element.
+-   **sound:** a [sound](/docs/sound.md "wikilink") element.
 
 ### Returns
 
@@ -32,4 +32,4 @@ addCommandHandler("getmaxdistance", getmaxdistanceFunc)
 See Also
 --------
 
-[AR:getSoundMaxDistance](/AR:getSoundMaxDistance.md "wikilink")
+[AR:getSoundMaxDistance](/docs/AR:getSoundMaxDistance.md "wikilink")

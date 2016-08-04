@@ -9,7 +9,7 @@ bool setPlayerMuted ( player thePlayer, bool state )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") you are muting or unmuting.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") you are muting or unmuting.
 -   **state:** Use **true** to mute and **false** to unmute the player.
 
 ### Returns

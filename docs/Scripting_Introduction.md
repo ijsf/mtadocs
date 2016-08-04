@@ -61,7 +61,7 @@ The script will spawn you at the coordinate (x, y, z) specified above, when you 
 
 The **source** variable indicates who triggered the event. Since a player has joined when the code is triggered, you use this variable to look which has joined. So it'll spawn that player instead of everyone or a random person.
 
-If we have a closer look on [addEventHandler](/addEventHandler.md "wikilink"), you can see 3 things: 'onPlayerJoin', which indicates when it's triggered. getRootElement(), which shows by what/who it can be triggered. (getRootElement() is everything/everyone) And joinHandler, which indicates the function that has to be triggered after the event is triggered. Other details will be explained later in another example, now let's just run the server and try it out!
+If we have a closer look on [addEventHandler](/docs/addEventHandler.md "wikilink"), you can see 3 things: 'onPlayerJoin', which indicates when it's triggered. getRootElement(), which shows by what/who it can be triggered. (getRootElement() is everything/everyone) And joinHandler, which indicates the function that has to be triggered after the event is triggered. Other details will be explained later in another example, now let's just run the server and try it out!
 
 ### Running the script
 
@@ -69,7 +69,7 @@ To get the server started, simply run the executable under the server/ directory
 
 Before you connect to the server, you must run the gamemode. Type “start myserver” and press Enter. The server will start the gamemode you just created, and will also show any errors and warnings from this point on. Now you can start the MTA client, and “Quick Connect” using the IP address of your server and the port number you saw earlier. If all goes well, after a few seconds your character will be walking on the streets of Los Santos.
 
-Next we'll add a command to your script that players can use to spawn a vehicle beside their position. You may skip it and check out more advanced scripting with the [Map Manager](/Map_manager.md "wikilink"), which continues this tutorial. Another branch from this tutorial is [Introduction to Scripting GUI](/Introduction_to_Scripting_GUI.md "wikilink"), you may follow it to see how Graphical User Interface in MTA is drawn and scripted.
+Next we'll add a command to your script that players can use to spawn a vehicle beside their position. You may skip it and check out more advanced scripting with the [Map Manager](/docs/Map_manager.md "wikilink"), which continues this tutorial. Another branch from this tutorial is [Introduction to Scripting GUI](/Introduction_to_Scripting_GUI.md "wikilink"), you may follow it to see how Graphical User Interface in MTA is drawn and scripted.
 
 Creating a simple command
 -------------------------
@@ -90,7 +90,7 @@ addCommandHandler("createvehicle", createVehicleForPlayer)
 
 #### About command handlers
 
-The first argument of [addCommandHandler](/addCommandHandler.md "wikilink") is the name of the command the player will be able to enter, the second argument is the function this will call, in this case *createVehicleForPlayer*.
+The first argument of [addCommandHandler](/docs/addCommandHandler.md "wikilink") is the name of the command the player will be able to enter, the second argument is the function this will call, in this case *createVehicleForPlayer*.
 
 If you have already experience in scripting, you will know that you call a function like this:
 
@@ -104,7 +104,7 @@ functionName(thePlayer, commandName, argument3, ..)
 
 If we have a closer look on the lower example above, we can see argument1 is thePlayer and argument2 the commandName. thePlayer is simply the one who typed the command, so whatever you call it, the variable will contain the player who activated the command. commandName is simply the command they typed. So if they typed "/greet", this argument will contain “greet”. Argument 3 is something extra the player typed, you'll learn it a little bit further in the tutorial. Never forget that the first 2 arguments are standard arguments, but you can name them to anything you want.
 
-We called the [addCommandHandler](/addCommandHandler.md "wikilink") function this way already and since *createVehicleForPlayer* is a function too, it can be called that way as well. But we are using a command handler for that, which calls it in a similiar manner, internally.
+We called the [addCommandHandler](/docs/addCommandHandler.md "wikilink") function this way already and since *createVehicleForPlayer* is a function too, it can be called that way as well. But we are using a command handler for that, which calls it in a similiar manner, internally.
 
 For example: Someone types “createvehicle 468” ingame in the console to spawn a Sanchez, the command handler calls the createVehicleForPlayer function, as **if** we would have this line of code in the script:
 
@@ -112,7 +112,7 @@ For example: Someone types “createvehicle 468” ingame in the console to spaw
 createVehicleForPlayer(thePlayer,"createvehicle","468") -- thePlayer is the player element of the player who entered the command
 ```
 
-As we can see, it provides several parameters: the player who called the command, the command he entered and whatever text he had after that, in this case “468” as vehicle id for the Sanchez. The first two parameters are the same with all command handlers, which you can read on the [addEventHandler](/addEventHandler.md "wikilink") page. For this fact, you always have to define at least those two parameters to use any after that (for example to process text that was entered after the command, like in our example the vehicle model id).
+As we can see, it provides several parameters: the player who called the command, the command he entered and whatever text he had after that, in this case “468” as vehicle id for the Sanchez. The first two parameters are the same with all command handlers, which you can read on the [addEventHandler](/docs/addEventHandler.md "wikilink") page. For this fact, you always have to define at least those two parameters to use any after that (for example to process text that was entered after the command, like in our example the vehicle model id).
 
 *Note: You have to add the command handler AFTER you defined the handler function, else it can't find it. The order of execution matters.*
 
@@ -125,9 +125,9 @@ In order to fill the function we created, we need to think about what we have to
 -   Spawn the vehicle
 -   Check if it has been spawned successfully, or output a message
 
-In order to achieve our goals, we have to use several functions. To find function we need to use, we should visit the [Server Functions List](/Scripting_Functions.md "wikilink"). First we need a function to get the players position. Since players are Elements, we first jump to the **Element functions** where we find the [getElementPosition](/getElementPosition.md "wikilink") function. By clicking on the function name in the list, you get to the function description. There we can see the syntax, what it returns and usually an example. The syntax shows us what arguments we can or have to submit.
+In order to achieve our goals, we have to use several functions. To find function we need to use, we should visit the [Server Functions List](/docs/Scripting_Functions.md "wikilink"). First we need a function to get the players position. Since players are Elements, we first jump to the **Element functions** where we find the [getElementPosition](/getElementPosition.md "wikilink") function. By clicking on the function name in the list, you get to the function description. There we can see the syntax, what it returns and usually an example. The syntax shows us what arguments we can or have to submit.
 
-For [getElementPosition](/getElementPosition.md "wikilink"), the syntax is:
+For [getElementPosition](/docs/getElementPosition.md "wikilink"), the syntax is:
 
 ``` lua
 float, float, float getElementPosition ( element theElement )
@@ -152,9 +152,9 @@ function createVehicleForPlayer(thePlayer, command, vehicleModel)
 end
 ```
 
-Now we need another function, one to spawn a vehicle. We once again search for it on the [Server Functions List](/Scripting_Functions.md "wikilink"), this time - since we are talking about vehicles - in the **Vehicle functions** section, where we will choose [createVehicle](/createVehicle.md "wikilink"). In this function's syntax, we only have one return type (which is more common), a vehicle element that points to the vehicle we just created. Also, we see that some arguments are enclosed within \[ \] which means that those are optional.
+Now we need another function, one to spawn a vehicle. We once again search for it on the [Server Functions List](/docs/Scripting_Functions.md "wikilink"), this time - since we are talking about vehicles - in the **Vehicle functions** section, where we will choose [createVehicle](/createVehicle.md "wikilink"). In this function's syntax, we only have one return type (which is more common), a vehicle element that points to the vehicle we just created. Also, we see that some arguments are enclosed within \[ \] which means that those are optional.
 
-We already have all arguments we need for [createVehicle](/createVehicle.md "wikilink") in our function: The position we just calculated in the *x,y,z* variables and the model id that we provided through the command (“createvehicle 468”) and can access in the function as *vehicleModel* variable.
+We already have all arguments we need for [createVehicle](/docs/createVehicle.md "wikilink") in our function: The position we just calculated in the *x,y,z* variables and the model id that we provided through the command (“createvehicle 468”) and can access in the function as *vehicleModel* variable.
 
 ``` lua
 function createVehicleForPlayer(thePlayer, command, vehicleModel)
@@ -165,7 +165,7 @@ function createVehicleForPlayer(thePlayer, command, vehicleModel)
 end
 ```
 
-Of course this code can be improved in many ways, but at least we want to add a check whether the vehicle was created successfully or not. As we can read on the [createVehicle](/createVehicle.md "wikilink") page under **Returns**, the function returns *false* when it was unable to create the vehicle. Thus, we check the value of the *createVehicle* variable.
+Of course this code can be improved in many ways, but at least we want to add a check whether the vehicle was created successfully or not. As we can read on the [createVehicle](/docs/createVehicle.md "wikilink") page under **Returns**, the function returns *false* when it was unable to create the vehicle. Thus, we check the value of the *createVehicle* variable.
 
 Now we have our complete script:
 
@@ -183,7 +183,7 @@ end
 addCommandHandler("createvehicle", createVehicleForPlayer)
 ```
 
-As you can see, we introduced another function with [outputChatBox](/outputChatBox.md "wikilink"). By now, you should be able to explore the function's documentation page yourself. For more advanced scripting, please check out the [Map Manager](/Map_manager.md "wikilink").
+As you can see, we introduced another function with [outputChatBox](/docs/outputChatBox.md "wikilink"). By now, you should be able to explore the function's documentation page yourself. For more advanced scripting, please check out the [Map Manager](/Map_manager.md "wikilink").
 
 What you need to know
 ---------------------
@@ -200,7 +200,7 @@ Most scripts you will make (gamemodes, maps) will probably be serverside, like t
 <script src="client.lua" type="client" />
 ```
 
-The *type* attribute defaults to 'server', so you only need to specify it for clientside scripts. When you do this, the clientside script will be downloaded to the player's computer once he connects to the server. Read more about [Client side scripts](/Client_side_scripts.md "wikilink").
+The *type* attribute defaults to 'server', so you only need to specify it for clientside scripts. When you do this, the clientside script will be downloaded to the player's computer once he connects to the server. Read more about [Client side scripts](/docs/Client_side_scripts.md "wikilink").
 
 ### More complex resources
 
@@ -252,7 +252,7 @@ This example might be running all the time (maybe even auto-started when the ser
     -   .. and maybe some more
 -   The *buymenu.lua* is a clientside script and creates a menu to buy weapons
 
-This example can be called a gamemode, since it not only intereferes with the gameplay, but actually defines the rules of it. The *type* attribute indicates that this example works with the [Map manager](/Map_manager.md "wikilink"), yet another resource that was written by the QA Team to manage gamemodes and map loading. It is highly recommended that you base your gamemodes on the techniques it provides.
+This example can be called a gamemode, since it not only intereferes with the gameplay, but actually defines the rules of it. The *type* attribute indicates that this example works with the [Map manager](/docs/Map_manager.md "wikilink"), yet another resource that was written by the QA Team to manage gamemodes and map loading. It is highly recommended that you base your gamemodes on the techniques it provides.
 
 This also means that the gamemode probably won't run without a map. Gamemodes should always be as generic as possible. An example for a map is stated in the next example.
 
@@ -283,7 +283,7 @@ This also means that the gamemode probably won't run without a map. Gamemodes sh
     -   Create or move some custom objects, or manipulate objects that are created through the .map file
     -   .. anything else map-specific you can think of
 
-As you can see, the *type* attribute changed to 'map', telling the [Map manager](/Map_manager.md "wikilink") that this resource is a map, while the *gamemodes* attribute tells it for which gamemodes this map is valid, in this case the gamemode from the above example. What may come as a surprise is that there is also a script in the Map resource. Of course this is not necessarily needed in a map, but opens a wide range of possibilities for map makers to create their own world within the rules of the gamemode they create it for.
+As you can see, the *type* attribute changed to 'map', telling the [Map manager](/docs/Map_manager.md "wikilink") that this resource is a map, while the *gamemodes* attribute tells it for which gamemodes this map is valid, in this case the gamemode from the above example. What may come as a surprise is that there is also a script in the Map resource. Of course this is not necessarily needed in a map, but opens a wide range of possibilities for map makers to create their own world within the rules of the gamemode they create it for.
 
 The *airport.map* file might look similiar to this:
 
@@ -303,11 +303,11 @@ The *airport.map* file might look similiar to this:
 </map>
 ```
 
-When a gamemode is started with a map, the map resources is automatically started by the mapmanager and the information it contains can be read by the gamemode resource. When the map changes, the current map resource is stopped and the next map resource is started. For a more in-depth explanation and examples of how map resources are utilized in the main script, please visit the [Writing Gamemodes](/Writing_Gamemodes.md "wikilink") page.
+When a gamemode is started with a map, the map resources is automatically started by the mapmanager and the information it contains can be read by the gamemode resource. When the map changes, the current map resource is stopped and the next map resource is started. For a more in-depth explanation and examples of how map resources are utilized in the main script, please visit the [Writing Gamemodes](/docs/Writing_Gamemodes.md "wikilink") page.
 
 ### Events
 
-[Events](/Event.md "wikilink") are the way MTA tells scripts about things that happen. For example when a player dies, the [onPlayerWasted](/onPlayerWasted.md "wikilink") event is triggered. In order to perform any actions when a player dies, you have to prepare yourself similiar to adding a command handler, as shown in [the first chapter](/#Writing_the_script.md "wikilink").
+[Events](/docs/Event.md "wikilink") are the way MTA tells scripts about things that happen. For example when a player dies, the [onPlayerWasted](/onPlayerWasted.md "wikilink") event is triggered. In order to perform any actions when a player dies, you have to prepare yourself similiar to adding a command handler, as shown in [the first chapter](/#Writing_the_script.md "wikilink").
 
 This example will output a message with the name of the player who died:
 
@@ -318,16 +318,16 @@ end
 addEventHandler("onPlayerWasted",getRootElement(),playerDied)
 ```
 
-Instead of showing what arguments are needed, the documentation page for Events shows what parameters are passed to the handler function, similiar to the way a [command handler](/#About_command_handlers.md "wikilink") does, just that it is different from event to event. Another important point is the *source* variable, that exists in handler functions. It doesn't have to be added to the parameter list of the function, but it still exists. It has a different value from event to event, for player events (as in the example above) it is the player element. As another example, you can take a look at the basic spawning player script in the first section to get an idea how *source* is used.
+Instead of showing what arguments are needed, the documentation page for Events shows what parameters are passed to the handler function, similiar to the way a [command handler](/docs/#About_command_handlers.md "wikilink") does, just that it is different from event to event. Another important point is the *source* variable, that exists in handler functions. It doesn't have to be added to the parameter list of the function, but it still exists. It has a different value from event to event, for player events (as in the example above) it is the player element. As another example, you can take a look at the basic spawning player script in the first section to get an idea how *source* is used.
 
 Where to go from here
 ---------------------
 
-You should now be familiar with the most basic aspects of MTA scripting and also a bit with the documentation. The [Main Page](/Main_Page.md "wikilink") provides you with links to more information, Tutorials and References that allow a deeper look into the topics you desire to learn about. **See also:**
+You should now be familiar with the most basic aspects of MTA scripting and also a bit with the documentation. The [Main Page](/docs/Main_Page.md "wikilink") provides you with links to more information, Tutorials and References that allow a deeper look into the topics you desire to learn about. **See also:**
 
--   [OOP Scripting Introduction](/OOP_Introduction.md "wikilink")
--   [Advanced Topics](/Advanced_Topics.md "wikilink")
--   [Script security](/Script_security.md "wikilink")
--   [Scripting Introduction Urdu](/Scripting_Introduction_Urdu.md "wikilink")
+-   [OOP Scripting Introduction](/docs/OOP_Introduction.md "wikilink")
+-   [Advanced Topics](/docs/Advanced_Topics.md "wikilink")
+-   [Script security](/docs/Script_security.md "wikilink")
+-   [Scripting Introduction Urdu](/docs/Scripting_Introduction_Urdu.md "wikilink")
 
-[es:Introducción a la Programación](/es:Introducción_a_la_Programación.md "wikilink") [it:Introduzione allo scripting](/it:Introduzione_allo_scripting.md "wikilink") [nl:Scripting\_introductie](/nl:Scripting_introductie.md "wikilink") [pt-br:Introdução ao Scripting](/pt-br:Introdução_ao_Scripting.md "wikilink") [ru:Scripting Introduction](/ru:Scripting_Introduction.md "wikilink") [ar:مقدمه\_في\_البرمجه](/ar:مقدمه_في_البرمجه.md "wikilink") [zh-cn:脚本编写介绍](/zh-cn:脚本编写介绍.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")
+[es:Introducción a la Programación](/docs/es:Introducción_a_la_Programación.md "wikilink") [it:Introduzione allo scripting](/it:Introduzione_allo_scripting.md "wikilink") [nl:Scripting\_introductie](/nl:Scripting_introductie.md "wikilink") [pt-br:Introdução ao Scripting](/pt-br:Introdução_ao_Scripting.md "wikilink") [ru:Scripting Introduction](/ru:Scripting_Introduction.md "wikilink") [ar:مقدمه\_في\_البرمجه](/ar:مقدمه_في_البرمجه.md "wikilink") [zh-cn:脚本编写介绍](/zh-cn:脚本编写介绍.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")

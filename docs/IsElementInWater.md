@@ -1,4 +1,4 @@
-This function checks whether an [element](/element.md "wikilink") is submerged in water.
+This function checks whether an [element](/docs/element.md "wikilink") is submerged in water.
 
 Syntax
 ------

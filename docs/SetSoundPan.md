@@ -1,4 +1,4 @@
-This function is used to change the pan level of the specified [sound](/sound.md "wikilink") element.
+This function is used to change the pan level of the specified [sound](/docs/sound.md "wikilink") element.
 
 Syntax
 ------
@@ -9,12 +9,12 @@ bool setSoundPan ( element theSound, float pan )
 
 ### Required Arguments
 
--   **theSound:** The [sound](/sound.md "wikilink") element which pan you want to modify.
--   **pan:** A [floating](/float.md "wikilink") point number representing the desired pan level. Range is from *-1.0 (left)* to *1.0 (right)*
+-   **theSound:** The [sound](/docs/sound.md "wikilink") element which pan you want to modify.
+-   **pan:** A [floating](/docs/float.md "wikilink") point number representing the desired pan level. Range is from *-1.0 (left)* to *1.0 (right)*
 
 ### Returns
 
-Returns *true* if the [sound](/sound.md "wikilink") element pan was successfully changed, *false* otherwise.
+Returns *true* if the [sound](/docs/sound.md "wikilink") element pan was successfully changed, *false* otherwise.
 
 Example
 -------

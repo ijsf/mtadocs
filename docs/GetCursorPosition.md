@@ -1,4 +1,4 @@
-This function gets the current position of the mouse cursor. Note that for performance reasons, the world position returned is always 300 units away. If you want the exact world point (similar to [onClientClick](/onClientClick.md "wikilink")), use [processLineOfSight](/processLineOfSight.md "wikilink") between the camera position and the worldX/Y/Z result of this function. (See example below)
+This function gets the current position of the mouse cursor. Note that for performance reasons, the world position returned is always 300 units away. If you want the exact world point (similar to [onClientClick](/docs/onClientClick.md "wikilink")), use [processLineOfSight](/processLineOfSight.md "wikilink") between the camera position and the worldX/Y/Z result of this function. (See example below)
 
 Syntax
 ------
@@ -33,7 +33,7 @@ end
 addCommandHandler( "cursorpos", cursorInfo )
 ```
 
-This (untested) example uses [processLineOfSight](/processLineOfSight.md "wikilink") to calculate the exact world location:
+This (untested) example uses [processLineOfSight](/docs/processLineOfSight.md "wikilink") to calculate the exact world location:
 
 ``` lua
 addEventHandler( "onClientRender", root,

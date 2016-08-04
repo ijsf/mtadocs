@@ -1,4 +1,4 @@
-This function checks whether an [element](/element.md "wikilink") is synced by the local player or not. Accepted elements are [peds](/ped.md "wikilink") and [vehicles](/vehicle.md "wikilink").
+This function checks whether an [element](/docs/element.md "wikilink") is synced by the local player or not. Accepted elements are [peds](/ped.md "wikilink") and [vehicles](/vehicle.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool isElementSyncer ( element theElement )
 
 ### Required Arguments
 
--   **theElement**: The [element](/element.md "wikilink") to check.
+-   **theElement**: The [element](/docs/element.md "wikilink") to check.
 
 ### Returns
 

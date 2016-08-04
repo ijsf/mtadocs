@@ -1,6 +1,6 @@
 This function is used to give a ped a jetpack, it won't work if the ped is in a vehicle.
 
-As such, you should either expect it to fail sometimes, or repeatedly try to give a jetpack every second or so until [doesPedHaveJetPack](/doesPedHaveJetPack.md "wikilink") returns true. Alternatively, you can force the ped into a 'safe' position (e.g. standing on the ground) before giving the jetpack, or use a [pickup](/pickup.md "wikilink") to handle it.
+As such, you should either expect it to fail sometimes, or repeatedly try to give a jetpack every second or so until [doesPedHaveJetPack](/docs/doesPedHaveJetPack.md "wikilink") returns true. Alternatively, you can force the ped into a 'safe' position (e.g. standing on the ground) before giving the jetpack, or use a [pickup](/pickup.md "wikilink") to handle it.
 
 Syntax
 ------
@@ -11,7 +11,7 @@ bool givePedJetPack ( ped thePed )
 
 ### Required Arguments
 
--   **thePed:** The [ped](/ped.md "wikilink") you want to give a jetpack to.
+-   **thePed:** The [ped](/docs/ped.md "wikilink") you want to give a jetpack to.
 
 ### Returns
 
@@ -43,4 +43,4 @@ This examples adds a “jetpack” console command, which gives or removes a jet
 See Also
 --------
 
-[ru:givePedJetPack](/ru:givePedJetPack.md "wikilink")
+[ru:givePedJetPack](/docs/ru:givePedJetPack.md "wikilink")

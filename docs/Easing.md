@@ -58,7 +58,7 @@ Linear
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-linear.png>](/File:Qeasingcurve-linear.png.md "wikilink")
+[<File:Qeasingcurve-linear.png>](/docs/File:Qeasingcurve-linear.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -76,7 +76,7 @@ InQuad
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inquad.png>](/File:Qeasingcurve-inquad.png.md "wikilink")
+[<File:Qeasingcurve-inquad.png>](/docs/File:Qeasingcurve-inquad.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -94,7 +94,7 @@ OutQuad
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outquad.png>](/File:Qeasingcurve-outquad.png.md "wikilink")
+[<File:Qeasingcurve-outquad.png>](/docs/File:Qeasingcurve-outquad.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -112,7 +112,7 @@ InOutQuad
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inoutquad.png>](/File:Qeasingcurve-inoutquad.png.md "wikilink")
+[<File:Qeasingcurve-inoutquad.png>](/docs/File:Qeasingcurve-inoutquad.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -130,7 +130,7 @@ OutInQuad
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outinquad.png>](/File:Qeasingcurve-outinquad.png.md "wikilink")
+[<File:Qeasingcurve-outinquad.png>](/docs/File:Qeasingcurve-outinquad.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -148,7 +148,7 @@ InElastic
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inelastic.png>](/File:Qeasingcurve-inelastic.png.md "wikilink")
+[<File:Qeasingcurve-inelastic.png>](/docs/File:Qeasingcurve-inelastic.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -172,7 +172,7 @@ OutElastic
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outelastic.png>](/File:Qeasingcurve-outelastic.png.md "wikilink")
+[<File:Qeasingcurve-outelastic.png>](/docs/File:Qeasingcurve-outelastic.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -196,7 +196,7 @@ InOutElastic
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inoutelastic.png>](/File:Qeasingcurve-inoutelastic.png.md "wikilink")
+[<File:Qeasingcurve-inoutelastic.png>](/docs/File:Qeasingcurve-inoutelastic.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -220,7 +220,7 @@ OutInElastic
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outinelastic.png>](/File:Qeasingcurve-outinelastic.png.md "wikilink")
+[<File:Qeasingcurve-outinelastic.png>](/docs/File:Qeasingcurve-outinelastic.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -244,7 +244,7 @@ InBack
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inback.png>](/File:Qeasingcurve-inback.png.md "wikilink")
+[<File:Qeasingcurve-inback.png>](/docs/File:Qeasingcurve-inback.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -266,7 +266,7 @@ OutBack
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outback.png>](/File:Qeasingcurve-outback.png.md "wikilink")
+[<File:Qeasingcurve-outback.png>](/docs/File:Qeasingcurve-outback.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -288,7 +288,7 @@ InOutBack
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inoutback.png>](/File:Qeasingcurve-inoutback.png.md "wikilink")
+[<File:Qeasingcurve-inoutback.png>](/docs/File:Qeasingcurve-inoutback.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -310,7 +310,7 @@ OutInBack
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outinback.png>](/File:Qeasingcurve-outinback.png.md "wikilink")
+[<File:Qeasingcurve-outinback.png>](/docs/File:Qeasingcurve-outinback.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -330,7 +330,7 @@ InBounce
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inbounce.png>](/File:Qeasingcurve-inbounce.png.md "wikilink")
+[<File:Qeasingcurve-inbounce.png>](/docs/File:Qeasingcurve-inbounce.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -350,7 +350,7 @@ OutBounce
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outbounce.png>](/File:Qeasingcurve-outbounce.png.md "wikilink")
+[<File:Qeasingcurve-outbounce.png>](/docs/File:Qeasingcurve-outbounce.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -370,7 +370,7 @@ InOutBounce
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-inoutbounce.png>](/File:Qeasingcurve-inoutbounce.png.md "wikilink")
+[<File:Qeasingcurve-inoutbounce.png>](/docs/File:Qeasingcurve-inoutbounce.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -390,7 +390,7 @@ OutInBounce
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-outinbounce.png>](/File:Qeasingcurve-outinbounce.png.md "wikilink")
+[<File:Qeasingcurve-outinbounce.png>](/docs/File:Qeasingcurve-outinbounce.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -410,7 +410,7 @@ SineCurve
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-sincurve.png>](/File:Qeasingcurve-sincurve.png.md "wikilink")
+[<File:Qeasingcurve-sincurve.png>](/docs/File:Qeasingcurve-sincurve.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -430,7 +430,7 @@ CosineCurve
 
 </td>
 <td align="center">
-[<File:Qeasingcurve-coscurve.png>](/File:Qeasingcurve-coscurve.png.md "wikilink")
+[<File:Qeasingcurve-coscurve.png>](/docs/File:Qeasingcurve-coscurve.png.md "wikilink")
 
 </td>
 <td align="center">
@@ -473,4 +473,4 @@ addEventHandler("onMarkerLeave", marker, moveBack)
 Source
 ======
 
-The naming conventions of the functions below, available in [moveObject](/moveObject.md "wikilink"), [interpolateBetween](/interpolateBetween.md "wikilink"), or [getEasingValue](/getEasingValue.md "wikilink") have been extracted from [Qt documentation](http://doc.qt.nokia.com/latest/qeasingcurve.html). Only a subset of those functions is available in MTA since some of them are a bit redundant (only the profile of the acceleration/deceleration changes). The pictures of the easing functions are directly extracted from Qt documentation, © 2008-2010 Nokia Corporation and/or its subsidiaries.
+The naming conventions of the functions below, available in [moveObject](/docs/moveObject.md "wikilink"), [interpolateBetween](/interpolateBetween.md "wikilink"), or [getEasingValue](/getEasingValue.md "wikilink") have been extracted from [Qt documentation](http://doc.qt.nokia.com/latest/qeasingcurve.html). Only a subset of those functions is available in MTA since some of them are a bit redundant (only the profile of the acceleration/deceleration changes). The pictures of the easing functions are directly extracted from Qt documentation, © 2008-2010 Nokia Corporation and/or its subsidiaries.

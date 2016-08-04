@@ -5,24 +5,24 @@ You can have up to 255 interiors, interior 0 being the first one and referring t
 Uses
 ----
 
-To allow a player to enter an interior, you should use the [setElementInterior](/setElementInterior.md "wikilink") function on the player you wish to move. You can also use this function on other elements, for example to make a vehicle or object appear in the interior.
+To allow a player to enter an interior, you should use the [setElementInterior](/docs/setElementInterior.md "wikilink") function on the player you wish to move. You can also use this function on other elements, for example to make a vehicle or object appear in the interior.
 
 Dimensions
 ----------
 
-The original GTA interiors are reused in a number of places throughout the game - e.g. each fast food restaurant interior is used many times. [Dimensions](/Dimension.md "wikilink") are a feature that was added to MTA to solve this problem. You can allocate each instance of the interior a separate dimension which will mean that the players in each dimension won't be able to see each other or interact with each other. This will mean that the interiors appear to be entirely separate, despite physically being in the same place.
+The original GTA interiors are reused in a number of places throughout the game - e.g. each fast food restaurant interior is used many times. [Dimensions](/docs/Dimension.md "wikilink") are a feature that was added to MTA to solve this problem. You can allocate each instance of the interior a separate dimension which will mean that the players in each dimension won't be able to see each other or interact with each other. This will mean that the interiors appear to be entirely separate, despite physically being in the same place.
 
 Relevant scripting functions
 ----------------------------
 
--   [getElementInterior](/getElementInterior.md "wikilink")
--   [setElementInterior](/setElementInterior.md "wikilink")
--   [spawnPlayer](/spawnPlayer.md "wikilink")
+-   [getElementInterior](/docs/getElementInterior.md "wikilink")
+-   [setElementInterior](/docs/setElementInterior.md "wikilink")
+-   [spawnPlayer](/docs/spawnPlayer.md "wikilink")
 
 See Also
 --------
 
--   [List of interior IDs](/Interior_IDs.md "wikilink")
--   [Dimension](/Dimension.md "wikilink")
+-   [List of interior IDs](/docs/Interior_IDs.md "wikilink")
+-   [Dimension](/docs/Dimension.md "wikilink")
 
-[de:Interior](/de:Interior.md "wikilink") [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")
+[de:Interior](/docs/de:Interior.md "wikilink") [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")

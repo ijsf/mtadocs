@@ -7,13 +7,13 @@ Parameters
 int previousWeaponID, int currentWeaponID
 ```
 
--   **previousWeaponID**: An [integer](/int.md "wikilink") representing the [weapon](/weapons.md "wikilink") that was switched from
--   **currentWeaponID**: An [integer](/int.md "wikilink") representing the [weapon](/weapons.md "wikilink") that was switched to
+-   **previousWeaponID**: An [integer](/docs/int.md "wikilink") representing the [weapon](/weapons.md "wikilink") that was switched from
+-   **currentWeaponID**: An [integer](/docs/int.md "wikilink") representing the [weapon](/weapons.md "wikilink") that was switched to
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that switched his weapon.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that switched his weapon.
 
 Example
 -------

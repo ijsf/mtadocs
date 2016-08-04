@@ -1,4 +1,4 @@
-This function retrieves [element data](/element_data.md "wikilink") attached to an element under a certain key.
+This function retrieves [element data](/docs/element_data.md "wikilink") attached to an element under a certain key.
 
 Syntax
 ------

@@ -13,7 +13,7 @@ Syntax
 -   **startY:** An float representing the **absolute** origin Y position of the rectangle, represented by pixels on the screen.
 -   **endX:** An float representing the width of the rectangle, drawn in a *right* direction from the origin.
 -   **endY:** An float representing the height of the rectangle, drawn in a *downwards* direction from the origin.
--   **color:** the hex color of the rectangle, produced using [tocolor](/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
+-   **color:** the hex color of the rectangle, produced using [tocolor](/docs/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
 
 ### Optional Arguments
 

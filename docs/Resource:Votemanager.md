@@ -72,7 +72,7 @@ startPoll {
 -   **timeout** (optional, defaults to default.timeout): poll timeout in seconds
 -   **allowchange** (optional, defaults to default.allowchange): specifies if changing your vote is allowed
 -   **maxnominations** (optional, defaults to default.maxnominations): specifies the max number of nominations in case there's a draw
--   **visibleTo** (optional, defaults to [getRootElement](/getRootElement.md "wikilink")()): a table or players that will be able to see the poll, OR an element that contains the players.
+-   **visibleTo** (optional, defaults to [getRootElement](/docs/getRootElement.md "wikilink")()): a table or players that will be able to see the poll, OR an element that contains the players.
 
 If it is root, new players joining the server will be able to vote.
 
@@ -226,4 +226,4 @@ Default settings
 </settings>
 ```
 
-[ru:<Resource:Votemanager>](/ru:Resource:Votemanager.md "wikilink")
+[ru:<Resource:Votemanager>](/docs/ru:Resource:Votemanager.md "wikilink")

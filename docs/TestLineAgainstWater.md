@@ -1,4 +1,4 @@
-This function checks to see if a line between two points collides with the water. This is similar to [processLineOfSight](/processLineOfSight.md "wikilink"), but only collides with water. Waves are taken into account when testing the line.
+This function checks to see if a line between two points collides with the water. This is similar to [processLineOfSight](/docs/processLineOfSight.md "wikilink"), but only collides with water. Waves are taken into account when testing the line.
 
 Syntax
 ------

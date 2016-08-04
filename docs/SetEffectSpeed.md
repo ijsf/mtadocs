@@ -7,7 +7,7 @@ bool setEffectSpeed ( effect theEffect, float speed )
 
 ### Required Arguments
 
--   **theEffect:** The [effect](/effect.md "wikilink") to change the speed of.
+-   **theEffect:** The [effect](/docs/effect.md "wikilink") to change the speed of.
 -   **speed:** The speed to set.
 
 ### Returns
@@ -30,4 +30,4 @@ end)
 See also
 --------
 
-[ru:setEffectSpeed](/ru:setEffectSpeed.md "wikilink")
+[ru:setEffectSpeed](/docs/ru:setEffectSpeed.md "wikilink")

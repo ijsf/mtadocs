@@ -1,4 +1,4 @@
-Please use [setPedGravity](/setPedGravity.md "wikilink")
+Please use [setPedGravity](/docs/setPedGravity.md "wikilink")
 
 Description
 -----------

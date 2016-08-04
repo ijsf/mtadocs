@@ -1,4 +1,4 @@
-This function draws a 2D line across the screen - rendered for **one** frame. This should be used in conjunction with [onClientRender](/onClientRender.md "wikilink") in order to display continuously.
+This function draws a 2D line across the screen - rendered for **one** frame. This should be used in conjunction with [onClientRender](/docs/onClientRender.md "wikilink") in order to display continuously.
 
 Syntax
 ------
@@ -13,7 +13,7 @@ bool dxDrawLine ( int startX, int startY, int endX, int endY, int color, [float 
 -   **startY:** An integer representing the **absolute** start Y position of the line, represented by pixels on the screen.
 -   **endX:** An integer representing the **absolute** end X position of the line, represented by pixels on the screen.
 -   **endY:** An integer representing the **absolute** end Y position of the line, represented by pixels on the screen.
--   **color:** An integer of the hex color, produced using [tocolor](/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
+-   **color:** An integer of the hex color, produced using [tocolor](/docs/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
 
 Optional Arguments
 ------------------

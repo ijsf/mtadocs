@@ -1,4 +1,4 @@
-This function allows you to check the current blur level of a specified [player](/player.md "wikilink").
+This function allows you to check the current blur level of a specified [player](/docs/player.md "wikilink").
 
 Syntax
 ------
@@ -10,7 +10,7 @@ int getPlayerBlurLevel ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") whose blur level you want to check.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") whose blur level you want to check.
 
 ### Returns
 

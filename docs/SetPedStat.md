@@ -1,4 +1,4 @@
-This function allows you to set the value of a specific statistic for a [ped](/ped.md "wikilink"). **Visual stats (FAT and BODY\_MUSCLE) can only be used on the CJ skin**, they have no effect on other skins.
+This function allows you to set the value of a specific statistic for a [ped](/docs/ped.md "wikilink"). **Visual stats (FAT and BODY\_MUSCLE) can only be used on the CJ skin**, they have no effect on other skins.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setPedStat ( ped thePed, int stat, float value )
 
 ### Required Arguments
 
--   **thePed**: the [ped](/ped.md "wikilink") whose statistic you want to modify.
+-   **thePed**: the [ped](/docs/ped.md "wikilink") whose statistic you want to modify.
 -   **stat**: the stat ID.
 
 -   **value**: the new value of the stat. It must be between 0 and 1000.
@@ -71,4 +71,4 @@ end)
 See Also
 --------
 
-[ru:setPedStat](/ru:setPedStat.md "wikilink")
+[ru:setPedStat](/docs/ru:setPedStat.md "wikilink")

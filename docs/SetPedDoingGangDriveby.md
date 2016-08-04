@@ -9,8 +9,8 @@ bool setPedDoingGangDriveby ( ped thePed, bool state )
 
 ### Required Arguments
 
--   **thePed:** The [ped](/ped.md "wikilink") element whose state is to be changed.
--   **state:** A [boolean](/boolean.md "wikilink") value representing the drive-by state, *true* meaning enabled and *false* disabled.
+-   **thePed:** The [ped](/docs/ped.md "wikilink") element whose state is to be changed.
+-   **state:** A [boolean](/docs/boolean.md "wikilink") value representing the drive-by state, *true* meaning enabled and *false* disabled.
 
 ### Returns
 
@@ -42,4 +42,4 @@ addCommandHandler ( "driveby", setDoingDriveby )
 See Also
 --------
 
-[ru:setPedDoingGangDriveby](/ru:setPedDoingGangDriveby.md "wikilink")
+[ru:setPedDoingGangDriveby](/docs/ru:setPedDoingGangDriveby.md "wikilink")

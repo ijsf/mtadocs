@@ -9,8 +9,8 @@ Syntax
 
 ### Required Arguments
 
--   **thePlayer:** A [player](/player.md "wikilink") object referencing the specified player
--   **weapon:** A whole number integer that refers to a [weapon](/weapon.md "wikilink") ID.
+-   **thePlayer:** A [player](/docs/player.md "wikilink") object referencing the specified player
+-   **weapon:** A whole number integer that refers to a [weapon](/docs/weapon.md "wikilink") ID.
 -   **ammo:** A whole number integer serving as the ammo amount for the given weapon
 
 Returns
@@ -34,4 +34,4 @@ addEventHandler ( "onSpawnpointUse", getRootElement(), onSpawnpointUse )
 See Also
 --------
 
-[ru:giveWeaponAmmo](/ru:giveWeaponAmmo.md "wikilink")
+[ru:giveWeaponAmmo](/docs/ru:giveWeaponAmmo.md "wikilink")

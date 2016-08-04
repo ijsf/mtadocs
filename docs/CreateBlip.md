@@ -1,4 +1,4 @@
-This function creates a [blip](/blip.md "wikilink") [element](/element.md "wikilink"), which is displayed as an icon on the client's radar.
+This function creates a [blip](/docs/blip.md "wikilink") [element](/element.md "wikilink"), which is displayed as an icon on the client's radar.
 
 Syntax
 ------
@@ -23,7 +23,7 @@ blip createBlip ( float x, float y, float z [, int icon = 0, int size = 2, int r
 
 ### Optional Arguments
 
--   **icon:** The icon that the radar blips should be. Valid values can be seen at [Blip Icons](/Blip_Icons.md "wikilink")
+-   **icon:** The icon that the radar blips should be. Valid values can be seen at [Blip Icons](/docs/Blip_Icons.md "wikilink")
 -   **size:** The size of the radar blip. Only applicable to the *Marker* icon. Default is 2.
 -   **r:** The amount of red in the blip's color (0 - 255). Only applicable to the *Marker* icon. Default is 255.
 -   **g:** The amount of green in the blip's color (0 - 255). Only applicable to the *Marker* icon. Default is 0.
@@ -31,13 +31,13 @@ blip createBlip ( float x, float y, float z [, int icon = 0, int size = 2, int r
 -   **a:** The amount of alpha in the blip's color (0 - 255). Only applicable to the *Marker* icon. Default is 255.
 
 <section name="Server" class="server" show="true">
--   **visibleTo:** This defines which elements can see the blip. Defaults to visible to everyone. See [visibility](/visibility.md "wikilink").
+-   **visibleTo:** This defines which elements can see the blip. Defaults to visible to everyone. See [visibility](/docs/visibility.md "wikilink").
 
 </section>
 Returns
 -------
 
-Returns an [element](/element.md "wikilink") of the [blip](/blip.md "wikilink") if it was created successfully, *false* otherwise.
+Returns an [element](/docs/element.md "wikilink") of the [blip](/blip.md "wikilink") if it was created successfully, *false* otherwise.
 
 Example
 -------
@@ -69,4 +69,4 @@ setElementParent( myBlip, myPlayer )
 See Also
 --------
 
-[AR:createBlip](/AR:createBlip.md "wikilink") [es:createBlip](/es:createBlip.md "wikilink") [DE:createBlip](/DE:createBlip.md "wikilink")
+[AR:createBlip](/docs/AR:createBlip.md "wikilink") [es:createBlip](/es:createBlip.md "wikilink") [DE:createBlip](/DE:createBlip.md "wikilink")

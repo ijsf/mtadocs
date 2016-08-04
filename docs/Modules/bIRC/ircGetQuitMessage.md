@@ -13,7 +13,7 @@ string ircGetQuitMessage ( ircbot theBot )
 
 ### Returns
 
-Returns a [string](/string.md "wikilink") of the ircbot's quit message if passed arguments were valid, *false* otherwise.
+Returns a [string](/docs/string.md "wikilink") of the ircbot's quit message if passed arguments were valid, *false* otherwise.
 
 Example
 -------

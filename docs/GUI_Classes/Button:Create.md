@@ -54,4 +54,4 @@ end
 See Also
 --------
 
-[Back to GUI Classes page](/GUI_Classes.md "wikilink")
+[Back to GUI Classes page](/docs/GUI_Classes.md "wikilink")

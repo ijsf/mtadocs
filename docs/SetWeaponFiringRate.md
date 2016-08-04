@@ -1,4 +1,4 @@
-This function sets the firing rate to be used when a [custom weapon](/Element/Weapon.md "wikilink") is in *firing* state.
+This function sets the firing rate to be used when a [custom weapon](/docs/Element/Weapon.md "wikilink") is in *firing* state.
 
 Syntax
 ------
@@ -10,7 +10,7 @@ bool setWeaponFiringRate ( weapon theWeapon, int firingRate )
 ### Required Arguments
 
 -   **theWeapon:** The weapon to modify the firing rate of.
--   **firingRate:** The weapon firing rate. It seems to be a kind of frecuency value, so the lower the quicker the [custom weapon](/Element/Weapon.md "wikilink") will shoot.
+-   **firingRate:** The weapon firing rate. It seems to be a kind of frecuency value, so the lower the quicker the [custom weapon](/docs/Element/Weapon.md "wikilink") will shoot.
 
 ### Returns
 

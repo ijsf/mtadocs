@@ -29,4 +29,4 @@ print(hash("sha512", myNewString)) -- This will hash myNewString with the sha512
 See Also
 --------
 
-[ru:hash](/ru:hash.md "wikilink")
+[ru:hash](/docs/ru:hash.md "wikilink")

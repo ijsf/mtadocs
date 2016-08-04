@@ -19,8 +19,8 @@ Syntax
 </section>
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") you're checking.
--   **thePickup:** The [pickup](/pickup.md "wikilink") you're checking.
+-   **theElement:** The [element](/docs/element.md "wikilink") you're checking.
+-   **thePickup:** The [pickup](/docs/pickup.md "wikilink") you're checking.
 
 ### Returns
 

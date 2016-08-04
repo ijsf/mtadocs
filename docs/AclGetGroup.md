@@ -1,4 +1,4 @@
-This function is used to get the ACL group with the given name. If you need most of the groups you should consider using [aclGroupList](/aclGroupList.md "wikilink") instead to get a table containing them all.
+This function is used to get the ACL group with the given name. If you need most of the groups you should consider using [aclGroupList](/docs/aclGroupList.md "wikilink") instead to get a table containing them all.
 
 Syntax
 ------

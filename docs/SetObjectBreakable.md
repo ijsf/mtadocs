@@ -9,7 +9,7 @@ bool setObjectBreakable ( object theObject, bool breakable )
 
 ### Required Arguments
 
--   **object** the [object](/object.md "wikilink") that's being set.
+-   **object** the [object](/docs/object.md "wikilink") that's being set.
 -   **breakable** a boolean whether the object is breakable(true) or unbreakable (false).
 
 ### Returns

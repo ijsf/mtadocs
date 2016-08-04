@@ -1,4 +1,4 @@
-This function is for creating a new [team](/team.md "wikilink"), which can be used to group players. Players will not join the team until they are respawned.
+This function is for creating a new [team](/docs/team.md "wikilink"), which can be used to group players. Players will not join the team until they are respawned.
 
 Syntax
 ------

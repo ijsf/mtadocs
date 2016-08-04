@@ -9,7 +9,7 @@ bool removePlayerJetPack ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/player.md "wikilink") you want to remove the jetpack from.
+-   **thePlayer**: The [player](/docs/player.md "wikilink") you want to remove the jetpack from.
 
 ### Returns
 

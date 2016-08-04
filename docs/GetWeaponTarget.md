@@ -1,4 +1,4 @@
-This functions gets the target of a [custom weapon](/Element/Weapon.md "wikilink").
+This functions gets the target of a [custom weapon](/docs/Element/Weapon.md "wikilink").
 
 Syntax
 ------
@@ -13,10 +13,10 @@ nil/element/float getWeaponTarget ( weapon theWeapon )
 
 ### Returns
 
--   Returns the *target* of the [custom weapon](/Element/Weapon.md "wikilink"), which can be:
-    -   *[nil](/nil.md "wikilink")* if the weapon is in rotation based targeting.
-    -   3 [floats](/float.md "wikilink") if the weapon is firing at a fixed point.
-    -   an [element](/element.md "wikilink") if the weapon is firing an entity.
+-   Returns the *target* of the [custom weapon](/docs/Element/Weapon.md "wikilink"), which can be:
+    -   *[nil](/docs/nil.md "wikilink")* if the weapon is in rotation based targeting.
+    -   3 [floats](/docs/float.md "wikilink") if the weapon is firing at a fixed point.
+    -   an [element](/docs/element.md "wikilink") if the weapon is firing an entity.
 -   Returns *false* if the weapon element is not valid.
 
 Example

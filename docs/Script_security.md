@@ -9,7 +9,7 @@ To ensure minimum damage when a player with a hacked client connects to your ser
 How to never trust data coming from a client
 --------------------------------------------
 
-A hacked client could send anything, so all client data received by server scripts should be validated before use. Most data is received via client calls to [setElementData](/setElementData.md "wikilink") or [triggerServerEvent](/triggerServerEvent.md "wikilink").
+A hacked client could send anything, so all client data received by server scripts should be validated before use. Most data is received via client calls to [setElementData](/docs/setElementData.md "wikilink") or [triggerServerEvent](/triggerServerEvent.md "wikilink").
 
 Validating client setElementData
 --------------------------------

@@ -9,15 +9,15 @@ Concepts
 
 The Voice resource provides **channel** functionality. A channel is a way of controlling who you can speak to and hear from. There are three main types of channels:
 
--   **Scripted channel:** This channel is set using the [setPlayerChannel](/Resource:Voice#getPlayerChannel.md "wikilink") function, and is in the format of a number. Players in channel *1* cannot hear players who are in channel *2*.
+-   **Scripted channel:** This channel is set using the [setPlayerChannel](/docs/Resource:Voice#getPlayerChannel.md "wikilink") function, and is in the format of a number. Players in channel *1* cannot hear players who are in channel *2*.
 
 <!-- -->
 
--   **Team channel:** Scripts do not have access to this type of channel, but it is quite similar to a scripted channel. This type of channel is automatically assigned based upon the [Team autoassignment](/Resource:Voice#Team_autoassignment.md "wikilink") setting. When players are in a team, [getPlayerChannel](/Resource:Voice#getPlayerChannel.md "wikilink") will return the actual [team](/team.md "wikilink") element. Players of one team channel cannot hear players in another team channel. Equally, players in a team channel cannot hear players in a *Scripted Channel*.
+-   **Team channel:** Scripts do not have access to this type of channel, but it is quite similar to a scripted channel. This type of channel is automatically assigned based upon the [Team autoassignment](/docs/Resource:Voice#Team_autoassignment.md "wikilink") setting. When players are in a team, [getPlayerChannel](/Resource:Voice#getPlayerChannel.md "wikilink") will return the actual [team](/team.md "wikilink") element. Players of one team channel cannot hear players in another team channel. Equally, players in a team channel cannot hear players in a *Scripted Channel*.
 
 <!-- -->
 
--   **The “root” channel:** Players are placed into this channel by default. This channel is associated to the [root](/getRootElement.md "wikilink") element concept, and [getPlayerChannel](/Resource:Voice#getPlayerChannel.md "wikilink") will actually return the root element. When a player is in the root channel, he is broadcasting to **everyone** in the server, and they will be able to hear him. However, he will not be able to hear from people who are either in a *Team channel* or a *Scripted channel*.
+-   **The “root” channel:** Players are placed into this channel by default. This channel is associated to the [root](/docs/getRootElement.md "wikilink") element concept, and [getPlayerChannel](/Resource:Voice#getPlayerChannel.md "wikilink") will actually return the root element. When a player is in the root channel, he is broadcasting to **everyone** in the server, and they will be able to hear him. However, he will not be able to hear from people who are either in a *Team channel* or a *Scripted channel*.
 
 Settings
 ========
@@ -45,7 +45,7 @@ All settings can be modified using MTA's set() functions, modifying the meta.xml
 Clientside Scripting functions
 ==============================
 
-All these scripting functions are **clientside** and therefore only affect the **local player**. All functions must be called using the [exports](/call.md "wikilink") system.
+All these scripting functions are **clientside** and therefore only affect the **local player**. All functions must be called using the [exports](/docs/call.md "wikilink") system.
 
 ### isPlayerVoiceMuted
 
@@ -75,7 +75,7 @@ Returns a **true** if the operation was successful, **false** otherwise
 Serverside Scripting functions
 ==============================
 
-All these scripting functions are **serverside** and can affect all players in the server. All functions must be called using the [exports](/call.md "wikilink") system.
+All these scripting functions are **serverside** and can affect all players in the server. All functions must be called using the [exports](/docs/call.md "wikilink") system.
 
 ### isPlayerVoiceMuted
 
@@ -124,7 +124,7 @@ int/element exports.voice:getPlayerChannel ( player playerToCheck )
 
 -   **playerToCheck:** The player who you wish to retrieve the channel of
 
-Returns an integer of the channel ID they are in, or a [team](/team.md "wikilink") element if they have been assigned to a team channel, or the [root](/getRootElement.md "wikilink") element if they are not in a specific channel.
+Returns an integer of the channel ID they are in, or a [team](/docs/team.md "wikilink") element if they have been assigned to a team channel, or the [root](/getRootElement.md "wikilink") element if they are not in a specific channel.
 
 ### setPlayerChannel
 
@@ -161,4 +161,4 @@ int getNextEmptyChannel ( )
 
 Returns an integer of the first channel ID which is completely empty.
 
-[ru:<Resource:Voice>](/ru:Resource:Voice.md "wikilink")
+[ru:<Resource:Voice>](/docs/ru:Resource:Voice.md "wikilink")

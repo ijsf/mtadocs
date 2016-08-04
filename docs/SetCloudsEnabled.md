@@ -9,7 +9,7 @@ bool setCloudsEnabled ( bool enabled )
 
 ### Required Arguments
 
--   **enabled:** A [boolean](/boolean.md "wikilink") value determining if clouds should be shown. Use *true* to show clouds and *false* to hide them.
+-   **enabled:** A [boolean](/docs/boolean.md "wikilink") value determining if clouds should be shown. Use *true* to show clouds and *false* to hide them.
 
 ### Returns
 
@@ -32,4 +32,4 @@ addEventHandler ( "onResourceStart", getResourceRootElement(), disableClouds )
 See Also
 --------
 
-[ru:setCloudsEnabled](/ru:setCloudsEnabled.md "wikilink")
+[ru:setCloudsEnabled](/docs/ru:setCloudsEnabled.md "wikilink")

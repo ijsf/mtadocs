@@ -9,11 +9,11 @@ table getSoundEffects ( element sound )
 
 ### Required Arguments
 
--   **sound:** a [sound](/sound.md "wikilink") element.
+-   **sound:** a [sound](/docs/sound.md "wikilink") element.
 
 ### Returns
 
-Returns a [table](/table.md "wikilink") with the effect names as the keys, and their states as the values if successful. Otherwise, it returns *false*.
+Returns a [table](/docs/table.md "wikilink") with the effect names as the keys, and their states as the values if successful. Otherwise, it returns *false*.
 
 **Sound effect names:**
 
@@ -33,4 +33,4 @@ end
 See Also
 --------
 
-[ar:getSoundEffects](/ar:getSoundEffects.md "wikilink") [de:getSoundEffects](/de:getSoundEffects.md "wikilink")
+[ar:getSoundEffects](/docs/ar:getSoundEffects.md "wikilink") [de:getSoundEffects](/de:getSoundEffects.md "wikilink")

@@ -1,4 +1,4 @@
-This event is triggered when the model of an [element](/element.md "wikilink") is changed using [setElementModel](/setElementModel.md "wikilink").
+This event is triggered when the model of an [element](/docs/element.md "wikilink") is changed using [setElementModel](/setElementModel.md "wikilink").
 
 Parameters
 ----------
@@ -17,7 +17,7 @@ The source of this event is the element that changed its model
 Cancel Effect
 -------------
 
-This event doesn't support [cancellation](/Event_system#Canceling.md "wikilink"). Use setElementModel with the old value to reverse.
+This event doesn't support [cancellation](/docs/Event_system#Canceling.md "wikilink"). Use setElementModel with the old value to reverse.
 
 Example
 -------

@@ -1,4 +1,4 @@
-This function retrieves the name of an [account](/account.md "wikilink").
+This function retrieves the name of an [account](/docs/account.md "wikilink").
 
 Syntax
 ------
@@ -30,4 +30,4 @@ addEventHandler("onPlayerLogin",getRootElement(),outputOnLogin ) --add an event 
 See Also
 --------
 
-[ru:getAccountName](/ru:getAccountName.md "wikilink") [es:getAccountName](/es:getAccountName.md "wikilink") [ar:getAccountName](/ar:getAccountName.md "wikilink") [pl:GetAccountName](/pl:GetAccountName.md "wikilink")
+[ru:getAccountName](/docs/ru:getAccountName.md "wikilink") [es:getAccountName](/es:getAccountName.md "wikilink") [ar:getAccountName](/ar:getAccountName.md "wikilink") [pl:GetAccountName](/pl:GetAccountName.md "wikilink")

@@ -22,7 +22,7 @@ Example
 -- Example here
 ```
 
-[pl:Modules/SebasIRC/ircDisconnect](/pl:Modules/SebasIRC/ircDisconnect.md "wikilink")
+[pl:Modules/SebasIRC/ircDisconnect](/docs/pl:Modules/SebasIRC/ircDisconnect.md "wikilink")
 
 See also
 --------

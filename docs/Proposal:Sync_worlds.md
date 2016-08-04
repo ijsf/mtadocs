@@ -25,4 +25,4 @@ Technically
 -   Need to bear in mind that the relevant client-side events should be triggered
 -   Need to consider elements that are deleted? Maybe keep a per-sync world list of deleted element ids along with timestamps. Or just delete them on every client? Or something else.
 
-[Category:Proposal](/Category:Proposal.md "wikilink")
+[Category:Proposal](/docs/Category:Proposal.md "wikilink")

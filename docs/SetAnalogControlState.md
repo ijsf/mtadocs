@@ -1,6 +1,6 @@
 This sets the analog control state of a control for the local player.
 
-To change the analog controls for a ped, please use [setPedAnalogControlState](/setPedAnalogControlState.md "wikilink").
+To change the analog controls for a ped, please use [setPedAnalogControlState](/docs/setPedAnalogControlState.md "wikilink").
 
 Syntax
 ------

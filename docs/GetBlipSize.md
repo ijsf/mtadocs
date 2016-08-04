@@ -13,7 +13,7 @@ int getBlipSize ( blip theBlip )
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") indicating the size of the blip. The default value is 2.
+Returns an [int](/docs/int.md "wikilink") indicating the size of the blip. The default value is 2.
 
 Example
 -------

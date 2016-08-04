@@ -2,7 +2,7 @@
 
 This function splits a string at a given separator (pattern) and stores the pieces in a table. It's the complement of [table.concat](http://www.lua.org/manual/5.1/manual.html#pdf-table.concat).
 
-There is already an MTA function called [split](/split.md "wikilink") that splits a string at a given separator. But this function only supports single character separators and no regular expressions. For splitting at a single character you should prefer that function since it's probably faster than string.explode.
+There is already an MTA function called [split](/docs/split.md "wikilink") that splits a string at a given separator. But this function only supports single character separators and no regular expressions. For splitting at a single character you should prefer that function since it's probably faster than string.explode.
 
 Syntax
 ------

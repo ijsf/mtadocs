@@ -7,13 +7,13 @@ table getPlayerACInfo( element thePlayer )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") whose anti-cheat info you want to check.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") whose anti-cheat info you want to check.
 
 ### Returns
 
 Returns a table with the following entries:
 
--   **DetectedAC:** A string containing a comma separated list of [anti-cheat](/Anti-cheat_guide.md "wikilink") codes the player has triggered.
+-   **DetectedAC:** A string containing a comma separated list of [anti-cheat](/docs/Anti-cheat_guide.md "wikilink") codes the player has triggered.
 -   **d3d9Size:** A number representing the file size of any custom d3d9.dll the player may have installed.
 -   **d3d9MD5:** A string containing the MD5 of any custom d3d9.dll the player may have installed.
 

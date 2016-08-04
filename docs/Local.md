@@ -36,4 +36,4 @@ See also
 
 [Programming in Lua: 4.2 Local Variables and Blocks](http://www.lua.org/pil/4.2.html)
 
-[Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink")

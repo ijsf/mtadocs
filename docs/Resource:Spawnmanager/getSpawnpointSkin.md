@@ -13,7 +13,7 @@ int getSpawnpointSkin ( spawnpoint spawn )
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") containing the [skin ID](/Character_Skins.md "wikilink") if the spawnpoint exists, *false* otherwise.
+Returns an [int](/docs/int.md "wikilink") containing the [skin ID](/Character_Skins.md "wikilink") if the spawnpoint exists, *false* otherwise.
 
 Example
 -------

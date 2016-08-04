@@ -1,4 +1,4 @@
-This function will return the responsible admin (nickname of the admin) of the specified [ban](/ban.md "wikilink").
+This function will return the responsible admin (nickname of the admin) of the specified [ban](/docs/ban.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ string getBanAdmin ( ban theBan )
 
 ### Required Arguments
 
--   **theBan:** The [ban](/ban.md "wikilink") you want to return the admin of.
+-   **theBan:** The [ban](/docs/ban.md "wikilink") you want to return the admin of.
 
 ### Returns
 
-Returns a *string* of the admin if everything was successful, *false* if invalid arguments are specified if there was no admin specified for the [ban](/ban.md "wikilink").
+Returns a *string* of the admin if everything was successful, *false* if invalid arguments are specified if there was no admin specified for the [ban](/docs/ban.md "wikilink").
 
 Example
 -------
@@ -40,4 +40,4 @@ addEventHandler("onBan",getRootElement(),outputBan) -- When a player is banned t
 See Also
 --------
 
-[ru:getBanAdmin](/ru:getBanAdmin.md "wikilink")
+[ru:getBanAdmin](/docs/ru:getBanAdmin.md "wikilink")

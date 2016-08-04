@@ -9,7 +9,7 @@ table getVehicleCompatibleUpgrades ( vehicle theVehicle, [ int slot ] )
 
 ### Required Arguments
 
--   **theVehicle:** the [vehicle](/vehicle.md "wikilink") you wish to retrieve the list of compatible upgrades of.
+-   **theVehicle:** the [vehicle](/docs/vehicle.md "wikilink") you wish to retrieve the list of compatible upgrades of.
 
 ### Optional Arguments
 

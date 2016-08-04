@@ -50,4 +50,4 @@ addCommandHandler("sendWrongArgument",sendWrongBanArguement)
 See Also
 --------
 
-[ru:isBan](/ru:isBan.md "wikilink")
+[ru:isBan](/docs/ru:isBan.md "wikilink")

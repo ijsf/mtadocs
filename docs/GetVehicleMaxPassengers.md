@@ -9,7 +9,7 @@ int getVehicleMaxPassengers ( vehicle theVehicle / int modelID )
 
 ### Required Arguments
 
--   **theVehicle:** the [vehicle](/vehicle.md "wikilink") that you wish to know the maximum capacity of.
+-   **theVehicle:** the [vehicle](/docs/vehicle.md "wikilink") that you wish to know the maximum capacity of.
 
 OR
 
@@ -17,7 +17,7 @@ OR
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") indicating the maximum number of passengers that can enter a vehicle.
+Returns an [int](/docs/int.md "wikilink") indicating the maximum number of passengers that can enter a vehicle.
 
 Example
 -------

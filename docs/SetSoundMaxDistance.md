@@ -1,4 +1,4 @@
-Sets a custom [sound](/sound.md "wikilink") max distance at which the sound stops.
+Sets a custom [sound](/docs/sound.md "wikilink") max distance at which the sound stops.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setSoundMaxDistance ( element sound, int distance )
 
 ### Required Arguments
 
--   **sound:** a [sound](/sound.md "wikilink") element.
+-   **sound:** a [sound](/docs/sound.md "wikilink") element.
 -   **distance:** the default value for this is 20
 
 ### Returns
@@ -33,4 +33,4 @@ addCommandHandler("setmaxdistance", maxdistanceFunc)
 See Also
 --------
 
-[ar:setSoundMaxDistance](/ar:setSoundMaxDistance.md "wikilink")
+[ar:setSoundMaxDistance](/docs/ar:setSoundMaxDistance.md "wikilink")

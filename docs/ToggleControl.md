@@ -11,7 +11,7 @@ bool toggleControl ( player thePlayer, string control, bool enabled )
 ### Required Arguments
 
 -   **thePlayer:** The player you wish to toggle the control ability of.
--   **control:** The control that you want to toggle the ability of. See [control names](/control_names.md "wikilink") for a list of possible controls.
+-   **control:** The control that you want to toggle the ability of. See [control names](/docs/control_names.md "wikilink") for a list of possible controls.
 -   **enabled:** A boolean value representing whether or not the key will be usable or not.
 
 </section>
@@ -22,7 +22,7 @@ bool toggleControl ( string control, bool enabled )
 
 ### Required Arguments
 
--   **control:** The control that you want to toggle the ability of. See [control names](/control_names.md "wikilink") for a list of possible controls.
+-   **control:** The control that you want to toggle the ability of. See [control names](/docs/control_names.md "wikilink") for a list of possible controls.
 -   **enabled:** A boolean value representing whether or not the key will be usable or not.
 
 </section>

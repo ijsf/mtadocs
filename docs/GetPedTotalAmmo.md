@@ -1,4 +1,4 @@
-This function returns an integer that contains the total ammo in a specified [ped](/ped.md "wikilink")'s weapon. See [Weapon Info](/weapon.md "wikilink")
+This function returns an integer that contains the total ammo in a specified [ped](/docs/ped.md "wikilink")'s weapon. See [Weapon Info](/weapon.md "wikilink")
 
 Syntax
 ------
@@ -9,7 +9,7 @@ int getPedTotalAmmo ( ped thePed, [ int weaponSlot = current ] )
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink") whose ammo you want to check.
+-   **thePed**: The [ped](/docs/ped.md "wikilink") whose ammo you want to check.
 
 ### Optional Arguments
 
@@ -17,7 +17,7 @@ int getPedTotalAmmo ( ped thePed, [ int weaponSlot = current ] )
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") containing the total amount of ammo for the specified ped's weapon, or 0 if the ped specified is invalid.
+Returns an [int](/docs/int.md "wikilink") containing the total amount of ammo for the specified ped's weapon, or 0 if the ped specified is invalid.
 
 Example
 -------

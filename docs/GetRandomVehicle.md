@@ -1,4 +1,4 @@
-This function returns a random [vehicle](/vehicle.md "wikilink") between every vehicle created.
+This function returns a random [vehicle](/docs/vehicle.md "wikilink") between every vehicle created.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ vehicle getRandomVehicle( )
 
 ### Returns
 
-It returns a random [vehicle](/vehicle.md "wikilink") if possible. If not, it returns *false*.
+It returns a random [vehicle](/docs/vehicle.md "wikilink") if possible. If not, it returns *false*.
 
 Code
 ----

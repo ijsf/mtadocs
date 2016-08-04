@@ -1,4 +1,4 @@
-This function checks if a variable is a [timer](/timer.md "wikilink").
+This function checks if a variable is a [timer](/docs/timer.md "wikilink").
 
 Syntax
 ------

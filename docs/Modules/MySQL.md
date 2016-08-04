@@ -4,16 +4,16 @@ The MySQL module provides access to MySQL servers. It is included with [the orig
 
 ### Functions
 
-bool [mysqlCreate](/Modules/MySQL/MysqlCreate.md "wikilink") ( nil )
+bool [mysqlCreate](/docs/Modules/MySQL/MysqlCreate.md "wikilink") ( nil )
 
-bool [mysqlOpen](/Modules/MySQL/MysqlOpen.md "wikilink") ( mysql, function, host, user, password, database name, port )
+bool [mysqlOpen](/docs/Modules/MySQL/MysqlOpen.md "wikilink") ( mysql, function, host, user, password, database name, port )
 
-nil [mysqlDestroy](/Modules/MySQL/MysqlDestroy.md "wikilink") ( mysql )
+nil [mysqlDestroy](/docs/Modules/MySQL/MysqlDestroy.md "wikilink") ( mysql )
 
-bool [mysqlQuery](/Modules/MySQL/MysqlQuery.md "wikilink") ( mysql, function, query )
+bool [mysqlQuery](/docs/Modules/MySQL/MysqlQuery.md "wikilink") ( mysql, function, query )
 
-string [mysqlSafeString](/Modules/MySQL/MysqlSafeString.md "wikilink") ( string )
+string [mysqlSafeString](/docs/Modules/MySQL/MysqlSafeString.md "wikilink") ( string )
 
-[Category:Modules](/Category:Modules.md "wikilink")
+[Category:Modules](/docs/Category:Modules.md "wikilink")
 
-[ru:Modules/MySQL](/ru:Modules/MySQL.md "wikilink")
+[ru:Modules/MySQL](/docs/ru:Modules/MySQL.md "wikilink")

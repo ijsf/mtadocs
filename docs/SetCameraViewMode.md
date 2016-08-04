@@ -1,4 +1,4 @@
-This function allows you to set the camera's view mode if you are inside a [vehicle](/vehicle.md "wikilink"). This indicates at what distance the camera will follow the player.
+This function allows you to set the camera's view mode if you are inside a [vehicle](/docs/vehicle.md "wikilink"). This indicates at what distance the camera will follow the player.
 
 Syntax
 ------

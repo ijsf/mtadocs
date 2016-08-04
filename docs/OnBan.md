@@ -7,12 +7,12 @@ Parameters
 ban theBan
 ```
 
--   '''theBan ''': The [ban](/ban.md "wikilink") which was added.
+-   '''theBan ''': The [ban](/docs/ban.md "wikilink") which was added.
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [element](/element.md "wikilink") that was responsible for the banning. If no responsible was specified, the source is the global root element.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [element](/element.md "wikilink") that was responsible for the banning. If no responsible was specified, the source is the global root element.
 
 Cancel effect
 -------------

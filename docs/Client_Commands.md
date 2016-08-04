@@ -1,4 +1,4 @@
-This page lists all built in commands that the client can process. These commands can be entered directly to the client console or via the chatbox by putting a / (forward slash) in front of them. Some [server commands](/Server_Commands.md "wikilink") are also accessible from the client. Arguments inside \[...\] are optional.
+This page lists all built in commands that the client can process. These commands can be entered directly to the client console or via the chatbox by putting a / (forward slash) in front of them. Some [server commands](/docs/Server_Commands.md "wikilink") are also accessible from the client. Arguments inside \[...\] are optional.
 
 Core commands
 -------------
@@ -167,18 +167,18 @@ Shows colshapes in wireframe for help when writing scripts
 
 Only works in development mode.
 
-More information: [setDevelopmentMode](/setDevelopmentMode.md "wikilink")
+More information: [setDevelopmentMode](/docs/setDevelopmentMode.md "wikilink")
 
 #### showsound
 
   
 Usage: showsound \[*&lt;*0-1*&gt;*\]
 
-Prints world sound ids in the debug output windows to help when writing scripts with [setWorldSoundEnabled](/setWorldSoundEnabled.md "wikilink")
+Prints world sound ids in the debug output windows to help when writing scripts with [setWorldSoundEnabled](/docs/setWorldSoundEnabled.md "wikilink")
 
 Only works in development mode.
 
-More information: [setDevelopmentMode](/setDevelopmentMode.md "wikilink")
+More information: [setDevelopmentMode](/docs/setDevelopmentMode.md "wikilink")
 
 Commands for key binds
 ----------------------
@@ -305,4 +305,4 @@ Selects the next radio station
   
 Selects the previous radio station
 
-[Category: Support](/Category:_Support.md "wikilink") [ru:Client Commands](/ru:Client_Commands.md "wikilink") [hu:Client Commands](/hu:Client_Commands.md "wikilink")
+[Category: Support](/docs/Category:_Support.md "wikilink") [ru:Client Commands](/ru:Client_Commands.md "wikilink") [hu:Client Commands](/hu:Client_Commands.md "wikilink")

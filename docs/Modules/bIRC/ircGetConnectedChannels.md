@@ -13,7 +13,7 @@ table ircGetConnectedChannels ( ircbot theBot )
 
 ### Returns
 
-Returns a [table](/table.md "wikilink") over all connected channels. Returns an empty table if the ircbot isn't connected to any channel.
+Returns a [table](/docs/table.md "wikilink") over all connected channels. Returns an empty table if the ircbot isn't connected to any channel.
 
 Example
 -------

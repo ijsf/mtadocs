@@ -1,6 +1,6 @@
-This function triggers an event previously registered on the server. This is the primary means of passing information between the client and the server. Servers have a similar [triggerClientEvent](/triggerClientEvent.md "wikilink") function that can do the reverse. You can treat this function as if it was an asynchronous function call, using [triggerClientEvent](/triggerClientEvent.md "wikilink") to pass back any returned information if necessary.
+This function triggers an event previously registered on the server. This is the primary means of passing information between the client and the server. Servers have a similar [triggerClientEvent](/docs/triggerClientEvent.md "wikilink") function that can do the reverse. You can treat this function as if it was an asynchronous function call, using [triggerClientEvent](/triggerClientEvent.md "wikilink") to pass back any returned information if necessary.
 
-Almost any data types can be passed as expected, including [elements](/element.md "wikilink") and complex nested [tables](/table.md "wikilink"). Non-element MTA data types like xmlNodes or resource pointers will not be able to be passed as they do not necessarily have a valid representation on the client.
+Almost any data types can be passed as expected, including [elements](/docs/element.md "wikilink") and complex nested [tables](/table.md "wikilink"). Non-element MTA data types like xmlNodes or resource pointers will not be able to be passed as they do not necessarily have a valid representation on the client.
 
 Events are sent reliably, so the server will receive them, but there may be (but shouldn't be) a significant delay before they are received. You should take this into account when using them.
 
@@ -15,12 +15,12 @@ bool triggerServerEvent ( string event, element theElement, [arguments...] )
 
 ### Required Arguments
 
--   **event:** The name of the event to trigger server-side. You should register this event with [addEvent](/addEvent.md "wikilink") and add at least one event handler using [addEventHandler](/addEventHandler.md "wikilink").
--   **theElement:** The element that is the [source](/Event_system#Event_handlers.md "wikilink") of the event.
+-   **event:** The name of the event to trigger server-side. You should register this event with [addEvent](/docs/addEvent.md "wikilink") and add at least one event handler using [addEventHandler](/addEventHandler.md "wikilink").
+-   **theElement:** The element that is the [source](/docs/Event_system#Event_handlers.md "wikilink") of the event.
 
 ### Optional Arguments
 
--   **arguments...:** A list of arguments to trigger with the event. You can pass any lua data type (except functions). You can also pass [elements](/element.md "wikilink").
+-   **arguments...:** A list of arguments to trigger with the event. You can pass any lua data type (except functions). You can also pass [elements](/docs/element.md "wikilink").
 
 ### Returns
 
@@ -57,4 +57,4 @@ When the command “greet” is executed (by typing it in the server console or 
 See Also
 --------
 
-[ru:triggerServerEvent](/ru:triggerServerEvent.md "wikilink")
+[ru:triggerServerEvent](/docs/ru:triggerServerEvent.md "wikilink")

@@ -9,7 +9,7 @@ bool setVehicleRespawnDelay ( vehicle theVehicle, int timeDelay )
 
 ### Required Arguments
 
--   **theVehicle**: The [vehicle](/vehicle.md "wikilink") you wish to change the respawn delay of.
+-   **theVehicle**: The [vehicle](/docs/vehicle.md "wikilink") you wish to change the respawn delay of.
 -   **timeDelay**: The amount of milliseconds to delay.
 
 Returns

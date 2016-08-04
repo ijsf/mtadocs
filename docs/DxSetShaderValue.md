@@ -1,4 +1,4 @@
-This sets a named parameter for a [shader](/shader.md "wikilink") element
+This sets a named parameter for a [shader](/docs/shader.md "wikilink") element
 
 Syntax
 ------
@@ -11,7 +11,7 @@ bool dxSetShaderValue ( element theShader, string parameterName, mixed value )
 
 -   **theShader:** The shader element whose parameter is to be changed
 -   **parameterName:** The name of parameter
--   **value:** The value to set, which can be a [texture](/texture.md "wikilink"), a bool, a number or a list of numbers
+-   **value:** The value to set, which can be a [texture](/docs/texture.md "wikilink"), a bool, a number or a list of numbers
 
 ### Returns
 

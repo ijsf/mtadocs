@@ -20,10 +20,10 @@ bool moveObject ( object theObject, int time, float targetx, float targety, floa
 -   **moverx:** the rotation along the X axis **relative** to its current rotation, which is its starting angle.
 -   **movery:** the rotation along the Y axis **relative** to its current rotation, which is its starting angle.
 -   **moverz:** the rotation along the Z axis **relative** to its current rotation, which is its starting angle.
--   **strEasingType:** the [easing function](/Easing.md "wikilink") to use for the interpolation (default is “Linear”)
--   **fEasingPeriod:** the period of the [easing function](/Easing.md "wikilink") (only some easing functions use this parameter)
--   **fEasingAmplitude:** the amplitude of the [easing function](/Easing.md "wikilink") (only some easing functions use this parameter)
--   **fEasingOvershoot:** the overshoot of the [easing function](/Easing.md "wikilink") (only some easing functions use this parameter)
+-   **strEasingType:** the [easing function](/docs/Easing.md "wikilink") to use for the interpolation (default is “Linear”)
+-   **fEasingPeriod:** the period of the [easing function](/docs/Easing.md "wikilink") (only some easing functions use this parameter)
+-   **fEasingAmplitude:** the amplitude of the [easing function](/docs/Easing.md "wikilink") (only some easing functions use this parameter)
+-   **fEasingOvershoot:** the overshoot of the [easing function](/docs/Easing.md "wikilink") (only some easing functions use this parameter)
 
 ### Returns
 

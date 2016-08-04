@@ -14,7 +14,7 @@ account thePreviousAccount, account theCurrentAccount, bool autoLogin
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the player [element](/element.md "wikilink") that just logged in.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the player [element](/element.md "wikilink") that just logged in.
 
 Cancel effect
 -------------

@@ -1,4 +1,4 @@
-This function returns the [player](/player.md "wikilink") element that is currently using a specified [account](/account.md "wikilink"), i.e. is logged into it. Only one player can use an account at a time.
+This function returns the [player](/docs/player.md "wikilink") element that is currently using a specified [account](/account.md "wikilink"), i.e. is logged into it. Only one player can use an account at a time.
 
 Syntax
 ------
@@ -9,11 +9,11 @@ player getAccountPlayer ( account theAccount )
 
 ### Required Arguments
 
--   **theAccount:** The [account](/account.md "wikilink") you wish to get the [player](/player.md "wikilink") of.
+-   **theAccount:** The [account](/docs/account.md "wikilink") you wish to get the [player](/player.md "wikilink") of.
 
 ### Returns
 
-Returns a [player](/player.md "wikilink") element if the account is currently in use, *false* otherwise.
+Returns a [player](/docs/player.md "wikilink") element if the account is currently in use, *false* otherwise.
 
 Example
 -------
@@ -33,4 +33,4 @@ end
 See Also
 --------
 
-[ru:getAccountPlayer](/ru:getAccountPlayer.md "wikilink") [ar:getAccountPlayer](/ar:getAccountPlayer.md "wikilink") [pl:GetAccountPlayer](/pl:GetAccountPlayer.md "wikilink")
+[ru:getAccountPlayer](/docs/ru:getAccountPlayer.md "wikilink") [ar:getAccountPlayer](/ar:getAccountPlayer.md "wikilink") [pl:GetAccountPlayer](/pl:GetAccountPlayer.md "wikilink")

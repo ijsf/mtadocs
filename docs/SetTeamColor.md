@@ -9,7 +9,7 @@ bool setTeamColor ( team theTeam, int colorR, int colorG, int colorB )
 
 ### Required Arguments
 
--   **theTeam:** The [team](/team.md "wikilink") you want to change the color of.
+-   **theTeam:** The [team](/docs/team.md "wikilink") you want to change the color of.
 -   **colorR:** An integer representing the red color value, from 0 to 255.
 -   **colorG:** An integer representing the green color value, from 0 to 255.
 -   **colorB:** An integer representing the blue color value, from 0 to 255.

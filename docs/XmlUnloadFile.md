@@ -41,4 +41,4 @@ xmlUnloadFile(xml)
 See Also
 --------
 
-[ru:xmlUnloadFile](/ru:xmlUnloadFile.md "wikilink")
+[ru:xmlUnloadFile](/docs/ru:xmlUnloadFile.md "wikilink")

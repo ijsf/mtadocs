@@ -1,4 +1,4 @@
-This function restores the original collision model of the given model ID. Reverses the effect of [engineReplaceCOL](/engineReplaceCOL.md "wikilink").
+This function restores the original collision model of the given model ID. Reverses the effect of [engineReplaceCOL](/docs/engineReplaceCOL.md "wikilink").
 
 Syntax
 ------

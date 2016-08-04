@@ -10,7 +10,7 @@ Syntax
 ### Required Arguments
 
 -   **thePlayer:** The player you're checking.
--   **key:** The key you're checking. See [Key names](/Key_names.md "wikilink") for a list of valid key names.
+-   **key:** The key you're checking. See [Key names](/docs/Key_names.md "wikilink") for a list of valid key names.
 
 ### Optional Arguments
 

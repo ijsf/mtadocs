@@ -59,11 +59,11 @@ If you have any problems with missing DLL files (e.g. libcurl.dll), then you did
 Getting involved
 ================
 
-Please see our [Coding guidelines](/Coding_guidelines.md "wikilink") for information on coding practice.
+Please see our [Coding guidelines](/docs/Coding_guidelines.md "wikilink") for information on coding practice.
 
 Additional information
 ======================
 
 If you need more information, try our [bug tracker](http://bugs.mtasa.com/), [IRC channel](irc://irc.multitheftauto.com).
 
-[pt-br:Compilando o MTASA](/pt-br:Compilando_o_MTASA.md "wikilink") [ru:Compiling MTASA](/ru:Compiling_MTASA.md "wikilink") [Category: Development](/Category:_Development.md "wikilink")
+[pt-br:Compilando o MTASA](/docs/pt-br:Compilando_o_MTASA.md "wikilink") [ru:Compiling MTASA](/ru:Compiling_MTASA.md "wikilink") [Category: Development](/Category:_Development.md "wikilink")

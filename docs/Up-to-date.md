@@ -69,10 +69,10 @@ Additional software required for Multi Theft Auto.
 See also
 --------
 
--   [Known Issues - FAQ](/Known_Issues_-_FAQ.md "wikilink")
--   [IRC Channel](/IRC_Channel.md "wikilink")
+-   [Known Issues - FAQ](/docs/Known_Issues_-_FAQ.md "wikilink")
+-   [IRC Channel](/docs/IRC_Channel.md "wikilink")
 -   [Multi Theft Auto Bugtracker](http://bugs.mtasa.com)
 
-[ru:Up-to-date](/ru:Up-to-date.md "wikilink")
+[ru:Up-to-date](/docs/ru:Up-to-date.md "wikilink")
 
-[Category:Support](/Category:Support.md "wikilink")
+[Category:Support](/docs/Category:Support.md "wikilink")

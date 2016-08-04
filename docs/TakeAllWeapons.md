@@ -1,4 +1,4 @@
-This function removes every weapons from a specified [ped](/ped.md "wikilink"), rendering it unarmed.
+This function removes every weapons from a specified [ped](/docs/ped.md "wikilink"), rendering it unarmed.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool takeAllWeapons ( ped thePed )
 
 ### Required Arguments
 
--   **thePed**: A [ped](/ped.md "wikilink") element referencing the specified ped
+-   **thePed**: A [ped](/docs/ped.md "wikilink") element referencing the specified ped
 
 ### Returns
 
@@ -28,4 +28,4 @@ outputChatBox ( "Weapons are not permitted!" ) --tell the players why they lost 
 See Also
 --------
 
-[ru:takeAllWeapons](/ru:takeAllWeapons.md "wikilink")
+[ru:takeAllWeapons](/docs/ru:takeAllWeapons.md "wikilink")

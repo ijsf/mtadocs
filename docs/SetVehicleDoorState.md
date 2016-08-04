@@ -10,7 +10,7 @@ bool setVehicleDoorState ( vehicle theVehicle, int door, int state )
 Required Arguments
 ------------------
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") that you wish to change the door state of.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") that you wish to change the door state of.
 -   **door:** An integer representing which door to set the state of. Valid values are:
     -   **0:** Hood
     -   **1:** Trunk

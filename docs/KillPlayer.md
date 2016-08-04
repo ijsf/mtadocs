@@ -9,7 +9,7 @@ Syntax
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") to kill
+-   **thePlayer:** The [player](/docs/player.md "wikilink") to kill
 
 ### Optional Arguments
 

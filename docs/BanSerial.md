@@ -1,4 +1,4 @@
-This function will ban the specified [serial](/serial.md "wikilink") number from the server.
+This function will ban the specified [serial](/docs/serial.md "wikilink") number from the server.
 
 Syntax
 ------

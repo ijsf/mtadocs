@@ -13,7 +13,7 @@ client getAccountClient ( account theAccount )
 
 ### Returns
 
-Returns a [client](/client.md "wikilink") element if the account is currently in use, *false* otherwise.
+Returns a [client](/docs/client.md "wikilink") element if the account is currently in use, *false* otherwise.
 
 Example
 -------

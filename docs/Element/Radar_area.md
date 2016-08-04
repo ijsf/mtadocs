@@ -28,6 +28,6 @@ Related scripting functions
 
 ### Server
 
-[Category:Element Types](/Category:Element_Types.md "wikilink")
+[Category:Element Types](/docs/Category:Element_Types.md "wikilink")
 
-[it:Elemento/Area radar](/it:Elemento/Area_radar.md "wikilink")
+[it:Elemento/Area radar](/docs/it:Elemento/Area_radar.md "wikilink")

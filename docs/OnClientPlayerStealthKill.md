@@ -7,17 +7,17 @@ Parameters
 element targetPlayer
 ```
 
--   **targetPlayer**: The [player](/player.md "wikilink") or [ped](/ped.md "wikilink") that is being stealth killed.
+-   **targetPlayer**: The [player](/docs/player.md "wikilink") or [ped](/ped.md "wikilink") that is being stealth killed.
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that initiated the stealth kill. (Local player only)
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that initiated the stealth kill. (Local player only)
 
 Cancel effect
 -------------
 
-If this event is [canceled](/Event_system#Canceling.md "wikilink"), then the stealth kill is aborted.
+If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), then the stealth kill is aborted.
 
 Example
 -------

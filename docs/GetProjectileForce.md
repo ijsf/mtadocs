@@ -9,12 +9,12 @@ float getProjectileForce ( projectile theProjectile )
 
 ### Required Arguments
 
--   **theProjectile:** The [projectile](/projectiles.md "wikilink") element which force you want to retrieve.
+-   **theProjectile:** The [projectile](/docs/projectiles.md "wikilink") element which force you want to retrieve.
 
 Returns
 -------
 
-Returns a [float](/float.md "wikilink") if successful, *false* otherwise.
+Returns a [float](/docs/float.md "wikilink") if successful, *false* otherwise.
 
 Example
 -------
@@ -35,4 +35,4 @@ end
 See also
 --------
 
-[it:getProjectileForce](/it:getProjectileForce.md "wikilink")
+[it:getProjectileForce](/docs/it:getProjectileForce.md "wikilink")

@@ -1,4 +1,4 @@
-[thumb|200px|Water hydrant](/Image:Fxwaterhydrant.png.md "wikilink") This function creates a water hydrant particle effect.
+[thumb|200px|Water hydrant](/docs/Image:Fxwaterhydrant.png.md "wikilink") This function creates a water hydrant particle effect.
 
 Syntax
 ------

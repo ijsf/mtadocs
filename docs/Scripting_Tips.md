@@ -46,7 +46,7 @@ local loadedFunction = loadstring(exampleFunction)
 MTA Scripting - Element IDs Being Reused
 ----------------------------------------
 
--   If your script is covered in [isTimer](/isTimer.md "wikilink") and [isElement](/isElement.md "wikilink") checks to hide debug warnings from deleted elements not being dereferenced (making the variable nil) you will regret it when that element ID or timer pointer has to be re-used by MTA in a weeks time and your script starts acting strangely and you won't have a clue why. Dereference destroyed elements and disconnected players!
+-   If your script is covered in [isTimer](/docs/isTimer.md "wikilink") and [isElement](/isElement.md "wikilink") checks to hide debug warnings from deleted elements not being dereferenced (making the variable nil) you will regret it when that element ID or timer pointer has to be re-used by MTA in a weeks time and your script starts acting strangely and you won't have a clue why. Dereference destroyed elements and disconnected players!
 -   Why would MTA reuse it in a weeks time? Everything has a userdata value whether it's a function or an element, there is a limited amount of these available meaning that eventually the server will be forced to use the same userdata value twice, as long as whatever that userdata value was for is no longer valid. This could happen within hours, weeks or even never depending on how many elements are being created and destroyed by your scripts.
 -   For example if you have a race server that has 100 objects in every map and the map was changing every 5 minutes your server would go through at least 1200 an hour, 28,800 a day, 201,600 a week in userdata values, it can't keep going up and up though eventually it will have to reuse the same userdata values and as long as you're dereferencing in your scripts, it won't be a problem.
 
@@ -86,14 +86,14 @@ addEventHandler("onPlayerQuit", root, onQuit)
 Server Performance
 ------------------
 
--   Server lagging? Check [this page of debugging performance issues](/Debugging#Debugging_Performance_Issues.md "wikilink")
+-   Server lagging? Check [this page of debugging performance issues](/docs/Debugging#Debugging_Performance_Issues.md "wikilink")
 -   Using resourceRoot in event handlers for events from clients is much more efficient than using root.
 -   Try to be efficient, but if what you're doing is too time consuming or complex, is it really efficient?
--   It's much more efficient to [SetElementHealth](/SetElementHealth.md "wikilink") and [setElementRotation](/setElementRotation.md "wikilink") on a player client side, consider a client event all your server scripts can call to set a players health.
+-   It's much more efficient to [SetElementHealth](/docs/SetElementHealth.md "wikilink") and [setElementRotation](/setElementRotation.md "wikilink") on a player client side, consider a client event all your server scripts can call to set a players health.
 -   Unless you have hundreds of players, don't worry about making little optimizations, check *performancebrowser* or *ipb* (ingame performancebrowser) and make sure no resource is using significantly more than the others.
 
 Client Performance
 ------------------
 
--   The biggest cause of client script CPU usage is anything done in onClient/Pre/Hud/Render because it is called so often. For example if you have a script which calls dxDrawLine3D 20 times, 60 times a second, if those lines are only in 1 part of the map, consider adding a [getDistanceBetweenPoints3D](/getDistanceBetweenPoints3D.md "wikilink") check between the local player and the general area that those lines are in and if they're no where near the player, don't draw the lines.
--   Another thing that gets called a lot and could therefore be quite consuming if not careful are events like [onClientPlayerWeaponFire](/onClientPlayerWeaponFire.md "wikilink") and [onClientPlayerDamage](/onClientPlayerDamage.md "wikilink") so any scripts that use these should only be bound to the necessary elements (such as localPlayer instead of root) and run the simplest if statements for example if you wanted to handle a certain weapon being fired in a certain dimension it's better to check weapon first as that's a simple weaponID == x rather than getElementDimension(source) == y.
+-   The biggest cause of client script CPU usage is anything done in onClient/Pre/Hud/Render because it is called so often. For example if you have a script which calls dxDrawLine3D 20 times, 60 times a second, if those lines are only in 1 part of the map, consider adding a [getDistanceBetweenPoints3D](/docs/getDistanceBetweenPoints3D.md "wikilink") check between the local player and the general area that those lines are in and if they're no where near the player, don't draw the lines.
+-   Another thing that gets called a lot and could therefore be quite consuming if not careful are events like [onClientPlayerWeaponFire](/docs/onClientPlayerWeaponFire.md "wikilink") and [onClientPlayerDamage](/onClientPlayerDamage.md "wikilink") so any scripts that use these should only be bound to the necessary elements (such as localPlayer instead of root) and run the simplest if statements for example if you wanted to handle a certain weapon being fired in a certain dimension it's better to check weapon first as that's a simple weaponID == x rather than getElementDimension(source) == y.

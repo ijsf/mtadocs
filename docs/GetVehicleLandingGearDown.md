@@ -9,7 +9,7 @@ bool getVehicleLandingGearDown ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle:** the [vehicle](/vehicle.md "wikilink") of which you wish to check the landing gear state.
+-   **theVehicle:** the [vehicle](/docs/vehicle.md "wikilink") of which you wish to check the landing gear state.
 
 ### Returns
 
@@ -33,4 +33,4 @@ end
 See Also
 --------
 
-[ru:getVehicleLandingGearDown ](/ru:getVehicleLandingGearDown_.md "wikilink")
+[ru:getVehicleLandingGearDown ](/docs/ru:getVehicleLandingGearDown_.md "wikilink")

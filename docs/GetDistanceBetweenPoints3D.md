@@ -18,7 +18,7 @@ float getDistanceBetweenPoints3D ( float x1, float y1, float z1, float x2, float
 
 ### Returns
 
-Returns a float containing the distance between the two points as a [float](/float.md "wikilink"). Returns *false* if an argument passed was invalid.
+Returns a float containing the distance between the two points as a [float](/docs/float.md "wikilink"). Returns *false* if an argument passed was invalid.
 
 Example
 -------

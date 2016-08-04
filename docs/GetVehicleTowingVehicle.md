@@ -9,7 +9,7 @@ vehicle getVehicleTowingVehicle ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle**: the [vehicle](/vehicle.md "wikilink") being towed.
+-   **theVehicle**: the [vehicle](/docs/vehicle.md "wikilink") being towed.
 
 Returns
 -------

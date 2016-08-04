@@ -2,12 +2,12 @@
 
 ### Methods
 
--   [getMinDistance](/getSoundMinDistance.md "wikilink")
--   [getMaxDistance](/getSoundMaxDistance.md "wikilink")
--   [setMaxDistance](/setSoundMaxDistance.md "wikilink")
--   [setMinDistance](/setSoundMinDistance.md "wikilink")
+-   [getMinDistance](/docs/getSoundMinDistance.md "wikilink")
+-   [getMaxDistance](/docs/getSoundMaxDistance.md "wikilink")
+-   [setMaxDistance](/docs/setSoundMaxDistance.md "wikilink")
+-   [setMinDistance](/docs/setSoundMinDistance.md "wikilink")
 
 ### Variables
 
--   [maxDistance](/Sound.maxDistance.md "wikilink")
--   [minDistance](/Sound.minDistance.md "wikilink")
+-   [maxDistance](/docs/Sound.maxDistance.md "wikilink")
+-   [minDistance](/docs/Sound.minDistance.md "wikilink")

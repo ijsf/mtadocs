@@ -10,7 +10,7 @@ bool isObjectInACLGroup ( string theObject, aclgroup theGroup )
 ### Required Arguments
 
 -   **theObject:** the name of the object to check. Examples: “resource.ctf”, “user.Jim”.
--   **theGroup:** the [ACL group](/ACL_group.md "wikilink") pointer of the group from which the object should be found.
+-   **theGroup:** the [ACL group](/docs/ACL_group.md "wikilink") pointer of the group from which the object should be found.
 
 ### Returns
 

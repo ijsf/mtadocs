@@ -11,7 +11,7 @@ int, int, int, int, int, int getSkyGradient ( )
 
 ### Returns
 
-Returns 6 [ints](/int.md "wikilink"), of which the first 3 represent the sky's “top” color, (in RGB) and the last 3 represent the bottom colors.
+Returns 6 [ints](/docs/int.md "wikilink"), of which the first 3 represent the sky's “top” color, (in RGB) and the last 3 represent the bottom colors.
 
 Example
 -------

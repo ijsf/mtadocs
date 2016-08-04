@@ -1,4 +1,4 @@
-This event is triggered when a player's voice sound is paused using [setSoundPaused](/setSoundPaused.md "wikilink").
+This event is triggered when a player's voice sound is paused using [setSoundPaused](/docs/setSoundPaused.md "wikilink").
 
 Parameters
 ----------
@@ -12,7 +12,7 @@ string reason
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/Element/Player.md "wikilink") whose voice got paused.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/Element/Player.md "wikilink") whose voice got paused.
 
 Example
 -------

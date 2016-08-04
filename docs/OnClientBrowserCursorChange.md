@@ -5,12 +5,12 @@ Parameters
 int cursorId
 ```
 
--   **cursorId:** The new cursor ID. See [Cursor IDs](/#Cursor_IDs.md "wikilink")
+-   **cursorId:** The new cursor ID. See [Cursor IDs](/docs/#Cursor_IDs.md "wikilink")
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the browser element the cursor change occured in.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the browser element the cursor change occured in.
 
 Example
 -------
@@ -69,7 +69,7 @@ Cursor IDs
 | CT\_GRABBING                 | 42  |
 | CT\_CUSTOM                   | 43  |
 
-[pl:onClientBrowserCursorChange](/pl:onClientBrowserCursorChange.md "wikilink")
+[pl:onClientBrowserCursorChange](/docs/pl:onClientBrowserCursorChange.md "wikilink")
 
 See Also
 --------

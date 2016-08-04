@@ -1,4 +1,4 @@
-This function applies a [shader](/shader.md "wikilink") to one or more world textures.
+This function applies a [shader](/docs/shader.md "wikilink") to one or more world textures.
 
 Syntax
 ------

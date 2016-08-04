@@ -1,4 +1,4 @@
-This function returns an integer that contains the total ammo in a specified [player](/player.md "wikilink")'s weapon. See [Weapon Info](/weapon.md "wikilink")
+This function returns an integer that contains the total ammo in a specified [player](/docs/player.md "wikilink")'s weapon. See [Weapon Info](/weapon.md "wikilink")
 
 Syntax
 ------
@@ -10,11 +10,11 @@ int getPlayerTotalAmmo ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/player.md "wikilink") whose ammo you want to check.
+-   **thePlayer**: The [player](/docs/player.md "wikilink") whose ammo you want to check.
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") containing the total amount of ammo for the player's current weapon.
+Returns an [int](/docs/int.md "wikilink") containing the total amount of ammo for the player's current weapon.
 
 </section>
 <section name="Client" class="client" show="true">
@@ -24,7 +24,7 @@ int getPlayerTotalAmmo ( player thePlayer [, int weaponSlot = current ] )
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/player.md "wikilink") whose ammo you want to check.
+-   **thePlayer**: The [player](/docs/player.md "wikilink") whose ammo you want to check.
 
 <!-- -->
 
@@ -32,7 +32,7 @@ int getPlayerTotalAmmo ( player thePlayer [, int weaponSlot = current ] )
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") containing the total amount of ammo for the specified player's weapon, or 0 if the player specified is invalid.
+Returns an [int](/docs/int.md "wikilink") containing the total amount of ammo for the specified player's weapon, or 0 if the player specified is invalid.
 
 </section>
 Example

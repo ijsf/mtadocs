@@ -1,6 +1,6 @@
 <lowercasetitle></lowercasetitle>
 
-This functions gets the maximum health a [ped](/ped.md "wikilink") should have, considering its max health (24) [stat](/Template:Stats.md "wikilink").
+This functions gets the maximum health a [ped](/docs/ped.md "wikilink") should have, considering its max health (24) [stat](/Template:Stats.md "wikilink").
 
 Syntax
 ------
@@ -11,11 +11,11 @@ float getPedMaxHealth ( ped thePed )
 
 ### Required Arguments
 
--   **thePed:** the [ped](/ped.md "wikilink") whose maximum health you want to get.
+-   **thePed:** the [ped](/docs/ped.md "wikilink") whose maximum health you want to get.
 
 ### Returns
 
-A *float* with the maximum health of the specified [ped](/ped.md "wikilink"), an error if a invalid [ped](/ped.md "wikilink") was passed.
+A *float* with the maximum health of the specified [ped](/docs/ped.md "wikilink"), an error if a invalid [ped](/ped.md "wikilink") was passed.
 
 Code
 ----

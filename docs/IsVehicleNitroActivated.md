@@ -7,7 +7,7 @@ bool isVehicleNitroActivated ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle** The [vehicle](/vehicle.md "wikilink"), which you want to check for an activation.
+-   **theVehicle** The [vehicle](/docs/vehicle.md "wikilink"), which you want to check for an activation.
 
 ### Returns
 

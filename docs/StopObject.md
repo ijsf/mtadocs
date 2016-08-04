@@ -9,7 +9,7 @@ bool stopObject ( object theobject )
 
 ### Required Arguments
 
--   **theobject:** the [object](/object.md "wikilink") whose movement you wish to stop
+-   **theobject:** the [object](/docs/object.md "wikilink") whose movement you wish to stop
 
 ### Returns
 

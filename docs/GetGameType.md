@@ -1,4 +1,4 @@
-This function retrieves the current gametype as set by [setGameType](/setGameType.md "wikilink"). The game type is displayed in the server browser next to the server's name.
+This function retrieves the current gametype as set by [setGameType](/docs/setGameType.md "wikilink"). The game type is displayed in the server browser next to the server's name.
 
 Syntax
 ------

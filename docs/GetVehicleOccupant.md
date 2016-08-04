@@ -9,7 +9,7 @@ player getVehicleOccupant ( vehicle theVehicle, [ int seat=0 ] )
 
 ### Required Arguments
 
--   **theVehicle:** the [vehicle](/vehicle.md "wikilink") of which you wish to retrieve the driver or a passenger.
+-   **theVehicle:** the [vehicle](/docs/vehicle.md "wikilink") of which you wish to retrieve the driver or a passenger.
 
 ### Optional Arguments
 
@@ -17,7 +17,7 @@ player getVehicleOccupant ( vehicle theVehicle, [ int seat=0 ] )
 
 ### Returns
 
-Returns the [player](/player.md "wikilink") sitting in the vehicle, or *false* if the seat is unoccupied or doesn't exist.
+Returns the [player](/docs/player.md "wikilink") sitting in the vehicle, or *false* if the seat is unoccupied or doesn't exist.
 
 Example
 -------

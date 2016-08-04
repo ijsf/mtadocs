@@ -1,4 +1,4 @@
-This function is used to remove the current clothes of a certain type on a [ped](/ped.md "wikilink"). It will remove them if the clothesTexture and clothesModel aren't specified, or if they match the current clothes on that slot.
+This function is used to remove the current clothes of a certain type on a [ped](/docs/ped.md "wikilink"). It will remove them if the clothesTexture and clothesModel aren't specified, or if they match the current clothes on that slot.
 
 Syntax
 ------
@@ -9,13 +9,13 @@ bool removePedClothes ( ped thePed, int clothesType, [ string clothesTexture, st
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink") you want to remove clothes from.
--   **clothesType**: the clothes slot/type to remove. See the [clothes catalog](/CJ_Clothes.md "wikilink").
+-   **thePed**: The [ped](/docs/ped.md "wikilink") you want to remove clothes from.
+-   **clothesType**: the clothes slot/type to remove. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
 
 ### Optional Arguments
 
--   **clothesTexture**: (Server only) A string determining the clothes texture that will be removed. See the [clothes catalog](/CJ_Clothes.md "wikilink").
--   **clothesModel**: (Server only) A string determining the clothes model that will be removed. See the [clothes catalog](/CJ_Clothes.md "wikilink").
+-   **clothesTexture**: (Server only) A string determining the clothes texture that will be removed. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
+-   **clothesModel**: (Server only) A string determining the clothes model that will be removed. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
 
 Returns
 -------
@@ -48,4 +48,4 @@ addEventHandler ( "onPlayerVehicleExit", root, removeHelmetOnExit )
 See Also
 --------
 
-[pl:RemovePedClothes](/pl:RemovePedClothes.md "wikilink")
+[pl:RemovePedClothes](/docs/pl:RemovePedClothes.md "wikilink")

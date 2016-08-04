@@ -1,4 +1,4 @@
-This function checks if the specified [ped](/ped.md "wikilink") is dead or not.
+This function checks if the specified [ped](/docs/ped.md "wikilink") is dead or not.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool isPedDead ( ped thePed )
 
 ### Required Arguments
 
--   **thePed**: the [ped](/ped.md "wikilink") you want to check up on.
+-   **thePed**: the [ped](/docs/ped.md "wikilink") you want to check up on.
 
 ### Returns
 

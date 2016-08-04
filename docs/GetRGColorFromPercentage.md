@@ -83,4 +83,4 @@ addEventHandler("onClientPlayerVehicleExit", localPlayer,
 See Also
 --------
 
-[:Category:Useful\_Functions](/:Category:Useful_Functions.md "wikilink")
+[:Category:Useful\_Functions](/docs/:Category:Useful_Functions.md "wikilink")

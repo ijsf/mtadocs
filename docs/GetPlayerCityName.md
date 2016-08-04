@@ -1,4 +1,4 @@
-**Use [getZoneName](/getZoneName.md "wikilink") instead.**
+**Use [getZoneName](/docs/getZoneName.md "wikilink") instead.**
 
 Syntax
 ------

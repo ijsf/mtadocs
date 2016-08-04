@@ -1,6 +1,6 @@
 ### Current version
 
-Current protocol version is [R1.1](/MTA_R1.1_remote_administration_protocol.md "wikilink").
+Current protocol version is [R1.1](/docs/MTA_R1.1_remote_administration_protocol.md "wikilink").
 
 ### Notes
 
@@ -484,4 +484,4 @@ This packet is sent to change the max players of the server. The server will als
 
 Max players will be 0x00 if the attempt to change them failed, otherwise it will be the hexadecimal value of the new number of max players.
 
-[Category:MTA:SA Race](/Category:MTA:SA_Race.md "wikilink")
+[Category:MTA:SA Race](/docs/Category:MTA:SA_Race.md "wikilink")

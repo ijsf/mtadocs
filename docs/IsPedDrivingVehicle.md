@@ -1,4 +1,4 @@
-This function checks if a specified [ped](/ped.md "wikilink") or [player](/player.md "wikilink") is driving a [vehicle](/vehicle.md "wikilink").
+This function checks if a specified [ped](/docs/ped.md "wikilink") or [player](/player.md "wikilink") is driving a [vehicle](/vehicle.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ bool, vehicle isPedDrivingVehicle ( element ped )
 
 ### Arguments
 
--   **ped**: a [player](/player.md "wikilink") or [ped](/ped.md "wikilink") to check if it's driving a [vehicle](/vehicle.md "wikilink") or not.
+-   **ped**: a [player](/docs/player.md "wikilink") or [ped](/ped.md "wikilink") to check if it's driving a [vehicle](/vehicle.md "wikilink") or not.
 
 ### Returns
 
-Returns *true* and a vehicle if the specified ped is driving a [vehicle](/vehicle.md "wikilink"), *false* if it's not or a bad argument was passed.
+Returns *true* and a vehicle if the specified ped is driving a [vehicle](/docs/vehicle.md "wikilink"), *false* if it's not or a bad argument was passed.
 
 Code
 ----

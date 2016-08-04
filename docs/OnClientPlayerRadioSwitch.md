@@ -7,19 +7,19 @@ Parameters
 int stationID
 ```
 
--   **stationID**: An [integer](/int.md "wikilink") representing the station the player switched to.
+-   **stationID**: An [integer](/docs/int.md "wikilink") representing the station the player switched to.
 
 Station ID's:
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the local [player](/player.md "wikilink").
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the local [player](/player.md "wikilink").
 
 Cancel effect
 -------------
 
-If this event is [canceled](/Event_system#Canceling.md "wikilink"), the Radio station will not change.
+If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the Radio station will not change.
 
 Example
 -------

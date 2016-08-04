@@ -14,7 +14,7 @@ XML syntax
 -   **posX**: A float representing the X position of the pickup.
 -   **posY**: A float representing the Y position of the pickup.
 -   **posZ**: A float representing the Z position of the pickup.
--   **type**: A string indicating the type of the pickup. This can either be “health”, “armor”, or an integer representing the [weapon ID](/Weapon.md "wikilink") of the pickup..
+-   **type**: A string indicating the type of the pickup. This can either be “health”, “armor”, or an integer representing the [weapon ID](/docs/Weapon.md "wikilink") of the pickup..
 
 ### Optional Attributes
 
@@ -24,4 +24,4 @@ XML syntax
 Related scripting functions
 ---------------------------
 
-[Category:Element Types](/Category:Element_Types.md "wikilink")
+[Category:Element Types](/docs/Category:Element_Types.md "wikilink")

@@ -18,10 +18,10 @@ Things with “todo” at the beginning aren't currently done, but are expected 
     -   Sound functions
     -   Cursor functions
     -   Input functions
-    -   [showChat](/showChat.md "wikilink")
-    -   [outputChatBox](/outputChatBox.md "wikilink")
+    -   [showChat](/docs/showChat.md "wikilink")
+    -   [outputChatBox](/docs/outputChatBox.md "wikilink")
     -   Console functions (command functions)
--   [getWeaponAmmo](/getWeaponAmmo.md "wikilink") is a player function, but stored in the wepdefs (todo: wepdefs not done yet)
+-   [getWeaponAmmo](/docs/getWeaponAmmo.md "wikilink") is a player function, but stored in the wepdefs (todo: wepdefs not done yet)
 
 </section>
 <section name="Client" class="client" show="true">

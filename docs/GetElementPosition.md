@@ -1,13 +1,13 @@
 The getElementPosition function allows you to retrieve the position coordinates of an element. This can be any real world element, including:
 
--   [Players](/Element/Player.md "wikilink")
--   [Vehicles](/Element/Vehicle.md "wikilink")
--   [Objects](/Element/Object.md "wikilink")
--   [Pickups](/Element/Pickup.md "wikilink")
--   [Markers](/Element/Marker.md "wikilink")
--   [Collision shapes](/Element/Collision_shape.md "wikilink")
--   [Blips](/Element/Blip.md "wikilink")
--   [Radar areas](/Element/Radar_area.md "wikilink")
+-   [Players](/docs/Element/Player.md "wikilink")
+-   [Vehicles](/docs/Element/Vehicle.md "wikilink")
+-   [Objects](/docs/Element/Object.md "wikilink")
+-   [Pickups](/docs/Element/Pickup.md "wikilink")
+-   [Markers](/docs/Element/Marker.md "wikilink")
+-   [Collision shapes](/docs/Element/Collision_shape.md "wikilink")
+-   [Blips](/docs/Element/Blip.md "wikilink")
+-   [Radar areas](/docs/Element/Radar_area.md "wikilink")
 
 Syntax
 ------
@@ -43,4 +43,4 @@ attachElementToElement ( samsite, myElegy, 0, 0, 0 )
 See Also
 --------
 
-[de:GetElementPosition](/de:GetElementPosition.md "wikilink")
+[de:GetElementPosition](/docs/de:GetElementPosition.md "wikilink")

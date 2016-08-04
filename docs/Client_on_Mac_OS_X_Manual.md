@@ -1,7 +1,7 @@
 Before you start
 ----------------
 
-First of all, please ensure your computer fits the requirements needed. Read the [Client Manual](/Client_Manual.md "wikilink") page for further informations, or join us on IRC @ <irc://irc.multitheftauto.com/mta>
+First of all, please ensure your computer fits the requirements needed. Read the [Client Manual](/docs/Client_Manual.md "wikilink") page for further informations, or join us on IRC @ <irc://irc.multitheftauto.com/mta>
 
 ### Requirements
 
@@ -36,7 +36,7 @@ Once installed, double-clicking on the Multi Theft Auto.exe should work. If not,
 See Also
 --------
 
--   [Client on Linux Manual](/Client_on_Linux_Manual.md "wikilink") - For somewhat relevant information.
+-   [Client on Linux Manual](/docs/Client_on_Linux_Manual.md "wikilink") - For somewhat relevant information.
 -   [nightly.mtasa.com](http://nightly.mtasa.com/) - For nightly builds.
 
-[Category:Support](/Category:Support.md "wikilink")
+[Category:Support](/docs/Category:Support.md "wikilink")

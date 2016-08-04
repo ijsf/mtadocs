@@ -2,10 +2,10 @@ This function sets the velocity (movement speeds) along each axis, for an elemen
 
 This is not compatible with all elements. Only the following elements are compatible:
 
--   [Peds](/Ped.md "wikilink").
--   [Vehicles](/Vehicle.md "wikilink").
--   [Objects](/Object.md "wikilink").
--   [Projectiles](/Projectile.md "wikilink").
+-   [Peds](/docs/Ped.md "wikilink").
+-   [Vehicles](/docs/Vehicle.md "wikilink").
+-   [Objects](/docs/Object.md "wikilink").
+-   [Projectiles](/docs/Projectile.md "wikilink").
 
 Syntax
 ------
@@ -16,7 +16,7 @@ bool setElementVelocity ( element theElement, float speedX, float speedY, float 
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") you wish to set the velocity of.
+-   **theElement:** The [element](/docs/element.md "wikilink") you wish to set the velocity of.
 -   **speedX:** A floating point value determining the speed along the X axis.
 -   **speedY:** A floating point value determining the speed along the Y axis.
 -   **speedZ:** A floating point value determining the speed along the Z axis.

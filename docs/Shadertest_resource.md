@@ -1,4 +1,4 @@
-Example resource for testing [shaders](/shader.md "wikilink")
+Example resource for testing [shaders](/docs/shader.md "wikilink")
 
 File layout:
 

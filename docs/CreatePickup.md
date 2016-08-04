@@ -24,7 +24,7 @@ pickup createPickup ( float x, float y, float z, int theType, int amount/weapon/
 
 **OR**
 
--   **weapon**: If the type is a Weapon pickup, then it represents the [weapon ID](/Weapon.md "wikilink") of the weapon pickup. When used with the weapon pickup type set, the ammo parameter can be used.
+-   **weapon**: If the type is a Weapon pickup, then it represents the [weapon ID](/docs/Weapon.md "wikilink") of the weapon pickup. When used with the weapon pickup type set, the ammo parameter can be used.
 
 **OR**
 
@@ -60,7 +60,7 @@ pickup createPickup ( float x, float y, float z, int theType, int amount/weapon/
 
 ### Returns
 
-Returns [pickup](/pickup.md "wikilink") [element](/element.md "wikilink") if the pickup was created succesfully, otherwise returns *false*.
+Returns [pickup](/docs/pickup.md "wikilink") [element](/element.md "wikilink") if the pickup was created succesfully, otherwise returns *false*.
 
 Example
 -------

@@ -17,7 +17,7 @@ bool setTrafficLightState ( string colorNS, string colorEW )
 
 ### Required Arguments
 
--   **state**: If an integer is provided, the [state](/Traffic_light_states.md "wikilink") you wish to use (possible values: 0-9). Else, one of the following strings:
+-   **state**: If an integer is provided, the [state](/docs/Traffic_light_states.md "wikilink") you wish to use (possible values: 0-9). Else, one of the following strings:
     -   **auto**: Sets the traffic lights default behavior (switches the colors automatically).
     -   **disabled**: Turns traffic lights off.
 

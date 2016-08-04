@@ -1,4 +1,4 @@
-Paintjobs can be applied on a vehicle using [setVehiclePaintjob](/setVehiclePaintjob.md "wikilink").
+Paintjobs can be applied on a vehicle using [setVehiclePaintjob](/docs/setVehiclePaintjob.md "wikilink").
 
 To remove a paintjob from a vehicle, apply paintjob number 3 to it.
 
@@ -42,4 +42,4 @@ local supported_vehicles={
 See Also
 --------
 
-[ID Lists](/id.md "wikilink")
+[ID Lists](/docs/id.md "wikilink")

@@ -1,4 +1,4 @@
-This function is used to determine whether or not a player has a jetpack. Jetpacks can be given to players using the [givePlayerJetPack](/givePlayerJetPack.md "wikilink") function and removed with the [removePlayerJetPack](/removePlayerJetPack.md "wikilink") function.
+This function is used to determine whether or not a player has a jetpack. Jetpacks can be given to players using the [givePlayerJetPack](/docs/givePlayerJetPack.md "wikilink") function and removed with the [removePlayerJetPack](/removePlayerJetPack.md "wikilink") function.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool doesPlayerHaveJetPack ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/player.md "wikilink") you are checking.
+-   **thePlayer**: The [player](/docs/player.md "wikilink") you are checking.
 
 ### Returns
 

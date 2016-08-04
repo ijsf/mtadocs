@@ -32,7 +32,7 @@ bool hasObjectPermissionTo ( string / element theObject, string theAction [, boo
 
 ### Optional Arguments
 
--   **defaultPermission:** The default permission if none is specified in either of the groups the given object is a member of. If this is left to true, the given object will have permissions to perform the action unless the opposite is explicitly specified in the [ACL](/ACL.md "wikilink"). If false, the action will be denied by default unless explicitly approved by the [Access Control List](/Access_Control_List.md "wikilink").
+-   **defaultPermission:** The default permission if none is specified in either of the groups the given object is a member of. If this is left to true, the given object will have permissions to perform the action unless the opposite is explicitly specified in the [ACL](/docs/ACL.md "wikilink"). If false, the action will be denied by default unless explicitly approved by the [Access Control List](/Access_Control_List.md "wikilink").
 
 ### Returns
 

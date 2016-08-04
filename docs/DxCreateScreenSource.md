@@ -1,4 +1,4 @@
-This function creates a screen source, which is a special type of [texture](/texture.md "wikilink") that contains the screen as rendered by GTA
+This function creates a screen source, which is a special type of [texture](/docs/texture.md "wikilink") that contains the screen as rendered by GTA
 
 Note that successful screen source creation is not guaranteed, and may fail due to hardware or memory limitations. You should always check to see if this function has returned false.
 
@@ -16,7 +16,7 @@ element dxCreateScreenSource ( int width, int height )
 
 ### Returns
 
-Returns a [texture](/texture.md "wikilink") [element](/element.md "wikilink") if successful, *false* if invalid arguments were passed to the function.
+Returns a [texture](/docs/texture.md "wikilink") [element](/element.md "wikilink") if successful, *false* if invalid arguments were passed to the function.
 
 Example
 -------

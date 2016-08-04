@@ -1,6 +1,6 @@
-This function is used to get any simple or complex [task](/task.md "wikilink") of a certain type for a ped.
+This function is used to get any simple or complex [task](/docs/task.md "wikilink") of a certain type for a ped.
 
-It can provide feedback on all tasks relating to a ped. For example, while jumping, [getPedSimplestTask](/getPedSimplestTask.md "wikilink") will return TASK\_SIMPLE\_IN\_AIR. If you wanted to know specifically if the player has jumped, you would use this function. If you did you will discover that while jumping Primary task 3 is TASK\_COMPLEX\_JUMP.
+It can provide feedback on all tasks relating to a ped. For example, while jumping, [getPedSimplestTask](/docs/getPedSimplestTask.md "wikilink") will return TASK\_SIMPLE\_IN\_AIR. If you wanted to know specifically if the player has jumped, you would use this function. If you did you will discover that while jumping Primary task 3 is TASK\_COMPLEX\_JUMP.
 
 Syntax
 ------
@@ -11,7 +11,7 @@ string, string, string, string getPedTask ( ped thePed, string priority, int tas
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink") whose task you want to retrieve.
+-   **thePed**: The [ped](/docs/ped.md "wikilink") whose task you want to retrieve.
 -   **priority**: A string determining which set of tasks you want to retrieve it from. This must be either “primary” or “secondary”.
 -   **taskType**: An integer value representing the task type (or slot) you want to get the task from. Types can be:
     -   **PRIMARY TASKS**
@@ -30,7 +30,7 @@ string, string, string, string getPedTask ( ped thePed, string priority, int tas
 
 ### Returns
 
-Returns the name of the most complex task. See [list of player tasks](/list_of_player_tasks.md "wikilink") for valid strings. Returns *false* if invalid arguments are specified or if there is no task of the type specified.
+Returns the name of the most complex task. See [list of player tasks](/docs/list_of_player_tasks.md "wikilink") for valid strings. Returns *false* if invalid arguments are specified or if there is no task of the type specified.
 
 Example
 -------

@@ -9,8 +9,8 @@ bool setPedRotation ( ped thePed, float rotation [, bool conformPedRotation = fa
 
 ### Required Arguments
 
--   **thePed:** The [ped](/ped.md "wikilink") to set the rotation of
--   **rotation:** A [float](/float.md "wikilink") specifying the desired rotation in degrees.
+-   **thePed:** The [ped](/docs/ped.md "wikilink") to set the rotation of
+-   **rotation:** A [float](/docs/float.md "wikilink") specifying the desired rotation in degrees.
 
 ### Optional Arguments
 
@@ -43,4 +43,4 @@ Changelog
 See Also
 --------
 
-[ru:setPedRotation](/ru:setPedRotation.md "wikilink")
+[ru:setPedRotation](/docs/ru:setPedRotation.md "wikilink")

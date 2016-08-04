@@ -14,7 +14,7 @@ string button, int absoluteX, int absoluteY
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the GUI element on top of which the mouse button was released.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the GUI element on top of which the mouse button was released.
 
 Example
 -------

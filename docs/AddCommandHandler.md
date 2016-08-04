@@ -50,7 +50,7 @@ These are the parameters for the handler function that is called when the comman
 
 -   **playerSource:** The player who triggered the command. If not triggered by a player (e.g. by admin), this will be *false*.
 -   **commandName:** The name of the command triggered. This is useful if multiple commands go through one function.
--   **arg1, arg2, ...:** Each word after command name in the original command is passed here in a seperate variable. If there is no value for an argument, its variable will contain [nil](/nil.md "wikilink"). You can deal with a variable number of arguments using the vararg expression, as shown in **Server Example 2** below.
+-   **arg1, arg2, ...:** Each word after command name in the original command is passed here in a seperate variable. If there is no value for an argument, its variable will contain [nil](/docs/nil.md "wikilink"). You can deal with a variable number of arguments using the vararg expression, as shown in **Server Example 2** below.
 
 </section>
 <section name="Client" class="client" show="true">
@@ -59,7 +59,7 @@ These are the parameters for the handler function that is called when the comman
 ```
 
 -   **commandName:** The name of the command triggered. This is useful if multiple commands go through one function.
--   **arg1, arg2, ...:** Each word after command name in the original command is passed here in a seperate variable. If there is no value for an argument, its variable will contain [nil](/nil.md "wikilink"). You can deal with a variable number of arguments using the vararg expression, as shown in **Server Example 2** below.
+-   **arg1, arg2, ...:** Each word after command name in the original command is passed here in a seperate variable. If there is no value for an argument, its variable will contain [nil](/docs/nil.md "wikilink"). You can deal with a variable number of arguments using the vararg expression, as shown in **Server Example 2** below.
 
 </section>
 ### Returns

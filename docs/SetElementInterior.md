@@ -1,4 +1,4 @@
-This function allows you to set the [interior](/interior.md "wikilink") of any element. An interior is the current loaded place, 0 being outside.
+This function allows you to set the [interior](/docs/interior.md "wikilink") of any element. An interior is the current loaded place, 0 being outside.
 
 Syntax
 ------
@@ -64,4 +64,4 @@ addCommandHandler ( "interior", interior )
 See Also
 --------
 
-[de:setElementInterior](/de:setElementInterior.md "wikilink")
+[de:setElementInterior](/docs/de:setElementInterior.md "wikilink")

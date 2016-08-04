@@ -1,4 +1,4 @@
-This function updates the contents of a screen source [texture](/texture.md "wikilink") with the screen output from GTA
+This function updates the contents of a screen source [texture](/docs/texture.md "wikilink") with the screen output from GTA
 
 Syntax
 ------

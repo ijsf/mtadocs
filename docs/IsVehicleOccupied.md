@@ -1,6 +1,6 @@
 <lowercasetitle></lowercasetitle>
 
-This function checks if a [vehicle](/vehicle.md "wikilink") is being occupied by a [ped](/ped.md "wikilink") or [player](/player.md "wikilink").
+This function checks if a [vehicle](/docs/vehicle.md "wikilink") is being occupied by a [ped](/ped.md "wikilink") or [player](/player.md "wikilink").
 
 Syntax
 ------
@@ -11,7 +11,7 @@ bool, ped/player isVehicleOccupied( element vehicle )
 
 ### Required Arguments
 
--   **vehicle**: The [vehicle](/vehicle.md "wikilink") you want to check if it's occupied or not.
+-   **vehicle**: The [vehicle](/docs/vehicle.md "wikilink") you want to check if it's occupied or not.
 
 ### Returns
 

@@ -11,7 +11,7 @@ bool setControlState ( player thePlayer, string control, bool state )
 ### Required Arguments
 
 -   **thePlayer:** The player you wish to set the control state of.
--   **control:** The control that you want to set the state of. See [control names](/control_names.md "wikilink") for a list of possible controls.
+-   **control:** The control that you want to set the state of. See [control names](/docs/control_names.md "wikilink") for a list of possible controls.
 -   **state:** A boolean value representing whether or not the key will be set to pressed or not.
 
 </section>
@@ -22,7 +22,7 @@ bool setControlState ( string control, bool state )
 
 ### Required Arguments
 
--   **control:** The control that you want to set the state of. See [control names](/control_names.md "wikilink") for a list of possible controls.
+-   **control:** The control that you want to set the state of. See [control names](/docs/control_names.md "wikilink") for a list of possible controls.
 -   **state:** A boolean value representing whether or not the key will be set to pressed or not.
 
 </section>

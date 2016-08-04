@@ -13,12 +13,12 @@ The dedicated server application is available in different flavours depending on
 There are different ways of getting a Linux server up and running:
 
 -   [Getting a precompiled package](http://linux.mtasa.com)
--   [Installing and Running MTASA Server on GNU Linux](/Installing_and_Running_MTASA_Server_on_GNU_Linux.md "wikilink")
--   [Building MTASA Server on GNU Linux](/Building_MTASA_Server_on_GNU_Linux.md "wikilink")
+-   [Installing and Running MTASA Server on GNU Linux](/docs/Installing_and_Running_MTASA_Server_on_GNU_Linux.md "wikilink")
+-   [Building MTASA Server on GNU Linux](/docs/Building_MTASA_Server_on_GNU_Linux.md "wikilink")
 
 Should you have any problems with errors when starting the server some common problems and solutions are listed here:
 
--   [Building MTASA Server on GNU Linux\#Troubleshooting](/Building_MTASA_Server_on_GNU_Linux#Troubleshooting.md "wikilink")
+-   [Building MTASA Server on GNU Linux\#Troubleshooting](/docs/Building_MTASA_Server_on_GNU_Linux#Troubleshooting.md "wikilink")
 
 ### FreeBSD installation
 
@@ -38,7 +38,7 @@ Installation of the MTA:SA server on Windows is easy as pie.
 -   Click Install.
 -   Done!
 
-*For a full explanation of acl.xml (access control list) read: [Access Control List](/Access_Control_List.md "wikilink")*
+*For a full explanation of acl.xml (access control list) read: [Access Control List](/docs/Access_Control_List.md "wikilink")*
 
 Configuring your server
 -----------------------
@@ -47,15 +47,15 @@ The Multi Theft Auto dedicated server is initially configurable through it's con
 
 ### General configuration
 
-All general configuration options can be found in the 'mods/deathmatch/[**mtaserver.conf**](/Server_mtaserver.conf.md "wikilink")' file and can be opened by any regular text editor.
+All general configuration options can be found in the 'mods/deathmatch/[**mtaserver.conf**](/docs/Server_mtaserver.conf.md "wikilink")' file and can be opened by any regular text editor.
 
-This file is fairly straightforward; every variable has a [description of what to do with it and how to change it](/Server_mtaserver.conf.md "wikilink").
+This file is fairly straightforward; every variable has a [description of what to do with it and how to change it](/docs/Server_mtaserver.conf.md "wikilink").
 
 ### Port forwarding
 
 If you run your server on your own private computer, and you have an router between the internet and your computer. You need to forward 3 ports.
 
-First of all open the file 'mods/deathmatch/[**mtaserver.conf**](/Server_mtaserver.conf.md "wikilink")' and search for the next lines:
+First of all open the file 'mods/deathmatch/[**mtaserver.conf**](/docs/Server_mtaserver.conf.md "wikilink")' and search for the next lines:
 
 ``` xml
 <serverport>22003</serverport> 
@@ -88,13 +88,13 @@ So, if you have the main server port set to 22003, then the ASE port will be 221
 
 Good luck!
 
-*In the latest version of the server, you can check the port status by using the server command [openports](/Server_Commands#openports.md "wikilink").*
+*In the latest version of the server, you can check the port status by using the server command [openports](/docs/Server_Commands#openports.md "wikilink").*
 
 ### Client Checks
 
 The MTA server can be configured to disable the anti-cheat. It can also allow specific or all files to be modified (e.g. carmods.dat), and make sure clients are of a minimum version.
 
-All of these settings are within the file 'mods/deathmatch/[**mtaserver.conf**](/Server_mtaserver.conf.md "wikilink")'. See the [Anti-cheat guide](/Anti-cheat_guide.md "wikilink") for more details.
+All of these settings are within the file 'mods/deathmatch/[**mtaserver.conf**](/docs/Server_mtaserver.conf.md "wikilink")'. See the [Anti-cheat guide](/Anti-cheat_guide.md "wikilink") for more details.
 If you want to force a minimum client version, search for the following line:
 
 ``` xml
@@ -109,7 +109,7 @@ It is strongly recommended to add at least one administrator to your server in o
 
 To add an administrator to your server, follow these steps:
 
-1.  While the server is running, add a new account by typing **[addaccount name password](/Server_Commands#addaccount.md "wikilink")** into the server window. For example, to add user BennyLava you could type:
+1.  While the server is running, add a new account by typing **[addaccount name password](/docs/Server_Commands#addaccount.md "wikilink")** into the server window. For example, to add user BennyLava you could type:
     <div style="margin: 10px 10px 10px 10px;">
     ``` xml
     addaccount BennyLava 123password
@@ -139,19 +139,19 @@ To add an administrator to your server, follow these steps:
     ```
 
     </div>
-    You're done! You can add as many administrators or users as you want this way, take a look at some of the other groups and ACLs for example. The ACL is also accessible through the [Lua scripting engine](/Access_Control_List.md "wikilink").
+    You're done! You can add as many administrators or users as you want this way, take a look at some of the other groups and ACLs for example. The ACL is also accessible through the [Lua scripting engine](/docs/Access_Control_List.md "wikilink").
     It is recommended to take a look at the web interface, we will explain how to do this below.
 
-**Note**: There are also ways to add accounts and edit rights for the server while it's running. "[addaccount <user> <password>](/Server_Commands#addaccount.md "wikilink")" is an internal command to add accounts, but you will have to use the web interface to add these accounts to specific groups/ACLs!
+**Note**: There are also ways to add accounts and edit rights for the server while it's running. "[addaccount <user> <password>](/docs/Server_Commands#addaccount.md "wikilink")" is an internal command to add accounts, but you will have to use the web interface to add these accounts to specific groups/ACLs!
 
 ### Using the web interface
 
-The dedicated server comes with a few Lua [resources](/resources.md "wikilink") that provide a nice little web interface to your server. This can be used to easily maintain your server, as it allows you to add users, start/stop resources, and more.
+The dedicated server comes with a few Lua [resources](/docs/resources.md "wikilink") that provide a nice little web interface to your server. This can be used to easily maintain your server, as it allows you to add users, start/stop resources, and more.
 
 The web interface resources are enabled by default and are served through the built-in HTTP web server. To make sure the built-in HTTP web server runs on a port you like (22005 by default), follow these steps:
 
 1.  Make sure your server is stopped
-2.  Open the file 'mods/deathmatch/[**mtaserver.conf**](/Server_mtaserver.conf.md "wikilink")' with any text editor
+2.  Open the file 'mods/deathmatch/[**mtaserver.conf**](/docs/Server_mtaserver.conf.md "wikilink")' with any text editor
 3.  Verify that the HTTP server is enabled:
     <div style="padding: 10px">
     ``` xml
@@ -187,7 +187,7 @@ The built-in web server is also used to serve files that are required by resourc
 
 For performance or consistency reasons during the game, you could choose to make use of such an external web server if you have one set up. The external web server needs to be accessible for the public, so any client will be able to download the necessary client-side files in order to join and play on your server.
 
-To enable downloading off an external web server, you should configure the [httpdownloadurl](/Server_mtaserver.conf#httpdownloadurl.md "wikilink") tag in your server configuration:
+To enable downloading off an external web server, you should configure the [httpdownloadurl](/docs/Server_mtaserver.conf#httpdownloadurl.md "wikilink") tag in your server configuration:
 
 <div style="padding: 10px">
 ``` xml
@@ -208,7 +208,7 @@ AddType application/octet-stream .lua
 ```
 
 </div>
-Instructions on how to install and configure Nginx as an external web server for MTA is here: [Installing and Configuring Nginx as an External Web Server](/Installing_and_Configuring_Nginx_as_an_External_Web_Server.md "wikilink")
+Instructions on how to install and configure Nginx as an external web server for MTA is here: [Installing and Configuring Nginx as an External Web Server](/docs/Installing_and_Configuring_Nginx_as_an_External_Web_Server.md "wikilink")
 
 Starting your server
 --------------------
@@ -223,7 +223,7 @@ Installing/Updating resources on your server
 Resources can come in two formats, either a ZIP format or just a normal folder with the script files inside it. The MTA:SA server supports both these methods.
 
 1.  Move or copy the new resource to your <SERVER>\\mods\\deathmatch\\resources folder.
-2.  In the server window type in the command [refresh](/Server_Commands#refresh.md "wikilink"), this will re-scan the resources folder and update the live resources where necessary.
+2.  In the server window type in the command [refresh](/docs/Server_Commands#refresh.md "wikilink"), this will re-scan the resources folder and update the live resources where necessary.
 
 Uninstalling resources
 ----------------------
@@ -238,14 +238,14 @@ Administrating your server
 
 You can start resources by typing the command “start resourcename” in the server console, or stop ones with “stop resourcename”.
 
-It's also possible to execute these and other admin commands from the in-game console (which you can bring up with the \` key or F8); for this to work, you first need to log in with the command "[login username password](/Server_Commands#login.md "wikilink")". Additionally, you can press the p key to bring up the admin panel: this is a graphical interface which allows you to easily kick or ban misbehaving players, among others.
+It's also possible to execute these and other admin commands from the in-game console (which you can bring up with the \` key or F8); for this to work, you first need to log in with the command "[login username password](/docs/Server_Commands#login.md "wikilink")". Additionally, you can press the p key to bring up the admin panel: this is a graphical interface which allows you to easily kick or ban misbehaving players, among others.
 
-For further commands, type [help](/Server_Commands#help.md "wikilink") in a console.
+For further commands, type [help](/docs/Server_Commands#help.md "wikilink") in a console.
 
 Starting a map/gamemode
 -----------------------
 
-See the commands section of the documentation for [mapmanager](/Resource:Map_manager.md "wikilink") for more information.
+See the commands section of the documentation for [mapmanager](/docs/Resource:Map_manager.md "wikilink") for more information.
 
 Useful Notes
 ------------
@@ -259,6 +259,6 @@ Useful Notes
 
 Why not pop over to our [Forums](http://forum.mtasa.com/) or join us on [IRC](irc://irc.multitheftauto.com/mta) (irc.multitheftauto.com \#mta - [mIRC](http://www.mirc.com))
 
-[es:Manual del Servidor](/es:Manual_del_Servidor.md "wikilink") [de:Server Anleitung](/de:Server_Anleitung.md "wikilink") [it:Manuale del Server](/it:Manuale_del_Server.md "wikilink") [nl:Server Manual](/nl:Server_Manual.md "wikilink") [ru:Server Manual](/ru:Server_Manual.md "wikilink") [pl:Server Manual](/pl:Server_Manual.md "wikilink") [pt-br:Manual do Servidor](/pt-br:Manual_do_Servidor.md "wikilink") [hu:Server Manual](/hu:Server_Manual.md "wikilink")
+[es:Manual del Servidor](/docs/es:Manual_del_Servidor.md "wikilink") [de:Server Anleitung](/de:Server_Anleitung.md "wikilink") [it:Manuale del Server](/it:Manuale_del_Server.md "wikilink") [nl:Server Manual](/nl:Server_Manual.md "wikilink") [ru:Server Manual](/ru:Server_Manual.md "wikilink") [pl:Server Manual](/pl:Server_Manual.md "wikilink") [pt-br:Manual do Servidor](/pt-br:Manual_do_Servidor.md "wikilink") [hu:Server Manual](/hu:Server_Manual.md "wikilink")
 
-[Category:Support](/Category:Support.md "wikilink")
+[Category:Support](/docs/Category:Support.md "wikilink")

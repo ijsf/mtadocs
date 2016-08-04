@@ -1,4 +1,4 @@
-This function returns a [player](/player.md "wikilink") [element](/element.md "wikilink") for the player with the name passed to the function.
+This function returns a [player](/docs/player.md "wikilink") [element](/element.md "wikilink") for the player with the name passed to the function.
 
 Syntax
 ------
@@ -13,12 +13,12 @@ player getPlayerFromName ( string playerName )
 
 ### Returns
 
-Returns a [player](/player.md "wikilink") [element](/element.md "wikilink") for the player with the nickname provided. If there is no player with that name, *false* is returned.
+Returns a [player](/docs/player.md "wikilink") [element](/element.md "wikilink") for the player with the nickname provided. If there is no player with that name, *false* is returned.
 
 Example
 -------
 
-This example finds a [player](/player.md "wikilink") as specified in the command and outputs the direction and distance he is from the player who entered the command. For example: 'locate someguy'.
+This example finds a [player](/docs/player.md "wikilink") as specified in the command and outputs the direction and distance he is from the player who entered the command. For example: 'locate someguy'.
 
 ``` lua
 function locatePlayer( sourcePlayer, command, who )
@@ -47,4 +47,4 @@ addCommandHandler ( "locate", locatePlayer )
 See Also
 --------
 
-[ru:getPlayerFromName](/ru:getPlayerFromName.md "wikilink")
+[ru:getPlayerFromName](/docs/ru:getPlayerFromName.md "wikilink")

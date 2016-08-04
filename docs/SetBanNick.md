@@ -7,7 +7,7 @@ bool setBanNick ( ban theBan, string theNick )
 
 ### Required Arguments
 
--   **theBan:** The [ban](/ban.md "wikilink") you want to change the nick of.
+-   **theBan:** The [ban](/docs/ban.md "wikilink") you want to change the nick of.
 -   **theNick:** A string representing the nick you want to set the ban to.
 
 ### Returns

@@ -1,4 +1,4 @@
-This function gets the left/right level from a [sound](/sound.md "wikilink") [element](/element.md "wikilink").
+This function gets the left/right level from a [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ int, int getSoundLevelData ( element theSound )
 
 ### Required Arguments
 
--   **theSound:** the [sound](/sound.md "wikilink") [element](/element.md "wikilink") which level data you want to return.
+-   **theSound:** the [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") which level data you want to return.
 
 ### Returns
 
@@ -73,4 +73,4 @@ Changelog
 See Also
 --------
 
-[ar:getSoundLevelData](/ar:getSoundLevelData.md "wikilink")
+[ar:getSoundLevelData](/docs/ar:getSoundLevelData.md "wikilink")

@@ -1,4 +1,4 @@
-This function gets the owner of a [custom weapon](/Element/Weapon.md "wikilink"). Weapon ownership system was, however, disabled, so this function always returns *false*. Please refer to [setWeaponOwner](/setWeaponOwner.md "wikilink") for details.
+This function gets the owner of a [custom weapon](/docs/Element/Weapon.md "wikilink"). Weapon ownership system was, however, disabled, so this function always returns *false*. Please refer to [setWeaponOwner](/setWeaponOwner.md "wikilink") for details.
 
 Syntax
 ------
@@ -13,7 +13,7 @@ bool getWeaponOwner ( weapon theWeapon )
 
 ### Returns
 
-This function was intended to return the [player](/player.md "wikilink") which owns the [custom weapon](/Element/Weapon.md "wikilink"), and *false* if an error occured. However, at the moment it always returns *false*.
+This function was intended to return the [player](/docs/player.md "wikilink") which owns the [custom weapon](/Element/Weapon.md "wikilink"), and *false* if an error occured. However, at the moment it always returns *false*.
 
 Example
 -------

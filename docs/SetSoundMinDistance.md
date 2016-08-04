@@ -1,4 +1,4 @@
-Sets a custom [sound](/sound.md "wikilink") Minimum distance at which the sound stops getting louder.
+Sets a custom [sound](/docs/sound.md "wikilink") Minimum distance at which the sound stops getting louder.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setSoundMinDistance ( element sound, int distance )
 
 ### Required Arguments
 
--   **sound:** a [sound](/sound.md "wikilink") element.
+-   **sound:** a [sound](/docs/sound.md "wikilink") element.
 -   **distance:** an integer representing the distance the sound stops getting louder. the default value for this is 5
 
 ### Returns
@@ -33,4 +33,4 @@ addCommandHandler("setdistance", distanceFunc)
 See Also
 --------
 
-[AR:setSoundMinDistance](/AR:setSoundMinDistance.md "wikilink")
+[AR:setSoundMinDistance](/docs/AR:setSoundMinDistance.md "wikilink")

@@ -9,14 +9,14 @@ bool setSoundPanningEnabled ( element sound, bool enable )
 
 ### Required arguments
 
--   **sound:** a [sound](/sound.md "wikilink") element to change the panning of.
+-   **sound:** a [sound](/docs/sound.md "wikilink") element to change the panning of.
 -   **enable:** *true* to enable the panning, *false* otherwise.
 
 ### Returns
 
 Returns *true* if the sound is valid and good arguments were passed, *false* if not.
 
-If the sound is not 3D, this function will return *true* as well, but [isSoundPanningEnabled](/isSoundPanningEnabled.md "wikilink") will always return *true* after this (so it has no effect).
+If the sound is not 3D, this function will return *true* as well, but [isSoundPanningEnabled](/docs/isSoundPanningEnabled.md "wikilink") will always return *true* after this (so it has no effect).
 
 Example
 -------

@@ -7,7 +7,7 @@ table getLocalization ( )
 
 ### Returns
 
-Returns a [table](/table.md "wikilink") with the following entries:
+Returns a [table](/docs/table.md "wikilink") with the following entries:
 
 -   **code :** The language code *(eg. “en\_US” for “English (United States)” or “ar” for “Arabic”)*.
 -   **name :** The name of the language *(eg. “English (United States)” or “Arabic”)*.
@@ -34,4 +34,4 @@ addEventHandler("onClientResourceStart", resourceRoot,
 See Also
 --------
 
-[ru:GetLocalization](/ru:GetLocalization.md "wikilink")
+[ru:GetLocalization](/docs/ru:GetLocalization.md "wikilink")

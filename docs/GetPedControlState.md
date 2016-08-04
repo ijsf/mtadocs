@@ -10,7 +10,7 @@ bool getPedControlState ( ped thePed, string control )
 ### Required Arguments
 
 -   **thePed:** the ped you want to check.
--   **control:** the control to get the status of. See [control names](/control_names.md "wikilink") for a list of valid names.
+-   **control:** the control to get the status of. See [control names](/docs/control_names.md "wikilink") for a list of valid names.
 
 ### Returns
 

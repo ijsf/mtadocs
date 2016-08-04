@@ -26,7 +26,7 @@ addCommandHandler("connected",
 )
 ```
 
-[pl:Modules/SebasIRC/ircIsConnected](/pl:Modules/SebasIRC/ircIsConnected.md "wikilink")
+[pl:Modules/SebasIRC/ircIsConnected](/docs/pl:Modules/SebasIRC/ircIsConnected.md "wikilink")
 
 See also
 --------

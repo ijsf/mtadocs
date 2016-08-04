@@ -13,7 +13,7 @@ int absoluteX, int absoluteY
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the GUI element on which the mouse was moved.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the GUI element on which the mouse was moved.
 
 Example
 -------
@@ -41,7 +41,7 @@ addEventHandler( "onClientMouseMove", getRootElement( ),
 )
 ```
 
-[pl:onClientMouseMove](/pl:onClientMouseMove.md "wikilink")
+[pl:onClientMouseMove](/docs/pl:onClientMouseMove.md "wikilink")
 
 See Also
 --------

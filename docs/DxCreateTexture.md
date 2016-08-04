@@ -1,4 +1,4 @@
-This function creates a [texture](/texture.md "wikilink") element that can be used in the dxDraw functions.
+This function creates a [texture](/docs/texture.md "wikilink") element that can be used in the dxDraw functions.
 
 It is possible to use dxCreateTexture to load cubemaps and volume textures, but these will only be useable as inputs for a shader. The Microsoft utility [DxTex](http://nightly.mtasa.com/files/shaders/DxTex.zip) can view and change cubemaps and volume textures. DxTex can also convert standard textures into DXT1/3/5 compressed .dds which should reduce file sizes.
 
@@ -23,7 +23,7 @@ element dxCreateTexture ( int width, int height [, string textureFormat = "argb"
 
 or
 
--   **pixels:** [Pixels](/Texture_pixels.md "wikilink") containing image data. ('plain', 'jpeg' or 'png' pixels can be used here)
+-   **pixels:** [Pixels](/docs/Texture_pixels.md "wikilink") containing image data. ('plain', 'jpeg' or 'png' pixels can be used here)
 
 or
 
@@ -50,7 +50,7 @@ or
 Returns
 -------
 
-Returns a [texture](/texture.md "wikilink") if successful, *false* if invalid arguments were passed to the function.
+Returns a [texture](/docs/texture.md "wikilink") if successful, *false* if invalid arguments were passed to the function.
 
 Example
 -------

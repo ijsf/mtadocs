@@ -10,7 +10,7 @@ int getVehiclePanelState ( vehicle theVehicle, int panel )
 Required Arguments
 ------------------
 
--   **theVehicle:** the [vehicle](/vehicle.md "wikilink") that you wish to know the panel state of.
+-   **theVehicle:** the [vehicle](/docs/vehicle.md "wikilink") that you wish to know the panel state of.
 -   **panel:** an *integer* specifying the panel you want to know the state of. Not every vehicle has every panel. Possible values are:
     -   **0:** Front-left panel
     -   **1:** Front-right panel
@@ -23,7 +23,7 @@ Required Arguments
 Returns
 -------
 
-Returns an [int](/integer.md "wikilink") indicating the state of the specified the panel. This is a value between 0 and 3, with 0 indicating the panel is undamaged and 3 indicating it is very damaged.
+Returns an [int](/docs/integer.md "wikilink") indicating the state of the specified the panel. This is a value between 0 and 3, with 0 indicating the panel is undamaged and 3 indicating it is very damaged.
 
 Example
 -------

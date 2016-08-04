@@ -1,9 +1,9 @@
-Ammunations are functioning on all three islands on GTA3:MTA. You can purchase weapons, armor, health on all islands, and a taxi (for gamemode selection) on the [Shoreside Vale](/GTA3_SSV.md "wikilink") island. Ammunations can be found by holding down right-click while outside a vehicle, which will result in blips to appear on the radar. The only selectable weapons are:
+Ammunations are functioning on all three islands on GTA3:MTA. You can purchase weapons, armor, health on all islands, and a taxi (for gamemode selection) on the [Shoreside Vale](/docs/GTA3_SSV.md "wikilink") island. Ammunations can be found by holding down right-click while outside a vehicle, which will result in blips to appear on the radar. The only selectable weapons are:
 
 <table>
 <tr>
 <td>
-[Image:GTA3\_Uzi.png](/Image:GTA3_Uzi.png.md "wikilink")
+[Image:GTA3\_Uzi.png](/docs/Image:GTA3_Uzi.png.md "wikilink")
 
 </td>
 <td>
@@ -13,7 +13,7 @@ An Uzi is selected by default in the character selction menu. This is a good all
 </tr>
 <tr>
 <td>
-[Image:GTA3\_Flame.png](/Image:GTA3_Flame.png.md "wikilink")
+[Image:GTA3\_Flame.png](/docs/Image:GTA3_Flame.png.md "wikilink")
 
 </td>
 <td>
@@ -23,7 +23,7 @@ The Flamethrower is a popular choice, although flamethrowing players are often u
 </tr>
 <tr>
 <td>
-[Image:GTA3\_AK47.png](/Image:GTA3_AK47.png.md "wikilink")
+[Image:GTA3\_AK47.png](/docs/Image:GTA3_AK47.png.md "wikilink")
 
 </td>
 <td>
@@ -33,7 +33,7 @@ The AK-47 is suitable for long-range combat.
 </tr>
 <tr>
 <td>
-[Image:GTA3\_Shotgun.png](/Image:GTA3_Shotgun.png.md "wikilink")
+[Image:GTA3\_Shotgun.png](/docs/Image:GTA3_Shotgun.png.md "wikilink")
 
 </td>
 <td>

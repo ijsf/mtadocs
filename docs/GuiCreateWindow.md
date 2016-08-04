@@ -9,14 +9,14 @@ element guiCreateWindow ( float x, float y, float width, float height, string ti
 
 ### Required Arguments
 
-[frame|Example Window.](/Image:gui-window.png.md "wikilink")
+[frame|Example Window.](/docs/Image:gui-window.png.md "wikilink")
 
 -   **x:** A float of the 2D x position of the GUI window on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the GUI window on a player's screen. This is affected by the *relative* argument.
 -   **width:** A float of the width of the GUI window. This is affected by the *relative* argument.
 -   **height:** A float of the height of the GUI window. This is affected by the *relative* argument.
 -   **titleBarText:** A string of the text that will be displayed in the title bar of the window.
--   **relative:** This is whether sizes and positioning are relative. If this is *true*, then all x,y,width,height floats must be between 0 and 1, representing sizes/positions as a fraction of the screen size. If *false*, then the size and co-ordinates are based on client's resolution, accessible using [guiGetScreenSize](/guiGetScreenSize.md "wikilink").
+-   **relative:** This is whether sizes and positioning are relative. If this is *true*, then all x,y,width,height floats must be between 0 and 1, representing sizes/positions as a fraction of the screen size. If *false*, then the size and co-ordinates are based on client's resolution, accessible using [guiGetScreenSize](/docs/guiGetScreenSize.md "wikilink").
 
 ### Returns
 
@@ -91,4 +91,4 @@ addEventHandler ( "onClientResourceStart", getResourceRootElement(getThisResourc
 See Also
 --------
 
-[ru:guiCreateWindow](/ru:guiCreateWindow.md "wikilink")
+[ru:guiCreateWindow](/docs/ru:guiCreateWindow.md "wikilink")

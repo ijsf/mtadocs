@@ -1,6 +1,6 @@
-This event is triggered when an physical [element](/element.md "wikilink") hits a [colshape](/colshape.md "wikilink").
+This event is triggered when an physical [element](/docs/element.md "wikilink") hits a [colshape](/colshape.md "wikilink").
 
-**NOTE**: The hit won't be detected if the [element](/element.md "wikilink") that entered the colshape is a colshape or projectile.
+**NOTE**: The hit won't be detected if the [element](/docs/element.md "wikilink") that entered the colshape is a colshape or projectile.
 
 Parameters
 ----------
@@ -31,7 +31,7 @@ end
 addEventHandler("onClientColShapeHit",getRootElement(),onClientColShapeHit)
 ```
 
-[pl:onClientColShapeHit](/pl:onClientColShapeHit.md "wikilink")
+[pl:onClientColShapeHit](/docs/pl:onClientColShapeHit.md "wikilink")
 
 See Also
 --------

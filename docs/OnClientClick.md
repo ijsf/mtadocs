@@ -1,4 +1,4 @@
-This event triggers whenever the user clicks his mouse. This is linked to the GTA world, as oppose to GUI for which [onClientGUIClick](/onClientGUIClick.md "wikilink") is to be used. This event allows detection of click positions of the 3D world.
+This event triggers whenever the user clicks his mouse. This is linked to the GTA world, as oppose to GUI for which [onClientGUIClick](/docs/onClientGUIClick.md "wikilink") is to be used. This event allows detection of click positions of the 3D world.
 
 Parameters
 ----------
@@ -14,12 +14,12 @@ string button, string state, int absoluteX, int absoluteY, float worldX, float w
 -   **worldX**: This represents the 3D *x coordinate* the player clicked on the screen, and is relative to the GTA world.
 -   **worldY**: This represents the 3D *y coordinate* the player clicked on the screen, and is relative to the GTA world.
 -   **worldZ**: This represents the 3D *z coordinate* the player clicked on the screen, and is relative to the GTA world.
--   **clickedWorld**: This represents any physical [entity](/entity.md "wikilink") elements that were clicked. If the player clicked on no MTA element, it's set to false.
+-   **clickedWorld**: This represents any physical [entity](/docs/entity.md "wikilink") elements that were clicked. If the player clicked on no MTA element, it's set to false.
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
 
 Example
 -------
@@ -45,7 +45,7 @@ end
 addEventHandler ( "onClientClick", getRootElement(), addLabelOnClick )
 ```
 
-[pl:onClientClick](/pl:onClientClick.md "wikilink")
+[pl:onClientClick](/docs/pl:onClientClick.md "wikilink")
 
 See Also
 --------

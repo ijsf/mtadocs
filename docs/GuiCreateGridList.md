@@ -9,7 +9,7 @@ element guiCreateGridList ( float x, float y, float width, float height, bool re
 
 ### Required Arguments
 
-[frame|Example GUI gridlist.](/Image:Gui-gridlist.png.md "wikilink")
+[frame|Example GUI gridlist.](/docs/Image:Gui-gridlist.png.md "wikilink")
 
 -   **x:** A float of the 2D x position of the GUI gridlist on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the GUI gridlist on a player's screen. This is affected by the *relative* argument.

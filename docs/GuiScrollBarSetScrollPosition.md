@@ -28,4 +28,4 @@ This page lacks an example
 See Also
 --------
 
-[Catogory:Needs\_Example](/Catogory:Needs_Example.md "wikilink")
+[Catogory:Needs\_Example](/docs/Catogory:Needs_Example.md "wikilink")

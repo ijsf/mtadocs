@@ -10,7 +10,7 @@ bool guiStaticImageLoadImage ( element theElement, string filename )
 ### Required Arguments
 
 -   **theElement:** The static image element to be changed.
--   **filename:** A string specifying the [filepath](/filepath.md "wikilink") of the image file being loaded in current resource.
+-   **filename:** A string specifying the [filepath](/docs/filepath.md "wikilink") of the image file being loaded in current resource.
 
 ### Returns
 

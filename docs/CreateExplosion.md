@@ -17,7 +17,7 @@ bool createExplosion ( float x, float y, float z, int theType [, player creator 
 
 ### Optional Arguments
 
--   **creator:** the explosion's simulated creator, the [player](/player.md "wikilink") responsible for it.
+-   **creator:** the explosion's simulated creator, the [player](/docs/player.md "wikilink") responsible for it.
 
 </section>
 <section name="Client" class="client" show="true">
@@ -156,4 +156,4 @@ addEventHandler("fakeBomb",getRootElement(),fakeBomb)
 See Also
 --------
 
-[ru:createExplosion](/ru:createExplosion.md "wikilink")
+[ru:createExplosion](/docs/ru:createExplosion.md "wikilink")

@@ -7,13 +7,13 @@ Parameters
 string button, bool pressOrRelease
 ```
 
--   **button**: This refers the button pressed. see [Key names](/Key_names.md "wikilink") for list of keys string
+-   **button**: This refers the button pressed. see [Key names](/docs/Key_names.md "wikilink") for list of keys string
 -   **pressOrRelease**: This refers to whether they were pressing or releasing the key, true when pressing, false when releasing.
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
 
 Cancel effect
 -------------
@@ -45,7 +45,7 @@ addEventHandler( "onClientKey", root, function(button,press)
 end )
 ```
 
-[pl:onClientKey](/pl:onClientKey.md "wikilink")
+[pl:onClientKey](/docs/pl:onClientKey.md "wikilink")
 
 See Also
 --------

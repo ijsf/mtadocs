@@ -1,8 +1,8 @@
-<pageclass class="server"></pageclass> This page lists all **server-side** scripting [events](/event.md "wikilink") that have been implemented and are available in the Deathmatch mod.
+<pageclass class="server"></pageclass> This page lists all **server-side** scripting [events](/docs/event.md "wikilink") that have been implemented and are available in the Deathmatch mod.
 
-To request a function or event, use [Requested Functions and Events](/Requested_Functions_and_Events.md "wikilink").
+To request a function or event, use [Requested Functions and Events](/docs/Requested_Functions_and_Events.md "wikilink").
 
-'''Client-side scripting events can be found here: [Client Scripting Events](/Client_Scripting_Events.md "wikilink")
+'''Client-side scripting events can be found here: [Client Scripting Events](/docs/Client_Scripting_Events.md "wikilink")
 
 Client events
 -------------
@@ -37,4 +37,4 @@ Vehicle events
 Weapon events
 -------------
 
-[ru:Server Scripting Events](/ru:Server_Scripting_Events.md "wikilink") [fr:Server Scripting Events](/fr:Server_Scripting_Events.md "wikilink")
+[ru:Server Scripting Events](/docs/ru:Server_Scripting_Events.md "wikilink") [fr:Server Scripting Events](/fr:Server_Scripting_Events.md "wikilink")

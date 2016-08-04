@@ -1,4 +1,4 @@
-This function is used to get the current time in the game. If you want to get the real server time, use [getRealTime](/getRealTime.md "wikilink").
+This function is used to get the current time in the game. If you want to get the real server time, use [getRealTime](/docs/getRealTime.md "wikilink").
 
 Syntax
 ------
@@ -39,4 +39,4 @@ addCommandHandler("gettime", currentTime)
 See Also
 --------
 
-[ru:getTime](/ru:getTime.md "wikilink")
+[ru:getTime](/docs/ru:getTime.md "wikilink")

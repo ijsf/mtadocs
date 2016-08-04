@@ -1,4 +1,4 @@
-This function returns an [element](/element.md "wikilink") that corresponds to the current target of the specified player's camera (i.e. what it is following).
+This function returns an [element](/docs/element.md "wikilink") that corresponds to the current target of the specified player's camera (i.e. what it is following).
 
 Syntax
 ------
@@ -21,7 +21,7 @@ element getCameraTarget ()
 </section>
 ### Returns
 
--   Returns an [element](/element.md "wikilink") of the target if the function was successful, or *false* if bad arguments were specified
+-   Returns an [element](/docs/element.md "wikilink") of the target if the function was successful, or *false* if bad arguments were specified
 
 Example
 -------

@@ -13,7 +13,7 @@ player getPlayerFromPartialName ( string Name )
 
 ### Returns
 
-Returns a [player](/player.md "wikilink") if the partial name exists, *nil* otherwise.
+Returns a [player](/docs/player.md "wikilink") if the partial name exists, *nil* otherwise.
 
 Code
 ----

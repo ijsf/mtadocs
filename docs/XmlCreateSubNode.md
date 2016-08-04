@@ -9,12 +9,12 @@ xmlnode xmlCreateSubNode ( xmlnode parentNode, string tagname )
 
 ### Required Arguments
 
--   **parentNode:** the [xmlnode](/xmlnode.md "wikilink") you want to create a subnode of.
+-   **parentNode:** the [xmlnode](/docs/xmlnode.md "wikilink") you want to create a subnode of.
 -   **tagname:** the type of the subnode that will be created.
 
 ### Returns
 
-Returns the created [xmlnode](/xmlnode.md "wikilink") if successful, *false* otherwise.
+Returns the created [xmlnode](/docs/xmlnode.md "wikilink") if successful, *false* otherwise.
 
 Example
 -------

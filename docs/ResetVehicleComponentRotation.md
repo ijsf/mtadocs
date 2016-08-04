@@ -7,7 +7,7 @@ bool resetVehicleComponentRotation ( vehicle theVehicle, string theComponent )
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") you wish to reset component rotation.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") you wish to reset component rotation.
 -   **theComponent:** A vehicle component (this is the frame name from the model file of the component you wish to modify)
 
 ### Returns

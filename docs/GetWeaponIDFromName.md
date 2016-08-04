@@ -9,11 +9,11 @@ int getWeaponIDFromName ( string name )
 
 ### Required Arguments
 
--   **name:** A [string](/string.md "wikilink") containing the name of the weapon. Names can be: (Case is ignored)
+-   **name:** A [string](/docs/string.md "wikilink") containing the name of the weapon. Names can be: (Case is ignored)
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") if the name matches that of a weapon, *false* otherwise.
+Returns an [int](/docs/int.md "wikilink") if the name matches that of a weapon, *false* otherwise.
 
 Example
 -------
@@ -46,4 +46,4 @@ addCommandHandler ( "weapon", consoleGiveWeapon )
 See Also
 --------
 
-[ru:getWeaponIDFromName](/ru:getWeaponIDFromName.md "wikilink")
+[ru:getWeaponIDFromName](/docs/ru:getWeaponIDFromName.md "wikilink")

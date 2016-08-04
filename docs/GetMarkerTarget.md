@@ -1,4 +1,4 @@
-This function returns the position of the specified marker's target, the position it points to. This only works for checkpoint markers and ring markers. For checkpoints it returns the position the arrow is pointing to, for ring markers it returns the position the ring is facing. You can set this target with [setMarkerTarget](/setMarkerTarget.md "wikilink").
+This function returns the position of the specified marker's target, the position it points to. This only works for checkpoint markers and ring markers. For checkpoints it returns the position the arrow is pointing to, for ring markers it returns the position the ring is facing. You can set this target with [setMarkerTarget](/docs/setMarkerTarget.md "wikilink").
 
 Syntax
 ------

@@ -7,11 +7,11 @@ table getAccountsBySerial ( string serial )
 
 ### Required Arguments
 
--   **serial:** The [serial](/serial.md "wikilink") to get accounts from
+-   **serial:** The [serial](/docs/serial.md "wikilink") to get accounts from
 
 ### Returns
 
-Returns *[table](/table.md "wikilink")* containing the accounts associated with specified serial. Returns *false* if invalid arguments were specified.
+Returns *[table](/docs/table.md "wikilink")* containing the accounts associated with specified serial. Returns *false* if invalid arguments were specified.
 
 Example
 -------
@@ -30,4 +30,4 @@ addCommandHandler("getAccounts",
 See Also
 --------
 
-[pl:getAccountsBySerial](/pl:getAccountsBySerial.md "wikilink")
+[pl:getAccountsBySerial](/docs/pl:getAccountsBySerial.md "wikilink")

@@ -10,7 +10,7 @@ bool setVehicleLightState ( vehicle theVehicle, int light, int state )
 Required Arguments
 ------------------
 
--   **theVehicle:** A handle to the [vehicle](/vehicle.md "wikilink") that you wish to change the light state of.
+-   **theVehicle:** A handle to the [vehicle](/docs/vehicle.md "wikilink") that you wish to change the light state of.
 -   **light:** A whole number determining the individual light. (0 - 3)
 -   **state:** A whole number determining the new state of the light. *0* represents normal lights, and *1* represents broken lights.
 

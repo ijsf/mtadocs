@@ -9,11 +9,11 @@ string xmlNodeGetValue ( xmlnode theXMLNode )
 
 ### Required Arguments
 
--   **theXMLNode:** The [xml node](/xml_node.md "wikilink") of which you need to know the value.
+-   **theXMLNode:** The [xml node](/docs/xml_node.md "wikilink") of which you need to know the value.
 
 ### Returns
 
-Returns the value of the node as a [string](/string.md "wikilink") if it was received successfully, *false* otherwise.
+Returns the value of the node as a [string](/docs/string.md "wikilink") if it was received successfully, *false* otherwise.
 
 Example
 -------

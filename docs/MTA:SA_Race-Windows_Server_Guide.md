@@ -8,23 +8,23 @@ Before you start to install, make sure you have permission from the owner of the
 Step 1: Downloading the software
 --------------------------------
 
-[thumb|150px|right|Downloading the software.](/Image:Mtasa-server_win01.png.md "wikilink") Sounds obvious, but some people don't know how to. Start by navigating yourself to the [downloads page](http://light.mtavc.com/). Once here, pick your download from one of the mirrors. You will need to download *MTA:SA 1.1.1 Dedicated Server - Windows*. It's probably wise that you pick the mirror which is in the location geographically closest to you, because in theory the closer it is, the less hops, and the faster download speed you will achieve. For this example, I'm going to pick my own mirror since it's in the United Kingdom like me, and is infact hosted on my ISP's webserver so I should get the highest speed.
+[thumb|150px|right|Downloading the software.](/docs/Image:Mtasa-server_win01.png.md "wikilink") Sounds obvious, but some people don't know how to. Start by navigating yourself to the [downloads page](http://light.mtavc.com/). Once here, pick your download from one of the mirrors. You will need to download *MTA:SA 1.1.1 Dedicated Server - Windows*. It's probably wise that you pick the mirror which is in the location geographically closest to you, because in theory the closer it is, the less hops, and the faster download speed you will achieve. For this example, I'm going to pick my own mirror since it's in the United Kingdom like me, and is infact hosted on my ISP's webserver so I should get the highest speed.
 
 When prompted with the download window, choose to **Save** the file to your desktop.
 
 Step 2: Extracting the files
 ----------------------------
 
-[thumb|150px|right|Extracting the files.](/Image:Mtasa-server_win02.png.md "wikilink") Once saved to your desktop, you will need to extract the files. Since the files are compressed into a RAR archive, you will need software capable of extracting from it. The most popular software is [WinRAR](http://www.rarlabs.com/). Depending on which software you are using, you should be able to double click the RAR file and extract it to a new folder on your desktop (pictured right).
+[thumb|150px|right|Extracting the files.](/docs/Image:Mtasa-server_win02.png.md "wikilink") Once saved to your desktop, you will need to extract the files. Since the files are compressed into a RAR archive, you will need software capable of extracting from it. The most popular software is [WinRAR](http://www.rarlabs.com/). Depending on which software you are using, you should be able to double click the RAR file and extract it to a new folder on your desktop (pictured right).
 
 After extraction, you will have a new folder on your desktop called *mtaserver-win32-v1.1.1* (version number correct at time of writing).
 
 Step 3: Installation
 --------------------
 
-[thumb|150px|right|Installing the server.](/Image:Mtasa-server_win03.png.md "wikilink") Navigate into your new folder on the desktop and double click on *MTA Server Setup.exe* which should be the only file inside the folder. You will be presented with a screen similar to the one in the picture on the right.
+[thumb|150px|right|Installing the server.](/docs/Image:Mtasa-server_win03.png.md "wikilink") Navigate into your new folder on the desktop and double click on *MTA Server Setup.exe* which should be the only file inside the folder. You will be presented with a screen similar to the one in the picture on the right.
 
-Click Next. You will now be presented with the **[End User Licence Agreement](/End_User_Licence_Agreement.md "wikilink")** (EULA). You MUST agree to this and abide by it if you plan to install the software. Read carefully through it and if you agree, click *I Agree.* If you do not agree, or intend to violate the agreement at any time in the future, you are legally required to cancel the installation. The next screen you get to will ask which components you would like to install. Since the full install is only 6.8MB in size, I suggest you leave them all ticked (default) and click Next. Now you are asked which directory you would like to install the server to. By default, it is:
+Click Next. You will now be presented with the **[End User Licence Agreement](/docs/End_User_Licence_Agreement.md "wikilink")** (EULA). You MUST agree to this and abide by it if you plan to install the software. Read carefully through it and if you agree, click *I Agree.* If you do not agree, or intend to violate the agreement at any time in the future, you are legally required to cancel the installation. The next screen you get to will ask which components you would like to install. Since the full install is only 6.8MB in size, I suggest you leave them all ticked (default) and click Next. Now you are asked which directory you would like to install the server to. By default, it is:
 
 `C:\Program Files\MTA San Andreas`
 
@@ -33,7 +33,7 @@ For simplicity and to make it easier for us to help you in the future, should yo
 Step 4: Configuration
 ---------------------
 
-[thumb|150px|right|Configuring the server.](/Image:Mtasa-server_win04.png.md "wikilink") Configuring the server is easy. Browse to the folder you installed the server in (the default directory is mentioned above in the last step). In this folder there should be another folder called *server*. Open it, and inside this folder will be another folder called *mods*, and inside this, another folder called *race*. Once in the *race* directory, you will see a file called *mtaserver.conf*. This is your server configuration file. Right click on the file, choose Open With and select Wordpad. You should now see something like the picture on the right.
+[thumb|150px|right|Configuring the server.](/docs/Image:Mtasa-server_win04.png.md "wikilink") Configuring the server is easy. Browse to the folder you installed the server in (the default directory is mentioned above in the last step). In this folder there should be another folder called *server*. Open it, and inside this folder will be another folder called *mods*, and inside this, another folder called *race*. Once in the *race* directory, you will see a file called *mtaserver.conf*. This is your server configuration file. Right click on the file, choose Open With and select Wordpad. You should now see something like the picture on the right.
 
 In the configuration there are many variables you can change to suit your needs. As an example of how to edit them, I will use the ServerPassword variable. By default, it looks like this:
 
@@ -58,7 +58,7 @@ Pretty simple, eh? The rest of the config is fairly self explanatory.
 Step 5: Running the server
 --------------------------
 
-[thumb|150px|right|The server window.](/Image:Mtasa-server_win05.png.md "wikilink") Go back to the *C:\\Program Files\\MTA San Andreas\\server\\* directory, or wherever you installed the server. There will be a file called *MTA Server.exe.* As long as your server is configured, it is ready to be run. To start the server, double click the exe file. A DOS window will appear and look something like my screenshot on the right, depending on how you've configured the server.
+[thumb|150px|right|The server window.](/docs/Image:Mtasa-server_win05.png.md "wikilink") Go back to the *C:\\Program Files\\MTA San Andreas\\server\\* directory, or wherever you installed the server. There will be a file called *MTA Server.exe.* As long as your server is configured, it is ready to be run. To start the server, double click the exe file. A DOS window will appear and look something like my screenshot on the right, depending on how you've configured the server.
 
 Congratulations - your server is now running!
 
@@ -90,4 +90,4 @@ External Links
 -   [IRC Chat](http://www.multitheftauto.com/irc.php)
 -   [WinRAR](http://www.rarlabs.com/)
 
-[Category:MTA:SA Race](/Category:MTA:SA_Race.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink")
+[Category:MTA:SA Race](/docs/Category:MTA:SA_Race.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink")

@@ -1,4 +1,4 @@
-This event is triggered when a player leaves the area of a marker created using [createMarker](/createMarker.md "wikilink").
+This event is triggered when a player leaves the area of a marker created using [createMarker](/docs/createMarker.md "wikilink").
 
 Parameters
 ----------
@@ -13,7 +13,7 @@ player leftPlayer, bool matchingDimension
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [marker](/marker.md "wikilink") that the player left.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [marker](/marker.md "wikilink") that the player left.
 
 Example
 -------

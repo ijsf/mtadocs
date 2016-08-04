@@ -9,7 +9,7 @@ string getVehicleNameFromID ( int id )
 
 ### Required Arguments
 
--   **id:** This is a vehicle id. See [vehicle](/vehicle.md "wikilink") to see what values will return names (true).
+-   **id:** This is a vehicle id. See [vehicle](/docs/vehicle.md "wikilink") to see what values will return names (true).
 
 ### Returns
 

@@ -1,6 +1,6 @@
 This function splits a string into substrings. You specify a character that will act as a separating character; this will determine where to split the sub-strings. For example, it can split the string “Hello World” into two strings containing the two words, by spliting using a space as a separator.
 
-**Note:** You can use the function [gettok](/gettok.md "wikilink") to retrieve a single token from the string at a specific index. This may be faster for one-off lookups, but considerably slower if you are going to check each token in a long string.
+**Note:** You can use the function [gettok](/docs/gettok.md "wikilink") to retrieve a single token from the string at a specific index. This may be faster for one-off lookups, but considerably slower if you are going to check each token in a long string.
 
 Syntax
 ------
@@ -12,7 +12,7 @@ table split ( string stringToSplit, string / int separatingChar )
 ### Required Arguments
 
 -   **stringToSplit** The string you wish to split into parts.
--   **separatingChar** A string of the character you want to split, or the [ASCII number](/ASCII.md "wikilink") representing the character you want to use to split.
+-   **separatingChar** A string of the character you want to split, or the [ASCII number](/docs/ASCII.md "wikilink") representing the character you want to use to split.
 
 ### Returns
 

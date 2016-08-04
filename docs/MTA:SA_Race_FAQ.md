@@ -4,11 +4,11 @@ A: You can get it from [here](http://mtasa.com/downloads.php).
 
 -   **Q: I've encountered a bug or other issue**
 
-A: See the [Know Issues](/MTA:SA_Race_Known_Issues.md "wikilink") page.
+A: See the [Know Issues](/docs/MTA:SA_Race_Known_Issues.md "wikilink") page.
 
 -   **Q: Is it true that MTA:SA is racing only?**
 
-A: R1 of MTA:SA incorporates only racing. However, it is possible to engage in vehicle combat with tanks and [Hydras](/Hydras.md "wikilink"). Deathmatch will be added in a later release, once walking and shooting code has been finished.
+A: R1 of MTA:SA incorporates only racing. However, it is possible to engage in vehicle combat with tanks and [Hydras](/docs/Hydras.md "wikilink"). Deathmatch will be added in a later release, once walking and shooting code has been finished.
 
 -   **Q: Does it work with all versions of San Andreas?**
 
@@ -16,9 +16,9 @@ A: R1 only works with v1.0. If you have installed the “no hot coffee” patch 
 
 You may also want to try applying a downgrader patch, which is available [here](http://forum.mtasa.com/viewtopic.php?t=15151). This will revert your *gta-sa.exe* file back to v1.0. Note that it will not change any other files that were modified by the patch.
 
--   **Q: I heard that MTA [Blue](/Blue.md "wikilink") (the new core that MTA:SA uses) allows modifications. Can we modify R1?**
+-   **Q: I heard that MTA [Blue](/docs/Blue.md "wikilink") (the new core that MTA:SA uses) allows modifications. Can we modify R1?**
 
-A: You will be able to create fully-fledged modifications once the [SDK](/SDK.md "wikilink") is released. This will be released once all mod support code is complete (after Deathmatch). In the meantime, MTA:SA R1 comes with a map editor that allows you to create unique racing maps with in-game objects, ramps, exploding barrels and more.
+A: You will be able to create fully-fledged modifications once the [SDK](/docs/SDK.md "wikilink") is released. This will be released once all mod support code is complete (after Deathmatch). In the meantime, MTA:SA R1 comes with a map editor that allows you to create unique racing maps with in-game objects, ramps, exploding barrels and more.
 
 -   **Q: Why is the frame rate stuck at 25 fps?**
 
@@ -44,4 +44,4 @@ A: There is no reason for this to be the case, beyond the fact that MTA uses up 
 
 A: In R1, they are only partially synchronised. This means that sometimes the missiles will hit and sometimes they will not, depending on lag. They will be fully synced in a future release.
 
-[Category:MTA:SA Race](/Category:MTA:SA_Race.md "wikilink")
+[Category:MTA:SA Race](/docs/Category:MTA:SA_Race.md "wikilink")

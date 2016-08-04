@@ -1,4 +1,4 @@
-This function subtracts money from a [player](/player.md "wikilink")'s current money amount.
+This function subtracts money from a [player](/docs/player.md "wikilink")'s current money amount.
 
 Syntax
 ------
@@ -10,7 +10,7 @@ bool takePlayerMoney ( player thePlayer, int amount )
 
 #### Required Arguments
 
--   **thePlayer:** the [player](/player.md "wikilink") you are taking the money from.
+-   **thePlayer:** the [player](/docs/player.md "wikilink") you are taking the money from.
 -   **amount:** an integer number specifying the amount of money to take from the player.
 
 </section>
@@ -45,4 +45,4 @@ addCommandHandler ( "takecash", takeCash )           -- add a handler function f
 See Also
 --------
 
-[ru:takePlayerMoney](/ru:takePlayerMoney.md "wikilink")
+[ru:takePlayerMoney](/docs/ru:takePlayerMoney.md "wikilink")

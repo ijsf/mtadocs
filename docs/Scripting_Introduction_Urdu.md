@@ -1,4 +1,4 @@
-Ye Scripting Introduction Urdu Meu Originally Translate Ki Gai Hai, Is Meu Kisi Bhi Tarah Ke Translator Ki Madad Nahi Li Gai, Ye Officially Created Ki Gai Hi By [Bilal](/User:Bilal.md "wikilink"). Ye tutorial ab complete hai.
+Ye Scripting Introduction Urdu Meu Originally Translate Ki Gai Hai, Is Meu Kisi Bhi Tarah Ke Translator Ki Madad Nahi Li Gai, Ye Officially Created Ki Gai Hi By [Bilal](/docs/User:Bilal.md "wikilink"). Ye tutorial ab complete hai.
 
 Lets Start
 ----------
@@ -62,13 +62,13 @@ Ye script ap ko coordinate (x, y, z) pe saw kare gi, jab ap game ko join kareu g
 
 *source* variable batata hai ke kis ne event ko trigger kiya hai. Jab koi player join karta hai, ap is code ko ye pata lagane ke liye use kar sakte hain ke kis ne join kiya hai. So ye spawn hameu kisi random player pe nahi kare gi.
 
-Agar ham gor se dekhey [addEventHandler](/addEventHandler.md "wikilink") ko, to ap ko 3 cheezeu nazar aain gi, 'onPlayerJoin', jo batata hai jab event ko trigger kiya jaata hai. 'getRootElement()', jo batata hai ke kya/kis par ye trigger kiya jaa sakta hai. Aur 'joinHandler' jo batata hai ke konsa function trigger ho ga jab ham event ko trigger kareu gay. Aur details agge explain ki jain gi aik aur example main, ab ham server ko start karte hain aur script ko try karte hain!
+Agar ham gor se dekhey [addEventHandler](/docs/addEventHandler.md "wikilink") ko, to ap ko 3 cheezeu nazar aain gi, 'onPlayerJoin', jo batata hai jab event ko trigger kiya jaata hai. 'getRootElement()', jo batata hai ke kya/kis par ye trigger kiya jaa sakta hai. Aur 'joinHandler' jo batata hai ke konsa function trigger ho ga jab ham event ko trigger kareu gay. Aur details agge explain ki jain gi aik aur example main, ab ham server ko start karte hain aur script ko try karte hain!
 
 ### Script Ko Chalana
 
 Server ko start karne ke liye, ap ko simply chalana hai excutable jo ke server directory main hai. Stats ki list sab se pehle show ho gi, is baat ka khyaal rakheu ke port number, ap ko game join karne ke liye chahiye ho ga. Phir server saari resources ko load kar leta hai aur phir “Ready to accept connections!” Connect karne se pehle, ap ko gamemode run karna bohat zaroori hai. Type kareu “start myserver” aur enter press kareu. Server gamemode ko start kar de ga jo ap ne abhi banaya, aur ab se koi errors aur warnings bhi show kare ga. Ab ap MTA ko start kareu, aur “Quick Connect” main apnay IP adress se connect kareu. Agar sab kuch theek hota hai, kuch der baad ap ka character streets pe walk kar raha ho ga Los Santos ki.
 
-Ab aage ham command daleu gay jo players vehicle ko spawn karne ke liye use kar sakte hain apne position pe. Ap shaid is ko skip kar deu aur check kareu [Map Manager](/Map_manager.md "wikilink"), jo is tutorial ko continue karta hai. Is tutorial ki aik aur branch bhi hai, [Introduction to Scripting GUI](/Introduction_to_Scripting_GUI.md "wikilink"), ap is ko follow kar sakte hain aur pata chala sakte hain ke kese MTA Graphical User Interface MTA meu draw ki jaati hai aur kese script ki jaati hai.
+Ab aage ham command daleu gay jo players vehicle ko spawn karne ke liye use kar sakte hain apne position pe. Ap shaid is ko skip kar deu aur check kareu [Map Manager](/docs/Map_manager.md "wikilink"), jo is tutorial ko continue karta hai. Is tutorial ki aik aur branch bhi hai, [Introduction to Scripting GUI](/Introduction_to_Scripting_GUI.md "wikilink"), ap is ko follow kar sakte hain aur pata chala sakte hain ke kese MTA Graphical User Interface MTA meu draw ki jaati hai aur kese script ki jaati hai.
 
 Aik Simple Command Ko Banana
 ----------------------------
@@ -101,13 +101,13 @@ functionName(thePlayer, commandName, argument3, ..)
 
 Agar ham gor se dekheu above example ko, ham dekh sakhte hain argument1 jo ke thePlayer hai aur argument2 commandName hai. thePlayer woh hai jis ne command ko type kiya ho ga. Isi liye ap jo bhi isay kaheu, variable contain kare ga player jis ne is command ko activate kiya ho ga. commandName woh hai jo player ne type ki ho gi. Agar woh type kareu "/greet", ye argument contain kare ga “greet”. Argument 3 aik extra line hai jo ham ne type ki hai. Ham is ke baare meu seekheu ge thora sa aage. Is ko naa bhooleu ke first 2 arguments, standard arguments hain, lekin ap is ko koi bhi name de sakte hain.
 
-Ham ne call kiya [addCommandHandler](/addCommandHandler.md "wikilink") ko is way mein aur jab se *createVeicleForPlayer* aik function hai, ye bhi us tareeqay se call kiya jaa sakta hai. Lekin ham us ke liye command handler use kar rahe hain, jo ke aik similar manner meu isse call karta hai. Aik example: Koi type karta hai “createvehicle 468” game meu, console meu Sanchez ko spawn karne ke liye, Command handler call karta hai createVehicleForPlayer function ko, jese **'if**' ham code ke is line ko script meu leu gay:
+Ham ne call kiya [addCommandHandler](/docs/addCommandHandler.md "wikilink") ko is way mein aur jab se *createVeicleForPlayer* aik function hai, ye bhi us tareeqay se call kiya jaa sakta hai. Lekin ham us ke liye command handler use kar rahe hain, jo ke aik similar manner meu isse call karta hai. Aik example: Koi type karta hai “createvehicle 468” game meu, console meu Sanchez ko spawn karne ke liye, Command handler call karta hai createVehicleForPlayer function ko, jese **'if**' ham code ke is line ko script meu leu gay:
 
 ``` lua
 createVehicleForPlayer(thePlayer,"createvehicle","468") -- thePlayer player element hai, woh jis ne ye command type ki.
 ```
 
-Jese ke ham dekh sakte hain, ye bohat se parameters provide karta hai: woh player jis ne is command ko call ki, woh command jo us ne enter ki aur text us ke baad jo us ko dikha, is case meu “468” vehicle id hai Sanchez ki. Pehle 2 parameters sae hain all command handlers ke saath, jo ke aap read kar sakte hain [addEventHandler](/addEventHandler.md "wikilink") page par. Is fact ke liye, aap ko at least 2 parameters ko define karna hota hai jo ap us ke baad use karte hain.
+Jese ke ham dekh sakte hain, ye bohat se parameters provide karta hai: woh player jis ne is command ko call ki, woh command jo us ne enter ki aur text us ke baad jo us ko dikha, is case meu “468” vehicle id hai Sanchez ki. Pehle 2 parameters sae hain all command handlers ke saath, jo ke aap read kar sakte hain [addEventHandler](/docs/addEventHandler.md "wikilink") page par. Is fact ke liye, aap ko at least 2 parameters ko define karna hota hai jo ap us ke baad use karte hain.
 
 *Note: Aap ko command handler ko add karna hota hai, handler function ko define karne ke baad, warne ye isse find nahi kar paai ga.*
 
@@ -120,7 +120,7 @@ Function ko fill karne ke liye, jo ham ne banaya, hameu sochna pare ga ke hameu 
 -   Vehicle ko spawn karna hai.
 -   Check karna hai ke vehicle spawn hua hai ke nahi, aur aik message ko output karna hai.
 
-Apne goals ko achieve karne ke liye, hameu bohat se functions use karne pareu gay. Functions ko find karne ke liye, hameu visit karna chahiye [Sserver Functions List](/Scripting_Functions.md "wikilink") Sab se pehle hameu aik function chahiye player ki position ka pata lagaane ke liye. Jab se players elements hain, ham sab se pehle jump karte hain **Element functions** jahan par hameu pata chalta hai [getElementPosition](/getElementPosition.md "wikilink") function ke baate meu. Function name ko click karne ke baad, hameu function ki description pata chal jai gi. Wahan par ham syntax dekh sakte hain, ye kya return karti hai aur usually aik example. Syntax hameu batata hai ke kon se arguments ham kar sakte hain aur karne hain submit. [getElementPosition](/getElementPosition.md "wikilink") ke liye syntax ye hai:
+Apne goals ko achieve karne ke liye, hameu bohat se functions use karne pareu gay. Functions ko find karne ke liye, hameu visit karna chahiye [Sserver Functions List](/docs/Scripting_Functions.md "wikilink") Sab se pehle hameu aik function chahiye player ki position ka pata lagaane ke liye. Jab se players elements hain, ham sab se pehle jump karte hain **Element functions** jahan par hameu pata chalta hai [getElementPosition](/getElementPosition.md "wikilink") function ke baate meu. Function name ko click karne ke baad, hameu function ki description pata chal jai gi. Wahan par ham syntax dekh sakte hain, ye kya return karti hai aur usually aik example. Syntax hameu batata hai ke kon se arguments ham kar sakte hain aur karne hain submit. [getElementPosition](/getElementPosition.md "wikilink") ke liye syntax ye hai:
 
 ``` lua
 float, float, float getElementPosition ( element theElement )
@@ -145,7 +145,7 @@ function createVehicleForPlayer(thePlayer, command, vehicleModel)
 end
 ```
 
-Ab hameu aik aur function chahiye jis se aik vehicle spawn ho. Isi liye, aik baar phir ham search kareu gay [Server Functions List](/Scripting_Functions.md "wikilink") Jab se ham vehicles kay baare meu baat kar rahe hain, **Vehicle functions** section meu, ham choose kareu gay [createVehicle](/createVehicle.md "wikilink") ko. Is function kay syntax meu, hamaray paas sirf aik return type hai, jo ke zyada common hai. Hum ne ye bhi dekha ke kuch arguments \[ \] se close huay hain, matlab ye optional hain. Hamaray paas already woh saare arguments hain jo hameu [createVehicle](/createVehicle.md "wikilink") ke liye chahiyain, hamaray function meu. Woh position jo ham ne abhi calculate ki *x, y, z* variables main, aur model id jo ham ne provice ki thi command ke through (“createvehicle 468”) aur ham function ko access kar sakte hain as *vehicleModel* variable.
+Ab hameu aik aur function chahiye jis se aik vehicle spawn ho. Isi liye, aik baar phir ham search kareu gay [Server Functions List](/docs/Scripting_Functions.md "wikilink") Jab se ham vehicles kay baare meu baat kar rahe hain, **Vehicle functions** section meu, ham choose kareu gay [createVehicle](/createVehicle.md "wikilink") ko. Is function kay syntax meu, hamaray paas sirf aik return type hai, jo ke zyada common hai. Hum ne ye bhi dekha ke kuch arguments \[ \] se close huay hain, matlab ye optional hain. Hamaray paas already woh saare arguments hain jo hameu [createVehicle](/createVehicle.md "wikilink") ke liye chahiyain, hamaray function meu. Woh position jo ham ne abhi calculate ki *x, y, z* variables main, aur model id jo ham ne provice ki thi command ke through (“createvehicle 468”) aur ham function ko access kar sakte hain as *vehicleModel* variable.
 
 ``` lua
 function createVehicleForPlayer(thePlayer, command, vehicleModel)
@@ -156,7 +156,7 @@ function createVehicleForPlayer(thePlayer, command, vehicleModel)
 end
 ```
 
-Of course ye code ko improve kiya jaa sakta hai bohat say ways mein, lekin ham aik check banana chahtay hain ke ye vehicle create hui thi ya nahi. Jese ke ham read kar sakte hain [createVehicle](/createVehicle.md "wikilink") page par, **Returns** ke neeche, function return hota hai, *false*, jab ye vehicle ko create nahi kar paya tha. Hum *createVehicle* variable ki value ko check karte hain.
+Of course ye code ko improve kiya jaa sakta hai bohat say ways mein, lekin ham aik check banana chahtay hain ke ye vehicle create hui thi ya nahi. Jese ke ham read kar sakte hain [createVehicle](/docs/createVehicle.md "wikilink") page par, **Returns** ke neeche, function return hota hai, *false*, jab ye vehicle ko create nahi kar paya tha. Hum *createVehicle* variable ki value ko check karte hain.
 
 Ab hamare paas poori complete script hai:
 
@@ -174,7 +174,7 @@ end
 addCommandHandler("createvehicle", createVehicleForPlayer)
 ```
 
-Jese ke ap ko pata hai, ham ne aik naya function introduce kiya hai [outputChatBox](/outputChatBox.md "wikilink").Ap ab functions ke documentation pages ko khud dekh sakte hain.Zyada advanced scripting kay liye, check kareu [Map Manager](/Map_manager.md "wikilink").
+Jese ke ap ko pata hai, ham ne aik naya function introduce kiya hai [outputChatBox](/docs/outputChatBox.md "wikilink").Ap ab functions ke documentation pages ko khud dekh sakte hain.Zyada advanced scripting kay liye, check kareu [Map Manager](/Map_manager.md "wikilink").
 
 Ap Ko Kya Pata Hona Chahiye
 ---------------------------
@@ -191,7 +191,7 @@ Zyada tar scripts jo ap banin gay jese ke gamemodes, maps, server sided hi hon g
 <script src="client.lua" type="client" />
 ```
 
-*type* ko agar aap add nahi kareu gey to woh automatically server side ban jai ga, is liye a ko batana parhey ga ke ye cilent sided script hai meta.xml meu. Cilent sided script download ho jai gi player ke computer meu jab woh join kare ga server ko. Is ke baare meu parhein zyada idhar [Client side scripts](/Client_side_scripts.md "wikilink").
+*type* ko agar aap add nahi kareu gey to woh automatically server side ban jai ga, is liye a ko batana parhey ga ke ye cilent sided script hai meta.xml meu. Cilent sided script download ho jai gi player ke computer meu jab woh join kare ga server ko. Is ke baare meu parhein zyada idhar [Client side scripts](/docs/Client_side_scripts.md "wikilink").
 
 ### Mushkil Resources Ke Baare Meu
 
@@ -243,7 +243,7 @@ Ye aik example hai jo har waqt run ho rahi hoti hai, aur ye bohat useful hai poo
     -   .. aur shaid more features.
 -   *buymenu.lua* aik cilentside script hai jo aik menu ko create karti hai weapons ko buy karne ke liye.
 
-Is example ko game mode kehte hain, jab se ye sirf gameplay se interfere nahi karti, balke rules ko define bhi karti hai. *type* batata hai ke ye example work kari hai [Map manager](/Map_manager.md "wikilink") kay saath. Is ka ye bhi matlab hai ke ye game mode map kay bagair nahi work karta. Gamemode ko hamesha generic hona chahiye. Next example meu aik map start hota hai.
+Is example ko game mode kehte hain, jab se ye sirf gameplay se interfere nahi karti, balke rules ko define bhi karti hai. *type* batata hai ke ye example work kari hai [Map manager](/docs/Map_manager.md "wikilink") kay saath. Is ka ye bhi matlab hai ke ye game mode map kay bagair nahi work karta. Gamemode ko hamesha generic hona chahiye. Next example meu aik map start hota hai.
 
 #### Teesri Example - Aik Map
 
@@ -272,7 +272,7 @@ Is example ko game mode kehte hain, jab se ye sirf gameplay se interfere nahi ka
     -   Custom objects ko banana ya move karna.
     -   Aur kuch jo ap soch sakte hain..
 
-Jese ke ap dekh sakte hain ke *type* badal gaya hai 'map' meu, jo hameu bata raha hai ke [Map manager](/Map_manager.md "wikilink") resource aik map hai, jab ke *gamemodes* bata raha hai ke ye map valid hai, game mode is example ke ooper hai. Shaid ap ko ye kuch surprise lage kyun ke aik aur script bhi hai mao resource main. Ofcourse ye necessarily map meu nahi chahiye, lekin ye bohat se possibilities ko open kar deti hai map makers kay liye, ke woh apna world bana paiin. The *airport.map* file might look similiar to this:
+Jese ke ap dekh sakte hain ke *type* badal gaya hai 'map' meu, jo hameu bata raha hai ke [Map manager](/docs/Map_manager.md "wikilink") resource aik map hai, jab ke *gamemodes* bata raha hai ke ye map valid hai, game mode is example ke ooper hai. Shaid ap ko ye kuch surprise lage kyun ke aik aur script bhi hai mao resource main. Ofcourse ye necessarily map meu nahi chahiye, lekin ye bohat se possibilities ko open kar deti hai map makers kay liye, ke woh apna world bana paiin. The *airport.map* file might look similiar to this:
 
 ``` xml
 <map mode="deathmatch" version="1.0">
@@ -290,11 +290,11 @@ Jese ke ap dekh sakte hain ke *type* badal gaya hai 'map' meu, jo hameu bata rah
 </map>
 ```
 
-Jab koi game mode start hota hai aik map ke saath, map resource khud ba khud start ho jati hai map manager ki waja se aur ye jo information contain karti hai, woh game mode read kar sakta hai. Jab koi map badalta hai, pehle wala map stop ho jata hai aur naya start ho jata hai, zyada explanation ke liye visit kareu [Writing Gamemodes](/Writing_Gamemodes.md "wikilink") page ko.
+Jab koi game mode start hota hai aik map ke saath, map resource khud ba khud start ho jati hai map manager ki waja se aur ye jo information contain karti hai, woh game mode read kar sakta hai. Jab koi map badalta hai, pehle wala map stop ho jata hai aur naya start ho jata hai, zyada explanation ke liye visit kareu [Writing Gamemodes](/docs/Writing_Gamemodes.md "wikilink") page ko.
 
 ### Events
 
-Events kuch aise cheezeu hain jo mta ko batati hain un cheezou ke baare meu jo hoti hain. Jese ke jab koi player mar jata hai, [onPlayerWasted](/onPlayerWasted.md "wikilink") event ko trigger kiya jaata hai. Agar hameu koi action ko perforum karna hai jab koi player mar jaata hai, ap ko apne aap ko tyaar rakhna hai aik command handler ko dalne ke liye, jese ke is meu hai [Sab Se Pehla Chapter](/#Aik_Working_Script_Ko_Banana.md "wikilink").
+Events kuch aise cheezeu hain jo mta ko batati hain un cheezou ke baare meu jo hoti hain. Jese ke jab koi player mar jata hai, [onPlayerWasted](/docs/onPlayerWasted.md "wikilink") event ko trigger kiya jaata hai. Agar hameu koi action ko perforum karna hai jab koi player mar jaata hai, ap ko apne aap ko tyaar rakhna hai aik command handler ko dalne ke liye, jese ke is meu hai [Sab Se Pehla Chapter](/#Aik_Working_Script_Ko_Banana.md "wikilink").
 
 Ye example aik message output kare gi us player ke naam se jo marra ho ga:
 
@@ -305,14 +305,14 @@ end
 addEventHandler("onPlayerWasted",getRootElement(),playerDied)
 ```
 
-Documentation page Events ka batata hai ke parameters pass kiye jaate hain handler function pe, Is se milta julta aik [Command Handlers](/#Command_Handlers_Ke_Baare_Meu.md "wikilink") har event aik doosre se different hota hai. Aik aur important point hai *source* variable, jo ke handler functions meu exist karta hai. Is ko parameter list meu add karne ki koi zaroorat nahi, lekin fir bhi ye exist karta hai. Player events ke liye, (Ooper Example), ye player element hai. Aik aur example ke liye, ap dekh sakte hain pehla section aik idea ke liye ke *source* kis tarha use hota hai.
+Documentation page Events ka batata hai ke parameters pass kiye jaate hain handler function pe, Is se milta julta aik [Command Handlers](/docs/#Command_Handlers_Ke_Baare_Meu.md "wikilink") har event aik doosre se different hota hai. Aik aur important point hai *source* variable, jo ke handler functions meu exist karta hai. Is ko parameter list meu add karne ki koi zaroorat nahi, lekin fir bhi ye exist karta hai. Player events ke liye, (Ooper Example), ye player element hai. Aik aur example ke liye, ap dekh sakte hain pehla section aik idea ke liye ke *source* kis tarha use hota hai.
 
 Yahan Se Ab Kahan Jain?
 -----------------------
 
-Ab ap ko mta ki basic scripting ka pata chal chuka ho gaya ho ga aur thora sa documentation ke baare meu bhi. [Main Page](/Main_Page.md "wikilink") zyada information ke baare meu links deta hai, tutorials jo ap ko allow karte hain ke ap zyada acha learn kar sakeu. {{note|Yahan se, ham recommend karte hain ke ap [debugging](/debugging.md "wikilink") tutorial parheu. Ache debugging skills necessity hote hain jab ap scripts ko bana rahe hote hain. Ham ap ko [predefined variables list](/predefined_variables_list.md "wikilink") ko parhne ki advice bhi dete hain, ye ap ko certain tasks meu help kare ga. **See also:**
+Ab ap ko mta ki basic scripting ka pata chal chuka ho gaya ho ga aur thora sa documentation ke baare meu bhi. [Main Page](/docs/Main_Page.md "wikilink") zyada information ke baare meu links deta hai, tutorials jo ap ko allow karte hain ke ap zyada acha learn kar sakeu. {{note|Yahan se, ham recommend karte hain ke ap [debugging](/debugging.md "wikilink") tutorial parheu. Ache debugging skills necessity hote hain jab ap scripts ko bana rahe hote hain. Ham ap ko [predefined variables list](/predefined_variables_list.md "wikilink") ko parhne ki advice bhi dete hain, ye ap ko certain tasks meu help kare ga. **See also:**
 
--   [Advanced Topics](/Advanced_Topics.md "wikilink")
--   [OOP English Scripting Introduction](/OOP_Introduction.md "wikilink")
+-   [Advanced Topics](/docs/Advanced_Topics.md "wikilink")
+-   [OOP English Scripting Introduction](/docs/OOP_Introduction.md "wikilink")
 
-[es:Introducción a la Programación](/es:Introducción_a_la_Programación.md "wikilink") [it:Introduzione allo scripting](/it:Introduzione_allo_scripting.md "wikilink") [nl:Scripting\_introductie](/nl:Scripting_introductie.md "wikilink") [pt-br:Introdução ao Scripting](/pt-br:Introdução_ao_Scripting.md "wikilink") [ru:Scripting Introduction](/ru:Scripting_Introduction.md "wikilink") [ar:مقدمه\_في\_البرمجه](/ar:مقدمه_في_البرمجه.md "wikilink") [zh-cn:脚本编写介绍](/zh-cn:脚本编写介绍.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")
+[es:Introducción a la Programación](/docs/es:Introducción_a_la_Programación.md "wikilink") [it:Introduzione allo scripting](/it:Introduzione_allo_scripting.md "wikilink") [nl:Scripting\_introductie](/nl:Scripting_introductie.md "wikilink") [pt-br:Introdução ao Scripting](/pt-br:Introdução_ao_Scripting.md "wikilink") [ru:Scripting Introduction](/ru:Scripting_Introduction.md "wikilink") [ar:مقدمه\_في\_البرمجه](/ar:مقدمه_في_البرمجه.md "wikilink") [zh-cn:脚本编写介绍](/zh-cn:脚本编写介绍.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")

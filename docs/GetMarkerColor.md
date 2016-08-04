@@ -9,11 +9,11 @@ int, int, int, int getMarkerColor ( marker theMarker )
 
 ### Required Arguments
 
--   **theMarker**: The [marker](/marker.md "wikilink") that you wish to retrieve the color of.
+-   **theMarker**: The [marker](/docs/marker.md "wikilink") that you wish to retrieve the color of.
 
 ### Returns
 
-Returns four [ints](/int.md "wikilink") corresponding to the amount of *red*, *green*, *blue* and *alpha* (respectively) of the marker, *false* if invalid arguments were passed.
+Returns four [ints](/docs/int.md "wikilink") corresponding to the amount of *red*, *green*, *blue* and *alpha* (respectively) of the marker, *false* if invalid arguments were passed.
 
 Example
 -------

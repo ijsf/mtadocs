@@ -10,7 +10,7 @@ bool isPlayerMapForced ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer:** A [player](/player.md "wikilink") object referencing the specified player
+-   **thePlayer:** A [player](/docs/player.md "wikilink") object referencing the specified player
 
 ### Returns
 

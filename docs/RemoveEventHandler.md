@@ -1,4 +1,4 @@
-This functions removes a handler function from an [event](/event.md "wikilink"), so that the function is not called anymore when the event is triggered. See [event system](/event_system.md "wikilink") for more information on how the event system works.
+This functions removes a handler function from an [event](/docs/event.md "wikilink"), so that the function is not called anymore when the event is triggered. See [event system](/event_system.md "wikilink") for more information on how the event system works.
 
 Syntax
 ------
@@ -9,8 +9,8 @@ bool removeEventHandler ( string eventName, element attachedTo, function functio
 
 ### Required Arguments
 
--   **eventName:** The name of the [event](/event.md "wikilink") you want to detach the handler function from.
--   **attachedTo:** The [element](/element.md "wikilink") the handler was attached to.
+-   **eventName:** The name of the [event](/docs/event.md "wikilink") you want to detach the handler function from.
+-   **attachedTo:** The [element](/docs/element.md "wikilink") the handler was attached to.
 -   **functionVar:** The handler function that was attached.
 
 ### Returns
@@ -44,4 +44,4 @@ addCommandHandler("stoptext", doText)
 See Also
 --------
 
-[ru:removeEventHandler](/ru:removeEventHandler.md "wikilink")
+[ru:removeEventHandler](/docs/ru:removeEventHandler.md "wikilink")

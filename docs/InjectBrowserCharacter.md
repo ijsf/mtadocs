@@ -1,4 +1,4 @@
-Enters the character to the [Element/Browser](/Element/Browser.md "wikilink").
+Enters the character to the [Element/Browser](/docs/Element/Browser.md "wikilink").
 
 Syntax
 ------

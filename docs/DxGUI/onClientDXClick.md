@@ -14,7 +14,7 @@ string button, string state, int absoluteX, int absoluteY
 
 ### Source
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the DX element that was clicked.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the DX element that was clicked.
 
 Example
 -------

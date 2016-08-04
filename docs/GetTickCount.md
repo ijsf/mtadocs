@@ -1,4 +1,4 @@
-This function returns amount of time that your system has been running in milliseconds. By comparing two values of [getTickCount](/getTickCount.md "wikilink"), you can determine how much time has passed (in milliseconds) between two events. This could be used to determine how efficient your code is, or to time how long a player takes to complete a task.
+This function returns amount of time that your system has been running in milliseconds. By comparing two values of [getTickCount](/docs/getTickCount.md "wikilink"), you can determine how much time has passed (in milliseconds) between two events. This could be used to determine how efficient your code is, or to time how long a player takes to complete a task.
 
 Syntax
 ------

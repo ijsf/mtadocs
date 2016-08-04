@@ -22,7 +22,7 @@ Syntax
 
 ### Returns
 
--   The [object](/object.md "wikilink") element if creation was successful.
+-   The [object](/docs/object.md "wikilink") element if creation was successful.
 -   *false* otherwise.
 
 Example
@@ -64,4 +64,4 @@ addCommandHandler ( "createObject", consoleCreateObject )
 See Also
 --------
 
-[de:createObject](/de:createObject.md "wikilink")
+[de:createObject](/docs/de:createObject.md "wikilink")

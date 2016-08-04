@@ -1,4 +1,4 @@
-This function will return the [serial](/serial.md "wikilink") of the specified [ban](/ban.md "wikilink").
+This function will return the [serial](/docs/serial.md "wikilink") of the specified [ban](/ban.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ string getBanSerial ( ban theBan )
 
 ### Required Arguments
 
--   **theBan:** The [ban](/ban.md "wikilink") you want to retrieve the serial of.
+-   **theBan:** The [ban](/docs/ban.md "wikilink") you want to retrieve the serial of.
 
 ### Returns
 
-Returns a *string* of the serial if everything was successful, *false* if invalid arguments are specified or if there was no serial specified for the [ban](/ban.md "wikilink").
+Returns a *string* of the serial if everything was successful, *false* if invalid arguments are specified or if there was no serial specified for the [ban](/docs/ban.md "wikilink").
 
 Example
 -------
@@ -39,4 +39,4 @@ addCommandHandler ( "ban", banPlayerCommand )
 See Also
 --------
 
-[ru:getBanSerial](/ru:getBanSerial.md "wikilink")
+[ru:getBanSerial](/docs/ru:getBanSerial.md "wikilink")

@@ -9,7 +9,7 @@ bool setMarkerType ( marker theMarker, string markerType )
 
 ### Required Arguments
 
--   **theMarker**: A [marker](/marker.md "wikilink") element referencing the specified marker.
+-   **theMarker**: A [marker](/docs/marker.md "wikilink") element referencing the specified marker.
 -   **markerType**: A string denoting the marker type. Valid values are:
 
 Returns

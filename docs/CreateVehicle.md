@@ -1,6 +1,6 @@
 This function creates a vehicle at the specified location.
 
-Its worth noting that the position of the vehicle is the center point of the vehicle, not its base. As such, you need to ensure that the z value (vertical axis) is some height above the ground. You can find the exact height using the client side function [getElementDistanceFromCentreOfMassToBaseOfModel](/getElementDistanceFromCentreOfMassToBaseOfModel.md "wikilink"), or you can estimate it yourself and just spawn the vehicle so it drops to the ground.
+Its worth noting that the position of the vehicle is the center point of the vehicle, not its base. As such, you need to ensure that the z value (vertical axis) is some height above the ground. You can find the exact height using the client side function [getElementDistanceFromCentreOfMassToBaseOfModel](/docs/getElementDistanceFromCentreOfMassToBaseOfModel.md "wikilink"), or you can estimate it yourself and just spawn the vehicle so it drops to the ground.
 
 Syntax
 ------
@@ -11,7 +11,7 @@ vehicle createVehicle ( int model, float x, float y, float z [, float rx, float 
 
 ### Required Arguments
 
--   **model**: The [vehicle ID](/Vehicle_IDs.md "wikilink") of the vehicle being created.
+-   **model**: The [vehicle ID](/docs/Vehicle_IDs.md "wikilink") of the vehicle being created.
 -   **x**: A floating point number representing the X coordinate on the map.
 -   **y**: A floating point number representing the Y coordinate on the map.
 -   **z**: A floating point number representing the Z coordinate on the map.
@@ -22,11 +22,11 @@ vehicle createVehicle ( int model, float x, float y, float z [, float rx, float 
 -   **ry**: A floating point number representing the rotation about the Y axis in degrees.
 -   **rz**: A floating point number representing the rotation about the Z axis in degrees.
 -   **numberplate**: A string that will go on the number plate of the vehicle (max 8 characters).
--   **bDirection** *(serverside only)*: Placeholder [boolean](/boolean.md "wikilink") which provides backward compatibility with some scripts. It never had any effect, but it is read by the code. It is recommended to ignore this argument, passing *false* or the *variant1* argument in its place.
+-   **bDirection** *(serverside only)*: Placeholder [boolean](/docs/boolean.md "wikilink") which provides backward compatibility with some scripts. It never had any effect, but it is read by the code. It is recommended to ignore this argument, passing *false* or the *variant1* argument in its place.
 
 ### Returns
 
-Returns the [vehicle](/vehicle.md "wikilink") element that was created. Returns *false* if the arguments are incorrect, or if the vehicle limit of 65535 is exceeded.
+Returns the [vehicle](/docs/vehicle.md "wikilink") element that was created. Returns *false* if the arguments are incorrect, or if the vehicle limit of 65535 is exceeded.
 
 Using trains
 ------------
@@ -146,4 +146,4 @@ addCommandHandler ( "tank", scriptCreateTank )
 See Also
 --------
 
-[de:createVehicle](/de:createVehicle.md "wikilink") [pl:createVehicle](/pl:createVehicle.md "wikilink") [RU:CreateVehicle](/RU:CreateVehicle.md "wikilink")
+[de:createVehicle](/docs/de:createVehicle.md "wikilink") [pl:createVehicle](/pl:createVehicle.md "wikilink") [RU:CreateVehicle](/RU:CreateVehicle.md "wikilink")

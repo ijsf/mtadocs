@@ -1,4 +1,4 @@
-[thumb|200px|Gunshot](/Image:Fxgunshot.png.md "wikilink") This function creates a gunshot particle effect.
+[thumb|200px|Gunshot](/docs/Image:Fxgunshot.png.md "wikilink") This function creates a gunshot particle effect.
 
 Syntax
 ------

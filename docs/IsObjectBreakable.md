@@ -9,7 +9,7 @@ bool isObjectBreakable ( object theObject )
 
 ### Required Arguments
 
--   **object** the [object](/object.md "wikilink") that's being checked.
+-   **object** the [object](/docs/object.md "wikilink") that's being checked.
 
 ### Returns
 

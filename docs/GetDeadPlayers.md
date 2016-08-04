@@ -37,4 +37,4 @@ This example prints the list of dead players to the chat box.
 See Also
 --------
 
-[ru:getDeadPlayers](/ru:getDeadPlayers.md "wikilink")
+[ru:getDeadPlayers](/docs/ru:getDeadPlayers.md "wikilink")

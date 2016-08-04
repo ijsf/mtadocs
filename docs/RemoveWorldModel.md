@@ -19,7 +19,7 @@ Syntax
 
 ### Returns
 
-Returns *true* if the [object](/object.md "wikilink") was removed, *false* if invalid arguments were passed.
+Returns *true* if the [object](/docs/object.md "wikilink") was removed, *false* if invalid arguments were passed.
 
 Requirements
 ------------

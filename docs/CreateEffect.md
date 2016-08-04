@@ -7,7 +7,7 @@ Syntax
 
 ### Required Arguments
 
--   **name:** A string contains [effect name](/Element/Effect#Effects_list.md "wikilink").
+-   **name:** A string contains [effect name](/docs/Element/Effect#Effects_list.md "wikilink").
 -   **x:** A floating point number representing the X coordinate on the map.
 -   **y:** A floating point number representing the Y coordinate on the map.
 -   **z:** A floating point number representing the Z coordinate on the map.
@@ -20,7 +20,7 @@ Syntax
 
 ### Returns
 
-Returns the [effect](/Element/Effect.md "wikilink") element if creation was successful, *false* otherwise.
+Returns the [effect](/docs/Element/Effect.md "wikilink") element if creation was successful, *false* otherwise.
 
 Example
 -------
@@ -44,4 +44,4 @@ Changelog
 See Also
 --------
 
-[ru:createEffect](/ru:createEffect.md "wikilink")
+[ru:createEffect](/docs/ru:createEffect.md "wikilink")

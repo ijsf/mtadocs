@@ -9,7 +9,7 @@ element getLowLODElement ( element theElement )
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") whose low LOD version we want to get.
+-   **theElement:** The [element](/docs/element.md "wikilink") whose low LOD version we want to get.
 
 ### Returns
 

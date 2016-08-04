@@ -13,12 +13,12 @@ Main Additions / Changes
 
 #### New Functions
 
--   Added [playSFX](/playSFX.md "wikilink")
--   Added [playSFX3D](/playSFX3D.md "wikilink")
--   Added [getSFXStatus](/getSFXStatus.md "wikilink")
--   Added [setHeliBladeCollisionsEnabled](/setHeliBladeCollisionsEnabled.md "wikilink")
--   Added [getHeliBladeCollisionsEnabled](/getHeliBladeCollisionsEnabled.md "wikilink")
--   Added [getEventHandlers](/getEventHandlers.md "wikilink")
+-   Added [playSFX](/docs/playSFX.md "wikilink")
+-   Added [playSFX3D](/docs/playSFX3D.md "wikilink")
+-   Added [getSFXStatus](/docs/getSFXStatus.md "wikilink")
+-   Added [setHeliBladeCollisionsEnabled](/docs/setHeliBladeCollisionsEnabled.md "wikilink")
+-   Added [getHeliBladeCollisionsEnabled](/docs/getHeliBladeCollisionsEnabled.md "wikilink")
+-   Added [getEventHandlers](/docs/getEventHandlers.md "wikilink")
 
 #### New Events
 
@@ -77,6 +77,6 @@ Extra information
 
 :\* [MTASA 1.3.4 released](https://forum.mtasa.com/viewtopic.php?f=31&t=64990)
 
-[zh-cn:1.3.4 版本新特性](/zh-cn:1.3.4_版本新特性.md "wikilink")
+[zh-cn:1.3.4 版本新特性](/docs/zh-cn:1.3.4_版本新特性.md "wikilink")
 
-[Category:Changes in 1.3](/Category:Changes_in_1.3.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Changes in 1.3](/docs/Category:Changes_in_1.3.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")

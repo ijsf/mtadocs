@@ -9,7 +9,7 @@ bool setVehicleOverrideLights ( vehicle theVehicle, int value )
 
 ### Required Arguments
 
--   **theVehicle**: The [vehicle](/vehicle.md "wikilink") you wish to change the override lights setting of.
+-   **theVehicle**: The [vehicle](/docs/vehicle.md "wikilink") you wish to change the override lights setting of.
 -   **value**: A whole number representing the state of the lights:
     -   **0**: No override, lights are set to default.
     -   **1**: Lights are forced off.

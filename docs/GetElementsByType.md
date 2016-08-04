@@ -43,7 +43,7 @@ table getElementsByType ( string theType, [ element startat=getRootElement(), bo
 Optional Arguments
 ------------------
 
--   **startat:** The [element](/element.md "wikilink") the search should start at. Children of this element are searched, siblings or parents will not be found. By default, this is the root element which should suit most uses.
+-   **startat:** The [element](/docs/element.md "wikilink") the search should start at. Children of this element are searched, siblings or parents will not be found. By default, this is the root element which should suit most uses.
 
 <section name="Client" class="client" show="true">
 -   **streamedIn:** If true, function will only return elements that are streamed in.

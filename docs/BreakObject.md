@@ -9,7 +9,7 @@ bool breakObject ( object theObject )
 
 ### Required Arguments
 
--   **theObject:** an [object](/object.md "wikilink") element
+-   **theObject:** an [object](/docs/object.md "wikilink") element
 
 ### Returns
 

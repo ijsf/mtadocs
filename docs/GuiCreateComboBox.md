@@ -1,6 +1,6 @@
 This function creates a combobox GUI element, which you can compare to a gridlist with a dropdown feature.
 
--   **NOTE:** The height of a combobox must be enough to fit the drop down menu, else the drop down won't appear. See [guiComboBoxAdjustHeight](/guiComboBoxAdjustHeight.md "wikilink") to give your combobox the correct height.
+-   **NOTE:** The height of a combobox must be enough to fit the drop down menu, else the drop down won't appear. See [guiComboBoxAdjustHeight](/docs/guiComboBoxAdjustHeight.md "wikilink") to give your combobox the correct height.
 
 Syntax
 ------
@@ -11,7 +11,7 @@ element guiCreateComboBox ( float x, float y, float width, float height, string 
 
 ### Required Arguments
 
-[frame|Example GUI ComboBox.](/Image:Gui-combobox.jpg.md "wikilink")
+[frame|Example GUI ComboBox.](/docs/Image:Gui-combobox.jpg.md "wikilink")
 
 -   **x:** A float of the 2D x position of the GUI combobox on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the GUI combobox on a player's screen. This is affected by the *relative* argument.

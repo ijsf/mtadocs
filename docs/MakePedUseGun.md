@@ -9,7 +9,7 @@ bool makePedUseGun ( ped thePed, int useType, element target )
 
 ### Required Arguments
 
--   **thePed:** The [ped](/ped.md "wikilink") you wish to force the use of a gun upon.
+-   **thePed:** The [ped](/docs/ped.md "wikilink") you wish to force the use of a gun upon.
 -   **useType:** How the weapon should be used, will accept the following values:
     -   **0:** Do nothing
     -   **1:** Aim weapon
@@ -19,7 +19,7 @@ bool makePedUseGun ( ped thePed, int useType, element target )
     -   **5:** Pistolwhip (Weapon melee)
     -   **6:** Cancel use
     -   **7:** Cancel use immediately
--   **target:** An [element](/element.md "wikilink") referring to the target that the ped will use its weapon against.
+-   **target:** An [element](/docs/element.md "wikilink") referring to the target that the ped will use its weapon against.
 
 ### Returns
 

@@ -1,6 +1,6 @@
 <pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass>
 
-Returns a table with information about a field in a query result. You can call repeatedly this function to return all the result fields, and when it reaches the end returns nil. You can also go to a specific field using [mysql\_field\_seek()](/Modules/MTA-MySQL/mysql_field_seek.md "wikilink").
+Returns a table with information about a field in a query result. You can call repeatedly this function to return all the result fields, and when it reaches the end returns nil. You can also go to a specific field using [mysql\_field\_seek()](/docs/Modules/MTA-MySQL/mysql_field_seek.md "wikilink").
 
 Syntax
 ------
@@ -23,7 +23,7 @@ A table with information about a field with the following keys:
 -   **org\_table:** If you used aliases for the table, the original name of the table.
 -   **length:** The maximum length allowed by this field in the table definition.
 -   **max\_length:** The maximum length of this field in all the result rows.
--   **not\_null:** True if the field can't be NULL (See [mysql\_null()](/Modules/MTA-MySQL/mysql_null.md "wikilink")).
+-   **not\_null:** True if the field can't be NULL (See [mysql\_null()](/docs/Modules/MTA-MySQL/mysql_null.md "wikilink")).
 -   **primary\_key:** True if the field is the table primary key.
 -   **unique\_key:** True if the field value is unique.
 -   **multiple\_key:** True if the field is part of a key.

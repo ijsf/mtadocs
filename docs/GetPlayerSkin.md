@@ -13,7 +13,7 @@ int getPlayerSkin ( player thePlayer )
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") indicating which skin the player has. See [Character Skins](/Character_Skins.md "wikilink").
+Returns an [int](/docs/int.md "wikilink") indicating which skin the player has. See [Character Skins](/Character_Skins.md "wikilink").
 
 Example
 -------

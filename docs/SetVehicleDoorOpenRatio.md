@@ -10,7 +10,7 @@ bool setVehicleDoorOpenRatio ( vehicle theVehicle, int door, float ratio [, int 
 Required Arguments
 ------------------
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") that you wish to change the door open ratio of.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") that you wish to change the door open ratio of.
 -   **door:** A whole number, 0 (hood), 1 (trunk), 2 (front left), 3 (front right), 4 (rear left), 5 (rear right)
 -   **ratio:** The ratio value, ranging from 0 (fully closed) to 1 (fully open).
 

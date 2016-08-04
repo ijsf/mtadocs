@@ -10,7 +10,7 @@ float getVehicleDoorOpenRatio ( vehicle theVehicle, int door )
 Required Arguments
 ------------------
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") that you wish to get the door open ratio of.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") that you wish to get the door open ratio of.
 -   **door:** A whole number, 0 (hood), 1 (trunk), 2 (front left), 3 (front right), 4 (rear left), 5 (rear right)
 
 Returns

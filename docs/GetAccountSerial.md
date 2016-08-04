@@ -7,7 +7,7 @@ string getAccountSerial ( account theAccount )
 
 ### Required Arguments
 
--   **theAccount:** The [account](/account.md "wikilink") to get serial from
+-   **theAccount:** The [account](/docs/account.md "wikilink") to get serial from
 
 ### Returns
 

@@ -27,14 +27,14 @@ There is also an in game version of performance browser called **'ipb**' which i
 Category - Event Packet usage
 =============================
 
-Select **Event Packet usage** from the **Category** drop down to view details about [triggerClientEvent](/triggerClientEvent.md "wikilink") and outgoing [setElementData](/setElementData.md "wikilink") packet usage.
+Select **Event Packet usage** from the **Category** drop down to view details about [triggerClientEvent](/docs/triggerClientEvent.md "wikilink") and outgoing [setElementData](/setElementData.md "wikilink") packet usage.
 
 ##### The main columns are:
 
 -   **Type** - How the packets are created. This can be one or more of:
-    -   *ElementData* - Caused by server side [setElementData](/setElementData.md "wikilink")
-    -   *ElementData(Relay)* - Caused by client side [setElementData](/setElementData.md "wikilink")
-    -   ''Event '' - Caused by server side [triggerClientEvent](/triggerClientEvent.md "wikilink")
+    -   *ElementData* - Caused by server side [setElementData](/docs/setElementData.md "wikilink")
+    -   *ElementData(Relay)* - Caused by client side [setElementData](/docs/setElementData.md "wikilink")
+    -   ''Event '' - Caused by server side [triggerClientEvent](/docs/triggerClientEvent.md "wikilink")
 -   **Name** - The name used in the script
 -   **pkt/sec** - The number of messages per second generated.
 
@@ -72,11 +72,11 @@ Category - Lua timings
 
 Select **Lua timings** from the **Category** drop down to view timing information for each resource:
 
-[<File:Perfbrow-lua-time.png>](/File:Perfbrow-lua-time.png.md "wikilink")
+[<File:Perfbrow-lua-time.png>](/docs/File:Perfbrow-lua-time.png.md "wikilink")
 
 By default, there are three blocks of columns, each one representing a different sample period. In the picture below, block A represents samples taken in the last 5 seconds, block B represents samples taken in the last 60 seconds, and block C represents samples taken in the last 300 seconds.
 
-[<File:Perfbrow-lua-time-abc.png>](/File:Perfbrow-lua-time-abc.png.md "wikilink")
+[<File:Perfbrow-lua-time-abc.png>](/docs/File:Perfbrow-lua-time-abc.png.md "wikilink")
 
 The columns in each block are:
 
@@ -95,7 +95,7 @@ Use the **d** option to display the timings for specific events and functions in
 
 Use the **5**, **60**, **300** and **3600** options to select what sample periods to show. For example, the option string **5,60,300,3600** will show all 4 sample periods. (If no sample periods are chosen, the default of **5,60,300** is used.)
 
-[<File:Perfbrow-lua-time-d-admin.png>](/File:Perfbrow-lua-time-d-admin.png.md "wikilink")
+[<File:Perfbrow-lua-time-d-admin.png>](/docs/File:Perfbrow-lua-time-d-admin.png.md "wikilink")
 
 Use the **Filter** setting to view a smaller range of resources.
 
@@ -105,7 +105,7 @@ Category - Lua memory
 
 Select **Lua memory** from the **Category** drop down to view memory consumption of each Lua resource:
 
-[<File:Perfbrow-lua-mem.png>](/File:Perfbrow-lua-mem.png.md "wikilink")
+[<File:Perfbrow-lua-mem.png>](/docs/File:Perfbrow-lua-mem.png.md "wikilink")
 
 The columns are:
 
@@ -126,7 +126,7 @@ Use the **a** option to show more accurate memory usage. *Note: This calls the L
 
 Use the **Filter** setting to view a smaller range of resources:
 
-[<File:Perfbrow-lua-mem-race.png>](/File:Perfbrow-lua-mem-race.png.md "wikilink")
+[<File:Perfbrow-lua-mem-race.png>](/docs/File:Perfbrow-lua-mem-race.png.md "wikilink")
 
 <hr/>
 Category - Lib memory
@@ -135,7 +135,7 @@ Category - Lib memory
 Select **Lib memory** from the **Category** drop down to view memory consumption of the appropriate library (.dll or .so)
 *Note: This information is only available if the library has been compiled with WITH\_ALLOC\_TRACKING set to 1*
 
-[<File:Perfbrow-lib-mem.png>](/File:Perfbrow-lib-mem.png.md "wikilink")
+[<File:Perfbrow-lib-mem.png>](/docs/File:Perfbrow-lib-mem.png.md "wikilink")
 
 The columns are:
 
@@ -148,6 +148,6 @@ The columns are:
 
 Use the **i** option to show more information:
 
-[<File:Perfbrow-lib-mem-i.png>](/File:Perfbrow-lib-mem-i.png.md "wikilink")
+[<File:Perfbrow-lib-mem-i.png>](/docs/File:Perfbrow-lib-mem-i.png.md "wikilink")
 
-[ru:<Resource:Performancebrowser>](/ru:Resource:Performancebrowser.md "wikilink")
+[ru:<Resource:Performancebrowser>](/docs/ru:Resource:Performancebrowser.md "wikilink")

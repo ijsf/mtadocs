@@ -1,5 +1,5 @@
 This function sets a Item Data associated to a grid list item.
-**Note:** This function will only work **after** you set the item's text using [guiGridListSetItemText](/guiGridListSetItemText.md "wikilink")!
+**Note:** This function will only work **after** you set the item's text using [guiGridListSetItemText](/docs/guiGridListSetItemText.md "wikilink")!
 
 Syntax
 ------

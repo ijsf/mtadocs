@@ -7,14 +7,14 @@ Parameters
 bool success, int length, string streamName
 ```
 
--   **success**: A [boolean](/boolean.md "wikilink") indicating whether the stream was a success or not
+-   **success**: A [boolean](/docs/boolean.md "wikilink") indicating whether the stream was a success or not
 -   **length**: The length of the stream in milliseconds. Always returns **0** for a live stream
 -   **streamName**: The name of the stream. Note that this isn't the filename. Also note that this isn't always provided
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [sound](/sound.md "wikilink") which either successfully streamed or failed to stream.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [sound](/sound.md "wikilink") which either successfully streamed or failed to stream.
 
 Example
 -------

@@ -7,7 +7,7 @@ bool setBrowserVolume ( [browser webBrowser], float volume )
 
 ### Required Arguments
 
--   **volume:** A [floating](/float.md "wikilink") point number representing the desired volume level. Range is from **0.0** to **1.0**
+-   **volume:** A [floating](/docs/float.md "wikilink") point number representing the desired volume level. Range is from **0.0** to **1.0**
 
 ### Optional Arguments
 

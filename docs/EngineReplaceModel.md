@@ -1,6 +1,6 @@
-This function replaces the given model ID with the model contained in a DFF file loaded by [engineLoadDFF](/engineLoadDFF.md "wikilink").
+This function replaces the given model ID with the model contained in a DFF file loaded by [engineLoadDFF](/docs/engineLoadDFF.md "wikilink").
 
-To replace weapon models you must use their object IDs, not weapon IDs. There is a weapon model list available at [weapons](/weapons.md "wikilink").
+To replace weapon models you must use their object IDs, not weapon IDs. There is a weapon model list available at [weapons](/docs/weapons.md "wikilink").
 
 Syntax
 ------

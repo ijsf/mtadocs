@@ -9,11 +9,11 @@ int int int int getVehicleColor ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle:** the [vehicle](/vehicle.md "wikilink") element.
+-   **theVehicle:** the [vehicle](/docs/vehicle.md "wikilink") element.
 
 ### Returns
 
-Returns 4 [ints](/int.md "wikilink") indicating the color of the vehicle. Returns *false* if the vehicle doesn't exist.
+Returns 4 [ints](/docs/int.md "wikilink") indicating the color of the vehicle. Returns *false* if the vehicle doesn't exist.
 
 Valid color ids:
 

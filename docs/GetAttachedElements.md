@@ -9,7 +9,7 @@ table getAttachedElements ( element theElement )
 
 ### Required Arguments
 
--   **theElement**: The [element](/element.md "wikilink") which you require the information from.
+-   **theElement**: The [element](/docs/element.md "wikilink") which you require the information from.
 
 ### Returns
 

@@ -9,7 +9,7 @@ bool killTimer ( timer theTimer )
 
 ### Required Arguments
 
--   **theTimer:** The [timer](/timer.md "wikilink") you wish to halt.
+-   **theTimer:** The [timer](/docs/timer.md "wikilink") you wish to halt.
 
 ### Returns
 

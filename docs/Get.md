@@ -1,4 +1,4 @@
-This function gets a setting's value, or a group of settings' values, from the [settings registry](/settings_system.md "wikilink").
+This function gets a setting's value, or a group of settings' values, from the [settings registry](/docs/settings_system.md "wikilink").
 
 *Note: Your settings cannot have a period (.) in them. This character is reserved. Read below for more details.*
 
@@ -12,7 +12,7 @@ var get ( string settingName )
 Optional Arguments
 ------------------
 
-**settingName:** The name of the setting you want to set. See [setting names](/settings_system#Setting_names.md "wikilink") for information on settings names.
+**settingName:** The name of the setting you want to set. See [setting names](/docs/settings_system#Setting_names.md "wikilink") for information on settings names.
 
 ### Returns
 
@@ -41,4 +41,4 @@ end
 See Also
 --------
 
-[ru:get](/ru:get.md "wikilink")
+[ru:get](/docs/ru:get.md "wikilink")

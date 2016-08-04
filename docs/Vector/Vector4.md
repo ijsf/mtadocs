@@ -1,4 +1,4 @@
-[Category:Incomplete](/Category:Incomplete.md "wikilink") The Vector4 class is a class introduced in 1.4
+[Category:Incomplete](/docs/Category:Incomplete.md "wikilink") The Vector4 class is a class introduced in 1.4
 
 Methods
 -------

@@ -9,7 +9,7 @@ string getVehiclePlateText ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle:** the [vehicle](/vehicle.md "wikilink") that you wish to retrieve the plate text from.
+-   **theVehicle:** the [vehicle](/docs/vehicle.md "wikilink") that you wish to retrieve the plate text from.
 
 ### Returns
 

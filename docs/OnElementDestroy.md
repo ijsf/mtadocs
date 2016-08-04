@@ -1,4 +1,4 @@
-This event is triggered when an element gets destroyed by [destroyElement](/destroyElement.md "wikilink") or when the creator resource is stopping. It is also triggered when a parent element of this element is destroyed.
+This event is triggered when an element gets destroyed by [destroyElement](/docs/destroyElement.md "wikilink") or when the creator resource is stopping. It is also triggered when a parent element of this element is destroyed.
 
 Parameters
 ----------

@@ -24,7 +24,7 @@ bool showChat ( player thePlayer, bool show )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") whose chat is to be hidden or shown.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") whose chat is to be hidden or shown.
 -   **show:** A boolean value determining whether to show (*true*) or hide (*false*) the chat.
 
 ### Returns

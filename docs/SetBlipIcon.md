@@ -10,7 +10,7 @@ bool setBlipIcon ( blip theBlip, int icon )
 ### Required Arguments
 
 -   **theBlip** The blip you wish to set the icon of.
--   **icon:** A number indicating the icon you wish to change it do. Valid values are listed on the [Blip Icons](/Blip_Icons.md "wikilink") page.
+-   **icon:** A number indicating the icon you wish to change it do. Valid values are listed on the [Blip Icons](/docs/Blip_Icons.md "wikilink") page.
 
 ### Returns
 

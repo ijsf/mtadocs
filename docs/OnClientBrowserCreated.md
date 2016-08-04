@@ -6,7 +6,7 @@ None
 Source
 ------
 
-The [browser](/Element/Browser.md "wikilink") element
+The [browser](/docs/Element/Browser.md "wikilink") element
 
 Example
 -------
@@ -20,7 +20,7 @@ Example
     )
 ```
 
-[pl:onClientBrowserCreated](/pl:onClientBrowserCreated.md "wikilink")
+[pl:onClientBrowserCreated](/docs/pl:onClientBrowserCreated.md "wikilink")
 
 See Also
 --------

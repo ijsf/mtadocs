@@ -9,7 +9,7 @@ element guiCreateButton ( float x, float y, float width, float height, string te
 
 ### Required Arguments
 
-[thumb|GUI Test Button](/Image:Button.png.md "wikilink")
+[thumb|GUI Test Button](/docs/Image:Button.png.md "wikilink")
 
 -   **x:** A float of the 2D x position of the GUI button on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the GUI button on a player's screen. This is affected by the *relative* argument.
@@ -24,7 +24,7 @@ element guiCreateButton ( float x, float y, float width, float height, string te
 
 ### Returns
 
-Returns an [element](/element.md "wikilink") of the created [button](/Element/GUI/Button.md "wikilink") if it was successfully created, false otherwise.
+Returns an [element](/docs/element.md "wikilink") of the created [button](/Element/GUI/Button.md "wikilink") if it was successfully created, false otherwise.
 
 Example
 -------
@@ -51,4 +51,4 @@ addEventHandler ( "onClientGUIClick", button, outputEditBox )
 See Also
 --------
 
-[ru:guiCreateButton](/ru:guiCreateButton.md "wikilink")
+[ru:guiCreateButton](/docs/ru:guiCreateButton.md "wikilink")

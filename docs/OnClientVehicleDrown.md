@@ -12,7 +12,7 @@ This event has no parameters.
 Source
 ------
 
-The source of this event is the [vehicle](/vehicle.md "wikilink") that is drowning.
+The source of this event is the [vehicle](/docs/vehicle.md "wikilink") that is drowning.
 
 Example
 -------

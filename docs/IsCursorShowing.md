@@ -10,7 +10,7 @@ bool isCursorShowing ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") you want to get cursor state of.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") you want to get cursor state of.
 
 ### Returns
 

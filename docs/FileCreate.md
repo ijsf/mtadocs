@@ -9,7 +9,7 @@ file fileCreate ( string filePath )
 
 ### Required Arguments
 
--   **filePath:** The [filepath](/filepath.md "wikilink") of the file to be created in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the file is in, and 'path' is the path from the root directory of the resource to the file.
+-   **filePath:** The [filepath](/docs/filepath.md "wikilink") of the file to be created in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the file is in, and 'path' is the path from the root directory of the resource to the file.
 
   
 For example, if you want to create a file named 'myfile.txt' in the resource 'mapcreator', it can be created from another resource this way: *fileCreate(":mapcreator/myfile.txt")*.
@@ -18,7 +18,7 @@ If the file is in the current resource, only the file path is necessary, e.g. *f
 
 ### Returns
 
-If successful, returns a file handle which can be used with other file functions ([fileWrite](/fileWrite.md "wikilink"), [fileClose](/fileClose.md "wikilink")...). Returns *false* if an error occured.
+If successful, returns a file handle which can be used with other file functions ([fileWrite](/docs/fileWrite.md "wikilink"), [fileClose](/fileClose.md "wikilink")...). Returns *false* if an error occured.
 
 Example
 -------

@@ -13,7 +13,7 @@ string getCancelReason ( )
 
 ### Returns
 
-Returns the reason that was given with [cancelEvent](/cancelEvent.md "wikilink")
+Returns the reason that was given with [cancelEvent](/docs/cancelEvent.md "wikilink")
 
 Example
 -------

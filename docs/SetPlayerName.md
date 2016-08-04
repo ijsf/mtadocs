@@ -1,4 +1,4 @@
-This function changes the specified [player](/player.md "wikilink")'s name.
+This function changes the specified [player](/docs/player.md "wikilink")'s name.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setPlayerName ( player thePlayer, string newName )
 
 ### Required Arguments
 
--   **thePlayer:** the [player](/player.md "wikilink") that will have its name set.
+-   **thePlayer:** the [player](/docs/player.md "wikilink") that will have its name set.
 -   **newName:** the new name to set for the player.
 
 ### Returns
@@ -69,4 +69,4 @@ addCommandHandler ( "changetag", tagPlayer )
 See Also
 --------
 
-[ru:setPlayerName](/ru:setPlayerName.md "wikilink")
+[ru:setPlayerName](/docs/ru:setPlayerName.md "wikilink")

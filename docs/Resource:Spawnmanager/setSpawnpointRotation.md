@@ -10,7 +10,7 @@ bool setSpawnpointRotation ( spawnpoint theSpawnpoint, float rotation )
 ### Required Arguments
 
 -   **theSpawnpoint:** The spawnpoint element you want to set rotation to.
--   **rotation:** A [float](/float.md "wikilink") rotation value around the Z axis in degrees.
+-   **rotation:** A [float](/docs/float.md "wikilink") rotation value around the Z axis in degrees.
 
 ### Returns
 

@@ -12,7 +12,7 @@ string url, int errorCode, string errorDescription
 Source
 ------
 
-The [browser](/Element/Browser.md "wikilink") element
+The [browser](/docs/Element/Browser.md "wikilink") element
 
 Error codes
 -----------
@@ -80,7 +80,7 @@ addEventHandler("onClientBrowserLoadingFailed", root,
 )
 ```
 
-[pl:onClientBrowserLoadingFailed](/pl:onClientBrowserLoadingFailed.md "wikilink")
+[pl:onClientBrowserLoadingFailed](/docs/pl:onClientBrowserLoadingFailed.md "wikilink")
 
 See Also
 --------

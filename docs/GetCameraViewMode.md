@@ -11,7 +11,7 @@ int getCameraViewMode (  )
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") indicating the current camera view mode. Their meanings can be seen below.
+Returns an [int](/docs/int.md "wikilink") indicating the current camera view mode. Their meanings can be seen below.
 
 Example
 -------

@@ -1,5 +1,5 @@
-This function is used to get the name of a specified ped's current simplest [task](/task.md "wikilink").
-*Note: See [getPedTask](/getPedTask.md "wikilink") to get a all tasks.*
+This function is used to get the name of a specified ped's current simplest [task](/docs/task.md "wikilink").
+*Note: See [getPedTask](/docs/getPedTask.md "wikilink") to get a all tasks.*
 
 Syntax
 ------
@@ -10,11 +10,11 @@ string getPedSimplestTask ( ped thePed )
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink") whose [task](/task.md "wikilink") you want to retrieve.
+-   **thePed**: The [ped](/docs/ped.md "wikilink") whose [task](/task.md "wikilink") you want to retrieve.
 
 ### Returns
 
-Returns a string representing the name of the ped's simplest, active [task](/task.md "wikilink").
+Returns a string representing the name of the ped's simplest, active [task](/docs/task.md "wikilink").
 
 Example
 -------

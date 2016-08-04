@@ -1,4 +1,4 @@
-This function gets the [vehicle](/vehicle.md "wikilink") that the ped is currently in or is trying to enter, if any.
+This function gets the [vehicle](/docs/vehicle.md "wikilink") that the ped is currently in or is trying to enter, if any.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ vehicle getPedOccupiedVehicle ( ped thePed )
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink") whose vehicle you're looking up.
+-   **thePed**: The [ped](/docs/ped.md "wikilink") whose vehicle you're looking up.
 
 ### Returns
 

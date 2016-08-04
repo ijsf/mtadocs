@@ -1,6 +1,6 @@
 <lowercasetitle/>
 
-This function is useful for **for** loops. You don't have to type *ipairs( getElementsByType( “player” ) )* but simply *iterElements( “player” )*. It's very useful if you have many for loops in your code. [doForAllElements](/doForAllElements.md "wikilink") has to iterate through elements every time you call 1 function per call but this iterates through elements and what you do to/with the elements is up to you.
+This function is useful for **for** loops. You don't have to type *ipairs( getElementsByType( “player” ) )* but simply *iterElements( “player” )*. It's very useful if you have many for loops in your code. [doForAllElements](/docs/doForAllElements.md "wikilink") has to iterate through elements every time you call 1 function per call but this iterates through elements and what you do to/with the elements is up to you.
 
 Syntax
 ------

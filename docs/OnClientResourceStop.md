@@ -1,4 +1,4 @@
-This event is triggered when a [resource](/resource.md "wikilink") is stopped.
+This event is triggered when a [resource](/docs/resource.md "wikilink") is stopped.
 
 Parameters
 ----------
@@ -7,12 +7,12 @@ Parameters
 resource stoppedResource
 ```
 
--   **stoppedResource**: the [resource](/resource.md "wikilink") that was stopped.
+-   **stoppedResource**: the [resource](/docs/resource.md "wikilink") that was stopped.
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the stopped resource [root element](/root_element.md "wikilink").
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the stopped resource [root element](/root_element.md "wikilink").
 
 Example
 -------

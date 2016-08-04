@@ -1,4 +1,4 @@
-Interpolates a 3D Vector between a source value and a target value using either linear interpolation or any other [easing function](/Easing.md "wikilink"). It can also be used to interpolate 2D vectors or scalars by only setting some of the x, y, z values and putting 0 to the others.
+Interpolates a 3D Vector between a source value and a target value using either linear interpolation or any other [easing function](/docs/Easing.md "wikilink"). It can also be used to interpolate 2D vectors or scalars by only setting some of the x, y, z values and putting 0 to the others.
 
 Syntax
 ------
@@ -12,13 +12,13 @@ float float float interpolateBetween ( float x1, float y1, float z1, float x2, f
 -   **x1, y1, z1:** 3D coordinates of source vector/value
 -   **x2, y2, z2:** 3D coordinates of target vector/value
 -   **fProgress:** float between 0 and 1 indicating the interpolation progress (0 at the beginning of the interpolation, 1 at the end).
--   **strEasingType:** the [easing function](/Easing.md "wikilink") to use for the interpolation
+-   **strEasingType:** the [easing function](/docs/Easing.md "wikilink") to use for the interpolation
 
 ### Optional Arguments
 
--   **fEasingPeriod:** the period of the [easing function](/Easing.md "wikilink") (only some easing functions use this parameter)
--   **fEasingAmplitude:** the amplitude of the [easing function](/Easing.md "wikilink") (only some easing functions use this parameter)
--   **fEasingOvershoot:** the overshoot of the [easing function](/Easing.md "wikilink") (only some easing functions use this parameter)
+-   **fEasingPeriod:** the period of the [easing function](/docs/Easing.md "wikilink") (only some easing functions use this parameter)
+-   **fEasingAmplitude:** the amplitude of the [easing function](/docs/Easing.md "wikilink") (only some easing functions use this parameter)
+-   **fEasingOvershoot:** the overshoot of the [easing function](/docs/Easing.md "wikilink") (only some easing functions use this parameter)
 
 ### Returns
 

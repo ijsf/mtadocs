@@ -24,7 +24,7 @@ bool outputConsole ( string text )
 
 ### Optional Arguments
 
--   **visibleTo:** This specifies who the chat is visible to. Any players in this element will see the chat message. See [visibility](/visibility.md "wikilink").
+-   **visibleTo:** This specifies who the chat is visible to. Any players in this element will see the chat message. See [visibility](/docs/visibility.md "wikilink").
 
 </section>
 Example

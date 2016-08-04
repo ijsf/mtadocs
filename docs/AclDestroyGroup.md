@@ -9,7 +9,7 @@ bool aclDestroyGroup ( aclgroup aclGroup )
 
 ### Required Arguments
 
--   **aclGroup:** The [aclgroup](/aclgroup.md "wikilink") element to destroy
+-   **aclGroup:** The [aclgroup](/docs/aclgroup.md "wikilink") element to destroy
 
 ### Returns
 

@@ -9,7 +9,7 @@ bool isPedHeadless  ( ped thePed )
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink") to check.
+-   **thePed**: The [ped](/docs/ped.md "wikilink") to check.
 
 ### Returns
 

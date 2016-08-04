@@ -11,7 +11,7 @@ XML syntax
 
 ### Required Attributes
 
--   **model**: The [vehicle ID](/Vehicle_IDs.md "wikilink") of the vehicle being created.
+-   **model**: The [vehicle ID](/docs/Vehicle_IDs.md "wikilink") of the vehicle being created.
 -   **posX**: A float representing the X position of the vehicle.
 -   **posY**: A float representing the Y position of the vehicle.
 -   **posZ**: A float representing the Z position of the vehicle.
@@ -21,7 +21,7 @@ XML syntax
 -   **rotX**: A float representing the X rotation of the vehicle.
 -   **rotY**: A float representing the Y rotation of the vehicle.
 -   **rotZ**: A float representing the Z rotation of the vehicle.
--   **color**: An integer indicating the vehicle's [color(s)](/Vehicle_Colors.md "wikilink") (seperated by commas).
+-   **color**: An integer indicating the vehicle's [color(s)](/docs/Vehicle_Colors.md "wikilink") (seperated by commas).
 -   **upgrades**: An integer representing the vehicle's mod upgrade(s) (seperated by commas), defined in San Andreas\\data\\maps\\veh\_mods\\veh\_mods.ide
 -   **paintjob**: An integer indicating the vehicle's paint job (only works on certain vehicles).
 -   **plate**: A set of up to 8 characters that will be shown on the vehicle's license plate.
@@ -38,6 +38,6 @@ XML syntax
 Related scripting functions
 ---------------------------
 
-[Category:Element Types](/Category:Element_Types.md "wikilink")
+[Category:Element Types](/docs/Category:Element_Types.md "wikilink")
 
-[it:Elemento/Veicolo](/it:Elemento/Veicolo.md "wikilink")
+[it:Elemento/Veicolo](/docs/it:Elemento/Veicolo.md "wikilink")

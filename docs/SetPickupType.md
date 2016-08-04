@@ -19,7 +19,7 @@ bool setPickupType ( pickup thePickup, int theType, int amount/weapon/model, [ i
 
 **OR**
 
--   **weapon**: If the type is a Weapon pickup, then it represents the [weapon ID](/Weapon.md "wikilink") of the weapon pickup the 'ammo' field must be entered if the type is Weapon Pickup.
+-   **weapon**: If the type is a Weapon pickup, then it represents the [weapon ID](/docs/Weapon.md "wikilink") of the weapon pickup the 'ammo' field must be entered if the type is Weapon Pickup.
 
 **OR**
 

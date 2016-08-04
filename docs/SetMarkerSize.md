@@ -16,7 +16,7 @@ bool setMarkerSize ( marker theMarker, float size )
 
 ### Required Arguments
 
--   **theMarker:** The [marker](/marker.md "wikilink") that you wish to set the size of.
+-   **theMarker:** The [marker](/docs/marker.md "wikilink") that you wish to set the size of.
 -   **size:** A float representing new size of the marker.
 
 ### Returns

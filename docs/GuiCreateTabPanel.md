@@ -9,7 +9,7 @@ element guiCreateTabPanel ( float x, float y, float width, float height, bool re
 
 ### Required Arguments
 
-[frame|Example GUI tab panel with two tabs.](/Image:gui-tabpanelandtab.png.md "wikilink")
+[frame|Example GUI tab panel with two tabs.](/docs/Image:gui-tabpanelandtab.png.md "wikilink")
 
 -   **x:** A float of the 2D x position of the GUI tab panel on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the GUI tab panel on a player's screen. This is affected by the *relative* argument.

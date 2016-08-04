@@ -1,877 +1,877 @@
-The new OOP in MTA allows for better code organization and readability. This is a list of [client-side functions](/Client_Scripting_Functions.md "wikilink").
+The new OOP in MTA allows for better code organization and readability. This is a list of [client-side functions](/docs/Client_Scripting_Functions.md "wikilink").
 
-*See also: [OOP](/OOP.md "wikilink")*
+*See also: [OOP](/docs/OOP.md "wikilink")*
 
 Element
 -------
 
-`areCollisionsEnabled (function: `[`getElementCollisionsEnabled`](/getElementCollisionsEnabled.md "wikilink")`)`
-`attach (function: `[`attachElements`](/attachElements.md "wikilink")`)`
-`clearVisibleTo (function: `[`clearElementVisibleTo`](/clearElementVisibleTo.md "wikilink")`)`
-`clone (function: `[`cloneElement`](/cloneElement.md "wikilink")`)`
-`create (function: `[`createElement`](/createElement.md "wikilink")`)`
-`destroy (function: `[`destroyElement`](/destroyElement.md "wikilink")`)`
-`detach (function: `[`detachElements`](/detachElements.md "wikilink")`)`
-`getAllByType (function: `[`getElementsByType`](/getElementsByType.md "wikilink")`)`
-`getAllData (function: `[`getAllElementData`](/getAllElementData.md "wikilink")`)`
-`getAlpha (function: `[`getElementAlpha`](/getElementAlpha.md "wikilink")`)`
-`getAttachedElements (function: `[`getAttachedElements`](/getAttachedElements.md "wikilink")`)`
-`getAttachedOffsets (function: `[`getElementAttachedOffsets`](/getElementAttachedOffsets.md "wikilink")`)`
-`getAttachedTo (function: `[`getElementAttachedTo`](/getElementAttachedTo.md "wikilink")`)`
-`getBoundingBox (function: `[`getElementBoundingBox`](/getElementBoundingBox.md "wikilink")`)`
-`getByID (function: `[`getElementByID`](/getElementByID.md "wikilink")`)`
-`getByType (function: `[`getElementsByType`](/getElementsByType.md "wikilink")`)`
-`getChild (function: `[`getElementChild`](/getElementChild.md "wikilink")`)`
-`getChildren (function: `[`getElementChildren`](/getElementChildren.md "wikilink")`)`
-`getChildrenCount (function: `[`getElementChildrenCount`](/getElementChildrenCount.md "wikilink")`)`
-`getColShape (function: `[`getElementColShape`](/getElementColShape.md "wikilink")`)`
-`getData (function: `[`getElementData`](/getElementData.md "wikilink")`)`
-`getDimension (function: `[`getElementDimension`](/getElementDimension.md "wikilink")`)`
-`getDistanceFromCentreOfMassToBaseOfModel (function: `[`GetElementDistanceFromCentreOfMassToBaseOfModel`](/GetElementDistanceFromCentreOfMassToBaseOfModel.md "wikilink")`)`
-`getHealth (function: `[`getElementHealth`](/getElementHealth.md "wikilink")`)`
-`getID (function: `[`getElementID`](/getElementID.md "wikilink")`)`
-`getInterior (function: `[`getElementInterior`](/getElementInterior.md "wikilink")`)`
-`getLowLOD (function: `[`getLowLODElement`](/getLowLODElement.md "wikilink")`)`
-`getModel (function: `[`getElementModel`](/getElementModel.md "wikilink")`)`
-`getParent (function: `[`getElementParent`](/getElementParent.md "wikilink")`)`
-`getSyncer (function: `[`getElementSyncer`](/getElementSyncer.md "wikilink")`)`
-`getType (function: `[`getElementType`](/getElementType.md "wikilink")`)`
-`getVelocity (function: `[`getElementVelocity`](/getElementVelocity.md "wikilink")`)`
-`getWithinColShape (function: `[`getElementsWithinColShape`](/getElementsWithinColShape.md "wikilink")`)`
-`getZoneName (function: `[`getElementZoneName`](/getElementZoneName.md "wikilink")`)`
-`isAttached (function: `[`isElementAttached`](/isElementAttached.md "wikilink")`)`
-`isCallPropagationEnabled (function: `[`isElementCallPropagationEnabled`](/isElementCallPropagationEnabled.md "wikilink")`)`
-`isDoubleSided (function: `[`isElementDoubleSided`](/isElementDoubleSided.md "wikilink")`)`
-`isFrozen (function: `[`isElementFrozen`](/isElementFrozen.md "wikilink")`)`
-`isInWater (function: `[`isElementInWater`](/isElementInWater.md "wikilink")`)`
-`isLowLOD (function: `[`isElementLowLOD`](/isElementLowLOD.md "wikilink")`)`
-`isVisibleTo (function: `[`isElementVisibleTo`](/isElementVisibleTo.md "wikilink")`)`
-`isWithinColShape (function: `[`isElementWithinColShape`](/isElementWithinColShape.md "wikilink")`)`
-`isWithinMarker (function: `[`isElementWithinMarker`](/isElementWithinMarker.md "wikilink")`)`
-`removeData (function: `[`removeElementData`](/removeElementData.md "wikilink")`)`
-`setAlpha (function: `[`setElementAlpha`](/setElementAlpha.md "wikilink")`)`
-`setAttachedOffsets (function: `[`setElementAttachedOffsets`](/setElementAttachedOffsets.md "wikilink")`)`
-`setCallPropagationEnabled (function: `[`setElementCallPropagationEnabled`](/setElementCallPropagationEnabled.md "wikilink")`)`
-`setCollisionsEnabled (function: `[`setElementCollisionsEnabled`](/setElementCollisionsEnabled.md "wikilink")`)`
-`setData (function: `[`setElementData`](/setElementData.md "wikilink")`)`
-`setDimension (function: `[`setElementDimension`](/setElementDimension.md "wikilink")`)`
-`setDoubleSided (function: `[`setElementDoubleSided`](/setElementDoubleSided.md "wikilink")`)`
-`setFrozen (function: `[`setElementFrozen`](/setElementFrozen.md "wikilink")`)`
-`setHealth (function: `[`setElementHealth`](/setElementHealth.md "wikilink")`)`
-`setID (function: `[`setElementID`](/setElementID.md "wikilink")`)`
-`setInterior (function: `[`setElementInterior`](/setElementInterior.md "wikilink")`)`
-`setLowLOD (function: `[`setLowLODElement`](/setLowLODElement.md "wikilink")`)`
-`setMatrix (function: `[`setElementMatrix`](/setElementMatrix.md "wikilink")`)`
-`setModel (function: `[`setElementModel`](/setElementModel.md "wikilink")`)`
-`setParent (function: `[`setElementParent`](/setElementParent.md "wikilink")`)`
-`setPosition (function: `[`setElementPosition`](/setElementPosition.md "wikilink")`)`
-`setVelocity (function: `[`setElementVelocity`](/setElementVelocity.md "wikilink")`)`
-`setVisibleTo (function: `[`setElementVisibleTo`](/setElementVisibleTo.md "wikilink")`)`
+`areCollisionsEnabled (function: `[`getElementCollisionsEnabled`](/docs/getElementCollisionsEnabled.md "wikilink")`)`
+`attach (function: `[`attachElements`](/docs/attachElements.md "wikilink")`)`
+`clearVisibleTo (function: `[`clearElementVisibleTo`](/docs/clearElementVisibleTo.md "wikilink")`)`
+`clone (function: `[`cloneElement`](/docs/cloneElement.md "wikilink")`)`
+`create (function: `[`createElement`](/docs/createElement.md "wikilink")`)`
+`destroy (function: `[`destroyElement`](/docs/destroyElement.md "wikilink")`)`
+`detach (function: `[`detachElements`](/docs/detachElements.md "wikilink")`)`
+`getAllByType (function: `[`getElementsByType`](/docs/getElementsByType.md "wikilink")`)`
+`getAllData (function: `[`getAllElementData`](/docs/getAllElementData.md "wikilink")`)`
+`getAlpha (function: `[`getElementAlpha`](/docs/getElementAlpha.md "wikilink")`)`
+`getAttachedElements (function: `[`getAttachedElements`](/docs/getAttachedElements.md "wikilink")`)`
+`getAttachedOffsets (function: `[`getElementAttachedOffsets`](/docs/getElementAttachedOffsets.md "wikilink")`)`
+`getAttachedTo (function: `[`getElementAttachedTo`](/docs/getElementAttachedTo.md "wikilink")`)`
+`getBoundingBox (function: `[`getElementBoundingBox`](/docs/getElementBoundingBox.md "wikilink")`)`
+`getByID (function: `[`getElementByID`](/docs/getElementByID.md "wikilink")`)`
+`getByType (function: `[`getElementsByType`](/docs/getElementsByType.md "wikilink")`)`
+`getChild (function: `[`getElementChild`](/docs/getElementChild.md "wikilink")`)`
+`getChildren (function: `[`getElementChildren`](/docs/getElementChildren.md "wikilink")`)`
+`getChildrenCount (function: `[`getElementChildrenCount`](/docs/getElementChildrenCount.md "wikilink")`)`
+`getColShape (function: `[`getElementColShape`](/docs/getElementColShape.md "wikilink")`)`
+`getData (function: `[`getElementData`](/docs/getElementData.md "wikilink")`)`
+`getDimension (function: `[`getElementDimension`](/docs/getElementDimension.md "wikilink")`)`
+`getDistanceFromCentreOfMassToBaseOfModel (function: `[`GetElementDistanceFromCentreOfMassToBaseOfModel`](/docs/GetElementDistanceFromCentreOfMassToBaseOfModel.md "wikilink")`)`
+`getHealth (function: `[`getElementHealth`](/docs/getElementHealth.md "wikilink")`)`
+`getID (function: `[`getElementID`](/docs/getElementID.md "wikilink")`)`
+`getInterior (function: `[`getElementInterior`](/docs/getElementInterior.md "wikilink")`)`
+`getLowLOD (function: `[`getLowLODElement`](/docs/getLowLODElement.md "wikilink")`)`
+`getModel (function: `[`getElementModel`](/docs/getElementModel.md "wikilink")`)`
+`getParent (function: `[`getElementParent`](/docs/getElementParent.md "wikilink")`)`
+`getSyncer (function: `[`getElementSyncer`](/docs/getElementSyncer.md "wikilink")`)`
+`getType (function: `[`getElementType`](/docs/getElementType.md "wikilink")`)`
+`getVelocity (function: `[`getElementVelocity`](/docs/getElementVelocity.md "wikilink")`)`
+`getWithinColShape (function: `[`getElementsWithinColShape`](/docs/getElementsWithinColShape.md "wikilink")`)`
+`getZoneName (function: `[`getElementZoneName`](/docs/getElementZoneName.md "wikilink")`)`
+`isAttached (function: `[`isElementAttached`](/docs/isElementAttached.md "wikilink")`)`
+`isCallPropagationEnabled (function: `[`isElementCallPropagationEnabled`](/docs/isElementCallPropagationEnabled.md "wikilink")`)`
+`isDoubleSided (function: `[`isElementDoubleSided`](/docs/isElementDoubleSided.md "wikilink")`)`
+`isFrozen (function: `[`isElementFrozen`](/docs/isElementFrozen.md "wikilink")`)`
+`isInWater (function: `[`isElementInWater`](/docs/isElementInWater.md "wikilink")`)`
+`isLowLOD (function: `[`isElementLowLOD`](/docs/isElementLowLOD.md "wikilink")`)`
+`isVisibleTo (function: `[`isElementVisibleTo`](/docs/isElementVisibleTo.md "wikilink")`)`
+`isWithinColShape (function: `[`isElementWithinColShape`](/docs/isElementWithinColShape.md "wikilink")`)`
+`isWithinMarker (function: `[`isElementWithinMarker`](/docs/isElementWithinMarker.md "wikilink")`)`
+`removeData (function: `[`removeElementData`](/docs/removeElementData.md "wikilink")`)`
+`setAlpha (function: `[`setElementAlpha`](/docs/setElementAlpha.md "wikilink")`)`
+`setAttachedOffsets (function: `[`setElementAttachedOffsets`](/docs/setElementAttachedOffsets.md "wikilink")`)`
+`setCallPropagationEnabled (function: `[`setElementCallPropagationEnabled`](/docs/setElementCallPropagationEnabled.md "wikilink")`)`
+`setCollisionsEnabled (function: `[`setElementCollisionsEnabled`](/docs/setElementCollisionsEnabled.md "wikilink")`)`
+`setData (function: `[`setElementData`](/docs/setElementData.md "wikilink")`)`
+`setDimension (function: `[`setElementDimension`](/docs/setElementDimension.md "wikilink")`)`
+`setDoubleSided (function: `[`setElementDoubleSided`](/docs/setElementDoubleSided.md "wikilink")`)`
+`setFrozen (function: `[`setElementFrozen`](/docs/setElementFrozen.md "wikilink")`)`
+`setHealth (function: `[`setElementHealth`](/docs/setElementHealth.md "wikilink")`)`
+`setID (function: `[`setElementID`](/docs/setElementID.md "wikilink")`)`
+`setInterior (function: `[`setElementInterior`](/docs/setElementInterior.md "wikilink")`)`
+`setLowLOD (function: `[`setLowLODElement`](/docs/setLowLODElement.md "wikilink")`)`
+`setMatrix (function: `[`setElementMatrix`](/docs/setElementMatrix.md "wikilink")`)`
+`setModel (function: `[`setElementModel`](/docs/setElementModel.md "wikilink")`)`
+`setParent (function: `[`setElementParent`](/docs/setElementParent.md "wikilink")`)`
+`setPosition (function: `[`setElementPosition`](/docs/setElementPosition.md "wikilink")`)`
+`setVelocity (function: `[`setElementVelocity`](/docs/setElementVelocity.md "wikilink")`)`
+`setVisibleTo (function: `[`setElementVisibleTo`](/docs/setElementVisibleTo.md "wikilink")`)`
 
 Vehicle
 -------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`addUpgrade (function: `[`addVehicleUpgrade`](/addVehicleUpgrade.md "wikilink")`)`
-`attachTrailer (function: `[`attachTrailerToVehicle`](/attachTrailerToVehicle.md "wikilink")`)`
-`blow (function: `[`blowVehicle`](/blowVehicle.md "wikilink")`)`
-`create (function: `[`createVehicle`](/createVehicle.md "wikilink")`)`
-`detachTrailer (function: `[`detachTrailerFromVehicle`](/detachTrailerFromVehicle.md "wikilink")`)`
-`fix (function: `[`fixVehicle`](/fixVehicle.md "wikilink")`)`
-`getAdjustableProperty (function: `[`getVehicleAdjustableProperty`](/getVehicleAdjustableProperty.md "wikilink")`)`
-`getColor (function: `[`getVehicleColor`](/getVehicleColor.md "wikilink")`)`
-`getCompatibleUpgrades (function: `[`getVehicleCompatibleUpgrades`](/getVehicleCompatibleUpgrades.md "wikilink")`)`
-`getComponentPosition (function: `[`getVehicleComponentPosition`](/getVehicleComponentPosition.md "wikilink")`)`
-`getComponentRotation (function: `[`getVehicleComponentRotation`](/getVehicleComponentRotation.md "wikilink")`)`
-`getComponents (function: `[`getVehicleComponents`](/getVehicleComponents.md "wikilink")`)`
-`getComponentVisible (function: `[`getVehicleComponentVisible`](/getVehicleComponentVisible.md "wikilink")`)`
-`getController (function: `[`getVehicleController`](/getVehicleController.md "wikilink")`)`
-`getDoorOpenRatio (function: `[`getVehicleDoorOpenRatio`](/getVehicleDoorOpenRatio.md "wikilink")`)`
-`getDoorState (function: `[`getVehicleDoorState`](/getVehicleDoorState.md "wikilink")`)`
-`getEngineState (function: `[`getVehicleEngineState`](/getVehicleEngineState.md "wikilink")`)`
-`getGear (function: `[`getVehicleCurrentGear`](/getVehicleCurrentGear.md "wikilink")`)`
-`getGravity (function: `[`getVehicleGravity`](/getVehicleGravity.md "wikilink")`)`
-`getHandling (function: `[`getVehicleHandling`](/getVehicleHandling.md "wikilink")`)`
-`getHeadLightColor (function: `[`getVehicleHeadLightColor`](/getVehicleHeadLightColor.md "wikilink")`)`
-`getHelicopterRotorSpeed (function: `[`getHelicopterRotorSpeed`](/getHelicopterRotorSpeed.md "wikilink")`)`
-`getLandingGearDown (function: `[`getVehicleLandingGearDown`](/getVehicleLandingGearDown.md "wikilink")`)`
-`getLightState (function: `[`getVehicleLightState`](/getVehicleLightState.md "wikilink")`)`
-`getMaxPassengers (function: `[`getVehicleMaxPassengers`](/getVehicleMaxPassengers.md "wikilink")`)`
-`getName (function: `[`getVehicleName`](/getVehicleName.md "wikilink")`)`
-`getNitroCount (function: `[`getVehicleNitroCount`](/getVehicleNitroCount.md "wikilink")`)`
-`getNitroLevel (function: `[`getVehicleNitroLevel`](/getVehicleNitroLevel.md "wikilink")`)`
-`getOccupant (function: `[`getVehicleOccupant`](/getVehicleOccupant.md "wikilink")`)`
-`getOccupants (function: `[`getVehicleOccupants`](/getVehicleOccupants.md "wikilink")`)`
-`getOverrideLights (function: `[`getVehicleOverrideLights`](/getVehicleOverrideLights.md "wikilink")`)`
-`getPaintjob (function: `[`getVehiclePaintjob`](/getVehiclePaintjob.md "wikilink")`)`
-`getPanelState (function: `[`getVehiclePanelState`](/getVehiclePanelState.md "wikilink")`)`
-`getPlateText (function: `[`getVehiclePlateText`](/getVehiclePlateText.md "wikilink")`)`
-`getSirens (function: `[`getVehicleSirens`](/getVehicleSirens.md "wikilink")`)`
-`getSirensOn (function: `[`getVehicleSirensOn`](/getVehicleSirensOn.md "wikilink")`)`
-`getTowedByVehicle (function: `[`getVehicleTowedByVehicle`](/getVehicleTowedByVehicle.md "wikilink")`)`
-`getTowingVehicle (function: `[`getVehicleTowingVehicle`](/getVehicleTowingVehicle.md "wikilink")`)`
-`getTrainDirection (function: `[`getTrainDirection`](/getTrainDirection.md "wikilink")`)`
-`getTrainSpeed (function: `[`getTrainSpeed`](/getTrainSpeed.md "wikilink")`)`
-`getTurnVelocity (function: `[`getVehicleTurnVelocity`](/getVehicleTurnVelocity.md "wikilink")`)`
-`getTurretPosition (function: `[`getVehicleTurretPosition`](/getVehicleTurretPosition.md "wikilink")`)`
-`getUpgrades (function: `[`getVehicleUpgrades`](/getVehicleUpgrades.md "wikilink")`)`
-`getUpgradeSlotName (function: `[`getVehicleUpgradeSlotName`](/getVehicleUpgradeSlotName.md "wikilink")`)`
-`getVariant (function: `[`getVehicleVariant`](/getVehicleVariant.md "wikilink")`)`
-`getVehicleType (function: `[`getVehicleType`](/getVehicleType.md "wikilink")`)`
-`getWheelStates (function: `[`getVehicleWheelStates`](/getVehicleWheelStates.md "wikilink")`)`
-`isBlown (function: `[`isVehicleBlown`](/isVehicleBlown.md "wikilink")`)`
-`isDamageProof (function: `[`isVehicleDamageProof`](/isVehicleDamageProof.md "wikilink")`)`
-`isFuelTankExplodable (function: `[`isVehicleFuelTankExplodable`](/isVehicleFuelTankExplodable.md "wikilink")`)`
-`isLocked (function: `[`isVehicleLocked`](/isVehicleLocked.md "wikilink")`)`
-`isNitroActivated (function: `[`isVehicleNitroActivated`](/isVehicleNitroActivated.md "wikilink")`)`
-`isNitroRecharging (function: `[`isVehicleNitroRecharging`](/isVehicleNitroRecharging.md "wikilink")`)`
-`isOnGround (function: `[`isVehicleOnGround`](/isVehicleOnGround.md "wikilink")`)`
-`isTaxiLightOn (function: `[`isVehicleTaxiLightOn`](/isVehicleTaxiLightOn.md "wikilink")`)`
-`isTrainDerailable (function: `[`setTrainDerailable`](/setTrainDerailable.md "wikilink")`)`
-`isTrainDerailed (function: `[`isTrainDerailed`](/isTrainDerailed.md "wikilink")`)`
-`removeUpgrade (function: `[`removeVehicleUpgrade`](/removeVehicleUpgrade.md "wikilink")`)`
-`resetComponentPosition (function: `[`resetVehicleComponentPosition`](/resetVehicleComponentPosition.md "wikilink")`)`
-`resetComponentRotation (function: `[`resetVehicleComponentRotation`](/resetVehicleComponentRotation.md "wikilink")`)`
-`setAdjustableProperty (function: `[`setVehicleAdjustableProperty`](/setVehicleAdjustableProperty.md "wikilink")`)`
-`setColor (function: `[`setVehicleColor`](/setVehicleColor.md "wikilink")`)`
-`setComponentPosition (function: `[`setVehicleComponentPosition`](/setVehicleComponentPosition.md "wikilink")`)`
-`setComponentRotation (function: `[`setVehicleComponentRotation`](/setVehicleComponentRotation.md "wikilink")`)`
-`setComponentVisible (function: `[`setVehicleComponentVisible`](/setVehicleComponentVisible.md "wikilink")`)`
-`setDamageProof (function: `[`setVehicleDamageProof`](/setVehicleDamageProof.md "wikilink")`)`
-`setDirtLevel (function: `[`setVehicleDirtLevel`](/setVehicleDirtLevel.md "wikilink")`)`
-`setDoorOpenRatio (function: `[`setVehicleDoorOpenRatio`](/setVehicleDoorOpenRatio.md "wikilink")`)`
-`setDoorState (function: `[`setVehicleDoorState`](/setVehicleDoorState.md "wikilink")`)`
-`setDoorsUndamageable (function: `[`setVehicleDoorsUndamageable`](/setVehicleDoorsUndamageable.md "wikilink")`)`
-`setEngineState (function: `[`setVehicleEngineState`](/setVehicleEngineState.md "wikilink")`)`
-`setFuelTankExplodable (function: `[`setVehicleFuelTankExplodable`](/setVehicleFuelTankExplodable.md "wikilink")`)`
-`setGravity (function: `[`setVehicleGravity`](/setVehicleGravity.md "wikilink")`)`
-`setHeadLightColor (function: `[`setVehicleHeadLightColor`](/setVehicleHeadLightColor.md "wikilink")`)`
-`setHelicopterRotorSpeed (function: `[`setHelicopterRotorSpeed`](/setHelicopterRotorSpeed.md "wikilink")`)`
-`setLandingGearDown (function: `[`setVehicleLandingGearDown`](/setVehicleLandingGearDown.md "wikilink")`)`
-`setLightState (function: `[`setVehicleLightState`](/setVehicleLightState.md "wikilink")`)`
-`setLocked (function: `[`setVehicleLocked`](/setVehicleLocked.md "wikilink")`)`
-`setNitroActivated (function: `[`setVehicleNitroActivated`](/setVehicleNitroActivated.md "wikilink")`)`
-`setNitroCount (function: `[`setVehicleNitroCount`](/setVehicleNitroCount.md "wikilink")`)`
-`setNitroLevel (function: `[`setVehicleNitroLevel`](/setVehicleNitroLevel.md "wikilink")`)`
-`setOverrideLights (function: `[`setVehicleOverrideLights`](/setVehicleOverrideLights.md "wikilink")`)`
-`setPaintjob (function: `[`setVehiclePaintjob`](/setVehiclePaintjob.md "wikilink")`)`
-`setPanelState (function: `[`setVehiclePanelState`](/setVehiclePanelState.md "wikilink")`)`
-`setSirens (function: `[`setVehicleSirens`](/setVehicleSirens.md "wikilink")`)`
-`setSirensOn (function: `[`setVehicleSirensOn`](/setVehicleSirensOn.md "wikilink")`)`
-`setTaxiLightOn (function: `[`setVehicleTaxiLightOn`](/setVehicleTaxiLightOn.md "wikilink")`)`
-`setTrainDerailable (function: `[`setTrainDerailable`](/setTrainDerailable.md "wikilink")`)`
-`setTrainDerailed (function: `[`setTrainDerailed`](/setTrainDerailed.md "wikilink")`)`
-`setTrainDirection (function: `[`setTrainDirection`](/setTrainDirection.md "wikilink")`)`
-`setTrainSpeed (function: `[`setTrainSpeed`](/setTrainSpeed.md "wikilink")`)`
-`setTurnVelocity (function: `[`setVehicleTurnVelocity`](/setVehicleTurnVelocity.md "wikilink")`)`
-`setTurretPosition (function: `[`setVehicleTurretPosition`](/setVehicleTurretPosition.md "wikilink")`)`
-`setVariant (function: `[`setVehicleVariant`](/setVehicleVariant.md "wikilink")`)`
-`setWheelStates (function: `[`setVehicleWheelStates`](/setVehicleWheelStates.md "wikilink")`)`
+`addUpgrade (function: `[`addVehicleUpgrade`](/docs/addVehicleUpgrade.md "wikilink")`)`
+`attachTrailer (function: `[`attachTrailerToVehicle`](/docs/attachTrailerToVehicle.md "wikilink")`)`
+`blow (function: `[`blowVehicle`](/docs/blowVehicle.md "wikilink")`)`
+`create (function: `[`createVehicle`](/docs/createVehicle.md "wikilink")`)`
+`detachTrailer (function: `[`detachTrailerFromVehicle`](/docs/detachTrailerFromVehicle.md "wikilink")`)`
+`fix (function: `[`fixVehicle`](/docs/fixVehicle.md "wikilink")`)`
+`getAdjustableProperty (function: `[`getVehicleAdjustableProperty`](/docs/getVehicleAdjustableProperty.md "wikilink")`)`
+`getColor (function: `[`getVehicleColor`](/docs/getVehicleColor.md "wikilink")`)`
+`getCompatibleUpgrades (function: `[`getVehicleCompatibleUpgrades`](/docs/getVehicleCompatibleUpgrades.md "wikilink")`)`
+`getComponentPosition (function: `[`getVehicleComponentPosition`](/docs/getVehicleComponentPosition.md "wikilink")`)`
+`getComponentRotation (function: `[`getVehicleComponentRotation`](/docs/getVehicleComponentRotation.md "wikilink")`)`
+`getComponents (function: `[`getVehicleComponents`](/docs/getVehicleComponents.md "wikilink")`)`
+`getComponentVisible (function: `[`getVehicleComponentVisible`](/docs/getVehicleComponentVisible.md "wikilink")`)`
+`getController (function: `[`getVehicleController`](/docs/getVehicleController.md "wikilink")`)`
+`getDoorOpenRatio (function: `[`getVehicleDoorOpenRatio`](/docs/getVehicleDoorOpenRatio.md "wikilink")`)`
+`getDoorState (function: `[`getVehicleDoorState`](/docs/getVehicleDoorState.md "wikilink")`)`
+`getEngineState (function: `[`getVehicleEngineState`](/docs/getVehicleEngineState.md "wikilink")`)`
+`getGear (function: `[`getVehicleCurrentGear`](/docs/getVehicleCurrentGear.md "wikilink")`)`
+`getGravity (function: `[`getVehicleGravity`](/docs/getVehicleGravity.md "wikilink")`)`
+`getHandling (function: `[`getVehicleHandling`](/docs/getVehicleHandling.md "wikilink")`)`
+`getHeadLightColor (function: `[`getVehicleHeadLightColor`](/docs/getVehicleHeadLightColor.md "wikilink")`)`
+`getHelicopterRotorSpeed (function: `[`getHelicopterRotorSpeed`](/docs/getHelicopterRotorSpeed.md "wikilink")`)`
+`getLandingGearDown (function: `[`getVehicleLandingGearDown`](/docs/getVehicleLandingGearDown.md "wikilink")`)`
+`getLightState (function: `[`getVehicleLightState`](/docs/getVehicleLightState.md "wikilink")`)`
+`getMaxPassengers (function: `[`getVehicleMaxPassengers`](/docs/getVehicleMaxPassengers.md "wikilink")`)`
+`getName (function: `[`getVehicleName`](/docs/getVehicleName.md "wikilink")`)`
+`getNitroCount (function: `[`getVehicleNitroCount`](/docs/getVehicleNitroCount.md "wikilink")`)`
+`getNitroLevel (function: `[`getVehicleNitroLevel`](/docs/getVehicleNitroLevel.md "wikilink")`)`
+`getOccupant (function: `[`getVehicleOccupant`](/docs/getVehicleOccupant.md "wikilink")`)`
+`getOccupants (function: `[`getVehicleOccupants`](/docs/getVehicleOccupants.md "wikilink")`)`
+`getOverrideLights (function: `[`getVehicleOverrideLights`](/docs/getVehicleOverrideLights.md "wikilink")`)`
+`getPaintjob (function: `[`getVehiclePaintjob`](/docs/getVehiclePaintjob.md "wikilink")`)`
+`getPanelState (function: `[`getVehiclePanelState`](/docs/getVehiclePanelState.md "wikilink")`)`
+`getPlateText (function: `[`getVehiclePlateText`](/docs/getVehiclePlateText.md "wikilink")`)`
+`getSirens (function: `[`getVehicleSirens`](/docs/getVehicleSirens.md "wikilink")`)`
+`getSirensOn (function: `[`getVehicleSirensOn`](/docs/getVehicleSirensOn.md "wikilink")`)`
+`getTowedByVehicle (function: `[`getVehicleTowedByVehicle`](/docs/getVehicleTowedByVehicle.md "wikilink")`)`
+`getTowingVehicle (function: `[`getVehicleTowingVehicle`](/docs/getVehicleTowingVehicle.md "wikilink")`)`
+`getTrainDirection (function: `[`getTrainDirection`](/docs/getTrainDirection.md "wikilink")`)`
+`getTrainSpeed (function: `[`getTrainSpeed`](/docs/getTrainSpeed.md "wikilink")`)`
+`getTurnVelocity (function: `[`getVehicleTurnVelocity`](/docs/getVehicleTurnVelocity.md "wikilink")`)`
+`getTurretPosition (function: `[`getVehicleTurretPosition`](/docs/getVehicleTurretPosition.md "wikilink")`)`
+`getUpgrades (function: `[`getVehicleUpgrades`](/docs/getVehicleUpgrades.md "wikilink")`)`
+`getUpgradeSlotName (function: `[`getVehicleUpgradeSlotName`](/docs/getVehicleUpgradeSlotName.md "wikilink")`)`
+`getVariant (function: `[`getVehicleVariant`](/docs/getVehicleVariant.md "wikilink")`)`
+`getVehicleType (function: `[`getVehicleType`](/docs/getVehicleType.md "wikilink")`)`
+`getWheelStates (function: `[`getVehicleWheelStates`](/docs/getVehicleWheelStates.md "wikilink")`)`
+`isBlown (function: `[`isVehicleBlown`](/docs/isVehicleBlown.md "wikilink")`)`
+`isDamageProof (function: `[`isVehicleDamageProof`](/docs/isVehicleDamageProof.md "wikilink")`)`
+`isFuelTankExplodable (function: `[`isVehicleFuelTankExplodable`](/docs/isVehicleFuelTankExplodable.md "wikilink")`)`
+`isLocked (function: `[`isVehicleLocked`](/docs/isVehicleLocked.md "wikilink")`)`
+`isNitroActivated (function: `[`isVehicleNitroActivated`](/docs/isVehicleNitroActivated.md "wikilink")`)`
+`isNitroRecharging (function: `[`isVehicleNitroRecharging`](/docs/isVehicleNitroRecharging.md "wikilink")`)`
+`isOnGround (function: `[`isVehicleOnGround`](/docs/isVehicleOnGround.md "wikilink")`)`
+`isTaxiLightOn (function: `[`isVehicleTaxiLightOn`](/docs/isVehicleTaxiLightOn.md "wikilink")`)`
+`isTrainDerailable (function: `[`setTrainDerailable`](/docs/setTrainDerailable.md "wikilink")`)`
+`isTrainDerailed (function: `[`isTrainDerailed`](/docs/isTrainDerailed.md "wikilink")`)`
+`removeUpgrade (function: `[`removeVehicleUpgrade`](/docs/removeVehicleUpgrade.md "wikilink")`)`
+`resetComponentPosition (function: `[`resetVehicleComponentPosition`](/docs/resetVehicleComponentPosition.md "wikilink")`)`
+`resetComponentRotation (function: `[`resetVehicleComponentRotation`](/docs/resetVehicleComponentRotation.md "wikilink")`)`
+`setAdjustableProperty (function: `[`setVehicleAdjustableProperty`](/docs/setVehicleAdjustableProperty.md "wikilink")`)`
+`setColor (function: `[`setVehicleColor`](/docs/setVehicleColor.md "wikilink")`)`
+`setComponentPosition (function: `[`setVehicleComponentPosition`](/docs/setVehicleComponentPosition.md "wikilink")`)`
+`setComponentRotation (function: `[`setVehicleComponentRotation`](/docs/setVehicleComponentRotation.md "wikilink")`)`
+`setComponentVisible (function: `[`setVehicleComponentVisible`](/docs/setVehicleComponentVisible.md "wikilink")`)`
+`setDamageProof (function: `[`setVehicleDamageProof`](/docs/setVehicleDamageProof.md "wikilink")`)`
+`setDirtLevel (function: `[`setVehicleDirtLevel`](/docs/setVehicleDirtLevel.md "wikilink")`)`
+`setDoorOpenRatio (function: `[`setVehicleDoorOpenRatio`](/docs/setVehicleDoorOpenRatio.md "wikilink")`)`
+`setDoorState (function: `[`setVehicleDoorState`](/docs/setVehicleDoorState.md "wikilink")`)`
+`setDoorsUndamageable (function: `[`setVehicleDoorsUndamageable`](/docs/setVehicleDoorsUndamageable.md "wikilink")`)`
+`setEngineState (function: `[`setVehicleEngineState`](/docs/setVehicleEngineState.md "wikilink")`)`
+`setFuelTankExplodable (function: `[`setVehicleFuelTankExplodable`](/docs/setVehicleFuelTankExplodable.md "wikilink")`)`
+`setGravity (function: `[`setVehicleGravity`](/docs/setVehicleGravity.md "wikilink")`)`
+`setHeadLightColor (function: `[`setVehicleHeadLightColor`](/docs/setVehicleHeadLightColor.md "wikilink")`)`
+`setHelicopterRotorSpeed (function: `[`setHelicopterRotorSpeed`](/docs/setHelicopterRotorSpeed.md "wikilink")`)`
+`setLandingGearDown (function: `[`setVehicleLandingGearDown`](/docs/setVehicleLandingGearDown.md "wikilink")`)`
+`setLightState (function: `[`setVehicleLightState`](/docs/setVehicleLightState.md "wikilink")`)`
+`setLocked (function: `[`setVehicleLocked`](/docs/setVehicleLocked.md "wikilink")`)`
+`setNitroActivated (function: `[`setVehicleNitroActivated`](/docs/setVehicleNitroActivated.md "wikilink")`)`
+`setNitroCount (function: `[`setVehicleNitroCount`](/docs/setVehicleNitroCount.md "wikilink")`)`
+`setNitroLevel (function: `[`setVehicleNitroLevel`](/docs/setVehicleNitroLevel.md "wikilink")`)`
+`setOverrideLights (function: `[`setVehicleOverrideLights`](/docs/setVehicleOverrideLights.md "wikilink")`)`
+`setPaintjob (function: `[`setVehiclePaintjob`](/docs/setVehiclePaintjob.md "wikilink")`)`
+`setPanelState (function: `[`setVehiclePanelState`](/docs/setVehiclePanelState.md "wikilink")`)`
+`setSirens (function: `[`setVehicleSirens`](/docs/setVehicleSirens.md "wikilink")`)`
+`setSirensOn (function: `[`setVehicleSirensOn`](/docs/setVehicleSirensOn.md "wikilink")`)`
+`setTaxiLightOn (function: `[`setVehicleTaxiLightOn`](/docs/setVehicleTaxiLightOn.md "wikilink")`)`
+`setTrainDerailable (function: `[`setTrainDerailable`](/docs/setTrainDerailable.md "wikilink")`)`
+`setTrainDerailed (function: `[`setTrainDerailed`](/docs/setTrainDerailed.md "wikilink")`)`
+`setTrainDirection (function: `[`setTrainDirection`](/docs/setTrainDirection.md "wikilink")`)`
+`setTrainSpeed (function: `[`setTrainSpeed`](/docs/setTrainSpeed.md "wikilink")`)`
+`setTurnVelocity (function: `[`setVehicleTurnVelocity`](/docs/setVehicleTurnVelocity.md "wikilink")`)`
+`setTurretPosition (function: `[`setVehicleTurretPosition`](/docs/setVehicleTurretPosition.md "wikilink")`)`
+`setVariant (function: `[`setVehicleVariant`](/docs/setVehicleVariant.md "wikilink")`)`
+`setWheelStates (function: `[`setVehicleWheelStates`](/docs/setVehicleWheelStates.md "wikilink")`)`
 
 Ped
 ---
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`addClothes (function: `[`addPedClothes`](/addPedClothes.md "wikilink")`)`
-`canBeKnockedOffBike (function: `[`canPedBeKnockedOffBike`](/canPedBeKnockedOffBike.md "wikilink")`)`
-`create (function: `[`createPed`](/createPed.md "wikilink")`)`
-`doesHaveJetPack (function: `[`doesPedHaveJetPack`](/doesPedHaveJetPack.md "wikilink")`)`
-`getAmmoInClip (function: `[`getPedAmmoInClip`](/getPedAmmoInClip.md "wikilink")`)`
-`getAnalogControlState (function: `[`getPedAnalogControlState`](/getPedAnalogControlState.md "wikilink")`)`
-`getAnimation (function: `[`getPedAnimation`](/getPedAnimation.md "wikilink")`)`
-`getAnimationData (function: `[`getPedAnimationData`](/getPedAnimationData.md "wikilink")`)`
-`getArmor (function: `[`getPedArmor`](/getPedArmor.md "wikilink")`)`
-`getBodyPartName (function: `[`getBodyPartName`](/getBodyPartName.md "wikilink")`)`
-`getBonePosition (function: `[`getPedBonePosition`](/getPedBonePosition.md "wikilink")`)`
-`getCameraRotation (function: `[`getPedCameraRotation`](/getPedCameraRotation.md "wikilink")`)`
-`getClothes (function: `[`getPedClothes`](/getPedClothes.md "wikilink")`)`
-`getClothesByTypeIndex (function: `[`getClothesByTypeIndex`](/getClothesByTypeIndex.md "wikilink")`)`
-`getClothesTypeName (function: `[`getClothesTypeName`](/getClothesTypeName.md "wikilink")`)`
-`getContactElement (function: `[`getPedContactElement`](/getPedContactElement.md "wikilink")`)`
-`getControlState (function: `[`getPedControlState`](/getPedControlState.md "wikilink")`)`
-`getMoveState (function: `[`getPedMoveState`](/getPedMoveState.md "wikilink")`)`
-`getOccupiedVehicle (function: `[`GetPedOccupiedVehicle`](/GetPedOccupiedVehicle.md "wikilink")`)`
-`getOxygenLevel (function: `[`getPedOxygenLevel`](/getPedOxygenLevel.md "wikilink")`)`
-`getSimplestTask (function: `[`getPedSimplestTask`](/getPedSimplestTask.md "wikilink")`)`
-`getStat (function: `[`getPedStat`](/getPedStat.md "wikilink")`)`
-`getTarget (function: `[`getPedTarget`](/getPedTarget.md "wikilink")`)`
-`getTargetCollision (function: `[`getPedTargetCollision`](/getPedTargetCollision.md "wikilink")`)`
-`getTargetEnd (function: `[`getPedTargetEnd`](/getPedTargetEnd.md "wikilink")`)`
-`getTargetStart (function: `[`getPedTargetStart`](/getPedTargetStart.md "wikilink")`)`
-`getTask (function: `[`getPedTask`](/getPedTask.md "wikilink")`)`
-`getTotalAmmo (function: `[`getPedTotalAmmo`](/getPedTotalAmmo.md "wikilink")`)`
-`getTypeIndexFromClothes (function: `[`getTypeIndexFromClothes`](/getTypeIndexFromClothes.md "wikilink")`)`
-`getValidModels (function: `[`getValidPedModels`](/getValidPedModels.md "wikilink")`)`
-`getVoice (function: `[`getPedVoice`](/getPedVoice.md "wikilink")`)`
-`getWalkingStyle (function: `[`getPedWalkingStyle`](/getPedWalkingStyle.md "wikilink")`)`
-`getWeapon (function: `[`getPedWeapon`](/getPedWeapon.md "wikilink")`)`
-`getWeaponMuzzlePosition (function: `[`getPedWeaponMuzzlePosition`](/getPedWeaponMuzzlePosition.md "wikilink")`)`
-`isChocking (function: `[`isPedChoking`](/isPedChoking.md "wikilink")`)`
-`isDoingGangDriveby (function: `[`isPedDoingGangDriveby`](/isPedDoingGangDriveby.md "wikilink")`)`
-`isDoingTask (function: `[`isPedDoingTask`](/isPedDoingTask.md "wikilink")`)`
-`isDucked (function: `[`isPedDucked`](/isPedDucked.md "wikilink")`)`
-`isHeadless (function: `[`isPedHeadless`](/isPedHeadless.md "wikilink")`)`
-`isInVehicle (function: `[`isPedInVehicle`](/isPedInVehicle.md "wikilink")`)`
-`isOnFire (function: `[`isPedOnFire`](/isPedOnFire.md "wikilink")`)`
-`isOnGround (function: `[`isPedOnGround`](/isPedOnGround.md "wikilink")`)`
-`isTargetingMarkerEnabled (function: `[`isPedTargetingMarkerEnabled`](/isPedTargetingMarkerEnabled.md "wikilink")`)`
-`removeClothes (function: `[`removePedClothes`](/removePedClothes.md "wikilink")`)`
-`removeFromVehicle (function: `[`removePedFromVehicle`](/removePedFromVehicle.md "wikilink")`)`
-`setAimTarget (function: `[`setPedAimTarget`](/setPedAimTarget.md "wikilink")`)`
-`setAnalogControlState (function: `[`setPedAnalogControlState`](/setPedAnalogControlState.md "wikilink")`)`
-`setAnimation (function: `[`setPedAnimation`](/setPedAnimation.md "wikilink")`)`
-`setAnimationProgress (function: `[`setPedAnimationProgress`](/setPedAnimationProgress.md "wikilink")`)`
-`setCameraRotation (function: `[`setPedCameraRotation`](/setPedCameraRotation.md "wikilink")`)`
-`setCanBeKnockedOffBike (function: `[`setPedCanBeKnockedOffBike`](/setPedCanBeKnockedOffBike.md "wikilink")`)`
-`setControlState (function: `[`setPedControlState`](/setPedControlState.md "wikilink")`)`
-`setDoingGangDriveby (function: `[`setPedDoingGangDriveby`](/setPedDoingGangDriveby.md "wikilink")`)`
-`setFootBloodEnabled (function: `[`setPedFootBloodEnabled`](/setPedFootBloodEnabled.md "wikilink")`)`
-`setHeadless (function: `[`setPedHeadless`](/setPedHeadless.md "wikilink")`)`
-`setLookAt (function: `[`setPedLookAt`](/setPedLookAt.md "wikilink")`)`
-`setOnFire (function: `[`setPedOnFire`](/setPedOnFire.md "wikilink")`)`
-`setOxygenLevel (function: `[`setPedOxygenLevel`](/setPedOxygenLevel.md "wikilink")`)`
-`setTargetingMarkerEnabled (function: `[`setPedTargetingMarkerEnabled`](/setPedTargetingMarkerEnabled.md "wikilink")`)`
-`setVoice (function: `[`setPedVoice`](/setPedVoice.md "wikilink")`)`
-`setWalkingStyle (function: `[`setPedWalkingStyle`](/setPedWalkingStyle.md "wikilink")`)`
-`setWeaponSlot (function: `[`setPedWeaponSlot`](/setPedWeaponSlot.md "wikilink")`)`
-`warpIntoVehicle (function: `[`warpPedIntoVehicle`](/warpPedIntoVehicle.md "wikilink")`)`
+`addClothes (function: `[`addPedClothes`](/docs/addPedClothes.md "wikilink")`)`
+`canBeKnockedOffBike (function: `[`canPedBeKnockedOffBike`](/docs/canPedBeKnockedOffBike.md "wikilink")`)`
+`create (function: `[`createPed`](/docs/createPed.md "wikilink")`)`
+`doesHaveJetPack (function: `[`doesPedHaveJetPack`](/docs/doesPedHaveJetPack.md "wikilink")`)`
+`getAmmoInClip (function: `[`getPedAmmoInClip`](/docs/getPedAmmoInClip.md "wikilink")`)`
+`getAnalogControlState (function: `[`getPedAnalogControlState`](/docs/getPedAnalogControlState.md "wikilink")`)`
+`getAnimation (function: `[`getPedAnimation`](/docs/getPedAnimation.md "wikilink")`)`
+`getAnimationData (function: `[`getPedAnimationData`](/docs/getPedAnimationData.md "wikilink")`)`
+`getArmor (function: `[`getPedArmor`](/docs/getPedArmor.md "wikilink")`)`
+`getBodyPartName (function: `[`getBodyPartName`](/docs/getBodyPartName.md "wikilink")`)`
+`getBonePosition (function: `[`getPedBonePosition`](/docs/getPedBonePosition.md "wikilink")`)`
+`getCameraRotation (function: `[`getPedCameraRotation`](/docs/getPedCameraRotation.md "wikilink")`)`
+`getClothes (function: `[`getPedClothes`](/docs/getPedClothes.md "wikilink")`)`
+`getClothesByTypeIndex (function: `[`getClothesByTypeIndex`](/docs/getClothesByTypeIndex.md "wikilink")`)`
+`getClothesTypeName (function: `[`getClothesTypeName`](/docs/getClothesTypeName.md "wikilink")`)`
+`getContactElement (function: `[`getPedContactElement`](/docs/getPedContactElement.md "wikilink")`)`
+`getControlState (function: `[`getPedControlState`](/docs/getPedControlState.md "wikilink")`)`
+`getMoveState (function: `[`getPedMoveState`](/docs/getPedMoveState.md "wikilink")`)`
+`getOccupiedVehicle (function: `[`GetPedOccupiedVehicle`](/docs/GetPedOccupiedVehicle.md "wikilink")`)`
+`getOxygenLevel (function: `[`getPedOxygenLevel`](/docs/getPedOxygenLevel.md "wikilink")`)`
+`getSimplestTask (function: `[`getPedSimplestTask`](/docs/getPedSimplestTask.md "wikilink")`)`
+`getStat (function: `[`getPedStat`](/docs/getPedStat.md "wikilink")`)`
+`getTarget (function: `[`getPedTarget`](/docs/getPedTarget.md "wikilink")`)`
+`getTargetCollision (function: `[`getPedTargetCollision`](/docs/getPedTargetCollision.md "wikilink")`)`
+`getTargetEnd (function: `[`getPedTargetEnd`](/docs/getPedTargetEnd.md "wikilink")`)`
+`getTargetStart (function: `[`getPedTargetStart`](/docs/getPedTargetStart.md "wikilink")`)`
+`getTask (function: `[`getPedTask`](/docs/getPedTask.md "wikilink")`)`
+`getTotalAmmo (function: `[`getPedTotalAmmo`](/docs/getPedTotalAmmo.md "wikilink")`)`
+`getTypeIndexFromClothes (function: `[`getTypeIndexFromClothes`](/docs/getTypeIndexFromClothes.md "wikilink")`)`
+`getValidModels (function: `[`getValidPedModels`](/docs/getValidPedModels.md "wikilink")`)`
+`getVoice (function: `[`getPedVoice`](/docs/getPedVoice.md "wikilink")`)`
+`getWalkingStyle (function: `[`getPedWalkingStyle`](/docs/getPedWalkingStyle.md "wikilink")`)`
+`getWeapon (function: `[`getPedWeapon`](/docs/getPedWeapon.md "wikilink")`)`
+`getWeaponMuzzlePosition (function: `[`getPedWeaponMuzzlePosition`](/docs/getPedWeaponMuzzlePosition.md "wikilink")`)`
+`isChocking (function: `[`isPedChoking`](/docs/isPedChoking.md "wikilink")`)`
+`isDoingGangDriveby (function: `[`isPedDoingGangDriveby`](/docs/isPedDoingGangDriveby.md "wikilink")`)`
+`isDoingTask (function: `[`isPedDoingTask`](/docs/isPedDoingTask.md "wikilink")`)`
+`isDucked (function: `[`isPedDucked`](/docs/isPedDucked.md "wikilink")`)`
+`isHeadless (function: `[`isPedHeadless`](/docs/isPedHeadless.md "wikilink")`)`
+`isInVehicle (function: `[`isPedInVehicle`](/docs/isPedInVehicle.md "wikilink")`)`
+`isOnFire (function: `[`isPedOnFire`](/docs/isPedOnFire.md "wikilink")`)`
+`isOnGround (function: `[`isPedOnGround`](/docs/isPedOnGround.md "wikilink")`)`
+`isTargetingMarkerEnabled (function: `[`isPedTargetingMarkerEnabled`](/docs/isPedTargetingMarkerEnabled.md "wikilink")`)`
+`removeClothes (function: `[`removePedClothes`](/docs/removePedClothes.md "wikilink")`)`
+`removeFromVehicle (function: `[`removePedFromVehicle`](/docs/removePedFromVehicle.md "wikilink")`)`
+`setAimTarget (function: `[`setPedAimTarget`](/docs/setPedAimTarget.md "wikilink")`)`
+`setAnalogControlState (function: `[`setPedAnalogControlState`](/docs/setPedAnalogControlState.md "wikilink")`)`
+`setAnimation (function: `[`setPedAnimation`](/docs/setPedAnimation.md "wikilink")`)`
+`setAnimationProgress (function: `[`setPedAnimationProgress`](/docs/setPedAnimationProgress.md "wikilink")`)`
+`setCameraRotation (function: `[`setPedCameraRotation`](/docs/setPedCameraRotation.md "wikilink")`)`
+`setCanBeKnockedOffBike (function: `[`setPedCanBeKnockedOffBike`](/docs/setPedCanBeKnockedOffBike.md "wikilink")`)`
+`setControlState (function: `[`setPedControlState`](/docs/setPedControlState.md "wikilink")`)`
+`setDoingGangDriveby (function: `[`setPedDoingGangDriveby`](/docs/setPedDoingGangDriveby.md "wikilink")`)`
+`setFootBloodEnabled (function: `[`setPedFootBloodEnabled`](/docs/setPedFootBloodEnabled.md "wikilink")`)`
+`setHeadless (function: `[`setPedHeadless`](/docs/setPedHeadless.md "wikilink")`)`
+`setLookAt (function: `[`setPedLookAt`](/docs/setPedLookAt.md "wikilink")`)`
+`setOnFire (function: `[`setPedOnFire`](/docs/setPedOnFire.md "wikilink")`)`
+`setOxygenLevel (function: `[`setPedOxygenLevel`](/docs/setPedOxygenLevel.md "wikilink")`)`
+`setTargetingMarkerEnabled (function: `[`setPedTargetingMarkerEnabled`](/docs/setPedTargetingMarkerEnabled.md "wikilink")`)`
+`setVoice (function: `[`setPedVoice`](/docs/setPedVoice.md "wikilink")`)`
+`setWalkingStyle (function: `[`setPedWalkingStyle`](/docs/setPedWalkingStyle.md "wikilink")`)`
+`setWeaponSlot (function: `[`setPedWeaponSlot`](/docs/setPedWeaponSlot.md "wikilink")`)`
+`warpIntoVehicle (function: `[`warpPedIntoVehicle`](/docs/warpPedIntoVehicle.md "wikilink")`)`
 
 Player
 ------
 
-*Inherited from [Ped](/#Ped.md "wikilink")*
+*Inherited from [Ped](/docs/#Ped.md "wikilink")*
 
-`create (function: `[`getPlayerFromName`](/getPlayerFromName.md "wikilink")`)`
-`getBlurLevel (function: `[`getPlayerBlurLevel`](/getPlayerBlurLevel.md "wikilink")`)`
-`getMapBoundingBox (function: `[`getPlayerMapBoundingBox`](/getPlayerMapBoundingBox.md "wikilink")`)`
-`getMoney (function: `[`getPlayerMoney`](/getPlayerMoney.md "wikilink")`)`
-`getName (function: `[`getPlayerName`](/getPlayerName.md "wikilink")`)`
-`getNametagColor (function: `[`getPlayerNametagColor`](/getPlayerNametagColor.md "wikilink")`)`
-`getNametagText (function: `[`getPlayerNametagText`](/getPlayerNametagText.md "wikilink")`)`
-`getPing (function: `[`getPlayerPing`](/getPlayerPing.md "wikilink")`)`
-`getSerial (function: `[`getPlayerSerial`](/getPlayerSerial.md "wikilink")`)`
-`getTeam (function: `[`getPlayerTeam`](/getPlayerTeam.md "wikilink")`)`
-`getWantedLevel (function: `[`getPlayerWantedLevel`](/getPlayerWantedLevel.md "wikilink")`)`
-`giveMoney (function: `[`givePlayerMoney`](/givePlayerMoney.md "wikilink")`)`
-`isHudComponentVisible (function: `[`isPlayerHudComponentVisible`](/isPlayerHudComponentVisible.md "wikilink")`)`
-`isMapForced (function: `[`isPlayerMapForced`](/isPlayerMapForced.md "wikilink")`)`
-`isMapVisible (function: `[`isPlayerMapVisible`](/isPlayerMapVisible.md "wikilink")`)`
-`isNametagShowing (function: `[`isPlayerNametagShowing`](/isPlayerNametagShowing.md "wikilink")`)`
-`setBlurLevel (function: `[`setPlayerBlurLevel`](/setPlayerBlurLevel.md "wikilink")`)`
-`setMoney (function: `[`setPlayerMoney`](/setPlayerMoney.md "wikilink")`)`
-`setNametagColor (function: `[`setPlayerNametagColor`](/setPlayerNametagColor.md "wikilink")`)`
-`setNametagShowing (function: `[`setPlayerNametagShowing`](/setPlayerNametagShowing.md "wikilink")`)`
-`setNametagText (function: `[`setPlayerNametagText`](/setPlayerNametagText.md "wikilink")`)`
-`showHudComponent (function: `[`showPlayerHudComponent`](/showPlayerHudComponent.md "wikilink")`)`
-`takeMoney (function: `[`takePlayerMoney`](/takePlayerMoney.md "wikilink")`)`
+`create (function: `[`getPlayerFromName`](/docs/getPlayerFromName.md "wikilink")`)`
+`getBlurLevel (function: `[`getPlayerBlurLevel`](/docs/getPlayerBlurLevel.md "wikilink")`)`
+`getMapBoundingBox (function: `[`getPlayerMapBoundingBox`](/docs/getPlayerMapBoundingBox.md "wikilink")`)`
+`getMoney (function: `[`getPlayerMoney`](/docs/getPlayerMoney.md "wikilink")`)`
+`getName (function: `[`getPlayerName`](/docs/getPlayerName.md "wikilink")`)`
+`getNametagColor (function: `[`getPlayerNametagColor`](/docs/getPlayerNametagColor.md "wikilink")`)`
+`getNametagText (function: `[`getPlayerNametagText`](/docs/getPlayerNametagText.md "wikilink")`)`
+`getPing (function: `[`getPlayerPing`](/docs/getPlayerPing.md "wikilink")`)`
+`getSerial (function: `[`getPlayerSerial`](/docs/getPlayerSerial.md "wikilink")`)`
+`getTeam (function: `[`getPlayerTeam`](/docs/getPlayerTeam.md "wikilink")`)`
+`getWantedLevel (function: `[`getPlayerWantedLevel`](/docs/getPlayerWantedLevel.md "wikilink")`)`
+`giveMoney (function: `[`givePlayerMoney`](/docs/givePlayerMoney.md "wikilink")`)`
+`isHudComponentVisible (function: `[`isPlayerHudComponentVisible`](/docs/isPlayerHudComponentVisible.md "wikilink")`)`
+`isMapForced (function: `[`isPlayerMapForced`](/docs/isPlayerMapForced.md "wikilink")`)`
+`isMapVisible (function: `[`isPlayerMapVisible`](/docs/isPlayerMapVisible.md "wikilink")`)`
+`isNametagShowing (function: `[`isPlayerNametagShowing`](/docs/isPlayerNametagShowing.md "wikilink")`)`
+`setBlurLevel (function: `[`setPlayerBlurLevel`](/docs/setPlayerBlurLevel.md "wikilink")`)`
+`setMoney (function: `[`setPlayerMoney`](/docs/setPlayerMoney.md "wikilink")`)`
+`setNametagColor (function: `[`setPlayerNametagColor`](/docs/setPlayerNametagColor.md "wikilink")`)`
+`setNametagShowing (function: `[`setPlayerNametagShowing`](/docs/setPlayerNametagShowing.md "wikilink")`)`
+`setNametagText (function: `[`setPlayerNametagText`](/docs/setPlayerNametagText.md "wikilink")`)`
+`showHudComponent (function: `[`showPlayerHudComponent`](/docs/showPlayerHudComponent.md "wikilink")`)`
+`takeMoney (function: `[`takePlayerMoney`](/docs/takePlayerMoney.md "wikilink")`)`
 
 Object
 ------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`break (function: `[`breakObject`](/breakObject.md "wikilink")`)`
-`create (function: `[`createObject`](/createObject.md "wikilink")`)`
-`getMass (function: `[`getObjectMass`](/getObjectMass.md "wikilink")`)`
-`getScale (function: `[`getObjectScale`](/getObjectScale.md "wikilink")`)`
-`isBreakable (function: `[`isObjectBreakable`](/isObjectBreakable.md "wikilink")`)`
-`move (function: `[`moveObject`](/moveObject.md "wikilink")`)`
-`respawn (function: `[`respawnObject`](/respawnObject.md "wikilink")`)`
-`setBreakable (function: `[`setObjectBreakable`](/setObjectBreakable.md "wikilink")`)`
-`setMass (function: `[`setObjectMass`](/setObjectMass.md "wikilink")`)`
-`setScale (function: `[`setObjectScale`](/setObjectScale.md "wikilink")`)`
-`stop (function: `[`stopObject`](/stopObject.md "wikilink")`)`
-`toggleObjectRespawn (function: `[`toggleObjectRespawn`](/toggleObjectRespawn.md "wikilink")`)`
+`break (function: `[`breakObject`](/docs/breakObject.md "wikilink")`)`
+`create (function: `[`createObject`](/docs/createObject.md "wikilink")`)`
+`getMass (function: `[`getObjectMass`](/docs/getObjectMass.md "wikilink")`)`
+`getScale (function: `[`getObjectScale`](/docs/getObjectScale.md "wikilink")`)`
+`isBreakable (function: `[`isObjectBreakable`](/docs/isObjectBreakable.md "wikilink")`)`
+`move (function: `[`moveObject`](/docs/moveObject.md "wikilink")`)`
+`respawn (function: `[`respawnObject`](/docs/respawnObject.md "wikilink")`)`
+`setBreakable (function: `[`setObjectBreakable`](/docs/setObjectBreakable.md "wikilink")`)`
+`setMass (function: `[`setObjectMass`](/docs/setObjectMass.md "wikilink")`)`
+`setScale (function: `[`setObjectScale`](/docs/setObjectScale.md "wikilink")`)`
+`stop (function: `[`stopObject`](/docs/stopObject.md "wikilink")`)`
+`toggleObjectRespawn (function: `[`toggleObjectRespawn`](/docs/toggleObjectRespawn.md "wikilink")`)`
 
 Marker
 ------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`create (function: `[`createMarker`](/createMarker.md "wikilink")`)`
-`getColor (function: `[`getMarkerColor`](/getMarkerColor.md "wikilink")`)`
-`getCount (function: `[`getMarkerCount`](/getMarkerCount.md "wikilink")`)`
-`getIcon (function: `[`getMarkerIcon`](/getMarkerIcon.md "wikilink")`)`
-`getSize (function: `[`getMarkerSize`](/getMarkerSize.md "wikilink")`)`
-`getTarget (function: `[`getMarkerTarget`](/getMarkerTarget.md "wikilink")`)`
-`getType (function: `[`getMarkerType`](/getMarkerType.md "wikilink")`)`
-`setColor (function: `[`setMarkerColor`](/setMarkerColor.md "wikilink")`)`
-`setIcon (function: `[`setMarkerIcon`](/setMarkerIcon.md "wikilink")`)`
-`setSize (function: `[`setMarkerSize`](/setMarkerSize.md "wikilink")`)`
-`setTarget (function: `[`setMarkerTarget`](/setMarkerTarget.md "wikilink")`)`
-`setType (function: `[`setMarkerType`](/setMarkerType.md "wikilink")`)`
+`create (function: `[`createMarker`](/docs/createMarker.md "wikilink")`)`
+`getColor (function: `[`getMarkerColor`](/docs/getMarkerColor.md "wikilink")`)`
+`getCount (function: `[`getMarkerCount`](/docs/getMarkerCount.md "wikilink")`)`
+`getIcon (function: `[`getMarkerIcon`](/docs/getMarkerIcon.md "wikilink")`)`
+`getSize (function: `[`getMarkerSize`](/docs/getMarkerSize.md "wikilink")`)`
+`getTarget (function: `[`getMarkerTarget`](/docs/getMarkerTarget.md "wikilink")`)`
+`getType (function: `[`getMarkerType`](/docs/getMarkerType.md "wikilink")`)`
+`setColor (function: `[`setMarkerColor`](/docs/setMarkerColor.md "wikilink")`)`
+`setIcon (function: `[`setMarkerIcon`](/docs/setMarkerIcon.md "wikilink")`)`
+`setSize (function: `[`setMarkerSize`](/docs/setMarkerSize.md "wikilink")`)`
+`setTarget (function: `[`setMarkerTarget`](/docs/setMarkerTarget.md "wikilink")`)`
+`setType (function: `[`setMarkerType`](/docs/setMarkerType.md "wikilink")`)`
 
 Blip
 ----
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`create (function: `[`createBlip`](/createBlip.md "wikilink")`)`
-`createAttachedTo (function: `[`createBlipAttachedTo`](/createBlipAttachedTo.md "wikilink")`)`
-`getColor (function: `[`getBlipColor`](/getBlipColor.md "wikilink")`)`
-`getIcon (function: `[`getBlipIcon`](/getBlipIcon.md "wikilink")`)`
-`getOrdering (function: `[`getBlipOrdering`](/getBlipOrdering.md "wikilink")`)`
-`getSize (function: `[`getBlipSize`](/getBlipSize.md "wikilink")`)`
-`getVisibleDistance (function: `[`getBlipVisibleDistance`](/getBlipVisibleDistance.md "wikilink")`)`
-`setColor (function: `[`setBlipColor`](/setBlipColor.md "wikilink")`)`
-`setIcon (function: `[`setBlipIcon`](/setBlipIcon.md "wikilink")`)`
-`setOrdering (function: `[`setBlipOrdering`](/setBlipOrdering.md "wikilink")`)`
-`setSize (function: `[`setBlipSize`](/setBlipSize.md "wikilink")`)`
-`setVisibleDistance (function: `[`setBlipVisibleDistance`](/setBlipVisibleDistance.md "wikilink")`)`
+`create (function: `[`createBlip`](/docs/createBlip.md "wikilink")`)`
+`createAttachedTo (function: `[`createBlipAttachedTo`](/docs/createBlipAttachedTo.md "wikilink")`)`
+`getColor (function: `[`getBlipColor`](/docs/getBlipColor.md "wikilink")`)`
+`getIcon (function: `[`getBlipIcon`](/docs/getBlipIcon.md "wikilink")`)`
+`getOrdering (function: `[`getBlipOrdering`](/docs/getBlipOrdering.md "wikilink")`)`
+`getSize (function: `[`getBlipSize`](/docs/getBlipSize.md "wikilink")`)`
+`getVisibleDistance (function: `[`getBlipVisibleDistance`](/docs/getBlipVisibleDistance.md "wikilink")`)`
+`setColor (function: `[`setBlipColor`](/docs/setBlipColor.md "wikilink")`)`
+`setIcon (function: `[`setBlipIcon`](/docs/setBlipIcon.md "wikilink")`)`
+`setOrdering (function: `[`setBlipOrdering`](/docs/setBlipOrdering.md "wikilink")`)`
+`setSize (function: `[`setBlipSize`](/docs/setBlipSize.md "wikilink")`)`
+`setVisibleDistance (function: `[`setBlipVisibleDistance`](/docs/setBlipVisibleDistance.md "wikilink")`)`
 
 Pickup
 ------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`create (function: `[`createPickup`](/createPickup.md "wikilink")`)`
-`getAmmo (function: `[`getPickupAmmo`](/getPickupAmmo.md "wikilink")`)`
-`getAmount (function: `[`getPickupAmount`](/getPickupAmount.md "wikilink")`)`
-`getType (function: `[`getPickupType`](/getPickupType.md "wikilink")`)`
-`getWeapon (function: `[`getPickupWeapon`](/getPickupWeapon.md "wikilink")`)`
-`setType (function: `[`setPickupType`](/setPickupType.md "wikilink")`)`
+`create (function: `[`createPickup`](/docs/createPickup.md "wikilink")`)`
+`getAmmo (function: `[`getPickupAmmo`](/docs/getPickupAmmo.md "wikilink")`)`
+`getAmount (function: `[`getPickupAmount`](/docs/getPickupAmount.md "wikilink")`)`
+`getType (function: `[`getPickupType`](/docs/getPickupType.md "wikilink")`)`
+`getWeapon (function: `[`getPickupWeapon`](/docs/getPickupWeapon.md "wikilink")`)`
+`setType (function: `[`setPickupType`](/docs/setPickupType.md "wikilink")`)`
 
 ColShape
 --------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`Circle (function: `[`createColCircle`](/createColCircle.md "wikilink")`)`
-`Cuboid (function: `[`createColCuboid`](/createColCuboid.md "wikilink")`)`
-`getElementsWithin (function: `[`getElementsWithinColShape`](/getElementsWithinColShape.md "wikilink")`)`
-`isElementWithin (function: `[`isElementWithinColShape`](/isElementWithinColShape.md "wikilink")`)`
-`Polygon (function: `[`createColPolygon`](/createColPolygon.md "wikilink")`)`
-`Rectangle (function: `[`createColRectangle`](/createColRectangle.md "wikilink")`)`
-`Sphere (function: `[`createColSphere`](/createColSphere.md "wikilink")`)`
-`Tube (function: `[`createColTube`](/createColTube.md "wikilink")`)`
+`Circle (function: `[`createColCircle`](/docs/createColCircle.md "wikilink")`)`
+`Cuboid (function: `[`createColCuboid`](/docs/createColCuboid.md "wikilink")`)`
+`getElementsWithin (function: `[`getElementsWithinColShape`](/docs/getElementsWithinColShape.md "wikilink")`)`
+`isElementWithin (function: `[`isElementWithinColShape`](/docs/isElementWithinColShape.md "wikilink")`)`
+`Polygon (function: `[`createColPolygon`](/docs/createColPolygon.md "wikilink")`)`
+`Rectangle (function: `[`createColRectangle`](/docs/createColRectangle.md "wikilink")`)`
+`Sphere (function: `[`createColSphere`](/docs/createColSphere.md "wikilink")`)`
+`Tube (function: `[`createColTube`](/docs/createColTube.md "wikilink")`)`
 
 Projectile
 ----------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`create (function: `[`createProjectile`](/createProjectile.md "wikilink")`)`
-`getCounter (function: `[`getProjectileCounter`](/getProjectileCounter.md "wikilink")`)`
-`getCreator (function: `[`getProjectileCreator`](/getProjectileCreator.md "wikilink")`)`
-`getForce (function: `[`getProjectileForce`](/getProjectileForce.md "wikilink")`)`
-`getTarget (function: `[`getProjectileTarget`](/getProjectileTarget.md "wikilink")`)`
-`getType (function: `[`getProjectileType`](/getProjectileType.md "wikilink")`)`
-`setCounter (function: `[`setProjectileCounter`](/setProjectileCounter.md "wikilink")`)`
+`create (function: `[`createProjectile`](/docs/createProjectile.md "wikilink")`)`
+`getCounter (function: `[`getProjectileCounter`](/docs/getProjectileCounter.md "wikilink")`)`
+`getCreator (function: `[`getProjectileCreator`](/docs/getProjectileCreator.md "wikilink")`)`
+`getForce (function: `[`getProjectileForce`](/docs/getProjectileForce.md "wikilink")`)`
+`getTarget (function: `[`getProjectileTarget`](/docs/getProjectileTarget.md "wikilink")`)`
+`getType (function: `[`getProjectileType`](/docs/getProjectileType.md "wikilink")`)`
+`setCounter (function: `[`setProjectileCounter`](/docs/setProjectileCounter.md "wikilink")`)`
 
 RadarArea
 ---------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`create (function: `[`createRadarArea`](/createRadarArea.md "wikilink")`)`
-`getColor (function: `[`getRadarAreaColor`](/getRadarAreaColor.md "wikilink")`)`
-`getSize (function: `[`getRadarAreaSize`](/getRadarAreaSize.md "wikilink")`)`
-`isFlashing (function: `[`isRadarAreaFlashing`](/isRadarAreaFlashing.md "wikilink")`)`
-`isInside (function: `[`isInsideRadarArea`](/isInsideRadarArea.md "wikilink")`)`
-`setColor (function: `[`setRadarAreaColor`](/setRadarAreaColor.md "wikilink")`)`
-`setFlashing (function: `[`setRadarAreaFlashing`](/setRadarAreaFlashing.md "wikilink")`)`
-`setSize (function: `[`setRadarAreaSize`](/setRadarAreaSize.md "wikilink")`)`
+`create (function: `[`createRadarArea`](/docs/createRadarArea.md "wikilink")`)`
+`getColor (function: `[`getRadarAreaColor`](/docs/getRadarAreaColor.md "wikilink")`)`
+`getSize (function: `[`getRadarAreaSize`](/docs/getRadarAreaSize.md "wikilink")`)`
+`isFlashing (function: `[`isRadarAreaFlashing`](/docs/isRadarAreaFlashing.md "wikilink")`)`
+`isInside (function: `[`isInsideRadarArea`](/docs/isInsideRadarArea.md "wikilink")`)`
+`setColor (function: `[`setRadarAreaColor`](/docs/setRadarAreaColor.md "wikilink")`)`
+`setFlashing (function: `[`setRadarAreaFlashing`](/docs/setRadarAreaFlashing.md "wikilink")`)`
+`setSize (function: `[`setRadarAreaSize`](/docs/setRadarAreaSize.md "wikilink")`)`
 
 Team
 ----
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`countPlayers (function: `[`countPlayersInTeam`](/countPlayersInTeam.md "wikilink")`)`
-`create (function: `[`getTeamFromName`](/getTeamFromName.md "wikilink")`)`
-`getColor (function: `[`getTeamColor`](/getTeamColor.md "wikilink")`)`
-`getFriendlyFire (function: `[`getTeamFriendlyFire`](/getTeamFriendlyFire.md "wikilink")`)`
-`getFromName (function: `[`getTeamFromName`](/getTeamFromName.md "wikilink")`)`
-`getName (function: `[`getTeamName`](/getTeamName.md "wikilink")`)`
+`countPlayers (function: `[`countPlayersInTeam`](/docs/countPlayersInTeam.md "wikilink")`)`
+`create (function: `[`getTeamFromName`](/docs/getTeamFromName.md "wikilink")`)`
+`getColor (function: `[`getTeamColor`](/docs/getTeamColor.md "wikilink")`)`
+`getFriendlyFire (function: `[`getTeamFriendlyFire`](/docs/getTeamFriendlyFire.md "wikilink")`)`
+`getFromName (function: `[`getTeamFromName`](/docs/getTeamFromName.md "wikilink")`)`
+`getName (function: `[`getTeamName`](/docs/getTeamName.md "wikilink")`)`
 
 Water
 -----
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`create (function: `[`createWater`](/createWater.md "wikilink")`)`
-`getColor (function: `[`getWaterColor`](/getWaterColor.md "wikilink")`)`
-`getLevel (function: `[`getWaterLevel`](/getWaterLevel.md "wikilink")`)`
-`getVertexPosition (function: `[`getWaterVertexPosition`](/getWaterVertexPosition.md "wikilink")`)`
-`getWaveHeight (function: `[`getWaveHeight`](/getWaveHeight.md "wikilink")`)`
-`isDrawnLast (function: `[`isWaterDrawnLast`](/isWaterDrawnLast.md "wikilink")`)`
-`resetColor (function: `[`resetWaterColor`](/resetWaterColor.md "wikilink")`)`
-`resetLevel (function: `[`resetWaterLevel`](/resetWaterLevel.md "wikilink")`)`
-`setColor (function: `[`setWaterColor`](/setWaterColor.md "wikilink")`)`
-`setDrawnLast (function: `[`setWaterDrawnLast`](/setWaterDrawnLast.md "wikilink")`)`
-`setLevel (function: `[`setWaterLevel`](/setWaterLevel.md "wikilink")`)`
-`setVertexPosition (function: `[`setWaterVertexPosition`](/setWaterVertexPosition.md "wikilink")`)`
-`setWaveHeight (function: `[`setWaveHeight`](/setWaveHeight.md "wikilink")`)`
-`testLineAgainst (function: `[`testLineAgainstWater`](/testLineAgainstWater.md "wikilink")`)`
+`create (function: `[`createWater`](/docs/createWater.md "wikilink")`)`
+`getColor (function: `[`getWaterColor`](/docs/getWaterColor.md "wikilink")`)`
+`getLevel (function: `[`getWaterLevel`](/docs/getWaterLevel.md "wikilink")`)`
+`getVertexPosition (function: `[`getWaterVertexPosition`](/docs/getWaterVertexPosition.md "wikilink")`)`
+`getWaveHeight (function: `[`getWaveHeight`](/docs/getWaveHeight.md "wikilink")`)`
+`isDrawnLast (function: `[`isWaterDrawnLast`](/docs/isWaterDrawnLast.md "wikilink")`)`
+`resetColor (function: `[`resetWaterColor`](/docs/resetWaterColor.md "wikilink")`)`
+`resetLevel (function: `[`resetWaterLevel`](/docs/resetWaterLevel.md "wikilink")`)`
+`setColor (function: `[`setWaterColor`](/docs/setWaterColor.md "wikilink")`)`
+`setDrawnLast (function: `[`setWaterDrawnLast`](/docs/setWaterDrawnLast.md "wikilink")`)`
+`setLevel (function: `[`setWaterLevel`](/docs/setWaterLevel.md "wikilink")`)`
+`setVertexPosition (function: `[`setWaterVertexPosition`](/docs/setWaterVertexPosition.md "wikilink")`)`
+`setWaveHeight (function: `[`setWaveHeight`](/docs/setWaveHeight.md "wikilink")`)`
+`testLineAgainst (function: `[`testLineAgainstWater`](/docs/testLineAgainstWater.md "wikilink")`)`
 
 Sound
 -----
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`create (function: `[`playSound`](/playSound.md "wikilink")`)`
-`getBPM (function: `[`getSoundBPM`](/getSoundBPM.md "wikilink")`)`
-`getEffects (function: `[`getSoundEffects`](/getSoundEffects.md "wikilink")`)`
-`getFFTData (function: `[`getSoundFFTData`](/getSoundFFTData.md "wikilink")`)`
-`getLength (function: `[`getSoundLength`](/getSoundLength.md "wikilink")`)`
-`getLevelData (function: `[`getSoundLevelData`](/getSoundLevelData.md "wikilink")`)`
-`getMetaTags (function: `[`getSoundMetaTags`](/getSoundMetaTags.md "wikilink")`)`
-`getPan (function: `[`getSoundPan`](/getSoundPan.md "wikilink")`)`
-`getPlaybackPosition (function: `[`getSoundPosition`](/getSoundPosition.md "wikilink")`)`
-`getProperties (function: `[`getSoundProperties`](/getSoundProperties.md "wikilink")`)`
-`getSpeed (function: `[`getSoundSpeed`](/getSoundSpeed.md "wikilink")`)`
-`getVolume (function: `[`getSoundVolume`](/getSoundVolume.md "wikilink")`)`
-`getWaveData (function: `[`getSoundWaveData`](/getSoundWaveData.md "wikilink")`)`
-`isPaused (function: `[`isSoundPaused`](/isSoundPaused.md "wikilink")`)`
-`setEffectEnabled (function: `[`setSoundEffectEnabled`](/setSoundEffectEnabled.md "wikilink")`)`
-`setPan (function: `[`setSoundPan`](/setSoundPan.md "wikilink")`)`
-`setPaused (function: `[`setSoundPaused`](/setSoundPaused.md "wikilink")`)`
-`setPlaybackPosition (function: `[`setSoundPosition`](/setSoundPosition.md "wikilink")`)`
-`setProperties (function: `[`setSoundProperties`](/setSoundProperties.md "wikilink")`)`
-`setSpeed (function: `[`setSoundSpeed`](/setSoundSpeed.md "wikilink")`)`
-`setVolume (function: `[`setSoundVolume`](/setSoundVolume.md "wikilink")`)`
-`stop (function: `[`stopSound`](/stopSound.md "wikilink")`)`
+`create (function: `[`playSound`](/docs/playSound.md "wikilink")`)`
+`getBPM (function: `[`getSoundBPM`](/docs/getSoundBPM.md "wikilink")`)`
+`getEffects (function: `[`getSoundEffects`](/docs/getSoundEffects.md "wikilink")`)`
+`getFFTData (function: `[`getSoundFFTData`](/docs/getSoundFFTData.md "wikilink")`)`
+`getLength (function: `[`getSoundLength`](/docs/getSoundLength.md "wikilink")`)`
+`getLevelData (function: `[`getSoundLevelData`](/docs/getSoundLevelData.md "wikilink")`)`
+`getMetaTags (function: `[`getSoundMetaTags`](/docs/getSoundMetaTags.md "wikilink")`)`
+`getPan (function: `[`getSoundPan`](/docs/getSoundPan.md "wikilink")`)`
+`getPlaybackPosition (function: `[`getSoundPosition`](/docs/getSoundPosition.md "wikilink")`)`
+`getProperties (function: `[`getSoundProperties`](/docs/getSoundProperties.md "wikilink")`)`
+`getSpeed (function: `[`getSoundSpeed`](/docs/getSoundSpeed.md "wikilink")`)`
+`getVolume (function: `[`getSoundVolume`](/docs/getSoundVolume.md "wikilink")`)`
+`getWaveData (function: `[`getSoundWaveData`](/docs/getSoundWaveData.md "wikilink")`)`
+`isPaused (function: `[`isSoundPaused`](/docs/isSoundPaused.md "wikilink")`)`
+`setEffectEnabled (function: `[`setSoundEffectEnabled`](/docs/setSoundEffectEnabled.md "wikilink")`)`
+`setPan (function: `[`setSoundPan`](/docs/setSoundPan.md "wikilink")`)`
+`setPaused (function: `[`setSoundPaused`](/docs/setSoundPaused.md "wikilink")`)`
+`setPlaybackPosition (function: `[`setSoundPosition`](/docs/setSoundPosition.md "wikilink")`)`
+`setProperties (function: `[`setSoundProperties`](/docs/setSoundProperties.md "wikilink")`)`
+`setSpeed (function: `[`setSoundSpeed`](/docs/setSoundSpeed.md "wikilink")`)`
+`setVolume (function: `[`setSoundVolume`](/docs/setSoundVolume.md "wikilink")`)`
+`stop (function: `[`stopSound`](/docs/stopSound.md "wikilink")`)`
 
 Sound3D
 -------
 
-*Inherited from [Sound](/#Sound.md "wikilink")*
+*Inherited from [Sound](/docs/#Sound.md "wikilink")*
 
-`create (function: `[`playSound3D`](/playSound3D.md "wikilink")`)`
-`getMaxDistance (function: `[`getSoundMaxDistance`](/getSoundMaxDistance.md "wikilink")`)`
-`getMinDistance (function: `[`getSoundMinDistance`](/getSoundMinDistance.md "wikilink")`)`
-`setMaxDistance (function: `[`setSoundMaxDistance`](/setSoundMaxDistance.md "wikilink")`)`
-`setMinDistance (function: `[`setSoundMinDistance`](/setSoundMinDistance.md "wikilink")`)`
+`create (function: `[`playSound3D`](/docs/playSound3D.md "wikilink")`)`
+`getMaxDistance (function: `[`getSoundMaxDistance`](/docs/getSoundMaxDistance.md "wikilink")`)`
+`getMinDistance (function: `[`getSoundMinDistance`](/docs/getSoundMinDistance.md "wikilink")`)`
+`setMaxDistance (function: `[`setSoundMaxDistance`](/docs/setSoundMaxDistance.md "wikilink")`)`
+`setMinDistance (function: `[`setSoundMinDistance`](/docs/setSoundMinDistance.md "wikilink")`)`
 
 Weapon
 ------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`create (function: `[`createWeapon`](/createWeapon.md "wikilink")`)`
-`fire (function: `[`fireWeapon`](/fireWeapon.md "wikilink")`)`
-`getAmmo (function: `[`getWeaponAmmo`](/getWeaponAmmo.md "wikilink")`)`
-`getClipAmmo (function: `[`getWeaponClipAmmo`](/getWeaponClipAmmo.md "wikilink")`)`
-`getFiringRate (function: `[`getWeaponFiringRate`](/getWeaponFiringRate.md "wikilink")`)`
-`getFlags (function: `[`getWeaponFlags`](/getWeaponFlags.md "wikilink")`)`
-`getOwner (function: `[`getWeaponOwner`](/getWeaponOwner.md "wikilink")`)`
-`getProperty (function: `[`setWeaponProperty`](/setWeaponProperty.md "wikilink")`)`
-`getState (function: `[`getWeaponState`](/getWeaponState.md "wikilink")`)`
-`getTarget (function: `[`getWeaponTarget`](/getWeaponTarget.md "wikilink")`)`
-`resetFiringRate (function: `[`resetWeaponFiringRate`](/resetWeaponFiringRate.md "wikilink")`)`
-`setAmmo (function: `[`setWeaponAmmo`](/setWeaponAmmo.md "wikilink")`)`
-`setClipAmmo (function: `[`setWeaponClipAmmo`](/setWeaponClipAmmo.md "wikilink")`)`
-`setFiringRate (function: `[`setWeaponFiringRate`](/setWeaponFiringRate.md "wikilink")`)`
-`setFlags (function: `[`setWeaponFlags`](/setWeaponFlags.md "wikilink")`)`
-`setOwner (function: `[`setWeaponOwner`](/setWeaponOwner.md "wikilink")`)`
-`setProperty (function: `[`setWeaponProperty`](/setWeaponProperty.md "wikilink")`)`
-`setState (function: `[`setWeaponState`](/setWeaponState.md "wikilink")`)`
-`setTarget (function: `[`setWeaponTarget`](/setWeaponTarget.md "wikilink")`)`
+`create (function: `[`createWeapon`](/docs/createWeapon.md "wikilink")`)`
+`fire (function: `[`fireWeapon`](/docs/fireWeapon.md "wikilink")`)`
+`getAmmo (function: `[`getWeaponAmmo`](/docs/getWeaponAmmo.md "wikilink")`)`
+`getClipAmmo (function: `[`getWeaponClipAmmo`](/docs/getWeaponClipAmmo.md "wikilink")`)`
+`getFiringRate (function: `[`getWeaponFiringRate`](/docs/getWeaponFiringRate.md "wikilink")`)`
+`getFlags (function: `[`getWeaponFlags`](/docs/getWeaponFlags.md "wikilink")`)`
+`getOwner (function: `[`getWeaponOwner`](/docs/getWeaponOwner.md "wikilink")`)`
+`getProperty (function: `[`setWeaponProperty`](/docs/setWeaponProperty.md "wikilink")`)`
+`getState (function: `[`getWeaponState`](/docs/getWeaponState.md "wikilink")`)`
+`getTarget (function: `[`getWeaponTarget`](/docs/getWeaponTarget.md "wikilink")`)`
+`resetFiringRate (function: `[`resetWeaponFiringRate`](/docs/resetWeaponFiringRate.md "wikilink")`)`
+`setAmmo (function: `[`setWeaponAmmo`](/docs/setWeaponAmmo.md "wikilink")`)`
+`setClipAmmo (function: `[`setWeaponClipAmmo`](/docs/setWeaponClipAmmo.md "wikilink")`)`
+`setFiringRate (function: `[`setWeaponFiringRate`](/docs/setWeaponFiringRate.md "wikilink")`)`
+`setFlags (function: `[`setWeaponFlags`](/docs/setWeaponFlags.md "wikilink")`)`
+`setOwner (function: `[`setWeaponOwner`](/docs/setWeaponOwner.md "wikilink")`)`
+`setProperty (function: `[`setWeaponProperty`](/docs/setWeaponProperty.md "wikilink")`)`
+`setState (function: `[`setWeaponState`](/docs/setWeaponState.md "wikilink")`)`
+`setTarget (function: `[`setWeaponTarget`](/docs/setWeaponTarget.md "wikilink")`)`
 
 Effect
 ------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`addBlood (function: `[`fxAddBlood`](/fxAddBlood.md "wikilink")`)`
-`addBulletImpact (function: `[`fxAddBulletImpact`](/fxAddBulletImpact.md "wikilink")`)`
-`addBulletSplash (function: `[`fxAddBulletSplash`](/fxAddBulletSplash.md "wikilink")`)`
-`addDebris (function: `[`fxAddDebris`](/fxAddDebris.md "wikilink")`)`
-`addFootSplash (function: `[`fxAddFootSplash`](/fxAddFootSplash.md "wikilink")`)`
-`addGlass (function: `[`fxAddGlass`](/fxAddGlass.md "wikilink")`)`
-`addGunshot (function: `[`fxAddGunshot`](/fxAddGunshot.md "wikilink")`)`
-`addPunchImpact (function: `[`fxAddPunchImpact`](/fxAddPunchImpact.md "wikilink")`)`
-`addSparks (function: `[`fxAddSparks`](/fxAddSparks.md "wikilink")`)`
-`addTankFire (function: `[`fxAddTankFire`](/fxAddTankFire.md "wikilink")`)`
-`addTyreBurst (function: `[`fxAddTyreBurst`](/fxAddTyreBurst.md "wikilink")`)`
-`addWaterHydrant (function: `[`fxAddWaterHydrant`](/fxAddWaterHydrant.md "wikilink")`)`
-`addWaterSplash (function: `[`fxAddWaterSplash`](/fxAddWaterSplash.md "wikilink")`)`
-`addWood (function: `[`fxAddWood`](/fxAddWood.md "wikilink")`)`
-`create (function: `[`createEffect`](/createEffect.md "wikilink")`)`
-`getDensity (function: `[`getEffectDensity`](/getEffectDensity.md "wikilink")`)`
-`getSpeed (function: `[`getEffectSpeed`](/getEffectSpeed.md "wikilink")`)`
-`setDensity (function: `[`setEffectDensity`](/setEffectDensity.md "wikilink")`)`
-`setSpeed (function: `[`setEffectSpeed`](/setEffectSpeed.md "wikilink")`)`
+`addBlood (function: `[`fxAddBlood`](/docs/fxAddBlood.md "wikilink")`)`
+`addBulletImpact (function: `[`fxAddBulletImpact`](/docs/fxAddBulletImpact.md "wikilink")`)`
+`addBulletSplash (function: `[`fxAddBulletSplash`](/docs/fxAddBulletSplash.md "wikilink")`)`
+`addDebris (function: `[`fxAddDebris`](/docs/fxAddDebris.md "wikilink")`)`
+`addFootSplash (function: `[`fxAddFootSplash`](/docs/fxAddFootSplash.md "wikilink")`)`
+`addGlass (function: `[`fxAddGlass`](/docs/fxAddGlass.md "wikilink")`)`
+`addGunshot (function: `[`fxAddGunshot`](/docs/fxAddGunshot.md "wikilink")`)`
+`addPunchImpact (function: `[`fxAddPunchImpact`](/docs/fxAddPunchImpact.md "wikilink")`)`
+`addSparks (function: `[`fxAddSparks`](/docs/fxAddSparks.md "wikilink")`)`
+`addTankFire (function: `[`fxAddTankFire`](/docs/fxAddTankFire.md "wikilink")`)`
+`addTyreBurst (function: `[`fxAddTyreBurst`](/docs/fxAddTyreBurst.md "wikilink")`)`
+`addWaterHydrant (function: `[`fxAddWaterHydrant`](/docs/fxAddWaterHydrant.md "wikilink")`)`
+`addWaterSplash (function: `[`fxAddWaterSplash`](/docs/fxAddWaterSplash.md "wikilink")`)`
+`addWood (function: `[`fxAddWood`](/docs/fxAddWood.md "wikilink")`)`
+`create (function: `[`createEffect`](/docs/createEffect.md "wikilink")`)`
+`getDensity (function: `[`getEffectDensity`](/docs/getEffectDensity.md "wikilink")`)`
+`getSpeed (function: `[`getEffectSpeed`](/docs/getEffectSpeed.md "wikilink")`)`
+`setDensity (function: `[`setEffectDensity`](/docs/setEffectDensity.md "wikilink")`)`
+`setSpeed (function: `[`setEffectSpeed`](/docs/setEffectSpeed.md "wikilink")`)`
 
 GuiElement
 ----------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`bringToFront (function: `[`guiBringToFront`](/guiBringToFront.md "wikilink")`)`
-`moveToBack (function: `[`guiMoveToBack`](/guiMoveToBack.md "wikilink")`)`
-`isChatBoxInputActive (function: `[`isChatBoxInputActive`](/isChatBoxInputActive.md "wikilink")`)`
-`isConsoleActive (function: `[`isConsoleActive`](/isConsoleActive.md "wikilink")`)`
-`isDebugViewActive (function: `[`isDebugViewActive`](/isDebugViewActive.md "wikilink")`)`
-`isMainMenuActive (function: `[`isMainMenuActive`](/isMainMenuActive.md "wikilink")`)`
-`isMTAWindowActive (function: `[`isMTAWindowActive`](/isMTAWindowActive.md "wikilink")`)`
-`isTransferBoxActive (function: `[`isTransferBoxActive`](/isTransferBoxActive.md "wikilink")`)`
-`isInputEnabled (function: `[`guiGetInputEnabled`](/guiGetInputEnabled.md "wikilink")`)`
-`getInputMode (function: `[`guiGetInputMode`](/guiGetInputMode.md "wikilink")`)`
-`getScreenSize (function: `[`guiGetScreenSize`](/guiGetScreenSize.md "wikilink")`)`
-`getProperties (function: `[`guiGetProperties`](/guiGetProperties.md "wikilink")`)`
-`getAlpha (function: `[`guiGetAlpha`](/guiGetAlpha.md "wikilink")`)`
-`getFont (function: `[`guiGetFont`](/guiGetFont.md "wikilink")`)`
-`getEnabled (function: `[`guiGetEnabled`](/guiGetEnabled.md "wikilink")`)`
-`getVisible (function: `[`guiGetVisible`](/guiGetVisible.md "wikilink")`)`
-`getText (function: `[`guiGetText`](/guiGetText.md "wikilink")`)`
-`getPosition (function: `[`guiGetPosition`](/guiGetPosition.md "wikilink")`)`
-`getSize (function: `[`guiGetSize`](/guiGetSize.md "wikilink")`)`
-`getProperty (function: `[`guiGetProperty`](/guiGetProperty.md "wikilink")`)`
-`setInputEnabled (function: `[`guiSetInputEnabled`](/guiSetInputEnabled.md "wikilink")`)`
-`setAlpha (function: `[`guiSetAlpha`](/guiSetAlpha.md "wikilink")`)`
-`setEnabled (function: `[`guiSetEnabled`](/guiSetEnabled.md "wikilink")`)`
-`setFont (function: `[`guiSetFont`](/guiSetFont.md "wikilink")`)`
-`setVisible (function: `[`guiSetVisible`](/guiSetVisible.md "wikilink")`)`
-`setText (function: `[`guiSetText`](/guiSetText.md "wikilink")`)`
-`setInputMode (function: `[`guiSetInputMode`](/guiSetInputMode.md "wikilink")`)`
-`setProperty (function: `[`guiSetProperty`](/guiSetProperty.md "wikilink")`)`
-`setPosition (function: `[`guiSetPosition`](/guiSetPosition.md "wikilink")`)`
-`setSize (function: `[`guiSetSize`](/guiSetSize.md "wikilink")`)`
+`bringToFront (function: `[`guiBringToFront`](/docs/guiBringToFront.md "wikilink")`)`
+`moveToBack (function: `[`guiMoveToBack`](/docs/guiMoveToBack.md "wikilink")`)`
+`isChatBoxInputActive (function: `[`isChatBoxInputActive`](/docs/isChatBoxInputActive.md "wikilink")`)`
+`isConsoleActive (function: `[`isConsoleActive`](/docs/isConsoleActive.md "wikilink")`)`
+`isDebugViewActive (function: `[`isDebugViewActive`](/docs/isDebugViewActive.md "wikilink")`)`
+`isMainMenuActive (function: `[`isMainMenuActive`](/docs/isMainMenuActive.md "wikilink")`)`
+`isMTAWindowActive (function: `[`isMTAWindowActive`](/docs/isMTAWindowActive.md "wikilink")`)`
+`isTransferBoxActive (function: `[`isTransferBoxActive`](/docs/isTransferBoxActive.md "wikilink")`)`
+`isInputEnabled (function: `[`guiGetInputEnabled`](/docs/guiGetInputEnabled.md "wikilink")`)`
+`getInputMode (function: `[`guiGetInputMode`](/docs/guiGetInputMode.md "wikilink")`)`
+`getScreenSize (function: `[`guiGetScreenSize`](/docs/guiGetScreenSize.md "wikilink")`)`
+`getProperties (function: `[`guiGetProperties`](/docs/guiGetProperties.md "wikilink")`)`
+`getAlpha (function: `[`guiGetAlpha`](/docs/guiGetAlpha.md "wikilink")`)`
+`getFont (function: `[`guiGetFont`](/docs/guiGetFont.md "wikilink")`)`
+`getEnabled (function: `[`guiGetEnabled`](/docs/guiGetEnabled.md "wikilink")`)`
+`getVisible (function: `[`guiGetVisible`](/docs/guiGetVisible.md "wikilink")`)`
+`getText (function: `[`guiGetText`](/docs/guiGetText.md "wikilink")`)`
+`getPosition (function: `[`guiGetPosition`](/docs/guiGetPosition.md "wikilink")`)`
+`getSize (function: `[`guiGetSize`](/docs/guiGetSize.md "wikilink")`)`
+`getProperty (function: `[`guiGetProperty`](/docs/guiGetProperty.md "wikilink")`)`
+`setInputEnabled (function: `[`guiSetInputEnabled`](/docs/guiSetInputEnabled.md "wikilink")`)`
+`setAlpha (function: `[`guiSetAlpha`](/docs/guiSetAlpha.md "wikilink")`)`
+`setEnabled (function: `[`guiSetEnabled`](/docs/guiSetEnabled.md "wikilink")`)`
+`setFont (function: `[`guiSetFont`](/docs/guiSetFont.md "wikilink")`)`
+`setVisible (function: `[`guiSetVisible`](/docs/guiSetVisible.md "wikilink")`)`
+`setText (function: `[`guiSetText`](/docs/guiSetText.md "wikilink")`)`
+`setInputMode (function: `[`guiSetInputMode`](/docs/guiSetInputMode.md "wikilink")`)`
+`setProperty (function: `[`guiSetProperty`](/docs/guiSetProperty.md "wikilink")`)`
+`setPosition (function: `[`guiSetPosition`](/docs/guiSetPosition.md "wikilink")`)`
+`setSize (function: `[`guiSetSize`](/docs/guiSetSize.md "wikilink")`)`
 
 GuiWindow
 ---------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateWindow`](/guiCreateWindow.md "wikilink")`)`
-`setMovable (function: `[`guiWindowSetMovable`](/guiWindowSetMovable.md "wikilink")`)`
-`setSizable (function: `[`guiWindowSetSizable`](/guiWindowSetSizable.md "wikilink")`)`
+`create (function: `[`guiCreateWindow`](/docs/guiCreateWindow.md "wikilink")`)`
+`setMovable (function: `[`guiWindowSetMovable`](/docs/guiWindowSetMovable.md "wikilink")`)`
+`setSizable (function: `[`guiWindowSetSizable`](/docs/guiWindowSetSizable.md "wikilink")`)`
 
 GuiButton
 ---------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateButton`](/guiCreateButton.md "wikilink")`)`
+`create (function: `[`guiCreateButton`](/docs/guiCreateButton.md "wikilink")`)`
 
 GuiEdit
 -------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateEdit`](/guiCreateEdit.md "wikilink")`)`
-`getCaretIndex (function: `[`guiEditGetCaretIndex`](/guiEditGetCaretIndex.md "wikilink")`)`
-`setCaretIndex (function: `[`guiEditSetCaretIndex`](/guiEditSetCaretIndex.md "wikilink")`)`
-`setReadOnly (function: `[`guiEditSetReadOnly`](/guiEditSetReadOnly.md "wikilink")`)`
-`setMasked (function: `[`guiEditSetMasked`](/guiEditSetMasked.md "wikilink")`)`
-`setMaxLength (function: `[`guiEditSetMaxLength`](/guiEditSetMaxLength.md "wikilink")`)`
+`create (function: `[`guiCreateEdit`](/docs/guiCreateEdit.md "wikilink")`)`
+`getCaretIndex (function: `[`guiEditGetCaretIndex`](/docs/guiEditGetCaretIndex.md "wikilink")`)`
+`setCaretIndex (function: `[`guiEditSetCaretIndex`](/docs/guiEditSetCaretIndex.md "wikilink")`)`
+`setReadOnly (function: `[`guiEditSetReadOnly`](/docs/guiEditSetReadOnly.md "wikilink")`)`
+`setMasked (function: `[`guiEditSetMasked`](/docs/guiEditSetMasked.md "wikilink")`)`
+`setMaxLength (function: `[`guiEditSetMaxLength`](/docs/guiEditSetMaxLength.md "wikilink")`)`
 
 GuiLabel
 --------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateLabel`](/guiCreateLabel.md "wikilink")`)`
-`getFontHeight (function: `[`guiLabelGetFontHeight`](/guiLabelGetFontHeight.md "wikilink")`)`
-`getTextExtent (function: `[`guiLabelGetTextExtent`](/guiLabelGetTextExtent.md "wikilink")`)`
-`getColor (function: `[`guiLabelGetColor`](/guiLabelGetColor.md "wikilink")`)`
-`setColor (function: `[`guiLabelSetColor`](/guiLabelSetColor.md "wikilink")`)`
-`setHorizontalAlign (function: `[`guiLabelSetHorizontalAlign`](/guiLabelSetHorizontalAlign.md "wikilink")`)`
-`setVerticalAlign (function: `[`guiLabelSetVerticalAlign`](/guiLabelSetVerticalAlign.md "wikilink")`)`
+`create (function: `[`guiCreateLabel`](/docs/guiCreateLabel.md "wikilink")`)`
+`getFontHeight (function: `[`guiLabelGetFontHeight`](/docs/guiLabelGetFontHeight.md "wikilink")`)`
+`getTextExtent (function: `[`guiLabelGetTextExtent`](/docs/guiLabelGetTextExtent.md "wikilink")`)`
+`getColor (function: `[`guiLabelGetColor`](/docs/guiLabelGetColor.md "wikilink")`)`
+`setColor (function: `[`guiLabelSetColor`](/docs/guiLabelSetColor.md "wikilink")`)`
+`setHorizontalAlign (function: `[`guiLabelSetHorizontalAlign`](/docs/guiLabelSetHorizontalAlign.md "wikilink")`)`
+`setVerticalAlign (function: `[`guiLabelSetVerticalAlign`](/docs/guiLabelSetVerticalAlign.md "wikilink")`)`
 
 GuiMemo
 -------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateMemo`](/guiCreateMemo.md "wikilink")`)`
-`getCaretIndex (function: `[`guiMemoGetCaretIndex`](/guiMemoGetCaretIndex.md "wikilink")`)`
-`setCaretIndex (function: `[`guiMemoSetCaretIndex`](/guiMemoSetCaretIndex.md "wikilink")`)`
-`setReadOnly (function: `[`guiMemoSetReadOnly`](/guiMemoSetReadOnly.md "wikilink")`)`
+`create (function: `[`guiCreateMemo`](/docs/guiCreateMemo.md "wikilink")`)`
+`getCaretIndex (function: `[`guiMemoGetCaretIndex`](/docs/guiMemoGetCaretIndex.md "wikilink")`)`
+`setCaretIndex (function: `[`guiMemoSetCaretIndex`](/docs/guiMemoSetCaretIndex.md "wikilink")`)`
+`setReadOnly (function: `[`guiMemoSetReadOnly`](/docs/guiMemoSetReadOnly.md "wikilink")`)`
 
 GuiStaticImage
 --------------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateStaticImage`](/guiCreateStaticImage.md "wikilink")`)`
-`loadImage (function: `[`guiStaticImageLoadImage`](/guiStaticImageLoadImage.md "wikilink")`)`
+`create (function: `[`guiCreateStaticImage`](/docs/guiCreateStaticImage.md "wikilink")`)`
+`loadImage (function: `[`guiStaticImageLoadImage`](/docs/guiStaticImageLoadImage.md "wikilink")`)`
 
 GuiComboBox
 -----------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateComboBox`](/guiCreateComboBox.md "wikilink")`)`
-`addItem (function: `[`guiComboBoxAddItem`](/guiComboBoxAddItem.md "wikilink")`)`
-`clear (function: `[`guiComboBoxClear`](/guiComboBoxClear.md "wikilink")`)`
-`removeItem (function: `[`guiComboBoxRemoveItem`](/guiComboBoxRemoveItem.md "wikilink")`)`
-`getSelected (function: `[`guiComboBoxGetSelected`](/guiComboBoxGetSelected.md "wikilink")`)`
-`getItemText (function: `[`guiComboBoxGetItemText`](/guiComboBoxGetItemText.md "wikilink")`)`
-`setItemText (function: `[`guiComboBoxSetItemText`](/guiComboBoxSetItemText.md "wikilink")`)`
-`setSelected (function: `[`guiComboBoxSetSelected`](/guiComboBoxSetSelected.md "wikilink")`)`
+`create (function: `[`guiCreateComboBox`](/docs/guiCreateComboBox.md "wikilink")`)`
+`addItem (function: `[`guiComboBoxAddItem`](/docs/guiComboBoxAddItem.md "wikilink")`)`
+`clear (function: `[`guiComboBoxClear`](/docs/guiComboBoxClear.md "wikilink")`)`
+`removeItem (function: `[`guiComboBoxRemoveItem`](/docs/guiComboBoxRemoveItem.md "wikilink")`)`
+`getSelected (function: `[`guiComboBoxGetSelected`](/docs/guiComboBoxGetSelected.md "wikilink")`)`
+`getItemText (function: `[`guiComboBoxGetItemText`](/docs/guiComboBoxGetItemText.md "wikilink")`)`
+`setItemText (function: `[`guiComboBoxSetItemText`](/docs/guiComboBoxSetItemText.md "wikilink")`)`
+`setSelected (function: `[`guiComboBoxSetSelected`](/docs/guiComboBoxSetSelected.md "wikilink")`)`
 
 GuiCheckBox
 -----------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateCheckBox`](/guiCreateCheckBox.md "wikilink")`)`
-`getSelected (function: `[`guiCheckBoxGetSelected`](/guiCheckBoxGetSelected.md "wikilink")`)`
-`setSelected (function: `[`guiCheckBoxSetSelected`](/guiCheckBoxSetSelected.md "wikilink")`)`
+`create (function: `[`guiCreateCheckBox`](/docs/guiCreateCheckBox.md "wikilink")`)`
+`getSelected (function: `[`guiCheckBoxGetSelected`](/docs/guiCheckBoxGetSelected.md "wikilink")`)`
+`setSelected (function: `[`guiCheckBoxSetSelected`](/docs/guiCheckBoxSetSelected.md "wikilink")`)`
 
 GuiRadioButton
 --------------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateRadioButton`](/guiCreateRadioButton.md "wikilink")`)`
-`getSelected (function: `[`guiRadioButtonGetSelected`](/guiRadioButtonGetSelected.md "wikilink")`)`
-`setSelected (function: `[`guiRadioButtonSetSelected`](/guiRadioButtonSetSelected.md "wikilink")`)`
+`create (function: `[`guiCreateRadioButton`](/docs/guiCreateRadioButton.md "wikilink")`)`
+`getSelected (function: `[`guiRadioButtonGetSelected`](/docs/guiRadioButtonGetSelected.md "wikilink")`)`
+`setSelected (function: `[`guiRadioButtonSetSelected`](/docs/guiRadioButtonSetSelected.md "wikilink")`)`
 
 GuiScrollPane
 -------------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateScrollPane`](/guiCreateScrollPane.md "wikilink")`)`
-`getHorizontalScrollPosition (function: `[`guiScrollPaneGetHorizontalScrollPosition`](/guiScrollPaneGetHorizontalScrollPosition.md "wikilink")`)`
-`getVerticalScrollPosition (function: `[`guiScrollPaneGetVerticalScrollPosition`](/guiScrollPaneGetVerticalScrollPosition.md "wikilink")`)`
-`setHorizontalScrollPosition (function: `[`guiScrollPaneSetHorizontalScrollPosition`](/guiScrollPaneSetHorizontalScrollPosition.md "wikilink")`)`
-`setScrollBars (function: `[`guiScrollPaneSetScrollBars`](/guiScrollPaneSetScrollBars.md "wikilink")`)`
-`setVerticalScrollPosition (function: `[`guiScrollPaneSetVerticalScrollPosition`](/guiScrollPaneSetVerticalScrollPosition.md "wikilink")`)`
+`create (function: `[`guiCreateScrollPane`](/docs/guiCreateScrollPane.md "wikilink")`)`
+`getHorizontalScrollPosition (function: `[`guiScrollPaneGetHorizontalScrollPosition`](/docs/guiScrollPaneGetHorizontalScrollPosition.md "wikilink")`)`
+`getVerticalScrollPosition (function: `[`guiScrollPaneGetVerticalScrollPosition`](/docs/guiScrollPaneGetVerticalScrollPosition.md "wikilink")`)`
+`setHorizontalScrollPosition (function: `[`guiScrollPaneSetHorizontalScrollPosition`](/docs/guiScrollPaneSetHorizontalScrollPosition.md "wikilink")`)`
+`setScrollBars (function: `[`guiScrollPaneSetScrollBars`](/docs/guiScrollPaneSetScrollBars.md "wikilink")`)`
+`setVerticalScrollPosition (function: `[`guiScrollPaneSetVerticalScrollPosition`](/docs/guiScrollPaneSetVerticalScrollPosition.md "wikilink")`)`
 
 GuiScrollBar
 ------------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateScrollBar`](/guiCreateScrollBar.md "wikilink")`)`
-`getScrollPosition (function: `[`guiScrollBarGetScrollPosition`](/guiScrollBarGetScrollPosition.md "wikilink")`)`
-`setScrollPosition (function: `[`guiScrollBarSetScrollPosition`](/guiScrollBarSetScrollPosition.md "wikilink")`)`
+`create (function: `[`guiCreateScrollBar`](/docs/guiCreateScrollBar.md "wikilink")`)`
+`getScrollPosition (function: `[`guiScrollBarGetScrollPosition`](/docs/guiScrollBarGetScrollPosition.md "wikilink")`)`
+`setScrollPosition (function: `[`guiScrollBarSetScrollPosition`](/docs/guiScrollBarSetScrollPosition.md "wikilink")`)`
 
 GuiProgressBar
 --------------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateProgressBar`](/guiCreateProgressBar.md "wikilink")`)`
-`getProgress (function: `[`guiProgressBarGetProgress`](/guiProgressBarGetProgress.md "wikilink")`)`
-`setProgress (function: `[`guiProgressBarSetProgress`](/guiProgressBarSetProgress.md "wikilink")`)`
+`create (function: `[`guiCreateProgressBar`](/docs/guiCreateProgressBar.md "wikilink")`)`
+`getProgress (function: `[`guiProgressBarGetProgress`](/docs/guiProgressBarGetProgress.md "wikilink")`)`
+`setProgress (function: `[`guiProgressBarSetProgress`](/docs/guiProgressBarSetProgress.md "wikilink")`)`
 
 GuiGridlist
 -----------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateGridList`](/guiCreateGridList.md "wikilink")`)`
-`addColumn (function: `[`guiGridListAddColumn`](/guiGridListAddColumn.md "wikilink")`)`
-`addRow (function: `[`guiGridListAddRow`](/guiGridListAddRow.md "wikilink")`)`
-`autoSizeColumn (function: `[`guiGridListAutoSizeColumn`](/guiGridListAutoSizeColumn.md "wikilink")`)`
-`clear (function: `[`guiGridListClear`](/guiGridListClear.md "wikilink")`)`
-`insertRowAfter (function: `[`guiGridListInsertRowAfter`](/guiGridListInsertRowAfter.md "wikilink")`)`
-`removeColumn (function: `[`guiGridListRemoveColumn`](/guiGridListRemoveColumn.md "wikilink")`)`
-`removeRow (function: `[`guiGridListRemoveRow`](/guiGridListRemoveRow.md "wikilink")`)`
-`getItemData (function: `[`guiGridListGetItemData`](/guiGridListGetItemData.md "wikilink")`)`
-`getItemText (function: `[`guiGridListGetItemText`](/guiGridListGetItemText.md "wikilink")`)`
-`getRowCount (function: `[`guiGridListGetRowCount`](/guiGridListGetRowCount.md "wikilink")`)`
-`getSelectedItem (function: `[`guiGridListGetSelectedItem`](/guiGridListGetSelectedItem.md "wikilink")`)`
-`getItemColor (function: `[`guiGridListGetItemColor`](/guiGridListGetItemColor.md "wikilink")`)`
-`getColumnTitle (function: `[`guiGridListGetColumnTitle`](/guiGridListGetColumnTitle.md "wikilink")`)`
-`getHorizontalScrollPosition (function: `[`guiGridListGetHorizontalScrollPosition`](/guiGridListGetHorizontalScrollPosition.md "wikilink")`)`
-`getVerticalScrollPosition (function: `[`guiGridListGetVerticalScrollPosition`](/guiGridListGetVerticalScrollPosition.md "wikilink")`)`
-`getSelectedCount (function: `[`guiGridListGetSelectedCount`](/guiGridListGetSelectedCount.md "wikilink")`)`
-`getSelectedItems (function: `[`guiGridListGetSelectedItems`](/guiGridListGetSelectedItems.md "wikilink")`)`
-`getColumnCount (function: `[`guiGridListGetColumnCount`](/guiGridListGetColumnCount.md "wikilink")`)`
-`setItemData (function: `[`guiGridListSetItemData`](/guiGridListSetItemData.md "wikilink")`)`
-`setItemText (function: `[`guiGridListSetItemText`](/guiGridListSetItemText.md "wikilink")`)`
-`setScrollBars (function: `[`guiGridListSetScrollBars`](/guiGridListSetScrollBars.md "wikilink")`)`
-`setSelectedItem (function: `[`guiGridListSetSelectedItem`](/guiGridListSetSelectedItem.md "wikilink")`)`
-`setSelectionMode (function: `[`guiGridListSetSelectionMode`](/guiGridListSetSelectionMode.md "wikilink")`)`
-`setSortingEnabled (function: `[`guiGridListSetSortingEnabled`](/guiGridListSetSortingEnabled.md "wikilink")`)`
-`setColumnWidth (function: `[`guiGridListSetColumnWidth`](/guiGridListSetColumnWidth.md "wikilink")`)`
-`setItemColor (function: `[`guiGridListSetItemColor`](/guiGridListSetItemColor.md "wikilink")`)`
-`setColumnTitle (function: `[`guiGridListSetColumnTitle`](/guiGridListSetColumnTitle.md "wikilink")`)`
-`setHorizontalScrollPosition (function: `[`guiGridListSetHorizontalScrollPosition`](/guiGridListSetHorizontalScrollPosition.md "wikilink")`)`
-`setVerticalScrollPosition (function: `[`guiGridListSetVerticalScrollPosition`](/guiGridListSetVerticalScrollPosition.md "wikilink")`)`
+`create (function: `[`guiCreateGridList`](/docs/guiCreateGridList.md "wikilink")`)`
+`addColumn (function: `[`guiGridListAddColumn`](/docs/guiGridListAddColumn.md "wikilink")`)`
+`addRow (function: `[`guiGridListAddRow`](/docs/guiGridListAddRow.md "wikilink")`)`
+`autoSizeColumn (function: `[`guiGridListAutoSizeColumn`](/docs/guiGridListAutoSizeColumn.md "wikilink")`)`
+`clear (function: `[`guiGridListClear`](/docs/guiGridListClear.md "wikilink")`)`
+`insertRowAfter (function: `[`guiGridListInsertRowAfter`](/docs/guiGridListInsertRowAfter.md "wikilink")`)`
+`removeColumn (function: `[`guiGridListRemoveColumn`](/docs/guiGridListRemoveColumn.md "wikilink")`)`
+`removeRow (function: `[`guiGridListRemoveRow`](/docs/guiGridListRemoveRow.md "wikilink")`)`
+`getItemData (function: `[`guiGridListGetItemData`](/docs/guiGridListGetItemData.md "wikilink")`)`
+`getItemText (function: `[`guiGridListGetItemText`](/docs/guiGridListGetItemText.md "wikilink")`)`
+`getRowCount (function: `[`guiGridListGetRowCount`](/docs/guiGridListGetRowCount.md "wikilink")`)`
+`getSelectedItem (function: `[`guiGridListGetSelectedItem`](/docs/guiGridListGetSelectedItem.md "wikilink")`)`
+`getItemColor (function: `[`guiGridListGetItemColor`](/docs/guiGridListGetItemColor.md "wikilink")`)`
+`getColumnTitle (function: `[`guiGridListGetColumnTitle`](/docs/guiGridListGetColumnTitle.md "wikilink")`)`
+`getHorizontalScrollPosition (function: `[`guiGridListGetHorizontalScrollPosition`](/docs/guiGridListGetHorizontalScrollPosition.md "wikilink")`)`
+`getVerticalScrollPosition (function: `[`guiGridListGetVerticalScrollPosition`](/docs/guiGridListGetVerticalScrollPosition.md "wikilink")`)`
+`getSelectedCount (function: `[`guiGridListGetSelectedCount`](/docs/guiGridListGetSelectedCount.md "wikilink")`)`
+`getSelectedItems (function: `[`guiGridListGetSelectedItems`](/docs/guiGridListGetSelectedItems.md "wikilink")`)`
+`getColumnCount (function: `[`guiGridListGetColumnCount`](/docs/guiGridListGetColumnCount.md "wikilink")`)`
+`setItemData (function: `[`guiGridListSetItemData`](/docs/guiGridListSetItemData.md "wikilink")`)`
+`setItemText (function: `[`guiGridListSetItemText`](/docs/guiGridListSetItemText.md "wikilink")`)`
+`setScrollBars (function: `[`guiGridListSetScrollBars`](/docs/guiGridListSetScrollBars.md "wikilink")`)`
+`setSelectedItem (function: `[`guiGridListSetSelectedItem`](/docs/guiGridListSetSelectedItem.md "wikilink")`)`
+`setSelectionMode (function: `[`guiGridListSetSelectionMode`](/docs/guiGridListSetSelectionMode.md "wikilink")`)`
+`setSortingEnabled (function: `[`guiGridListSetSortingEnabled`](/docs/guiGridListSetSortingEnabled.md "wikilink")`)`
+`setColumnWidth (function: `[`guiGridListSetColumnWidth`](/docs/guiGridListSetColumnWidth.md "wikilink")`)`
+`setItemColor (function: `[`guiGridListSetItemColor`](/docs/guiGridListSetItemColor.md "wikilink")`)`
+`setColumnTitle (function: `[`guiGridListSetColumnTitle`](/docs/guiGridListSetColumnTitle.md "wikilink")`)`
+`setHorizontalScrollPosition (function: `[`guiGridListSetHorizontalScrollPosition`](/docs/guiGridListSetHorizontalScrollPosition.md "wikilink")`)`
+`setVerticalScrollPosition (function: `[`guiGridListSetVerticalScrollPosition`](/docs/guiGridListSetVerticalScrollPosition.md "wikilink")`)`
 
 GuiTabPanel
 -----------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateTabPanel`](/guiCreateTabPanel.md "wikilink")`)`
-`getSelectedTab (function: `[`guiGetSelectedTab`](/guiGetSelectedTab.md "wikilink")`)`
-`setSelectedTab (function: `[`guiSetSelectedTab`](/guiSetSelectedTab.md "wikilink")`)`
+`create (function: `[`guiCreateTabPanel`](/docs/guiCreateTabPanel.md "wikilink")`)`
+`getSelectedTab (function: `[`guiGetSelectedTab`](/docs/guiGetSelectedTab.md "wikilink")`)`
+`setSelectedTab (function: `[`guiSetSelectedTab`](/docs/guiSetSelectedTab.md "wikilink")`)`
 
 GuiTab
 ------
 
-*Inherited from [GuiElement](/#GuiElement.md "wikilink")*
+*Inherited from [GuiElement](/docs/#GuiElement.md "wikilink")*
 
-`create (function: `[`guiCreateTab`](/guiCreateTab.md "wikilink")`)`
-`delete (function: `[`guiDeleteTab`](/guiDeleteTab.md "wikilink")`)`
+`create (function: `[`guiCreateTab`](/docs/guiCreateTab.md "wikilink")`)`
+`delete (function: `[`guiDeleteTab`](/docs/guiDeleteTab.md "wikilink")`)`
 
 GuiFont
 -------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`create (function: `[`guiCreateFont`](/guiCreateFont.md "wikilink")`)`
+`create (function: `[`guiCreateFont`](/docs/guiCreateFont.md "wikilink")`)`
 
 Resource
 --------
 
-`create (function: `[`getResourceFromName`](/getResourceFromName.md "wikilink")`)`
-`fromName (function: `[`getResourceFromName`](/getResourceFromName.md "wikilink")`)`
-`getGuiElement (function: `[`getResourceGUIElement`](/getResourceGUIElement.md "wikilink")`)`
-`getRootElement (function: `[`getResourceRootElement`](/getResourceRootElement.md "wikilink")`)`
-`getName (function: `[`getResourceName`](/getResourceName.md "wikilink")`)`
-`getThis (function: `[`getThisResource`](/getThisResource.md "wikilink")`)`
-`getConfig (function: `[`getResourceConfig`](/getResourceConfig.md "wikilink")`)`
-`getConfig (function: `[`getResourceConfig`](/getResourceConfig.md "wikilink")`)`
-`getDynamicElementRoot (function: `[`getResourceDynamicElementRoot`](/getResourceDynamicElementRoot.md "wikilink")`)`
-`getExportedFunctions (function: `[`getResourceExportedFunctions`](/getResourceExportedFunctions.md "wikilink")`)`
-`getState (function: `[`getResourceState`](/getResourceState.md "wikilink")`)`
+`create (function: `[`getResourceFromName`](/docs/getResourceFromName.md "wikilink")`)`
+`fromName (function: `[`getResourceFromName`](/docs/getResourceFromName.md "wikilink")`)`
+`getGuiElement (function: `[`getResourceGUIElement`](/docs/getResourceGUIElement.md "wikilink")`)`
+`getRootElement (function: `[`getResourceRootElement`](/docs/getResourceRootElement.md "wikilink")`)`
+`getName (function: `[`getResourceName`](/docs/getResourceName.md "wikilink")`)`
+`getThis (function: `[`getThisResource`](/docs/getThisResource.md "wikilink")`)`
+`getConfig (function: `[`getResourceConfig`](/docs/getResourceConfig.md "wikilink")`)`
+`getConfig (function: `[`getResourceConfig`](/docs/getResourceConfig.md "wikilink")`)`
+`getDynamicElementRoot (function: `[`getResourceDynamicElementRoot`](/docs/getResourceDynamicElementRoot.md "wikilink")`)`
+`getExportedFunctions (function: `[`getResourceExportedFunctions`](/docs/getResourceExportedFunctions.md "wikilink")`)`
+`getState (function: `[`getResourceState`](/docs/getResourceState.md "wikilink")`)`
 
 Timer
 -----
 
-`create (function: `[`setTimer`](/setTimer.md "wikilink")`)`
-`destroy (function: `[`killTimer`](/killTimer.md "wikilink")`)`
-`reset (function: `[`resetTimer`](/resetTimer.md "wikilink")`)`
-`isValid (function: `[`isTimer`](/isTimer.md "wikilink")`)`
-`getDetails (function: `[`getTimerDetails`](/getTimerDetails.md "wikilink")`)`
+`create (function: `[`setTimer`](/docs/setTimer.md "wikilink")`)`
+`destroy (function: `[`killTimer`](/docs/killTimer.md "wikilink")`)`
+`reset (function: `[`resetTimer`](/docs/resetTimer.md "wikilink")`)`
+`isValid (function: `[`isTimer`](/docs/isTimer.md "wikilink")`)`
+`getDetails (function: `[`getTimerDetails`](/docs/getTimerDetails.md "wikilink")`)`
 
 File
 ----
 
-`create (function: `[`fileOpen`](/fileOpen.md "wikilink")`)`
-`destroy (function: `[`fileClose`](/fileClose.md "wikilink")`)`
-`close (function: `[`fileClose`](/fileClose.md "wikilink")`)`
-`new (function: `[`fileCreate`](/fileCreate.md "wikilink")`)`
-`delete (function: `[`fileDelete`](/fileDelete.md "wikilink")`)`
-`exists (function: `[`fileExists`](/fileExists.md "wikilink")`)`
-`flush (function: `[`fileFlush`](/fileFlush.md "wikilink")`)`
-`getPos (function: `[`fileGetPos`](/fileGetPos.md "wikilink")`)`
-`getSize (function: `[`fileGetSize`](/fileGetSize.md "wikilink")`)`
-`isEOF (function: `[`fileIsEOF`](/fileIsEOF.md "wikilink")`)`
-`read (function: `[`fileRead`](/fileRead.md "wikilink")`)`
-`rename (function: `[`fileRename`](/fileRename.md "wikilink")`)`
-`setPos (function: `[`fileSetPos`](/fileSetPos.md "wikilink")`)`
-`write (function: `[`fileWrite`](/fileWrite.md "wikilink")`)`
-`copy (function: `[`fileCopy`](/fileCopy.md "wikilink")`)`
+`create (function: `[`fileOpen`](/docs/fileOpen.md "wikilink")`)`
+`destroy (function: `[`fileClose`](/docs/fileClose.md "wikilink")`)`
+`close (function: `[`fileClose`](/docs/fileClose.md "wikilink")`)`
+`new (function: `[`fileCreate`](/docs/fileCreate.md "wikilink")`)`
+`delete (function: `[`fileDelete`](/docs/fileDelete.md "wikilink")`)`
+`exists (function: `[`fileExists`](/docs/fileExists.md "wikilink")`)`
+`flush (function: `[`fileFlush`](/docs/fileFlush.md "wikilink")`)`
+`getPos (function: `[`fileGetPos`](/docs/fileGetPos.md "wikilink")`)`
+`getSize (function: `[`fileGetSize`](/docs/fileGetSize.md "wikilink")`)`
+`isEOF (function: `[`fileIsEOF`](/docs/fileIsEOF.md "wikilink")`)`
+`read (function: `[`fileRead`](/docs/fileRead.md "wikilink")`)`
+`rename (function: `[`fileRename`](/docs/fileRename.md "wikilink")`)`
+`setPos (function: `[`fileSetPos`](/docs/fileSetPos.md "wikilink")`)`
+`write (function: `[`fileWrite`](/docs/fileWrite.md "wikilink")`)`
+`copy (function: `[`fileCopy`](/docs/fileCopy.md "wikilink")`)`
 
 XML
 ---
 
-`load (function: `[`xmlLoadFile`](/xmlLoadFile.md "wikilink")`)`
-`unload (function: `[`xmlUnloadFile`](/xmlUnloadFile.md "wikilink")`)`
-`copy (function: `[`xmlCopyFile`](/xmlCopyFile.md "wikilink")`)`
-`create (function: `[`xmlCreateFile`](/xmlCreateFile.md "wikilink")`)`
-`destroy (function: `[`xmlDestroyNode`](/xmlDestroyNode.md "wikilink")`)`
-`setValue (function: `[`xmlNodeGetValue`](/xmlNodeGetValue.md "wikilink")`)`
-`setAttribute (function: `[`xmlNodeSetAttribute`](/xmlNodeSetAttribute.md "wikilink")`)`
-`setValue (function: `[`xmlNodeSetValue`](/xmlNodeSetValue.md "wikilink")`)`
-`saveFile (function: `[`xmlSaveFile`](/xmlSaveFile.md "wikilink")`)`
-`createChild (function: `[`xmlCreateChild`](/xmlCreateChild.md "wikilink")`)`
-`findChild (function: `[`xmlFindChild`](/xmlFindChild.md "wikilink")`)`
-`getAttributes (function: `[`xmlNodeGetAttributes`](/xmlNodeGetAttributes.md "wikilink")`)`
-`getChildren (function: `[`xmlNodeGetChildren`](/xmlNodeGetChildren.md "wikilink")`)`
-`getName (function: `[`xmlNodeGetName`](/xmlNodeGetName.md "wikilink")`)`
-`getParent (function: `[`xmlNodeGetParent`](/xmlNodeGetParent.md "wikilink")`)`
-`getAttribute (function: `[`xmlNodeGetAttribute`](/xmlNodeGetAttribute.md "wikilink")`)`
-`setName (function: `[`xmlNodeSetName`](/xmlNodeSetName.md "wikilink")`)`
+`load (function: `[`xmlLoadFile`](/docs/xmlLoadFile.md "wikilink")`)`
+`unload (function: `[`xmlUnloadFile`](/docs/xmlUnloadFile.md "wikilink")`)`
+`copy (function: `[`xmlCopyFile`](/docs/xmlCopyFile.md "wikilink")`)`
+`create (function: `[`xmlCreateFile`](/docs/xmlCreateFile.md "wikilink")`)`
+`destroy (function: `[`xmlDestroyNode`](/docs/xmlDestroyNode.md "wikilink")`)`
+`setValue (function: `[`xmlNodeGetValue`](/docs/xmlNodeGetValue.md "wikilink")`)`
+`setAttribute (function: `[`xmlNodeSetAttribute`](/docs/xmlNodeSetAttribute.md "wikilink")`)`
+`setValue (function: `[`xmlNodeSetValue`](/docs/xmlNodeSetValue.md "wikilink")`)`
+`saveFile (function: `[`xmlSaveFile`](/docs/xmlSaveFile.md "wikilink")`)`
+`createChild (function: `[`xmlCreateChild`](/docs/xmlCreateChild.md "wikilink")`)`
+`findChild (function: `[`xmlFindChild`](/docs/xmlFindChild.md "wikilink")`)`
+`getAttributes (function: `[`xmlNodeGetAttributes`](/docs/xmlNodeGetAttributes.md "wikilink")`)`
+`getChildren (function: `[`xmlNodeGetChildren`](/docs/xmlNodeGetChildren.md "wikilink")`)`
+`getName (function: `[`xmlNodeGetName`](/docs/xmlNodeGetName.md "wikilink")`)`
+`getParent (function: `[`xmlNodeGetParent`](/docs/xmlNodeGetParent.md "wikilink")`)`
+`getAttribute (function: `[`xmlNodeGetAttribute`](/docs/xmlNodeGetAttribute.md "wikilink")`)`
+`setName (function: `[`xmlNodeSetName`](/docs/xmlNodeSetName.md "wikilink")`)`
 
 Camera
 ------
 
-`fade (function: `[`fadeCamera`](/fadeCamera.md "wikilink")`)`
-`getTarget (function: `[`getCameraTarget`](/getCameraTarget.md "wikilink")`)`
-`getInterior (function: `[`getCameraInterior`](/getCameraInterior.md "wikilink")`)`
-`getViewMode (function: `[`getCameraViewMode`](/getCameraViewMode.md "wikilink")`)`
-`getGoggleEffect (function: `[`getCameraGoggleEffect`](/getCameraGoggleEffect.md "wikilink")`)`
-`setInterior (function: `[`setCameraInterior`](/setCameraInterior.md "wikilink")`)`
-`setTarget (function: `[`setCameraTarget`](/setCameraTarget.md "wikilink")`)`
-`setViewMode (function: `[`setCameraViewMode`](/setCameraViewMode.md "wikilink")`)`
-`setGoggleEffect (function: `[`setCameraGoggleEffect`](/setCameraGoggleEffect.md "wikilink")`)`
-`setClip (function: `[`setCameraClip`](/setCameraClip.md "wikilink")`)`
+`fade (function: `[`fadeCamera`](/docs/fadeCamera.md "wikilink")`)`
+`getTarget (function: `[`getCameraTarget`](/docs/getCameraTarget.md "wikilink")`)`
+`getInterior (function: `[`getCameraInterior`](/docs/getCameraInterior.md "wikilink")`)`
+`getViewMode (function: `[`getCameraViewMode`](/docs/getCameraViewMode.md "wikilink")`)`
+`getGoggleEffect (function: `[`getCameraGoggleEffect`](/docs/getCameraGoggleEffect.md "wikilink")`)`
+`setInterior (function: `[`setCameraInterior`](/docs/setCameraInterior.md "wikilink")`)`
+`setTarget (function: `[`setCameraTarget`](/docs/setCameraTarget.md "wikilink")`)`
+`setViewMode (function: `[`setCameraViewMode`](/docs/setCameraViewMode.md "wikilink")`)`
+`setGoggleEffect (function: `[`setCameraGoggleEffect`](/docs/setCameraGoggleEffect.md "wikilink")`)`
+`setClip (function: `[`setCameraClip`](/docs/setCameraClip.md "wikilink")`)`
 
 Engine
 ------
 
-`restoreCOL (function: `[`engineRestoreCOL`](/engineRestoreCOL.md "wikilink")`)`
-`restoreModel (function: `[`engineRestoreModel`](/engineRestoreModel.md "wikilink")`)`
-`setAsynchronousLoading (function: `[`engineSetAsynchronousLoading`](/engineSetAsynchronousLoading.md "wikilink")`)`
-`setModelLODDistance (function: `[`engineSetModelLODDistance`](/engineSetModelLODDistance.md "wikilink")`)`
-`getVisibleTextureName (function: `[`engineGetVisibleTextureNames`](/engineGetVisibleTextureNames.md "wikilink")`)`
-`getModelLODDistance (function: `[`engineGetModelLODDistance`](/engineGetModelLODDistance.md "wikilink")`)`
-`getModelTextureNames (function: `[`engineGetModelTextureNames`](/engineGetModelTextureNames.md "wikilink")`)`
-`getModelIDFromName (function: `[`engineGetModelIDFromName`](/engineGetModelIDFromName.md "wikilink")`)`
-`getModelNameFromID (function: `[`engineGetModelNameFromID`](/engineGetModelNameFromID.md "wikilink")`)`
+`restoreCOL (function: `[`engineRestoreCOL`](/docs/engineRestoreCOL.md "wikilink")`)`
+`restoreModel (function: `[`engineRestoreModel`](/docs/engineRestoreModel.md "wikilink")`)`
+`setAsynchronousLoading (function: `[`engineSetAsynchronousLoading`](/docs/engineSetAsynchronousLoading.md "wikilink")`)`
+`setModelLODDistance (function: `[`engineSetModelLODDistance`](/docs/engineSetModelLODDistance.md "wikilink")`)`
+`getVisibleTextureName (function: `[`engineGetVisibleTextureNames`](/docs/engineGetVisibleTextureNames.md "wikilink")`)`
+`getModelLODDistance (function: `[`engineGetModelLODDistance`](/docs/engineGetModelLODDistance.md "wikilink")`)`
+`getModelTextureNames (function: `[`engineGetModelTextureNames`](/docs/engineGetModelTextureNames.md "wikilink")`)`
+`getModelIDFromName (function: `[`engineGetModelIDFromName`](/docs/engineGetModelIDFromName.md "wikilink")`)`
+`getModelNameFromID (function: `[`engineGetModelNameFromID`](/docs/engineGetModelNameFromID.md "wikilink")`)`
 
 EngineCOL
 ---------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`create (function: `[`engineLoadCOL`](/engineLoadCOL.md "wikilink")`)`
-`replace (function: `[`engineReplaceCOL`](/engineReplaceCOL.md "wikilink")`)`
+`create (function: `[`engineLoadCOL`](/docs/engineLoadCOL.md "wikilink")`)`
+`replace (function: `[`engineReplaceCOL`](/docs/engineReplaceCOL.md "wikilink")`)`
 
 EngineTXD
 ---------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`create (function: `[`engineLoadTXD`](/engineLoadTXD.md "wikilink")`)`
-`import (function: `[`engineImportTXD`](/engineImportTXD.md "wikilink")`)`
+`create (function: `[`engineLoadTXD`](/docs/engineLoadTXD.md "wikilink")`)`
+`import (function: `[`engineImportTXD`](/docs/engineImportTXD.md "wikilink")`)`
 
 EngineDFF
 ---------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`create (function: `[`engineLoadDFF`](/engineLoadDFF.md "wikilink")`)`
-`replace (function: `[`engineReplaceModel`](/engineReplaceModel.md "wikilink")`)`
+`create (function: `[`engineLoadDFF`](/docs/engineLoadDFF.md "wikilink")`)`
+`replace (function: `[`engineReplaceModel`](/docs/engineReplaceModel.md "wikilink")`)`
 
 DxMaterial
 ----------
 
-*Inherited from [Element](/#Element.md "wikilink")*
+*Inherited from [Element](/docs/#Element.md "wikilink")*
 
-`getSize (function: `[`dxGetMaterialSize`](/dxGetMaterialSize.md "wikilink")`)`
+`getSize (function: `[`dxGetMaterialSize`](/docs/dxGetMaterialSize.md "wikilink")`)`
 
 DxTexture
 ---------
 
-*Inherited from [DxMaterial](/#DxMaterial.md "wikilink")*
+*Inherited from [DxMaterial](/docs/#DxMaterial.md "wikilink")*
 
-`create (function: `[`dxCreateTexture`](/dxCreateTexture.md "wikilink")`)`
-`setEdge (function: `[`dxSetTextureEdge`](/dxSetTextureEdge.md "wikilink")`)`
-`setPixels (function: `[`dxSetTexturePixels`](/dxSetTexturePixels.md "wikilink")`)`
-`getPixels (function: `[`dxGetTexturePixels`](/dxGetTexturePixels.md "wikilink")`)`
+`create (function: `[`dxCreateTexture`](/docs/dxCreateTexture.md "wikilink")`)`
+`setEdge (function: `[`dxSetTextureEdge`](/docs/dxSetTextureEdge.md "wikilink")`)`
+`setPixels (function: `[`dxSetTexturePixels`](/docs/dxSetTexturePixels.md "wikilink")`)`
+`getPixels (function: `[`dxGetTexturePixels`](/docs/dxGetTexturePixels.md "wikilink")`)`
 
 DxFont
 ------
 
-`create (function: `[`dxCreateFont`](/dxCreateFont.md "wikilink")`)`
-`getHeight (function: `[`dxGetFontHeight`](/dxGetFontHeight.md "wikilink")`)`
-`getTextWidth (function: `[`dxGetTextWidth`](/dxGetTextWidth.md "wikilink")`)`
+`create (function: `[`dxCreateFont`](/docs/dxCreateFont.md "wikilink")`)`
+`getHeight (function: `[`dxGetFontHeight`](/docs/dxGetFontHeight.md "wikilink")`)`
+`getTextWidth (function: `[`dxGetTextWidth`](/docs/dxGetTextWidth.md "wikilink")`)`
 
 DxShader
 --------
 
-*Inherited from [DxMaterial](/#DxMaterial.md "wikilink")*
+*Inherited from [DxMaterial](/docs/#DxMaterial.md "wikilink")*
 
-`create (function: `[`dxCreateShader`](/dxCreateShader.md "wikilink")`)`
-`setValue (function: `[`dxSetShaderValue`](/dxSetShaderValue.md "wikilink")`)`
-`setTessellation (function: `[`dxSetShaderTessellation`](/dxSetShaderTessellation.md "wikilink")`)`
-`setTransform (function: `[`dxSetShaderTransform`](/dxSetShaderTransform.md "wikilink")`)`
-`value (function: `[`dxGetFontHeight`](/dxGetFontHeight.md "wikilink")`)`
+`create (function: `[`dxCreateShader`](/docs/dxCreateShader.md "wikilink")`)`
+`setValue (function: `[`dxSetShaderValue`](/docs/dxSetShaderValue.md "wikilink")`)`
+`setTessellation (function: `[`dxSetShaderTessellation`](/docs/dxSetShaderTessellation.md "wikilink")`)`
+`setTransform (function: `[`dxSetShaderTransform`](/docs/dxSetShaderTransform.md "wikilink")`)`
+`value (function: `[`dxGetFontHeight`](/docs/dxGetFontHeight.md "wikilink")`)`
 
 DxScreenSource
 --------------
 
-`create (function: `[`dxCreateScreenSource`](/dxCreateScreenSource.md "wikilink")`)`
-`update (function: `[`dxUpdateScreenSource`](/dxUpdateScreenSource.md "wikilink")`)`
+`create (function: `[`dxCreateScreenSource`](/docs/dxCreateScreenSource.md "wikilink")`)`
+`update (function: `[`dxUpdateScreenSource`](/docs/dxUpdateScreenSource.md "wikilink")`)`
 
 DxRenderTarget
 --------------
 
-`create (function: `[`dxCreateRenderTarget`](/dxCreateRenderTarget.md "wikilink")`)`
-`setAsTarget (function: `[`dxSetRenderTarget`](/dxSetRenderTarget.md "wikilink")`)`
+`create (function: `[`dxCreateRenderTarget`](/docs/dxCreateRenderTarget.md "wikilink")`)`
+`setAsTarget (function: `[`dxSetRenderTarget`](/docs/dxSetRenderTarget.md "wikilink")`)`
 
-[Category:OOP](/Category:OOP.md "wikilink")
+[Category:OOP](/docs/Category:OOP.md "wikilink")

@@ -18,7 +18,7 @@ colshape createColCuboid ( float fX, float fY, float fZ, float fWidth, float fDe
 
 ### Returns
 
-Returns a [colshape](/colshape.md "wikilink") element if successful, *false* if invalid arguments were passed to the function.
+Returns a [colshape](/docs/colshape.md "wikilink") element if successful, *false* if invalid arguments were passed to the function.
 
 Example
 -------

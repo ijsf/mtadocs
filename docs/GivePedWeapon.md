@@ -7,8 +7,8 @@ Syntax
 
 ### Required Arguments
 
--   **thePed:** A [ped](/ped.md "wikilink") element.
--   **weapon:** A whole number integer that refers to a [Weapon](/Weapon.md "wikilink") ID. Click [here](/Weapon.md "wikilink") for a list of possible weapon IDs.
+-   **thePed:** A [ped](/docs/ped.md "wikilink") element.
+-   **weapon:** A whole number integer that refers to a [Weapon](/docs/Weapon.md "wikilink") ID. Click [here](/Weapon.md "wikilink") for a list of possible weapon IDs.
 
 ### Optional Arguments
 

@@ -1,4 +1,4 @@
-This function adds a [player](/player.md "wikilink") to an existing [team](/team.md "wikilink"). The player will automatically be removed from his current team if he's on one.
+This function adds a [player](/docs/player.md "wikilink") to an existing [team](/team.md "wikilink"). The player will automatically be removed from his current team if he's on one.
 
 Syntax
 ------
@@ -9,8 +9,8 @@ bool setPlayerTeam ( player thePlayer, team theTeam )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") you wish to add to a team.
--   **theTeam:** The [team](/team.md "wikilink") you want to add the player to, or *nil* if you wish to unassign a player from his team.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") you wish to add to a team.
+-   **theTeam:** The [team](/docs/team.md "wikilink") you want to add the player to, or *nil* if you wish to unassign a player from his team.
 
 ### Returns
 

@@ -1,4 +1,4 @@
-This function sets the password of the specified [account](/account.md "wikilink").
+This function sets the password of the specified [account](/docs/account.md "wikilink").
 
 Syntax
 ------
@@ -63,4 +63,4 @@ addCommandHandler("changepass", ChangePlayerPassword)
 See Also
 --------
 
-[ar:setAccountPassword](/ar:setAccountPassword.md "wikilink") [es:setAccountPassword](/es:setAccountPassword.md "wikilink")
+[ar:setAccountPassword](/docs/ar:setAccountPassword.md "wikilink") [es:setAccountPassword](/es:setAccountPassword.md "wikilink")

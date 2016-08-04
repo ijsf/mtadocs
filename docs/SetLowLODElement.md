@@ -9,7 +9,7 @@ bool setLowLODElement ( element theElement, element lowLODElement )
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") whose low LOD version we want to change.
+-   **theElement:** The [element](/docs/element.md "wikilink") whose low LOD version we want to change.
 -   **lowLODElement :** A low LOD element to display when the first element is not fully visible.
 
 ### Returns

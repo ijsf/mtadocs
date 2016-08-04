@@ -109,10 +109,10 @@ Related scripting functions
 
 ### Client
 
--   [createEffect](/createEffect.md "wikilink")
--   [setEffectSpeed](/setEffectSpeed.md "wikilink")
--   [getEffectSpeed](/getEffectSpeed.md "wikilink")
--   [setEffectDensity](/setEffectDensity.md "wikilink")
--   [setEffectDensity](/setEffectDensity.md "wikilink")
+-   [createEffect](/docs/createEffect.md "wikilink")
+-   [setEffectSpeed](/docs/setEffectSpeed.md "wikilink")
+-   [getEffectSpeed](/docs/getEffectSpeed.md "wikilink")
+-   [setEffectDensity](/docs/setEffectDensity.md "wikilink")
+-   [setEffectDensity](/docs/setEffectDensity.md "wikilink")
 
-[Category:Element Types](/Category:Element_Types.md "wikilink") [ru:Element/Effect](/ru:Element/Effect.md "wikilink")
+[Category:Element Types](/docs/Category:Element_Types.md "wikilink") [ru:Element/Effect](/ru:Element/Effect.md "wikilink")

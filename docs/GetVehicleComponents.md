@@ -7,7 +7,7 @@ table getVehicleComponents ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") you wish to get the components of.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") you wish to get the components of.
 
 ### Returns
 

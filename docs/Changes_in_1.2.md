@@ -14,21 +14,21 @@ Client
 
 ### New Functions
 
--   Added [createSWATRope](/createSWATRope.md "wikilink")
--   Added [toJSON](/toJSON.md "wikilink")
--   Added [fromJSON](/fromJSON.md "wikilink")
--   Added [getDevelopmentMode](/getDevelopmentMode.md "wikilink")
--   Added [setDevelopmentMode](/setDevelopmentMode.md "wikilink")
+-   Added [createSWATRope](/docs/createSWATRope.md "wikilink")
+-   Added [toJSON](/docs/toJSON.md "wikilink")
+-   Added [fromJSON](/docs/fromJSON.md "wikilink")
+-   Added [getDevelopmentMode](/docs/getDevelopmentMode.md "wikilink")
+-   Added [setDevelopmentMode](/docs/setDevelopmentMode.md "wikilink")
 
 <!-- -->
 
--   Added [getVehicleVariant](/getVehicleVariant.md "wikilink")
--   Added [getWeaponProperty](/getWeaponProperty.md "wikilink")
--   Added [getOriginalWeaponProperty](/getOriginalWeaponProperty.md "wikilink")
--   Added [isElementLowLOD‎](/isElementLowLOD‎.md "wikilink")
--   Added [getLowLODElement](/getLowLODElement.md "wikilink")
--   Added [setLowLODElement](/setLowLODElement.md "wikilink")
--   Added [dxSetShaderTessellation](/dxSetShaderTessellation.md "wikilink")
+-   Added [getVehicleVariant](/docs/getVehicleVariant.md "wikilink")
+-   Added [getWeaponProperty](/docs/getWeaponProperty.md "wikilink")
+-   Added [getOriginalWeaponProperty](/docs/getOriginalWeaponProperty.md "wikilink")
+-   Added [isElementLowLOD‎](/docs/isElementLowLOD‎.md "wikilink")
+-   Added [getLowLODElement](/docs/getLowLODElement.md "wikilink")
+-   Added [setLowLODElement](/docs/setLowLODElement.md "wikilink")
+-   Added [dxSetShaderTessellation](/docs/dxSetShaderTessellation.md "wikilink")
 
 ### New Events
 
@@ -46,7 +46,7 @@ Client
 <!-- -->
 
 -   New client command 'serial' to get ones serial
--   Added 'showcol' command to see colshapes if [setDevelopmentMode](/setDevelopmentMode.md "wikilink") is set
+-   Added 'showcol' command to see colshapes if [setDevelopmentMode](/docs/setDevelopmentMode.md "wikilink") is set
 -   New map image in F11
 -   Added opacity keys to radar map and reduced its memory usage
 -   Improved bullet accuracy synchronization
@@ -56,41 +56,41 @@ Server
 
 ### New Functions
 
--   Added [getPlayerIdleTime](/getPlayerIdleTime.md "wikilink")
--   Added [deleteResource](/deleteResource.md "wikilink")
--   Added [renameResource](/renameResource.md "wikilink")
--   Added [dbExec](/dbExec.md "wikilink")
--   Added [dbQuery](/dbQuery.md "wikilink")
--   Added [dbPoll](/dbPoll.md "wikilink")
--   Added [dbConnect](/dbConnect.md "wikilink")
--   Added [dbFree](/dbFree.md "wikilink")
--   Added [getVehicleVariant](/getVehicleVariant.md "wikilink")
--   Added [getWeaponProperty](/getWeaponProperty.md "wikilink")
--   Added [getOriginalWeaponProperty](/getOriginalWeaponProperty.md "wikilink")
--   Added [setVehicleVariant](/setVehicleVariant.md "wikilink")
--   Added [setWeaponProperty](/setWeaponProperty.md "wikilink")
--   Added [resendPlayerModInfo](/resendPlayerModInfo.md "wikilink")
--   Added [isElementLowLOD‎](/isElementLowLOD‎.md "wikilink")
--   Added [getLowLODElement](/getLowLODElement.md "wikilink")
--   Added [setLowLODElement](/setLowLODElement.md "wikilink")
--   Added [getResourceACLRequests](/getResourceACLRequests.md "wikilink")
--   Added [updateResourceACLRequest](/updateResourceACLRequest.md "wikilink")
+-   Added [getPlayerIdleTime](/docs/getPlayerIdleTime.md "wikilink")
+-   Added [deleteResource](/docs/deleteResource.md "wikilink")
+-   Added [renameResource](/docs/renameResource.md "wikilink")
+-   Added [dbExec](/docs/dbExec.md "wikilink")
+-   Added [dbQuery](/docs/dbQuery.md "wikilink")
+-   Added [dbPoll](/docs/dbPoll.md "wikilink")
+-   Added [dbConnect](/docs/dbConnect.md "wikilink")
+-   Added [dbFree](/docs/dbFree.md "wikilink")
+-   Added [getVehicleVariant](/docs/getVehicleVariant.md "wikilink")
+-   Added [getWeaponProperty](/docs/getWeaponProperty.md "wikilink")
+-   Added [getOriginalWeaponProperty](/docs/getOriginalWeaponProperty.md "wikilink")
+-   Added [setVehicleVariant](/docs/setVehicleVariant.md "wikilink")
+-   Added [setWeaponProperty](/docs/setWeaponProperty.md "wikilink")
+-   Added [resendPlayerModInfo](/docs/resendPlayerModInfo.md "wikilink")
+-   Added [isElementLowLOD‎](/docs/isElementLowLOD‎.md "wikilink")
+-   Added [getLowLODElement](/docs/getLowLODElement.md "wikilink")
+-   Added [setLowLODElement](/docs/setLowLODElement.md "wikilink")
+-   Added [getResourceACLRequests](/docs/getResourceACLRequests.md "wikilink")
+-   Added [updateResourceACLRequest](/docs/updateResourceACLRequest.md "wikilink")
 
 ### New Events
 
--   Added [onChatMessage](/onChatMessage.md "wikilink")
--   Added [onElementModelChanged](/onElementModelChanged.md "wikilink")
+-   Added [onChatMessage](/docs/onChatMessage.md "wikilink")
+-   Added [onElementModelChanged](/docs/onElementModelChanged.md "wikilink")
 
 ### Changes
 
 -   Major reduction in bandwidth upload usage
--   Updated [createResource](/createResource.md "wikilink") and Fixed [copyResource](/copyResource.md "wikilink")
+-   Updated [createResource](/docs/createResource.md "wikilink") and Fixed [copyResource](/copyResource.md "wikilink")
 
 <!-- -->
 
 -   Added basic backup of some server files
 -   Added option to log database queries to a file
--   Added reconnect option to [redirectPlayer](/redirectPlayer.md "wikilink")
+-   Added reconnect option to [redirectPlayer](/docs/redirectPlayer.md "wikilink")
 -   Synchronized vehicle variants
 -   Various optimizations and stability improvements
 -   Added glitch “highcloserangedamage” to enable/disable extreme close range damage to the glitch functions.
@@ -111,4 +111,4 @@ Editor
 
 -   None yet
 
-[Category:Changelog](/Category:Changelog.md "wikilink") [Category:Changes in 1.2](/Category:Changes_in_1.2.md "wikilink")
+[Category:Changelog](/docs/Category:Changelog.md "wikilink") [Category:Changes in 1.2](/Category:Changes_in_1.2.md "wikilink")

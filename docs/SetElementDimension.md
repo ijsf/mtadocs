@@ -1,4 +1,4 @@
-This function allows you to set the [dimension](/dimension.md "wikilink") of any element. The dimension determines what/who the element is visible to.
+This function allows you to set the [dimension](/docs/dimension.md "wikilink") of any element. The dimension determines what/who the element is visible to.
 
 Syntax
 ------
@@ -44,4 +44,4 @@ addEventHandler ( "onPlayerVehicleExit", root, onPlayerExitVehicle )
 See Also
 --------
 
-[de:setElementDimension](/de:setElementDimension.md "wikilink")
+[de:setElementDimension](/docs/de:setElementDimension.md "wikilink")

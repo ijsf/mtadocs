@@ -33,7 +33,7 @@ addEventHandler("onResourceStart", getResourceRootElement(),
 )
 ```
 
-[pl:Modules/SebasIRC/ircJoin](/pl:Modules/SebasIRC/ircJoin.md "wikilink")
+[pl:Modules/SebasIRC/ircJoin](/docs/pl:Modules/SebasIRC/ircJoin.md "wikilink")
 
 See also
 --------

@@ -74,4 +74,4 @@ Linux server
     cp registry_repaired.db registry.db
 
 </section>
-[Category: Support](/Category:_Support.md "wikilink") [ru:How to repair the database files](/ru:How_to_repair_the_database_files.md "wikilink")
+[Category: Support](/docs/Category:_Support.md "wikilink") [ru:How to repair the database files](/ru:How_to_repair_the_database_files.md "wikilink")

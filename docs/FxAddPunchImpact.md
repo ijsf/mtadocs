@@ -1,4 +1,4 @@
-[thumb|200px|Punch impact](/Image:Fxpunchimpact.png.md "wikilink") Creates a punch impact particle effect (a small dust cloud).
+[thumb|200px|Punch impact](/docs/Image:Fxpunchimpact.png.md "wikilink") Creates a punch impact particle effect (a small dust cloud).
 
 Syntax
 ------

@@ -1,4 +1,4 @@
-This function set component rotation for [vehicle](/vehicle.md "wikilink").
+This function set component rotation for [vehicle](/docs/vehicle.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setVehicleComponentRotation ( vehicle theVehicle, string theComponent, floa
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") you wish to set component rotation.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") you wish to set component rotation.
 -   **theComponent:** A vehicle component (this is the frame name from the model file of the component you wish to modify)
 -   **rotX:** The component's rotation around the x axis in degrees.
 -   **rotY:** The component's rotation around the y axis in degrees.

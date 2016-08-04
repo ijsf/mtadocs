@@ -1,4 +1,4 @@
-This gets the dimensions of the supplied [material](/material.md "wikilink") element.
+This gets the dimensions of the supplied [material](/docs/material.md "wikilink") element.
 
 Syntax
 ------

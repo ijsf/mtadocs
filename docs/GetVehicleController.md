@@ -9,11 +9,11 @@ player getVehicleController ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle:** the [vehicle](/vehicle.md "wikilink") you want to get the 'controller' of.
+-   **theVehicle:** the [vehicle](/docs/vehicle.md "wikilink") you want to get the 'controller' of.
 
 ### Returns
 
-Returns a [player](/player.md "wikilink") object, if there isn't a driver, it will search the 'trailer chain' for the front driver, *false* otherwise.
+Returns a [player](/docs/player.md "wikilink") object, if there isn't a driver, it will search the 'trailer chain' for the front driver, *false* otherwise.
 
 Example
 -------

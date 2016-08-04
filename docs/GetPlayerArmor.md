@@ -1,4 +1,4 @@
-This function returns a float that contains the current armor for the specified [player](/player.md "wikilink").
+This function returns a float that contains the current armor for the specified [player](/docs/player.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ float getPlayerArmor ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") whose armor you want to check
+-   **thePlayer:** The [player](/docs/player.md "wikilink") whose armor you want to check
 
 ### Returns
 

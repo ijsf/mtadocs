@@ -9,11 +9,11 @@ Syntax
 txd engineLoadTXD ( string txd_file / string raw_data [, bool filteringEnabled = true ] )
 ```
 
-[thumb|Difference between texture filtering modes (left = filtering disabled, right = filtering enabled).|284x230px](/Image:Filtering.jpg.md "wikilink")
+[thumb|Difference between texture filtering modes (left = filtering disabled, right = filtering enabled).|284x230px](/docs/Image:Filtering.jpg.md "wikilink")
 
 ### Required Arguments
 
--   **txd\_file / raw\_data:** The [filepath](/filepath.md "wikilink") to the TXD file you want to load or whole data buffer of the TXD file.
+-   **txd\_file / raw\_data:** The [filepath](/docs/filepath.md "wikilink") to the TXD file you want to load or whole data buffer of the TXD file.
 
 ### Optional Arguments
 
@@ -21,7 +21,7 @@ txd engineLoadTXD ( string txd_file / string raw_data [, bool filteringEnabled =
 
 ### Returns
 
-Returns a [TXD](/TXD.md "wikilink") if the file was loaded, *false* otherwise.
+Returns a [TXD](/docs/TXD.md "wikilink") if the file was loaded, *false* otherwise.
 
 Example
 -------

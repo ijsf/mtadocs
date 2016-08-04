@@ -7,8 +7,8 @@ Parameters
 element killer, int weapon, int bodypart, float loss
 ```
 
--   **killer**: A [player](/player.md "wikilink") [element](/element.md "wikilink") representing the killer.
--   **weapon**: An integer representing the [killer weapon](/Weapons.md "wikilink") or the [death reason](/Death_Reasons.md "wikilink").
+-   **killer**: A [player](/docs/player.md "wikilink") [element](/element.md "wikilink") representing the killer.
+-   **weapon**: An integer representing the [killer weapon](/docs/Weapons.md "wikilink") or the [death reason](/Death_Reasons.md "wikilink").
 -   **bodypart**: An integer representing the bodypart the player was damaged.
 
 -   **loss**: A float representing the percentage of health the ped lost in the final “hit”.
@@ -16,7 +16,7 @@ element killer, int weapon, int bodypart, float loss
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [ped](/ped.md "wikilink") that died.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [ped](/ped.md "wikilink") that died.
 
 Example
 -------

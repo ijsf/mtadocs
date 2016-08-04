@@ -14,7 +14,7 @@ int randInt ( int lowerbound, int upperbound )
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") containing a random number between and potentially including *lowerbound* and *upperbound*.
+Returns an [int](/docs/int.md "wikilink") containing a random number between and potentially including *lowerbound* and *upperbound*.
 
 Example
 -------

@@ -13,12 +13,12 @@ float guiScrollPaneGetVerticalScrollPosition ( element verticalScrollPane )
 
 ### Returns
 
-Returns a [float](/float.md "wikilink") ranging between 0 and 100, or **false** otherwise.
+Returns a [float](/docs/float.md "wikilink") ranging between 0 and 100, or **false** otherwise.
 
 Example
 -------
 
-This example gets the position of a scroll pane called “myScrollPane” created with [guiCreateScrollPane](/guiCreateScrollPane.md "wikilink"), and outputs it to the chatbox.
+This example gets the position of a scroll pane called “myScrollPane” created with [guiCreateScrollPane](/docs/guiCreateScrollPane.md "wikilink"), and outputs it to the chatbox.
 
 ``` lua
 if ( myScrollPane ) then -- if the scroll pane exist then

@@ -11,7 +11,7 @@ string getBrowserTitle ( browser webBrowser )
 
 ### Returns
 
-Returns the title as a [string](/string.md "wikilink"). Returns false if invalid arguments were passed.
+Returns the title as a [string](/docs/string.md "wikilink"). Returns false if invalid arguments were passed.
 
 Example
 -------

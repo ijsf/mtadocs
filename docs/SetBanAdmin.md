@@ -7,7 +7,7 @@ bool setBanAdmin ( ban theBan, string theAdmin )
 
 ### Required Arguments
 
--   **theBan:** The [ban](/ban.md "wikilink") you want to change the admin of.
+-   **theBan:** The [ban](/docs/ban.md "wikilink") you want to change the admin of.
 -   **theAdmin:** The new admin.
 
 ### Returns
@@ -33,4 +33,4 @@ addEventHandler( "onBan", getRootElement(), banHappened )
 See Also
 --------
 
-[ru:setBanAdmin](/ru:setBanAdmin.md "wikilink")
+[ru:setBanAdmin](/docs/ru:setBanAdmin.md "wikilink")

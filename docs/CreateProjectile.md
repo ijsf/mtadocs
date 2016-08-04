@@ -9,22 +9,22 @@ projectile createProjectile ( element creator, int weaponType [, float posX, flo
 
 ### Required Arguments
 
--   **creator:** The [element](/element.md "wikilink") representing creator of the projectile. In case you want the projectile to be synced for everybody creator must be the local player or his vehicle.
--   **weaponType:** [int](/int.md "wikilink") representing the projectile weaponType (characteristics). Valid IDs are:
+-   **creator:** The [element](/docs/element.md "wikilink") representing creator of the projectile. In case you want the projectile to be synced for everybody creator must be the local player or his vehicle.
+-   **weaponType:** [int](/docs/int.md "wikilink") representing the projectile weaponType (characteristics). Valid IDs are:
 
 ### Optional Arguments
 
--   **posX**, **posY**, **posZ**: [float](/float.md "wikilink") starting coordinates for the projectile. They are coordinates of creator by default.
--   **force**: [float](/float.md "wikilink") representing the starting force for throwable projectiles.
--   **target**: [element](/element.md "wikilink") target used for heat seeking rockets.
--   **rotX**, **rotY**, **rotZ**: [float](/float.md "wikilink") starting rotation for the projectile.
--   **velX**, **velY**, **velZ**: [float](/float.md "wikilink") starting velocity for the projectile.
+-   **posX**, **posY**, **posZ**: [float](/docs/float.md "wikilink") starting coordinates for the projectile. They are coordinates of creator by default.
+-   **force**: [float](/docs/float.md "wikilink") representing the starting force for throwable projectiles.
+-   **target**: [element](/docs/element.md "wikilink") target used for heat seeking rockets.
+-   **rotX**, **rotY**, **rotZ**: [float](/docs/float.md "wikilink") starting rotation for the projectile.
+-   **velX**, **velY**, **velZ**: [float](/docs/float.md "wikilink") starting velocity for the projectile.
 -   **model**: Integer representing the projectile's model, uses default model for weaponType if not specified.
 
 Returns
 -------
 
-Returns a *[projectile](/projectile.md "wikilink")* element if [projectile](/projectile.md "wikilink") creation was successful. Returns *false* if unable to create a [projectile](/projectile.md "wikilink") (wrong weapon ID or projectiles limit was reached).
+Returns a *[projectile](/docs/projectile.md "wikilink")* element if [projectile](/projectile.md "wikilink") creation was successful. Returns *false* if unable to create a [projectile](/projectile.md "wikilink") (wrong weapon ID or projectiles limit was reached).
 
 Example
 -------
@@ -68,4 +68,4 @@ Issues
 See also
 --------
 
-[it:createProjectile](/it:createProjectile.md "wikilink")
+[it:createProjectile](/docs/it:createProjectile.md "wikilink")

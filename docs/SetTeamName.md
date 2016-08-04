@@ -9,7 +9,7 @@ bool setTeamName ( team theTeam, string newName )
 
 ### Required Arguments
 
--   **theTeam:** The [team](/team.md "wikilink") you want to change the name of.
+-   **theTeam:** The [team](/docs/team.md "wikilink") you want to change the name of.
 -   **newName:** A string representing the name you want the team to be called.
 
 ### Returns

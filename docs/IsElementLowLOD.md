@@ -9,7 +9,7 @@ bool isElementLowLOD ( element theElement )
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") whose low LOD status we want to get.
+-   **theElement:** The [element](/docs/element.md "wikilink") whose low LOD status we want to get.
 
 ### Returns
 

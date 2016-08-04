@@ -9,11 +9,11 @@ int utfCode ( string theString )
 
 ### Required Arguments
 
--   **theString:** The [string](/string.md "wikilink") to get the UTF code of.
+-   **theString:** The [string](/docs/string.md "wikilink") to get the UTF code of.
 
 ### Returns
 
-Returns an *[int](/int.md "wikilink")* if the function was successful, *false* otherwise.
+Returns an *[int](/docs/int.md "wikilink")* if the function was successful, *false* otherwise.
 
 ### Example
 

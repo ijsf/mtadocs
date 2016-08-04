@@ -35,4 +35,4 @@ end
 See Also
 --------
 
-[de:GetVehiclesOfType](/de:GetVehiclesOfType.md "wikilink")
+[de:GetVehiclesOfType](/docs/de:GetVehiclesOfType.md "wikilink")

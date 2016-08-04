@@ -1,4 +1,4 @@
-This event is triggered when a [projectile](/projectile.md "wikilink") is created.
+This event is triggered when a [projectile](/docs/projectile.md "wikilink") is created.
 
 Parameters
 ----------
@@ -10,7 +10,7 @@ element creator
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [projectile](/projectile.md "wikilink") that was created.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [projectile](/projectile.md "wikilink") that was created.
 
 Cancel effect
 -------------

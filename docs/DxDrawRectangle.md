@@ -1,4 +1,4 @@
-This function draws a 2D rectangle across the screen - rendered for **one** frame. This should be used in conjunction with [onClientRender](/onClientRender.md "wikilink") in order to display continuously.
+This function draws a 2D rectangle across the screen - rendered for **one** frame. This should be used in conjunction with [onClientRender](/docs/onClientRender.md "wikilink") in order to display continuously.
 
 Syntax
 ------
@@ -16,7 +16,7 @@ bool dxDrawRectangle ( float startX, float startY, float width, float height [, 
 
 ### Optional Arguments
 
--   **color:** the hex color of the rectangle, produced using [tocolor](/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
+-   **color:** the hex color of the rectangle, produced using [tocolor](/docs/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
 -   **postGUI:** A bool representing whether the line should be drawn on top of or behind any ingame GUI.
 
 ### Returns

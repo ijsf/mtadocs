@@ -1,4 +1,4 @@
-This function creates a text item. A text item represents a single area of text, much like a label does in standard GUI programming. A text item can only be seen by players if it is added to a [textdisplay](/textdisplay.md "wikilink") using [textDisplayAddText](/textDisplayAddText.md "wikilink"). Each text item can be added to multiple displays, if need be.
+This function creates a text item. A text item represents a single area of text, much like a label does in standard GUI programming. A text item can only be seen by players if it is added to a [textdisplay](/docs/textdisplay.md "wikilink") using [textDisplayAddText](/textDisplayAddText.md "wikilink"). Each text item can be added to multiple displays, if need be.
 
 Syntax
 ------
@@ -27,7 +27,7 @@ Syntax
 
 ### Returns
 
-Returns a [textitem](/textitem.md "wikilink") object.
+Returns a [textitem](/docs/textitem.md "wikilink") object.
 
 Example
 -------
@@ -42,4 +42,4 @@ textDisplayAddText ( myDisplay, myTextItem )                  -- add created ite
 See Also
 --------
 
-[ru:textCreateTextItem](/ru:textCreateTextItem.md "wikilink")
+[ru:textCreateTextItem](/docs/ru:textCreateTextItem.md "wikilink")

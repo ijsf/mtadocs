@@ -16,6 +16,6 @@ Links
 
 [MTA Blue Information Page](http://files.mtasa.com/web/mtablue.info/) - This is Vice City-centric and slightly outdated but gives you a good grasp of what Blue will look like when it is finished.
 
-[Category:MTA:SA Race](/Category:MTA:SA_Race.md "wikilink")
+[Category:MTA:SA Race](/docs/Category:MTA:SA_Race.md "wikilink")
 
-[es:Blue\_ES](/es:Blue_ES.md "wikilink") [pl:Blue](/pl:Blue.md "wikilink")
+[es:Blue\_ES](/docs/es:Blue_ES.md "wikilink") [pl:Blue](/pl:Blue.md "wikilink")

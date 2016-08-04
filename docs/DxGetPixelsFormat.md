@@ -1,4 +1,4 @@
-This function returns the format of [pixels](/Texture_pixels.md "wikilink") contained in a string.
+This function returns the format of [pixels](/docs/Texture_pixels.md "wikilink") contained in a string.
 
 Syntax
 ------

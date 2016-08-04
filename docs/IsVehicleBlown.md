@@ -9,7 +9,7 @@ bool isVehicleBlown ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") that you want to obtain the blown status of.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") that you want to obtain the blown status of.
 
 ### Returns
 

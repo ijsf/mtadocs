@@ -9,8 +9,8 @@ bool xmlNodeSetValue ( xmlnode theXMLNode, string value [, bool setCDATA = false
 
 ### Required Arguments
 
--   **theXMLNode:** The [xml node](/xml_node.md "wikilink") you want to set the value of.
--   **value:** The [string](/string.md "wikilink") value you want the node to have.
+-   **theXMLNode:** The [xml node](/docs/xml_node.md "wikilink") you want to set the value of.
+-   **value:** The [string](/docs/string.md "wikilink") value you want the node to have.
 
 ### Returns
 
@@ -33,7 +33,7 @@ if xmlFile then -- If it's indeed opened
 end
 ```
 
-After both changing the value and saving the XML file with [xmlSaveFile](/xmlSaveFile.md "wikilink"), the file will look like this:
+After both changing the value and saving the XML file with [xmlSaveFile](/docs/xmlSaveFile.md "wikilink"), the file will look like this:
 
 <section name="exampleFile.xml" class="server" show="true">
 ``` xml

@@ -1,4 +1,4 @@
-This function removes a [textitem](/textitem.md "wikilink") from a [textdisplay](/textdisplay.md "wikilink"). This stops any observers of the [textdisplay](/textdisplay.md "wikilink") from being able to see the [textitem](/textitem.md "wikilink").
+This function removes a [textitem](/docs/textitem.md "wikilink") from a [textdisplay](/textdisplay.md "wikilink"). This stops any observers of the [textdisplay](/textdisplay.md "wikilink") from being able to see the [textitem](/textitem.md "wikilink").
 
 Syntax
 ------
@@ -9,8 +9,8 @@ void textDisplayRemoveText ( textdisplay displayToRemoveFrom, textitem itemToRem
 
 ### Required Arguments
 
--   **displayToRemoveFrom**: The [textdisplay](/textdisplay.md "wikilink") to remove the [textitem](/textitem.md "wikilink") from.
--   **itemToRemove**: The [textitem](/textitem.md "wikilink") to remove from the display.
+-   **displayToRemoveFrom**: The [textdisplay](/docs/textdisplay.md "wikilink") to remove the [textitem](/textitem.md "wikilink") from.
+-   **itemToRemove**: The [textitem](/docs/textitem.md "wikilink") to remove from the display.
 
 Example
 -------

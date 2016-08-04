@@ -1,4 +1,4 @@
-This function creates a [blip](/blip.md "wikilink") that is attached to an [element](/element.md "wikilink"). This blip is displayed as an icon on the client's radar and will 'follow' the element that it is attached to around.
+This function creates a [blip](/docs/blip.md "wikilink") that is attached to an [element](/element.md "wikilink"). This blip is displayed as an icon on the client's radar and will 'follow' the element that it is attached to around.
 
 Syntax
 ------
@@ -17,11 +17,11 @@ blip createBlipAttachedTo ( element elementToAttachTo [, int icon = 0, int size 
 </section>
 ### Required Arguments
 
--   **elementToAttachTo:** The [element](/element.md "wikilink") to attach the marker to.
+-   **elementToAttachTo:** The [element](/docs/element.md "wikilink") to attach the marker to.
 
 ### Optional Arguments
 
--   **icon:** The icon that the radar blips should be. Valid values can be seen at [Blip Icons](/Blip_Icons.md "wikilink")
+-   **icon:** The icon that the radar blips should be. Valid values can be seen at [Blip Icons](/docs/Blip_Icons.md "wikilink")
 -   **size:** The size of the radar blip. Only applicable to the *Marker* icon. Default value is 2.
 -   **r:** The amount of red in the blip's color (0 - 255). Only applicable to the *Marker* icon. Default is 255.
 -   **g:** The amount of green in the blip's color (0 - 255). Only applicable to the *Marker* icon. Default is 0.
@@ -29,12 +29,12 @@ blip createBlipAttachedTo ( element elementToAttachTo [, int icon = 0, int size 
 -   **a:** The amount of alpha in the blip's color (0 - 255). Only applicable to the *Marker* icon. Default is 255.
 
 <section name="Server" class="server" show="true">
--   **visibleTo:** What elements can see the blip. Defaults to visible to everyone. See [visibility](/visibility.md "wikilink").
+-   **visibleTo:** What elements can see the blip. Defaults to visible to everyone. See [visibility](/docs/visibility.md "wikilink").
 
 </section>
 ### Returns
 
-Returns a [blip](/blip.md "wikilink") if the blip was created succesfully, or *false* otherwise.
+Returns a [blip](/docs/blip.md "wikilink") if the blip was created succesfully, or *false* otherwise.
 
 Example
 -------

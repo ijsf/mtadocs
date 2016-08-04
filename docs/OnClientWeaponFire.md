@@ -1,4 +1,4 @@
-This event triggers when a [custom weapon](/Element/Weapon.md "wikilink") fires a shot.
+This event triggers when a [custom weapon](/docs/Element/Weapon.md "wikilink") fires a shot.
 
 Parameters
 ----------
@@ -21,12 +21,12 @@ element hitElement, float posX,  float posY, float posZ, float normalX, float no
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the weapon that was fired.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the weapon that was fired.
 
 Cancel Effect
 -------------
 
-If this event was [canceled](/Event_system#Canceling.md "wikilink"), then the weapon will not fire.
+If this event was [canceled](/docs/Event_system#Canceling.md "wikilink"), then the weapon will not fire.
 
 Example
 -------

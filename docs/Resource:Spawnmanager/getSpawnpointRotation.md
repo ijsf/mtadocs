@@ -13,7 +13,7 @@ float getSpawnpointRotation ( spawnpoint theSpawn )
 
 ### Returns
 
-Returns the rotation as a [float](/float.md "wikilink") if the spawnpoint is valid, *false* otherwise.
+Returns the rotation as a [float](/docs/float.md "wikilink") if the spawnpoint is valid, *false* otherwise.
 
 Example
 -------

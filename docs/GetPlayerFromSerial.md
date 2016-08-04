@@ -1,4 +1,4 @@
-This function gets an **online** player from their [serial](/serial.md "wikilink").
+This function gets an **online** player from their [serial](/docs/serial.md "wikilink").
 
 Syntax
 ------
@@ -13,7 +13,7 @@ player getPlayerFromSerial ( string serial )
 
 ### Returns
 
-Returns a [player](/player.md "wikilink") element if the specified [serial](/serial.md "wikilink") is owned by an existent player on the server, *false* otherwise.
+Returns a [player](/docs/player.md "wikilink") element if the specified [serial](/serial.md "wikilink") is owned by an existent player on the server, *false* otherwise.
 
 Code
 ----

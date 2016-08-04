@@ -1,4 +1,4 @@
-**This article concerns the note left in [attachElements](/attachElements.md "wikilink").**
+**This article concerns the note left in [attachElements](/docs/attachElements.md "wikilink").**
 
 Problem
 -------

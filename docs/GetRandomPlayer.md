@@ -1,4 +1,4 @@
-This function returns a random [player](/player.md "wikilink").
+This function returns a random [player](/docs/player.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ player getRandomPlayer ( )
 
 ### Returns
 
-Returns a random [player](/player.md "wikilink"), *false* if the server is empty.
+Returns a random [player](/docs/player.md "wikilink"), *false* if the server is empty.
 
 Example
 -------
@@ -24,4 +24,4 @@ outputChatBox ( getPlayerName ( randomPlayer ).." is now the fugitive!" )
 See Also
 --------
 
-[pl:getRandomPlayer](/pl:getRandomPlayer.md "wikilink")
+[pl:getRandomPlayer](/docs/pl:getRandomPlayer.md "wikilink")

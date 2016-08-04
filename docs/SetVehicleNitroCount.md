@@ -7,8 +7,8 @@ bool setVehicleNitroCount ( vehicle theVehicle, int count )
 
 ### Required Arguments
 
--   **theVehicle**: the [vehicle](/vehicle.md "wikilink") which you want to modify how many times a player can use its nitro.
--   **count**: how many times should the player be able to use the nitro of this [vehicle](/vehicle.md "wikilink") (from 0-100 times; 0 means that it can't be used and 101 means that it can be used infinite times).
+-   **theVehicle**: the [vehicle](/docs/vehicle.md "wikilink") which you want to modify how many times a player can use its nitro.
+-   **count**: how many times should the player be able to use the nitro of this [vehicle](/docs/vehicle.md "wikilink") (from 0-100 times; 0 means that it can't be used and 101 means that it can be used infinite times).
 
 ### Returns
 

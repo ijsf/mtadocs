@@ -9,7 +9,7 @@ int getVehiclePaintjob ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle**: the [vehicle](/vehicle.md "wikilink") you wish to get the paintjob of.
+-   **theVehicle**: the [vehicle](/docs/vehicle.md "wikilink") you wish to get the paintjob of.
 
 Returns
 -------

@@ -7,7 +7,7 @@ bool setEffectDensity ( effect theEffect, float density )
 
 ### Required Arguments
 
--   **theEffect:** The [effect](/effect.md "wikilink") to change the speed of.
+-   **theEffect:** The [effect](/docs/effect.md "wikilink") to change the speed of.
 -   **density:** The level of density (from 0 to 2).
 
 ### Returns
@@ -30,4 +30,4 @@ end)
 See also
 --------
 
-[ru:setEffectDensity](/ru:setEffectDensity.md "wikilink")
+[ru:setEffectDensity](/docs/ru:setEffectDensity.md "wikilink")

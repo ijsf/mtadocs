@@ -9,7 +9,7 @@ string getPlayerAnnounceValue ( element thePlayer, string key )
 
 ### Required Arguments
 
--   **thePlayer:** This is the [Player](/Player.md "wikilink") whos value you want to retrieve.
+-   **thePlayer:** This is the [Player](/docs/Player.md "wikilink") whos value you want to retrieve.
 -   **key:** The name of the key.
 
 ### Returns
@@ -35,4 +35,4 @@ addCommandHandler ( "getscore", getScore )
 See Also
 --------
 
-[Category:Changes\_in\_1.0](/Category:Changes_in_1.0.md "wikilink")
+[Category:Changes\_in\_1.0](/docs/Category:Changes_in_1.0.md "wikilink")

@@ -1,7 +1,7 @@
 Purpose
 -------
 
-This command retrieves a [squad](/Resource:Battlefield/squad.md "wikilink") element when given the name or [shortname](/Resource:Battlefield/shortname.md "wikilink") of a squad and the team.
+This command retrieves a [squad](/docs/Resource:Battlefield/squad.md "wikilink") element when given the name or [shortname](/Resource:Battlefield/shortname.md "wikilink") of a squad and the team.
 
 Syntax
 ------
@@ -12,7 +12,7 @@ squad getSquad ( [string squadName, string squadShortn], team squadTeam )
 
 ### Required Arguments
 
--   **squadTeam:** The [team](/team.md "wikilink") element the squad will be attached to.
+-   **squadTeam:** The [team](/docs/team.md "wikilink") element the squad will be attached to.
 
 ### Optional Arguments
 
@@ -50,4 +50,4 @@ end
 
 |                                                                       |
 |-----------------------------------------------------------------------|
-| [Return to Battlefield Resource](/Resource:Battlefield.md "wikilink") |
+| [Return to Battlefield Resource](/docs/Resource:Battlefield.md "wikilink") |

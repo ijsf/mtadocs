@@ -7,4 +7,4 @@
 |     |     |     |     |     |     |
 |     |     |     |
 
-[PL:CJ\_Clothes%5CHead\_(1)](/PL:CJ_Clothes%5CHead_(1).md "wikilink")
+[PL:CJ\_Clothes%5CHead\_(1)](/docs/PL:CJ_Clothes%5CHead_(1).md "wikilink")

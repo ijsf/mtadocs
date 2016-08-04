@@ -3,7 +3,7 @@ Modules are extensions for Multi Theft Auto's Lua core, allowing the integration
 Modules list
 ------------
 
-You can view a list of all the documented modules in this wiki [here](/:Category:Modules.md "wikilink").
+You can view a list of all the documented modules in this wiki [here](/docs/:Category:Modules.md "wikilink").
 
 Modules SDK
 -----------
@@ -30,6 +30,6 @@ To be able to create your own modules, you must use the Modules SDK. You can dow
         -   MySQLQuery
         -   MySQLSafeString
 
-[Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink") [Category:Modules](/Category:Modules.md "wikilink")
+[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink") [Category:Modules](/Category:Modules.md "wikilink")
 
-[pl:Modules](/pl:Modules.md "wikilink") [pt-br:Módulos](/pt-br:Módulos.md "wikilink") [ru:Modules](/ru:Modules.md "wikilink")
+[pl:Modules](/docs/pl:Modules.md "wikilink") [pt-br:Módulos](/pt-br:Módulos.md "wikilink") [ru:Modules](/ru:Modules.md "wikilink")

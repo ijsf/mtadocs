@@ -13,7 +13,7 @@ string string getPedVoice ( ped thePed )
 
 ### Returns
 
-If successul, returns the current voice type name and the voice name of the ped (see [ped voices](/ped_voices.md "wikilink") for possible names). Returns *false* in case of failure.
+If successul, returns the current voice type name and the voice name of the ped (see [ped voices](/docs/ped_voices.md "wikilink") for possible names). Returns *false* in case of failure.
 
 See Also
 --------

@@ -11,7 +11,7 @@ bool isControlEnabled ( player thePlayer, string control )
 ### Required Arguments
 
 -   **thePlayer:** The player you wish the control status of.
--   **control:** The control you wish to check. See [control names](/control_names.md "wikilink") for a list of possible controls.
+-   **control:** The control you wish to check. See [control names](/docs/control_names.md "wikilink") for a list of possible controls.
 
 </section>
 <section name="Client" class="client" show="true">
@@ -21,7 +21,7 @@ bool isControlEnabled ( string control )
 
 ### Required Arguments
 
--   **control:** The control you wish to check. See [control names](/control_names.md "wikilink") for a list of possible controls.
+-   **control:** The control you wish to check. See [control names](/docs/control_names.md "wikilink") for a list of possible controls.
 
 </section>
 ### Returns

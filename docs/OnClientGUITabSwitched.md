@@ -12,14 +12,14 @@ element theElement
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the tab.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the tab.
 
 Example
 -------
 
 This example creates a window with a tabpanel with two tabs. Every time a user changes tabpage a notification will be shown.
 
-First we'll create the window. Then add a tabpanel and couple tabs with some labels in them. Qoute: [GuiCreateWindow\#Example](/GuiCreateWindow#Example.md "wikilink")
+First we'll create the window. Then add a tabpanel and couple tabs with some labels in them. Qoute: [GuiCreateWindow\#Example](/docs/GuiCreateWindow#Example.md "wikilink")
 
 ``` lua
 local myWindow = guiCreateWindow ( 0, 0, 0.5, 0.4, "Information", true )  -- create a window which has "Information" in the title bar.

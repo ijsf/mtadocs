@@ -1,4 +1,4 @@
-This function is used to change existing [accounts](/account.md "wikilink") name.
+This function is used to change existing [accounts](/docs/account.md "wikilink") name.
 
 Syntax
 ------

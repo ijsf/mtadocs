@@ -1,10 +1,10 @@
 This function can be used to check whether specified element is collidable with another element.
 **Note:** You can only use this function with the element types listed below.
 
--   [Player](/Player.md "wikilink")
--   [Ped](/Ped.md "wikilink")
--   [Vehicle](/Vehicle.md "wikilink")
--   [Object](/Object.md "wikilink")
+-   [Player](/docs/Player.md "wikilink")
+-   [Ped](/docs/Ped.md "wikilink")
+-   [Vehicle](/docs/Vehicle.md "wikilink")
+-   [Object](/docs/Object.md "wikilink")
 
 Syntax
 ------
@@ -15,8 +15,8 @@ bool isElementCollidableWith ( element theElement, element withElement )
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") which colliding you want to get
--   **withElement:** The other [element](/element.md "wikilink") which colliding with the first entity you want to get
+-   **theElement:** The [element](/docs/element.md "wikilink") which colliding you want to get
+-   **withElement:** The other [element](/docs/element.md "wikilink") which colliding with the first entity you want to get
 
 ### Returns
 

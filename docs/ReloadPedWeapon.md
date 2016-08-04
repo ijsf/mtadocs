@@ -9,7 +9,7 @@ bool reloadPedWeapon ( ped thePed )
 
 ### Required Arguments
 
--   **thePed:** The [ped](/ped.md "wikilink") who will reload their weapon.
+-   **thePed:** The [ped](/docs/ped.md "wikilink") who will reload their weapon.
 
 ### Returns
 

@@ -10,8 +10,8 @@ Syntax
 
 ### Required Arguments
 
--   **thePlayer:** A [player](/player.md "wikilink") object referencing the specified player
--   **weapon:** A whole number integer that refers to a [weapon](/weapon.md "wikilink") ID.
+-   **thePlayer:** A [player](/docs/player.md "wikilink") object referencing the specified player
+-   **weapon:** A whole number integer that refers to a [weapon](/docs/weapon.md "wikilink") ID.
 -   **totalAmmo:** A whole number integer serving as the total ammo amount for the given weapon (including ammo in clip).
 
 ### Optional Arguments
@@ -34,7 +34,7 @@ setWeaponAmmo(randPlayer,35,50) -- Decide we're only going to give them 50 rocke
 
 </section>
 <section name="setWeaponAmmo (custom weapons)" class="client" show="true">
-Set the ammo of a custom weapon which was created through [createWeapon](/createWeapon.md "wikilink"). By default, a custom weapon has 9999 ammo (which means infinite ammo).
+Set the ammo of a custom weapon which was created through [createWeapon](/docs/createWeapon.md "wikilink"). By default, a custom weapon has 9999 ammo (which means infinite ammo).
 
 Syntax
 ------
@@ -69,4 +69,4 @@ Requirements
 See also
 --------
 
-[ru:setWeaponAmmo](/ru:setWeaponAmmo.md "wikilink")
+[ru:setWeaponAmmo](/docs/ru:setWeaponAmmo.md "wikilink")

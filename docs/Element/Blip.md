@@ -1,6 +1,6 @@
 The blip class represents small icons or blips that can be shown on a player's radar.
 
-The element type of this class is **“blip”**. The list of blip icons are available on the [Blip Icons](/Blip_Icons.md "wikilink") page.
+The element type of this class is **“blip”**. The list of blip icons are available on the [Blip Icons](/docs/Blip_Icons.md "wikilink") page.
 
 XML syntax
 ----------
@@ -29,4 +29,4 @@ Related scripting functions
 
 ### Server
 
-[Category:Element Types](/Category:Element_Types.md "wikilink") [it:Elemento/Blip](/it:Elemento/Blip.md "wikilink")
+[Category:Element Types](/docs/Category:Element_Types.md "wikilink") [it:Elemento/Blip](/it:Elemento/Blip.md "wikilink")

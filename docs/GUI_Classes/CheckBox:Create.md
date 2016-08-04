@@ -1,6 +1,6 @@
 <pageclass class="client" subcaption="GUI Class method"></pageclass>
 
-This function creates a [CheckBox](/Element/GUI/Checkbox.md "wikilink") object.
+This function creates a [CheckBox](/docs/Element/GUI/Checkbox.md "wikilink") object.
 
 Syntax
 ------
@@ -39,4 +39,4 @@ This example does...
 See Also
 --------
 
-[Back to GUI Classes page](/GUI_Classes.md "wikilink")
+[Back to GUI Classes page](/docs/GUI_Classes.md "wikilink")

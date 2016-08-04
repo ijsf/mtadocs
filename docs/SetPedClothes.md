@@ -12,8 +12,8 @@ bool setPedClothes(ped thePed, int clothingSlot, int/bool clothingID)
 ### Required Arguments
 
 -   **thePed**: The ped to dress up.
--   **clothingSlot**: The clothing slot to change. See the [clothes catalog](/CJ_Clothes.md "wikilink") for more info.
--   **clothingID**: The clothing ID to set the slot to, or false to remove clothing from this slot (only applicable to slot IDs &gt; 3). See the [clothes catalog](/CJ_Clothes.md "wikilink") for more info.
+-   **clothingSlot**: The clothing slot to change. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink") for more info.
+-   **clothingID**: The clothing ID to set the slot to, or false to remove clothing from this slot (only applicable to slot IDs &gt; 3). See the [clothes catalog](/docs/CJ_Clothes.md "wikilink") for more info.
 
 ### Returns
 

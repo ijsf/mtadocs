@@ -1,4 +1,4 @@
-This function checks if a vehicle is damage proof (set with [setVehicleDamageProof](/setVehicleDamageProof.md "wikilink")).
+This function checks if a vehicle is damage proof (set with [setVehicleDamageProof](/docs/setVehicleDamageProof.md "wikilink")).
 
 Syntax
 ------

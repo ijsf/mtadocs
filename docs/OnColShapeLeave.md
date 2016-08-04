@@ -7,13 +7,13 @@ Parameters
 element leaveElement, bool matchingDimension
 ```
 
--   **leaveElement**: The [element](/element.md "wikilink") that who exited the col shape. This can be a player or a vehicle.
+-   **leaveElement**: The [element](/docs/element.md "wikilink") that who exited the col shape. This can be a player or a vehicle.
 -   **matchingDimension**: a boolean referring to whether the collision shape was in the same dimension as the element.
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [colshape](/colshape.md "wikilink") that the element no longer is in contact with.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [colshape](/colshape.md "wikilink") that the element no longer is in contact with.
 
 Example
 -------

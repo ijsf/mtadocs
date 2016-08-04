@@ -36,4 +36,4 @@ addCommandHandler ( "setplayergravity", consoleSetPlayerGravity )
 See Also
 --------
 
-[ru:setPedGravity](/ru:setPedGravity.md "wikilink")
+[ru:setPedGravity](/docs/ru:setPedGravity.md "wikilink")

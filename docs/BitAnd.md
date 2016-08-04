@@ -28,7 +28,7 @@ else
 end
 ```
 
-To test if a flag is set or not it's easier using [bitTest](/bitTest.md "wikilink").
+To test if a flag is set or not it's easier using [bitTest](/docs/bitTest.md "wikilink").
 
 See Also
 --------

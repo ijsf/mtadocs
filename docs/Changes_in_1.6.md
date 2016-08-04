@@ -1,7 +1,7 @@
 Main Additions / Changes
 ------------------------
 
--   Added 236 new ped skin ID's which allow servers to apply mods onto them: [Character\_Skins](/Character_Skins.md "wikilink")
+-   Added 236 new ped skin ID's which allow servers to apply mods onto them: [Character\_Skins](/docs/Character_Skins.md "wikilink")
 
 Scripting
 ---------
@@ -10,10 +10,10 @@ Scripting
 
 #### Client
 
--   [getTrainTrack](/getTrainTrack.md "wikilink")
--   [isVehicleWindowOpen](/isVehicleWindowOpen.md "wikilink")
--   [setTrainTrack](/setTrainTrack.md "wikilink")
--   [setVehicleWindowOpen](/setVehicleWindowOpen.md "wikilink")
+-   [getTrainTrack](/docs/getTrainTrack.md "wikilink")
+-   [isVehicleWindowOpen](/docs/isVehicleWindowOpen.md "wikilink")
+-   [setTrainTrack](/docs/setTrainTrack.md "wikilink")
+-   [setVehicleWindowOpen](/docs/setVehicleWindowOpen.md "wikilink")
 
 #### Server
 
@@ -21,10 +21,10 @@ Scripting
 
 #### Shared (*Client & Server side*)
 
--   [iprint](/iprint.md "wikilink")
--   [print](/print.md "wikilink")
--   [getUserdataType](/getUserdataType.md "wikilink")
--   [inspect](/inspect.md "wikilink")
+-   [iprint](/docs/iprint.md "wikilink")
+-   [print](/docs/print.md "wikilink")
+-   [getUserdataType](/docs/getUserdataType.md "wikilink")
+-   [inspect](/docs/inspect.md "wikilink")
 
 ### Scripting: New Events
 
@@ -38,20 +38,20 @@ Scripting
 
 ### Scripting: Changes, Bugfixes and Additions
 
--   Added manuallyChanged parameter to [onPlayerChangeNick](/onPlayerChangeNick.md "wikilink")
--   [setVehiclePlateText](/setVehiclePlateText.md "wikilink") now works with any kind of vehicle, including motorbikes (thanks to **lopezloo**).
+-   Added manuallyChanged parameter to [onPlayerChangeNick](/docs/onPlayerChangeNick.md "wikilink")
+-   [setVehiclePlateText](/docs/setVehiclePlateText.md "wikilink") now works with any kind of vehicle, including motorbikes (thanks to **lopezloo**).
 
 Client
 ------
 
 ### Client: Additions
 
--   Added alternative syntax to [guiGridListAddRow](/guiGridListAddRow.md "wikilink") and [guiGridListInsertRowAfter](/guiGridListInsertRowAfter.md "wikilink")
--   [onClientPlayerDamage](/onClientPlayerDamage.md "wikilink") now supports objects and weapons as attackers.
+-   Added alternative syntax to [guiGridListAddRow](/docs/guiGridListAddRow.md "wikilink") and [guiGridListInsertRowAfter](/guiGridListInsertRowAfter.md "wikilink")
+-   [onClientPlayerDamage](/docs/onClientPlayerDamage.md "wikilink") now supports objects and weapons as attackers.
 -   Water elements are now limited to a specific dimension.
--   [onClientVehicleStartEnter](/onClientVehicleStartEnter.md "wikilink") is now cancellable if the local player is entering the vehicle.
+-   [onClientVehicleStartEnter](/docs/onClientVehicleStartEnter.md "wikilink") is now cancellable if the local player is entering the vehicle.
 -   Added client resource files path info to Advanced tab
--   Added option for [addDebugHook](/addDebugHook.md "wikilink") to skip event/functions.
+-   Added option for [addDebugHook](/docs/addDebugHook.md "wikilink") to skip event/functions.
 
 ### Client: Bugfixes & Changes
 
@@ -66,9 +66,9 @@ Server
 
 ### Server: Bugfixes & Changes
 
--   Fixed server crash when using db\* functions during [onDebugMessage](/onDebugMessage.md "wikilink") event.
--   [onElementStopSync](/onElementStopSync.md "wikilink") doesn't triggered when player disconnects.
--   Fixed Fire Extinguisher not triggering [onPedWasted](/onPedWasted.md "wikilink").
+-   Fixed server crash when using db\* functions during [onDebugMessage](/docs/onDebugMessage.md "wikilink") event.
+-   [onElementStopSync](/docs/onElementStopSync.md "wikilink") doesn't triggered when player disconnects.
+-   Fixed Fire Extinguisher not triggering [onPedWasted](/docs/onPedWasted.md "wikilink").
 
 Resources
 ---------
@@ -89,4 +89,4 @@ Extra information
 
 :\* [MTA: SA Official Resources](https://github.com/multitheftauto/mtasa-resources)
 
-[Category:Changelog](/Category:Changelog.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Changelog](/docs/Category:Changelog.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")

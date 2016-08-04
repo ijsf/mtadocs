@@ -18,7 +18,7 @@ The source of this event is the object which was damaged
 Cancel effect
 -------------
 
-If this event is [canceled](/Event_system#Canceling.md "wikilink"), the object will not be damaged.
+If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the object will not be damaged.
 
 Example
 -------

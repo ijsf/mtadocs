@@ -10,7 +10,7 @@ int getVehicleLightState ( vehicle theVehicle, int light )
 Required Arguments
 ------------------
 
--   **theVehicle:** the [vehicle](/vehicle.md "wikilink") that you wish to know the light state of.
+-   **theVehicle:** the [vehicle](/docs/vehicle.md "wikilink") that you wish to know the light state of.
 -   **light:** the whole number between 0 and 3
 
 Returns

@@ -8,4 +8,4 @@ Also, if you want to sort data by ID, just click on the arrow near "**ID:**". (N
 See Also
 --------
 
-[ID Lists](/id.md "wikilink") [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")
+[ID Lists](/docs/id.md "wikilink") [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")

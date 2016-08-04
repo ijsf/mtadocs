@@ -47,7 +47,7 @@ client -- the client that called the event
 </section>
 [More details about hidden variables in functions and events](http://wiki.multitheftauto.com/wiki/AddEventHandler)
 
-[Element\_tree](/Element_tree.md "wikilink")
+[Element\_tree](/docs/Element_tree.md "wikilink")
 
 List Predefined variables available in the HTTP files:
 

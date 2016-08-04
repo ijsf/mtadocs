@@ -12,7 +12,7 @@ string streamTitle
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [sound](/sound.md "wikilink") of which the meta tags have just been modified.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [sound](/sound.md "wikilink") of which the meta tags have just been modified.
 
 Example
 -------

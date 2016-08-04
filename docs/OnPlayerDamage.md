@@ -1,8 +1,8 @@
 This event is triggered when a player is damaged, in any way.
 
 -   This event is not triggered when attacked by a team member if friendly fire is enabled.
--   Canceling this event has no effect. Cancel the client-side event [onClientPlayerDamage](/onClientPlayerDamage.md "wikilink") instead.
--   onPlayerDamage doesn't trigger if the damage kills the player, [onPlayerWasted](/onPlayerWasted.md "wikilink") is called instead.
+-   Canceling this event has no effect. Cancel the client-side event [onClientPlayerDamage](/docs/onClientPlayerDamage.md "wikilink") instead.
+-   onPlayerDamage doesn't trigger if the damage kills the player, [onPlayerWasted](/docs/onPlayerWasted.md "wikilink") is called instead.
 
 Parameters
 ----------
@@ -20,7 +20,7 @@ player attacker, int attackerweapon, int bodypart, float loss
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who was damaged.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who was damaged.
 
 Example
 -------

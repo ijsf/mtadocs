@@ -9,7 +9,7 @@ bool setObjectScale ( object theObject, float scale [, float scaleY, float scale
 
 ### Required Arguments
 
--   **theObject**: the [object](/object.md "wikilink") you wish to change the scale of.
+-   **theObject**: the [object](/docs/object.md "wikilink") you wish to change the scale of.
 -   **scale**: a float containing the new scale. 1.0 is the standard scale, with 0.5 being half the size and 2.0 being twice the size. If the scaleY is set, this will be scaleX.
 
 ### Optional Arguments

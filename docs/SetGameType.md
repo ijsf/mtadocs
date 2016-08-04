@@ -1,6 +1,6 @@
 This function sets a string containing a name for the game type. This should be the game-mode that is active, for example “Capture The Flag” or “Deathmatch”. This is then displayed in the server browser and external server browsers.
 
-**It should be noted that [mapmanager](/mapmanager.md "wikilink") handles this automatically for gamemodes that utilise the map/gamemode system.**
+**It should be noted that [mapmanager](/docs/mapmanager.md "wikilink") handles this automatically for gamemodes that utilise the map/gamemode system.**
 
 Syntax
 ------

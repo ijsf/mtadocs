@@ -7,7 +7,7 @@ bool setBanReason( ban theBan, string theReason )
 
 ### Required Arguments
 
--   **theBan:** The [ban](/ban.md "wikilink") that you wish to set the reason of.
+-   **theBan:** The [ban](/docs/ban.md "wikilink") that you wish to set the reason of.
 -   **theReason:** the new reason (max 60 characters).
 
 ### Returns
@@ -38,4 +38,4 @@ addCommandHandler("setreason", setReason)
 See Also
 --------
 
-[ru:setBanReason](/ru:setBanReason.md "wikilink")
+[ru:setBanReason](/docs/ru:setBanReason.md "wikilink")

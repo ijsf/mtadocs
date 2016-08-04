@@ -1,4 +1,4 @@
-This function returns the current oxygen level of the specified [ped](/ped.md "wikilink").
+This function returns the current oxygen level of the specified [ped](/docs/ped.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ float getPedOxygenLevel ( ped thePed )
 
 ### Required Arguments
 
--   **thePed:** The [ped](/ped.md "wikilink") whose oxygen level you want to check
+-   **thePed:** The [ped](/docs/ped.md "wikilink") whose oxygen level you want to check
 
 ### Returns
 

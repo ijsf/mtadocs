@@ -1,4 +1,4 @@
-This function sets the font of a [GUI element](/GUI_widgets.md "wikilink") to be used when drawing text.
+This function sets the font of a [GUI element](/docs/GUI_widgets.md "wikilink") to be used when drawing text.
 
 Syntax
 ------
@@ -10,7 +10,7 @@ bool guiSetFont ( element guiElement, mixed font )
 ### Required Arguments
 
 -   **guiElement:** The GUI element you wish to change the font of
--   **font:** Either a custom [GUI font](/GUI_font.md "wikilink") element or the name of a built-in GUI font. See [Standard GUI Font Names](/Standard_GUI_Font_Names.md "wikilink")
+-   **font:** Either a custom [GUI font](/docs/GUI_font.md "wikilink") element or the name of a built-in GUI font. See [Standard GUI Font Names](/Standard_GUI_Font_Names.md "wikilink")
 
 ### Returns
 

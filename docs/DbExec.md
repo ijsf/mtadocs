@@ -9,7 +9,7 @@ bool dbExec ( element databaseConnection, string query [, var param1 [, var para
 
 ### Required Arguments
 
--   **databaseConnection:** A database connection element previously returned from [dbConnect](/dbConnect.md "wikilink")
+-   **databaseConnection:** A database connection element previously returned from [dbConnect](/docs/dbConnect.md "wikilink")
 -   **query:** An SQL query. Positions where parameter values will be inserted are marked with a **?**
 
 ### Optional Arguments

@@ -80,6 +80,6 @@ Stealth uses a custom object for the riot shield that replaces model\# 1631 (for
 Credits
 =======
 
-Concept and design by Slothman, Scripting by Slothman and Talidan, Shield model by Johnline, LOTS of help from the whole QA team and the MTA team. [Category:Resource](/Category:Resource.md "wikilink")
+Concept and design by Slothman, Scripting by Slothman and Talidan, Shield model by Johnline, LOTS of help from the whole QA team and the MTA team. [Category:Resource](/docs/Category:Resource.md "wikilink")
 
-[ru:<Resource:Stealth>](/ru:Resource:Stealth.md "wikilink")
+[ru:<Resource:Stealth>](/docs/ru:Resource:Stealth.md "wikilink")

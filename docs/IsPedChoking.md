@@ -1,4 +1,4 @@
-This function checks if the specified [ped](/ped.md "wikilink") is choking (coughing) or not. This happens as a result of weapons that produce smoke - smoke grenades, fire extinguisher and the spray can.
+This function checks if the specified [ped](/docs/ped.md "wikilink") is choking (coughing) or not. This happens as a result of weapons that produce smoke - smoke grenades, fire extinguisher and the spray can.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool isPedChoking ( ped thePed )
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink") you wish to check
+-   **thePed**: The [ped](/docs/ped.md "wikilink") you wish to check
 
 ### Returns
 

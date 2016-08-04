@@ -1,4 +1,4 @@
-Returns a list of key names that are bound to the specified game [control](/Control_names.md "wikilink") or console command.
+Returns a list of key names that are bound to the specified game [control](/docs/Control_names.md "wikilink") or console command.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ table getBoundKeys ( string command/control )
 
 ### Required Arguments
 
--   **command/control:** the name of a game control or a console command. See the [control names](/control_names.md "wikilink") page for valid controls.
+-   **command/control:** the name of a game control or a console command. See the [control names](/docs/control_names.md "wikilink") page for valid controls.
 
 ### Returns
 

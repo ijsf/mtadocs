@@ -13,4 +13,4 @@
 |     |     |     |     |     |     |
 |     |     |
 
-[PL:CJ\_Clothes%5CShirt\_(0)](/PL:CJ_Clothes%5CShirt_(0).md "wikilink")
+[PL:CJ\_Clothes%5CShirt\_(0)](/docs/PL:CJ_Clothes%5CShirt_(0).md "wikilink")

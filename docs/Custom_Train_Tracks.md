@@ -8,11 +8,11 @@
 
 ### Functions
 
--   [createTrack](/createTrack.md "wikilink")
--   [removeDefaultTrack](/removeDefaultTrack.md "wikilink")
--   [resetDefaultTrack](/resetDefaultTrack.md "wikilink")
--   [setTrackLength](/setTrackLength.md "wikilink")
--   [getTrackLength](/getTrackLength.md "wikilink")
+-   [createTrack](/docs/createTrack.md "wikilink")
+-   [removeDefaultTrack](/docs/removeDefaultTrack.md "wikilink")
+-   [resetDefaultTrack](/docs/resetDefaultTrack.md "wikilink")
+-   [setTrackLength](/docs/setTrackLength.md "wikilink")
+-   [getTrackLength](/docs/getTrackLength.md "wikilink")
 
 ### Media
 
@@ -126,4 +126,4 @@ The old **custom-train-tracks** branch contains commits cherry-picked and other 
 This means that there are only four commits that need to be merged into the new branch. ~~There is currently a packet issue introduced by the merge that needs to be fixed.~~
 
 </section>
-[Category: Development](/Category:_Development.md "wikilink")
+[Category: Development](/docs/Category:_Development.md "wikilink")

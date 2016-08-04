@@ -15,7 +15,7 @@ table getResourceScripts ( resource theResource )
 
 ### Returns
 
-Returns *table* scripts on [resource](/resource.md "wikilink").
+Returns *table* scripts on [resource](/docs/resource.md "wikilink").
 
 Code
 ----

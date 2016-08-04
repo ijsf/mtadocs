@@ -32,8 +32,8 @@ Custom Animations is a branch for loading animations from .ifp files
 
 ### Functions
 
--   [engineLoadIFP](/engineLoadIFP.md "wikilink")
--   [engineUnloadIFP](/engineUnloadIFP.md "wikilink")
+-   [engineLoadIFP](/docs/engineLoadIFP.md "wikilink")
+-   [engineUnloadIFP](/docs/engineUnloadIFP.md "wikilink")
 
 ### Media
 
@@ -41,7 +41,7 @@ Custom Animations is a branch for loading animations from .ifp files
 
 ### General Notes
 
-See [User:Cazomino05](/User:Cazomino05.md "wikilink") for bugs.
+See [User:Cazomino05](/docs/User:Cazomino05.md "wikilink") for bugs.
 
 Custom Weapon Stats
 -------------------
@@ -56,8 +56,8 @@ Custom Weapon Stats is a branch to allow people to edit one of each weapons “p
 
 ### Functions
 
--   [getWeaponProperty](/getWeaponProperty.md "wikilink")
--   [setWeaponProperty](/setWeaponProperty.md "wikilink")
+-   [getWeaponProperty](/docs/getWeaponProperty.md "wikilink")
+-   [setWeaponProperty](/docs/setWeaponProperty.md "wikilink")
 
 ### Media
 
@@ -84,8 +84,8 @@ This only works for certain properties such as left/right
 
 ### Functions
 
--   [setAnalogControlState](/setAnalogControlState.md "wikilink")
--   [getAnalogControlState](/getAnalogControlState.md "wikilink")
+-   [setAnalogControlState](/docs/setAnalogControlState.md "wikilink")
+-   [getAnalogControlState](/docs/getAnalogControlState.md "wikilink")
 
 ### Media
 
@@ -108,11 +108,11 @@ Custom Vehicle Sirens allows adding sirens to any individual vehicle in the game
 
 ### Functions
 
--   [SetVehicleSirens](/SetVehicleSirens.md "wikilink")
--   [GetVehicleSirens](/GetVehicleSirens.md "wikilink")
--   [RemoveVehicleSirens](/RemoveVehicleSirens.md "wikilink")
--   [GetVehicleSirenParams](/GetVehicleSirenParams.md "wikilink")
--   [AddVehicleSirens](/AddVehicleSirens.md "wikilink")
+-   [SetVehicleSirens](/docs/SetVehicleSirens.md "wikilink")
+-   [GetVehicleSirens](/docs/GetVehicleSirens.md "wikilink")
+-   [RemoveVehicleSirens](/docs/RemoveVehicleSirens.md "wikilink")
+-   [GetVehicleSirenParams](/docs/GetVehicleSirenParams.md "wikilink")
+-   [AddVehicleSirens](/docs/AddVehicleSirens.md "wikilink")
 
 ### Media
 
@@ -128,7 +128,7 @@ None.
 Custom-Train-Tracks
 -------------------
 
-See the main page for this branch ([Custom Train Tracks](/Custom_Train_Tracks.md "wikilink")) for more information.
+See the main page for this branch ([Custom Train Tracks](/docs/Custom_Train_Tracks.md "wikilink")) for more information.
 
 Awesomium
 ---------
@@ -143,7 +143,7 @@ Possibility to create ingame browser.
 
 ### Functions
 
-See [User:Jusonex](/User:Jusonex.md "wikilink").
+See [User:Jusonex](/docs/User:Jusonex.md "wikilink").
 
 ### Media
 
@@ -153,6 +153,6 @@ See [User:Jusonex](/User:Jusonex.md "wikilink").
 
 ### General notes
 
-See [User:Jusonex](/User:Jusonex.md "wikilink").
+See [User:Jusonex](/docs/User:Jusonex.md "wikilink").
 
-[Category: Development](/Category:_Development.md "wikilink")
+[Category: Development](/docs/Category:_Development.md "wikilink")

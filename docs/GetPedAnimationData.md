@@ -1,4 +1,4 @@
-This function is used to return the animation data of a [player](/player.md "wikilink") or [ped](/ped.md "wikilink") that was set using [setPedAnimation](/setPedAnimation.md "wikilink").
+This function is used to return the animation data of a [player](/docs/player.md "wikilink") or [ped](/ped.md "wikilink") that was set using [setPedAnimation](/setPedAnimation.md "wikilink").
 
 Syntax
 ------
@@ -13,14 +13,14 @@ string getPedAnimationData ( ped thePed )
 
 ### Returns
 
-Returns 2 [strings](/string.md "wikilink") containing information about [animations](/animations.md "wikilink"). These keys are present below :
+Returns 2 [strings](/docs/string.md "wikilink") containing information about [animations](/animations.md "wikilink"). These keys are present below :
 
 -   **name:** string - name of the animation
 -   **block\_name:** string - name of animation block
 
 ### Example
 
-This example adds a command to get the local player [animation](/animations.md "wikilink") data.
+This example adds a command to get the local player [animation](/docs/animations.md "wikilink") data.
 
 ``` lua
 function animData()

@@ -9,7 +9,7 @@ bool fileDelete ( string filePath )
 
 ### Required Arguments
 
--   **filePath:** The [filepath](/filepath.md "wikilink") of the file to delete in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the file is in, and 'path' is the path from the root directory of the resource to the file.
+-   **filePath:** The [filepath](/docs/filepath.md "wikilink") of the file to delete in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the file is in, and 'path' is the path from the root directory of the resource to the file.
 
   
 For example, if you want to delete a file name “myFile.txt” in the resource 'fileres', it can be deleted from another resource this way: *fileDelete(":fileres/myFile.txt")*.

@@ -1,4 +1,4 @@
-Closes a file handle obtained by [fileCreate](/fileCreate.md "wikilink") or [fileOpen](/fileOpen.md "wikilink").
+Closes a file handle obtained by [fileCreate](/docs/fileCreate.md "wikilink") or [fileOpen](/fileOpen.md "wikilink").
 
 Syntax
 ------

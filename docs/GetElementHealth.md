@@ -1,4 +1,4 @@
-This function returns the current health for the specified [element](/element.md "wikilink"). This can be a [player](/player.md "wikilink"), a [ped](/ped.md "wikilink"), or a [vehicle](/vehicle.md "wikilink").
+This function returns the current health for the specified [element](/docs/element.md "wikilink"). This can be a [player](/player.md "wikilink"), a [ped](/ped.md "wikilink"), or a [vehicle](/vehicle.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ float getElementHealth ( element theElement )
 
 ### Required Arguments
 
--   **theElement:** The [player](/player.md "wikilink") or [vehicle](/vehicle.md "wikilink") whose health you want to check.
+-   **theElement:** The [player](/docs/player.md "wikilink") or [vehicle](/vehicle.md "wikilink") whose health you want to check.
 
 ### Returns
 

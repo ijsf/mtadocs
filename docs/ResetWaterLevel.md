@@ -1,4 +1,4 @@
-This function resets the water of the GTA world back to its default level. [Water elements](/water.md "wikilink") are not affected.
+This function resets the water of the GTA world back to its default level. [Water elements](/docs/water.md "wikilink") are not affected.
 
 Syntax
 ------

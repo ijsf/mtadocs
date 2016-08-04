@@ -11,8 +11,8 @@ bool fileRename ( string filePath, string newFilePath )
 
 ### Required Arguments
 
--   **filePath:** The [filepath](/filepath.md "wikilink") of the source file in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the file is in, and 'path' is the path from the root directory of the resource to the file. If the file is in the current resource, only the file path is necessary.
--   **newFilePath:** Destination [filepath](/filepath.md "wikilink") for the specified source file in the same format.
+-   **filePath:** The [filepath](/docs/filepath.md "wikilink") of the source file in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the file is in, and 'path' is the path from the root directory of the resource to the file. If the file is in the current resource, only the file path is necessary.
+-   **newFilePath:** Destination [filepath](/docs/filepath.md "wikilink") for the specified source file in the same format.
 
 ### Returns
 

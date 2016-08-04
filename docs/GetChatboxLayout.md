@@ -1,6 +1,6 @@
 Returns information about how the chatbox looks.
 
-These values come from the file called: [Chatboxpresets.xml](/Chatboxpresets.xml.md "wikilink") but it depends on what type of preset you currently have, which is chosen from your settings in the 'Interface' tab.
+These values come from the file called: [Chatboxpresets.xml](/docs/Chatboxpresets.xml.md "wikilink") but it depends on what type of preset you currently have, which is chosen from your settings in the 'Interface' tab.
 
 Syntax
 ------

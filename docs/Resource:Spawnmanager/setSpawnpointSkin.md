@@ -10,7 +10,7 @@ bool setSpawnpointSkin ( spawnpoint theSpawnpoint, int skin )
 ### Required Arguments
 
 -   **theSpawnpoint:** The spawnpoint you want to change skin of.
--   **skin:** An [int](/int.md "wikilink") corresponding to the ID of the desired skin. See [Character Skins](/Character_Skins.md "wikilink").
+-   **skin:** An [int](/docs/int.md "wikilink") corresponding to the ID of the desired skin. See [Character Skins](/Character_Skins.md "wikilink").
 
 ### Returns
 

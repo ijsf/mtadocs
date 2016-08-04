@@ -9,7 +9,7 @@ xmlnode addResourceMap ( string filePath, [ int dimension = 0 ] )
 
 ### Required Arguments
 
--   **filePath:** The [filepath](/filepath.md "wikilink") of the resource map in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the map file will be in, and 'path' is the path from the root directory of the resource to the file.
+-   **filePath:** The [filepath](/docs/filepath.md "wikilink") of the resource map in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the map file will be in, and 'path' is the path from the root directory of the resource to the file.
 
   
 For example, if you want to create a map file named 'manycars.map' in the resource 'cdm', it can be created from another resource this way: *addResourceMap(":cdm/manycars.map")*.
@@ -20,11 +20,11 @@ If you want to create the map file in the current resource, only the file path i
 
 ### Optional Arguments
 
--   **dimension:** the [dimension](/dimension.md "wikilink") in which the map's objects will be placed.
+-   **dimension:** the [dimension](/docs/dimension.md "wikilink") in which the map's objects will be placed.
 
 ### Returns
 
-Returns the new map's root [xmlnode](/xmlnode.md "wikilink") if the map was added successfully, *false* otherwise.
+Returns the new map's root [xmlnode](/docs/xmlnode.md "wikilink") if the map was added successfully, *false* otherwise.
 
 Example
 -------

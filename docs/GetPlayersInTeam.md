@@ -13,7 +13,7 @@ table getPlayersInTeam ( team theTeam )
 
 ### Returns
 
-Returns a [table](/table.md "wikilink") of all the players in the team, or an empty one if there are none else false if invalid arguments are passed.
+Returns a [table](/docs/table.md "wikilink") of all the players in the team, or an empty one if there are none else false if invalid arguments are passed.
 
 Example
 -------

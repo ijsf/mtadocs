@@ -15,7 +15,7 @@ bool isSoundFinished ( element theSound )
 
 ### Returns
 
-Returns *true* if the [sound](/sound.md "wikilink") element is finished, *false* if unfinished or invalid arguments were passed.
+Returns *true* if the [sound](/docs/sound.md "wikilink") element is finished, *false* if unfinished or invalid arguments were passed.
 
 Code
 ----

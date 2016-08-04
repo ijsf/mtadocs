@@ -1,4 +1,4 @@
-This function returns an integer that contains the ammo in a specified [player](/player.md "wikilink")'s weapon. See [Weapon Info](/weapon.md "wikilink")
+This function returns an integer that contains the ammo in a specified [player](/docs/player.md "wikilink")'s weapon. See [Weapon Info](/weapon.md "wikilink")
 
 Syntax
 ------
@@ -10,11 +10,11 @@ int getPlayerAmmoInClip ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") whose ammo you want to check.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") whose ammo you want to check.
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") containing the amount of ammo in the player's currently selected clip, or 0 if the player specified is invalid.
+Returns an [int](/docs/int.md "wikilink") containing the amount of ammo in the player's currently selected clip, or 0 if the player specified is invalid.
 
 </section>
 <section name="Client" class="client" show="true">
@@ -24,12 +24,12 @@ int getPlayerAmmoInClip ( player thePlayer, int weaponSlot )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") whose ammo you want to check.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") whose ammo you want to check.
 -   **weaponSlot:** an integer representing the weapon slot.
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") containing the amount of ammo in the specified player's currently selected or specified clip, or 0 if the player specified is invalid.
+Returns an [int](/docs/int.md "wikilink") containing the amount of ammo in the specified player's currently selected or specified clip, or 0 if the player specified is invalid.
 
 </section>
 Example

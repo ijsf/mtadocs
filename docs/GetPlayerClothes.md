@@ -1,4 +1,4 @@
-This function is used to get the current clothes texture and model of a certain type on a [player](/player.md "wikilink").
+This function is used to get the current clothes texture and model of a certain type on a [player](/docs/player.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ string string getPlayerClothes ( player thePlayer, int clothesType )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") whose clothes you want to retrieve.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") whose clothes you want to retrieve.
 -   **clothesType:** The type/slot of clothing you want to get.
 
 ### Returns

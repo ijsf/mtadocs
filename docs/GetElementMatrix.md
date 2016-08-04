@@ -1,4 +1,4 @@
-This function gets an [element](/element.md "wikilink")'s transform [matrix](/matrix.md "wikilink"). This contains 16 float values that multiplied to a point will give you the point transformed. It is most useful for matrix calculations such as calculating offsets. For further information, please refer to a tutorial of matrices in computer graphics programming. 6984 not setup correctly for some calculations\] unless the **legacy** argument is set to ***false***.}}
+This function gets an [element](/docs/element.md "wikilink")'s transform [matrix](/matrix.md "wikilink"). This contains 16 float values that multiplied to a point will give you the point transformed. It is most useful for matrix calculations such as calculating offsets. For further information, please refer to a tutorial of matrices in computer graphics programming. 6984 not setup correctly for some calculations\] unless the **legacy** argument is set to ***false***.}}
 
 Syntax
 ------
@@ -9,15 +9,15 @@ table getElementMatrix ( element theElement [, bool legacy = true ] )
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") which you wish to retrieve the [matrix](/matrix.md "wikilink") for.
+-   **theElement:** The [element](/docs/element.md "wikilink") which you wish to retrieve the [matrix](/matrix.md "wikilink") for.
 
 ### Optional Arguments
 
--   **legacy:** Set to *false* to return correctly setup [matrix](/matrix.md "wikilink") (i.e. Last column in the first 3 rows set to zero).
+-   **legacy:** Set to *false* to return correctly setup [matrix](/docs/matrix.md "wikilink") (i.e. Last column in the first 3 rows set to zero).
 
 ### Returns
 
-Returns a multi-dimensional array (which can be transformed into a proper [matrix](/matrix.md "wikilink") class using *Matrix.create* method) containing a 4x4 matrix. Returns *false* if the element is not streamed in, and not a [vehicle](/vehicle.md "wikilink"), [ped](/ped.md "wikilink") or [object](/object.md "wikilink").
+Returns a multi-dimensional array (which can be transformed into a proper [matrix](/docs/matrix.md "wikilink") class using *Matrix.create* method) containing a 4x4 matrix. Returns *false* if the element is not streamed in, and not a [vehicle](/vehicle.md "wikilink"), [ped](/ped.md "wikilink") or [object](/object.md "wikilink").
 
 Example
 -------

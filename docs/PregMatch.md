@@ -7,7 +7,7 @@ table pregMatch ( string base, string pattern [, int/string flags = 0, int maxRe
 
 ### Required Arguments
 
--   **base:** The base [string](/string.md "wikilink") for replace.
+-   **base:** The base [string](/docs/string.md "wikilink") for replace.
 -   **pattern:** The pattern for match in base string.
 
 ### Optional Arguments
@@ -17,7 +17,7 @@ table pregMatch ( string base, string pattern [, int/string flags = 0, int maxRe
 
 ### Returns
 
-Returns a *[table](/table.md "wikilink")* if one or more match is found, *false* otherwise.
+Returns a *[table](/docs/table.md "wikilink")* if one or more match is found, *false* otherwise.
 
 Example
 -------

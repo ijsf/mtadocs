@@ -1,4 +1,4 @@
-This function is used for getting the X and Y size of an existing [radar area](/radararea.md "wikilink").
+This function is used for getting the X and Y size of an existing [radar area](/docs/radararea.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ float, float getRadarAreaSize ( radararea theRadararea )
 
 ### Required Arguments
 
--   **theRadararea:** The [radar area](/radararea.md "wikilink") element whose size you wish to get.
+-   **theRadararea:** The [radar area](/docs/radararea.md "wikilink") element whose size you wish to get.
 
 ### Returns
 

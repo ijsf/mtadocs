@@ -1,4 +1,4 @@
-This function can be used to disable streaming for an element. This will make sure the element is not virtualized (streamed out from GTA) when the player moves far away from it. This function only works in elements with a physical representation in the world (entities), such as [players](/player.md "wikilink"), [peds](/ped.md "wikilink"), [vehicles](/vehicle.md "wikilink") and [objects](/object.md "wikilink").
+This function can be used to disable streaming for an element. This will make sure the element is not virtualized (streamed out from GTA) when the player moves far away from it. This function only works in elements with a physical representation in the world (entities), such as [players](/docs/player.md "wikilink"), [peds](/ped.md "wikilink"), [vehicles](/vehicle.md "wikilink") and [objects](/object.md "wikilink").
 
 Syntax
 ------
@@ -19,7 +19,7 @@ Returns whether the element could be set to be streamable.
 Example
 -------
 
-This example creates an [object](/object.md "wikilink") at the center of the map which will always be streamed in when the resource which contains it starts.
+This example creates an [object](/docs/object.md "wikilink") at the center of the map which will always be streamed in when the resource which contains it starts.
 
 ``` lua
 local function testNonStreamableObjects()

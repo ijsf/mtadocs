@@ -1,4 +1,4 @@
-This function allows you to set the armor value of a [player](/player.md "wikilink").
+This function allows you to set the armor value of a [player](/docs/player.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setPlayerArmor ( player thePlayer, float playerArmor )
 
 ### Required Arguments
 
--   **thePlayer**: the [player](/player.md "wikilink") whose armor you want to modify.
+-   **thePlayer**: the [player](/docs/player.md "wikilink") whose armor you want to modify.
 -   **playerArmor**: the amount of armor you want to set on the player. Valid values are from 0 to 100.
 
 ### Returns

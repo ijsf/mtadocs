@@ -1,4 +1,4 @@
-This function is used to show or hide a [player](/player.md "wikilink")'s cursor.
+This function is used to show or hide a [player](/docs/player.md "wikilink")'s cursor.
 
 Syntax
 ------
@@ -10,7 +10,7 @@ bool showCursor ( player thePlayer, bool show, [ bool toggleControls = true ] )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") you want to show or hide the cursor of.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") you want to show or hide the cursor of.
 -   **show:** A boolean value determining whether to show (*true*) or hide (*false*) the cursor.
 
 ### Optional Arguments

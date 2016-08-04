@@ -1,4 +1,4 @@
-This gets the firing rate to be used when a [custom weapon](/Element/Weapon.md "wikilink") opens fire.
+This gets the firing rate to be used when a [custom weapon](/docs/Element/Weapon.md "wikilink") opens fire.
 
 Syntax
 ------

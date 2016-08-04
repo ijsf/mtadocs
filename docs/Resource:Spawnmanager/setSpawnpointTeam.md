@@ -13,7 +13,7 @@ bool setSpawnpointTeam ( spawnpoint spawn, [ team theTeam ] )
 
 ### Optional Arguments
 
--   **theTeam:** A [team](/team.md "wikilink") element representing the team players will join on spawn. If this isn't specified, the spawnpoint is unlinked to any team it was associated to.
+-   **theTeam:** A [team](/docs/team.md "wikilink") element representing the team players will join on spawn. If this isn't specified, the spawnpoint is unlinked to any team it was associated to.
 
 ### Returns
 

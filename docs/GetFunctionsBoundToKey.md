@@ -1,4 +1,4 @@
-Gets the functions bound to a key. To bind a function to a key use the [bindKey](/bindKey.md "wikilink") function
+Gets the functions bound to a key. To bind a function to a key use the [bindKey](/docs/bindKey.md "wikilink") function
 
 Syntax
 ------

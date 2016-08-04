@@ -9,7 +9,7 @@ table getVehicleUpgrades ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") you wish to retrieve the upgrades of.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") you wish to retrieve the upgrades of.
 
 ### Returns
 

@@ -12,12 +12,12 @@ int, int, int, int getVehicleWheelStates ( vehicle theVehicle )
 Required Arguments
 ------------------
 
--   **theVehicle:** A handle to the [vehicle](/vehicle.md "wikilink") that you wish to know the wheel states of.
+-   **theVehicle:** A handle to the [vehicle](/docs/vehicle.md "wikilink") that you wish to know the wheel states of.
 
 Returns
 -------
 
-Returns 4 [ints](/int.md "wikilink") indicating the states of the wheels (front left, rear left, front right, rear right). These values can be:
+Returns 4 [ints](/docs/int.md "wikilink") indicating the states of the wheels (front left, rear left, front right, rear right). These values can be:
 
 -   **0:** Inflated
 -   **1:** Flat

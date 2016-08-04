@@ -1,4 +1,4 @@
-This function is used to get the current clothes texture and model of a certain type on a [ped](/ped.md "wikilink").
+This function is used to get the current clothes texture and model of a certain type on a [ped](/docs/ped.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ string string getPedClothes ( ped thePed, int clothesType )
 
 ### Required Arguments
 
--   **thePed:** The [ped](/ped.md "wikilink") whose clothes you want to retrieve.
+-   **thePed:** The [ped](/docs/ped.md "wikilink") whose clothes you want to retrieve.
 -   **clothesType:** The type/slot of clothing you want to get.
 
 ### Returns
@@ -39,4 +39,4 @@ addCommandHandler ( "clothes", getClothes )
 See Also
 --------
 
-[pl:GetPedClothes](/pl:GetPedClothes.md "wikilink")
+[pl:GetPedClothes](/docs/pl:GetPedClothes.md "wikilink")

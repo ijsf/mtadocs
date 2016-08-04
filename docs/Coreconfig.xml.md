@@ -1,4 +1,4 @@
-This file is used to set your UI e.g. chat box color, chat font or even bind keys. You can modify it to make your chat box look better or add favourite servers manually. Coreconfig.xml is located in your MTA San Andreas 1.x\\MTA\\ folder with another file called [Chatboxpresents.xml](/Chatboxpresents.xml.md "wikilink").
+This file is used to set your UI e.g. chat box color, chat font or even bind keys. You can modify it to make your chat box look better or add favourite servers manually. Coreconfig.xml is located in your MTA San Andreas 1.x\\MTA\\ folder with another file called [Chatboxpresents.xml](/docs/Chatboxpresents.xml.md "wikilink").
 
 Settings
 --------
@@ -335,5 +335,5 @@ Coreconfig.xml Files:
 See Also
 --------
 
-[Key names](/Key_names.md "wikilink")
-[Control names](/Control_names.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Key names](/docs/Key_names.md "wikilink")
+[Control names](/docs/Control_names.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")

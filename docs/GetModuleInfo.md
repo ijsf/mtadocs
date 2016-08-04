@@ -1,4 +1,4 @@
-This function returns information about the specified [module](/Modules.md "wikilink").
+This function returns information about the specified [module](/docs/Modules.md "wikilink").
 
 Syntax
 ------
@@ -13,7 +13,7 @@ table getModuleInfo ( string moduleName )
 
 ### Returns
 
-Returns a [table](/table.md "wikilink") containing information about module. These keys are present in the table:
+Returns a [table](/docs/table.md "wikilink") containing information about module. These keys are present in the table:
 
 -   **version**: Module version in format X.XX
 -   **name**: Module name
@@ -44,4 +44,4 @@ addCommandHandler ( "checkmodules", printModuleInfo )
 See Also
 --------
 
-[ru:getModuleInfo](/ru:getModuleInfo.md "wikilink")
+[ru:getModuleInfo](/docs/ru:getModuleInfo.md "wikilink")

@@ -43,4 +43,4 @@ function getDamageCount()
 end
 ```
 
-[ru:<Resource:Webstats>](/ru:Resource:Webstats.md "wikilink")
+[ru:<Resource:Webstats>](/docs/ru:Resource:Webstats.md "wikilink")

@@ -1,6 +1,6 @@
 <pageclass class="client" subcaption="GUI Class method"></pageclass>
 
-You can use this method to attach a function to a sham event which is triggered when text changes. The function you pass to this method will be triggered whenever button text changes (when [object:Text](/GUI_Classes/GUISharedFuncs:Text.md "wikilink") is used)
+You can use this method to attach a function to a sham event which is triggered when text changes. The function you pass to this method will be triggered whenever button text changes (when [object:Text](/docs/GUI_Classes/GUISharedFuncs:Text.md "wikilink") is used)
 
 Syntax
 ------
@@ -20,7 +20,7 @@ function func( buttonObject btn, string oldText, string newText )
 
 Parameters which are passed to this function
 
--   **btn:** button object which was created with [Button:Create](/GUI_Classes/Button:Create.md "wikilink") and the function was attached to
+-   **btn:** button object which was created with [Button:Create](/docs/GUI_Classes/Button:Create.md "wikilink") and the function was attached to
 -   **oldText** string containing old text before the text was changed
 -   **newText** string containing new text of the button
 
@@ -71,4 +71,4 @@ end
 See Also
 --------
 
-[Back to GUI Classes page](/GUI_Classes.md "wikilink")
+[Back to GUI Classes page](/docs/GUI_Classes.md "wikilink")

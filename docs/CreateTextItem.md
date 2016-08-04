@@ -104,4 +104,4 @@ end
 See Also
 --------
 
-[Category:Useful Functions](/Category:Useful_Functions.md "wikilink")
+[Category:Useful Functions](/docs/Category:Useful_Functions.md "wikilink")

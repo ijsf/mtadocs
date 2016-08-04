@@ -9,7 +9,7 @@ int getPlayerCount ( )
 
 ### Returns
 
-Returns the number of players connected to the server as an [int](/int.md "wikilink").
+Returns the number of players connected to the server as an [int](/docs/int.md "wikilink").
 
 Example
 -------
@@ -44,4 +44,4 @@ end
 See Also
 --------
 
-[ru:getPlayerCount](/ru:getPlayerCount.md "wikilink")
+[ru:getPlayerCount](/docs/ru:getPlayerCount.md "wikilink")

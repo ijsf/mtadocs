@@ -34,7 +34,7 @@ else
 end
 ```
 
-When you open a file, its file position is set to the beginning of the file. Each call to [fileRead](/fileRead.md "wikilink") or [fileWrite](/fileWrite.md "wikilink") moves the position ahead by the amount of bytes that were read/written. This way, by using *fileIsEOF* you can check if you've passed through the whole file.
+When you open a file, its file position is set to the beginning of the file. Each call to [fileRead](/docs/fileRead.md "wikilink") or [fileWrite](/fileWrite.md "wikilink") moves the position ahead by the amount of bytes that were read/written. This way, by using *fileIsEOF* you can check if you've passed through the whole file.
 
 See Also
 --------

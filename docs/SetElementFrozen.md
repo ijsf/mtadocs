@@ -9,7 +9,7 @@ bool setElementFrozen ( element theElement, bool freezeStatus )
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") whose freeze status we want to change.
+-   **theElement:** The [element](/docs/element.md "wikilink") whose freeze status we want to change.
 -   **freezeStatus:** A boolean denoting whether we want to freeze (*true*) or unfreeze (*false*) it.
 
 ### Returns

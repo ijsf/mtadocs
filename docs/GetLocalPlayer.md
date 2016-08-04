@@ -9,7 +9,7 @@ player getLocalPlayer ( )
 
 ### Returns
 
-Returns the local [player](/player.md "wikilink") element.
+Returns the local [player](/docs/player.md "wikilink") element.
 
 Example
 -------
@@ -44,4 +44,4 @@ addEventHandler( "onClientPlayerDamage", getLocalPlayer ( ), flashRed )
 See Also
 --------
 
-[ru:getLocalPlayer](/ru:getLocalPlayer.md "wikilink")
+[ru:getLocalPlayer](/docs/ru:getLocalPlayer.md "wikilink")

@@ -9,7 +9,7 @@ Terminology
 The Meta File
 -------------
 
-*See main article [Meta.xml](/Meta.xml.md "wikilink") for details*
+*See main article [Meta.xml](/docs/Meta.xml.md "wikilink") for details*
 
 The Meta file is the core of each the resource. It describes exactly what files in the resource should be used, and how. The following is an example that covers every option there is, your meta files can have as many or as few of these tags as you require:
 
@@ -57,11 +57,11 @@ Script/type, Config/type and File/type attributes specify if the script/resource
 
 The include tag specifies other resources that should be started before this resoucre is started. In other words, if your resource is dependent on another, you can include it so that the other resource is started first,
 
-Each resource has its own virtual machine (VM). This contains every script in the resource. This means that variables are not shared with other resources. The best way to communictate with other resources is by using the *export* tag and exporting a function. This will enable other resources to fire this function using the [call](/call.md "wikilink") scripting function.
+Each resource has its own virtual machine (VM). This contains every script in the resource. This means that variables are not shared with other resources. The best way to communictate with other resources is by using the *export* tag and exporting a function. This will enable other resources to fire this function using the [call](/docs/call.md "wikilink") scripting function.
 
 Scripts sent to clients are started as soon as all the scripts have been downloaded.
 
-Scripts are able to read and write to their own resource folder with functions such as [xmlCreateFile](/xmlCreateFile.md "wikilink") and [fileCreate](/fileCreate.md "wikilink"). They can also read and write to other resources, but must have [ACL](/Access_Control_List.md "wikilink") access.
+Scripts are able to read and write to their own resource folder with functions such as [xmlCreateFile](/docs/xmlCreateFile.md "wikilink") and [fileCreate](/fileCreate.md "wikilink"). They can also read and write to other resources, but must have [ACL](/Access_Control_List.md "wikilink") access.
 
 Each resource can only be loaded once, the server will ensure this. If a resource is included more than once, the same instance will be used by each resource that includes it.
 
@@ -95,4 +95,4 @@ The resource system can be manipulated by script. As such, the following Servers
 
 The following events are also provided:
 
-[it:Introduzione alle Risorse](/it:Introduzione_alle_Risorse.md "wikilink") [pt-br:Recursos](/pt-br:Recursos.md "wikilink") [ru:Resources](/ru:Resources.md "wikilink")
+[it:Introduzione alle Risorse](/docs/it:Introduzione_alle_Risorse.md "wikilink") [pt-br:Recursos](/pt-br:Recursos.md "wikilink") [ru:Resources](/ru:Resources.md "wikilink")

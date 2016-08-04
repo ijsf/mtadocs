@@ -2,16 +2,16 @@
 
 In this tutorial we will explore the use of gridlists in creating a vehicle selection screen, with optional clientside vehicle xml data reading.
 
-**Note that this tutorial assumes you are familiar with all the content covered in the [Previous tutorial](/Introduction_to_Scripting_GUI.md "wikilink").**
+**Note that this tutorial assumes you are familiar with all the content covered in the [Previous tutorial](/docs/Introduction_to_Scripting_GUI.md "wikilink").**
 
 Setting up the Vehicle Selection
 --------------------------------
 
 ### Creating the GUI
 
-To begin, open up a clientside lua file (if you have been following the [Scripting Introduction](/Scripting_Introduction.md "wikilink"), this is gui.lua) to work with.
+To begin, open up a clientside lua file (if you have been following the [Scripting Introduction](/docs/Scripting_Introduction.md "wikilink"), this is gui.lua) to work with.
 
-In this file, we will start writing our function for creating the GUI. As covered in the [Previous tutorial](/Introduction_to_Scripting_GUI.md "wikilink"), there are 2 value type options available when creating gui: **relative** and **absolute**.
+In this file, we will start writing our function for creating the GUI. As covered in the [Previous tutorial](/docs/Introduction_to_Scripting_GUI.md "wikilink"), there are 2 value type options available when creating gui: **relative** and **absolute**.
 
 For the purposes of this tutorial, we will be using **absolute** values.
 
@@ -50,7 +50,7 @@ function createVehicleSelection()
 end
 ```
 
-We now also need to call this function somewhere, otherwise the GUI will never be created. As in previous tutorials, to do this we can use [onClientResourceStart](/onClientResourceStart.md "wikilink").
+We now also need to call this function somewhere, otherwise the GUI will never be created. As in previous tutorials, to do this we can use [onClientResourceStart](/docs/onClientResourceStart.md "wikilink").
 
 ``` lua
 -- when the resource is started, create the GUI and hide it
@@ -63,7 +63,7 @@ addEventHandler("onClientResourceStart",getResourceRootElement(getThisResource()
 
 ### Showing the GUI
 
-Unlike in previous tutorials, we want players to be able to open this window whenever they chose, not when the resource starts. So, we can add a [Command](/addCommandHandler.md "wikilink") to do this.
+Unlike in previous tutorials, we want players to be able to open this window whenever they chose, not when the resource starts. So, we can add a [Command](/docs/addCommandHandler.md "wikilink") to do this.
 
 ``` lua
 -- create the function that will show the window
@@ -106,7 +106,7 @@ local vehicleSelectionTable = {
 
 Place this code at the very top of your file (it does not need to be inside a function).
 
-Next, we can write our “populateGridlist” function which will fill the Gridlist with all the vehicles in the table. To do this we simply need to loop through all the values in the table, adding each one to the gridlist as we go. We will also set hidden data using [guiGridListSetItemData](/guiGridListSetItemData.md "wikilink") to store the vehicle id:
+Next, we can write our “populateGridlist” function which will fill the Gridlist with all the vehicles in the table. To do this we simply need to loop through all the values in the table, adding each one to the gridlist as we go. We will also set hidden data using [guiGridListSetItemData](/docs/guiGridListSetItemData.md "wikilink") to store the vehicle id:
 
 ``` lua
 function populateGridlist()
@@ -128,7 +128,7 @@ end
 
 ### Managing the click
 
-Now that we have our GUI completed, we need to be able to catch any clicks made on the “create” button. We have attached the [onClientGUIClick](/onClientGUIClick.md "wikilink") event to buttonCreate already, so now we need to write the function that it calls. In this function we do some basic error checking, such as making sure a vehicle has been selected in the list. We can then use some maths to find a position infront of the player and send the server this information to spawn the vehicle (using [triggerServerEvent](/triggerServerEvent.md "wikilink"))
+Now that we have our GUI completed, we need to be able to catch any clicks made on the “create” button. We have attached the [onClientGUIClick](/docs/onClientGUIClick.md "wikilink") event to buttonCreate already, so now we need to write the function that it calls. In this function we do some basic error checking, such as making sure a vehicle has been selected in the list. We can then use some maths to find a position infront of the player and send the server this information to spawn the vehicle (using [triggerServerEvent](/triggerServerEvent.md "wikilink"))
 
 ``` lua
 function createVehicleHandler(button,state)
@@ -173,7 +173,7 @@ end
 
 At this point we now have all the code needed on the client side, so open up a serverside .lua file to work with.
 
-On the server side, we will first of all need to define the custom event that we triggered before from the client. This can be done using [addEvent](/addEvent.md "wikilink") and [addEventHandler](/addEventHandler.md "wikilink"). Finally we will need a small function for creating the vehicle:
+On the server side, we will first of all need to define the custom event that we triggered before from the client. This can be done using [addEvent](/docs/addEvent.md "wikilink") and [addEventHandler](/addEventHandler.md "wikilink"). Finally we will need a small function for creating the vehicle:
 
 ``` lua
 function createMyVehicle(vehicleid,x,y,z)
@@ -206,7 +206,7 @@ First of all you will need to create your xml file, so navigate to your resource
 
 *For the purpose of this example, we will include only a small fraction of the total vehicles, however the file can easily be expanded to include them all.*
 
-If you are unsure of xml data structures, you can browse the [MTA xml functions](/Server_Scripting_Functions#XML_functions.md "wikilink") for help.
+If you are unsure of xml data structures, you can browse the [MTA xml functions](/docs/Server_Scripting_Functions#XML_functions.md "wikilink") for help.
 
 ``` lua
 <root>
@@ -317,7 +317,7 @@ function populateGridlist()
 end
 ```
 
-Note the use of for loops in the code with [xmlNodeGetChildren](/xmlNodeGetChildren.md "wikilink"). This saves us a lot of time and effort as we do not have to manually code each group and vehicle into the list.
+Note the use of for loops in the code with [xmlNodeGetChildren](/docs/xmlNodeGetChildren.md "wikilink"). This saves us a lot of time and effort as we do not have to manually code each group and vehicle into the list.
 
 You should now have a fully working vehicle selection menu, reading all of its data from a clientside xml file. Next, we will examine how to generate the appearance of collapsing and expanding sections in a gridlist.
 
@@ -376,7 +376,7 @@ Now that we have all the data stored, we can quickly manipulate it when neccessa
 
 ### Managing the double click
 
-To enable the player to simply double click on a group name to expand/collapse it we need to use the [onClientGUIDoubleClick](/onClientGUIDoubleClick.md "wikilink") event. If we attach it to the gridlist, we can then catch any double clicks on the group names in it:
+To enable the player to simply double click on a group name to expand/collapse it we need to use the [onClientGUIDoubleClick](/docs/onClientGUIDoubleClick.md "wikilink") event. If we attach it to the gridlist, we can then catch any double clicks on the group names in it:
 
 ``` lua
 -- attach the onClientGUIDoubleClick event to the gridlist and set it to call processDoubleClick
@@ -460,6 +460,6 @@ end
 
 This comletes the second section of the tutorial.
 
-For further GUI tutorials, see [Tutorial 2 (Gates and Keypads)](/Scripting_the_GUI_-_Tutorial_2.md "wikilink")
+For further GUI tutorials, see [Tutorial 2 (Gates and Keypads)](/docs/Scripting_the_GUI_-_Tutorial_2.md "wikilink")
 
-[Category:GUI\_Tutorials](/Category:GUI_Tutorials.md "wikilink")
+[Category:GUI\_Tutorials](/docs/Category:GUI_Tutorials.md "wikilink")

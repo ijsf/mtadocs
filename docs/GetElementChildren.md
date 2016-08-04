@@ -1,4 +1,4 @@
-This function is used to retrieve a list of the child elements of a given parent element. Note that it will only return direct children and not elements that are further down the [element tree](/element_tree.md "wikilink").
+This function is used to retrieve a list of the child elements of a given parent element. Note that it will only return direct children and not elements that are further down the [element tree](/docs/element_tree.md "wikilink").
 
 Syntax
 ------
@@ -61,7 +61,7 @@ end
 addCommandHandler("teamElements", showTeamElements)
 ```
 
-At a later point you could loop through all the elements and process their contents any way you wish. Remember to make sure you only have the *current* list of elements though. If you get the root element children, then wait a while for things to change, this list won't be up to date unless you use [getElementChildren](/getElementChildren.md "wikilink") again.
+At a later point you could loop through all the elements and process their contents any way you wish. Remember to make sure you only have the *current* list of elements though. If you get the root element children, then wait a while for things to change, this list won't be up to date unless you use [getElementChildren](/docs/getElementChildren.md "wikilink") again.
 
 See Also
 --------

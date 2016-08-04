@@ -1,4 +1,4 @@
-Fires one shot from a [custom weapon](/Element/Weapon.md "wikilink").
+Fires one shot from a [custom weapon](/docs/Element/Weapon.md "wikilink").
 
 Syntax
 ------

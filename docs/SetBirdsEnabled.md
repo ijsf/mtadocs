@@ -9,7 +9,7 @@ bool setBirdsEnabled ( bool enable )
 
 ### Required Arguments
 
--   **enabled:** A [boolean](/boolean.md "wikilink") value determining if birds should be shown. Use *true* to show the birds and *false* to hide them.
+-   **enabled:** A [boolean](/docs/boolean.md "wikilink") value determining if birds should be shown. Use *true* to show the birds and *false* to hide them.
 
 ### Returns
 

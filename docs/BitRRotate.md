@@ -20,7 +20,7 @@ Example
 -------
 
 <section name="Client" class="client" show="true">
-This example adds the clientside command **/rightrotate \[value\] \[positions = 1\]**, which will print the result from the function [bitRRotate](/bitRRotate.md "wikilink").
+This example adds the clientside command **/rightrotate \[value\] \[positions = 1\]**, which will print the result from the function [bitRRotate](/docs/bitRRotate.md "wikilink").
 
 ``` lua
 function getNumberAsBitString(value)

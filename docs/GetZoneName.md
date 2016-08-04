@@ -57,4 +57,4 @@ addCommandHandler( "getloc", scriptGetLoc ) -- add a command "getloc" which init
 See Also
 --------
 
-[ru:getZoneName](/ru:getZoneName.md "wikilink")
+[ru:getZoneName](/docs/ru:getZoneName.md "wikilink")

@@ -1,4 +1,4 @@
-This function checks if the specified ped is carrying out a certain [task](/List_of_player_tasks.md "wikilink").
+This function checks if the specified ped is carrying out a certain [task](/docs/List_of_player_tasks.md "wikilink").
 
 Syntax
 ------
@@ -9,8 +9,8 @@ bool isPedDoingTask ( ped thePed, string taskName )
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink") you want to check.
--   **taskName**: A string containing the name of the [task](/List_of_player_tasks.md "wikilink") you're checking for.
+-   **thePed**: The [ped](/docs/ped.md "wikilink") you want to check.
+-   **taskName**: A string containing the name of the [task](/docs/List_of_player_tasks.md "wikilink") you're checking for.
 
 ### Returns
 

@@ -1,4 +1,4 @@
-This function tells you which weapon type is in the player's current slot (clientside, you can optionally specify a slot other than the current one). See [Weapon Info](/weapon.md "wikilink")
+This function tells you which weapon type is in the player's current slot (clientside, you can optionally specify a slot other than the current one). See [Weapon Info](/docs/weapon.md "wikilink")
 
 Syntax
 ------
@@ -10,11 +10,11 @@ int getPlayerWeapon ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer**: the [player](/player.md "wikilink") you want to get the weapon type from.
+-   **thePlayer**: the [player](/docs/player.md "wikilink") you want to get the weapon type from.
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") indicating the type of the weapon the player has currently equipped.
+Returns an [int](/docs/int.md "wikilink") indicating the type of the weapon the player has currently equipped.
 
 </section>
 <section name="Client" class="client" show="true">
@@ -24,7 +24,7 @@ int getPlayerWeapon ( player thePlayer, [ int weaponSlot = current ] )
 
 ### Required Arguments
 
--   **thePlayer**: the [player](/player.md "wikilink") you want to get the weapon type from.
+-   **thePlayer**: the [player](/docs/player.md "wikilink") you want to get the weapon type from.
 
 ### Optional Arguments
 
@@ -32,9 +32,9 @@ int getPlayerWeapon ( player thePlayer, [ int weaponSlot = current ] )
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") indicating the type of the weapon the player has in the specified slot.
+Returns an [int](/docs/int.md "wikilink") indicating the type of the weapon the player has in the specified slot.
 
-It should be noted that if a player runs out of ammo for a weapon, it will still return the ID of that weapon in the slot (even if it appears as if the player does not have a weapon at all), though [getPlayerTotalAmmo](/getPlayerTotalAmmo.md "wikilink") will return **0**. Therefore, [getPlayerTotalAmmo](/getPlayerTotalAmmo.md "wikilink") should be used in conjunction with [getPlayerWeapon](/getPlayerWeapon.md "wikilink") in order to check if a player has a weapon.
+It should be noted that if a player runs out of ammo for a weapon, it will still return the ID of that weapon in the slot (even if it appears as if the player does not have a weapon at all), though [getPlayerTotalAmmo](/docs/getPlayerTotalAmmo.md "wikilink") will return **0**. Therefore, [getPlayerTotalAmmo](/getPlayerTotalAmmo.md "wikilink") should be used in conjunction with [getPlayerWeapon](/getPlayerWeapon.md "wikilink") in order to check if a player has a weapon.
 
 </section>
 Example

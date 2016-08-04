@@ -7,11 +7,11 @@ float getEffectSpeed ( effect theEffect )
 
 ### Required Arguments
 
--   **theEffect:** The [effect](/effect.md "wikilink") to get the speed of.
+-   **theEffect:** The [effect](/docs/effect.md "wikilink") to get the speed of.
 
 ### Returns
 
-Returns [float](/float.md "wikilink") containing the effect's speed, *false* if invalid arguments were specified.
+Returns [float](/docs/float.md "wikilink") containing the effect's speed, *false* if invalid arguments were specified.
 
 ### Example
 
@@ -29,4 +29,4 @@ end)
 See also
 --------
 
-[ru:getEffectSpeed](/ru:getEffectSpeed.md "wikilink")
+[ru:getEffectSpeed](/docs/ru:getEffectSpeed.md "wikilink")

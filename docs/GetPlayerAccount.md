@@ -1,4 +1,4 @@
-This function returns the specified player's [account](/account.md "wikilink") object.
+This function returns the specified player's [account](/docs/account.md "wikilink") object.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ account getPlayerAccount ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") element you want to get the [account](/account.md "wikilink") of.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") element you want to get the [account](/account.md "wikilink") of.
 
 ### Returns
 
@@ -34,4 +34,4 @@ addCommandHandler("setmoney",setMoney)
 See Also
 --------
 
-[ar:getPlayerAccount](/ar:getPlayerAccount.md "wikilink") [ru:getPlayerAccount](/ru:getPlayerAccount.md "wikilink")
+[ar:getPlayerAccount](/docs/ar:getPlayerAccount.md "wikilink") [ru:getPlayerAccount](/ru:getPlayerAccount.md "wikilink")

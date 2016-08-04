@@ -2,18 +2,18 @@
 
 In this tutorial we will look at creating GUI keypads with combination codes for map-defined object gates. We will be using serverside keycodes, with some client - server interaction to verify the codes and report the outcome.
 
-**Note that this tutorial assumes you are familiar with all the content covered in the [GUI Scripting Introduction](/Introduction_to_Scripting_GUI.md "wikilink").**
+**Note that this tutorial assumes you are familiar with all the content covered in the [GUI Scripting Introduction](/docs/Introduction_to_Scripting_GUI.md "wikilink").**
 
-[thumb|GUI Keypad](/Image:Gui_keypad_tutorial.png.md "wikilink")
+[thumb|GUI Keypad](/docs/Image:Gui_keypad_tutorial.png.md "wikilink")
 
 Setting up the Keypad
 ---------------------
 
-To begin, open up a clientside lua file (if you have been following the [GUI Scripting Introduction](/Introduction_to_Scripting_GUI.md "wikilink"), this is gui.lua) to work with.
+To begin, open up a clientside lua file (if you have been following the [GUI Scripting Introduction](/docs/Introduction_to_Scripting_GUI.md "wikilink"), this is gui.lua) to work with.
 
 ### Creating the GUI
 
-By now, GUI creation should seem relatively straight forward, so we will not go over this in too much detail. As in [Tutorial 1](/Scripting_the_GUI_-_Tutorial_1.md "wikilink") we will be using **absolute** values in this tutorial.
+By now, GUI creation should seem relatively straight forward, so we will not go over this in too much detail. As in [Tutorial 1](/docs/Scripting_the_GUI_-_Tutorial_1.md "wikilink") we will be using **absolute** values in this tutorial.
 
 ``` lua
 function createKeypad()
@@ -93,7 +93,7 @@ We can now simply call updateDisplay(our text) to change the text on the display
 
 With so many buttons that do very similar tasks on our keypad, there are two methods available to us for detecting when a player clicks on them.
 
-We could add [onClientGUIClick](/onClientGUIClick.md "wikilink") events for every button individually, as we have done in previous tutorials; Or, alternatively, we could add a single [onClientGUIClick](/onClientGUIClick.md "wikilink") handle for the window (which is the parent of all our other keypad GUI elements), filter our results to include only the buttons we want and trigger our own custom event.
+We could add [onClientGUIClick](/docs/onClientGUIClick.md "wikilink") events for every button individually, as we have done in previous tutorials; Or, alternatively, we could add a single [onClientGUIClick](/onClientGUIClick.md "wikilink") handle for the window (which is the parent of all our other keypad GUI elements), filter our results to include only the buttons we want and trigger our own custom event.
 
 For the purposes of this tutorial and in the interest of outlining multiple approaches, we will explore the second method, though either one is an acceptable solution.
 
@@ -123,7 +123,7 @@ As you can see, we are now triggering our custom event â€œonKeypadButtonClickedâ
 
 ### Handling the clicks
 
-Much like when using [triggerServerEvent](/triggerServerEvent.md "wikilink") in previous tutorials, we now need to define the event, only this time it is purely clientside:
+Much like when using [triggerServerEvent](/docs/triggerServerEvent.md "wikilink") in previous tutorials, we now need to define the event, only this time it is purely clientside:
 
 ``` lua
 addEvent("onKeypadButtonClicked",false)
@@ -134,7 +134,7 @@ addEventHandler("onKeypadButtonClicked",root,
 )
 ```
 
-Note the second argument in [addEvent](/addEvent.md "wikilink") is set to false, indicating that this event cannot be triggered from the server. Also note, the function we are using in the [addEventHandler](/addEventHandler.md "wikilink") does not have a name. If you contract it down and remove the spacing, you get:
+Note the second argument in [addEvent](/docs/addEvent.md "wikilink") is set to false, indicating that this event cannot be triggered from the server. Also note, the function we are using in the [addEventHandler](/addEventHandler.md "wikilink") does not have a name. If you contract it down and remove the spacing, you get:
 
 ``` lua
 addEventHandler("onKeypadButtonClicked",root,function() ... end)
@@ -288,7 +288,7 @@ Navigate to your resource folder and make a new file called gate.map, then add y
 <map src="gate.map"/>
 ```
 
-*If you are unsure of map file syntax, please see the [Writing Gamemodes Tutorial](/Writing_Gamemodes.md "wikilink") or check the [Object](/Object.md "wikilink") page for help.*
+*If you are unsure of map file syntax, please see the [Writing Gamemodes Tutorial](/docs/Writing_Gamemodes.md "wikilink") or check the [Object](/Object.md "wikilink") page for help.*
 
 ``` lua
 <map>
@@ -353,6 +353,6 @@ Note how by using the keypadID sent back from the server, we can use if statemen
 
 You should now have a working example of a GUI Keypad controlling an A51 Gate.
 
-For further GUI tutorials, see [Tutorial 3 (Scrolling News Feed)](/Scripting_the_GUI_-_Tutorial_3.md "wikilink")
+For further GUI tutorials, see [Tutorial 3 (Scrolling News Feed)](/docs/Scripting_the_GUI_-_Tutorial_3.md "wikilink")
 
-[Category:GUI\_Tutorials](/Category:GUI_Tutorials.md "wikilink")
+[Category:GUI\_Tutorials](/docs/Category:GUI_Tutorials.md "wikilink")

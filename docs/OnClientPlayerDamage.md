@@ -7,19 +7,19 @@ Parameters
 element attacker, int weapon, int bodypart [, float loss ]
 ```
 
--   **attacker**: A [player](/player.md "wikilink") [element](/element.md "wikilink") representing the attacker or [vehicle](/vehicle.md "wikilink") [element](/element.md "wikilink") (when being run over or falling off a bike).
+-   **attacker**: A [player](/docs/player.md "wikilink") [element](/element.md "wikilink") representing the attacker or [vehicle](/vehicle.md "wikilink") [element](/element.md "wikilink") (when being run over or falling off a bike).
 -   **weapon**: An integer representing the weapon ID the attacker used
 -   **bodypart**: An integer representing the bodypart the player was damaged
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that got damaged. (Streamed in players only)
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that got damaged. (Streamed in players only)
 
 Cancel effect
 -------------
 
-If this event is [canceled](/Event_system#Canceling.md "wikilink"), then any damaging effects to the local player will cease.
+If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), then any damaging effects to the local player will cease.
 
 Example
 -------

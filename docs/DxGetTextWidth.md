@@ -1,4 +1,4 @@
-This function retrieves the theoretical width of a certain piece of text, if it were to be drawn using [dxDrawText](/dxDrawText.md "wikilink").
+This function retrieves the theoretical width of a certain piece of text, if it were to be drawn using [dxDrawText](/docs/dxDrawText.md "wikilink").
 
 **NOTE:** This function is relative to the client's screen resolution.
 
@@ -17,7 +17,7 @@ Optional Arguments
 ------------------
 
 -   **scale:** The size of the text.
--   **font:** Either a custom [DX font](/DX_font.md "wikilink") element or the name of a built-in dx font:
+-   **font:** Either a custom [DX font](/docs/DX_font.md "wikilink") element or the name of a built-in dx font:
 
 -   **bColorCoded:** Should we exclude color codes from the width? (false will include the hex in the length)
 

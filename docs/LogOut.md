@@ -1,4 +1,4 @@
-This function logs the given player out of his current [account](/account.md "wikilink").
+This function logs the given player out of his current [account](/docs/account.md "wikilink").
 
 Syntax
 ------
@@ -37,4 +37,4 @@ addEventHandler ( "onResourceStart", getResourceRootElement(), logoutAll )
 See Also
 --------
 
-[ar:setAccountPassword](/ar:setAccountPassword.md "wikilink")
+[ar:setAccountPassword](/docs/ar:setAccountPassword.md "wikilink")

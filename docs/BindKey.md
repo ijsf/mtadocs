@@ -11,7 +11,7 @@ Syntax
 ### Required Arguments
 
 -   **thePlayer:** The player you wish to bind the key of.
--   **key:** The key or control you wish to bind to the command. See [key names](/key_names.md "wikilink") for a list of possible keys and [control names](/control_names.md "wikilink") for a list of possible controls.
+-   **key:** The key or control you wish to bind to the command. See [key names](/docs/key_names.md "wikilink") for a list of possible keys and [control names](/control_names.md "wikilink") for a list of possible controls.
 -   **keyState:** A string that has one of the following values:
     -   **“up”:** If the bound key should trigger the function when the key is released
     -   **“down”:** If the bound key should trigger the function when the key is pressed
@@ -28,7 +28,7 @@ The values passed to this function are:
 -   **keyPresser:** The player who pressed the key
 -   **key:** The key that was pressed
 -   **keyState:** The state of the key that was pressed, *down* if it was pressed, *up* if it was released.
--   **arguments** The optional arguments you specified when calling [bindKey](/bindKey.md "wikilink") (see below).
+-   **arguments** The optional arguments you specified when calling [bindKey](/docs/bindKey.md "wikilink") (see below).
 
 </section>
 <section name="Client - Syntax 1" class="client" show="true">
@@ -38,7 +38,7 @@ The values passed to this function are:
 
 ### Required Arguments
 
--   **key:** The key or control you wish to bind to the command. See [key names](/key_names.md "wikilink") for a list of possible keys and [control names](/control_names.md "wikilink") for a list of possible controls.
+-   **key:** The key or control you wish to bind to the command. See [key names](/docs/key_names.md "wikilink") for a list of possible keys and [control names](/control_names.md "wikilink") for a list of possible controls.
 -   **keyState:** A string that has one of the following values:
     -   **“up”:** If the bound key should trigger the function when the key is released
     -   **“down”:** If the bound key should trigger the function when the key is pressed
@@ -57,7 +57,7 @@ The values passed to this function are:
 
 -   **key:** The key that was pressed
 -   **keyState:** The state of the key that was pressed, *down* if it was pressed, *up* if it was released.
--   **arguments** The optional arguments you specified when calling [bindKey](/bindKey.md "wikilink") (see below).
+-   **arguments** The optional arguments you specified when calling [bindKey](/docs/bindKey.md "wikilink") (see below).
 
 </section>
 ### Optional Arguments

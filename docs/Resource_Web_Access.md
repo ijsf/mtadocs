@@ -27,7 +27,7 @@ For example: <code lang="xml">
 </syntaxhighlight>
 ### Parsed files
 
-If a file is not specified in the meta file as “raw”, then it is passed through a pre-processor before it is returned to the client. This pre-processor works much like PHP or ASP, but uses LUA. You can embed standard MTA scripts within HTML pages, controlling the output. Almost all standard MTA functions work, plus a number of special [HTTP Functions](/Template:HTTP_functions.md "wikilink"), such as [httpWrite](/httpWrite.md "wikilink"), a function that outputs text to the buffer.
+If a file is not specified in the meta file as “raw”, then it is passed through a pre-processor before it is returned to the client. This pre-processor works much like PHP or ASP, but uses LUA. You can embed standard MTA scripts within HTML pages, controlling the output. Almost all standard MTA functions work, plus a number of special [HTTP Functions](/docs/Template:HTTP_functions.md "wikilink"), such as [httpWrite](/httpWrite.md "wikilink"), a function that outputs text to the buffer.
 
 For example: <code lang="html4strict">
 
@@ -53,14 +53,14 @@ There is a shorthand (in common with PHP and ASP) for this code, meaning that yo
 </syntaxhighlight>
 Aside from HTTP functions, embedded Lua has access to the following environment variables that contain information about how the page was requested:
 
--   table **requestHeaders**: This is a table containing all the headers that were requested with the page. You can set returned headers using [httpSetResponseHeader](/httpSetResponseHeader.md "wikilink").
+-   table **requestHeaders**: This is a table containing all the headers that were requested with the page. You can set returned headers using [httpSetResponseHeader](/docs/httpSetResponseHeader.md "wikilink").
 -   table **form**: This is a table containing all the form data submitted to the page using HTTP POST combined with any variables passed in the querystring with HTTP GET.
--   table **cookies**: This is a table of all the cookies. You can modify cookies using [httpSetResponseCookie](/httpSetResponseCookie.md "wikilink").
+-   table **cookies**: This is a table of all the cookies. You can modify cookies using [httpSetResponseCookie](/docs/httpSetResponseCookie.md "wikilink").
 -   string **hostname**: This is a string containing the IP address or hostname that requested the page.
 -   string **url**: This is the URL of the page.
 -   account **user**: This is the account of the current user.
 
-It's important to note that parsed files are run in a separate virtual machine from the rest of your resource's code. As such, if you want to call a function in your resource's main code, you need to export the function and use the [call](/call.md "wikilink") function from your parsed file.
+It's important to note that parsed files are run in a separate virtual machine from the rest of your resource's code. As such, if you want to call a function in your resource's main code, you need to export the function and use the [call](/docs/call.md "wikilink") function from your parsed file.
 
 Calls
 -----
@@ -70,7 +70,7 @@ You can specify that certain exported functions in your resource are able to be 
 To specify an exported http-accessible function, add the following to your meta.xml file: <code lang="xml"> <export function='functionName' http='true' />
 
 </syntaxhighlight>
-You can code your function just as you would any normal function, returning as many values as you want, including tables and resources and most importantly elements. You *cannot* however return other 'userdata' values such as [xmlnodes](/xmlnode.md "wikilink") or functions.
+You can code your function just as you would any normal function, returning as many values as you want, including tables and resources and most importantly elements. You *cannot* however return other 'userdata' values such as [xmlnodes](/docs/xmlnode.md "wikilink") or functions.
 
 ### Protocol
 
@@ -150,20 +150,20 @@ You can see (fairly complex) examples of how this can be done in the resources *
 Securing the web interface
 --------------------------
 
-The [ACL](/ACL.md "wikilink") has a number of rights that can affect what files can be accessed.
+The [ACL](/docs/ACL.md "wikilink") has a number of rights that can affect what files can be accessed.
 
 SDK
 ---
 
 There are a number of so-called 'SDKs' available that allow you to interface with the server from other programming languages. With these you could (in theory) write whole gamemodes. In practice this is probably a bad idea, but it is useful for statistics and administration. The PHP SDK is the most developed version. Feel free to modify or create your own SDKs - if you do please send us a copy.
 
--   [Java SDK](/JavaSDK.md "wikilink")
--   [Javascript SDK](/Javascript_SDK.md "wikilink")
--   [Perl SDK](/Perl_SDK.md "wikilink")
--   [PHP SDK](/PHP_SDK.md "wikilink")
--   [C\# SDK](/CSharp_SDK.md "wikilink")
+-   [Java SDK](/docs/JavaSDK.md "wikilink")
+-   [Javascript SDK](/docs/Javascript_SDK.md "wikilink")
+-   [Perl SDK](/docs/Perl_SDK.md "wikilink")
+-   [PHP SDK](/docs/PHP_SDK.md "wikilink")
+-   [C\# SDK](/docs/CSharp_SDK.md "wikilink")
 
 See Also
 --------
 
-[callRemote](/callRemote.md "wikilink") - Allows game servers to call functions on PHP pages (with the PHP SDK) and on other game servers. [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink") [ru:Resource Web Access](/ru:Resource_Web_Access.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")
+[callRemote](/docs/callRemote.md "wikilink") - Allows game servers to call functions on PHP pages (with the PHP SDK) and on other game servers. [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink") [ru:Resource Web Access](/ru:Resource_Web_Access.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")

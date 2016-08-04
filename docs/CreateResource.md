@@ -17,7 +17,7 @@ resource createResource ( string resourceName [, string organizationalDir ] )
 
 ### Returns
 
-Returns the [resource](/resource.md "wikilink") element of the new resource if successful, *false* otherwise. This could fail if the resource name already is in use, if a directory already exists with the name you've specified (but this isn't a valid resource) or if the name you specify isn't valid. It could also fail if the disk was full or for other similar reasons.
+Returns the [resource](/docs/resource.md "wikilink") element of the new resource if successful, *false* otherwise. This could fail if the resource name already is in use, if a directory already exists with the name you've specified (but this isn't a valid resource) or if the name you specify isn't valid. It could also fail if the disk was full or for other similar reasons.
 
 Example
 -------

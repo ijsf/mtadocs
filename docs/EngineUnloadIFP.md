@@ -1,4 +1,4 @@
-This function unloads an animation library loaded by [engineLoadIFP](/engineLoadIFP.md "wikilink").
+This function unloads an animation library loaded by [engineLoadIFP](/docs/engineLoadIFP.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool engineLoadIFP ( element ifp )
 
 ### Required Arguments
 
--   **ifp:** The IFP [element](/element.md "wikilink") loaded by [engineLoadIFP](/engineLoadIFP.md "wikilink") to unload.
+-   **ifp:** The IFP [element](/docs/element.md "wikilink") loaded by [engineLoadIFP](/engineLoadIFP.md "wikilink") to unload.
 
 ### Returns
 

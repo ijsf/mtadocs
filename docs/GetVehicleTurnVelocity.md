@@ -9,7 +9,7 @@ float float float getVehicleTurnVelocity ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") you wish to get the turning velocities of.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") you wish to get the turning velocities of.
 
 ### Returns
 

@@ -1,4 +1,4 @@
-This checks if an element is visible to a player. This does not check if the player can literally see the element, just that they are aware that it exists. Some so-called [per-player elements](/per-player_elements.md "wikilink") are able to be visible only to some players, as such this checks if this is the case for a particular element/player combination.
+This checks if an element is visible to a player. This does not check if the player can literally see the element, just that they are aware that it exists. Some so-called [per-player elements](/docs/per-player_elements.md "wikilink") are able to be visible only to some players, as such this checks if this is the case for a particular element/player combination.
 
 Syntax
 ------

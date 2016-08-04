@@ -7,7 +7,7 @@ float getEffectDensity ( effect theEffect )
 
 ### Required Arguments
 
--   **theEffect:** The [effect](/effect.md "wikilink") to get density of.
+-   **theEffect:** The [effect](/docs/effect.md "wikilink") to get density of.
 
 ### Example
 
@@ -25,4 +25,4 @@ end)
 See also
 --------
 
-[ru:getEffectDensity](/ru:getEffectDensity.md "wikilink")
+[ru:getEffectDensity](/docs/ru:getEffectDensity.md "wikilink")

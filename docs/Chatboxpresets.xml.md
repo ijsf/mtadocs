@@ -1,4 +1,4 @@
-This file holds all the MTA ChatBox Presets. Everything in this file deals with the chatbox and nothing else but the chatbox. This file is located with the [coreconfig.xml](/coreconfig.xml.md "wikilink"). Its file path is *MTA San Andreas 1.x\\MTA*. You could even customize it yourself but you would need to be careful else MTA might crash or the chat might not even be visible. You can customize these in the Settings too.
+This file holds all the MTA ChatBox Presets. Everything in this file deals with the chatbox and nothing else but the chatbox. This file is located with the [coreconfig.xml](/docs/coreconfig.xml.md "wikilink"). Its file path is *MTA San Andreas 1.x\\MTA*. You could even customize it yourself but you would need to be careful else MTA might crash or the chat might not even be visible. You can customize these in the Settings too.
 
 ### Children of the chatboxpresets
 
@@ -93,4 +93,4 @@ This file holds all the MTA ChatBox Presets. Everything in this file deals with 
 
 </chatboxpresets> |lang=“xml”}}
 
-[Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Incomplete](/docs/Category:Incomplete.md "wikilink")

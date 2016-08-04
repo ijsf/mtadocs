@@ -25,7 +25,7 @@ end
 addCommandHandler ( "fpslimit", fpsLim )
 ```
 
-[pl:getFPSLimit](/pl:getFPSLimit.md "wikilink")
+[pl:getFPSLimit](/docs/pl:getFPSLimit.md "wikilink")
 
 See Also
 --------

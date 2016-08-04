@@ -1,4 +1,4 @@
-This function will check if a player is pressing a particular control. Controls are those that affect GTA. If you wish to get the state of another key, use [bindKey](/bindKey.md "wikilink") and a command function.
+This function will check if a player is pressing a particular control. Controls are those that affect GTA. If you wish to get the state of another key, use [bindKey](/docs/bindKey.md "wikilink") and a command function.
 
 Note: Not all control states are sent to the server at all times, as such their state may be given incorrectly. As a rule, keys that move or affect the player or their vehicle are most likely to be accurate. For increased accuracy (and also increased bandwidth usage) use bindKey instead to bind a GTA control name to a function.
 
@@ -13,7 +13,7 @@ bool getControlState ( player thePlayer, string controlName )
 ### Required Arguments
 
 -   **thePlayer:** The player you wish to get the control state of. Do not use this parameter when scripting for client.
--   **controlName:** The control that you want to get the state of. See [control names](/control_names.md "wikilink") for a list of possible controls.
+-   **controlName:** The control that you want to get the state of. See [control names](/docs/control_names.md "wikilink") for a list of possible controls.
 
 **Note:** several controls are not synched with the server, therefore the function will always return *false* for these controls serverside. These controls are:
 
@@ -45,7 +45,7 @@ bool getControlState ( string controlName )
 
 ### Required Arguments
 
--   **controlName:** The control that you want to get the state of. See [control names](/control_names.md "wikilink") for a list of possible controls.
+-   **controlName:** The control that you want to get the state of. See [control names](/docs/control_names.md "wikilink") for a list of possible controls.
 
 </section>
 ### Returns

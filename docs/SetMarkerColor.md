@@ -9,7 +9,7 @@ bool setMarkerColor ( marker theMarker, int r, int g, int b, int a )
 
 ### Required Arguments
 
--   **theMarker:** The [marker](/marker.md "wikilink") that you wish to set the color of.
+-   **theMarker:** The [marker](/docs/marker.md "wikilink") that you wish to set the color of.
 -   **r:** The amount of red in the final color (0 to 255).
 -   **g:** The amount of green in the final color (0 to 255).
 -   **b:** The amount of blue in the final color (0 to 255).

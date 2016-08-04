@@ -13,7 +13,7 @@ int getPickupWeapon ( pickup thePickup )
 
 ### Returns
 
-Returns the [Weapon ID](/Weapons.md "wikilink") of the pickup, or *false* if the pickup is invalid.
+Returns the [Weapon ID](/docs/Weapons.md "wikilink") of the pickup, or *false* if the pickup is invalid.
 
 Example
 -------

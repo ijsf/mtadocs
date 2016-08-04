@@ -1,4 +1,4 @@
-This function returns the current text of the specified [textitem](/textitem.md "wikilink").
+This function returns the current text of the specified [textitem](/docs/textitem.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ string textItemGetText ( textitem theTextitem )
 
 ### Required Arguments
 
--   **theTextitem:** A valid [textitem](/textitem.md "wikilink").
+-   **theTextitem:** A valid [textitem](/docs/textitem.md "wikilink").
 
 ### Returns
 
-Returns a [string](/string.md "wikilink") containing the text if the function was successful, *false* otherwise.
+Returns a [string](/docs/string.md "wikilink") containing the text if the function was successful, *false* otherwise.
 
 Example
 -------

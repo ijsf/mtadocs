@@ -11,7 +11,7 @@ bool cancelLatentEvent( player thePlayer, int handle )
 ### Required Arguments
 
 -   **thePlayer:** The player who is receiving the event.
--   **handle:** A handle previous got from [getLatentEventHandles](/getLatentEventHandles.md "wikilink").
+-   **handle:** A handle previous got from [getLatentEventHandles](/docs/getLatentEventHandles.md "wikilink").
 
 </section>
 <section name="Client" class="client" show="true">
@@ -21,7 +21,7 @@ bool cancelLatentEvent( int handle )
 
 ### Required Arguments
 
--   **handle:** A handle previous got from [getLatentEventHandles](/getLatentEventHandles.md "wikilink").
+-   **handle:** A handle previous got from [getLatentEventHandles](/docs/getLatentEventHandles.md "wikilink").
 
 </section>
 ### Returns

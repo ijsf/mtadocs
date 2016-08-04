@@ -24,7 +24,7 @@ Creating an Assault map
 
 Assault should work with the mapmanager, so additional maps can easily be created. It also triggers events for map specific scripts and provides functions to trigger custom objectives.
 
-If you want to create a simple map without additional code or custom objectives, you may want to skip to the [\#Map Elements](/#Map_Elements.md "wikilink").
+If you want to create a simple map without additional code or custom objectives, you may want to skip to the [\#Map Elements](/docs/#Map_Elements.md "wikilink").
 
 Events/Functions
 ================
@@ -35,7 +35,7 @@ onAssaultObjectiveReached ( table objectiveReached, table players )
 
 Triggers when an objective is successful (when it turns red).
 
--   **objectiveReached:** A table with all the attributes supplied in the map file (see [Map Elements](/#Objectives.md "wikilink"))
+-   **objectiveReached:** A table with all the attributes supplied in the map file (see [Map Elements](/docs/#Objectives.md "wikilink"))
 -   **players:** A table of all players that were in the marker when it was activated
 
 ``` lua
@@ -52,7 +52,7 @@ onAssaultCreateObjective ( table objectiveToCreate )
 
 Triggers when a objective is created or should be created if it's a custom objective, instead of creating the marker when it would be a normal one
 
--   **objectiveToCreate:** A table with all the attributes supplied in the map file (see [Map Elements](/#Objectives.md "wikilink"))
+-   **objectiveToCreate:** A table with all the attributes supplied in the map file (see [Map Elements](/docs/#Objectives.md "wikilink"))
 
 ``` lua
 onAssaultEndRound( bool conquered )
@@ -71,14 +71,14 @@ Used to trigger an objective. Returns *true* if it can be triggered, *false* oth
 -   **objectiveId:** *(required)* The id (like defined in the .map file) of the objective.
 -   **players:** A table of all players that were reponsible for activating the objective
 
-*Please note that you have to use [Call](/Call.md "wikilink") with exported functions.*
+*Please note that you have to use [Call](/docs/Call.md "wikilink") with exported functions.*
 
 General Assault Settings
 ========================
 
 **(as of version 1.1)**
 
-These settings can be specified in Assault's *meta.xml* [settings](/Settings_system.md "wikilink").
+These settings can be specified in Assault's *meta.xml* [settings](/docs/Settings_system.md "wikilink").
 
 -   **teamBalance**: Defines how many more players can be in either team respectively. For example when you set it to '1' while Team Blue has 2 players and Team Red has 1 player, new players couldn't join Team Blue. If you had set it to '2' in the same situtation, one more player could join Team Blue. (*default: 1*)
 
@@ -92,7 +92,7 @@ General Map Settings
 
 **(as of version 1.1, in version 1.0 only some settings can be set in the meta.xml)**
 
-All these settings can be specified in the *meta.xml* [settings](/Settings_system.md "wikilink") or the *assaultSettings* element in the mapfile. The *meta.xml* settings will always overrule the mapfile settings.
+All these settings can be specified in the *meta.xml* [settings](/docs/Settings_system.md "wikilink") or the *assaultSettings* element in the mapfile. The *meta.xml* settings will always overrule the mapfile settings.
 
 To specifiy the settings in the *meta.xml* file, it may look like this:
 
@@ -130,7 +130,7 @@ To specifiy the settings in the mapfile, put the *assaultSettings* in your mapfi
     -   **“objective”:** when a certain objective is reached
     -   **“all”:** when all objectives are reached
 
-If there is a **timelimit**, **time**, **weather**, **author** or **description** [setting](/Settings_system.md "wikilink") specified in the meta file, it will overule the attribute in this element (version 1.0)
+If there is a **timelimit**, **time**, **weather**, **author** or **description** [setting](/docs/Settings_system.md "wikilink") specified in the meta file, it will overule the attribute in this element (version 1.0)
 
 -   **timelimit:** duration of one round in seconds *(default: 300)*
 -   **time:** time hours:minutes *(default: 12:00)*
@@ -177,14 +177,14 @@ The order of the objectives in the .map file matters. It is responsible for the 
 -   **forcedRespawn**
     -   **“both”:** make all players respawn, as soon as the objective is created
     -   other values may come
--   **markerType:** defines the type of the marker used to mark the objective (see [CreateMarker](/CreateMarker.md "wikilink") for details on the values)
+-   **markerType:** defines the type of the marker used to mark the objective (see [CreateMarker](/docs/CreateMarker.md "wikilink") for details on the values)
 -   **captureType:** defines how the objective can be activated
     -   **“both”:** on foot and in a vehicle
     -   **“foot”:** only while on foot
     -   **“vehicle”:** only while in a vehicle
 -   **stay:** number of seconds the player needs to stay in the objective
 -   **stayText:** the text that is shown above the progress bar while being in the objective
--   **defenderDescription:** This text is shown at the bottom of the screen to tell the defenders what to do *(default: the **defenderText** attribute of the [\#Assault Settings](/#Assault_Settings.md "wikilink") element)*
+-   **defenderDescription:** This text is shown at the bottom of the screen to tell the defenders what to do *(default: the **defenderText** attribute of the [\#Assault Settings](/docs/#Assault_Settings.md "wikilink") element)*
 -   **successTextForDefender:** This attribute can overwrite the **successText** attribute for defenders
 
 Spawngroups
@@ -257,4 +257,4 @@ Additional Information
 
 -   If you don't want a specific vehicle to be respawned by assault, set it's Elementdata item 'noRespawn' to *true* by script or add the attribute noRespawn=“1” to the element in the mapfile. Remember that it will never be automatically respawned then, so if you want to have it return to it's original place, for example after the round ends or when it is destroyed, you have to respawn it yourself.
 
-[ru:<Resource:Assault>](/ru:Resource:Assault.md "wikilink")
+[ru:<Resource:Assault>](/docs/ru:Resource:Assault.md "wikilink")

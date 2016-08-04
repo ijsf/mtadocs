@@ -19,7 +19,7 @@ int, int, int getTimerDetails ( timer theTimer )
 
 <!-- -->
 
--   Returns false if the timer doesn't exist or stopped running. Also, debugscript will say “Bad Argument @ 'getTimerDetails'”. To prevent this, you can check if the timer exists with [isTimer](/isTimer.md "wikilink")().
+-   Returns false if the timer doesn't exist or stopped running. Also, debugscript will say “Bad Argument @ 'getTimerDetails'”. To prevent this, you can check if the timer exists with [isTimer](/docs/isTimer.md "wikilink")().
 
 Example
 -------

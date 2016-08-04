@@ -1,4 +1,4 @@
-This function draws a textured 3D line between two points in the 3D world - rendered for one frame. This should be used in conjunction with [onClientPreRender](/onClientPreRender.md "wikilink") in order to display continuously.
+This function draws a textured 3D line between two points in the 3D world - rendered for one frame. This should be used in conjunction with [onClientPreRender](/docs/onClientPreRender.md "wikilink") in order to display continuously.
 
 The 3D line with a large width value effectively becomes a rectangle, so it it possible to construct basic shapes such as boxes with several large width lines and the appropriate values for 'faceToward'.
 
@@ -19,13 +19,13 @@ bool dxDrawMaterialSectionLine3D ( float startX, float startY, float startZ, flo
 -   **v:** the absolute Y coordinate of the top left corner of the section
 -   **usize:** the absolute width of the section
 -   **vsize:** the absolute height of the section
--   **material:** A [material](/material.md "wikilink") to draw the line with.
+-   **material:** A [material](/docs/material.md "wikilink") to draw the line with.
 -   **width:** The width/thickness of the line in GTA world units. (This is 1/75th of the width used in dxDrawLine3D)
 
 Optional Arguments
 ------------------
 
--   **color:** An integer of the hex color, produced using [tocolor](/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
+-   **color:** An integer of the hex color, produced using [tocolor](/docs/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
 -   **faceTowardX/Y/Z:** The direction the front of the line should face towards. If this is not set, the front of the line always faces toward the camera.
 
 ### Returns

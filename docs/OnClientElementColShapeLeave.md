@@ -30,7 +30,7 @@ addEventHandler( "onClientElementColShapeLeave", getRootElement( ),
 );
 ```
 
-[pl:onClientElementColShapeLeave](/pl:onClientElementColShapeLeave.md "wikilink")
+[pl:onClientElementColShapeLeave](/docs/pl:onClientElementColShapeLeave.md "wikilink")
 
 See Also
 --------

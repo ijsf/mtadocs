@@ -123,4 +123,4 @@ Once a plugin object is created, first it is filled with RenderWare data. Then a
 
 On destruction, all plugin structs are destroyed by calling their destructors in reverse assignment order.
 
-[category:GTA Games](/category:GTA_Games.md "wikilink")
+[category:GTA Games](/docs/category:GTA_Games.md "wikilink")

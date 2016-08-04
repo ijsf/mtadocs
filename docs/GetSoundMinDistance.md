@@ -1,4 +1,4 @@
-Gets a custom [sound](/sound.md "wikilink") Minimum distance at which the sound stops getting louder.
+Gets a custom [sound](/docs/sound.md "wikilink") Minimum distance at which the sound stops getting louder.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ int getSoundMinDistance ( element sound )
 
 ### Required Arguments
 
--   **sound:** a [sound](/sound.md "wikilink") element.
+-   **sound:** a [sound](/docs/sound.md "wikilink") element.
 
 ### Returns
 
@@ -32,4 +32,4 @@ addCommandHandler("getdistance", distanceFunc)
 See Also
 --------
 
-[AR:getSoundMinDistance](/AR:getSoundMinDistance.md "wikilink")
+[AR:getSoundMinDistance](/docs/AR:getSoundMinDistance.md "wikilink")

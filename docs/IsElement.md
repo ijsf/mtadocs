@@ -1,4 +1,4 @@
-This function checks if a value is an [element](/element.md "wikilink") or not.
+This function checks if a value is an [element](/docs/element.md "wikilink") or not.
 
 Syntax
 ------

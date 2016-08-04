@@ -9,7 +9,7 @@ int getVehicleOverrideLights ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle**: the [vehicle](/vehicle.md "wikilink") you wish to retrieve the override lights setting of.
+-   **theVehicle**: the [vehicle](/docs/vehicle.md "wikilink") you wish to retrieve the override lights setting of.
 
 ### Returns
 

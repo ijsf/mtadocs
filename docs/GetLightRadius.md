@@ -7,11 +7,11 @@ float getLightRadius ( light theLight )
 
 ### Required Arguments
 
--   **theLight:** The [light](/Element/Light.md "wikilink") that you wish to retrieve the radius of.
+-   **theLight:** The [light](/docs/Element/Light.md "wikilink") that you wish to retrieve the radius of.
 
 ### Returns
 
-Returns a [float](/float.md "wikilink") containing the radius of the specified light, *false* if invalid arguments were passed.
+Returns a [float](/docs/float.md "wikilink") containing the radius of the specified light, *false* if invalid arguments were passed.
 
 ### Example
 

@@ -9,13 +9,13 @@ xmlnode xmlFindSubNode ( xmlnode parent, string subnode, int index )
 
 ### Required Arguments
 
--   **parent**: This is an [xmlnode](/xmlnode.md "wikilink") that you want to find the subnode under. This could be a node returned from another call to [xmlFindSubNode](/xmlFindSubNode.md "wikilink").
+-   **parent**: This is an [xmlnode](/docs/xmlnode.md "wikilink") that you want to find the subnode under. This could be a node returned from another call to [xmlFindSubNode](/xmlFindSubNode.md "wikilink").
 -   **subnode**: This is the name of the subnode you wish to find.
 -   **index**: This is the index of the node you wish to find. For example, to find the 5th subnode with a particular name, you would use 4 as the index value. To find the first occurence, use 0.
 
 ### Returns
 
-Returns an [xmlnode](/xmlnode.md "wikilink") object if the node was found, *false* otherwise.
+Returns an [xmlnode](/docs/xmlnode.md "wikilink") object if the node was found, *false* otherwise.
 
 Example
 -------

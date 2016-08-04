@@ -16,7 +16,7 @@ string filename, table itemlist
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink")
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink")
 
 Example
 -------

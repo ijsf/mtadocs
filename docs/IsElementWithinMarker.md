@@ -1,4 +1,4 @@
-This function is used to determine if an [element](/element.md "wikilink") is within a [marker](/marker.md "wikilink").
+This function is used to determine if an [element](/docs/element.md "wikilink") is within a [marker](/marker.md "wikilink").
 
 Syntax
 ------
@@ -9,8 +9,8 @@ bool isElementWithinMarker ( element theElement, marker theMarker )
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") you're checking.
--   **theMarker:** The [marker](/marker.md "wikilink") you're checking.
+-   **theElement:** The [element](/docs/element.md "wikilink") you're checking.
+-   **theMarker:** The [marker](/docs/marker.md "wikilink") you're checking.
 
 ### Returns
 
@@ -35,4 +35,4 @@ addCommandHandler("duty", duty)
 See Also
 --------
 
-[ru:isElementWithinMarker](/ru:isElementWithinMarker.md "wikilink")
+[ru:isElementWithinMarker](/docs/ru:isElementWithinMarker.md "wikilink")

@@ -1,4 +1,4 @@
-This function returns a [string](/string.md "wikilink") containing the current mode of the player's camera.
+This function returns a [string](/docs/string.md "wikilink") containing the current mode of the player's camera.
 
 Syntax
 ------
@@ -13,7 +13,7 @@ string getCameraMode ( player thePlayer )
 
 ### Returns
 
-Returns a [string](/string.md "wikilink") with one of two values if successful:
+Returns a [string](/docs/string.md "wikilink") with one of two values if successful:
 
 -   **player:** The camera is attached to a player.
 -   **fixed:** The camera is in a fixed position.

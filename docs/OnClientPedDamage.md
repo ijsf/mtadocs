@@ -1,4 +1,4 @@
-This event is triggered whenever a [ped](/ped.md "wikilink") is damaged.
+This event is triggered whenever a [ped](/docs/ped.md "wikilink") is damaged.
 
 Parameters
 ----------
@@ -7,7 +7,7 @@ Parameters
 element attacker, int weapon, int bodypart [, float loss ]
 ```
 
--   **attacker**: A [player](/player.md "wikilink") [element](/element.md "wikilink") representing the attacker or [vehicle](/vehicle.md "wikilink") [element](/element.md "wikilink") (when a ped falls of a bike).
+-   **attacker**: A [player](/docs/player.md "wikilink") [element](/element.md "wikilink") representing the attacker or [vehicle](/vehicle.md "wikilink") [element](/element.md "wikilink") (when a ped falls of a bike).
 -   **weapon**: An integer representing the weapon ID the attacker used
 -   **bodypart**: An integer representing the bodypart the ped was damaged
 
@@ -16,12 +16,12 @@ element attacker, int weapon, int bodypart [, float loss ]
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [ped](/ped.md "wikilink") that got damaged
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [ped](/ped.md "wikilink") that got damaged
 
 Cancel effect
 -------------
 
-If this event is [canceled](/Event_system#Canceling.md "wikilink"), then any damaging effects to the ped will cease.
+If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), then any damaging effects to the ped will cease.
 
 Example
 -------

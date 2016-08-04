@@ -1,4 +1,4 @@
-This function gets the [vehicle](/vehicle.md "wikilink") that the player is currently in, if any.
+This function gets the [vehicle](/docs/vehicle.md "wikilink") that the player is currently in, if any.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ vehicle getPlayerOccupiedVehicle ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/player.md "wikilink") whose vehicle you're looking up.
+-   **thePlayer**: The [player](/docs/player.md "wikilink") whose vehicle you're looking up.
 
 ### Returns
 

@@ -1,4 +1,4 @@
-This function tells you which weapon type is in a certain weapon slot of a ped. See [Weapon Info](/weapon.md "wikilink")
+This function tells you which weapon type is in a certain weapon slot of a ped. See [Weapon Info](/docs/weapon.md "wikilink")
 
 Syntax
 ------
@@ -9,7 +9,7 @@ int getPedWeapon ( ped thePed, [ int weaponSlot = current ] )
 
 ### Required Arguments
 
--   **thePed**: the [ped](/ped.md "wikilink") you want to get the weapon type from.
+-   **thePed**: the [ped](/docs/ped.md "wikilink") you want to get the weapon type from.
 
 ### Optional Arguments
 
@@ -17,9 +17,9 @@ int getPedWeapon ( ped thePed, [ int weaponSlot = current ] )
 
 ### Returns
 
-Returns an [int](/int.md "wikilink") indicating the type of the weapon the ped has in the specified slot. If the slot is empty, it returns 0.
+Returns an [int](/docs/int.md "wikilink") indicating the type of the weapon the ped has in the specified slot. If the slot is empty, it returns 0.
 
-It should be noted that if a ped runs out of ammo for a weapon, it will still return the ID of that weapon in the slot (even if it appears as if the ped does not have a weapon at all), though [getPedTotalAmmo](/getPedTotalAmmo.md "wikilink") will return **0**. Therefore, [getPedTotalAmmo](/getPedTotalAmmo.md "wikilink") should be used in conjunction with [getPedWeapon](/getPedWeapon.md "wikilink") in order to check if a ped has a weapon.
+It should be noted that if a ped runs out of ammo for a weapon, it will still return the ID of that weapon in the slot (even if it appears as if the ped does not have a weapon at all), though [getPedTotalAmmo](/docs/getPedTotalAmmo.md "wikilink") will return **0**. Therefore, [getPedTotalAmmo](/getPedTotalAmmo.md "wikilink") should be used in conjunction with [getPedWeapon](/getPedWeapon.md "wikilink") in order to check if a ped has a weapon.
 
 Example
 -------

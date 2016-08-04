@@ -1,4 +1,4 @@
-This function is used to create a new dummy element in the [element tree](/element_tree.md "wikilink") which do not necessarily represent an entity within the San Andreas world. A common use for this function is for creating custom elements, such as a Flag or a Base.
+This function is used to create a new dummy element in the [element tree](/docs/element_tree.md "wikilink") which do not necessarily represent an entity within the San Andreas world. A common use for this function is for creating custom elements, such as a Flag or a Base.
 
 Elements created using this function are placed in the element tree with their parent as the 'dynamic' map element.
 

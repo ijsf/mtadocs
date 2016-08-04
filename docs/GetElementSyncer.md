@@ -9,11 +9,11 @@ element getElementSyncer ( element theElement )
 
 ### Required Arguments
 
--   **theElement**: The [element](/element.md "wikilink") to get the syncer of.
+-   **theElement**: The [element](/docs/element.md "wikilink") to get the syncer of.
 
 ### Returns
 
-Returns the [element](/element.md "wikilink") that is the syncer of *theElement* or *false* if the element does not have a syncer.
+Returns the [element](/docs/element.md "wikilink") that is the syncer of *theElement* or *false* if the element does not have a syncer.
 
 Example
 -------

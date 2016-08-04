@@ -9,8 +9,8 @@ bool setPlayerRotation ( player thePlayer, float rotation )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") to set the rotation of
--   **rotation:** A [float](/float.md "wikilink") specifying the desired rotation in degrees.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") to set the rotation of
+-   **rotation:** A [float](/docs/float.md "wikilink") specifying the desired rotation in degrees.
 
 ### Returns
 

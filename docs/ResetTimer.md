@@ -9,7 +9,7 @@ bool resetTimer ( timer theTimer )
 
 ### Required Arguments
 
--   **theTimer:** The [timer](/timer.md "wikilink") whose elapsed time you wish to reset.
+-   **theTimer:** The [timer](/docs/timer.md "wikilink") whose elapsed time you wish to reset.
 
 ### Returns
 

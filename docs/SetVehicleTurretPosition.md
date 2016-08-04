@@ -9,7 +9,7 @@ bool setVehicleTurretPosition ( vehicle turretVehicle, float positionX, float po
 
 ### Required Arguments
 
--   **turretVehicle**: The [vehicle](/vehicle.md "wikilink") whose turret position you want to retrieve. This should be a vehicle with a turret.
+-   **turretVehicle**: The [vehicle](/docs/vehicle.md "wikilink") whose turret position you want to retrieve. This should be a vehicle with a turret.
 -   **positionX**: The horizontal position of the turret. In radians
 -   **positionY**: The vertical position of the turret. In radians
 

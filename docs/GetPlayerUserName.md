@@ -10,7 +10,7 @@ string getPlayerUserName ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") whose MTA account username you want to retrieve.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") whose MTA account username you want to retrieve.
 
 ### Returns
 

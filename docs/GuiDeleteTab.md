@@ -10,7 +10,7 @@ bool guiDeleteTab ( element tabToDelete, element tabPanel )
 ### Required Arguments
 
 -   **tabToDelete:** This is an element representing the tab that you want to delete.
--   **tabPanel:** This is the [tab panel](/guiCreateTabPanel.md "wikilink") parent that the tab is attached to.
+-   **tabPanel:** This is the [tab panel](/docs/guiCreateTabPanel.md "wikilink") parent that the tab is attached to.
 
 ### Returns
 

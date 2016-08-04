@@ -1,4 +1,4 @@
-<pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass> MTA MySQL is an alternative to the default [ml\_mysql](/Modules/MySQL.md "wikilink") module provided by the MTA team. It is available for Windows and GNU/Linux and provides the source code.
+<pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass> MTA MySQL is an alternative to the default [ml\_mysql](/docs/Modules/MySQL.md "wikilink") module provided by the MTA team. It is available for Windows and GNU/Linux and provides the source code.
 
 *Note: From version 0.4 it supports both DP2.3 and 1.0 servers.*
 
@@ -51,6 +51,6 @@ A function alias is a second name for a function, which makes calling any of the
 -   result:num\_fields() is the same as result:numfields()
 -   result:free\_result() is the same as result:free()
 
-[Category:Modules](/Category:Modules.md "wikilink")
+[Category:Modules](/docs/Category:Modules.md "wikilink")
 
-[ru:Modules/MTA-MySQL](/ru:Modules/MTA-MySQL.md "wikilink")
+[ru:Modules/MTA-MySQL](/docs/ru:Modules/MTA-MySQL.md "wikilink")

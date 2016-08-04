@@ -11,11 +11,11 @@ string gettok ( string text, int tokenNumber, string / int separatingCharacter )
 
 -   **text:** the string that should be split.
 -   **tokenNumber:** which token should be returned (1 for the first, 2 for the second, and so on).
--   **separatingCharacter:** the [ASCII number](/ASCII.md "wikilink") representing the character you want to use to separate the tokens. You can easily retrieve this by running string.byte on a string containing the separating character.
+-   **separatingCharacter:** the [ASCII number](/docs/ASCII.md "wikilink") representing the character you want to use to separate the tokens. You can easily retrieve this by running string.byte on a string containing the separating character.
 
 ### Returns
 
-Returns a [string](/string.md "wikilink") containing the token if it exists, *false* otherwise.
+Returns a [string](/docs/string.md "wikilink") containing the token if it exists, *false* otherwise.
 
 Example
 -------

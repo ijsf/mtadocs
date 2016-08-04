@@ -9,7 +9,7 @@ bool setElementID ( element theElement, string name )
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") you want to set the ID of.
+-   **theElement:** The [element](/docs/element.md "wikilink") you want to set the ID of.
 -   **name:** The new ID for theElement.
 
 ### Returns

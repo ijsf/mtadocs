@@ -1,4 +1,4 @@
-This function can be used to retrieve all the [players](/player.md "wikilink") currently observing a specified [textdisplay](/textdisplay.md "wikilink").
+This function can be used to retrieve all the [players](/docs/player.md "wikilink") currently observing a specified [textdisplay](/textdisplay.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ table textDisplayGetObservers ( textdisplay theDisplay )
 
 ### Required Arguments
 
--   **theDisplay**: The [textdisplay](/textdisplay.md "wikilink") of which observers you want to get.
+-   **theDisplay**: The [textdisplay](/docs/textdisplay.md "wikilink") of which observers you want to get.
 
 ### Returns
 
-Returns a [table](/table.md "wikilink") of players that are observers of the display or *false* if invalid textdisplay is passed.
+Returns a [table](/docs/table.md "wikilink") of players that are observers of the display or *false* if invalid textdisplay is passed.
 
 Example
 -------

@@ -1,4 +1,4 @@
-The DirectX scoreboard displays connected players, teams, pings and other data for players ingame. It also has a javascript-enabled web interface, so it can be viewed from a browser. It's created as a replacement for the old [scoreboard](/Resource:OldScoreboard.md "wikilink") resource created by [jbeta](/User:jbeta.md "wikilink").
+The DirectX scoreboard displays connected players, teams, pings and other data for players ingame. It also has a javascript-enabled web interface, so it can be viewed from a browser. It's created as a replacement for the old [scoreboard](/docs/Resource:OldScoreboard.md "wikilink") resource created by [jbeta](/User:jbeta.md "wikilink").
 
 The biggest difference to the old resource is that it is created fully using MTA's DirectX drawing functions. When you add a column to the scoreboard, it's linked to the element data field of the same name, so if you add the “score” column, element data in the field “score” will be shown for all players and teams.
 
@@ -106,7 +106,7 @@ int getNextFreePrioritySlot( [ int startAt = 1 ] )
 
 **Finds the next free priority slot.**
 
-**Note:** These functions used in [scoreboard](/scoreboard.md "wikilink") resource do also work in dxscoreboard.
+**Note:** These functions used in [scoreboard](/docs/scoreboard.md "wikilink") resource do also work in dxscoreboard.
 
 ``` lua
 bool addScoreboardColumn ( string columnName, element visibleToElement, int columnPosition, float columnSize )
@@ -237,7 +237,7 @@ table scoreboardGetSelectedRows ()
 
 *'Returns a table with all the selected rows (element, which can be either team or player). Can also return an empty table if rows are selected.*
 
-**Note:** These functions used in [scoreboard](/scoreboard.md "wikilink") resource do also work in dxscoreboard.
+**Note:** These functions used in [scoreboard](/docs/scoreboard.md "wikilink") resource do also work in dxscoreboard.
 
 ``` lua
 bool setScoreboardForced ( bool forced )
@@ -256,7 +256,7 @@ bool selected, int cursorX, int cursorY
 -   **cursorY:** Absolute Y position of the cursor.
 
 **Triggered when a player clicks team/player row with the left mouse button.**
-**Event *source* is the element was clicked, can be either [player](/player.md "wikilink") or [team](/team.md "wikilink").**
+**Event *source* is the element was clicked, can be either [player](/docs/player.md "wikilink") or [team](/team.md "wikilink").**
 
 </section>
 You can call them from another resource using call()
@@ -276,4 +276,4 @@ You can set the scoreboard data with setElementData:
 setElementData ( player, "Wanted level", 3 ) 
 ```
 
-[ru:<Resource:Scoreboard>](/ru:Resource:Scoreboard.md "wikilink")
+[ru:<Resource:Scoreboard>](/docs/ru:Resource:Scoreboard.md "wikilink")

@@ -1,4 +1,4 @@
-Please use [setPedFightingStyle](/setPedFightingStyle.md "wikilink")
+Please use [setPedFightingStyle](/docs/setPedFightingStyle.md "wikilink")
 
 Changes a player's fighting style, most only change the 'special attack' which is done using the Aim and Enter keys.
 

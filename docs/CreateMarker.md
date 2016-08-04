@@ -30,7 +30,7 @@ marker createMarker ( float x, float y, float z [, string theType = "checkpoint"
 -   **g**: An integer number representing the amount of green to use in the colouring of the marker (0 - 255).
 -   **b**: An integer number representing the amount of blue to use in the colouring of the marker (0 - 255).
 -   **a**: An integer number representing the amount of alpha to use in the colouring of the marker (0 - 255 where 0 is transparent and 255 is opaque).
--   **visibleTo**: This defines which elements can see the marker. Defaults to visible to everyone. See [visibility](/visibility.md "wikilink").
+-   **visibleTo**: This defines which elements can see the marker. Defaults to visible to everyone. See [visibility](/docs/visibility.md "wikilink").
 
 </section>
 <section name="Client" class="client" show="true">
@@ -57,7 +57,7 @@ marker createMarker ( float x, float y, float z [, string theType = "checkpoint"
 </section>
 ### Returns
 
-Returns the [marker](/marker.md "wikilink") element that was created, or *false* if the arguments are incorrect.
+Returns the [marker](/docs/marker.md "wikilink") element that was created, or *false* if the arguments are incorrect.
 
 Example
 -------
@@ -86,4 +86,4 @@ addCommandHandler ( "createmarker", consoleCreateMarker )
 See Also
 --------
 
-[ru:createMarker](/ru:createMarker.md "wikilink") [ar:createMarker](/ar:createMarker.md "wikilink")
+[ru:createMarker](/docs/ru:createMarker.md "wikilink") [ar:createMarker](/ar:createMarker.md "wikilink")

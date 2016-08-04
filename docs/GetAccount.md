@@ -1,4 +1,4 @@
-This function returns an [account](/account.md "wikilink") for a specific user.
+This function returns an [account](/docs/account.md "wikilink") for a specific user.
 
 Syntax
 ------
@@ -17,7 +17,7 @@ account getAccount ( string username, [ string password ] )
 
 ### Returns
 
-Returns an [account](/account.md "wikilink") or *false* if an account matching the username specified (and password, if specified) could not be found.
+Returns an [account](/docs/account.md "wikilink") or *false* if an account matching the username specified (and password, if specified) could not be found.
 
 Example
 -------
@@ -35,4 +35,4 @@ end)
 See Also
 --------
 
-[ar:getAccount](/ar:getAccount.md "wikilink") [es:getAccount](/es:getAccount.md "wikilink") [pl:GetAccount](/pl:GetAccount.md "wikilink") [ru:getAccount](/ru:getAccount.md "wikilink")
+[ar:getAccount](/docs/ar:getAccount.md "wikilink") [es:getAccount](/es:getAccount.md "wikilink") [pl:GetAccount](/pl:GetAccount.md "wikilink") [ru:getAccount](/ru:getAccount.md "wikilink")

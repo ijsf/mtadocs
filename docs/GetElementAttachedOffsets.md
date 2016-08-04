@@ -1,4 +1,4 @@
-This function returns the offsets of an element that has been attached to another element using [attachElements](/attachElements.md "wikilink").
+This function returns the offsets of an element that has been attached to another element using [attachElements](/docs/attachElements.md "wikilink").
 
 Syntax
 ------
@@ -13,7 +13,7 @@ float, float, float, float, float, float getElementAttachedOffsets ( element the
 
 ### Returns
 
-Returns 6 [floats](/float.md "wikilink"), of which the first 3 indicate the position offset (x, y, z), and the last 3 indicate the rotation offset (x, y, z), if successful. *false* otherwise.
+Returns 6 [floats](/docs/float.md "wikilink"), of which the first 3 indicate the position offset (x, y, z), and the last 3 indicate the rotation offset (x, y, z), if successful. *false* otherwise.
 
 Example
 -------

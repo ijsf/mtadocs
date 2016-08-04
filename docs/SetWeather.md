@@ -1,4 +1,4 @@
-This function sets the current [weather](/weather.md "wikilink") to the given valid value. To change the weather gradually, see [setWeatherBlended](/setWeatherBlended.md "wikilink").
+This function sets the current [weather](/docs/weather.md "wikilink") to the given valid value. To change the weather gradually, see [setWeatherBlended](/setWeatherBlended.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setWeather ( int weatherID )
 
 ### Required Arguments
 
--   **weatherID**: The ID of new [weather](/weather.md "wikilink"). Valid values are 0 to 255 inclusive.
+-   **weatherID**: The ID of new [weather](/docs/weather.md "wikilink"). Valid values are 0 to 255 inclusive.
 
 ### Returns
 
@@ -28,4 +28,4 @@ outputChatBox ( "Weather changed to foggy!" )
 See Also
 --------
 
-[ru:setWeather](/ru:setWeather.md "wikilink")
+[ru:setWeather](/docs/ru:setWeather.md "wikilink")

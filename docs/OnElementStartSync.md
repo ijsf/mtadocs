@@ -7,12 +7,12 @@ Parameters
 player newSyncer
 ```
 
--   **newSyncer**: [player](/player.md "wikilink") element representing the player who is now syncing the element
+-   **newSyncer**: [player](/docs/player.md "wikilink") element representing the player who is now syncing the element
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [element](/element.md "wikilink") that got synced by a player.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [element](/element.md "wikilink") that got synced by a player.
 
 Example
 -------

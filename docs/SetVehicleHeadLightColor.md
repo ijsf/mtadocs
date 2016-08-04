@@ -9,7 +9,7 @@ bool setVehicleHeadLightColor ( vehicle theVehicle, int red, int green, int blue
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") that you wish to set the headlight color of.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") that you wish to set the headlight color of.
 -   **red:** An integer indicating the amount of red for the vehicle's headlights
 -   **green:** An integer indicating the amount of green for the vehicle's headlights
 -   **blue:** An integer indicating the amount of blue for the vehicle's headlights

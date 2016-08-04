@@ -1,4 +1,4 @@
-This function copies all contents of a certain node in a XML document to a new document file, so the copied node becomes the new file's root node. The new file will not be saved to file system until [xmlSaveFile](/xmlSaveFile.md "wikilink")() is called
+This function copies all contents of a certain node in a XML document to a new document file, so the copied node becomes the new file's root node. The new file will not be saved to file system until [xmlSaveFile](/docs/xmlSaveFile.md "wikilink")() is called
 
 Syntax
 ------
@@ -9,7 +9,7 @@ xmlnode xmlCopyFile ( xmlnode nodeToCopy, string newFilePath )
 
 ### Required Arguments
 
--   **nodeToCopy:** the [xmlnode](/xmlnode.md "wikilink") that is to be copied to a new document.
+-   **nodeToCopy:** the [xmlnode](/docs/xmlnode.md "wikilink") that is to be copied to a new document.
 -   **newFilePath:** the path of the file that is to be created, in the following format: **":resourceName/path"**. 'resourceName' is the name of the resource the file is in, and 'path' is the path from the root directory of the resource to the file.
 
   
@@ -19,7 +19,7 @@ If the file is to be in the current resource, only the file path is necessary, e
 
 ### Returns
 
-Returns the [xmlnode](/xmlnode.md "wikilink") of the copy if the node was successfully copied, *false* if invalid arguments were passed.
+Returns the [xmlnode](/docs/xmlnode.md "wikilink") of the copy if the node was successfully copied, *false* if invalid arguments were passed.
 
 Example
 -------
@@ -41,4 +41,4 @@ xmlUnloadFile(config)
 See Also
 --------
 
-[ru:xmlCopyFile](/ru:xmlCopyFile.md "wikilink")
+[ru:xmlCopyFile](/docs/ru:xmlCopyFile.md "wikilink")

@@ -1,4 +1,4 @@
-[Image:moe.png](/Image:moe.png.md "wikilink")
+[Image:moe.png](/docs/Image:moe.png.md "wikilink")
 
 What is it?
 -----------
@@ -21,19 +21,19 @@ Once you are in the map editor:
 
 1.  Click on the *Definitions* icon.
       
-    [Image:Editor\_Definitions.png](/Image:Editor_Definitions.png.md "wikilink")
+    [Image:Editor\_Definitions.png](/docs/Image:Editor_Definitions.png.md "wikilink")
 
 2.  Click on *moe* and click the *Add* button
       
-    [Image:moe\_addedf.png](/Image:moe_addedf.png.md "wikilink")
+    [Image:moe\_addedf.png](/docs/Image:moe_addedf.png.md "wikilink")
 
 3.  Position your mouse on the buttons on the bottom-left corner
       
-    [Image:moe\_scroll1.png](/Image:moe_scroll1.png.md "wikilink")
+    [Image:moe\_scroll1.png](/docs/Image:moe_scroll1.png.md "wikilink")
 
 4.  *Scroll* your mousewheel until you reach the MOE-buttons
       
-    [Image:moe\_scroll2.png](/Image:moe_scroll2.png.md "wikilink")
+    [Image:moe\_scroll2.png](/docs/Image:moe_scroll2.png.md "wikilink")
 
 5.  You are now ready to use it! Don't forget to save!
 
@@ -52,11 +52,11 @@ Once you attach objects to an object that is going to move, the objects attached
 2.  Create the child-object you want to attach to the parent-object, position and rotate it as you like. In the *Properties*-window of an object, set the parent-object as parent (**to re-open the *Properties*-window of an object, select the object and press** ***F3***).
     1.  Click on the *Browse*-button next to *parent*
           
-        [Image:moe\_propset.png](/Image:moe_propset.png.md "wikilink")
+        [Image:moe\_propset.png](/docs/Image:moe_propset.png.md "wikilink")
 
     2.  Select the object you want to attach it to (click for enlargement)
           
-        [300px](/Image:moe_selectob.png.md "wikilink")
+        [300px](/docs/Image:moe_selectob.png.md "wikilink")
 
     3.  Click the *OK*-button
     4.  Click the *OK*-button again in the *Properties*-window
@@ -67,7 +67,7 @@ Done! The attached child-object will now move with the parent-object!
 
 ### Rotating: Back and forth
 
-[right](/Image:moe_properties_backforth.png.md "wikilink") [leftRotating](/Image:rotate_backforth.png.md "wikilink") back and forth means rotating like a door: it rotates to 'open' and then rotates back to 'close' again. This sort of movement comes in very handy if you want to make doors that open like the doors in your house.
+[right](/docs/Image:moe_properties_backforth.png.md "wikilink") [leftRotating](/Image:rotate_backforth.png.md "wikilink") back and forth means rotating like a door: it rotates to 'open' and then rotates back to 'close' again. This sort of movement comes in very handy if you want to make doors that open like the doors in your house.
 
 ##### How to assign it
 
@@ -106,7 +106,7 @@ This explains what you need to fill in and what every option does.
 
 ### Rotating: Repeat rotation
 
-[right](/Image:moe_properties_roundround.png.md "wikilink") [leftRepeat](/Image:rotate_roundround.png.md "wikilink") rotation means that it will continue to rotate in the same direction, like a windmill.
+[right](/docs/Image:moe_properties_roundround.png.md "wikilink") [leftRepeat](/Image:rotate_roundround.png.md "wikilink") rotation means that it will continue to rotate in the same direction, like a windmill.
 
 ##### How to assign it
 
@@ -140,7 +140,7 @@ This explains what you need to fill in and what every option does.
 
 ### Tracks
 
-[right](/Image:moe_properties_track.png.md "wikilink") [leftA](/Image:moe_tracks.png.md "wikilink") track is an object that moves along a path, from one point to another, like an elevator/lift, a sliding door or a traintrack.
+[right](/docs/Image:moe_properties_track.png.md "wikilink") [leftA](/Image:moe_tracks.png.md "wikilink") track is an object that moves along a path, from one point to another, like an elevator/lift, a sliding door or a traintrack.
 
 ##### How to assign it
 

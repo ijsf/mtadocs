@@ -20,7 +20,7 @@ Syntax
 
 ### Returns
 
-Returns *true* if the [gui-browser](/gui-browser.md "wikilink") element was successfully created, *false* otherwise. Returns also *false*, if the user disabled remote pages and *isLocal* was set to *false*.
+Returns *true* if the [gui-browser](/docs/gui-browser.md "wikilink") element was successfully created, *false* otherwise. Returns also *false*, if the user disabled remote pages and *isLocal* was set to *false*.
 
 Example
 -------

@@ -1,5 +1,5 @@
 <div style="border: 1px dotted blue; background: #00CC66;padding:4px;margin-bottom:2px;">
-**Note**: This function should only be used as a low-level function for advanced users. For typical Voice scripting, please see the [Voice Resource](/Resource:Voice.md "wikilink")
+**Note**: This function should only be used as a low-level function for advanced users. For typical Voice scripting, please see the [Voice Resource](/docs/Resource:Voice.md "wikilink")
 
 </div>
 This function allows you to change who can hear the voice of a player.
@@ -13,7 +13,7 @@ bool setPlayerVoiceBroadcastTo ( element thePlayer, mixed broadcastTo )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") you wish to change
+-   **thePlayer:** The [player](/docs/player.md "wikilink") you wish to change
 -   **broadcastTo :** Element or table of elements who should hear the voice from this player
 
 ### Returns

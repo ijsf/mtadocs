@@ -1,6 +1,6 @@
-This function allows you to set a ped's aim target to a specific point. If a ped is within a certain range defined by [getPedTargetStart](/getPedTargetStart.md "wikilink") and [getPedTargetEnd](/getPedTargetEnd.md "wikilink") he will be targeted and shot.
+This function allows you to set a ped's aim target to a specific point. If a ped is within a certain range defined by [getPedTargetStart](/docs/getPedTargetStart.md "wikilink") and [getPedTargetEnd](/getPedTargetEnd.md "wikilink") he will be targeted and shot.
 
-*Note: If you wish to make a ped shoot you must use this in conjunction with an equipped weapon and [setPedControlState](/setPedControlState.md "wikilink").*
+*Note: If you wish to make a ped shoot you must use this in conjunction with an equipped weapon and [setPedControlState](/docs/setPedControlState.md "wikilink").*
 
 Syntax
 ------

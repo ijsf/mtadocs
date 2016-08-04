@@ -41,4 +41,4 @@ addCommandHandler("setgamespeed",
 See Also
 --------
 
-[ru:setGameSpeed](/ru:setGameSpeed.md "wikilink")
+[ru:setGameSpeed](/docs/ru:setGameSpeed.md "wikilink")

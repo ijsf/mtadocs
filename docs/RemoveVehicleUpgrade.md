@@ -12,7 +12,7 @@ bool removeVehicleUpgrade ( vehicle theVehicle, int upgrade )
 
 ### Required Arguments
 
--   **theVehicle**: The [element](/element.md "wikilink") representing the [vehicle](/vehicle.md "wikilink") you wish to remove the upgrade from
+-   **theVehicle**: The [element](/docs/element.md "wikilink") representing the [vehicle](/vehicle.md "wikilink") you wish to remove the upgrade from
 -   **upgrade**: The ID of the upgrade you wish to remove.
 
 Returns

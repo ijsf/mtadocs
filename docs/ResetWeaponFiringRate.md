@@ -1,4 +1,4 @@
-This function resets the firing rate of a [custom weapon](/Element/Weapon.md "wikilink") to the default one.
+This function resets the firing rate of a [custom weapon](/docs/Element/Weapon.md "wikilink") to the default one.
 
 Syntax
 ------

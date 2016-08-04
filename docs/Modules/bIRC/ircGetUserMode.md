@@ -15,7 +15,7 @@ string ircGetUserMode ( ircbot theBot, string channel, string user )
 
 ### Returns
 
-Returns a [string](/string.md "wikilink") containing a series of symbols, each representing a user mode. Symbols are
+Returns a [string](/docs/string.md "wikilink") containing a series of symbols, each representing a user mode. Symbols are
 
 -   **+:** user is voiced in the channel
 -   **%:** user is a channel half-operator

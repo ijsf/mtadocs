@@ -9,12 +9,12 @@ element getProjectileTarget ( projectile theProjectile )
 
 ### Required Arguments
 
--   **theProjectile:** The [projectile](/projectiles.md "wikilink") element which target you want to retrieve.
+-   **theProjectile:** The [projectile](/docs/projectiles.md "wikilink") element which target you want to retrieve.
 
 Returns
 -------
 
-Returns the [element](/element.md "wikilink") which is the projectile's target if the projectile is valid and can have a target (like a heat-seeking rocket), *false* otherwise.
+Returns the [element](/docs/element.md "wikilink") which is the projectile's target if the projectile is valid and can have a target (like a heat-seeking rocket), *false* otherwise.
 
 Example
 -------
@@ -38,4 +38,4 @@ addCommandHandler("rocket",projectileCreating) -- Bind the 'rocket' command to p
 See also
 --------
 
-[it:getProjectileTarget](/it:getProjectileTarget.md "wikilink")
+[it:getProjectileTarget](/docs/it:getProjectileTarget.md "wikilink")

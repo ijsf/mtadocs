@@ -9,7 +9,7 @@ string getElementType ( element theElement )
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") you wish to get the type of.
+-   **theElement:** The [element](/docs/element.md "wikilink") you wish to get the type of.
 
 ### Returns
 

@@ -1,6 +1,6 @@
 <lowercasetitle/>
 
-This function checks if the [element](/element.md "wikilink") is in a [colshape](/colshape.md "wikilink").
+This function checks if the [element](/docs/element.md "wikilink") is in a [colshape](/colshape.md "wikilink").
 
 Syntax
 ------
@@ -23,7 +23,7 @@ Syntax
 
 ### Returns
 
-Returns a [colshape](/colshape.md "wikilink") the [element](/element.md "wikilink") is in else false if the element isn't in one or no arguments were passed.
+Returns a [colshape](/docs/colshape.md "wikilink") the [element](/element.md "wikilink") is in else false if the element isn't in one or no arguments were passed.
 
 ### Code
 

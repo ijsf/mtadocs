@@ -9,17 +9,17 @@ element loadMapData ( xmlnode node, element parent )
 
 ### Required Arguments
 
--   **node:** The node that you wish to load into the [element tree](/element_tree.md "wikilink").
+-   **node:** The node that you wish to load into the [element tree](/docs/element_tree.md "wikilink").
 -   **parent:** The node you wish to be the parent of the new map data.
 
 ### Returns
 
-Returns an [element](/element.md "wikilink") object that corresponds to the root of the new data added, i.e. an element that represents the *node* xmlnode passed to the function. Returns *false* if the arguments are invalid.
+Returns an [element](/docs/element.md "wikilink") object that corresponds to the root of the new data added, i.e. an element that represents the *node* xmlnode passed to the function. Returns *false* if the arguments are invalid.
 
 Example
 -------
 
-This example is a function that you could use to load an arbitary [map file](/Map_Files.md "wikilink") into the [element tree](/element_tree.md "wikilink").
+This example is a function that you could use to load an arbitary [map file](/docs/Map_Files.md "wikilink") into the [element tree](/element_tree.md "wikilink").
 
 ``` lua
 function loadMapFile ( filename )

@@ -120,4 +120,4 @@ This file contains general access settings for MTA. You should modify this file 
 | controlPanel.requirePassword | TODO                                                                                                                            |
 | resource.*\#name\#*          | Grants the user access to a resource. The \#name\# field is a **globmatch** so you can use the **\*** for wildcard definitions. |
 
-[Category:Resource](/Category:Resource.md "wikilink")
+[Category:Resource](/docs/Category:Resource.md "wikilink")

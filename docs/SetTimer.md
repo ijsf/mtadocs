@@ -26,7 +26,7 @@ timer setTimer ( function theFunction, int timeInterval, int timesToExecute, [ v
 
 ### Returns
 
-Returns a [timer](/timer.md "wikilink") pointer if the timer was set successfully, *false* if the arguments are invalid or the timer could not be set.
+Returns a [timer](/docs/timer.md "wikilink") pointer if the timer was set successfully, *false* if the arguments are invalid or the timer could not be set.
 
 Examples
 --------

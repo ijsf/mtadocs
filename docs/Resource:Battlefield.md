@@ -5,22 +5,22 @@ Functions
 
 -   Server
     -   Squad Functions
-        -   [createSquad](/Resource:battlefield/createSquad.md "wikilink")
-        -   [getSquad](/Resource:battlefield/getSquad.md "wikilink")
-        -   [getSquadShortn](/Resource:battlefield/getSquadShortn.md "wikilink")
-        -   [getSquadName](/Resource:battlefield/getSquadName.md "wikilink")
-        -   [getSquadTeam](/Resource:battlefield/getSquadTeam.md "wikilink")
+        -   [createSquad](/docs/Resource:battlefield/createSquad.md "wikilink")
+        -   [getSquad](/docs/Resource:battlefield/getSquad.md "wikilink")
+        -   [getSquadShortn](/docs/Resource:battlefield/getSquadShortn.md "wikilink")
+        -   [getSquadName](/docs/Resource:battlefield/getSquadName.md "wikilink")
+        -   [getSquadTeam](/docs/Resource:battlefield/getSquadTeam.md "wikilink")
     -   Player Functions
-        -   [setPlayerSquad](/Resource:battlefield/setPlayerSquad.md "wikilink")
-        -   [getPlayerSquad](/Resource:battlefield/getPlayerSquad.md "wikilink")
-        -   [isPlayerSpotted](/Resource:battlefield/isPlayerSpotted.md "wikilink")
-        -   [setPlayerSpotted](/Resource:battlefield/setPlayerSpotted.md "wikilink")
+        -   [setPlayerSquad](/docs/Resource:battlefield/setPlayerSquad.md "wikilink")
+        -   [getPlayerSquad](/docs/Resource:battlefield/getPlayerSquad.md "wikilink")
+        -   [isPlayerSpotted](/docs/Resource:battlefield/isPlayerSpotted.md "wikilink")
+        -   [setPlayerSpotted](/docs/Resource:battlefield/setPlayerSpotted.md "wikilink")
     -   Vehicle Functions
-        -   [isVehicleSpotted](/Resource:battlefield/isVehicleSpotted.md "wikilink")
-        -   [setVehicleSpotted](/Resource:battlefield/setVehicleSpotted.md "wikilink")
+        -   [isVehicleSpotted](/docs/Resource:battlefield/isVehicleSpotted.md "wikilink")
+        -   [setVehicleSpotted](/docs/Resource:battlefield/setVehicleSpotted.md "wikilink")
 -   Client
 
 Events
 ------
 
-Nothing here yet. :) [Category:Resource](/Category:Resource.md "wikilink")
+Nothing here yet. :) [Category:Resource](/docs/Category:Resource.md "wikilink")

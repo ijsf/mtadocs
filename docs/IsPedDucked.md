@@ -1,4 +1,4 @@
-This function checks if the specified [ped](/ped.md "wikilink") is ducked (crouched) or not.
+This function checks if the specified [ped](/docs/ped.md "wikilink") is ducked (crouched) or not.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool isPedDucked ( ped thePed )
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink") to check.
+-   **thePed**: The [ped](/docs/ped.md "wikilink") to check.
 
 ### Returns
 
@@ -58,7 +58,7 @@ end
 ```
 
 </section>
-[ru:IsPedDucked](/ru:IsPedDucked.md "wikilink")
+[ru:IsPedDucked](/docs/ru:IsPedDucked.md "wikilink")
 
 See Also
 --------

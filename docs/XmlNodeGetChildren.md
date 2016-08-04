@@ -9,7 +9,7 @@ Syntax
 
 ### Required Arguments
 
--   **parent:** This is the [xmlnode](/xmlnode.md "wikilink") you want to retrieve one or all child nodes of.
+-   **parent:** This is the [xmlnode](/docs/xmlnode.md "wikilink") you want to retrieve one or all child nodes of.
 
 ### Optional Arguments
 
@@ -61,4 +61,4 @@ addEventHandler(“onPlayerJoin”, getRootElement(),
 See Also
 --------
 
-[ru:xmlNodeGetChildren](/ru:xmlNodeGetChildren.md "wikilink")
+[ru:xmlNodeGetChildren](/docs/ru:xmlNodeGetChildren.md "wikilink")

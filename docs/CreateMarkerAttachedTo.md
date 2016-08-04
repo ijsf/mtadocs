@@ -1,6 +1,6 @@
 <lowercasetitle/>
 
-This function creates a [marker](/marker.md "wikilink") that is attached to an [element](/element.md "wikilink"). This marker is a 3D model and will 'follow' the element that it is attached to around.
+This function creates a [marker](/docs/marker.md "wikilink") that is attached to an [element](/element.md "wikilink"). This marker is a 3D model and will 'follow' the element that it is attached to around.
 
 Syntax
 ------
@@ -11,7 +11,7 @@ Syntax
 
 ### Required Arguments
 
--   **elementToAttachTo:** The [element](/element.md "wikilink") to attach the marker to.
+-   **elementToAttachTo:** The [element](/docs/element.md "wikilink") to attach the marker to.
 
 ### Optional arguments
 
@@ -22,7 +22,7 @@ Syntax
 -   **g**: An integer number representing the amount of green to use in the colouring of the marker (0 - 255).
 -   **b**: An integer number representing the amount of blue to use in the colouring of the marker (0 - 255).
 -   **a**: An integer number representing the amount of alpha to use in the colouring of the marker (0 - 255 where 0 is transparent and 255 is opaque).
--   **visibleTo**: This defines which elements can see the marker. Defaults to visible to everyone. See [visibility](/visibility.md "wikilink").
+-   **visibleTo**: This defines which elements can see the marker. Defaults to visible to everyone. See [visibility](/docs/visibility.md "wikilink").
 -   **xPosOffset:** The x offset, if you want the elements to be a certain distance from one another (default 0).
 -   **yPosOffset:** The y offset (default 0).
 -   **zPosOffset:** The z offset (default 0).

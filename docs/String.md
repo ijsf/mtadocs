@@ -16,6 +16,6 @@ Here is a list of every default string manipulation function present in Lua.
 -   [string.sub](http://www.lua.org/manual/5.1/manual.html#pdf-string.sub)
 -   [string.upper](http://www.lua.org/manual/5.1/manual.html#pdf-string.upper)
 
-[Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink")
 
-[de:string](/de:string.md "wikilink") [ru:String](/ru:String.md "wikilink")
+[de:string](/docs/de:string.md "wikilink") [ru:String](/ru:String.md "wikilink")

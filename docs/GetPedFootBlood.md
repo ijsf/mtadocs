@@ -9,7 +9,7 @@ int getPedFootBlood ( ped thePed )
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink").
+-   **thePed**: The [ped](/docs/ped.md "wikilink").
 
 ### Returns
 

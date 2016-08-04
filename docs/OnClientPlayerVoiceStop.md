@@ -1,5 +1,5 @@
 <div style="border: 1px dotted blue; background: #00CC66;padding:4px;margin-bottom:2px;">
-**Note**: This event should only be used as a low-level function for advanced users. For typical Voice scripting, please see the [Voice Resource](/Resource:Voice.md "wikilink")
+**Note**: This event should only be used as a low-level function for advanced users. For typical Voice scripting, please see the [Voice Resource](/docs/Resource:Voice.md "wikilink")
 
 </div>
 This event is triggered when a player stops talking through voice chat.
@@ -12,13 +12,13 @@ No parameters.
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the player [element](/element.md "wikilink") that just stopped talking through voice chat.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the player [element](/element.md "wikilink") that just stopped talking through voice chat.
 
 Cancel effect
 -------------
 
--   If the [source](/event_system#Event_source.md "wikilink") is the local player, the local player will not broadcast his voice chat to the server
--   If the [source](/event_system#Event_source.md "wikilink") is a remote player, the player who started talking will not be heard.
+-   If the [source](/docs/event_system#Event_source.md "wikilink") is the local player, the local player will not broadcast his voice chat to the server
+-   If the [source](/docs/event_system#Event_source.md "wikilink") is a remote player, the player who started talking will not be heard.
 
 Example
 -------

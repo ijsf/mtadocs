@@ -1,4 +1,4 @@
-This function sets the camera rotation of a ped, e.g. where its camera will look at. Don't confuse this with [getCameraMatrix](/getCameraMatrix.md "wikilink"), because that function is designed for fixed (scripted) camera moves.
+This function sets the camera rotation of a ped, e.g. where its camera will look at. Don't confuse this with [getCameraMatrix](/docs/getCameraMatrix.md "wikilink"), because that function is designed for fixed (scripted) camera moves.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setPedCameraRotation ( ped thePed, float cameraRotation )
 
 ### Required Arguments
 
--   **thePed:** The [ped](/ped.md "wikilink") whose camera rotation is to be changed.
+-   **thePed:** The [ped](/docs/ped.md "wikilink") whose camera rotation is to be changed.
 -   **cameraRotation:** The new direction that the ped will walk if you set their forwards control state. If the ped is the local player, it will also change where his camera is looking at if it isn't fixed (i.e. camera target is the local player).
 
 ### Returns

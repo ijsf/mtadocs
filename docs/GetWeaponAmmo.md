@@ -1,4 +1,4 @@
-This function gets the total ammo a [custom weapon](/Element/Weapon.md "wikilink") has.
+This function gets the total ammo a [custom weapon](/docs/Element/Weapon.md "wikilink") has.
 
 Syntax
 ------
@@ -13,7 +13,7 @@ int getWeaponAmmo ( weapon theWeapon )
 
 ### Returns
 
-Returns an [integer](/int.md "wikilink") containing how many ammo left has the weapon. Returns *false* if an error occured.
+Returns an [integer](/docs/int.md "wikilink") containing how many ammo left has the weapon. Returns *false* if an error occured.
 
 Example
 -------

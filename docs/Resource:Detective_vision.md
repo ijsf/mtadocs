@@ -1,5 +1,5 @@
 This resource able players to see other ped/players below walls and check theys info. You can download it [here](http://community.multitheftauto.com/index.php?p=resources&s=details&id=2074).
-[thumb|How its looks](/Image:Dvision.png.md "wikilink")
+[thumb|How its looks](/docs/Image:Dvision.png.md "wikilink")
 
 Exported Functions
 ------------------

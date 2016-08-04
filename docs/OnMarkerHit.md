@@ -1,4 +1,4 @@
-This event is triggered when an element enters a marker created using [createMarker](/createMarker.md "wikilink").
+This event is triggered when an element enters a marker created using [createMarker](/docs/createMarker.md "wikilink").
 
 Parameters
 ----------
@@ -13,7 +13,7 @@ element hitElement, bool matchingDimension
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [marker](/marker.md "wikilink") that got hit by the element.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [marker](/marker.md "wikilink") that got hit by the element.
 
 Example
 -------

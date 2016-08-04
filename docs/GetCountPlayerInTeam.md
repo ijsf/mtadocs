@@ -1,6 +1,6 @@
-**Note:** Use [countPlayersInTeam](/countPlayersInTeam.md "wikilink") instead
+**Note:** Use [countPlayersInTeam](/docs/countPlayersInTeam.md "wikilink") instead
 
-This function get count [player](/player.md "wikilink") in [team](/team.md "wikilink").
+This function get count [player](/docs/player.md "wikilink") in [team](/team.md "wikilink").
 
 Syntax
 ------
@@ -11,7 +11,7 @@ int getCountPlayerInTeam ( team )
 
 ### Arguments
 
--   **team**: a [team](/team.md "wikilink") to get count players in this team.
+-   **team**: a [team](/docs/team.md "wikilink") to get count players in this team.
 
 ### Returns
 

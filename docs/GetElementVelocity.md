@@ -9,7 +9,7 @@ float float float getElementVelocity ( element theElement )
 
 ### Required Arguments
 
--   **theElement**: The [element](/element.md "wikilink") you wish to retrieve the velocity of.
+-   **theElement**: The [element](/docs/element.md "wikilink") you wish to retrieve the velocity of.
 
 ### Returns
 

@@ -9,12 +9,12 @@ table getSoundWaveData ( element sound, int iSamples )
 
 ### Required Arguments
 
--   **sound:** a [sound](/sound.md "wikilink") [element](/element.md "wikilink") that is created using [playSound](/playSound.md "wikilink") or [playSound3D](/playSound3D.md "wikilink"). Streams are also supported
+-   **sound:** a [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") that is created using [playSound](/playSound.md "wikilink") or [playSound3D](/playSound3D.md "wikilink"). Streams are also supported
 -   **iSamples:** allowed samples are 256, 512, 1024, 2048, 4096, 8192 and 16384.
 
 ### Returns
 
-Returns a [table](/table.md "wikilink") of **iSamples**/2 floats representing the current audio frame waveform. Returns *false* if the sound is not playing yet or hasn't buffered in the case of streams.
+Returns a [table](/docs/table.md "wikilink") of **iSamples**/2 floats representing the current audio frame waveform. Returns *false* if the sound is not playing yet or hasn't buffered in the case of streams.
 
 Example
 -------
@@ -75,4 +75,4 @@ Changelog
 See Also
 --------
 
-[ar:getSoundWaveData](/ar:getSoundWaveData.md "wikilink")
+[ar:getSoundWaveData](/docs/ar:getSoundWaveData.md "wikilink")

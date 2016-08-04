@@ -44,4 +44,4 @@ end
 See Also
 --------
 
-[ru:getGroundPosition](/ru:getGroundPosition.md "wikilink")
+[ru:getGroundPosition](/docs/ru:getGroundPosition.md "wikilink")

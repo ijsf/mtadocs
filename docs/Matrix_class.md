@@ -2,30 +2,30 @@
 
 ### Metamethods
 
--   [\_\_tostring](/Matrix._tostring.md "wikilink")
--   [\_\_gc](/Matrix._gc.md "wikilink")
--   [\_\_add](/Matrix._add.md "wikilink")
--   [\_\_sub](/Matrix._sub.md "wikilink")
--   [\_\_mul](/Matrix._mul.md "wikilink")
--   [\_\_div](/Matrix._div.md "wikilink")
+-   [\_\_tostring](/docs/Matrix._tostring.md "wikilink")
+-   [\_\_gc](/docs/Matrix._gc.md "wikilink")
+-   [\_\_add](/docs/Matrix._add.md "wikilink")
+-   [\_\_sub](/docs/Matrix._sub.md "wikilink")
+-   [\_\_mul](/docs/Matrix._mul.md "wikilink")
+-   [\_\_div](/docs/Matrix._div.md "wikilink")
 
 ### Methods
 
--   [create](/Matrix.create.md "wikilink")
--   [getPosition](/Matrix.getPosition.md "wikilink")
--   [getRotation](/Matrix.getRotation.md "wikilink")
--   [getFront](/Matrix.getFront.md "wikilink")
--   [getRight](/Matrix.getRight.md "wikilink")
--   [getUp](/Matrix.getUp.md "wikilink")
--   [setPosition](/Matrix.setPosition.md "wikilink")
--   [setFront](/Matrix.setFront.md "wikilink")
--   [setRight](/Matrix.setRight.md "wikilink")
--   [setUp](/Matrix.setUp.md "wikilink")
+-   [create](/docs/Matrix.create.md "wikilink")
+-   [getPosition](/docs/Matrix.getPosition.md "wikilink")
+-   [getRotation](/docs/Matrix.getRotation.md "wikilink")
+-   [getFront](/docs/Matrix.getFront.md "wikilink")
+-   [getRight](/docs/Matrix.getRight.md "wikilink")
+-   [getUp](/docs/Matrix.getUp.md "wikilink")
+-   [setPosition](/docs/Matrix.setPosition.md "wikilink")
+-   [setFront](/docs/Matrix.setFront.md "wikilink")
+-   [setRight](/docs/Matrix.setRight.md "wikilink")
+-   [setUp](/docs/Matrix.setUp.md "wikilink")
 
 ### Variables
 
--   [position](/Matrix.position.md "wikilink")
--   [rotation](/Matrix.rotation.md "wikilink")
--   [front](/Matrix.front.md "wikilink")
--   [right](/Matrix.right.md "wikilink")
--   [up](/Matrix.up.md "wikilink")
+-   [position](/docs/Matrix.position.md "wikilink")
+-   [rotation](/docs/Matrix.rotation.md "wikilink")
+-   [front](/docs/Matrix.front.md "wikilink")
+-   [right](/docs/Matrix.right.md "wikilink")
+-   [up](/docs/Matrix.up.md "wikilink")

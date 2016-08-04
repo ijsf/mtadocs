@@ -1,4 +1,4 @@
-This function will set a [vehicle](/vehicle.md "wikilink")'s health to full and fix its damage model. If you wish to only change the vehicle's health, without affecting its damage model, use [setElementHealth](/setElementHealth.md "wikilink").
+This function will set a [vehicle](/docs/vehicle.md "wikilink")'s health to full and fix its damage model. If you wish to only change the vehicle's health, without affecting its damage model, use [setElementHealth](/setElementHealth.md "wikilink").
 
 Syntax
 ------

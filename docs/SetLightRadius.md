@@ -7,7 +7,7 @@ bool setLightRadius ( Light theLight, float radius )
 
 ### Required Arguments
 
--   **theLight:** The [light](/Element/Light.md "wikilink") that you wish to set the radius of.
+-   **theLight:** The [light](/docs/Element/Light.md "wikilink") that you wish to set the radius of.
 
 ### Returns
 

@@ -1,4 +1,4 @@
-This function will return the IP of the specified [ban](/ban.md "wikilink").
+This function will return the IP of the specified [ban](/docs/ban.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ string getBanIP ( ban theBan )
 
 ### Required Arguments
 
--   **theBan:** The [ban](/ban.md "wikilink") in which you want to return the IP of.
+-   **theBan:** The [ban](/docs/ban.md "wikilink") in which you want to return the IP of.
 
 ### Returns
 
-Returns a *string* of the IP if everything was successful, *false* if invalid arguments are specified if there was no IP specified for the [ban](/ban.md "wikilink").
+Returns a *string* of the IP if everything was successful, *false* if invalid arguments are specified if there was no IP specified for the [ban](/docs/ban.md "wikilink").
 
 Example
 -------
@@ -39,4 +39,4 @@ addCommandHandler ( "ban", banPlayerCommand )
 See Also
 --------
 
-[ru:getBanIP](/ru:getBanIP.md "wikilink")
+[ru:getBanIP](/docs/ru:getBanIP.md "wikilink")

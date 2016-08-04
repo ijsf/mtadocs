@@ -1,4 +1,4 @@
-Differing from [dxDrawImage](/dxDrawImage.md "wikilink"), this function only draws a part of an image on the screen for a single frame. In order for the image to stay visible continuously, you need to call this function with the same parameters on each frame update (see [onClientRender](/onClientRender.md "wikilink")).
+Differing from [dxDrawImage](/docs/dxDrawImage.md "wikilink"), this function only draws a part of an image on the screen for a single frame. In order for the image to stay visible continuously, you need to call this function with the same parameters on each frame update (see [onClientRender](/onClientRender.md "wikilink")).
 
 Syntax
 ------
@@ -20,14 +20,14 @@ bool dxDrawImageSection ( float posX, float posY, float width, float height,
 -   **v:** the absolute Y coordinate of the top left corner of the section which should be drawn from image
 -   **usize:** the absolute width of the image section
 -   **vsize:** the absolute height of the image section
--   **image:** Either a [material](/material.md "wikilink") element or a [filepath](/filepath.md "wikilink") of the image which is going to be drawn. (.dds images are also supported). Image files should ideally have dimensions that are a power of two, to prevent possible blurring.
+-   **image:** Either a [material](/docs/material.md "wikilink") element or a [filepath](/filepath.md "wikilink") of the image which is going to be drawn. (.dds images are also supported). Image files should ideally have dimensions that are a power of two, to prevent possible blurring.
 
 ### Optional Arguments
 
 -   **rotation:** the rotation, in degrees for the image.
 -   **rotationCenterOffsetX:** the absolute X offset from the image center for which to rotate the image from.
 -   **rotationCenterOffsetY:** the absolute Y offset from the image center for which to rotate the image from.
--   **color:** the color of the image, a value produced by [tocolor](/tocolor.md "wikilink") or hexadecimal number in format: 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
+-   **color:** the color of the image, a value produced by [tocolor](/docs/tocolor.md "wikilink") or hexadecimal number in format: 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
 -   **postgui :** A bool representing whether the image should be drawn on top of or behind any ingame GUI (rendered by CEGUI).
 
 ### Returns

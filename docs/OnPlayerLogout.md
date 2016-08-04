@@ -13,7 +13,7 @@ account thePreviousAccount, account theCurrentAccount
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the player that logged out.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the player that logged out.
 
 Cancel effect
 -------------

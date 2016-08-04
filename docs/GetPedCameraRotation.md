@@ -1,4 +1,4 @@
-This function gets the current camera rotation of a [ped](/ped.md "wikilink").
+This function gets the current camera rotation of a [ped](/docs/ped.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ float getPedCameraRotation( ped thePed )
 
 ### Required Arguments
 
--   **thePed:** the [ped](/ped.md "wikilink") to retrieve the camera rotation of.
+-   **thePed:** the [ped](/docs/ped.md "wikilink") to retrieve the camera rotation of.
 
 ### Returns
 
-Returns the camera rotation of the [ped](/ped.md "wikilink") in degrees if successful. Returns *false* if an invalid element was passed.
+Returns the camera rotation of the [ped](/docs/ped.md "wikilink") in degrees if successful. Returns *false* if an invalid element was passed.
 
 Example
 -------

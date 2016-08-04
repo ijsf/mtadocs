@@ -10,7 +10,7 @@ Syntax
 ### Required Arguments
 
 -   **thePlayer**: A player object referencing the specified player.
--   **weaponId**: An integer that refers to a [weapon](/weapon.md "wikilink") that you wish to remove.
+-   **weaponId**: An integer that refers to a [weapon](/docs/weapon.md "wikilink") that you wish to remove.
 
 ### Optional Arguments
 
@@ -36,4 +36,4 @@ addCommandHandler( 'rtear',
 See Also
 --------
 
-[ru:takeWeapon](/ru:takeWeapon.md "wikilink")
+[ru:takeWeapon](/docs/ru:takeWeapon.md "wikilink")

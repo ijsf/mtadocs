@@ -1,4 +1,4 @@
-This function will return a table containing all the [bans](/ban.md "wikilink") present in the server's banlist.xml.
+This function will return a table containing all the [bans](/docs/ban.md "wikilink") present in the server's banlist.xml.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ table getBans ( )
 
 ### Returns
 
-Returns a [table](/table.md "wikilink") containing all the [bans](/ban.md "wikilink").
+Returns a [table](/docs/table.md "wikilink") containing all the [bans](/ban.md "wikilink").
 
 Example
 -------
@@ -39,4 +39,4 @@ addCommandHandler ( "bans", listBans ) -- Add "/bans" as the trigger for the fun
 See Also
 --------
 
-[ru:getBans](/ru:getBans.md "wikilink")
+[ru:getBans](/docs/ru:getBans.md "wikilink")

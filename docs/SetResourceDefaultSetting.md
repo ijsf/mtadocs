@@ -1,4 +1,4 @@
-This function is used to set a default setting for a specified [resource](/resource.md "wikilink").
+This function is used to set a default setting for a specified [resource](/docs/resource.md "wikilink").
 
 Syntax
 ------

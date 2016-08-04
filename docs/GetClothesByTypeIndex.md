@@ -46,4 +46,4 @@ addCommandHandler ( "nextClothes", scriptNextClothes )
 See Also
 --------
 
-[pl:GetClothesByTypeIndex](/pl:GetClothesByTypeIndex.md "wikilink")
+[pl:GetClothesByTypeIndex](/docs/pl:GetClothesByTypeIndex.md "wikilink")

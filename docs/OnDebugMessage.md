@@ -14,14 +14,14 @@ string message, int level, string file, int line
     -   **2:** Warning message
     -   **3:** Information message
 -   **file**: The file from which the debug message was outputted
-    -   **Note:** May return [nil](/nil.md "wikilink") when the source could not be found
+    -   **Note:** May return [nil](/docs/nil.md "wikilink") when the source could not be found
 -   **line**: The line in file **file** where the debug message was outputted
-    -   **Note:** May return [nil](/nil.md "wikilink") when the source could not be found
+    -   **Note:** May return [nil](/docs/nil.md "wikilink") when the source could not be found
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [root element](/root_element.md "wikilink").
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [root element](/root_element.md "wikilink").
 
 Example
 -------

@@ -36,6 +36,6 @@ See Also
 
 -   [Math examples on the LUA Wiki](http://lua-users.org/wiki/MathLibraryTutorial)
 
-[Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink")
 
-[de:Math](/de:Math.md "wikilink")
+[de:Math](/docs/de:Math.md "wikilink")

@@ -11,7 +11,7 @@ team fewPlayersOnTeams ( element team1,element team2)
 
 ### Return
 
-Returns a [team](/team.md "wikilink") else false.
+Returns a [team](/docs/team.md "wikilink") else false.
 
 Code
 ----

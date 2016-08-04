@@ -1,4 +1,4 @@
-This event is triggered before GTA renders the HUD. This is particularly useful if you want to use [dxUpdateScreenSource](/dxUpdateScreenSource.md "wikilink") to capture the screen onto a texture without capturing the HUD, or to alter HUD textures using [shaders](/Element/Shader.md "wikilink") before they are drawn onto the screen.
+This event is triggered before GTA renders the HUD. This is particularly useful if you want to use [dxUpdateScreenSource](/docs/dxUpdateScreenSource.md "wikilink") to capture the screen onto a texture without capturing the HUD, or to alter HUD textures using [shaders](/Element/Shader.md "wikilink") before they are drawn onto the screen.
 
 Parameters
 ----------
@@ -8,7 +8,7 @@ Parameters
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
 
 Example
 -------
@@ -33,7 +33,7 @@ end)
 See Also
 --------
 
-### [Game Processing Order](/Game_Processing_Order.md "wikilink")
+### [Game Processing Order](/docs/Game_Processing_Order.md "wikilink")
 
 ### Other client events
 

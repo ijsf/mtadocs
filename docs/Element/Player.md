@@ -9,6 +9,6 @@ Related scripting functions
 
 ### Server
 
-[Category:Element Types](/Category:Element_Types.md "wikilink")
+[Category:Element Types](/docs/Category:Element_Types.md "wikilink")
 
-[it:Elemento Player](/it:Elemento_Player.md "wikilink") [ru:Element/Player](/ru:Element/Player.md "wikilink") [es:Elemento/Player](/es:Elemento/Player.md "wikilink") [de:Element/Player](/de:Element/Player.md "wikilink") [pl:Gracz](/pl:Gracz.md "wikilink")
+[it:Elemento Player](/docs/it:Elemento_Player.md "wikilink") [ru:Element/Player](/ru:Element/Player.md "wikilink") [es:Elemento/Player](/es:Elemento/Player.md "wikilink") [de:Element/Player](/de:Element/Player.md "wikilink") [pl:Gracz](/pl:Gracz.md "wikilink")

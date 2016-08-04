@@ -1,4 +1,4 @@
-This function will return the username of the specified [ban](/ban.md "wikilink").
+This function will return the username of the specified [ban](/docs/ban.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ string getBanUsername ( ban theBan )
 
 ### Required Arguments
 
--   **theBan:** The [ban](/ban.md "wikilink") in which you wish to retrieve the username of.
+-   **theBan:** The [ban](/docs/ban.md "wikilink") in which you wish to retrieve the username of.
 
 ### Returns
 
-Returns a *string* of the username if everything was successful, *false* if invalid arguments are specified if there was no username specified for the [ban](/ban.md "wikilink").
+Returns a *string* of the username if everything was successful, *false* if invalid arguments are specified if there was no username specified for the [ban](/docs/ban.md "wikilink").
 
 Example
 -------
@@ -30,4 +30,4 @@ end
 See Also
 --------
 
-[ru:getBanUsername](/ru:getBanUsername.md "wikilink")
+[ru:getBanUsername](/docs/ru:getBanUsername.md "wikilink")

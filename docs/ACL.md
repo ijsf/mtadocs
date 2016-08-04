@@ -1,4 +1,4 @@
-**ACL** or **Access Control List** is a set of rights grouped together to create a list, they are defined in the [ACL.xml](/Access_Control_List.md "wikilink") file as <acl> nodes. These ACLs can then be added to certain [ACL Groups](/ACL_Group.md "wikilink") to grant or deny these groups specified permissions or acces to server scripting functions defined in the ACL. Example of an ACL:
+**ACL** or **Access Control List** is a set of rights grouped together to create a list, they are defined in the [ACL.xml](/docs/Access_Control_List.md "wikilink") file as <acl> nodes. These ACLs can then be added to certain [ACL Groups](/ACL_Group.md "wikilink") to grant or deny these groups specified permissions or acces to server scripting functions defined in the ACL. Example of an ACL:
 
     <acl name="Example">
             <right name="general.ModifyOtherObjects" access="true" />
@@ -13,14 +13,14 @@ This creates ACL called *Example* and gives resources access to start/stop resou
 Related scripting functions
 ---------------------------
 
--   [aclCreate](/aclCreate.md "wikilink")
--   [aclDestroy](/aclDestroy.md "wikilink")
--   [aclGet](/aclGet.md "wikilink")
--   [aclGetName](/aclGetName.md "wikilink")
--   [aclGetRight](/aclGetRight.md "wikilink")
--   [aclSetRight](/aclSetRight.md "wikilink")
--   [aclList](/aclList.md "wikilink")
--   [aclListRights](/aclListRights.md "wikilink")
--   [aclRemoveRight](/aclRemoveRight.md "wikilink")
+-   [aclCreate](/docs/aclCreate.md "wikilink")
+-   [aclDestroy](/docs/aclDestroy.md "wikilink")
+-   [aclGet](/docs/aclGet.md "wikilink")
+-   [aclGetName](/docs/aclGetName.md "wikilink")
+-   [aclGetRight](/docs/aclGetRight.md "wikilink")
+-   [aclSetRight](/docs/aclSetRight.md "wikilink")
+-   [aclList](/docs/aclList.md "wikilink")
+-   [aclListRights](/docs/aclListRights.md "wikilink")
+-   [aclRemoveRight](/docs/aclRemoveRight.md "wikilink")
 
-[Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink")

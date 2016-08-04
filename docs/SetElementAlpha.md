@@ -1,4 +1,4 @@
-This function sets the alpha (transparency) value for the specified [element](/element.md "wikilink"). This can be a [player](/player.md "wikilink"), [ped](/ped.md "wikilink"), [object](/object.md "wikilink"), [vehicle](/vehicle.md "wikilink") or [weapon](/Element/Weapon.md "wikilink").
+This function sets the alpha (transparency) value for the specified [element](/docs/element.md "wikilink"). This can be a [player](/player.md "wikilink"), [ped](/ped.md "wikilink"), [object](/object.md "wikilink"), [vehicle](/vehicle.md "wikilink") or [weapon](/Element/Weapon.md "wikilink").
 
 Syntax
 ------
@@ -9,9 +9,9 @@ bool setElementAlpha ( element theElement, int alpha )
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") whose alpha you want to set.
+-   **theElement:** The [element](/docs/element.md "wikilink") whose alpha you want to set.
 -   **alpha:** The alpha value to set. Values are 0-255, where 255 is fully opaque and 0 is fully transparent.
-    -   **Note:** [Objects](/Object.md "wikilink") are fully transparent at 140.
+    -   **Note:** [Objects](/docs/Object.md "wikilink") are fully transparent at 140.
 
 ### Returns
 

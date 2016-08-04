@@ -1,4 +1,4 @@
-This function will remove a specific [ban](/ban.md "wikilink").
+This function will remove a specific [ban](/docs/ban.md "wikilink").
 
 Syntax
 ------
@@ -9,15 +9,15 @@ bool removeBan ( ban theBan [, player responsibleElement = nil ] )
 
 ### Required Arguments
 
--   **theBan:** The [ban](/ban.md "wikilink") to be removed.
+-   **theBan:** The [ban](/docs/ban.md "wikilink") to be removed.
 
 ### Optional Arguments
 
--   **responsibleElement:** The element that is responsible for removing the [ban](/ban.md "wikilink") element. This can be a player or the root ([getRootElement](/getRootElement.md "wikilink")()).
+-   **responsibleElement:** The element that is responsible for removing the [ban](/docs/ban.md "wikilink") element. This can be a player or the root ([getRootElement](/getRootElement.md "wikilink")()).
 
 ### Returns
 
-Returns *true* if the [ban](/ban.md "wikilink") was removed succesfully, *false* if invalid arguments are specified.
+Returns *true* if the [ban](/docs/ban.md "wikilink") was removed succesfully, *false* if invalid arguments are specified.
 
 Example
 -------
@@ -49,4 +49,4 @@ end
 See Also
 --------
 
-[ru:removeBan](/ru:removeBan.md "wikilink")
+[ru:removeBan](/docs/ru:removeBan.md "wikilink")

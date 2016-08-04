@@ -1,4 +1,4 @@
-This function is used to change the seek position of the specified [sound](/sound.md "wikilink") element. Use a player element to control a players voice with this function.
+This function is used to change the seek position of the specified [sound](/docs/sound.md "wikilink") element. Use a player element to control a players voice with this function.
 
 Syntax
 ------
@@ -9,12 +9,12 @@ bool setSoundPosition ( element theSound, float pos )
 
 ### Required Arguments
 
--   **theSound:** the [sound](/sound.md "wikilink") element which seek position you want to modify.
+-   **theSound:** the [sound](/docs/sound.md "wikilink") element which seek position you want to modify.
 -   **pos:** an float value representing the new seek position of the sound. Integer part of this value - seconds, fractional part - milliseconds.
 
 ### Returns
 
-Returns *true* if the [sound](/sound.md "wikilink") element's seek position was successfully changed, *false* otherwise.
+Returns *true* if the [sound](/docs/sound.md "wikilink") element's seek position was successfully changed, *false* otherwise.
 
 Example
 -------
@@ -41,4 +41,4 @@ Changelog
 See Also
 --------
 
-[ar:setSoundPosition](/ar:setSoundPosition.md "wikilink")
+[ar:setSoundPosition](/docs/ar:setSoundPosition.md "wikilink")

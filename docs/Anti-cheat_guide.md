@@ -1,7 +1,7 @@
 Server setup
 ============
 
-3 settings in [**mtaserver.conf**](/Server_mtaserver.conf.md "wikilink") control AC behaviour for a server:
+3 settings in [**mtaserver.conf**](/docs/Server_mtaserver.conf.md "wikilink") control AC behaviour for a server:
 
 <disableac></disableac>
 -----------------------
@@ -23,7 +23,7 @@ Comma separated list of disabled anti-cheats. This setting disables specific AC 
 | **21**               | AC \#21             | any                     | 1.3.1-9.05097               | More trainers                                                                                                                                |
 | VF \#21              | any                 | 1.3.1-9.05097           | Custom gta\_sa.exe          |
 | **26**               | SD \#26             | any                     | 1.3.4-9.05858               | Anti-cheat component blocked &lt;!--                                                                                                         |
-| **31**               | SD \#31             | any                     |                             | gta3.img player skin mods (1.4 only. For 1.5, use [allow\_gta3\_img\_mods](/Server_mtaserver.conf#allow_gta3_img_mods.md "wikilink")) --&gt; |
+| **31**               | SD \#31             | any                     |                             | gta3.img player skin mods (1.4 only. For 1.5, use [allow\_gta3\_img\_mods](/docs/Server_mtaserver.conf#allow_gta3_img_mods.md "wikilink")) --&gt; |
 
 <enablesd></enablesd>
 ---------------------
@@ -36,7 +36,7 @@ Comma separated list of enabled special detections. A special detection is a typ
 | **14**              | SD \#14             | 1.3.1-9.04605           | 1.3.1-9.04605               | Disallow virtual machines such as VMWare                                                                                                                                                                               |
 | **15**              | SD \#15             | 1.3.1-9.04791           | 1.3.1-9.04791               | Disallow disabled driver signing                                                                                                                                                                                       |
 | **16**              | SD \#16             | 1.3.1-9.05097           | 1.3.1-9.05097               | Disallow disabled anti-cheat components. This is triggered when an anti-cheat component can not start. It is usually due to some problem with the PC and might be fixed by a reboot. Can also be triggered by a virus. |
-| **20**              | SD \#20             | 1.3.1-9.05097           | 1.3.1-9.05097               | Disallow non-standard gta3.img or gta\_int.img (For servers not using [onPlayerModInfo](/onPlayerModInfo.md "wikilink"))                                                                                               |
+| **20**              | SD \#20             | 1.3.1-9.05097           | 1.3.1-9.05097               | Disallow non-standard gta3.img or gta\_int.img (For servers not using [onPlayerModInfo](/docs/onPlayerModInfo.md "wikilink"))                                                                                               |
 | **22**              | SD \#22             | 1.3.4-9.05884           | 1.3.4-9.05884               | Disallow resource download errors/corruption (Lua script files)                                                                                                                                                        |
 | **23**              | SD \#23             | 1.3.4-9.05884           | 1.5.2-9.07911               | Disallow resource download errors/corruption (Non-Lua files e.g. png,dff)                                                                                                                                              |
 | **28**              | SD \#28             | 1.3.4-9.05884           | 1.3.4-9.05884               | Disallow Linux Wine                                                                                                                                                                                                    |
@@ -72,7 +72,7 @@ By default, clients may not join a server if they have customized GTA:SA data fi
 -   “data/maps”
 
 ***Note 1:*** *“data/maps” represents all the files and directories within “data/maps”*
-***Note 2:*** *“data/handling.cfg” is not included as it is always ignored by MTA because of the internal vehicle handling functions. [See here if you want to load custom handling.cfg files](/Handling.cfg.md "wikilink")*
+***Note 2:*** *“data/handling.cfg” is not included as it is always ignored by MTA because of the internal vehicle handling functions. [See here if you want to load custom handling.cfg files](/docs/Handling.cfg.md "wikilink")*
 
 Client
 ======
@@ -121,6 +121,6 @@ AC Panel resource
 
 An anti-cheat helper resource called **acpanel** is included with the default resources.
 
-It shows the current anti-cheat status of your server, along with an option to keep your clients up to date and a basic implementation of [onPlayerModInfo](/onPlayerModInfo.md "wikilink") to block modified img files.
+It shows the current anti-cheat status of your server, along with an option to keep your clients up to date and a basic implementation of [onPlayerModInfo](/docs/onPlayerModInfo.md "wikilink") to block modified img files.
 
-[Category: Support](/Category:_Support.md "wikilink") [ru:Anti-cheat guide](/ru:Anti-cheat_guide.md "wikilink")
+[Category: Support](/docs/Category:_Support.md "wikilink") [ru:Anti-cheat guide](/ru:Anti-cheat_guide.md "wikilink")

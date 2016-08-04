@@ -1,4 +1,4 @@
-This event is triggered when an accounts data changes through [setAccountData](/setAccountData.md "wikilink")
+This event is triggered when an accounts data changes through [setAccountData](/docs/setAccountData.md "wikilink")
 
 Parameters
 ----------
@@ -14,7 +14,7 @@ account theAccount, string theKey, var theValue
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the root element.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the root element.
 
 Example
 -------

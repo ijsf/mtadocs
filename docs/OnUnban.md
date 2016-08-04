@@ -1,6 +1,6 @@
 This event is triggered when a ban is removed from the server.
 
-if the ban was removed using function [removeBan](/removeBan.md "wikilink"), and the responsibleElement was not specifying, the event will return nil.
+if the ban was removed using function [removeBan](/docs/removeBan.md "wikilink"), and the responsibleElement was not specifying, the event will return nil.
 
 Parameters
 ----------
@@ -9,7 +9,7 @@ Parameters
 ban theBan, player responsibleElement
 ```
 
--   '''theBan ''': The [ban](/ban.md "wikilink") that will be removed.
+-   '''theBan ''': The [ban](/docs/ban.md "wikilink") that will be removed.
 -   **responsibleElement**: The player who removed the ban, otherwise return nil.
 
 Source
@@ -20,7 +20,7 @@ The source is always the global root element.
 Cancel effect
 -------------
 
-If this event is [canceled](/Event_system#Canceling.md "wikilink"), the requested unban is not performed.
+If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the requested unban is not performed.
 
 Example
 -------

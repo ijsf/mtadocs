@@ -1,4 +1,4 @@
-This function allows you to set the float value of a specific statistic for a [player](/player.md "wikilink"). **Visual stats (FAT and BODY\_MUSCLE) can only be used on the CJ skin.** A large number of the stats will have no effect.
+This function allows you to set the float value of a specific statistic for a [player](/docs/player.md "wikilink"). **Visual stats (FAT and BODY\_MUSCLE) can only be used on the CJ skin.** A large number of the stats will have no effect.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setPlayerStat ( player thePlayer, int stat, float value )
 
 ### Required Arguments
 
--   **thePlayer**: the [player](/player.md "wikilink") whose statistic you want to modify.
+-   **thePlayer**: the [player](/docs/player.md "wikilink") whose statistic you want to modify.
 -   **stat**: A whole number determining the stat ID.
 
 -   **value**: A float number the stat will be set to. (0..999)

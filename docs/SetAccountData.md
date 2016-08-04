@@ -1,4 +1,4 @@
-This function sets a string to be stored in an [account](/account.md "wikilink"). This can then be retrieved using [getAccountData](/getAccountData.md "wikilink"). Data stored as account data is persistent across user's sessions and maps, unless they are logged into a guest account. Even if logged into a guest account, account data can be useful as a way to store a reference to your own account system, though it's persistence is equivalent to that of using [setElementData](/setElementData.md "wikilink") on the player's element.
+This function sets a string to be stored in an [account](/docs/account.md "wikilink"). This can then be retrieved using [getAccountData](/getAccountData.md "wikilink"). Data stored as account data is persistent across user's sessions and maps, unless they are logged into a guest account. Even if logged into a guest account, account data can be useful as a way to store a reference to your own account system, though it's persistence is equivalent to that of using [setElementData](/setElementData.md "wikilink") on the player's element.
 
 Syntax
 ------
@@ -11,7 +11,7 @@ bool setAccountData ( account theAccount, string key, string value )
 
 -   **theAccount:** The account you wish to retrieve the data from.
 -   **key:** The key under which you wish to store the data
--   **value:** The value you wish to store. Set to false to remove the data. **NOTE:** you cannot store tables as values, but you can use [toJSON](/toJSON.md "wikilink") strings.
+-   **value:** The value you wish to store. Set to false to remove the data. **NOTE:** you cannot store tables as values, but you can use [toJSON](/docs/toJSON.md "wikilink") strings.
 
 ### Returns
 
@@ -62,4 +62,4 @@ setAccountData(account, "myKey", tostring(0.123))
 See Also
 --------
 
-[ar:setAccountData](/ar:setAccountData.md "wikilink") [es:setAccountData](/es:setAccountData.md "wikilink")
+[ar:setAccountData](/docs/ar:setAccountData.md "wikilink") [es:setAccountData](/es:setAccountData.md "wikilink")

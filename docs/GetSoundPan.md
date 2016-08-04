@@ -1,4 +1,4 @@
-This function is used to get the pan level of the specified [sound](/sound.md "wikilink") element.
+This function is used to get the pan level of the specified [sound](/docs/sound.md "wikilink") element.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ float getSoundPan ( element theSound )
 
 ### Required Arguments
 
--   **theSound:** the [sound](/sound.md "wikilink") element which pan you want to get.
+-   **theSound:** the [sound](/docs/sound.md "wikilink") element which pan you want to get.
 
 ### Returns
 

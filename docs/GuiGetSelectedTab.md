@@ -1,4 +1,4 @@
-This function returns the currently selected tab in the specified [tab panel](/Element/GUI/Tab_panel.md "wikilink").
+This function returns the currently selected tab in the specified [tab panel](/docs/Element/GUI/Tab_panel.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ element guiGetSelectedTab ( element tabPanel )
 
 ### Required Arguments
 
--   **tabPanel:** The [tab panel](/Element/GUI/Tab_panel.md "wikilink") which current tab you want to retrieve.
+-   **tabPanel:** The [tab panel](/docs/Element/GUI/Tab_panel.md "wikilink") which current tab you want to retrieve.
 
 ### Returns
 
-Returns an [element](/element.md "wikilink") of the [tab](/Element/GUI/Tab.md "wikilink") if a tab was selected or [nil](/nil.md "wikilink") if no tab was selected. If passed arguments were invalid or something went wrong, the function will return *false*.
+Returns an [element](/docs/element.md "wikilink") of the [tab](/Element/GUI/Tab.md "wikilink") if a tab was selected or [nil](/nil.md "wikilink") if no tab was selected. If passed arguments were invalid or something went wrong, the function will return *false*.
 
 Example
 -------

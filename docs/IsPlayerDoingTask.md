@@ -1,6 +1,6 @@
-Please use [isPedDoingTask](/isPedDoingTask.md "wikilink")
+Please use [isPedDoingTask](/docs/isPedDoingTask.md "wikilink")
 
-This function checks if the specified player is carrying out a certain [task](/List_of_player_tasks.md "wikilink").
+This function checks if the specified player is carrying out a certain [task](/docs/List_of_player_tasks.md "wikilink").
 
 Syntax
 ------
@@ -11,8 +11,8 @@ bool isPlayerDoingTask ( player thePlayer, string taskName )
 
 ### Required Arguments
 
--   **thePlayer**: A [player](/player.md "wikilink") object referencing the specified player.
--   **taskName**: A string containing the name of the [task](/List_of_player_tasks.md "wikilink") you're checking for.
+-   **thePlayer**: A [player](/docs/player.md "wikilink") object referencing the specified player.
+-   **taskName**: A string containing the name of the [task](/docs/List_of_player_tasks.md "wikilink") you're checking for.
 
 ### Returns
 

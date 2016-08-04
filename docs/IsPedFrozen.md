@@ -9,7 +9,7 @@ bool isPedFrozen ( ped thePed )
 
 ### Required Arguments
 
--   **thePed:** The [ped](/ped.md "wikilink") whose frozen state will be obtained.
+-   **thePed:** The [ped](/docs/ped.md "wikilink") whose frozen state will be obtained.
 
 ### Returns
 

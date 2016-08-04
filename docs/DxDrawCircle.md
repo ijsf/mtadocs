@@ -1,6 +1,6 @@
 <lowercasetitle/>
 
-This function draws a number of 2D lines in order to achieve a circle shape on the screen - rendered for **one** frame. This should be used in conjunction with [onClientRender](/onClientRender.md "wikilink") in order to display continuously.
+This function draws a number of 2D lines in order to achieve a circle shape on the screen - rendered for **one** frame. This should be used in conjunction with [onClientRender](/docs/onClientRender.md "wikilink") in order to display continuously.
 
 Syntax
 ------
@@ -11,7 +11,7 @@ Syntax
 
 ### Required Arguments
 
-[thumb|An example of how dxDrawCircle function works in practice.](/Image:DxDrawCircle_example.png.md "wikilink")
+[thumb|An example of how dxDrawCircle function works in practice.](/docs/Image:DxDrawCircle_example.png.md "wikilink")
 
 -   **posX**: An integer representing the **absolute** X position of the circle center, represented by pixels on the screen.
 -   **posY**: An integer representing the **absolute** Y position of the circle center, represented by pixels on the screen.
@@ -23,7 +23,7 @@ Syntax
 -   **angleAmount**: An integer representing the tightness of the circle. Lower amount makes it smoother, higher amount makes it more of a clock looking circle.
 -   **startAngle**: An integer representing the angle of the first point of the circle.
 -   **stopAngle**: An integer representing the angle of the last point of the circle.
--   **color**: An integer of the hex color, produced using [tocolor](/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
+-   **color**: An integer of the hex color, produced using [tocolor](/docs/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
 -   **postGUI**: A bool representing whether the line should be drawn on top of or behind any ingame GUI (rendered by CEGUI).
 
 ### Returns

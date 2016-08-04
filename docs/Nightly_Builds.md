@@ -43,6 +43,6 @@ Bugs, suggestions or feedback can go in either our forums or the bugtracker
 
 For general scripting or server setup help, please refer to:
 
--   [Client Manual](/Client_Manual.md "wikilink")
--   [Server Manual](/Server_Manual.md "wikilink")
--   [Setting up admin on your server](/admin.md "wikilink")
+-   [Client Manual](/docs/Client_Manual.md "wikilink")
+-   [Server Manual](/docs/Server_Manual.md "wikilink")
+-   [Setting up admin on your server](/docs/admin.md "wikilink")

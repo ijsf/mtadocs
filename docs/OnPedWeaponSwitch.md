@@ -13,7 +13,7 @@ int previousWeaponID, int currentWeaponID
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [ped](/ped.md "wikilink") that switched his weapon.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [ped](/ped.md "wikilink") that switched his weapon.
 
 Example
 -------

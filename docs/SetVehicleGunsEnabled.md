@@ -1,4 +1,4 @@
-Use [ToggleControl](/ToggleControl.md "wikilink") instead.
+Use [ToggleControl](/docs/ToggleControl.md "wikilink") instead.
 
 This function enables or disables the weapons on a vehicle
 
@@ -11,7 +11,7 @@ bool setVehicleGunsEnabled ( vehicle theVehicle, bool gunsEnabled )
 
 ### Required Arguments
 
--   **theVehicle**: The [element](/element.md "wikilink") representing the [vehicle](/vehicle.md "wikilink") whose guns you want to toggle.
+-   **theVehicle**: The [element](/docs/element.md "wikilink") representing the [vehicle](/vehicle.md "wikilink") whose guns you want to toggle.
 -   **gunsEnabled**: A bool representing whether guns are enabled or disabled. *false* will disable them, *true* will enable them.
 
 ### Returns

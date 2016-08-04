@@ -7,11 +7,11 @@ float, float, float getLightDirection ( light theLight )
 
 ### Required Arguments
 
--   **theLight:** The [light](/Element/Light.md "wikilink") that you wish to retrieve the direction of.
+-   **theLight:** The [light](/docs/Element/Light.md "wikilink") that you wish to retrieve the direction of.
 
 ### Returns
 
-Returns three [ints](/int.md "wikilink") corresponding to the x, y and z coordinates (respectively) of the light direction, *false* if invalid arguments were passed.
+Returns three [ints](/docs/int.md "wikilink") corresponding to the x, y and z coordinates (respectively) of the light direction, *false* if invalid arguments were passed.
 
 ### Example
 

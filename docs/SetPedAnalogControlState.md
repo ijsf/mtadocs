@@ -1,6 +1,6 @@
-Sets an analog state of a specified [ped](/ped.md "wikilink")'s control, as if they pressed or released it.
+Sets an analog state of a specified [ped](/docs/ped.md "wikilink")'s control, as if they pressed or released it.
 
-This function only works on [peds](/ped.md "wikilink"), to change the analog control state for a player, please use [setAnalogControlState](/setAnalogControlState.md "wikilink").
+This function only works on [peds](/docs/ped.md "wikilink"), to change the analog control state for a player, please use [setAnalogControlState](/setAnalogControlState.md "wikilink").
 
 Syntax
 ------
@@ -12,7 +12,7 @@ bool setPedAnalogControlState ( ped thePed, string control, float state )
 ### Required Arguments
 
 -   **thePed:** The ped you wish to set the control state of.
--   **control:** The control that you want to set the state of. See [control names](/control_names.md "wikilink") for a list of possible controls.
+-   **control:** The control that you want to set the state of. See [control names](/docs/control_names.md "wikilink") for a list of possible controls.
 -   **state:** A float value representing a full analog push ( 1 ) or full release ( 0 ).
 
 ### Returns
@@ -22,7 +22,7 @@ Returns *true* if the control state was successfully set, *false* otherwise.
 Example
 -------
 
-This example uses [setPedAnalogControlState](/setPedAnalogControlState.md "wikilink") to very slowly accelerate a ped-controlled NRG-500.
+This example uses [setPedAnalogControlState](/docs/setPedAnalogControlState.md "wikilink") to very slowly accelerate a ped-controlled NRG-500.
 
 ``` lua
 function createAnalogControlTest ()

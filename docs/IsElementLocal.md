@@ -1,4 +1,4 @@
-This function checks whether a clientside [element](/element.md "wikilink") is local to the client (doesn't exist in the server) or not.
+This function checks whether a clientside [element](/docs/element.md "wikilink") is local to the client (doesn't exist in the server) or not.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool isElementLocal ( element theElement )
 
 ### Required Arguments
 
--   **theElement**: The [element](/element.md "wikilink") that we want to check.
+-   **theElement**: The [element](/docs/element.md "wikilink") that we want to check.
 
 ### Returns
 

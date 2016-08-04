@@ -1,4 +1,4 @@
-Please use [removeBan](/removeBan.md "wikilink")
+Please use [removeBan](/docs/removeBan.md "wikilink")
 
 Syntax
 ------

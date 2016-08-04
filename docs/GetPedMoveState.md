@@ -1,4 +1,4 @@
-This function returns the current move state for the specified [ped](/ped.md "wikilink").
+This function returns the current move state for the specified [ped](/docs/ped.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ string getPedMoveState ( ped thePed )
 
 ### Required Arguments
 
--   **thePed:** The [ped](/ped.md "wikilink") whose move state you want to know
+-   **thePed:** The [ped](/docs/ped.md "wikilink") whose move state you want to know
 
 ### Returns
 
-Returns a [string](/string.md "wikilink") indicating the ped's move state, or *false* if the ped is not streamed in, the movement type is unknown, the ped is in a vehicle or the ped is invalid.
+Returns a [string](/docs/string.md "wikilink") indicating the ped's move state, or *false* if the ped is not streamed in, the movement type is unknown, the ped is in a vehicle or the ped is invalid.
 
 Example
 -------

@@ -1,4 +1,4 @@
-This function returns the items selected in the specified [grid list](/Element/GUI/Gridlist.md "wikilink").
+This function returns the items selected in the specified [grid list](/docs/Element/GUI/Gridlist.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ table guiGridListGetSelectedItems ( element gridList )
 
 ### Required Arguments
 
--   **gridList:** The [grid list](/Element/GUI/Gridlist.md "wikilink") which selected items you want to retrieve.
+-   **gridList:** The [grid list](/docs/Element/GUI/Gridlist.md "wikilink") which selected items you want to retrieve.
 
 ### Returns
 
-Returns a table over the selected items in the [grid list](/Element/GUI/Gridlist.md "wikilink") in this format:
+Returns a table over the selected items in the [grid list](/docs/Element/GUI/Gridlist.md "wikilink") in this format:
 
 ``` lua
 table = {
@@ -41,4 +41,4 @@ Example
 See Also
 --------
 
-[Category:Needs Example](/Category:Needs_Example.md "wikilink")
+[Category:Needs Example](/docs/Category:Needs_Example.md "wikilink")

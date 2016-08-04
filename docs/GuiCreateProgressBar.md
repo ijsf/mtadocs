@@ -1,4 +1,4 @@
-This function creates a [progress bar](/Element/GUI/Progress_bar.md "wikilink").
+This function creates a [progress bar](/docs/Element/GUI/Progress_bar.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ element guiCreateProgressBar ( float x, float y, float width, float height, bool
 
 ### Required Arguments
 
-[frame|Example GUI progress bar.](/Image:Gui-progressbar.png.md "wikilink")
+[frame|Example GUI progress bar.](/docs/Image:Gui-progressbar.png.md "wikilink")
 
 -   **x:** A float of the 2D x position of the progress bar on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the progress bar on a player's screen. This is affected by the *relative* argument.
@@ -23,7 +23,7 @@ element guiCreateProgressBar ( float x, float y, float width, float height, bool
 
 ### Returns
 
-Returns [element](/element.md "wikilink") of the progress bar if it was created succesfully, *false* otherwise.
+Returns [element](/docs/element.md "wikilink") of the progress bar if it was created succesfully, *false* otherwise.
 
 Example
 -------

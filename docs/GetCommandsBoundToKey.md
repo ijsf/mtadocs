@@ -9,7 +9,7 @@ table getCommandsBoundToKey ( string theKey, string keyState )
 
 ### Required Arguments
 
--   **theKey:** See [key names](/key_names.md "wikilink") for a list of possible keys
+-   **theKey:** See [key names](/docs/key_names.md "wikilink") for a list of possible keys
 -   **keyState:** A string that has one of the following values:
     -   **“up”:** If the bound key should trigger the function when the key is released
     -   **“down”:** If the bound key should trigger the function when the key is pressed

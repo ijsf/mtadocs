@@ -1,4 +1,4 @@
-This event is triggered when a **remote** player quits the game or leaves the server. It **will not** get triggered on the source player's client. (Use [onClientResourceStop](/onClientResourceStop.md "wikilink") to save client side data when the local player quits.)
+This event is triggered when a **remote** player quits the game or leaves the server. It **will not** get triggered on the source player's client. (Use [onClientResourceStop](/docs/onClientResourceStop.md "wikilink") to save client side data when the local player quits.)
 
 Parameters
 ----------
@@ -18,7 +18,7 @@ string reason
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that quit the game.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that quit the game.
 
 Example
 -------

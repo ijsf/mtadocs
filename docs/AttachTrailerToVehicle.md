@@ -9,7 +9,7 @@ bool attachTrailerToVehicle ( vehicle theVehicle, vehicle theTrailer )
 
 ### Required Arguments
 
--   **theVehicle**: the [vehicle](/vehicle.md "wikilink") you wish to attach a trailer to.
+-   **theVehicle**: the [vehicle](/docs/vehicle.md "wikilink") you wish to attach a trailer to.
 -   **theTrailer**: the trailer you wish to be attached.
 
 Returns

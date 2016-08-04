@@ -1,4 +1,4 @@
-This function allows restoring of world object,which was removed with [RemoveWorldModel](/RemoveWorldModel.md "wikilink").
+This function allows restoring of world object,which was removed with [RemoveWorldModel](/docs/RemoveWorldModel.md "wikilink").
 
 Syntax
 ------

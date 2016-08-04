@@ -1,6 +1,6 @@
 <pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass>
 
-Returns the name of a given field in the last executed query. The offset of the field must be an integer between **1** and **[mysql\_num\_fields()](/Modules/MTA-MySQL/mysql_num_rows/mysql_num_fields.md "wikilink")**
+Returns the name of a given field in the last executed query. The offset of the field must be an integer between **1** and **[mysql\_num\_fields()](/docs/Modules/MTA-MySQL/mysql_num_rows/mysql_num_fields.md "wikilink")**
 
 Syntax
 ------

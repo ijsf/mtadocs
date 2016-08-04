@@ -8,7 +8,7 @@ bool isVehicleWindowOpen ( vehicle theVehicle, int window )
 ### Required arguments
 
 -   **theVehicle:** The vehicle that you wish to get the window state.
--   **window:** An [integer](/int.md "wikilink") representing a vehicle window. It can be:
+-   **window:** An [integer](/docs/int.md "wikilink") representing a vehicle window. It can be:
     -   **0:** motorbike shield
     -   **1:** rear window
     -   **2:** right front window

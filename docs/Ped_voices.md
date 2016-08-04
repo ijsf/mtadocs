@@ -1,4 +1,4 @@
-These are the voices that can be used in [setPedVoice](/setPedVoice.md "wikilink").
+These are the voices that can be used in [setPedVoice](/docs/setPedVoice.md "wikilink").
 
 PED\_TYPE\_DISABLED
 -------------------

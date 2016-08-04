@@ -9,15 +9,15 @@ float/nil getElementSpeed ( element theElement [, int/string unit="m/s" ] )
 
 ### Required arguments
 
--   **theElement**: the [element](/element.md "wikilink") you want to get the speed of. Compatible [element](/element.md "wikilink") types are:
-    -   [Players](/Player.md "wikilink").
-    -   [Peds](/Ped.md "wikilink").
-    -   [Objects](/Object.md "wikilink").
-    -   [Vehicles](/Vehicle.md "wikilink").
+-   **theElement**: the [element](/docs/element.md "wikilink") you want to get the speed of. Compatible [element](/element.md "wikilink") types are:
+    -   [Players](/docs/Player.md "wikilink").
+    -   [Peds](/docs/Ped.md "wikilink").
+    -   [Objects](/docs/Object.md "wikilink").
+    -   [Vehicles](/docs/Vehicle.md "wikilink").
 
 ### Optional arguments
 
--   **unit**: the unit of the speed returned. If not specified, the unit will be *m/s*. It can be specified as a *[string](/string.md "wikilink")* or *number* as follows:
+-   **unit**: the unit of the speed returned. If not specified, the unit will be *m/s*. It can be specified as a *[string](/docs/string.md "wikilink")* or *number* as follows:
     -   **0** or **m/s**: meters per second (speed unit of the [International System of Units](http://en.wikipedia.org/wiki/International_System_of_Units), used in formal contexts).
     -   **1** or **km/h**: kilometres per hour (the most common speed unit, used in most countries).
     -   **2** or **mph**: miles per hour (used in some English-speaking countries).
@@ -25,7 +25,7 @@ float/nil getElementSpeed ( element theElement [, int/string unit="m/s" ] )
 Returns
 -------
 
-This function returns a *number* containing the [element](/element.md "wikilink")'s speed if the arguments provided are valid. It returns *[nil](/nil.md "wikilink")* plus an *error* otherwise.
+This function returns a *number* containing the [element](/docs/element.md "wikilink")'s speed if the arguments provided are valid. It returns *[nil](/nil.md "wikilink")* plus an *error* otherwise.
 
 Code
 ----

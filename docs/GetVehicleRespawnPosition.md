@@ -1,6 +1,6 @@
 <lowercasetitle/>
 
-This function allows you to get the respawn position of a specific [vehicle](/vehicle.md "wikilink") element. **Note:** Please insert this code in a file that stands on the top of your meta.xml file to work correctly.
+This function allows you to get the respawn position of a specific [vehicle](/docs/vehicle.md "wikilink") element. **Note:** Please insert this code in a file that stands on the top of your meta.xml file to work correctly.
 
 Syntax
 ------
@@ -11,7 +11,7 @@ float, float, float, float, float, float getVehicleRespawnPosition( element theV
 
 ### Required Arguments
 
--   **theVehicle**: A vehicle that have been created using [createVehicle](/createVehicle.md "wikilink").
+-   **theVehicle**: A vehicle that have been created using [createVehicle](/docs/createVehicle.md "wikilink").
 
 ### Returns
 

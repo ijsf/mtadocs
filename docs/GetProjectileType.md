@@ -9,12 +9,12 @@ int getProjectileType ( projectile theProjectile )
 
 ### Required Arguments
 
--   **theProjectile:** The [projectile](/Element/Projectile.md "wikilink") element which type you want to retrieve.
+-   **theProjectile:** The [projectile](/docs/Element/Projectile.md "wikilink") element which type you want to retrieve.
 
 Returns
 -------
 
-Returns an [integer](/int.md "wikilink") over the type of the projectile or *false* if invalid arguments were passed.
+Returns an [integer](/docs/int.md "wikilink") over the type of the projectile or *false* if invalid arguments were passed.
 
 Example
 -------
@@ -30,4 +30,4 @@ addEventHandler("onClientProjectileCreation", getRootElement(), projectileCreati
 See also
 --------
 
-[it:getProjectileType](/it:getProjectileType.md "wikilink")
+[it:getProjectileType](/docs/it:getProjectileType.md "wikilink")

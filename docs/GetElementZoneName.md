@@ -1,6 +1,6 @@
 This function allows you to retrieve the zone name of an element (eg. Verdant Bluffs or Ocean Docks)
 
-The same can be achieved client side by getting element coordinates and using [GetZoneName](/GetZoneName.md "wikilink").
+The same can be achieved client side by getting element coordinates and using [GetZoneName](/docs/GetZoneName.md "wikilink").
 
 Syntax
 ------

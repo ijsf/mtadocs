@@ -2,8 +2,8 @@
 
 ### Methods
 
--   [create](/createPed.md "wikilink")
+-   [create](/docs/createPed.md "wikilink")
 
 ### Variables
 
--   [vehicle](/Ped.vehicle.md "wikilink")
+-   [vehicle](/docs/Ped.vehicle.md "wikilink")

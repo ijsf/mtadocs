@@ -1,4 +1,4 @@
-This function returns the specified client's [account](/account.md "wikilink") object.
+This function returns the specified client's [account](/docs/account.md "wikilink") object.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ account getClientAccount ( client theClient )
 
 ### Required Arguments
 
--   **theClient:** The client [element](/element.md "wikilink") (player or admin) you want to get the account of.
+-   **theClient:** The client [element](/docs/element.md "wikilink") (player or admin) you want to get the account of.
 
 ### Returns
 

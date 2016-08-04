@@ -14,11 +14,11 @@ ifp engineLoadIFP ( string ifp_file )
 
 ### Required Arguments
 
--   **ifp\_file:** The [filepath](/filepath.md "wikilink") to the IFP file you want to load
+-   **ifp\_file:** The [filepath](/docs/filepath.md "wikilink") to the IFP file you want to load
 
 ### Returns
 
-Returns an [IFP](/IFP.md "wikilink") element if the IFP file loaded, *false* otherwise.
+Returns an [IFP](/docs/IFP.md "wikilink") element if the IFP file loaded, *false* otherwise.
 
 Example
 -------

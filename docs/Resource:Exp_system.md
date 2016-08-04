@@ -1,4 +1,4 @@
-A level/experience system made from scratch by [Castillo](/User:Castillo.md "wikilink").
+A level/experience system made from scratch by [Castillo](/docs/User:Castillo.md "wikilink").
 It uses SQLite to save level and experience.
 
 Exported Functions
@@ -345,7 +345,7 @@ Parameters
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") whose level changed.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") whose level changed.
 
 </section>
 <section name="Server" class="server" show="true">
@@ -367,11 +367,11 @@ Parameters
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who leveled UP.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who leveled UP.
 
 </section>
 See also
 ========
 
 [Download page](http://community.mtasa.com/index.php?p=resources&s=details&id=1253)
-[Category:Resource](/Category:Resource.md "wikilink")
+[Category:Resource](/docs/Category:Resource.md "wikilink")

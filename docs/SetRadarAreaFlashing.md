@@ -9,7 +9,7 @@ bool setRadarAreaFlashing ( radararea theRadarArea, bool flash )
 
 ### Required Arguments
 
--   **theRadarArea:** the [radararea](/radararea.md "wikilink") element we want to change flashing state of.
+-   **theRadarArea:** the [radararea](/docs/radararea.md "wikilink") element we want to change flashing state of.
 -   **flash:** a bool indicating whether the radar area should flash (*true* to flash, *false* to not flash).
 
 ### Returns

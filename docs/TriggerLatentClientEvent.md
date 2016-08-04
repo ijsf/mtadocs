@@ -1,4 +1,4 @@
-This function is the same as [triggerClientEvent ](/triggerClientEvent_.md "wikilink") except the transmission rate of the data contained in the arguments can be limited and other network traffic is not blocked while the data is being transferred.
+This function is the same as [triggerClientEvent ](/docs/triggerClientEvent_.md "wikilink") except the transmission rate of the data contained in the arguments can be limited and other network traffic is not blocked while the data is being transferred.
 
 Syntax
 ------
@@ -9,15 +9,15 @@ bool triggerLatentClientEvent ( [table/element sendTo=getRootElement(),] string 
 
 ### Required Arguments
 
--   **name:** The name of the event to trigger client side. You should register this event with [addEvent](/addEvent.md "wikilink") and add at least one event handler using [addEventHandler](/addEventHandler.md "wikilink").
--   **theElement:** The element that is the [source](/Event_system#Event_handlers.md "wikilink") of the event. This could be another player, or if this isn't relevant, use the root element.
+-   **name:** The name of the event to trigger client side. You should register this event with [addEvent](/docs/addEvent.md "wikilink") and add at least one event handler using [addEventHandler](/addEventHandler.md "wikilink").
+-   **theElement:** The element that is the [source](/docs/Event_system#Event_handlers.md "wikilink") of the event. This could be another player, or if this isn't relevant, use the root element.
 
 ### Optional Arguments
 
--   **sendTo:** The event will be sent to all [players](/player.md "wikilink") that are children of the specified element. By default this is the root element, and hence the event is sent to all players. If you specify a single player it will just be sent to that player. This argument can also be a table of player elements.
+-   **sendTo:** The event will be sent to all [players](/docs/player.md "wikilink") that are children of the specified element. By default this is the root element, and hence the event is sent to all players. If you specify a single player it will just be sent to that player. This argument can also be a table of player elements.
 -   **bandwidth:** The bytes per second rate to send the data contained in the arguments.
 -   **persist:** A bool indicating whether the transmission should be allowed to continue even after the resource that triggered it has since stopped.
--   **arguments...:** A list of arguments to trigger with the event. You can pass any lua data type (except functions). You can also pass [elements](/element.md "wikilink"). The total amount of data should not exceed 100MB.
+-   **arguments...:** A list of arguments to trigger with the event. You can pass any lua data type (except functions). You can also pass [elements](/docs/element.md "wikilink"). The total amount of data should not exceed 100MB.
 
 ### Returns
 

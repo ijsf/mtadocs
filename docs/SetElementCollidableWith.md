@@ -1,10 +1,10 @@
 This function can be used to set an element to collide with another element. An element with collisions disabled does not interact physically with the other element.
 **Note:** You can only use this function with the element types listed below.
 
--   [Player](/Player.md "wikilink")
--   [Ped](/Ped.md "wikilink")
--   [Vehicle](/Vehicle.md "wikilink")
--   [Object](/Object.md "wikilink")
+-   [Player](/docs/Player.md "wikilink")
+-   [Ped](/docs/Ped.md "wikilink")
+-   [Vehicle](/docs/Vehicle.md "wikilink")
+-   [Object](/docs/Object.md "wikilink")
 
 Syntax
 ------
@@ -15,8 +15,8 @@ bool setElementCollidableWith ( element theElement, element withElement, bool en
 
 ### Required Arguments
 
--   **theElement:** The [element](/element.md "wikilink") which colliding you want to change
--   **withElement:** The other [element](/element.md "wikilink") you wish the first entity to collide with
+-   **theElement:** The [element](/docs/element.md "wikilink") which colliding you want to change
+-   **withElement:** The other [element](/docs/element.md "wikilink") you wish the first entity to collide with
 -   **enabled:** A boolean to indicate whether elements should be able to collide with eachother (*true*) or not (*false*)
 
 ### Returns

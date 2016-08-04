@@ -2227,8 +2227,8 @@ WUZI
 See Also
 --------
 
-[ID Lists](/id.md "wikilink")
+[ID Lists](/docs/id.md "wikilink")
 
-[Category:ID Lists](/Category:ID_Lists.md "wikilink")
+[Category:ID Lists](/docs/Category:ID_Lists.md "wikilink")
 
-[de:Animationen](/de:Animationen.md "wikilink") [zh-cn:动画](/zh-cn:动画.md "wikilink")
+[de:Animationen](/docs/de:Animationen.md "wikilink") [zh-cn:动画](/zh-cn:动画.md "wikilink")

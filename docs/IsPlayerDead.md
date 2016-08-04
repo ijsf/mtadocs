@@ -1,4 +1,4 @@
-This function checks if the specified [player](/player.md "wikilink") is dead or not.
+This function checks if the specified [player](/docs/player.md "wikilink") is dead or not.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool isPlayerDead ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer**: A [player](/player.md "wikilink") object referencing the specified player
+-   **thePlayer**: A [player](/docs/player.md "wikilink") object referencing the specified player
 
 ### Returns
 

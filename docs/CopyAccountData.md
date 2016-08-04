@@ -1,4 +1,4 @@
-This function copies all of the data from one [account](/account.md "wikilink") to another.
+This function copies all of the data from one [account](/docs/account.md "wikilink") to another.
 
 Syntax
 ------
@@ -31,4 +31,4 @@ addEventHandler ( "onPlayerLogin", getRootElement(), copyDataOnLogin )
 See Also
 --------
 
-[ru:copyAccountData](/ru:copyAccountData.md "wikilink") [ar:copyAccountData](/ar:copyAccountData.md "wikilink") [pl:copyAccountData](/pl:copyAccountData.md "wikilink")
+[ru:copyAccountData](/docs/ru:copyAccountData.md "wikilink") [ar:copyAccountData](/ar:copyAccountData.md "wikilink") [pl:copyAccountData](/pl:copyAccountData.md "wikilink")

@@ -36,4 +36,4 @@ addCommandHandler ( "setstyle",  consoleSetFightingStyle )
 See Also
 --------
 
-[ru:setPedFightingStyle](/ru:setPedFightingStyle.md "wikilink")
+[ru:setPedFightingStyle](/docs/ru:setPedFightingStyle.md "wikilink")

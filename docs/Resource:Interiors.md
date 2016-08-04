@@ -3,7 +3,7 @@ The interiors resource provides a generic system for use of the single player's 
 Loading interiors from the resource
 ===================================
 
-By default, the interiors resource offers over 200 of single player's own interior locations. Coupled with [dimensions](/dimension.md "wikilink"), each and every warp point offers a unique location - with a total of over 450 locations.
+By default, the interiors resource offers over 200 of single player's own interior locations. Coupled with [dimensions](/docs/dimension.md "wikilink"), each and every warp point offers a unique location - with a total of over 450 locations.
 
 Loading these interiors is easy. Starting the *interiors* resource will auto load all these preset warp points and will be ready to use out of the box.
 
@@ -50,7 +50,7 @@ The interiors resource offers a few events and functions which should allow cust
 Exported functions
 ------------------
 
-Please remember that [call](/call.md "wikilink") must be used to call functions of another resource.
+Please remember that [call](/docs/call.md "wikilink") must be used to call functions of another resource.
 
 ------------------------------------------------------------------------
 
@@ -76,7 +76,7 @@ Returns a string of the interior name, or false if it could not be retrieved.
 
 ### getInteriorMarker
 
-This function retrieves the [marker](/marker.md "wikilink") element associated to the interior. This will allow you to modify the visibility of interior markers using the [setElementVisibleTo](/setElementVisibleTo.md "wikilink") function.
+This function retrieves the [marker](/docs/marker.md "wikilink") element associated to the interior. This will allow you to modify the visibility of interior markers using the [setElementVisibleTo](/setElementVisibleTo.md "wikilink") function.
 
 #### Syntax
 
@@ -109,11 +109,11 @@ player hitPlayer
 
 #### Source
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the interior element which was hit.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the interior element which was hit.
 
 #### Cancel effect
 
-If this event is [canceled](/Event_system#Canceling.md "wikilink"), the player will not be warped to his destination point.
+If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the player will not be warped to his destination point.
 
 ------------------------------------------------------------------------
 
@@ -131,7 +131,7 @@ player warpedPlayer
 
 #### Source
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the interior element which was warped **to**.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the interior element which was warped **to**.
 
 ------------------------------------------------------------------------
 
@@ -149,11 +149,11 @@ element hitInterior
 
 #### Source
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the player who hit the interior element.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the player who hit the interior element.
 
 #### Cancel effect
 
-If this event is [canceled](/Event_system#Canceling.md "wikilink"), the player will not be warped to his destination point.
+If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the player will not be warped to his destination point.
 
 ------------------------------------------------------------------------
 
@@ -171,10 +171,10 @@ element warpedInterior
 
 #### Source
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the player who was warped to his destination point.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the player who was warped to his destination point.
 
 ------------------------------------------------------------------------
 
 ### Examples
 
-**Coming soon** [ru:<Resource:Interiors>](/ru:Resource:Interiors.md "wikilink")
+**Coming soon** [ru:<Resource:Interiors>](/docs/ru:Resource:Interiors.md "wikilink")

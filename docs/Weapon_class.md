@@ -2,7 +2,7 @@
 
 ### Methods
 
--   [create](/createWeapon.md "wikilink")
--   [fire](/fireWeapon.md "wikilink")
--   [setOwner](/setWeaponOwner.md "wikilink")
--   [setTarget](/setWeaponTarget.md "wikilink")
+-   [create](/docs/createWeapon.md "wikilink")
+-   [fire](/docs/fireWeapon.md "wikilink")
+-   [setOwner](/docs/setWeaponOwner.md "wikilink")
+-   [setTarget](/docs/setWeaponTarget.md "wikilink")

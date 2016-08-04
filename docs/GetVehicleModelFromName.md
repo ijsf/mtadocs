@@ -1,4 +1,4 @@
-This function retrieves the model ID of a vehicle as an [integer](/int.md "wikilink") value from its name.
+This function retrieves the model ID of a vehicle as an [integer](/docs/int.md "wikilink") value from its name.
 
 Syntax
 ------
@@ -9,11 +9,11 @@ int getVehicleModelFromName ( string name )
 
 ### Required Arguments
 
--   **name:** A [string](/string.md "wikilink") containing the name of the vehicle.
+-   **name:** A [string](/docs/string.md "wikilink") containing the name of the vehicle.
 
 ### Returns
 
-Returns an [integer](/int.md "wikilink") if the name exists, *false* otherwise. If you use this function on vehicles with shared names, such as “police”, it will return the earliest occurrence of that vehicle's ID.
+Returns an [integer](/docs/int.md "wikilink") if the name exists, *false* otherwise. If you use this function on vehicles with shared names, such as “police”, it will return the earliest occurrence of that vehicle's ID.
 
 Example
 -------

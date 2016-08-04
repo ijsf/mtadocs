@@ -1,4 +1,4 @@
-This function returns the [team](/team.md "wikilink") element from a particular spawnpoint.
+This function returns the [team](/docs/team.md "wikilink") element from a particular spawnpoint.
 
 Syntax
 ------
@@ -13,7 +13,7 @@ team getSpawnpointTeam ( spawnpoint spawn )
 
 ### Returns
 
-If the spawnpoint given is valid and has a team, it returns a [team](/team.md "wikilink") element representing the team players will join when spawning there, *false* otherwise.
+If the spawnpoint given is valid and has a team, it returns a [team](/docs/team.md "wikilink") element representing the team players will join when spawning there, *false* otherwise.
 
 Example
 -------

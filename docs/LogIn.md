@@ -1,4 +1,4 @@
-This functions logs the given player in to the given [account](/account.md "wikilink"). You need to provide the password needed to log into that account.
+This functions logs the given player in to the given [account](/docs/account.md "wikilink"). You need to provide the password needed to log into that account.
 
 Syntax
 ------
@@ -15,7 +15,7 @@ bool logIn ( player thePlayer, account theAccount, string thePassword )
 
 ### Returns
 
-Returns *true* if the player was successfully logged into the given account. Returns *false* or *nil* if the log in failed for some reason, ie. the player was already logged in to some account (use [logOut](/logOut.md "wikilink") first), if the account was already in use or if it failed for some other reason.
+Returns *true* if the player was successfully logged into the given account. Returns *false* or *nil* if the log in failed for some reason, ie. the player was already logged in to some account (use [logOut](/docs/logOut.md "wikilink") first), if the account was already in use or if it failed for some other reason.
 
 Example
 -------
@@ -35,4 +35,4 @@ addCommandHandler ( "log-in", loginPlayer ) -- Make it trigger for "/log-in", NO
 See Also
 --------
 
-[ru:logIn](/ru:logIn.md "wikilink") [ar:logIn](/ar:logIn.md "wikilink")
+[ru:logIn](/docs/ru:logIn.md "wikilink") [ar:logIn](/ar:logIn.md "wikilink")

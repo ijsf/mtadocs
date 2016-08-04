@@ -9,7 +9,7 @@ int getPlayerWeaponSlot ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer**: the [player](/player.md "wikilink") you want to get the weapon slot from.
+-   **thePlayer**: the [player](/docs/player.md "wikilink") you want to get the weapon slot from.
 
 ### Optional Arguments
 
@@ -29,4 +29,4 @@ Pending.
 See Also
 --------
 
--   [SetPlayerWeaponSlot](/SetPlayerWeaponSlot.md "wikilink")
+-   [SetPlayerWeaponSlot](/docs/SetPlayerWeaponSlot.md "wikilink")

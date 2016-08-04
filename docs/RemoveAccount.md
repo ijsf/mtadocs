@@ -1,4 +1,4 @@
-This function is used to delete existing player [accounts](/account.md "wikilink").
+This function is used to delete existing player [accounts](/docs/account.md "wikilink").
 
 Syntax
 ------
@@ -38,4 +38,4 @@ addCommandHandler("deregister",onCmdDeregister)
 See Also
 --------
 
-[ar:setAccountPassword](/ar:setAccountPassword.md "wikilink")
+[ar:setAccountPassword](/docs/ar:setAccountPassword.md "wikilink")

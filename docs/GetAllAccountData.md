@@ -1,4 +1,4 @@
-This function returns a table containing all the user data for the [account](/account.md "wikilink") provided
+This function returns a table containing all the user data for the [account](/docs/account.md "wikilink") provided
 
 Syntax
 ------
@@ -13,7 +13,7 @@ table getAllAccountData ( account theAccount )
 
 ### Returns
 
-A [table](/table.md "wikilink") containing all the user data. This table might be empty.
+A [table](/docs/table.md "wikilink") containing all the user data. This table might be empty.
 
 Example
 -------

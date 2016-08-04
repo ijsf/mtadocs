@@ -1,4 +1,4 @@
-A [text display](/textdisplay.md "wikilink") is like a canvas that can contain many [items of text](/textitem.md "wikilink"). Each display can be seen by multiple observers (players) and each player can see multiple displays.
+A [text display](/docs/textdisplay.md "wikilink") is like a canvas that can contain many [items of text](/textitem.md "wikilink"). Each display can be seen by multiple observers (players) and each player can see multiple displays.
 
 Syntax
 ------

@@ -17,7 +17,7 @@ The source of this event is the object which will break.
 Cancel effect
 -------------
 
-If this event is [canceled](/Event_system#Canceling.md "wikilink"), the object will not break.
+If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the object will not break.
 
 Example
 -------

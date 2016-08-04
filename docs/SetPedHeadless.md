@@ -9,7 +9,7 @@ bool setPedHeadless  ( ped thePed, bool headState )
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink") to check.
+-   **thePed**: The [ped](/docs/ped.md "wikilink") to check.
 -   **headState**: head state, use true if you want the ped be headless, use false to give back the head.
 
 ### Returns
@@ -40,4 +40,4 @@ addCommandHandler("headmeup", giveBackHead)
 See Also
 --------
 
-[ru:setPedHeadless](/ru:setPedHeadless.md "wikilink")
+[ru:setPedHeadless](/docs/ru:setPedHeadless.md "wikilink")

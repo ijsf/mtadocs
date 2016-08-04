@@ -9,7 +9,7 @@ bool setPlayerAnnounceValue ( element thePlayer, string key, string value )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") whos announce value you wish to change.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") whos announce value you wish to change.
 -   **key:** The key which the value will be stored at.
 -   **value:** The value you wish to store.
 

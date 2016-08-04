@@ -9,13 +9,13 @@ string utfSub( string theString, int Start, int End )
 
 ### Required Arguments
 
--   **theString:** The [string](/string.md "wikilink").
--   **Start:** An [int](/int.md "wikilink") with the start position.
--   **End:** An [int](/int.md "wikilink") with the end position.
+-   **theString:** The [string](/docs/string.md "wikilink").
+-   **Start:** An [int](/docs/int.md "wikilink") with the start position.
+-   **End:** An [int](/docs/int.md "wikilink") with the end position.
 
 ### Returns
 
-Returns a *[string](/string.md "wikilink")* if the function was successful, *false* otherwise.
+Returns a *[string](/docs/string.md "wikilink")* if the function was successful, *false* otherwise.
 
 ### Example
 

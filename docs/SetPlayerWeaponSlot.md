@@ -1,4 +1,4 @@
-Please use [setPedWeaponSlot](/setPedWeaponSlot.md "wikilink")
+Please use [setPedWeaponSlot](/docs/setPedWeaponSlot.md "wikilink")
 
 This function sets the player's weapon slot. This affects the current weapon.
 
@@ -11,7 +11,7 @@ bool setPlayerWeaponSlot ( player theplayer, int weapon_slot )
 
 ### Required Arguments
 
--   **theplayer:** the [player](/player.md "wikilink") whose weapon slot you want to set. In a clientside script, this can only be the local player.
+-   **theplayer:** the [player](/docs/player.md "wikilink") whose weapon slot you want to set. In a clientside script, this can only be the local player.
 -   **weapon\_slot:** the weapon slot to set.
 
 ### Returns

@@ -1,4 +1,4 @@
-This function is used to get the name of a specified players current simplest [task](/task.md "wikilink").
+This function is used to get the name of a specified players current simplest [task](/docs/task.md "wikilink").
 **DP2 note:** Don't call this on players that have not spawned. This will crash the client.
 
 Syntax
@@ -10,11 +10,11 @@ string getPlayerSimplestTask ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/player.md "wikilink") whose [task](/task.md "wikilink") you want to retrieve.
+-   **thePlayer**: The [player](/docs/player.md "wikilink") whose [task](/task.md "wikilink") you want to retrieve.
 
 ### Returns
 
-Returns a string representing the name of the player's simplest, active [task](/task.md "wikilink").
+Returns a string representing the name of the player's simplest, active [task](/docs/task.md "wikilink").
 
 Example
 -------

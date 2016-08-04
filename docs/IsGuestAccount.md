@@ -1,4 +1,4 @@
-This function checks to see if an [account](/account.md "wikilink") is a guest account. A guest account is an account automatically created for a user when they join the server and deleted when they quit or login to another account. Data stored in a guest account is not stored after the player has left the server. As a consequence, this function will check if a player is logged in or not.
+This function checks to see if an [account](/docs/account.md "wikilink") is a guest account. A guest account is an account automatically created for a user when they join the server and deleted when they quit or login to another account. Data stored in a guest account is not stored after the player has left the server. As a consequence, this function will check if a player is logged in or not.
 
 Syntax
 ------
@@ -39,4 +39,4 @@ addCommandHandler ( "call_admin", callAdmin )
 See Also
 --------
 
-[ar:isGuestAccount](/ar:isGuestAccount.md "wikilink")
+[ar:isGuestAccount](/docs/ar:isGuestAccount.md "wikilink")

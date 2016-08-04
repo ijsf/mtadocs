@@ -1,4 +1,4 @@
-This function allows restoring of a changed sky gradient as a result of [setSkyGradient](/setSkyGradient.md "wikilink").
+This function allows restoring of a changed sky gradient as a result of [setSkyGradient](/docs/setSkyGradient.md "wikilink").
 
 Syntax
 ------
@@ -27,4 +27,4 @@ addCommandHandler("resetsky",
 See Also
 --------
 
-[ru:ResetSkyGradient](/ru:ResetSkyGradient.md "wikilink")
+[ru:ResetSkyGradient](/docs/ru:ResetSkyGradient.md "wikilink")

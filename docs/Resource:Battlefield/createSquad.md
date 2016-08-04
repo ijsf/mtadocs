@@ -1,7 +1,7 @@
 Purpose
 -------
 
-Creates a squad element. [Click here to read more about squads.](/Resource:battlefield/squad.md "wikilink")
+Creates a squad element. [Click here to read more about squads.](/docs/Resource:battlefield/squad.md "wikilink")
 
 Syntax
 ------
@@ -12,8 +12,8 @@ squad createSquad ( team squadTeam, string shortName )
 
 ### Required Arguments
 
--   **squadTeam:** The [team](/team.md "wikilink") element the squad will be attached to.
--   **shortName:** The [shortname](/Resource:battlefield/shortname.md "wikilink") for the squad.
+-   **squadTeam:** The [team](/docs/team.md "wikilink") element the squad will be attached to.
+-   **shortName:** The [shortname](/docs/Resource:battlefield/shortname.md "wikilink") for the squad.
 
 ### Returns
 
@@ -35,4 +35,4 @@ end
 
 |                                                                       |
 |-----------------------------------------------------------------------|
-| [Return to Battlefield Resource](/Resource:Battlefield.md "wikilink") |
+| [Return to Battlefield Resource](/docs/Resource:Battlefield.md "wikilink") |

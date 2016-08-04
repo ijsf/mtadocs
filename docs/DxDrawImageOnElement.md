@@ -9,13 +9,13 @@ Syntax
  ) 
 ```
 
-[thumb|Example of how it should looks like.|284x230px](/File:DxDrawImageOnElement.png.md "wikilink")
+[thumb|Example of how it should looks like.|284x230px](/docs/File:DxDrawImageOnElement.png.md "wikilink")
 
 Required arguments
 ------------------
 
 -   *TheElement*: The element you want to draw the image on it.
--   *Image*: The image you want. Use [dxCreateTexture](/dxCreateTexture.md "wikilink") to create it.
+-   *Image*: The image you want. Use [dxCreateTexture](/docs/dxCreateTexture.md "wikilink") to create it.
 
 Optional arguments
 ------------------
@@ -32,9 +32,9 @@ Optional arguments
 <!-- -->
 
 -   **checkBuildings:** Allow the line of sight to be blocked by GTA's internally placed buildings, i.e. the world map.
--   **checkVehicles:** Allow the line of sight to be blocked by [vehicles](/Vehicle.md "wikilink").
--   **checkPeds:** Allow the line of sight to be blocked by peds, i.e. [players](/Player.md "wikilink").
--   **checkObjects:** Allow the line of sight to be blocked by [objects](/Object.md "wikilink").
+-   **checkVehicles:** Allow the line of sight to be blocked by [vehicles](/docs/Vehicle.md "wikilink").
+-   **checkPeds:** Allow the line of sight to be blocked by peds, i.e. [players](/docs/Player.md "wikilink").
+-   **checkObjects:** Allow the line of sight to be blocked by [objects](/docs/Object.md "wikilink").
 -   **checkDummies:** Allow the line of sight to be blocked by GTA's internal dummies. These are not used in the current MTA version so this argument can be set to *false*.
 -   **seeThroughStuff:** Allow the line of sight to be blocked by translucent game objects, e.g. glass.
 -   **ignoreSomeObjectsForCamera:** Allow the line of sight to be blocked by certain objects.

@@ -7,7 +7,7 @@ int getVehicleNitroCount ( vehicle theVehicle )
 
 ### Required Arguments
 
--   **theVehicle** The [vehicle](/vehicle.md "wikilink") which you want to get a nitro count.
+-   **theVehicle** The [vehicle](/docs/vehicle.md "wikilink") which you want to get a nitro count.
 
 ### Returns
 

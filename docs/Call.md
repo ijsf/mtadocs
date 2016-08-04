@@ -23,7 +23,7 @@ The function which you wish to call **must** first be exported within the resour
 
 This enables other resources to call a function from this resource.
 
-You cannot call a server function from the client or vice versa. See [triggerServerEvent](/triggerServerEvent.md "wikilink") and [triggerClientEvent](/triggerClientEvent.md "wikilink") for possibilities to do that.
+You cannot call a server function from the client or vice versa. See [triggerServerEvent](/docs/triggerServerEvent.md "wikilink") and [triggerClientEvent](/triggerClientEvent.md "wikilink") for possibilities to do that.
 
 There is an easier syntax replacing this function. For example, you can instead of:
 
@@ -43,7 +43,7 @@ If the resource name contains illegal characters (such as hyphens), you can also
 :exportedFunction ( 1, "2", "three" )
 ```
 
-When using the [call](/call.md "wikilink") function, two extra “hidden” variables are passed to the exported function:
+When using the [call](/docs/call.md "wikilink") function, two extra “hidden” variables are passed to the exported function:
 
 -   **sourceResource** - The resource that called the exported function
 -   **sourceResourceRoot** - The resource root element of the resource which called the exported function.

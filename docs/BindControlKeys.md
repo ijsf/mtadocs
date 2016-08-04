@@ -1,6 +1,6 @@
 <lowercasetitle></lowercasetitle>
 
-These useful clientside functions bind the keys bound to a control individually, using [bindKey](/bindKey.md "wikilink"), and unbind them using [unbindKey](/unbindKey.md "wikilink"). The objective of these functions is to bypass the limitation of binding a control directly which ignores key presses if the control is deactivated at the moment (so the script would be able to react if the player presses *aim\_weapon* in a vehicle, for example).
+These useful clientside functions bind the keys bound to a control individually, using [bindKey](/docs/bindKey.md "wikilink"), and unbind them using [unbindKey](/unbindKey.md "wikilink"). The objective of these functions is to bypass the limitation of binding a control directly which ignores key presses if the control is deactivated at the moment (so the script would be able to react if the player presses *aim\_weapon* in a vehicle, for example).
 
 Syntaxes
 --------
@@ -15,8 +15,8 @@ boolean/nil unbindControlKeys ( string control )
 
 ### Required arguments
 
--   **control:** The name of the control to bind or unbind. See [control names](/control_names.md "wikilink").
--   **bindData:** (*bindControlKeys* only) Configures how the control keys will be bound. See clientside [bindKey](/bindKey.md "wikilink") syntaxes for reference.
+-   **control:** The name of the control to bind or unbind. See [control names](/docs/control_names.md "wikilink").
+-   **bindData:** (*bindControlKeys* only) Configures how the control keys will be bound. See clientside [bindKey](/docs/bindKey.md "wikilink") syntaxes for reference.
 
 ### Returns
 
@@ -25,7 +25,7 @@ These functions return *true* if no error arised. They return *nil* plus an erro
 Restrictions
 ------------
 
-**You can only have one control keys bind per control**. That should be enough for most scripts. If you want to create more binds, copy these functions into a new script file (or [resource](/resource.md "wikilink")) and mark them as *local*.
+**You can only have one control keys bind per control**. That should be enough for most scripts. If you want to create more binds, copy these functions into a new script file (or [resource](/docs/resource.md "wikilink")) and mark them as *local*.
 
 Functions source
 ----------------

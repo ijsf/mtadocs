@@ -1,4 +1,4 @@
-This function get component rotation for [vehicle](/vehicle.md "wikilink").
+This function get component rotation for [vehicle](/docs/vehicle.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ float, float, float getVehicleComponentRotation ( vehicle theVehicle, string the
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") you wish to get component rotation.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") you wish to get component rotation.
 -   **theComponent:** A vehicle component (this is the frame name from the model file of the component you wish to modify)
 
 ### Optional Arguments

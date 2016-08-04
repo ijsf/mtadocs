@@ -1,4 +1,4 @@
-MTASA:Race was the first Multi Theft Auto release for Grand Theft Auto San Andreas. Since its release, we've seen thousands of maps and a vast, active community develop and mature. Despite this, for everything there is a time to move on. Multi Theft Auto: San Andreas , in conjunction with the latest version of the [<Resource:Race>](/Resource:Race.md "wikilink") gamemode provides a stable platform for server admins and gamers alike to upgrade to the most powerful GTA Race experience yet.
+MTASA:Race was the first Multi Theft Auto release for Grand Theft Auto San Andreas. Since its release, we've seen thousands of maps and a vast, active community develop and mature. Despite this, for everything there is a time to move on. Multi Theft Auto: San Andreas , in conjunction with the latest version of the [<Resource:Race>](/docs/Resource:Race.md "wikilink") gamemode provides a stable platform for server admins and gamers alike to upgrade to the most powerful GTA Race experience yet.
 
 Why upgrade?
 ------------
@@ -22,7 +22,7 @@ The MTA:SA platform is much more versatile and therefore makes the gameplay expe
 -   Support for newest Microsoft Windows operating systems like Windows Vista, Windows 2008, Windows 7, Windows 8/8.1 and Windows 10 in both x86 and x64 flavours. Due to the open-source nature of MTA:SA , compatiblity is mantained constantly.
 -   Much more accurate vehicle synchronisation. When switching to , the first thing racers will notice is the amazing vehicle synchronisation. It now is incredibly smooth, and synced much more precisely - an essential to any racing game.
 -   The Traffic Sensor addon means nearby opponents are displayed on the screen. At last, you can be aware of which way those tailgating opponents are challenging you!
--   The all new open-sourced [Map Editor](/Resource:Editor.md "wikilink") means you can create your race maps with ease.
+-   The all new open-sourced [Map Editor](/docs/Resource:Editor.md "wikilink") means you can create your race maps with ease.
 -   MTA:SA provides a single mod for **all** your online GTA needs.
 
 ### Server owner's paradise
@@ -49,8 +49,8 @@ All you have to do is head to the [download page](http://www.mtasa.com/) and ins
 
 ### Server Owners
 
-Server owners can easily upgrade to MTA:SA . Races are fully compatible after a short upgrade process. Simply install the latest server package, and use our [batch converter](http://files.mtasa.com/apps/1.0/raceconv.zip) to convert your maps into MTA:SA resource format. From then on, your converted maps work with the [race gamemode](/Resource:race.md "wikilink") and can be managed through the [map manager](/Resource:mapmanager.md "wikilink") and the [vote manager](/Resource:votemanager.md "wikilink").
+Server owners can easily upgrade to MTA:SA . Races are fully compatible after a short upgrade process. Simply install the latest server package, and use our [batch converter](http://files.mtasa.com/apps/1.0/raceconv.zip) to convert your maps into MTA:SA resource format. From then on, your converted maps work with the [race gamemode](/docs/Resource:race.md "wikilink") and can be managed through the [map manager](/Resource:mapmanager.md "wikilink") and the [vote manager](/Resource:votemanager.md "wikilink").
 
-[pt-br:Migrando do MTA:Race ao MTA:SA 1.3](/pt-br:Migrando_do_MTA:Race_ao_MTA:SA_1.3.md "wikilink") [ru:Upgrading from MTA:Race](/ru:Upgrading_from_MTA:Race.md "wikilink")
+[pt-br:Migrando do MTA:Race ao MTA:SA 1.3](/docs/pt-br:Migrando_do_MTA:Race_ao_MTA:SA_1.3.md "wikilink") [ru:Upgrading from MTA:Race](/ru:Upgrading_from_MTA:Race.md "wikilink")
 
-[Category:Support](/Category:Support.md "wikilink")
+[Category:Support](/docs/Category:Support.md "wikilink")

@@ -1,4 +1,4 @@
-This function gets the color of a single pixel from [pixels](/Texture_pixels.md "wikilink") contained in a string. It only works with **'plain**' format pixels.
+This function gets the color of a single pixel from [pixels](/docs/Texture_pixels.md "wikilink") contained in a string. It only works with **'plain**' format pixels.
 
 Syntax
 ------

@@ -21,4 +21,4 @@ Example
 See Also
 --------
 
-[ru:xmlNodeGetParent](/ru:xmlNodeGetParent.md "wikilink")
+[ru:xmlNodeGetParent](/docs/ru:xmlNodeGetParent.md "wikilink")

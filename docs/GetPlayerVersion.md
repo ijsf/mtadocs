@@ -1,4 +1,4 @@
-This function gets the client version of the specified [player](/player.md "wikilink") as a sortable string. The string is always 15 characters long and is formatted as follows:
+This function gets the client version of the specified [player](/docs/player.md "wikilink") as a sortable string. The string is always 15 characters long and is formatted as follows:
 
 -   1 character representing the major version
 -   1 dot character
@@ -27,11 +27,11 @@ string getPlayerVersion ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/player.md "wikilink") whose client version you wish to get.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") whose client version you wish to get.
 
 ### Returns
 
-Returns a string containing the client version, or false if the [player](/player.md "wikilink") is invalid.
+Returns a string containing the client version, or false if the [player](/docs/player.md "wikilink") is invalid.
 
 Example
 -------

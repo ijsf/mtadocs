@@ -239,6 +239,6 @@ Source
 
 The group names and readable material names have been extracted from Collision File Editor II by Steve M[1](http://www.steve-m.com/downloads/tools/colleditor2/).
 
-[Category:ID Lists](/Category:ID_Lists.md "wikilink")
+[Category:ID Lists](/docs/Category:ID_Lists.md "wikilink")
 
-[de:Material IDs](/de:Material_IDs.md "wikilink")
+[de:Material IDs](/docs/de:Material_IDs.md "wikilink")

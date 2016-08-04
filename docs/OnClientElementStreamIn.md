@@ -3,7 +3,7 @@ This event is triggered whenever a physical element is streamed in. This is trig
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [element](/element.md "wikilink") that streamed in
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [element](/element.md "wikilink") that streamed in
 
 Example
 -------

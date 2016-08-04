@@ -9,7 +9,7 @@ bool setVehicleEngineState ( vehicle theVehicle, bool engineState )
 
 ### Required Arguments
 
--   **theVehicle**: The [vehicle](/vehicle.md "wikilink") you wish to change the engine state of.
+-   **theVehicle**: The [vehicle](/docs/vehicle.md "wikilink") you wish to change the engine state of.
 -   **engineState**: A boolean value representing whether the engine will be turned on (*true*) or off (*false*).
 
 ### Returns

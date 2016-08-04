@@ -9,7 +9,7 @@ string ircStrip ( string text, [ string options = "burc" ] )
 
 ### Required Arguments
 
--   **text:** The wanted [string](/string.md "wikilink") which is going to be stripped out it's text features.
+-   **text:** The wanted [string](/docs/string.md "wikilink") which is going to be stripped out it's text features.
 
 ### Optional Arguments
 

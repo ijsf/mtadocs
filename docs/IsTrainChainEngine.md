@@ -7,11 +7,11 @@ bool isTrainChainEngine ( vehicle theTrain )
 
 ### Arguments
 
--   **theTrain:** a [train](/Element/Vehicle.md "wikilink") to check if it's a chain engine or not.
+-   **theTrain:** a [train](/docs/Element/Vehicle.md "wikilink") to check if it's a chain engine or not.
 
 ### Returns
 
--   *true* if a [train](/Element/Vehicle.md "wikilink") was passed to the function and if it's a chain engine.
+-   *true* if a [train](/docs/Element/Vehicle.md "wikilink") was passed to the function and if it's a chain engine.
 -   *false* otherwise.
 
 Example
@@ -36,4 +36,4 @@ addCommandHandler("isthistrainachainengine", checkTrainChainEngine)
 See also
 --------
 
-[ru:IsTrainChainEngine](/ru:IsTrainChainEngine.md "wikilink")
+[ru:IsTrainChainEngine](/docs/ru:IsTrainChainEngine.md "wikilink")

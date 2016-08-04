@@ -14,7 +14,7 @@ element getElementByIndex ( string theType, int index )
 
 ### Returns
 
-Returns the requested [element](/element.md "wikilink"), or *false* if it doesn't exist.
+Returns the requested [element](/docs/element.md "wikilink"), or *false* if it doesn't exist.
 
 Example
 -------

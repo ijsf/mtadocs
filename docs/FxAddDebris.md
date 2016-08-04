@@ -1,4 +1,4 @@
-[thumb|200px|Debris](/Image:Fxdebris.png.md "wikilink") Creates a debris particle effect (e.g. bits that fly off a car when ramming a wall).
+[thumb|200px|Debris](/docs/Image:Fxdebris.png.md "wikilink") Creates a debris particle effect (e.g. bits that fly off a car when ramming a wall).
 
 Syntax
 ------

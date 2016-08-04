@@ -9,7 +9,7 @@ bool xmlSaveFile ( xmlnode rootNode )
 
 ### Required Arguments
 
--   **rootNode:** the root [xmlnode](/xmlnode.md "wikilink") of the loaded XML file.
+-   **rootNode:** the root [xmlnode](/docs/xmlnode.md "wikilink") of the loaded XML file.
 
 ### Returns
 
@@ -36,4 +36,4 @@ addCommandHandler("createfile", createFileHandler)
 See Also
 --------
 
-[ru:xmlSaveFile](/ru:xmlSaveFile.md "wikilink")
+[ru:xmlSaveFile](/docs/ru:xmlSaveFile.md "wikilink")

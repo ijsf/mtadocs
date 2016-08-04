@@ -1,4 +1,4 @@
-[600px](/File:TextureEdges.jpg.md "wikilink")
+[600px](/docs/File:TextureEdges.jpg.md "wikilink")
 
 Syntax
 ------

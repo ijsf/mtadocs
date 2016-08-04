@@ -9,7 +9,7 @@ int getPlayerOccupiedVehicleSeat ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/player.md "wikilink") whose vehicle seat you're looking up.
+-   **thePlayer**: The [player](/docs/player.md "wikilink") whose vehicle seat you're looking up.
 
 ### Returns
 

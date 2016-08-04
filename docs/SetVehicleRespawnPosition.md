@@ -9,7 +9,7 @@ Syntax
 
 ### Required Arguments
 
--   **theVehicle**: The [vehicle](/vehicle.md "wikilink") you wish to change the respawn position of.
+-   **theVehicle**: The [vehicle](/docs/vehicle.md "wikilink") you wish to change the respawn position of.
 -   **x**: A floating point number representing the X coordinate on the map.
 -   **y**: A floating point number representing the Y coordinate on the map.
 -   **z**: A floating point number representing the Z coordinate on the map.

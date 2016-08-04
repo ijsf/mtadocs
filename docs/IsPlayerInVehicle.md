@@ -9,7 +9,7 @@ bool isPlayerInVehicle ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/player.md "wikilink") element you are checking.
+-   **thePlayer**: The [player](/docs/player.md "wikilink") element you are checking.
 
 ### Returns
 

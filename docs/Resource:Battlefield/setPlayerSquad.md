@@ -23,4 +23,4 @@ Returns true if the player was successfully added to the squad, else false.
 
 |                                                                       |
 |-----------------------------------------------------------------------|
-| [Return to Battlefield Resource](/Resource:Battlefield.md "wikilink") |
+| [Return to Battlefield Resource](/docs/Resource:Battlefield.md "wikilink") |

@@ -1,4 +1,4 @@
-[Image:pimplogo.png](/Image:pimplogo.png.md "wikilink")
+[Image:pimplogo.png](/docs/Image:pimplogo.png.md "wikilink")
 
 What is it?
 -----------
@@ -7,11 +7,11 @@ PIMP is an EDF-based plug-in for the map-editor, with which you can easily add a
 
 **Promotional video:**
 
-[link=<http://www.youtube.com/watch?v=TWrgSiKcX1k>](/Image:Promovideo.png.md "wikilink")
+[link=<http://www.youtube.com/watch?v=TWrgSiKcX1k>](/docs/Image:Promovideo.png.md "wikilink")
 
 **TUTORIAL video:**
 
-[link=<http://www.youtube.com/watch?v=gYLvEFG_WeY>](/Image:Tutvideo.png.md "wikilink")
+[link=<http://www.youtube.com/watch?v=gYLvEFG_WeY>](/docs/Image:Tutvideo.png.md "wikilink")
 
 **Enjoy!**
 
@@ -31,19 +31,19 @@ Once you are in the map editor:
 
 1.  Click on the *Definitions* icon.
       
-    [Image:Editor\_Definitions.png](/Image:Editor_Definitions.png.md "wikilink")
+    [Image:Editor\_Definitions.png](/docs/Image:Editor_Definitions.png.md "wikilink")
 
 2.  Click on *pimp* and click the *Add* button
       
-    [Image:pimpadd.png](/Image:pimpadd.png.md "wikilink")
+    [Image:pimpadd.png](/docs/Image:pimpadd.png.md "wikilink")
 
 3.  Position your mouse on the buttons on the bottom-left corner
       
-    [Image:moe\_scroll1.png](/Image:moe_scroll1.png.md "wikilink")
+    [Image:moe\_scroll1.png](/docs/Image:moe_scroll1.png.md "wikilink")
 
 4.  *Scroll* your mousewheel until you reach the PIMP-buttons
       
-    [Image:pimpbuttons.png](/Image:pimpbuttons.png.md "wikilink")
+    [Image:pimpbuttons.png](/docs/Image:pimpbuttons.png.md "wikilink")
 
 5.  You are now ready to use it! Don't forget to save!
 
@@ -56,28 +56,28 @@ PIMP works with markers. For example, you add a teleport-element to a marker and
 
 1.  Position your mouse on the bottom-left icons and scroll until you reach the default elements:
       
-    [Image:moe\_scroll1.png](/Image:moe_scroll1.png.md "wikilink")
+    [Image:moe\_scroll1.png](/docs/Image:moe_scroll1.png.md "wikilink")
 
 2.  Click the “marker”-button to create a marker:
       
-    [Image:Editor\_Marker.png](/Image:Editor_Marker.png.md "wikilink")
+    [Image:Editor\_Marker.png](/docs/Image:Editor_Marker.png.md "wikilink")
 
 3.  Place it somewhere, select it and press the “F3”-key on your keyboard.
 4.  Fill in a decent name in the “ID”-box. If you're going to add a boost to it for example, name it “pimp boost 1”. Then click on the “OK”-button.
       
-    [Image:Pimpfillinid.png](/Image:Pimpfillinid.png.md "wikilink")
+    [Image:Pimpfillinid.png](/docs/Image:Pimpfillinid.png.md "wikilink")
 
 5.  Click on one of the PIMP-elementbuttons on the bottomleft corner of your screen:
       
-    [Image:pimpbuttons.png](/Image:pimpbuttons.png.md "wikilink")
+    [Image:pimpbuttons.png](/docs/Image:pimpbuttons.png.md "wikilink")
 
 6.  Click on the “Browse”-button next to “parent”:
       
-    [Image:pimpparent.png](/Image:pimpparent.png.md "wikilink")
+    [Image:pimpparent.png](/docs/Image:pimpparent.png.md "wikilink")
 
 7.  Choose the marker you just created and click on the “OK”-button:
       
-    [Image:pimpchoosemarker.png](/Image:pimpchoosemarker.png.md "wikilink")
+    [Image:pimpchoosemarker.png](/docs/Image:pimpchoosemarker.png.md "wikilink")
 
 Fill in the other options. What the options do, is written on this page (scroll down). Hit the “OK”-button at the bottom of the window again to save.
 
@@ -89,7 +89,7 @@ You're done!
 
 This is a bug in the editor and it appears mostly at the “Teleport”- and “Camera Position”-elements!
 
-You can check this by opening the elements-list: [Image:Editor\_Current\_elements.png](/Image:Editor_Current_elements.png.md "wikilink")
+You can check this by opening the elements-list: [Image:Editor\_Current\_elements.png](/docs/Image:Editor_Current_elements.png.md "wikilink")
 
 ***Doubleclick*** on your PIMP-element in the list (properties window of that element should appear) and if it says **<none>** in the “parent”-box, set a new parent by clicking the “Browse button”, as described above.
 
@@ -101,7 +101,7 @@ When in editor testmode, just type **/restart pimp** to test the PIMP-stuff in y
 PIMP-elements and their options
 -------------------------------
 
-#### [Image:2dtext.png](/Image:2dtext.png.md "wikilink") 2D Text
+#### [Image:2dtext.png](/docs/Image:2dtext.png.md "wikilink") 2D Text
 
 Create a text on the screen when you hit the marker. *'*NOTE: *'*Time is in **milliseconds**! (1 second = 1000 milliseconds) If you want it to move for 5 seconds, fill in 5000.
 
@@ -121,7 +121,7 @@ Create a text on the screen when you hit the marker. *'*NOTE: *'*Time is in **mi
 
 ------------------------------------------------------------------------
 
-#### [Image:3dtext.png](/Image:3dtext.png.md "wikilink") 3D Text
+#### [Image:3dtext.png](/docs/Image:3dtext.png.md "wikilink") 3D Text
 
 Create a text that seems to be in the world at the position of the marker.
 
@@ -140,11 +140,11 @@ Create a text that seems to be in the world at the position of the marker.
 
 ------------------------------------------------------------------------
 
-#### [Image:Teleport.png](/Image:Teleport.png.md "wikilink") Teleport
+#### [Image:Teleport.png](/docs/Image:Teleport.png.md "wikilink") Teleport
 
 Teleport the player/vehicle.
 
-1.  First, create a **vehicle** (NOT a spawnpoint, just a vehicle): [Image:Editor\_Vehicle.png](/Image:Editor_Vehicle.png.md "wikilink")
+1.  First, create a **vehicle** (NOT a spawnpoint, just a vehicle): [Image:Editor\_Vehicle.png](/docs/Image:Editor_Vehicle.png.md "wikilink")
 
 *'*NOTE: *'*Time is in **milliseconds**! (1 second = 1000 milliseconds) If you want it to move for 5 seconds, fill in 5000.
 
@@ -162,7 +162,7 @@ Teleport the player/vehicle.
 
 ------------------------------------------------------------------------
 
-#### [Image:Boost.png](/Image:Boost.png.md "wikilink") Boost
+#### [Image:Boost.png](/docs/Image:Boost.png.md "wikilink") Boost
 
 Give the player/vehicle a boost.
 
@@ -175,7 +175,7 @@ Give the player/vehicle a boost.
 
 ------------------------------------------------------------------------
 
-#### [Image:Setvehiclegravity.png](/Image:Setvehiclegravity.png.md "wikilink") Set vehicle gravity
+#### [Image:Setvehiclegravity.png](/docs/Image:Setvehiclegravity.png.md "wikilink") Set vehicle gravity
 
 Set gravity on the vehicle. Default is X=0, Y=0 and Z=-1. For example, upside-down is X=0, Y=0 and Z=1.
 
@@ -185,13 +185,13 @@ Set gravity on the vehicle. Default is X=0, Y=0 and Z=-1. For example, upside-do
 
 ------------------------------------------------------------------------
 
-#### [Image:Blip.png](/Image:Blip.png.md "wikilink") Blip
+#### [Image:Blip.png](/docs/Image:Blip.png.md "wikilink") Blip
 
 Create a blip on the position of the marker or attach a blip to the player/vehicle when the marker is hit.
 
 -   **ID**: The name of the element. If you name it properly, it's easier to find it back when you set it as parent later on.
 -   **type**: Attach to the player when hit, or attach to the marker (permanently).
--   **iconID**: IconID. Click for a list of ID's: [Radar Blips](/Radar_Blips.md "wikilink")
+-   **iconID**: IconID. Click for a list of ID's: [Radar Blips](/docs/Radar_Blips.md "wikilink")
 -   **size**: Size of the blip, only works if iconID = 0.
 -   **color**: Color of th eblip, only works if iconID = 0.
 -   **distance**: Maximum distance the blip is visible from.
@@ -199,7 +199,7 @@ Create a blip on the position of the marker or attach a blip to the player/vehic
 
 ------------------------------------------------------------------------
 
-#### [Image:Cameraposition.png](/Image:Cameraposition.png.md "wikilink") Camera Position
+#### [Image:Cameraposition.png](/docs/Image:Cameraposition.png.md "wikilink") Camera Position
 
 Position the player's camera somewhere else and make it follow the player, or look at a certain position.
 
@@ -221,7 +221,7 @@ Camera Position uses multiple. One to trigger (parent), one for the position of 
 
 ------------------------------------------------------------------------
 
-#### [Image:Cameratargetplayer.png](/Image:Cameratargetplayer.png.md "wikilink") Camera Target Player
+#### [Image:Cameratargetplayer.png](/docs/Image:Cameratargetplayer.png.md "wikilink") Camera Target Player
 
 This restores the camera to following the player, as usual.
 
@@ -232,7 +232,7 @@ This restores the camera to following the player, as usual.
 
 ------------------------------------------------------------------------
 
-#### [Image:Setrotation.png](/Image:Setrotation.png.md "wikilink") Set vehicle rotation
+#### [Image:Setrotation.png](/docs/Image:Setrotation.png.md "wikilink") Set vehicle rotation
 
 Rotate the vehicle.
 
@@ -243,7 +243,7 @@ Rotate the vehicle.
 
 ------------------------------------------------------------------------
 
-#### [Image:Setvehiclemodel.png](/Image:Setvehiclemodel.png.md "wikilink") Set vehicle model
+#### [Image:Setvehiclemodel.png](/docs/Image:Setvehiclemodel.png.md "wikilink") Set vehicle model
 
 Change the vehicle's model.
 
@@ -255,7 +255,7 @@ Change the vehicle's model.
 
 ------------------------------------------------------------------------
 
-#### [Image:Enablecheat.png](/Image:Enablecheat.png.md "wikilink") Enable cheat
+#### [Image:Enablecheat.png](/docs/Image:Enablecheat.png.md "wikilink") Enable cheat
 
 Enable a cheat.
 
@@ -273,7 +273,7 @@ Enable a cheat.
 
 ------------------------------------------------------------------------
 
-#### [Image:Blowvehicle.png](/Image:Blowvehicle.png.md "wikilink") Blow vehicle
+#### [Image:Blowvehicle.png](/docs/Image:Blowvehicle.png.md "wikilink") Blow vehicle
 
 Blow up the player's or everyone's vehicle.
 
@@ -284,7 +284,7 @@ Blow up the player's or everyone's vehicle.
 
 ------------------------------------------------------------------------
 
-#### [Image:Fixvehicle.png](/Image:Fixvehicle.png.md "wikilink") Fix vehicle
+#### [Image:Fixvehicle.png](/docs/Image:Fixvehicle.png.md "wikilink") Fix vehicle
 
 Fix vehicle or set health level.
 
@@ -295,7 +295,7 @@ Fix vehicle or set health level.
 
 ------------------------------------------------------------------------
 
-#### [Image:Setvehicledamageproof.png](/Image:Setvehicledamageproof.png.md "wikilink") Set vehicle damageproof
+#### [Image:Setvehicledamageproof.png](/docs/Image:Setvehicledamageproof.png.md "wikilink") Set vehicle damageproof
 
 Makes the vehicle damageproof.
 
@@ -305,7 +305,7 @@ Makes the vehicle damageproof.
 
 ------------------------------------------------------------------------
 
-#### [Image:Setgamespeed.png](/Image:Setgamespeed.png.md "wikilink") Set gamespeed
+#### [Image:Setgamespeed.png](/docs/Image:Setgamespeed.png.md "wikilink") Set gamespeed
 
 Set gamespeed.
 
@@ -316,7 +316,7 @@ Set gamespeed.
 
 ------------------------------------------------------------------------
 
-#### [Image:Setworldgravity.png](/Image:Setworldgravity.png.md "wikilink") Set worldgravity
+#### [Image:Setworldgravity.png](/docs/Image:Setworldgravity.png.md "wikilink") Set worldgravity
 
 Set gravity of the world.
 
@@ -327,7 +327,7 @@ Set gravity of the world.
 
 ------------------------------------------------------------------------
 
-#### [Image:Setvehiclehandling.png](/Image:Setvehiclehandling.png.md "wikilink") Set vehicle handling
+#### [Image:Setvehiclehandling.png](/docs/Image:Setvehiclehandling.png.md "wikilink") Set vehicle handling
 
 Change the handling of a vehicle.
 
@@ -367,7 +367,7 @@ Change the handling of a vehicle.
 
 ------------------------------------------------------------------------
 
-#### [Image:Resetvehiclehandling.png](/Image:Resetvehiclehandling.png.md "wikilink") Reset vehicle handling
+#### [Image:Resetvehiclehandling.png](/docs/Image:Resetvehiclehandling.png.md "wikilink") Reset vehicle handling
 
 Restores handling on a vehicle.
 

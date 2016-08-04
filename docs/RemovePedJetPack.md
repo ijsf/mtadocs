@@ -9,7 +9,7 @@ bool removePedJetPack ( ped thePed )
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink") you want to remove the jetpack from.
+-   **thePed**: The [ped](/docs/ped.md "wikilink") you want to remove the jetpack from.
 
 ### Returns
 

@@ -4,12 +4,12 @@ In this tutorial we will explore how to create a simple scrolling news feed GUI,
 
 We will then animate the news item to scroll along the bottom of the screen, updating the news text once it has scrolled beyond the edge of the screen.
 
-**Note that this tutorial assumes you are familiar with all the content covered in the [GUI Scripting Introduction](/Introduction_to_Scripting_GUI.md "wikilink").**
+**Note that this tutorial assumes you are familiar with all the content covered in the [GUI Scripting Introduction](/docs/Introduction_to_Scripting_GUI.md "wikilink").**
 
 Setting up the News Feed
 ------------------------
 
-To begin, open up a clientside lua file (if you have been following the [GUI Scripting Introduction](/Introduction_to_Scripting_GUI.md "wikilink"), this is gui.lua) to work with.
+To begin, open up a clientside lua file (if you have been following the [GUI Scripting Introduction](/docs/Introduction_to_Scripting_GUI.md "wikilink"), this is gui.lua) to work with.
 
 ### Creating the GUI
 
@@ -148,7 +148,7 @@ end
 
 To make our news scrolling as accurate as possible, we need to be able to make the GUI label the same size as the news item text it is showing.
 
-While this may seem like a tricky thing to do, it is made very easy with the function [guiLabelGetTextExtent](/guiLabelGetTextExtent.md "wikilink"). This will tell us the extent, or width, of the text currently shown in our label. So with a few modifications to our 'updateNewsItems' function, we get:
+While this may seem like a tricky thing to do, it is made very easy with the function [guiLabelGetTextExtent](/docs/guiLabelGetTextExtent.md "wikilink"). This will tell us the extent, or width, of the text currently shown in our label. So with a few modifications to our 'updateNewsItems' function, we get:
 
 ``` lua
 function updateNewsItem(newIndex)
@@ -215,7 +215,7 @@ The next step is to animate our news feed.
 
 ### Looking at Frames
 
-To do this, we will introduce a new event: [onClientRender](/onClientRender.md "wikilink"). As stated on the [onClientRender](/onClientRender.md "wikilink") wiki page, this event is called every time GTA renders a new frame (ie: very often).
+To do this, we will introduce a new event: [onClientRender](/docs/onClientRender.md "wikilink"). As stated on the [onClientRender](/onClientRender.md "wikilink") wiki page, this event is called every time GTA renders a new frame (ie: very often).
 
 As usual, to use this event we will need to create an event handler for it:
 
@@ -227,7 +227,7 @@ This will call our scrollNews function every frame, which we will then use to up
 
 **Make sure you add this handler after you have defined your scrollNews function.**
 
-For our purposes, [onClientRender](/onClientRender.md "wikilink") has one main advantage over, for example, [setTimer](/setTimer.md "wikilink"). As it is called every frame (and therefore is dependant on the players FPS), the movement of the news item will always appear to be completely smooth, unlike using a timer which would often appear to lag.
+For our purposes, [onClientRender](/docs/onClientRender.md "wikilink") has one main advantage over, for example, [setTimer](/setTimer.md "wikilink"). As it is called every frame (and therefore is dependant on the players FPS), the movement of the news item will always appear to be completely smooth, unlike using a timer which would often appear to lag.
 
 ### Moving the News
 
@@ -300,11 +300,11 @@ This section will detail several ways to improve upon the code you now have.
 
 To give your GUI a more unique feel, you have the ability to customise some aspects of your GUI elements.
 
-For ideas on what is possible, browse the [MTA GUI functions](/Client_Scripting_Functions#GUI_functions.md "wikilink").
+For ideas on what is possible, browse the [MTA GUI functions](/docs/Client_Scripting_Functions#GUI_functions.md "wikilink").
 
 For the purposes of this tutorial, we will be using Font, Colour and Alpha.
 
-To start, we will change the alpha of the background gridlist GUI element we are using. To set the alpha, use [guiSetAlpha](/guiSetAlpha.md "wikilink") and pass a value between 1 and 0; 1 being fully opaque and 0 being fully transparent.
+To start, we will change the alpha of the background gridlist GUI element we are using. To set the alpha, use [guiSetAlpha](/docs/guiSetAlpha.md "wikilink") and pass a value between 1 and 0; 1 being fully opaque and 0 being fully transparent.
 
 ``` lua
 guiSetAlpha(newsGridlist,0.8)
@@ -314,7 +314,7 @@ Place this line of code in your 'createNewsFeed' function, after your gridlist h
 
 I find an alpha level of 0.8 looks best, however this is personal preference and you can experiment to suit your needs.
 
-Next, we will look at the font of the label text. To set the font, use [guiSetFont](/guiSetFont.md "wikilink") and pass the string name of the font you want to use (available to see on the [Standard GUI Font Names](/Standard_GUI_Font_Names.md "wikilink") page).
+Next, we will look at the font of the label text. To set the font, use [guiSetFont](/docs/guiSetFont.md "wikilink") and pass the string name of the font you want to use (available to see on the [Standard GUI Font Names](/Standard_GUI_Font_Names.md "wikilink") page).
 
 ``` lua
 guiSetFont(newsLabel,"default-bold-small")
@@ -322,7 +322,7 @@ guiSetFont(newsLabel,"default-bold-small")
 
 Place this line of code in your 'createNewsFeed' function, after your label has been created.
 
-Finally, we will look at setting the colour of the label text. To set the colour, use [guiLabelSetColor](/guiLabelSetColor.md "wikilink") and pass the individual red,green and blue values.
+Finally, we will look at setting the colour of the label text. To set the colour, use [guiLabelSetColor](/docs/guiLabelSetColor.md "wikilink") and pass the individual red,green and blue values.
 
 ``` lua
 guiLabelSetColor(newsLabel,255,70,0)
@@ -488,4 +488,4 @@ end
 
 That concludes this section of the tutorial.
 
-[Category:GUI\_Tutorials](/Category:GUI_Tutorials.md "wikilink")
+[Category:GUI\_Tutorials](/docs/Category:GUI_Tutorials.md "wikilink")

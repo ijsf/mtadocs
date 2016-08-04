@@ -10,7 +10,7 @@ bool forcePlayerMap ( player thePlayer, bool forceOn )
 
 ### Required Arguments
 
--   **thePlayer**: A [player](/player.md "wikilink") object referencing the specified player
+-   **thePlayer**: A [player](/docs/player.md "wikilink") object referencing the specified player
 -   **forceOn**: A boolean value representing whether or not the players radar map will be forced on
 
 </section>
@@ -48,4 +48,4 @@ end
 See Also
 --------
 
-[ru:forcePlayerMap](/ru:forcePlayerMap.md "wikilink")
+[ru:forcePlayerMap](/docs/ru:forcePlayerMap.md "wikilink")

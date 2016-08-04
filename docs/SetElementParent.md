@@ -14,7 +14,7 @@ bool setElementParent ( element theElement, element parent )
 
 ### Returns
 
-Returns *true* if both [elements](/element.md "wikilink") are valid, *false* otherwise.
+Returns *true* if both [elements](/docs/element.md "wikilink") are valid, *false* otherwise.
 
 Example
 -------

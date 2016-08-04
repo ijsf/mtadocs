@@ -18,13 +18,13 @@ Awesomium vs CEF
 
 Verdict: Go with CEF. We can link the source tree, and push updates frequently as needed. This may prove vital with critical security updates. It'll just require Jusonex to do small 2-600hour changes.
 
--   I'm not sure if we should really go with CEF since we are probably forced to run CEF in the main process @ “Problems with CEF” --[Jusonex](/User:Jusonex.md "wikilink") 12:24, 5 May 2014 (UTC)
+-   I'm not sure if we should really go with CEF since we are probably forced to run CEF in the main process @ “Problems with CEF” --[Jusonex](/docs/User:Jusonex.md "wikilink") 12:24, 5 May 2014 (UTC)
 
 Verdict 2: Go with Awesomium since CEF doesn't match our requirements (as described below).
 
 Verdict 3:
 
--   I fear that Awesomium updates are and will be very infrequent. Since this is very bad in terms of security, we should ponder on moving back to CEF. CEF also introduced a separate executeable-mode (https://code.google.com/p/chromiumembedded/wiki/GeneralUsage\#Separate\_Sub-Process\_Executable) which might solve the problem stated below. --[Jusonex](/User:Jusonex.md "wikilink") 11:39, 19 August 2014 (CET)
+-   I fear that Awesomium updates are and will be very infrequent. Since this is very bad in terms of security, we should ponder on moving back to CEF. CEF also introduced a separate executeable-mode (https://code.google.com/p/chromiumembedded/wiki/GeneralUsage\#Separate\_Sub-Process\_Executable) which might solve the problem stated below. --[Jusonex](/docs/User:Jusonex.md "wikilink") 11:39, 19 August 2014 (CET)
 
 <s>Problems with CEF</s>
 ------------------------
@@ -42,26 +42,26 @@ Flash
 -   Not everyone has flash, and there's likely to be great demand for streaming video. HTML5 doesn't cut it at the moment.
 -   For it to function, the special “Other Browsers” version of Flash Player needs to be installed from Adobe's Website
     -   Should a suggestion of installation of “Flash for other browsers” be included in the MTA installer?
-        -   I think that we shouldn't be prematurely suggesting/promoting/forcing the install of 3rd party software without knowing the exact demand for it. Server owners might find ways around this problem, and we might end up looking like fools for spyware-like adverts (extreme case scenario :P) --[Talidan](/User:Talidan.md "wikilink") 18:32, 17 April 2014 (UTC)
+        -   I think that we shouldn't be prematurely suggesting/promoting/forcing the install of 3rd party software without knowing the exact demand for it. Server owners might find ways around this problem, and we might end up looking like fools for spyware-like adverts (extreme case scenario :P) --[Talidan](/docs/User:Talidan.md "wikilink") 18:32, 17 April 2014 (UTC)
     -   Using user-agent to spoof various HTML5 Browsers may allow dodging of the use of flash. This requires a few things:
         -   A scripting function to set the user agent of the session
         -   Some sample scripts, or some nagging to make sure the community uses HTML5 wherever possible, by the use of user agent or otherwise. We should try and make server owners responsible to avoid taking the lazy route (flash streaming)
--   Note: <http://www.permadi.com/tutorial/flashjscommand/> (limited way of communication) - thanks to [Cazomino05](/User:Cazomino05.md "wikilink")
+-   Note: <http://www.permadi.com/tutorial/flashjscommand/> (limited way of communication) - thanks to [Cazomino05](/docs/User:Cazomino05.md "wikilink")
 
 HTTP Auth
 ---------
 
 -   Browsers normally have a built-in dialog for logging into an HTTP auth'd website
 -   Do we provide the GUI internally or pass an event for script owners to callback on?
-    -   I say do this internally. It's somewhat a security thing, i dont think scripts can be trusted necessarilly. --[Talidan](/User:Talidan.md "wikilink") 18:38, 17 April 2014 (UTC)
+    -   I say do this internally. It's somewhat a security thing, i dont think scripts can be trusted necessarilly. --[Talidan](/docs/User:Talidan.md "wikilink") 18:38, 17 April 2014 (UTC)
 -   Can we pass ACL auth from the server to website, if they're hosted on the same box?
-    -   It's quite niche. See if the use case opens up. --[Talidan](/User:Talidan.md "wikilink") 18:38, 17 April 2014 (UTC)
+    -   It's quite niche. See if the use case opens up. --[Talidan](/docs/User:Talidan.md "wikilink") 18:38, 17 April 2014 (UTC)
 
 Pop-ups/New windows
 -------------------
 
 -   How to handle?
-    -   Fire an event. This means an event is fired when a web page requests a pop-up or a href in a new window, and it's left for the scripter to deal with it. --[Woovie](/User:Woovie.md "wikilink") 18:38, 17 April 2014 (UTC)
+    -   Fire an event. This means an event is fired when a web page requests a pop-up or a href in a new window, and it's left for the scripter to deal with it. --[Woovie](/docs/User:Woovie.md "wikilink") 18:38, 17 April 2014 (UTC)
 
 Alerts
 ------
@@ -74,8 +74,8 @@ Other plugins
 -------------
 
 -   Are they supported? If so, which ones?
-    -   I'm gonna say we disable most plugins, and have a whitelist for approved ones, if feasible. Who want's to deal with crap like Java? --[Talidan](/User:Talidan.md "wikilink") 18:32, 17 April 2014 (UTC)
-    -   If we disable most we need a function to get the list of installed plugins for scripters so they can detect this --[Cazomino05](/User:Cazomino05.md "wikilink") 18:49, 17 April 2014 (UTC)
+    -   I'm gonna say we disable most plugins, and have a whitelist for approved ones, if feasible. Who want's to deal with crap like Java? --[Talidan](/docs/User:Talidan.md "wikilink") 18:32, 17 April 2014 (UTC)
+    -   If we disable most we need a function to get the list of installed plugins for scripters so they can detect this --[Cazomino05](/docs/User:Cazomino05.md "wikilink") 18:49, 17 April 2014 (UTC)
 
 Whitelist/Blacklist of websites
 -------------------------------
@@ -109,20 +109,20 @@ Ability to modify content
 -------------------------
 
 -   The ability to modify content inside the web page is quite a useful one however it leaves us prone to javascript attacks such as the ones used in XSS.
-    -   Solution: For a first release it would be best that content inside the browser be uneditable as this could lead to security issues. --[Cazomino05](/User:Cazomino05.md "wikilink") 18:49, 17 April 2014 (UTC)
+    -   Solution: For a first release it would be best that content inside the browser be uneditable as this could lead to security issues. --[Cazomino05](/docs/User:Cazomino05.md "wikilink") 18:49, 17 April 2014 (UTC)
 
 Ability to view content in Screen shots
 ---------------------------------------
 
 -   Sensitive information can be leaked in script taken screen shots
-    -   Solution: As with our current implementation of the chat box the web browsers should be hidden from takePlayerScreenShot as these can be sent to server owners/admins and reveal sensitive information. --[Cazomino05](/User:Cazomino05.md "wikilink") 18:49, 17 April 2014 (UTC)
+    -   Solution: As with our current implementation of the chat box the web browsers should be hidden from takePlayerScreenShot as these can be sent to server owners/admins and reveal sensitive information. --[Cazomino05](/docs/User:Cazomino05.md "wikilink") 18:49, 17 April 2014 (UTC)
 
 Authentification
 ----------------
 
 -   Sensitive key presses can be intercepted via script
-    -   Solution: Educate - Window on entry explaining the insecurities of putting personal details into a website and a reminder in edit boxes --[Cazomino05](/User:Cazomino05.md "wikilink") 00:21, 23 April 2014 (UTC)
-        -   reminder should be a string in all edit fields depending on if it's remote or local saying something like Insecure to remind people not to put those details in. --[Cazomino05](/User:Cazomino05.md "wikilink") 00:21, 23 April 2014 (UTC)
+    -   Solution: Educate - Window on entry explaining the insecurities of putting personal details into a website and a reminder in edit boxes --[Cazomino05](/docs/User:Cazomino05.md "wikilink") 00:21, 23 April 2014 (UTC)
+        -   reminder should be a string in all edit fields depending on if it's remote or local saying something like Insecure to remind people not to put those details in. --[Cazomino05](/docs/User:Cazomino05.md "wikilink") 00:21, 23 April 2014 (UTC)
 
 Prevent subsequent loading of HTML code via javascript
 ------------------------------------------------------
@@ -132,4 +132,4 @@ Since we need javascript to create HTML GUIs, it'd be bad to disable javascript 
 -   Problem: A function like *executeBrowserJavascript* would allow loading HTML code via *document.write*.
     -   Possible solution: Don't implement *executeBrowserJavascript* and introduce a “web” flag in the *meta.xml* file. If this flag is set, *fileOpen* will only work in read-only mode. (You'll have to set the web flag then in order to be able to open the website via *loadBrowserURL*).
 
-Negative: Less possibilities --[Jusonex](/User:Jusonex.md "wikilink") 11:16, 09 May 2014 (UTC)
+Negative: Less possibilities --[Jusonex](/docs/User:Jusonex.md "wikilink") 11:16, 09 May 2014 (UTC)

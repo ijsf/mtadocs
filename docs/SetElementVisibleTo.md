@@ -1,8 +1,8 @@
-This function can change an [element](/element.md "wikilink")'s [visibility](/visibility.md "wikilink"). This does not work with all entities - [vehicles](/vehicle.md "wikilink"), [players](/player.md "wikilink") and [objects](/object.md "wikilink") are exempt. This is because these objects are required for accurate sync (they're physical objects that contribute to the physics engine). This function is particularly useful for changing the visibility of markers, radar blips and radar areas.
+This function can change an [element](/docs/element.md "wikilink")'s [visibility](/visibility.md "wikilink"). This does not work with all entities - [vehicles](/vehicle.md "wikilink"), [players](/player.md "wikilink") and [objects](/object.md "wikilink") are exempt. This is because these objects are required for accurate sync (they're physical objects that contribute to the physics engine). This function is particularly useful for changing the visibility of markers, radar blips and radar areas.
 
 Visibility settings of lower elements in the element tree override higher ones - if visibility for root is set to false and for a player is set to true, it will be visible to the player.
 
-If you want to clear all visibility settings of an object, try [clearElementVisibleTo](/clearElementVisibleTo.md "wikilink")
+If you want to clear all visibility settings of an object, try [clearElementVisibleTo](/docs/clearElementVisibleTo.md "wikilink")
 
 Syntax
 ------
@@ -14,7 +14,7 @@ bool setElementVisibleTo ( element theElement, element visibleTo, bool visible )
 ### Required Arguments
 
 -   **theElement:** The element you want to control the visibility of.
--   **visibleTo:** The element you wish the element to be visible or invisible to. Any child elements that are players will also be able to see the element. See [visibility](/visibility.md "wikilink").
+-   **visibleTo:** The element you wish the element to be visible or invisible to. Any child elements that are players will also be able to see the element. See [visibility](/docs/visibility.md "wikilink").
 -   **visible:** Whether you are making it visible or invisible to the player.
 
 ### Returns

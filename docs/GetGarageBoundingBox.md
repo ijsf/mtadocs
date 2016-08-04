@@ -9,7 +9,7 @@ float, float, float, float getGarageBoundingBox ( int garageID )
 
 ### Required Arguments
 
--   **garageID:** The [garage ID](/Garage.md "wikilink") that represents the garage door that is being checked.
+-   **garageID:** The [garage ID](/docs/Garage.md "wikilink") that represents the garage door that is being checked.
 
 ### Returns
 

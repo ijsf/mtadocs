@@ -1,4 +1,4 @@
-This function will return the ban reason of the specified [ban](/ban.md "wikilink").
+This function will return the ban reason of the specified [ban](/docs/ban.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ string getBanReason ( ban theBan )
 
 ### Required Arguments
 
--   **theBan:** The [ban](/ban.md "wikilink") in which you want to return the reason of.
+-   **theBan:** The [ban](/docs/ban.md "wikilink") in which you want to return the reason of.
 
 ### Returns
 
-Returns a *string* of the reason if everything was successful, *false* if invalid arguments are specified if there was no reason specified for the [ban](/ban.md "wikilink").
+Returns a *string* of the reason if everything was successful, *false* if invalid arguments are specified if there was no reason specified for the [ban](/docs/ban.md "wikilink").
 
 Example
 -------
@@ -40,4 +40,4 @@ addEventHandler("onBan",getRootElement(),outputBan) -- When a player is banned t
 See Also
 --------
 
-[ru:getBanReason](/ru:getBanReason.md "wikilink")
+[ru:getBanReason](/docs/ru:getBanReason.md "wikilink")

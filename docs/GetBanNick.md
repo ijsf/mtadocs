@@ -1,4 +1,4 @@
-This function will return the nickname (nickname that the player had when he was banned) of the specified [ban](/ban.md "wikilink").
+This function will return the nickname (nickname that the player had when he was banned) of the specified [ban](/docs/ban.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ string getBanNick ( ban theBan )
 
 ### Required Arguments
 
--   **theBan:** The [ban](/ban.md "wikilink") element which nickname you want to return.
+-   **theBan:** The [ban](/docs/ban.md "wikilink") element which nickname you want to return.
 
 ### Returns
 
-Returns a *string* of the nickname if everything was successfull, *false* if invalid arguments are specified if there was no nickname specified for the [ban](/ban.md "wikilink") element.
+Returns a *string* of the nickname if everything was successfull, *false* if invalid arguments are specified if there was no nickname specified for the [ban](/docs/ban.md "wikilink") element.
 
 Example
 -------

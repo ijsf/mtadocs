@@ -1,6 +1,6 @@
-Gets the animation of a player or ped that was set using [setPedAnimation](/setPedAnimation.md "wikilink").
+Gets the animation of a player or ped that was set using [setPedAnimation](/docs/setPedAnimation.md "wikilink").
 
-*Note: Use [getPedTask](/getPedTask.md "wikilink") to monitor what movements the player is currently doing.*
+*Note: Use [getPedTask](/docs/getPedTask.md "wikilink") to monitor what movements the player is currently doing.*
 
 Syntax
 ------
@@ -41,7 +41,7 @@ addCommandHandler("copyanim", CopyAnimation) --  adding the Command Handler
 Example 2
 ---------
 
-This example shows what block and animation your player is currently performing. Note this will return “N/A” if you did not set an animation with [setPedAnimation](/setPedAnimation.md "wikilink"). If you want to see what the player ped is doing as you control them that is [getPedTask](/getPedTask.md "wikilink").
+This example shows what block and animation your player is currently performing. Note this will return “N/A” if you did not set an animation with [setPedAnimation](/docs/setPedAnimation.md "wikilink"). If you want to see what the player ped is doing as you control them that is [getPedTask](/getPedTask.md "wikilink").
 
 ``` lua
 addEventHandler("onClientPreRender",root,

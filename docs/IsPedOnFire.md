@@ -1,4 +1,4 @@
-This function checks if the specified [ped](/ped.md "wikilink") is on fire or not.
+This function checks if the specified [ped](/docs/ped.md "wikilink") is on fire or not.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool isPedOnFire ( ped thePed )
 
 ### Required Arguments
 
--   **thePed**: The [ped](/ped.md "wikilink") to check.
+-   **thePed**: The [ped](/docs/ped.md "wikilink") to check.
 
 ### Returns
 

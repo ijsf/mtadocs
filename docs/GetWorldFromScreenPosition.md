@@ -1,6 +1,6 @@
 This function allows you to retrieve the world position corresponding to a 2D position on the screen, at a certain depth.
 
-If you want to detect what element is at a particular point on the screen, use [processLineOfSight](/processLineOfSight.md "wikilink") between the camera position and the position returned from this function when passed a high depth value (100 or so, depending how far away you want to detect elements at).
+If you want to detect what element is at a particular point on the screen, use [processLineOfSight](/docs/processLineOfSight.md "wikilink") between the camera position and the position returned from this function when passed a high depth value (100 or so, depending how far away you want to detect elements at).
 
 As expected, setting 0 as the distance will cause the point retrived to be within the camera itself. That means thaf drawing any 3D thing in that point would result in it not being visible. Depending on the camera near clip distance, however, the minimum distance to be able to view it can vary.
 
@@ -19,7 +19,7 @@ float, float, float getWorldFromScreenPosition ( float x, float y, float depth )
 
 ### Returns
 
-Returns three *x*, *y*, *z* [floats](/float.md "wikilink") indicating the world position if successful, *false* otherwise.
+Returns three *x*, *y*, *z* [floats](/docs/float.md "wikilink") indicating the world position if successful, *false* otherwise.
 
 Example
 -------

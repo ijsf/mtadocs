@@ -12,7 +12,7 @@ string theMessage
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that entered the message in the console. This can be a player or the server console.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that entered the message in the console. This can be a player or the server console.
 
 Example
 -------
@@ -20,7 +20,7 @@ Example
 This example adds the *yo* command into the script. For example, if a player called Bob types “yo likes pie” in console, it will display "\* Bob likes pie" in the chatbox.
 
   
-**NOTE:** this script is for example purposes only. This can be done in a more efficient way with [addCommandHandler](/addCommandHandler.md "wikilink").
+**NOTE:** this script is for example purposes only. This can be done in a more efficient way with [addCommandHandler](/docs/addCommandHandler.md "wikilink").
 
 ``` lua
 function input_Console ( text ) --when a player types in the console
@@ -42,4 +42,4 @@ end
 addEventHandler ( "onConsole", getRootElement(), input_Console ) -- add an event handler for onConsole
 ```
 
-[ru:onConsole](/ru:onConsole.md "wikilink")
+[ru:onConsole](/docs/ru:onConsole.md "wikilink")

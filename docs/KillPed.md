@@ -9,7 +9,7 @@ Syntax
 
 ### Required Arguments
 
--   **thePed:** The [ped](/ped.md "wikilink") to kill
+-   **thePed:** The [ped](/docs/ped.md "wikilink") to kill
 
 ### Optional Arguments
 
@@ -55,4 +55,4 @@ Issues
 See Also
 --------
 
-[ru:killPed](/ru:killPed.md "wikilink")
+[ru:killPed](/docs/ru:killPed.md "wikilink")

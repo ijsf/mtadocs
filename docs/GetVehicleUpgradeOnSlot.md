@@ -16,8 +16,8 @@ Returns an *integer* with the upgrade on the slot if correct arguments were pass
 
 ### Required Arguments
 
--   **theVehicle**: The [vehicle](/vehicle.md "wikilink") whose upgrade you want to retrieve.
--   **slot**: The slot id of the upgrade. *([Upgrade list](/Upgrade_list.md "wikilink") ordered by slot number)*
+-   **theVehicle**: The [vehicle](/docs/vehicle.md "wikilink") whose upgrade you want to retrieve.
+-   **slot**: The slot id of the upgrade. *([Upgrade list](/docs/Upgrade_list.md "wikilink") ordered by slot number)*
 
 Example
 -------

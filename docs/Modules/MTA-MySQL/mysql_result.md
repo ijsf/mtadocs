@@ -2,8 +2,8 @@
 
 Returns a string with the value of the given field with the given offsets, being these:
 
--   **row\_offset**: An integer value between **1** and **[mysql\_num\_rows()](/Modules/MTA-MySQL/mysql_num_rows.md "wikilink")**
--   **field\_offset**: An integer value between **1** and **[mysql\_num\_fields()](/Modules/MTA-MySQL/mysql_num_fields.md "wikilink")**
+-   **row\_offset**: An integer value between **1** and **[mysql\_num\_rows()](/docs/Modules/MTA-MySQL/mysql_num_rows.md "wikilink")**
+-   **field\_offset**: An integer value between **1** and **[mysql\_num\_fields()](/docs/Modules/MTA-MySQL/mysql_num_fields.md "wikilink")**
 
 If the offset is invalid it returns nil.
 

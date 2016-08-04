@@ -1,4 +1,4 @@
-This function get component position for [vehicle](/vehicle.md "wikilink").
+This function get component position for [vehicle](/docs/vehicle.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ float, float, float getVehicleComponentPosition ( vehicle theVehicle, string the
 
 ### Required Arguments
 
--   **theVehicle:** The [vehicle](/vehicle.md "wikilink") you wish to get component position.
+-   **theVehicle:** The [vehicle](/docs/vehicle.md "wikilink") you wish to get component position.
 -   **theComponent:** A vehicle component (this is the frame name from the model file of the component you wish to modify)
 
 ### Optional Arguments

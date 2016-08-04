@@ -8,7 +8,7 @@ table getEventHandlers ( string eventName, element attachedTo )
 ### Required Arguments
 
 -   **eventName:** The name of the event. For example ( “onPlayerWasted” ).
--   **attachedTo:** The [element](/element.md "wikilink") attached to.
+-   **attachedTo:** The [element](/docs/element.md "wikilink") attached to.
 
 ### Returns
 

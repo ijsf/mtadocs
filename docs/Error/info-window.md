@@ -2,7 +2,7 @@ This resource provides a function that shows an dx-error- or infowindow. The win
 
 Example (error-window on top, info-window at the bottom):
 
-[Image:Errorwindow.png](/Image:Errorwindow.png.md "wikilink")
+[Image:Errorwindow.png](/docs/Image:Errorwindow.png.md "wikilink")
 
 In its settings, you can set for both the info- and error window these colors:
 

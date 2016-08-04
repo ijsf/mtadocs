@@ -15,7 +15,7 @@ Model: Kenji Kasen
 
 Spawn location: Pike Creek
 
-[220px](/Image:GTA3_SSV_YakuzaSpawn.jpg.md "wikilink")
+[220px](/docs/Image:GTA3_SSV_YakuzaSpawn.jpg.md "wikilink")
 
 </td>
 <td>
@@ -24,7 +24,7 @@ Model: Miguel
 
 Spawn location: Cedar Grove
 
-[220px](/Image:GTA3_SSV_ColumbianSpawn.jpg.md "wikilink")
+[220px](/docs/Image:GTA3_SSV_ColumbianSpawn.jpg.md "wikilink")
 
 </td>
 </tr>
@@ -35,7 +35,7 @@ Model: 8-Ball
 
 Spawn location: Witchita Gardens
 
-[220px](/Image:GTA3_SSV_HoodSpawn.jpg.md "wikilink")
+[220px](/docs/Image:GTA3_SSV_HoodSpawn.jpg.md "wikilink")
 
 </td>
 <td>
@@ -44,7 +44,7 @@ Model: Pedestrian Cop
 
 Spawn location: Pike Creek
 
-[220px](/Image:GTA3_SSV_CopSpawn.jpg.md "wikilink")
+[220px](/docs/Image:GTA3_SSV_CopSpawn.jpg.md "wikilink")
 
 </td>
 </tr>
@@ -58,7 +58,7 @@ You can also choose from a range of different weapons before spawning.
 <table>
 <tr>
 <td>
-[Image:GTA3\_Uzi.png](/Image:GTA3_Uzi.png.md "wikilink")
+[Image:GTA3\_Uzi.png](/docs/Image:GTA3_Uzi.png.md "wikilink")
 
 </td>
 <td>
@@ -68,7 +68,7 @@ An Uzi is selected by default in the character selction menu. This is a good all
 </tr>
 <tr>
 <td>
-[Image:GTA3\_Flame.png](/Image:GTA3_Flame.png.md "wikilink")
+[Image:GTA3\_Flame.png](/docs/Image:GTA3_Flame.png.md "wikilink")
 
 </td>
 <td>
@@ -78,7 +78,7 @@ The Flamethrower is a popular choice, although flamethrowing players are often u
 </tr>
 <tr>
 <td>
-[Image:GTA3\_AK47.png](/Image:GTA3_AK47.png.md "wikilink")
+[Image:GTA3\_AK47.png](/docs/Image:GTA3_AK47.png.md "wikilink")
 
 </td>
 <td>
@@ -88,7 +88,7 @@ The AK-47 is suitable for long-range combat.
 </tr>
 <tr>
 <td>
-[Image:GTA3\_Shotgun.png](/Image:GTA3_Shotgun.png.md "wikilink")
+[Image:GTA3\_Shotgun.png](/docs/Image:GTA3_Shotgun.png.md "wikilink")
 
 </td>
 <td>
@@ -100,12 +100,12 @@ The most common choice is the Shotgun. Shotgun duels are frequent, and take adva
 Mini-games
 ----------
 
-Within the five different [Ammunation](/Ammunation.md "wikilink") locations, you can choose to take a taxi for $50 to the Game Mode selection screen. The game modes are:
+Within the five different [Ammunation](/docs/Ammunation.md "wikilink") locations, you can choose to take a taxi for $50 to the Game Mode selection screen. The game modes are:
 
 <table>
 <tr>
 <td>
-[220px](/Image:Mta05_speed.JPG.md "wikilink")
+[220px](/docs/Image:Mta05_speed.JPG.md "wikilink")
 
 </td>
 <td>
@@ -118,7 +118,7 @@ Reward: $3000
 </tr>
 <tr>
 <td>
-[220px](/Image:GTA3_SSV_VanHeist.jpg.md "wikilink")
+[220px](/docs/Image:GTA3_SSV_VanHeist.jpg.md "wikilink")
 
 </td>
 <td>
@@ -131,7 +131,7 @@ Reward: $5000
 </tr>
 <tr>
 <td>
-[220px](/Image:GTA3_SSV_GTA.jpg.md "wikilink")
+[220px](/docs/Image:GTA3_SSV_GTA.jpg.md "wikilink")
 
 </td>
 <td>
@@ -142,7 +142,7 @@ Steal a car from a rival gang leader and bring it to your base. Cops do not part
 </tr>
 <tr>
 <td>
-[220px](/Image:GTA3_SSV_Ransack.jpg.md "wikilink")
+[220px](/docs/Image:GTA3_SSV_Ransack.jpg.md "wikilink")
 
 </td>
 <td>
@@ -153,7 +153,7 @@ A warehouse was once used as a firearms storage. Collect the firearms before tim
 </tr>
 <tr>
 <td>
-[220px](/Image:SSV_Scramble.png.md "wikilink")
+[220px](/docs/Image:SSV_Scramble.png.md "wikilink")
 
 </td>
 <td>
@@ -163,4 +163,4 @@ A race around Shoreside Vale with up to three other players. Similar to the “T
 </td>
 </tr>
 </table>
-[Category:MTA 0.5](/Category:MTA_0.5.md "wikilink") [Category:GTA3](/Category:GTA3.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink") [es:GTA3\_SSV\_ES](/es:GTA3_SSV_ES.md "wikilink")
+[Category:MTA 0.5](/docs/Category:MTA_0.5.md "wikilink") [Category:GTA3](/Category:GTA3.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink") [es:GTA3\_SSV\_ES](/es:GTA3_SSV_ES.md "wikilink")

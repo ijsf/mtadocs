@@ -9,7 +9,7 @@ element getProjectileCreator ( projectile theProjectile )
 
 ### Required Arguments
 
--   **theProjectile:** The [projectile](/projectiles.md "wikilink") element which creator you want to retrieve.
+-   **theProjectile:** The [projectile](/docs/projectiles.md "wikilink") element which creator you want to retrieve.
 
 Returns
 -------
@@ -37,4 +37,4 @@ end)
 See also
 --------
 
-[it:getProjectileCreator](/it:getProjectileCreator.md "wikilink")
+[it:getProjectileCreator](/docs/it:getProjectileCreator.md "wikilink")

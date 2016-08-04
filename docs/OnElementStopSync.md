@@ -7,12 +7,12 @@ Parameters
 player oldSyncer
 ```
 
--   **oldSyncer**: [player](/player.md "wikilink") element representing the last player who was syncing the element
+-   **oldSyncer**: [player](/docs/player.md "wikilink") element representing the last player who was syncing the element
 
 Source
 ------
 
-The [source](/event_system#Event_source.md "wikilink") of this event is the [element](/element.md "wikilink") which is no longer synced by a player.
+The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [element](/element.md "wikilink") which is no longer synced by a player.
 
 Example
 -------
