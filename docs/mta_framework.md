@@ -1,1 +1,0 @@
-Moved to [<http://development.mtasa.com/index.php?title=DexieFramework>](http://development.mtasa.com/index.php?title=DexieFramework)

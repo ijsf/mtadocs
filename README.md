@@ -8,7 +8,7 @@ The extraction was made possible by using a variant of the `philipashlock/mediaw
 
 Files and directories were then manually pruned to retain core documentation and remove any third-party or unrelated documentation.
 
-After conversion to separate files and directories, the following rules were applied to each (Mediawiki syntax) file:
+After conversion to separate files and directories, the following rules were applied to each (Mediawiki syntax) file (all below commands assume OS X):
 
 * Spaces converted to underscore (_).
 * Back slashes (\) converted to forward slashes (/).
@@ -24,6 +24,12 @@ After conversion to separate files and directories, the following rules were app
 * Removal of any Mediawiki commands:
   ```
   find . -type f -name "*.wiki" -exec perl -p -i -e 's/__(NOTOC|TOC|NOEDITSECTION)__//g' {} \;
+  ```
+
+* Filename conversion to lowercase:
+
+  ```
+  for file in $(git ls-files); do git mv -f $file `echo $file | tr "[:upper:]" "[:lower:]"`; done
   ```
 
 Remove any useless pages:
@@ -51,6 +57,7 @@ pandoc -s -S -f mediawiki -t markdown_github test.wiki -o test.md
 * Similar to the previous issue, templates and files are lost.
 * Image tags are not converted properly.
 * Spaces in links are not converted properly (must be converted to _).
+* Uppercase/lowercase linking issues.
 
 * Convert old Category and Template pages into index.
 
