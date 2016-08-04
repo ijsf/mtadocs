@@ -50,11 +50,18 @@ find . -type f -name "*.wiki" -exec sh -c 'pandoc -s -S -f mediawiki -t markdown
 pandoc -s -S -f mediawiki -t markdown_github test.wiki -o test.md
 ```
 
+After conversion to Markdown, perform various steps to clean up:
+
+* Conversion of image links to proper image tags, all lowercase:
+
+  ```
+  find . -type f -name "*.md" -exec perl -p -i -e 's/\[Image:(.*?)\]\(\/(?:docs\/)?image:(.*?)\.md(.*?)\)/\!\[$1\]\(\/images\/\L$2\E\)/gi' {} \;
+  ```
+
+
 ## Current known issues and TODOs
 
 * Any {{...}} specific Mediawiki tags are lost. This includes the "FROM VERSION 1.5.3 ONWARDS" tags, which are _not_ shown, requiring a documentation update at a later point in time.
-* Mediawiki specific pages such as File:*, Template:*, User:*, Talk:*, etc. are removed.
-* Similar to the previous issue, templates and files are lost.
-* Image tags are not converted properly.
+* Mediawiki specific pages or blobs such as File:, Template:, User:, Talk:, etc. are purged.
 * Convert old Category and Template pages into index.
-
+* Various conversion artifacts that can really only solved by hand.
