@@ -1,6 +1,6 @@
 <pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass>
 
-Returns the number of changed rows (for UPDATE), inserted rows (for INSERT) or deleted rows (for DELETE) in the last query. For SELECT statements it works like [mysql\_num\_rows](/docs/Modules/MTA-MySQL/mysql_num_rows.md "wikilink").
+Returns the number of changed rows (for UPDATE), inserted rows (for INSERT) or deleted rows (for DELETE) in the last query. For SELECT statements it works like [mysql\_num\_rows](/docs/modules/mta-mysql/mysql_num_rows.md "wikilink").
 
 Syntax
 ------

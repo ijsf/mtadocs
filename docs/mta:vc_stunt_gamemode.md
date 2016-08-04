@@ -16,7 +16,7 @@ MTA:VC 0.4 synchronized money on the scoreboard, and fixed a rare issue on slowe
 
 MTA:VC 0.5 was a rather major update. All vehicles and ramps were repositioned, RC Bandits were added, and some vehicles now had nitro enabled, bringing a new element to the stagnant Stunt gamemode.
 
-The future of MTA:VC (and 0.5 in general) is uncertain. Previously, plans were to have GTA3 and VC run on the [Blue](/docs/Blue.md "wikilink") core, but plans seem to have dissipated. A future release of the 0.x core is also uncertain.
+The future of MTA:VC (and 0.5 in general) is uncertain. Previously, plans were to have GTA3 and VC run on the [Blue](/docs/blue.md "wikilink") core, but plans seem to have dissipated. A future release of the 0.x core is also uncertain.
 
 0.5 Stunt
 ---------
@@ -29,38 +29,38 @@ The spectator mode is somewhat unstable, though it has proven to be useful for s
 <table>
 <tr>
 <td>
--   **Yuppies** - Spawn inside the multistory parking garage in Ocean Beach. [150px|none|thumb|Yuppies](/docs/Image:MTAS_Yuppies.png.md "wikilink")
+-   **Yuppies** - Spawn inside the multistory parking garage in Ocean Beach. [150px|none|thumb|Yuppies](/docs/image:mtas_yuppies.png.md "wikilink")
 
 </td>
 <td>
--   **Dirt Racers** - Spawn outside of the Stadium.[150px|none|thumb|Dirt Racers](/docs/Image:MTAS_Dirt_Racers.png.md "wikilink")
+-   **Dirt Racers** - Spawn outside of the Stadium.[150px|none|thumb|Dirt Racers](/docs/image:mtas_dirt_racers.png.md "wikilink")
 
 </td>
 <td>
--   **Bikers** - Spawn in the parking lot behind the Malibu club. [150px|none|thumb|Bikers](/docs/Image:MTAS_Bikers.png.md "wikilink")
+-   **Bikers** - Spawn in the parking lot behind the Malibu club. [150px|none|thumb|Bikers](/docs/image:mtas_bikers.png.md "wikilink")
 
 </td>
 <td>
--   **Speeders** - Spawn at the parking lot near the Escobar International Airport. [150px|none|thumb|Speeders](/docs/Image:MTAS_Speeders.png.md "wikilink")
+-   **Speeders** - Spawn at the parking lot near the Escobar International Airport. [150px|none|thumb|Speeders](/docs/image:mtas_speeders.png.md "wikilink")
 
 </td>
 </tr>
 <tr>
 <td>
--   **Packer Driver** - Spawn at Downtown in the large parking lot near the Biker Bar. [150px|none|thumb|Packer Driver](/docs/Image:MTAS_Packer_Driver.png.md "wikilink")
+-   **Packer Driver** - Spawn at Downtown in the large parking lot near the Biker Bar. [150px|none|thumb|Packer Driver](/docs/image:mtas_packer_driver.png.md "wikilink")
 
 </td>
 <td>
--   **Fun House Dept.** - Spawns at North Point Mall's multistory parking garage. [150px|none|thumb|Fun House Dept.](/docs/Image:MTAS_Fun_House_Dept.png.md "wikilink")
+-   **Fun House Dept.** - Spawns at North Point Mall's multistory parking garage. [150px|none|thumb|Fun House Dept.](/docs/image:mtas_fun_house_dept.png.md "wikilink")
 
 </td>
 <td>
--   **Heli Pilot** - Spawn at the Escobar International Airport runway. [150px|none|thumb|Heli Pilot](/docs/Image:MTAS_Heli_Pilot.png.md "wikilink")
+-   **Heli Pilot** - Spawn at the Escobar International Airport runway. [150px|none|thumb|Heli Pilot](/docs/image:mtas_heli_pilot.png.md "wikilink")
 
 </td>
 <td>
--   **Spectator** - This mode is used to simply watch other players, you don't spawn anywhere. [150px|none|thumb|Spectator](/docs/Image:MTAS_Spectator.png.md "wikilink")
+-   **Spectator** - This mode is used to simply watch other players, you don't spawn anywhere. [150px|none|thumb|Spectator](/docs/image:mtas_spectator.png.md "wikilink")
 
 </td>
 </table>
-[Category:MTA 0.5](/docs/Category:MTA_0.5.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink") [Category:Vice\_City](/Category:Vice_City.md "wikilink")
+[Category:MTA 0.5](/docs/category:mta_0.5.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink") [Category:Vice\_City](/Category:Vice_City.md "wikilink")

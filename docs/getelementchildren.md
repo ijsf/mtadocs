@@ -61,7 +61,7 @@ end
 addCommandHandler("teamElements", showTeamElements)
 ```
 
-At a later point you could loop through all the elements and process their contents any way you wish. Remember to make sure you only have the *current* list of elements though. If you get the root element children, then wait a while for things to change, this list won't be up to date unless you use [getElementChildren](/docs/getElementChildren.md "wikilink") again.
+At a later point you could loop through all the elements and process their contents any way you wish. Remember to make sure you only have the *current* list of elements though. If you get the root element children, then wait a while for things to change, this list won't be up to date unless you use [getElementChildren](/docs/getelementchildren.md "wikilink") again.
 
 See Also
 --------

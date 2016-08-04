@@ -1,4 +1,4 @@
-This function returns information about the specified [module](/docs/Modules.md "wikilink").
+This function returns information about the specified [module](/docs/modules.md "wikilink").
 
 Syntax
 ------
@@ -44,4 +44,4 @@ addCommandHandler ( "checkmodules", printModuleInfo )
 See Also
 --------
 
-[ru:getModuleInfo](/docs/ru:getModuleInfo.md "wikilink")
+[ru:getModuleInfo](/docs/ru:getmoduleinfo.md "wikilink")

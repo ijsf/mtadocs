@@ -13,7 +13,7 @@ int getUnbanTime ( ban theBan )
 
 ### Returns
 
--   Returns an integer of the unbanning time in the format of seconds from the year 1970. Use in conjunction with [getRealTime](/docs/getRealTime.md "wikilink") in order to retrieve detailed information.
+-   Returns an integer of the unbanning time in the format of seconds from the year 1970. Use in conjunction with [getRealTime](/docs/getrealtime.md "wikilink") in order to retrieve detailed information.
 -   Returns **false** if invalid arguments are specified or if there was no unbanning time specified for the [ban](/docs/ban.md "wikilink").
 
 Example
@@ -37,4 +37,4 @@ addCommandHandler ( "bans", listBans ) -- Add "/bans" as the trigger for the fun
 See Also
 --------
 
-[ru:getUnbanTime](/docs/ru:getUnbanTime.md "wikilink")
+[ru:getUnbanTime](/docs/ru:getunbantime.md "wikilink")

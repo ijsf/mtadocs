@@ -11,7 +11,7 @@ bool setWeaponProperty ( int weaponID/string weaponName, string weaponSkill, str
 Required Arguments
 ------------------
 
--   **weaponID:** The ID or name of the [weapon](/docs/Weapons.md "wikilink") you want to set a property of. Names can be:
+-   **weaponID:** The ID or name of the [weapon](/docs/weapons.md "wikilink") you want to set a property of. Names can be:
 
 -   **weaponSkill:** Either: “pro”, “std” or “poor”. The player must have this skill level set to have the effect.
 -   **property:** The property you want to set the value of:

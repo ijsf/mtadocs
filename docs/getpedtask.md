@@ -1,6 +1,6 @@
 This function is used to get any simple or complex [task](/docs/task.md "wikilink") of a certain type for a ped.
 
-It can provide feedback on all tasks relating to a ped. For example, while jumping, [getPedSimplestTask](/docs/getPedSimplestTask.md "wikilink") will return TASK\_SIMPLE\_IN\_AIR. If you wanted to know specifically if the player has jumped, you would use this function. If you did you will discover that while jumping Primary task 3 is TASK\_COMPLEX\_JUMP.
+It can provide feedback on all tasks relating to a ped. For example, while jumping, [getPedSimplestTask](/docs/getpedsimplesttask.md "wikilink") will return TASK\_SIMPLE\_IN\_AIR. If you wanted to know specifically if the player has jumped, you would use this function. If you did you will discover that while jumping Primary task 3 is TASK\_COMPLEX\_JUMP.
 
 Syntax
 ------

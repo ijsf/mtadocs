@@ -1,4 +1,4 @@
-This function gets the variant of a specified vehicle. In GTA SA some vehicles are different for example the labelling on trucks or the contents of a pick-up truck and the varying types of a motor bike. For the default GTA SA variant list see: [Vehicle variants](/docs/Vehicle_variants.md "wikilink")
+This function gets the variant of a specified vehicle. In GTA SA some vehicles are different for example the labelling on trucks or the contents of a pick-up truck and the varying types of a motor bike. For the default GTA SA variant list see: [Vehicle variants](/docs/vehicle_variants.md "wikilink")
 
 Syntax
 ------
@@ -17,8 +17,8 @@ Returns
 
 On success:
 
--   **int**: An integer for the first vehicle variant see [Vehicle variants](/docs/Vehicle_variants.md "wikilink")
--   **int**: An integer for the second vehicle variant see [Vehicle variants](/docs/Vehicle_variants.md "wikilink")
+-   **int**: An integer for the first vehicle variant see [Vehicle variants](/docs/vehicle_variants.md "wikilink")
+-   **int**: An integer for the second vehicle variant see [Vehicle variants](/docs/vehicle_variants.md "wikilink")
 
 On failure:
 

@@ -1,4 +1,4 @@
-[thumb|200px|Wood](/docs/Image:Fxwood.png.md "wikilink") Creates a wood splinter particle effect.
+[thumb|200px|Wood](/docs/image:fxwood.png.md "wikilink") Creates a wood splinter particle effect.
 
 Syntax
 ------

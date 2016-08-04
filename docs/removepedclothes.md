@@ -10,12 +10,12 @@ bool removePedClothes ( ped thePed, int clothesType, [ string clothesTexture, st
 ### Required Arguments
 
 -   **thePed**: The [ped](/docs/ped.md "wikilink") you want to remove clothes from.
--   **clothesType**: the clothes slot/type to remove. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
+-   **clothesType**: the clothes slot/type to remove. See the [clothes catalog](/docs/cj_clothes.md "wikilink").
 
 ### Optional Arguments
 
--   **clothesTexture**: (Server only) A string determining the clothes texture that will be removed. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
--   **clothesModel**: (Server only) A string determining the clothes model that will be removed. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
+-   **clothesTexture**: (Server only) A string determining the clothes texture that will be removed. See the [clothes catalog](/docs/cj_clothes.md "wikilink").
+-   **clothesModel**: (Server only) A string determining the clothes model that will be removed. See the [clothes catalog](/docs/cj_clothes.md "wikilink").
 
 Returns
 -------
@@ -48,4 +48,4 @@ addEventHandler ( "onPlayerVehicleExit", root, removeHelmetOnExit )
 See Also
 --------
 
-[pl:RemovePedClothes](/docs/pl:RemovePedClothes.md "wikilink")
+[pl:RemovePedClothes](/docs/pl:removepedclothes.md "wikilink")

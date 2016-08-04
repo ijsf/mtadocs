@@ -22,7 +22,7 @@ Returns *true* if the control state was successfully set, *false* otherwise.
 Example
 -------
 
-This example uses [setPedAnalogControlState](/docs/setPedAnalogControlState.md "wikilink") to very slowly accelerate a ped-controlled NRG-500.
+This example uses [setPedAnalogControlState](/docs/setpedanalogcontrolstate.md "wikilink") to very slowly accelerate a ped-controlled NRG-500.
 
 ``` lua
 function createAnalogControlTest ()

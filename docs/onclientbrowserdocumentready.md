@@ -10,7 +10,7 @@ string url
 Source
 ------
 
-The [browser](/docs/Element/Browser.md "wikilink") element.
+The [browser](/docs/element/browser.md "wikilink") element.
 
 Example
 -------
@@ -23,7 +23,7 @@ addEventHandler ( "onClientBrowserDocumentReady" , root ,
 )
 ```
 
-[pl:onClientBrowserDocumentReady](/docs/pl:onClientBrowserDocumentReady.md "wikilink")
+[pl:onClientBrowserDocumentReady](/docs/pl:onclientbrowserdocumentready.md "wikilink")
 
 See Also
 --------

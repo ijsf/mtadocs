@@ -58,14 +58,14 @@ San Andreas Interior ID list.
 
 ==Interior Functions==
 
--   [getElementInterior](/docs/getElementInterior.md "wikilink")
--   [setElementInterior](/docs/setElementInterior.md "wikilink")
+-   [getElementInterior](/docs/getelementinterior.md "wikilink")
+-   [setElementInterior](/docs/setelementinterior.md "wikilink")
 
 See Also
 --------
 
 [ID Lists](/docs/id.md "wikilink")
 
-[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink") [Category:ID Lists](/Category:ID_Lists.md "wikilink")
+[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [Category:ID Lists](/Category:ID_Lists.md "wikilink")
 
-[de:Interior IDs](/docs/de:Interior_IDs.md "wikilink")
+[de:Interior IDs](/docs/de:interior_ids.md "wikilink")

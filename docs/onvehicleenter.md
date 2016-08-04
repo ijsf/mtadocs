@@ -14,7 +14,7 @@ player thePlayer, int seat, player jacked
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [vehicle](/vehicle.md "wikilink") that was entered.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [vehicle](/vehicle.md "wikilink") that was entered.
 
 Example
 -------

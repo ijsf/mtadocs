@@ -19,7 +19,7 @@ Returns an [element](/docs/element.md "wikilink") object that corresponds to the
 Example
 -------
 
-This example is a function that you could use to load an arbitary [map file](/docs/Map_Files.md "wikilink") into the [element tree](/element_tree.md "wikilink").
+This example is a function that you could use to load an arbitary [map file](/docs/map_files.md "wikilink") into the [element tree](/element_tree.md "wikilink").
 
 ``` lua
 function loadMapFile ( filename )

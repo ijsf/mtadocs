@@ -36,4 +36,4 @@ addCommandHandler( 'rtear',
 See Also
 --------
 
-[ru:takeWeapon](/docs/ru:takeWeapon.md "wikilink")
+[ru:takeWeapon](/docs/ru:takeweapon.md "wikilink")

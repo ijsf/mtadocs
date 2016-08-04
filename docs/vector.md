@@ -3,8 +3,8 @@ A **vector** represents a [Euclidean vector](http://en.wikipedia.org/wiki/Euclid
 See also
 --------
 
--   [OOP](/docs/OOP.md "wikilink")
--   [OOP Introduction](/docs/OOP_Introduction.md "wikilink")
--   [Matrix](/docs/Matrix.md "wikilink")
+-   [OOP](/docs/oop.md "wikilink")
+-   [OOP Introduction](/docs/oop_introduction.md "wikilink")
+-   [Matrix](/docs/matrix.md "wikilink")
 
-[Category:OOP](/docs/Category:OOP.md "wikilink")
+[Category:OOP](/docs/category:oop.md "wikilink")

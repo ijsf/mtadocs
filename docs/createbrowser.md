@@ -55,7 +55,7 @@ Remote Example
 --------------
 
 This example shows you how to create a fullscreen web browser (showing youtube.com) without input-handling.
-Remember, that youtube.com is on the global whitelist. If you want to load a domain/page that is not on the global whitelist, you have to request it with [requestBrowserDomains](/docs/requestBrowserDomains.md "wikilink").
+Remember, that youtube.com is on the global whitelist. If you want to load a domain/page that is not on the global whitelist, you have to request it with [requestBrowserDomains](/docs/requestbrowserdomains.md "wikilink").
 
 ``` lua
 --In order to render the browser on the full screen, we need to know the dimensions.

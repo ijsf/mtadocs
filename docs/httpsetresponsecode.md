@@ -20,7 +20,7 @@ Example
 -------
 
 <section name="Server/HTTP" class="http" show="true">
-This example displays a 'Page not found' error message and the response code 404. The location of the [httpSetResponseCode](/docs/httpSetResponseCode.md "wikilink") call is unimportant - it can be placed anywhere in the document.
+This example displays a 'Page not found' error message and the response code 404. The location of the [httpSetResponseCode](/docs/httpsetresponsecode.md "wikilink") call is unimportant - it can be placed anywhere in the document.
 
 ``` html
 <html>

@@ -35,4 +35,4 @@ addEventHandler ( "onPlayerVehicleEnter", getRootElement(), planeEnter )
 See Also
 --------
 
-[ru:getVehicleName](/docs/ru:getVehicleName.md "wikilink")
+[ru:getVehicleName](/docs/ru:getvehiclename.md "wikilink")

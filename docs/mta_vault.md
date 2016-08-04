@@ -3,7 +3,7 @@ The MTA Vault, a walk down memory lane
 
 ### GTA3:AM
 
-[Image:Gta3am01.jpg](/docs/Image:Gta3am01.jpg.md "wikilink")
+[Image:Gta3am01.jpg](/docs/image:gta3am01.jpg.md "wikilink")
 
 The first client: GTA3:AM.
 
@@ -13,27 +13,27 @@ The first client: GTA3:AM.
 
 ### GTA3:MTA 0.1a - 0.2.2
 
-[350px](/docs/Image:022client.png.md "wikilink")
+[350px](/docs/image:022client.png.md "wikilink")
 
 The 0.2.2 (0.2a) client. Click to enlarge. [Click here](http://wiki.multitheftauto.com/images/1/1b/02aclientsmall.jpg) for an old, but very small, image with a working “server list”.
 
 [image:am4.jpg](/docs/image:am4.jpg.md "wikilink")
-[Previous-car-method](/docs/Previous-car-method.md "wikilink") in action. Notice the red lights.
+[Previous-car-method](/docs/previous-car-method.md "wikilink") in action. Notice the red lights.
 
-[image:Am2.jpg](/docs/image:Am2.jpg.md "wikilink")
+[image:Am2.jpg](/docs/image:am2.jpg.md "wikilink")
 2 F16 flying out of formation (pilot error).
 
-[image:Am3.jpg](/docs/image:Am3.jpg.md "wikilink")
+[image:Am3.jpg](/docs/image:am3.jpg.md "wikilink")
 Proof of concept. No AI would be driving like that.
 
-[250px](/docs/image:Am1.jpg.md "wikilink")
+[250px](/docs/image:am1.jpg.md "wikilink")
 From a long lost movie. The first stunt movie ever.
 
 [Download “Pursuing a Dodo”.](http://files.mtasa.com/media/gta3mta/Videos/gta3mta-movie2.zip)
 
 ### GTA3:MTA 0.3b
 
-[Image:03betaclient.jpg](/docs/Image:03betaclient.jpg.md "wikilink")
+[Image:03betaclient.jpg](/docs/image:03betaclient.jpg.md "wikilink")
 
 An unreleased version of the 0.3b client.
 
@@ -46,7 +46,7 @@ Testing of the vehicles.
 [image:3b3.jpg](/docs/image:3b3.jpg.md "wikilink")
 More actor placements.
 
-[image:3b4.JPG](/docs/image:3b4.JPG.md "wikilink")
+[image:3b4.JPG](/docs/image:3b4.jpg.md "wikilink")
 First rounds fired.
 
 [image:3b5.jpg](/docs/image:3b5.jpg.md "wikilink")
@@ -88,4 +88,4 @@ MTA:VC 0.1: [Client](http://files.mtasa.com/apps/0.1/mta01_client.exe) [Windows 
 MTA:VC 0.2: [Client](http://files.mtasa.com/apps/0.2/mta020_client_gtavc.exe) [Windows Server](http://files.mtasa.com/apps/0.2/mta020_server_win32.zip) [Linux Server](http://files.mtasa.com/apps/0.2/mta020_server_linux.tar.gz)
 MTA:VC 0.2.2: [Client](http://files.mtasa.com/apps/0.2/mta022_client_gtavc.exe) [Windows Server](http://files.mtasa.com/apps/0.2/mta022_server_win32.zip) [Linux Server](http://files.mtasa.com/apps/0.2/mta022_server_linux.tar.gz)
 [MTA:VC 0.3 and above](http://files.mtasa.com/apps/)
-[Category:GTA3](/docs/Category:GTA3.md "wikilink") [Category:Vice City](/Category:Vice_City.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink")
+[Category:GTA3](/docs/category:gta3.md "wikilink") [Category:Vice City](/Category:Vice_City.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink")

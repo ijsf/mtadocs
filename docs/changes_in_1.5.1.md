@@ -7,7 +7,7 @@ Main Additions / Changes
 -   Fixed shotgun bullet sync
 -   Fixed minor Windows 10 compatibility issues
 -   Fixed a bunch of crashes
--   Introduced a [new web scheme](/docs/Local_Scheme_Handler.md "wikilink") and deprecated the old mtalocal://
+-   Introduced a [new web scheme](/docs/local_scheme_handler.md "wikilink") and deprecated the old mtalocal://
 -   Removed dependency on DirectPlay
 -   Updated dependencies (e.g. CEF and Google Breakpad)
 -   Added a few autofixes
@@ -27,7 +27,7 @@ Main Additions / Changes
 -   Fixed DLL path issues on some computers
 -   Fixed loading spinner overlaying itself sometimes
 -   Fixed a major memory leak
--   Improved CEF debugging capabilities (see [toggleBrowserDevTools](/docs/toggleBrowserDevTools.md "wikilink"))
+-   Improved CEF debugging capabilities (see [toggleBrowserDevTools](/docs/togglebrowserdevtools.md "wikilink"))
 
 Scripting
 ---------
@@ -36,16 +36,16 @@ Scripting
 
 #### Client
 
--   [getBrowserSource](/docs/getBrowserSource.md "wikilink")
--   [getCameraFieldOfView](/docs/getCameraFieldOfView.md "wikilink")
--   [setCameraFieldOfView](/docs/setCameraFieldOfView.md "wikilink")
--   [setBrowserAjaxHandler](/docs/setBrowserAjaxHandler.md "wikilink")
--   [getBrowserVolume](/docs/getBrowserVolume.md "wikilink")
--   [toggleBrowserDevTools](/docs/toggleBrowserDevTools.md "wikilink")
+-   [getBrowserSource](/docs/getbrowsersource.md "wikilink")
+-   [getCameraFieldOfView](/docs/getcamerafieldofview.md "wikilink")
+-   [setCameraFieldOfView](/docs/setcamerafieldofview.md "wikilink")
+-   [setBrowserAjaxHandler](/docs/setbrowserajaxhandler.md "wikilink")
+-   [getBrowserVolume](/docs/getbrowservolume.md "wikilink")
+-   [toggleBrowserDevTools](/docs/togglebrowserdevtools.md "wikilink")
 
 #### Server
 
--   [fileGetPath](/docs/fileGetPath.md "wikilink")
+-   [fileGetPath](/docs/filegetpath.md "wikilink")
 
 #### Shared (*Client & Server side*)
 
@@ -61,7 +61,7 @@ Scripting
 
 ### Scripting: Changes, Bugfixes and Additions
 
--   Added *passwordType* for [setAccountPassword](/docs/setAccountPassword.md "wikilink")
+-   Added *passwordType* for [setAccountPassword](/docs/setaccountpassword.md "wikilink")
 
 Client
 ------
@@ -83,7 +83,7 @@ Server
 
 ### Server: Bugfixes & Changes
 
--   Added callback to [requestBrowserDomains](/docs/requestBrowserDomains.md "wikilink")
+-   Added callback to [requestBrowserDomains](/docs/requestbrowserdomains.md "wikilink")
 -   Fixed a few OOP issues
 -   Fixed createMarker triggering onMarkerHit
 -   Fixed moving objects being able to move frozen players (thanks to eeew2 for the patch)
@@ -107,4 +107,4 @@ Extra information
 
 :\* [MTA: SA Official Resources](https://github.com/multitheftauto/mtasa-resources)
 
-[Category:Changelog](/docs/Category:Changelog.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")

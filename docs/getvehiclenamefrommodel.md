@@ -9,7 +9,7 @@ string getVehicleNameFromModel ( int model )
 
 ### Required Arguments
 
--   **model:** This is the vehicle model ID. See [vehicle IDs](/docs/vehicle_IDs.md "wikilink") to see what values will return names.
+-   **model:** This is the vehicle model ID. See [vehicle IDs](/docs/vehicle_ids.md "wikilink") to see what values will return names.
 
 ### Returns
 

@@ -2,6 +2,6 @@ An **int**eger is any whole number (i.e. without a decimal point). It can be pos
 
 A number with a decimal point and following numbers is referred to as a [float](/docs/float.md "wikilink") number.
 
-Lua allows you to use these interchangeably and will convert between the two as needed. [Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink")
+Lua allows you to use these interchangeably and will convert between the two as needed. [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
 
-[de:Int](/docs/de:Int.md "wikilink")
+[de:Int](/docs/de:int.md "wikilink")

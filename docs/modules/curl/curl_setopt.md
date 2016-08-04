@@ -11,8 +11,8 @@ Required arguments
 ------------------
 
 -   **handler** The curl handler.
--   **option** An curl option, al the options are found [here](/docs/Modules/cURL/CURLOPT.md "wikilink")
--   **value** The value, this can be a string, number or boolean. At the [curl option list](/docs/Modules/cURL/CURLOPT.md "wikilink") you can find wich option needs a string, number or boolean.
+-   **option** An curl option, al the options are found [here](/docs/modules/curl/curlopt.md "wikilink")
+-   **value** The value, this can be a string, number or boolean. At the [curl option list](/docs/modules/curl/curlopt.md "wikilink") you can find wich option needs a string, number or boolean.
 
 Returns
 -------

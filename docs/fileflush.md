@@ -1,4 +1,4 @@
-Forces pending disk writes to be executed. [fileWrite](/docs/fileWrite.md "wikilink") doesn't directly write to the hard disk but places the data in a temporary buffer; only when there is enough data in the buffer it is actually written to disk. Call this function if you need the data written right now without closing the file. This is useful for log files that might want to be read while the resource is still executing. [fileFlush](/fileFlush.md "wikilink") can be called after each log entry is written. Without this, the file may appear empty or outdated to the user.
+Forces pending disk writes to be executed. [fileWrite](/docs/filewrite.md "wikilink") doesn't directly write to the hard disk but places the data in a temporary buffer; only when there is enough data in the buffer it is actually written to disk. Call this function if you need the data written right now without closing the file. This is useful for log files that might want to be read while the resource is still executing. [fileFlush](/fileFlush.md "wikilink") can be called after each log entry is written. Without this, the file may appear empty or outdated to the user.
 
 Syntax
 ------
@@ -28,7 +28,7 @@ if fileHandle then
 end
 ```
 
-Note that [fileClose](/docs/fileClose.md "wikilink") automatically flushes the file.
+Note that [fileClose](/docs/fileclose.md "wikilink") automatically flushes the file.
 
 See Also
 --------

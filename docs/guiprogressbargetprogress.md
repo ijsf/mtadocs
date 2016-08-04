@@ -18,7 +18,7 @@ Returns a [float](/docs/float.md "wikilink") ranging between 0 and 100.
 Example
 -------
 
-This example gets the progress of a bar called “somebar” created with [guiCreateProgressBar](/docs/guiCreateProgressBar.md "wikilink"), and outputs it to the chatbox.
+This example gets the progress of a bar called “somebar” created with [guiCreateProgressBar](/docs/guicreateprogressbar.md "wikilink"), and outputs it to the chatbox.
 
 ``` lua
 -- If the progressbar exsist then

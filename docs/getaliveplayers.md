@@ -1,4 +1,4 @@
-This function returns a table of all the alive players on the server. Opposite function of [getDeadPlayers](/docs/getDeadPlayers.md "wikilink").
+This function returns a table of all the alive players on the server. Opposite function of [getDeadPlayers](/docs/getdeadplayers.md "wikilink").
 
 Syntax
 ------
@@ -37,4 +37,4 @@ end
 See Also
 --------
 
-[ru:getAlivePlayers](/docs/ru:getAlivePlayers.md "wikilink")
+[ru:getAlivePlayers](/docs/ru:getaliveplayers.md "wikilink")

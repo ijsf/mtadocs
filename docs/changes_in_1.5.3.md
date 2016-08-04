@@ -16,17 +16,17 @@ Scripting
 
 ### Client
 
--   Added [canBrowserNavigateBack](/docs/canBrowserNavigateBack.md "wikilink"), [canBrowserNavigateForward](/canBrowserNavigateForward.md "wikilink"), [navigateBrowserBack](/navigateBrowserBack.md "wikilink"), [navigateBrowserForward](/navigateBrowserForward.md "wikilink"), [reloadBrowserPage](/reloadBrowserPage.md "wikilink") (thanks to **mabako**!)
--   Added [isBrowserSupported](/docs/isBrowserSupported.md "wikilink")
+-   Added [canBrowserNavigateBack](/docs/canbrowsernavigateback.md "wikilink"), [canBrowserNavigateForward](/canBrowserNavigateForward.md "wikilink"), [navigateBrowserBack](/navigateBrowserBack.md "wikilink"), [navigateBrowserForward](/navigateBrowserForward.md "wikilink"), [reloadBrowserPage](/reloadBrowserPage.md "wikilink") (thanks to **mabako**!)
+-   Added [isBrowserSupported](/docs/isbrowsersupported.md "wikilink")
 
 ### Server
 
--   Added support for multiple statements in [dbQuery](/docs/dbQuery.md "wikilink")/[dbExec](/dbExec.md "wikilink")
+-   Added support for multiple statements in [dbQuery](/docs/dbquery.md "wikilink")/[dbExec](/dbExec.md "wikilink")
 
 ### Shared (*Client & Server side*)
 
 -   Fixed fileRead crashing when reading more than 10000 bytes
--   Added [fileGetPath](/docs/fileGetPath.md "wikilink")
+-   Added [fileGetPath](/docs/filegetpath.md "wikilink")
 -   Added option for addDebugHook to skip event/functions
 
 Client
@@ -89,4 +89,4 @@ Extra information
 
 :\* [MTA: SA Official Resources](https://github.com/multitheftauto/mtasa-resources)
 
-[Category:Changelog](/docs/Category:Changelog.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")

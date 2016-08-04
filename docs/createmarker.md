@@ -86,4 +86,4 @@ addCommandHandler ( "createmarker", consoleCreateMarker )
 See Also
 --------
 
-[ru:createMarker](/docs/ru:createMarker.md "wikilink") [ar:createMarker](/ar:createMarker.md "wikilink")
+[ru:createMarker](/docs/ru:createmarker.md "wikilink") [ar:createMarker](/ar:createMarker.md "wikilink")

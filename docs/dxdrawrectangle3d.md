@@ -1,8 +1,8 @@
-This function draws a textured 3D line between two points in the 3D world that appers to be a rectangle - rendered for one frame This should be used in conjunction with [onClientPreRender](/docs/onClientPreRender.md "wikilink") in order to display continuously.
+This function draws a textured 3D line between two points in the 3D world that appers to be a rectangle - rendered for one frame This should be used in conjunction with [onClientPreRender](/docs/onclientprerender.md "wikilink") in order to display continuously.
 
 The 3D line with a large width value effectively becomes a rectangle, hence the possibility to construct basic shapes such as boxes with several large width lines and the appropriate values for 'faceToward'.
 
-3D lines are drawn at a particular place in the [game processing order](/docs/Game_Processing_Order.md "wikilink"), so use [onClientPreRender](/onClientPreRender.md "wikilink") for drawing if you are attaching them to world elements.
+3D lines are drawn at a particular place in the [game processing order](/docs/game_processing_order.md "wikilink"), so use [onClientPreRender](/onClientPreRender.md "wikilink") for drawing if you are attaching them to world elements.
 \* **NOTE:** This is made to be used clientside!.
 
 Syntax

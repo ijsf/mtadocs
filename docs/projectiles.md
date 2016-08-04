@@ -8,6 +8,6 @@ See also
 
 [ID Lists](/docs/id.md "wikilink")
 
-[de:Projektile](/docs/de:Projektile.md "wikilink") [it:Esplosivi](/it:Esplosivi.md "wikilink") [ru:Projectiles](/ru:Projectiles.md "wikilink")
+[de:Projektile](/docs/de:projektile.md "wikilink") [it:Esplosivi](/it:Esplosivi.md "wikilink") [ru:Projectiles](/ru:Projectiles.md "wikilink")
 
-[Category:ID Lists](/docs/Category:ID_Lists.md "wikilink")
+[Category:ID Lists](/docs/category:id_lists.md "wikilink")

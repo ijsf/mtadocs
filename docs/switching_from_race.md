@@ -22,7 +22,7 @@ MTA:SA 1.0's server is optimized to use less bandwidth and achieve higher perfor
 
 ### Add-ons system
 
-[thumb|Custom vehicle and object models in Race.](/docs/Image:Sfr_custom_carmodel.png.md "wikilink") The powerful scripting system in MTA:SA 1.0 and the design of the Race mode allow add-ons and other mods to be included in the game. Race's add-ons system let's developers create new features for Race that can easily be added or removed by server admins. Some of the current add-ons include a Need For Speed style NOS feature and a map ratings system. There is also a speedometer resource that adds a stylish new on-screen speedometer.
+[thumb|Custom vehicle and object models in Race.](/docs/image:sfr_custom_carmodel.png.md "wikilink") The powerful scripting system in MTA:SA 1.0 and the design of the Race mode allow add-ons and other mods to be included in the game. Race's add-ons system let's developers create new features for Race that can easily be added or removed by server admins. Some of the current add-ons include a Need For Speed style NOS feature and a map ratings system. There is also a speedometer resource that adds a stylish new on-screen speedometer.
 
 ### Custom models
 
@@ -32,11 +32,11 @@ MTA now fully supports vehicle, as well as object modifications through it's res
 
 ### Map editor
 
-The [new map editor](/docs/Resource:Editor.md "wikilink") allows you to create race maps with ease, while offering many new and advanced features not present in the old race editor.
+The [new map editor](/docs/resource:editor.md "wikilink") allows you to create race maps with ease, while offering many new and advanced features not present in the old race editor.
 
 ### Backward compatibility
 
-[thumb|Race's new GUI and spectator system.](/docs/Image:Sfr_race_specgui.png.md "wikilink") Although \*.map files now have a different syntax, it's easy to convert all your old MTA:SA Race maps for full compatibility with MTA:SA 1.0. You can download our official batch converter [here](http://files.mtasa.com/apps/1.0/raceconv.zip).
+[thumb|Race's new GUI and spectator system.](/docs/image:sfr_race_specgui.png.md "wikilink") Although \*.map files now have a different syntax, it's easy to convert all your old MTA:SA Race maps for full compatibility with MTA:SA 1.0. You can download our official batch converter [here](http://files.mtasa.com/apps/1.0/raceconv.zip).
 
 ### Enhancements
 

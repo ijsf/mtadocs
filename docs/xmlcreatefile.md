@@ -1,4 +1,4 @@
-This function creates a new XML document, which can later be saved to a file by using [xmlSaveFile](/docs/xmlSaveFile.md "wikilink"). This function will overwrite the file specified if it already exists.
+This function creates a new XML document, which can later be saved to a file by using [xmlSaveFile](/docs/xmlsavefile.md "wikilink"). This function will overwrite the file specified if it already exists.
 
 Syntax
 ------
@@ -16,7 +16,7 @@ For example, if you want to create a file named 'new.xml' in the resource 'ctf',
 
 If the file is in the current resource, only the file path is necessary, e.g. *xmlCreateFile(“new.xml”, “newroot”)*.
 
-Note that if a different resource than default is being accessed, the caller resource needs access to general.ModifyOtherObjects in the [ACL](/docs/ACL.md "wikilink").
+Note that if a different resource than default is being accessed, the caller resource needs access to general.ModifyOtherObjects in the [ACL](/docs/acl.md "wikilink").
 
 -   **rootNodeName:** the name of the root node in the XML document.
 
@@ -44,4 +44,4 @@ addCommandHandler("createfile", createFileHandler)
 See Also
 --------
 
-[ru:xmlCreateFile](/docs/ru:xmlCreateFile.md "wikilink")
+[ru:xmlCreateFile](/docs/ru:xmlcreatefile.md "wikilink")

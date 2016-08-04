@@ -29,4 +29,4 @@ Pending.
 See Also
 --------
 
--   [SetPlayerWeaponSlot](/docs/SetPlayerWeaponSlot.md "wikilink")
+-   [SetPlayerWeaponSlot](/docs/setplayerweaponslot.md "wikilink")

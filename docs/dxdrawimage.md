@@ -1,4 +1,4 @@
-Draws an image on the screen for a single frame. In order for the image to stay visible continuously, you need to call this function with the same parameters on each frame update (see [onClientRender](/docs/onClientRender.md "wikilink")).
+Draws an image on the screen for a single frame. In order for the image to stay visible continuously, you need to call this function with the same parameters on each frame update (see [onClientRender](/docs/onclientrender.md "wikilink")).
 Image files should ideally have dimensions that are a power of two, to prevent possible blurring.
 <b>Power of two: 2px, 4px, 8px, 16px, 32px, 64px, 128px, 256px, 512px, 1024px...</b>
 

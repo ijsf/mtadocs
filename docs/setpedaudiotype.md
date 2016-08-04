@@ -1,4 +1,4 @@
-Use [setPedVoice](/docs/setPedVoice.md "wikilink") instead.
+Use [setPedVoice](/docs/setpedvoice.md "wikilink") instead.
 
 Sets a ped's audio type.
 

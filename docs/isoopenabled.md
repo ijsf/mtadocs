@@ -7,13 +7,13 @@ bool isOOPEnabled ( )
 
 ### Returns
 
-Returns *true* or *false* if *[OOP](/docs/OOP.md "wikilink")* is enabled or not. Returns *nil* if an error arised.
+Returns *true* or *false* if *[OOP](/docs/oop.md "wikilink")* is enabled or not. Returns *nil* if an error arised.
 
 Example
 -------
 
 <section name="Example" class="both" show="true">
-This shared (clientside and serverside) example outputs if *[OOP](/docs/OOP.md "wikilink")* is enabled when the [resource](/resource.md "wikilink") which contains it starts, and teleports a random player 10 units left if so.
+This shared (clientside and serverside) example outputs if *[OOP](/docs/oop.md "wikilink")* is enabled when the [resource](/resource.md "wikilink") which contains it starts, and teleports a random player 10 units left if so.
 
 ``` lua
 local function checkOOPStatus()

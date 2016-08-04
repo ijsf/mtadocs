@@ -44,4 +44,4 @@ end)
 See Also
 --------
 
-[ru:xmlDestroyNode](/docs/ru:xmlDestroyNode.md "wikilink")
+[ru:xmlDestroyNode](/docs/ru:xmldestroynode.md "wikilink")

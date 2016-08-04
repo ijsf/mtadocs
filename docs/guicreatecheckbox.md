@@ -1,4 +1,4 @@
-This function creates a [checkbox](/docs/Element/GUI/Checkbox.md "wikilink").
+This function creates a [checkbox](/docs/element/gui/checkbox.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ element guiCreateCheckBox ( float x, float y, float width, float height, string 
 
 ### Required Arguments
 
-[thumb|Test Checkbox](/docs/Image:Checkbox.png.md "wikilink")
+[thumb|Test Checkbox](/docs/image:checkbox.png.md "wikilink")
 
 -   **x:** A float of the 2D x position of the checkbox on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the checkbox on a player's screen. This is affected by the *relative* argument.

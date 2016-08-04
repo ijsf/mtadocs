@@ -1,4 +1,4 @@
-This function sets the rain level to any weather available in GTA. Use [resetRainLevel](/docs/resetRainLevel.md "wikilink") to undo the changes.
+This function sets the rain level to any weather available in GTA. Use [resetRainLevel](/docs/resetrainlevel.md "wikilink") to undo the changes.
 
 Syntax
 ------

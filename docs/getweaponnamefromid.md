@@ -46,4 +46,4 @@ Issues
 See Also
 --------
 
-[ru:getWeaponNameFromID](/docs/ru:getWeaponNameFromID.md "wikilink")
+[ru:getWeaponNameFromID](/docs/ru:getweaponnamefromid.md "wikilink")

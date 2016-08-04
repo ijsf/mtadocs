@@ -17,4 +17,4 @@ Links
 [The Car Kill: An Editorial by Jordan Liles](http://planetgrandtheftauto.gamespy.com/View.php?view=Articles.Detail&id=38)
 [Original forum topic](http://forum.mtavc.com/viewtopic.php?t=8907)
 
-[Category:MTA\_0.5](/docs/Category:MTA_0.5.md "wikilink")
+[Category:MTA\_0.5](/docs/category:mta_0.5.md "wikilink")

@@ -16,7 +16,7 @@ Returns *true* if the AC info will be resent, *false* otherwise.
 Example
 -------
 
-This example shows how to resend each players AC info during [onResourceStart](/docs/onResourceStart.md "wikilink")
+This example shows how to resend each players AC info during [onResourceStart](/docs/onresourcestart.md "wikilink")
 
 ``` lua
 addEventHandler( "onResourceStart", resourceRoot,

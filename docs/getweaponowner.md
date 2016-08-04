@@ -1,4 +1,4 @@
-This function gets the owner of a [custom weapon](/docs/Element/Weapon.md "wikilink"). Weapon ownership system was, however, disabled, so this function always returns *false*. Please refer to [setWeaponOwner](/setWeaponOwner.md "wikilink") for details.
+This function gets the owner of a [custom weapon](/docs/element/weapon.md "wikilink"). Weapon ownership system was, however, disabled, so this function always returns *false*. Please refer to [setWeaponOwner](/setWeaponOwner.md "wikilink") for details.
 
 Syntax
 ------

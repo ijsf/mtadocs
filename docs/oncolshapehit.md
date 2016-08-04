@@ -15,7 +15,7 @@ element hitElement, bool matchingDimension
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [colshape](/colshape.md "wikilink") that got hit by a player or vehicle.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [colshape](/colshape.md "wikilink") that got hit by a player or vehicle.
 
 Example
 -------

@@ -10,7 +10,7 @@ Resource commands
 
 Usage: check \[ *all* | *<resource-name>* \]
 
-Checks which files would be changed with [upgrade](/docs/Server_Commands#upgrade.md "wikilink") command. Does not modify anything.
+Checks which files would be changed with [upgrade](/docs/server_commands#upgrade.md "wikilink") command. Does not modify anything.
 
 #### info
 
@@ -71,7 +71,7 @@ Stop all running resources
 
 Usage: upgrade \[ *all* | *<resource-name>* \]
 
-Perform a basic upgrade of all resources. The [check](/docs/Server_Commands#checkall.md "wikilink") command shows the list of changes this command will make.
+Perform a basic upgrade of all resources. The [check](/docs/server_commands#checkall.md "wikilink") command shows the list of changes this command will make.
 
 #### aclrequest
 
@@ -130,7 +130,7 @@ Usage: debugdb *&lt;*0-2*&gt;*
 
 Set logging level for database functions. \[0-Off  1-Errors only  2-All\]
 
-By default, logging output is written to the file **logs/db.log** unless another file is declared in the [<dbfile> section of mtaserver.conf](/docs/Mtaserver.conf#dbfile.md "wikilink")
+By default, logging output is written to the file **logs/db.log** unless another file is declared in the [<dbfile> section of mtaserver.conf](/docs/mtaserver.conf#dbfile.md "wikilink")
 
 #### help
 
@@ -287,4 +287,4 @@ Usage: teamsay *<test>*
 
 Send a message to all players on the same team
 
-[Category: Support](/docs/Category:_Support.md "wikilink") [ru:Server Commands](/ru:Server_Commands.md "wikilink")
+[Category: Support](/docs/category:_support.md "wikilink") [ru:Server Commands](/ru:Server_Commands.md "wikilink")

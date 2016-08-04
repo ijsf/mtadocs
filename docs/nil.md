@@ -5,6 +5,6 @@ See Also
 
 -   [Nil in Programming in Lua](http://www.lua.org/pil/2.1.html)
 
-[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
 
-[de:Nil](/docs/de:Nil.md "wikilink")
+[de:Nil](/docs/de:nil.md "wikilink")

@@ -13,12 +13,12 @@ pickup pickupHit, bool matchingDimension
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that hit the pickup.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that hit the pickup.
 
 Cancel effect
 -------------
 
-If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the player will not be able to pick up this pickup.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the player will not be able to pick up this pickup.
 
 Example
 -------

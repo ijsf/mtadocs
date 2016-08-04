@@ -1,4 +1,4 @@
-This function copies all contents of a certain node in a XML document to a new document file, so the copied node becomes the new file's root node. The new file will not be saved to file system until [xmlSaveFile](/docs/xmlSaveFile.md "wikilink")() is called
+This function copies all contents of a certain node in a XML document to a new document file, so the copied node becomes the new file's root node. The new file will not be saved to file system until [xmlSaveFile](/docs/xmlsavefile.md "wikilink")() is called
 
 Syntax
 ------
@@ -41,4 +41,4 @@ xmlUnloadFile(config)
 See Also
 --------
 
-[ru:xmlCopyFile](/docs/ru:xmlCopyFile.md "wikilink")
+[ru:xmlCopyFile](/docs/ru:xmlcopyfile.md "wikilink")

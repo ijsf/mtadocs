@@ -9,19 +9,19 @@ table dbPoll ( handle queryHandle, int timeout[, bool multipleResults = false ] 
 
 ### Required Arguments
 
--   **queryHandle:** A query handle previously returned from [dbQuery](/docs/dbQuery.md "wikilink")
+-   **queryHandle:** A query handle previously returned from [dbQuery](/docs/dbquery.md "wikilink")
 -   **timeout:** How many milliseconds to wait for a result. Use 0 for an instant response (which may return nil). Use -1 to wait until a result is ready. Note: A wait here will freeze the entire server just like the executeSQL\* functions
 
 ### Optional Arguments
 
 ### Returns
 
--   *nil:* Returns nil if the query results are not yet ready. You should try again in a little while. (If you give up waiting for a result, be sure to call [dbFree](/docs/dbFree.md "wikilink"))
--   *false:* Returns false if the query string contained an error, the connection has been lost or the query handle is incorrect. This automatically frees the query handle, so you do not have to call [dbFree](/docs/dbFree.md "wikilink").
+-   *nil:* Returns nil if the query results are not yet ready. You should try again in a little while. (If you give up waiting for a result, be sure to call [dbFree](/docs/dbfree.md "wikilink"))
+-   *false:* Returns false if the query string contained an error, the connection has been lost or the query handle is incorrect. This automatically frees the query handle, so you do not have to call [dbFree](/docs/dbfree.md "wikilink").
     -   This also returns two extra values: (See the example on how the retrieve them)
         -   *int:* error code
         -   *string* error message
--   *table:* Returns a table when the query has successfully completed. This automatically frees the query handle, so you do not have to call [dbFree](/docs/dbFree.md "wikilink").
+-   *table:* Returns a table when the query has successfully completed. This automatically frees the query handle, so you do not have to call [dbFree](/docs/dbfree.md "wikilink").
     -   This also returns extra values:
         -   *int:* number of affected rows (Only if multipleResults is false)
         -   *int:* last insert id (Only if multipleResults is false)

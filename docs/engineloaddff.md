@@ -1,10 +1,10 @@
 This function loads a RenderWare Model (DFF) file into GTA.
 
-To successfully load your model with textures, be sure to use [engineLoadTXD](/docs/engineLoadTXD.md "wikilink") and [engineImportTXD](/engineImportTXD.md "wikilink") before calling this function. If some error occurs while loading the DFF, MTA will output a message - check out [DFF error messages](/DFF_error_messages.md "wikilink") to know what they mean.
+To successfully load your model with textures, be sure to use [engineLoadTXD](/docs/engineloadtxd.md "wikilink") and [engineImportTXD](/engineImportTXD.md "wikilink") before calling this function. If some error occurs while loading the DFF, MTA will output a message - check out [DFF error messages](/DFF_error_messages.md "wikilink") to know what they mean.
 
 This is a client side function. Be sure to transfer your DFF file by including it in the meta file.
 
-The returned [DFF](/docs/DFF.md "wikilink") element is an element in the element tree, just like vehicles and objects. When the dff is destroyed, ie on resource unload or using [destroyElement](/destroyElement.md "wikilink"), any elements that use the DFF, such as vehicles or objects will be reset.
+The returned [DFF](/docs/dff.md "wikilink") element is an element in the element tree, just like vehicles and objects. When the dff is destroyed, ie on resource unload or using [destroyElement](/destroyElement.md "wikilink"), any elements that use the DFF, such as vehicles or objects will be reset.
 
 Syntax
 ------
@@ -19,7 +19,7 @@ dff engineLoadDFF ( string dff_file / string raw_data )
 
 ### Returns
 
-Returns a [DFF](/docs/DFF.md "wikilink") element if the dff file loaded, *false* otherwise.
+Returns a [DFF](/docs/dff.md "wikilink") element if the dff file loaded, *false* otherwise.
 
 Example
 -------

@@ -9,7 +9,7 @@ element getElementByID ( string id [, int index = 0 ] )
 
 ### Required Arguments
 
--   **id:** The ID of the element as it appears in the XML file or as set by [setElementID](/docs/setElementID.md "wikilink").
+-   **id:** The ID of the element as it appears in the XML file or as set by [setElementID](/docs/setelementid.md "wikilink").
 
 ### Optional Arguments
 

@@ -10,7 +10,7 @@ bool gainedFocus
 Source
 ------
 
-The [browser](/docs/Element/Browser.md "wikilink") element
+The [browser](/docs/element/browser.md "wikilink") element
 
 Example
 -------

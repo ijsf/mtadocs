@@ -1,4 +1,4 @@
-This function returns the position that the player's camera would have if the camera mode was fixed (see [setCameraMode](/docs/setCameraMode.md "wikilink")).
+This function returns the position that the player's camera would have if the camera mode was fixed (see [setCameraMode](/docs/setcameramode.md "wikilink")).
 
 Procedural
 ----------

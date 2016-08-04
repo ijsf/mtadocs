@@ -33,4 +33,4 @@ end
 See Also
 --------
 
-[ru:getAccountPlayer](/docs/ru:getAccountPlayer.md "wikilink") [ar:getAccountPlayer](/ar:getAccountPlayer.md "wikilink") [pl:GetAccountPlayer](/pl:GetAccountPlayer.md "wikilink")
+[ru:getAccountPlayer](/docs/ru:getaccountplayer.md "wikilink") [ar:getAccountPlayer](/ar:getAccountPlayer.md "wikilink") [pl:GetAccountPlayer](/pl:GetAccountPlayer.md "wikilink")

@@ -1,6 +1,6 @@
 This function is used to get “occlusions enabled” state.
 
-**Note:** Occlusions are used by GTA to enhance performance by hiding objects that are (normally) obscured by certain large buildings. However when [removeWorldModel](/docs/removeWorldModel.md "wikilink") is used they may also have the undesired effect of making parts of the map disappear. Disabling occlusions will fix that.
+**Note:** Occlusions are used by GTA to enhance performance by hiding objects that are (normally) obscured by certain large buildings. However when [removeWorldModel](/docs/removeworldmodel.md "wikilink") is used they may also have the undesired effect of making parts of the map disappear. Disabling occlusions will fix that.
 
 Syntax
 ------

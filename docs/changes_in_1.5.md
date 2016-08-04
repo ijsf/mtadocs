@@ -1,7 +1,7 @@
 Main Additions / Changes
 ------------------------
 
--   Added a built-in web browser into MTA (*CEF*) which can be controlled by scripts using a new [browser](/docs/Element/Browser.md "wikilink") element.
+-   Added a built-in web browser into MTA (*CEF*) which can be controlled by scripts using a new [browser](/docs/element/browser.md "wikilink") element.
 -   Added light functions
 
 Scripting
@@ -11,37 +11,37 @@ Scripting
 
 #### Client
 
--   [createBrowser](/docs/createBrowser.md "wikilink")
--   [executeBrowserJavascript](/docs/executeBrowserJavascript.md "wikilink")
--   [focusBrowser](/docs/focusBrowser.md "wikilink")
--   [isBrowserFocused](/docs/isBrowserFocused.md "wikilink")
--   [getBrowserProperty](/docs/getBrowserProperty.md "wikilink")
--   [getBrowserTitle](/docs/getBrowserTitle.md "wikilink")
--   [getBrowserURL](/docs/getBrowserURL.md "wikilink")
--   [injectBrowserMouseDown](/docs/injectBrowserMouseDown.md "wikilink")
--   [injectBrowserMouseMove](/docs/injectBrowserMouseMove.md "wikilink")
--   [injectBrowserMouseUp](/docs/injectBrowserMouseUp.md "wikilink")
--   [injectBrowserMouseWheel](/docs/injectBrowserMouseWheel.md "wikilink")
--   [isBrowserLoading](/docs/isBrowserLoading.md "wikilink")
--   [isBrowserDomainBlocked](/docs/isBrowserDomainBlocked.md "wikilink")
--   [loadBrowserURL](/docs/loadBrowserURL.md "wikilink")
--   [requestBrowserDomains](/docs/requestBrowserDomains.md "wikilink")
--   [setBrowserProperty](/docs/setBrowserProperty.md "wikilink")
--   [setBrowserRenderingPaused](/docs/setBrowserRenderingPaused.md "wikilink")
--   [setBrowserVolume](/docs/setBrowserVolume.md "wikilink")
--   [createLight](/docs/createLight.md "wikilink")
--   [getLightType](/docs/getLightType.md "wikilink")
--   [getLightRadius](/docs/getLightRadius.md "wikilink")
--   [getLightColor](/docs/getLightColor.md "wikilink")
--   [getLightDirection](/docs/getLightDirection.md "wikilink")
--   [setLightRadius](/docs/setLightRadius.md "wikilink")
--   [setLightColor](/docs/setLightColor.md "wikilink")
--   [setLightDirection](/docs/setLightDirection.md "wikilink")
--   [getCameraFieldOfView](/docs/getCameraFieldOfView.md "wikilink")
--   [setCameraFieldOfView](/docs/setCameraFieldOfView.md "wikilink")
--   [getPedOccupiedVehicleSeat](/docs/getPedOccupiedVehicleSeat.md "wikilink")
--   [getCameraShakeLevel](/docs/getCameraShakeLevel.md "wikilink")
--   [setCameraShakeLevel](/docs/setCameraShakeLevel.md "wikilink")
+-   [createBrowser](/docs/createbrowser.md "wikilink")
+-   [executeBrowserJavascript](/docs/executebrowserjavascript.md "wikilink")
+-   [focusBrowser](/docs/focusbrowser.md "wikilink")
+-   [isBrowserFocused](/docs/isbrowserfocused.md "wikilink")
+-   [getBrowserProperty](/docs/getbrowserproperty.md "wikilink")
+-   [getBrowserTitle](/docs/getbrowsertitle.md "wikilink")
+-   [getBrowserURL](/docs/getbrowserurl.md "wikilink")
+-   [injectBrowserMouseDown](/docs/injectbrowsermousedown.md "wikilink")
+-   [injectBrowserMouseMove](/docs/injectbrowsermousemove.md "wikilink")
+-   [injectBrowserMouseUp](/docs/injectbrowsermouseup.md "wikilink")
+-   [injectBrowserMouseWheel](/docs/injectbrowsermousewheel.md "wikilink")
+-   [isBrowserLoading](/docs/isbrowserloading.md "wikilink")
+-   [isBrowserDomainBlocked](/docs/isbrowserdomainblocked.md "wikilink")
+-   [loadBrowserURL](/docs/loadbrowserurl.md "wikilink")
+-   [requestBrowserDomains](/docs/requestbrowserdomains.md "wikilink")
+-   [setBrowserProperty](/docs/setbrowserproperty.md "wikilink")
+-   [setBrowserRenderingPaused](/docs/setbrowserrenderingpaused.md "wikilink")
+-   [setBrowserVolume](/docs/setbrowservolume.md "wikilink")
+-   [createLight](/docs/createlight.md "wikilink")
+-   [getLightType](/docs/getlighttype.md "wikilink")
+-   [getLightRadius](/docs/getlightradius.md "wikilink")
+-   [getLightColor](/docs/getlightcolor.md "wikilink")
+-   [getLightDirection](/docs/getlightdirection.md "wikilink")
+-   [setLightRadius](/docs/setlightradius.md "wikilink")
+-   [setLightColor](/docs/setlightcolor.md "wikilink")
+-   [setLightDirection](/docs/setlightdirection.md "wikilink")
+-   [getCameraFieldOfView](/docs/getcamerafieldofview.md "wikilink")
+-   [setCameraFieldOfView](/docs/setcamerafieldofview.md "wikilink")
+-   [getPedOccupiedVehicleSeat](/docs/getpedoccupiedvehicleseat.md "wikilink")
+-   [getCameraShakeLevel](/docs/getcamerashakelevel.md "wikilink")
+-   [setCameraShakeLevel](/docs/setcamerashakelevel.md "wikilink")
 
 #### Server
 
@@ -55,29 +55,29 @@ Scripting
 
 #### Client
 
--   [onClientBrowserCreated](/docs/onClientBrowserCreated.md "wikilink")
--   [onClientBrowserDocumentReady](/docs/onClientBrowserDocumentReady.md "wikilink")
--   [onClientBrowserLoadingStart](/docs/onClientBrowserLoadingStart.md "wikilink")
--   [onClientBrowserLoadingFailed](/docs/onClientBrowserLoadingFailed.md "wikilink")
--   [onClientBrowserNavigate](/docs/onClientBrowserNavigate.md "wikilink")
--   [onClientBrowserPopup](/docs/onClientBrowserPopup.md "wikilink")
--   [onClientBrowserCursorChange](/docs/onClientBrowserCursorChange.md "wikilink")
--   [onClientBrowserTooltip](/docs/onClientBrowserTooltip.md "wikilink")
--   [onClientBrowserInputFocusChanged](/docs/onClientBrowserInputFocusChanged.md "wikilink")
--   [onClientBrowserWhistelistChange](/docs/onClientBrowserWhistelistChange.md "wikilink")
--   [onClientPlayerNetworkStatus](/docs/onClientPlayerNetworkStatus.md "wikilink")
--   [onClientBrowserResourceBlocked](/docs/onClientBrowserResourceBlocked.md "wikilink")
+-   [onClientBrowserCreated](/docs/onclientbrowsercreated.md "wikilink")
+-   [onClientBrowserDocumentReady](/docs/onclientbrowserdocumentready.md "wikilink")
+-   [onClientBrowserLoadingStart](/docs/onclientbrowserloadingstart.md "wikilink")
+-   [onClientBrowserLoadingFailed](/docs/onclientbrowserloadingfailed.md "wikilink")
+-   [onClientBrowserNavigate](/docs/onclientbrowsernavigate.md "wikilink")
+-   [onClientBrowserPopup](/docs/onclientbrowserpopup.md "wikilink")
+-   [onClientBrowserCursorChange](/docs/onclientbrowsercursorchange.md "wikilink")
+-   [onClientBrowserTooltip](/docs/onclientbrowsertooltip.md "wikilink")
+-   [onClientBrowserInputFocusChanged](/docs/onclientbrowserinputfocuschanged.md "wikilink")
+-   [onClientBrowserWhistelistChange](/docs/onclientbrowserwhistelistchange.md "wikilink")
+-   [onClientPlayerNetworkStatus](/docs/onclientplayernetworkstatus.md "wikilink")
+-   [onClientBrowserResourceBlocked](/docs/onclientbrowserresourceblocked.md "wikilink")
 
 #### Server
 
--   [onPlayerNetworkStatus](/docs/onPlayerNetworkStatus.md "wikilink")
+-   [onPlayerNetworkStatus](/docs/onplayernetworkstatus.md "wikilink")
 
 ### Scripting: Changes, Bugfixes and Additions
 
--   Added *throttled* parameter to [playSound](/docs/playSound.md "wikilink") and [playSound3D](/playSound3D.md "wikilink")
+-   Added *throttled* parameter to [playSound](/docs/playsound.md "wikilink") and [playSound3D](/playSound3D.md "wikilink")
 -   Added resource meta option <download_priority_group> to allow certain client resources to download and start earlier or later than other resources when a player first connects to a server.
--   Added number of simultaneous render targets capability to [dxGetStatus](/docs/dxGetStatus.md "wikilink").
--   Added an option to [addAccount](/docs/addAccount.md "wikilink") to check for case insensitive name clashes.
+-   Added number of simultaneous render targets capability to [dxGetStatus](/docs/dxgetstatus.md "wikilink").
+-   Added an option to [addAccount](/docs/addaccount.md "wikilink") to check for case insensitive name clashes.
 
 Client
 ------
@@ -110,8 +110,8 @@ Server
 
 -   Set 64 bit modules directory to “x64/modules”
 -   Fixed server ignoring module initialization failure
--   Fixed [getAccountData](/docs/getAccountData.md "wikilink") leaking memory
--   Fixed [removeBan](/docs/removeBan.md "wikilink") crashing the server under certain circumstances
+-   Fixed [getAccountData](/docs/getaccountdata.md "wikilink") leaking memory
+-   Fixed [removeBan](/docs/removeban.md "wikilink") crashing the server under certain circumstances
 -   Fixed HTTP stats being wrong sometimes
 -   Fixed sync issues when destroying a vehicle while exitting
 -   Added reload to the default start-up list.
@@ -135,4 +135,4 @@ Extra information
 
 :\* [MTA: SA Official Resources](https://github.com/multitheftauto/mtasa-resources)
 
-[Category:Changelog](/docs/Category:Changelog.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")

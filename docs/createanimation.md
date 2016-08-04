@@ -13,7 +13,7 @@ Syntax
 
 -   **from**: the start value.
 -   **to**: the end value.
--   **easing**: the [easing function](/docs/Easing.md "wikilink") to use for the animation or can be used the easing number, e.g. “Linear” = 1, “InQuad” = 2, “OutQuad” = 3, ...
+-   **easing**: the [easing function](/docs/easing.md "wikilink") to use for the animation or can be used the easing number, e.g. “Linear” = 1, “InQuad” = 2, “OutQuad” = 3, ...
 -   **duration**: the duration of animation.
 -   **onChange**: the function to call when the animation value is changed.
 

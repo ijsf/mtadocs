@@ -2,8 +2,8 @@ This function is used to set the development mode of the client. Setting develop
 
 Development mode commands:
 
--   **[showcol](/docs/Client_Commands#showcol.md "wikilink")**: Enables colshapes to be viewed as a wireframe object.
--   **[showsound](/docs/Client_Commands#showsound.md "wikilink")**: Enables world sound ids to be printed in the debug output window.
+-   **[showcol](/docs/client_commands#showcol.md "wikilink")**: Enables colshapes to be viewed as a wireframe object.
+-   **[showsound](/docs/client_commands#showsound.md "wikilink")**: Enables world sound ids to be printed in the debug output window.
 
 Syntax
 ------

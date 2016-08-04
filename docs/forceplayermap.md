@@ -48,4 +48,4 @@ end
 See Also
 --------
 
-[ru:forcePlayerMap](/docs/ru:forcePlayerMap.md "wikilink")
+[ru:forcePlayerMap](/docs/ru:forceplayermap.md "wikilink")

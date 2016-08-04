@@ -26,7 +26,7 @@ This event is a pre reaction event meaning it occurs before any game level react
 Cancel effect
 -------------
 
-If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the ped will not be killed
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the ped will not be killed
 
 Example
 -------

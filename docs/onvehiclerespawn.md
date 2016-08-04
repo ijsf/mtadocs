@@ -1,4 +1,4 @@
-This event is triggered when a vehicle is respawned due. See [toggleVehicleRespawn](/docs/toggleVehicleRespawn.md "wikilink").
+This event is triggered when a vehicle is respawned due. See [toggleVehicleRespawn](/docs/togglevehiclerespawn.md "wikilink").
 
 Parameters
 ----------
@@ -12,7 +12,7 @@ bool exploded
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [vehicle](/vehicle.md "wikilink") that respawned.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [vehicle](/vehicle.md "wikilink") that respawned.
 
 Example
 -------

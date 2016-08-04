@@ -1,4 +1,4 @@
-This event is triggered when the screen capture requested by [takePlayerScreenShot](/docs/takePlayerScreenShot.md "wikilink") has completed.
+This event is triggered when the screen capture requested by [takePlayerScreenShot](/docs/takeplayerscreenshot.md "wikilink") has completed.
 
 Parameters
 ----------
@@ -7,19 +7,19 @@ Parameters
 resource theResource, string status, string imageData, int timestamp, string tag
 ```
 
--   **theResource**: The resource which called [takePlayerScreenShot](/docs/takePlayerScreenShot.md "wikilink")
+-   **theResource**: The resource which called [takePlayerScreenShot](/docs/takeplayerscreenshot.md "wikilink")
 -   **status**: The status of the event which can be one of three values:
     -   *“ok”* - The image capture was successful and imageData will contain a JPEG image.
     -   *“disabled”* - The image capture failed because the player has disabled screen uploads.
     -   *“minimized”* - The image capture failed because the player has minimized the screen. (i.e. alt-tabbed)
 -   **imageData**: A string which contains the JPEG image data. This can be saved with the file functions, or sent to players with triggerClientEvent or even uploaded to a web site.
 -   **timestamp**: The server tick count when the capture was taken.
--   **tag**: The tag string passed to [takePlayerScreenShot](/docs/takePlayerScreenShot.md "wikilink").
+-   **tag**: The tag string passed to [takePlayerScreenShot](/docs/takeplayerscreenshot.md "wikilink").
 
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink")
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink")
 
 Example
 -------

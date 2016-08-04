@@ -1,6 +1,6 @@
-This function replaces the collision file of the given model id to the collision file passed. Use [engineLoadCOL](/docs/engineLoadCOL.md "wikilink") to load the collision file first.
+This function replaces the collision file of the given model id to the collision file passed. Use [engineLoadCOL](/docs/engineloadcol.md "wikilink") to load the collision file first.
 
-**Note:** Collision libraries (.col files containing multiple collision models) are not supported. See [COL](/docs/COL.md "wikilink") for details. Object models are supported only (no vehicles or players).
+**Note:** Collision libraries (.col files containing multiple collision models) are not supported. See [COL](/docs/col.md "wikilink") for details. Object models are supported only (no vehicles or players).
 
 Syntax
 ------

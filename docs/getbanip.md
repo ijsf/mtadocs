@@ -39,4 +39,4 @@ addCommandHandler ( "ban", banPlayerCommand )
 See Also
 --------
 
-[ru:getBanIP](/docs/ru:getBanIP.md "wikilink")
+[ru:getBanIP](/docs/ru:getbanip.md "wikilink")

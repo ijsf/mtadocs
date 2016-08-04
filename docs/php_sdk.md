@@ -1,4 +1,4 @@
-You can access the MTA Web Interface from almost any programming language that can request web pages using HTTP POST and encode and decode [JSON](/docs/JSON.md "wikilink"). PHP can do this very easily.
+You can access the MTA Web Interface from almost any programming language that can request web pages using HTTP POST and encode and decode [JSON](/docs/json.md "wikilink"). PHP can do this very easily.
 
 This SDK provides one function *call* that will allow you to call any exported script functions on any server that you have access to.
 
@@ -18,14 +18,14 @@ This function calls an exported function in a specific resource.
 </syntaxhighlight>
 ### getInput
 
-This function is for use with web pages that are called by [callRemote](/docs/callRemote.md "wikilink").
+This function is for use with web pages that are called by [callRemote](/docs/callremote.md "wikilink").
 
 **Syntax:** <code lang="php"> inputData\[\] = mta::getInput();
 
 </syntaxhighlight>
 ### doReturn
 
-Use this function when you want to return data when a page is called with [callRemote](/docs/callRemote.md "wikilink"). You should **NOT** output any other data to the page, e.g. using *echo* as this will cause the return to fail.
+Use this function when you want to return data when a page is called with [callRemote](/docs/callremote.md "wikilink"). You should **NOT** output any other data to the page, e.g. using *echo* as this will cause the return to fail.
 
 **Syntax:** <code lang="php"> mta::doReturn( argument1, argument2 ... argumentN );
 
@@ -44,7 +44,7 @@ If the server you are accessing requires authentication, you must pass the *http
 **Example:** <code lang="php"> include( “mta\_sdk.php” ); $mtaServer = new mta(“example.com”, 33004, “myUsername”, “myPassword” ); $mtaServer-&gt;getResource(“someResource”)-&gt;call(“someFunction”);
 
 </syntaxhighlight>
-A page that can be called by [callRemote](/docs/callRemote.md "wikilink")
+A page that can be called by [callRemote](/docs/callremote.md "wikilink")
 --------------------------------------------------------------------
 
 This example just adds two numbers passed to it by a lua script.
@@ -83,6 +83,6 @@ Replace that one with: <code lang="php"> //echo $json\_output;
 Or remove it completly!
 
 -   [Download Version 0.4](http://code.opencoding.net/mta/mtaphpsdk_0.4.zip) - Renamed *public function mta(..)* to *public function \_\_construct(..)*.
--   [Download Version 0.3](http://code.opencoding.net/mta/mtaphpsdk_0.3_fix.zip) - Neater syntax, support functions for [callRemote](/docs/callRemote.md "wikilink") (fix version makes call work with args).
+-   [Download Version 0.3](http://code.opencoding.net/mta/mtaphpsdk_0.3_fix.zip) - Neater syntax, support functions for [callRemote](/docs/callremote.md "wikilink") (fix version makes call work with args).
 -   [Download Version 0.2](http://misc.opencoding.net/mta/mtaphpsdk_0.2.zip) - *Deprecated - Syntax differs from examples shown above.* - Adds authentication support.
 -   [Download Version 0.1](http://misc.opencoding.net/mta/mtaphpsdk_0.1.zip) - *Deprecated - Syntax differs from examples shown above.*

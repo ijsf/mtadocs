@@ -33,7 +33,7 @@ if xmlFile then -- If it's indeed opened
 end
 ```
 
-After both changing the value and saving the XML file with [xmlSaveFile](/docs/xmlSaveFile.md "wikilink"), the file will look like this:
+After both changing the value and saving the XML file with [xmlSaveFile](/docs/xmlsavefile.md "wikilink"), the file will look like this:
 
 <section name="exampleFile.xml" class="server" show="true">
 ``` xml

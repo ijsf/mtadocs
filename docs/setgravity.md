@@ -1,6 +1,6 @@
 This function sets the server's gravity level.
 
-**Note:** This does not effect peds/players; to set ped/player gravity use [setPedGravity](/docs/setPedGravity.md "wikilink").
+**Note:** This does not effect peds/players; to set ped/player gravity use [setPedGravity](/docs/setpedgravity.md "wikilink").
 
 **Note:** Setting the gravity level to different values on clients can cause animation bugs (players floating across ground because players see different fall animation.)
 
@@ -32,4 +32,4 @@ addCommandHandler ( "setgravity", grav )
 See Also
 --------
 
-[ru:setGravity](/docs/ru:setGravity.md "wikilink")
+[ru:setGravity](/docs/ru:setgravity.md "wikilink")

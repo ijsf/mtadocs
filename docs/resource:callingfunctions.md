@@ -1,4 +1,4 @@
-This resource was made off of the functions: [CallClientFunction](/docs/CallClientFunction.md "wikilink") and [CallServerFunction](/CallServerFunction.md "wikilink")
+This resource was made off of the functions: [CallClientFunction](/docs/callclientfunction.md "wikilink") and [CallServerFunction](/CallServerFunction.md "wikilink")
 
 Calling Functions
 -----------------
@@ -74,5 +74,5 @@ See Also
 --------
 
 -   [Download](http://community.mtasa.com/index.php?p=resources&s=details&id=4858)
--   [callServerFunction](/docs/callServerFunction.md "wikilink")
--   [callClientFunction](/docs/callClientFunction.md "wikilink")
+-   [callServerFunction](/docs/callserverfunction.md "wikilink")
+-   [callClientFunction](/docs/callclientfunction.md "wikilink")

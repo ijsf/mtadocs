@@ -1,4 +1,4 @@
-This function gets the dimensions of [pixels](/docs/Texture_pixels.md "wikilink") contained in a string. It works with all pixel formats.
+This function gets the dimensions of [pixels](/docs/texture_pixels.md "wikilink") contained in a string. It works with all pixel formats.
 
 Syntax
 ------

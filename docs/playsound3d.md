@@ -57,4 +57,4 @@ addEventHandler( 'onClientResourceStart', resourceRoot,
 See Also
 --------
 
-[AR:playSound3D](/docs/AR:playSound3D.md "wikilink") [DE:playSound3D](/DE:playSound3D.md "wikilink") [RU:playSound3D](/RU:playSound3D.md "wikilink")
+[AR:playSound3D](/docs/ar:playsound3d.md "wikilink") [DE:playSound3D](/DE:playSound3D.md "wikilink") [RU:playSound3D](/RU:playSound3D.md "wikilink")

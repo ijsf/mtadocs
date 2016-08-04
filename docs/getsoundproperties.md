@@ -40,4 +40,4 @@ end
 See Also
 --------
 
-[ar:getSoundProperties](/docs/ar:getSoundProperties.md "wikilink")
+[ar:getSoundProperties](/docs/ar:getsoundproperties.md "wikilink")

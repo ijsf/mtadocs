@@ -11,7 +11,7 @@ Groups getPlayerAllGroups ( element Player)
 
 ### Return
 
-Returns a [Groups](/docs/Groups.md "wikilink") else false.
+Returns a [Groups](/docs/groups.md "wikilink") else false.
 
 Code
 ----

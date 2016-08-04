@@ -32,4 +32,4 @@ addEventHandler ( "onResourceStart", getResourceRootElement(), disableClouds )
 See Also
 --------
 
-[ru:setCloudsEnabled](/docs/ru:setCloudsEnabled.md "wikilink")
+[ru:setCloudsEnabled](/docs/ru:setcloudsenabled.md "wikilink")

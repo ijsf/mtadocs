@@ -1,7 +1,7 @@
 Custom Variants
 ---------------
 
-With the introduction of vehicle variants we now have the ability to add custom variants using custom models. Variants can be anything from different adverts to additional parts of the model.. [200px|thumb|left|Custom Infernus Variant](/docs/Image:Infernus.png.md "wikilink")
+With the introduction of vehicle variants we now have the ability to add custom variants using custom models. Variants can be anything from different adverts to additional parts of the model.. [200px|thumb|left|Custom Infernus Variant](/docs/image:infernus.png.md "wikilink")
 
 How to Add Variants
 -------------------
@@ -142,4 +142,4 @@ local vehicleModelVariants={
 }
 ```
 
-[Category:ID Lists](/docs/Category:ID_Lists.md "wikilink") [ru:Vehicle variants](/ru:Vehicle_variants.md "wikilink") [de:Fahrzeug Varianten](/de:Fahrzeug_Varianten.md "wikilink")
+[Category:ID Lists](/docs/category:id_lists.md "wikilink") [ru:Vehicle variants](/ru:Vehicle_variants.md "wikilink") [de:Fahrzeug Varianten](/de:Fahrzeug_Varianten.md "wikilink")

@@ -5,7 +5,7 @@ Tags
 
 XML is a textual data format which is widely used for the representation of data. MTA uses an XML-based language to describe the metadata for resources by using the tags below:
 
--   **<info />** Information about this resource, possible parameters include (any arbitrary parameters can be used and read using [getResourceInfo](/docs/getResourceInfo.md "wikilink")):
+-   **<info />** Information about this resource, possible parameters include (any arbitrary parameters can be used and read using [getResourceInfo](/docs/getresourceinfo.md "wikilink")):
     -   **author:** The author of this resource
     -   **version:** The version of this resource
     -   **name:** The name of this resource
@@ -49,7 +49,7 @@ XML is a textual data format which is widely used for the representation of data
 -   **<min_mta_version />** Minimum version requirements for this resource to run correctly. When authoring resources, the minimum version should usually be set to the current released version of MTA:SA (which at the moment is ""). See example for example.
     -   **client:** The minimum client version
     -   **server:** The minimum server version
--   **<aclrequest />** A list of [ACL](/docs/Access_Control_List.md "wikilink") rights this resource will need.
+-   **<aclrequest />** A list of [ACL](/docs/access_control_list.md "wikilink") rights this resource will need.
 
 Example
 -------
@@ -122,4 +122,4 @@ Heres an example of a meta file using some of the tags mentioned: {{\#tag:code |
 `    `<right name="function.setPlayerMuted" access="true" />
 `    `</aclrequest>
 
-</meta> |lang=“xml”}} [Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink") [cs:Meta.xml](/cs:Meta.xml.md "wikilink") [de:Meta.xml](/de:Meta.xml.md "wikilink") [es:Sobre el archivo “meta.xml”](/es:Sobre_el_archivo_"meta.xml".md "wikilink") [it:Meta.xml](/it:Meta.xml.md "wikilink") [pl:Meta.xml](/pl:Meta.xml.md "wikilink") [ru:Meta.xml](/ru:Meta.xml.md "wikilink")
+</meta> |lang=“xml”}} [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [cs:Meta.xml](/cs:Meta.xml.md "wikilink") [de:Meta.xml](/de:Meta.xml.md "wikilink") [es:Sobre el archivo “meta.xml”](/es:Sobre_el_archivo_"meta.xml".md "wikilink") [it:Meta.xml](/it:Meta.xml.md "wikilink") [pl:Meta.xml](/pl:Meta.xml.md "wikilink") [ru:Meta.xml](/ru:Meta.xml.md "wikilink")

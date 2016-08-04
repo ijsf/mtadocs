@@ -13,7 +13,7 @@ int getBanTime ( ban theBan )
 
 ### Returns
 
--   Returns an integer of the banning time in the format of seconds from the year 1970. Use in conjunction with [getRealTime](/docs/getRealTime.md "wikilink") in order to retrieve detailed information.
+-   Returns an integer of the banning time in the format of seconds from the year 1970. Use in conjunction with [getRealTime](/docs/getrealtime.md "wikilink") in order to retrieve detailed information.
 -   Returns **false** if invalid arguments were specified or if there was no banning time specified for the [ban](/docs/ban.md "wikilink").
 
 Example
@@ -31,4 +31,4 @@ end
 See Also
 --------
 
-[ru:getBanTime](/docs/ru:getBanTime.md "wikilink")
+[ru:getBanTime](/docs/ru:getbantime.md "wikilink")

@@ -13,7 +13,7 @@ string dataName, string oldValue
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [element](/element.md "wikilink") that had its element data changed
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [element](/element.md "wikilink") that had its element data changed
 
 Example
 -------
@@ -29,7 +29,7 @@ function ( dataName )
 end )
 ```
 
-[pl:onClientElementDataChange](/docs/pl:onClientElementDataChange.md "wikilink")
+[pl:onClientElementDataChange](/docs/pl:onclientelementdatachange.md "wikilink")
 
 See Also
 --------

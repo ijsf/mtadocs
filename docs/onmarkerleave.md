@@ -1,4 +1,4 @@
-This event is triggered when an element leaves the area of a marker created using [createMarker](/docs/createMarker.md "wikilink").
+This event is triggered when an element leaves the area of a marker created using [createMarker](/docs/createmarker.md "wikilink").
 
 Parameters
 ----------
@@ -13,7 +13,7 @@ element leftElement, bool matchingDimension
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [marker](/marker.md "wikilink") that the element left.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [marker](/marker.md "wikilink") that the element left.
 
 Example
 -------

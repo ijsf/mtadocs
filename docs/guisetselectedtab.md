@@ -1,4 +1,4 @@
-This function is used to change the currently selected [tab](/docs/Element/GUI/Tab.md "wikilink") in a [tab panel](/Element/GUI/Tab_panel.md "wikilink").
+This function is used to change the currently selected [tab](/docs/element/gui/tab.md "wikilink") in a [tab panel](/Element/GUI/Tab_panel.md "wikilink").
 
 Syntax
 ------
@@ -9,8 +9,8 @@ bool guiSetSelectedTab ( element tabPanel, element theTab )
 
 ### Required Arguments
 
--   **tabPanel:** The [tab panel](/docs/Element/GUI/Tab_panel.md "wikilink") which current tab you want to change.
--   **theTab:** The [tab](/docs/Element/GUI/Tab.md "wikilink") which will be the new active tab.
+-   **tabPanel:** The [tab panel](/docs/element/gui/tab_panel.md "wikilink") which current tab you want to change.
+-   **theTab:** The [tab](/docs/element/gui/tab.md "wikilink") which will be the new active tab.
 
 ### Returns
 

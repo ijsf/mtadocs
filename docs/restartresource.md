@@ -1,6 +1,6 @@
 This function restarts a running resource. Restarting will destroy all the elements that the resource has created (as stopping the resource does).
 
-**Note:** This function does not restart the resource immediately. Restarts are queued up until the end of the server's frame to ensure that they occur in the correct order (and that dependent resources can start and stop correctly). The resource being restarted will have an [onResourceStop](/docs/onResourceStop.md "wikilink") event triggered and the restarted instance will receive an [onResourceStart](/onResourceStart.md "wikilink") event. Remember that the element and resource variables will be invalidated during the restart, though of course, the resource's name will not.
+**Note:** This function does not restart the resource immediately. Restarts are queued up until the end of the server's frame to ensure that they occur in the correct order (and that dependent resources can start and stop correctly). The resource being restarted will have an [onResourceStop](/docs/onresourcestop.md "wikilink") event triggered and the restarted instance will receive an [onResourceStart](/onResourceStart.md "wikilink") event. Remember that the element and resource variables will be invalidated during the restart, though of course, the resource's name will not.
 
 Syntax
 ------

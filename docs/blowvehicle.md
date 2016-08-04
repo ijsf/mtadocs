@@ -69,7 +69,7 @@ addEventHandler ( "onVehicleEnter", riggedVehicle, blowVehicleEnter ) --trigger 
 Client Class Example
 --------------------
 
-**Heads up!** Client classes only work on **MTA 1.4**, therefore we highly recommend you to visit [Client Scripting Classes](/docs/Client_Scripting_Classes.md "wikilink") first.
+**Heads up!** Client classes only work on **MTA 1.4**, therefore we highly recommend you to visit [Client Scripting Classes](/docs/client_scripting_classes.md "wikilink") first.
 
 <section name="Example 1: Client" class="client" show="true">
 This script will create an Infernus at the center (0, 0, 3) of San Andreas upon execution.

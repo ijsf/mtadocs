@@ -1,4 +1,4 @@
-This function creates a GUI scrollbar. You can use the functions [guiScrollPaneSetHorizontalScrollPosition](/docs/guiScrollPaneSetHorizontalScrollPosition.md "wikilink"), [guiScrollPaneSetVerticalScrollPosition](/guiScrollPaneSetVerticalScrollPosition.md "wikilink"), [guiScrollPaneGetHorizontalScrollPosition](/guiScrollPaneGetHorizontalScrollPosition.md "wikilink") and [guiScrollPaneGetVerticalScrollPosition](/guiScrollPaneGetVerticalScrollPosition.md "wikilink") to read and modify the scrollbar's scroll.
+This function creates a GUI scrollbar. You can use the functions [guiScrollPaneSetHorizontalScrollPosition](/docs/guiscrollpanesethorizontalscrollposition.md "wikilink"), [guiScrollPaneSetVerticalScrollPosition](/guiScrollPaneSetVerticalScrollPosition.md "wikilink"), [guiScrollPaneGetHorizontalScrollPosition](/guiScrollPaneGetHorizontalScrollPosition.md "wikilink") and [guiScrollPaneGetVerticalScrollPosition](/guiScrollPaneGetVerticalScrollPosition.md "wikilink") to read and modify the scrollbar's scroll.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ gui-scrollbar guiCreateScrollBar ( float x, float y, float width, float height, 
 
 ### Required Arguments
 
-[frame|Example GUI scrollbar.](/docs/Image:gui-scrollbar.png.md "wikilink")
+[frame|Example GUI scrollbar.](/docs/image:gui-scrollbar.png.md "wikilink")
 
 -   **x:** the 2D x offset of the GUI scrollbar from its parent. This is affected by the *relative* argument.
 -   **y:** the 2D y offset of the GUI scrollbar from its parent. This is affected by the *relative* argument.

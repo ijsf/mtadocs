@@ -1,6 +1,6 @@
 This function creates a render target element, which is a special type of [texture](/docs/texture.md "wikilink") that can be drawn on with the dx functions. Successful render target creation is not guaranteed, and may fail due to hardware or memory limitations.
 
-To see if creation is likely to fail, use [dxGetStatus](/docs/dxGetStatus.md "wikilink"). (When **VideoMemoryFreeForMTA** is zero, failure *is* guaranteed.)
+To see if creation is likely to fail, use [dxGetStatus](/docs/dxgetstatus.md "wikilink"). (When **VideoMemoryFreeForMTA** is zero, failure *is* guaranteed.)
 
 Syntax
 ------

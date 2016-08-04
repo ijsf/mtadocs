@@ -1,4 +1,4 @@
-Adds a row to a grid list, and optionally add simple text items with your rows. Use [guiGridListSetItemText](/docs/guiGridListSetItemText.md "wikilink") to add row headers.
+Adds a row to a grid list, and optionally add simple text items with your rows. Use [guiGridListSetItemText](/docs/guigridlistsetitemtext.md "wikilink") to add row headers.
 
 Syntax
 ------

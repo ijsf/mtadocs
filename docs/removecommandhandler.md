@@ -1,4 +1,4 @@
-This function removes a command handler, that is one that has been added using [addCommandHandler](/docs/addCommandHandler.md "wikilink"). This function can only remove command handlers that were added by the resource that it is called in.
+This function removes a command handler, that is one that has been added using [addCommandHandler](/docs/addcommandhandler.md "wikilink"). This function can only remove command handlers that were added by the resource that it is called in.
 
 Syntax
 ------

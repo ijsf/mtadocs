@@ -15,11 +15,11 @@ float x, float y, float z, int theType
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the explosions creator element (object/vehicle/player)
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the explosions creator element (object/vehicle/player)
 
 ### Canceling
 
-If this event is [canceled](/docs/Event_system_#Canceling.md "wikilink"), the explosion will not occur.
+If this event is [canceled](/docs/event_system_#canceling.md "wikilink"), the explosion will not occur.
 
 Example
 -------

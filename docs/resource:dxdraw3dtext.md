@@ -54,7 +54,7 @@ Notes
 -----
 
 -   The *dxDraw3DText* function is client side only .
--   The *dxDraw3DText* function doesn't need the [onClientRender](/docs/onClientRender.md "wikilink") event to work .
+-   The *dxDraw3DText* function doesn't need the [onClientRender](/docs/onclientrender.md "wikilink") event to work .
 -   The *dxDraw3DText* function only creates a *text element*, The drawing and stuff is done in the resource, So it MUST be running so the texts show .
 
 Download

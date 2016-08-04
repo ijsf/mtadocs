@@ -41,4 +41,4 @@ Changelog
 See Also
 --------
 
-[AR:setSoundPaused](/docs/AR:setSoundPaused.md "wikilink")
+[AR:setSoundPaused](/docs/ar:setsoundpaused.md "wikilink")

@@ -71,4 +71,4 @@ end)
 See Also
 --------
 
-[ru:setPedStat](/docs/ru:setPedStat.md "wikilink")
+[ru:setPedStat](/docs/ru:setpedstat.md "wikilink")

@@ -1,4 +1,4 @@
-This function detonates the thrown satchels of a player, as if they had fired the detonator. Please use [detonateSatchels](/docs/detonateSatchels.md "wikilink") instead.
+This function detonates the thrown satchels of a player, as if they had fired the detonator. Please use [detonateSatchels](/docs/detonatesatchels.md "wikilink") instead.
 
 Syntax
 ------

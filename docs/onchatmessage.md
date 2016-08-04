@@ -1,4 +1,4 @@
-This event is triggered when a player uses say, teamsay, me successfully. Or when any message is output to chat using [outputChatBox](/docs/outputChatBox.md "wikilink") on the server side. It can be used to get the resource responsible for specific [outputChatBox](/outputChatBox.md "wikilink") call via the second parameter.
+This event is triggered when a player uses say, teamsay, me successfully. Or when any message is output to chat using [outputChatBox](/docs/outputchatbox.md "wikilink") on the server side. It can be used to get the resource responsible for specific [outputChatBox](/outputChatBox.md "wikilink") call via the second parameter.
 
 Parameters
 ----------
@@ -8,12 +8,12 @@ string theMessage, resource / element theElement
 ```
 
 -   **theMessage:** The text that was output to the chatbox
--   **theElement:** Player element if chatbox output was done via say, teamsay or me. Resource if it was done via [outputChatBox](/docs/outputChatBox.md "wikilink").
+-   **theElement:** Player element if chatbox output was done via say, teamsay or me. Resource if it was done via [outputChatBox](/docs/outputchatbox.md "wikilink").
 
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the root element.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the root element.
 
 Example
 -------

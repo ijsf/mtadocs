@@ -424,6 +424,6 @@ See Also
 
 [ID Lists](/docs/id.md "wikilink")
 
-[pl:Vehicle\_Upgrades](/docs/pl:Vehicle_Upgrades.md "wikilink") [it:Miglioramenti Veicoli](/it:Miglioramenti_Veicoli.md "wikilink")
+[pl:Vehicle\_Upgrades](/docs/pl:vehicle_upgrades.md "wikilink") [it:Miglioramenti Veicoli](/it:Miglioramenti_Veicoli.md "wikilink")
 
-[Category:ID Lists](/docs/Category:ID_Lists.md "wikilink")
+[Category:ID Lists](/docs/category:id_lists.md "wikilink")

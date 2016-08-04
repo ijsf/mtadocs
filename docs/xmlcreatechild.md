@@ -37,4 +37,4 @@ addCommandHandler("createfile", createFileHandler)
 See Also
 --------
 
-[ru:xmlCreateChild](/docs/ru:xmlCreateChild.md "wikilink")
+[ru:xmlCreateChild](/docs/ru:xmlcreatechild.md "wikilink")

@@ -10,10 +10,10 @@ float/nil getElementSpeed ( element theElement [, int/string unit="m/s" ] )
 ### Required arguments
 
 -   **theElement**: the [element](/docs/element.md "wikilink") you want to get the speed of. Compatible [element](/element.md "wikilink") types are:
-    -   [Players](/docs/Player.md "wikilink").
-    -   [Peds](/docs/Ped.md "wikilink").
-    -   [Objects](/docs/Object.md "wikilink").
-    -   [Vehicles](/docs/Vehicle.md "wikilink").
+    -   [Players](/docs/player.md "wikilink").
+    -   [Peds](/docs/ped.md "wikilink").
+    -   [Objects](/docs/object.md "wikilink").
+    -   [Vehicles](/docs/vehicle.md "wikilink").
 
 ### Optional arguments
 

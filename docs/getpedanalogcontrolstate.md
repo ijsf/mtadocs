@@ -1,4 +1,4 @@
-This function retrieves the analog control state of a ped, as set by [setPedAnalogControlState](/docs/setPedAnalogControlState.md "wikilink").
+This function retrieves the analog control state of a ped, as set by [setPedAnalogControlState](/docs/setpedanalogcontrolstate.md "wikilink").
 
 Syntax
 ------

@@ -10,7 +10,7 @@ Syntax
 
 ### Required Arguments
 
--   **modelid:** A whole integer specifying the [GTASA skin ID](/docs/Character_Skins.md "wikilink").
+-   **modelid:** A whole integer specifying the [GTASA skin ID](/docs/character_skins.md "wikilink").
 -   **x:** A floating point number representing the X coordinate on the map.
 -   **y:** A floating point number representing the Y coordinate on the map.
 -   **z:** A floating point number representing the Z coordinate on the map.
@@ -29,7 +29,7 @@ Optional Arguments
 
 ### Required Arguments
 
--   **modelid:** A whole integer specifying the [GTASA skin ID](/docs/Character_Skins.md "wikilink").
+-   **modelid:** A whole integer specifying the [GTASA skin ID](/docs/character_skins.md "wikilink").
 -   **x:** A floating point number representing the X coordinate on the map.
 -   **y:** A floating point number representing the Y coordinate on the map.
 -   **z:** A floating point number representing the Z coordinate on the map.
@@ -76,4 +76,4 @@ Issues
 See Also
 --------
 
-[pl:createPed](/docs/pl:createPed.md "wikilink") [ru:createPed](/ru:createPed.md "wikilink")
+[pl:createPed](/docs/pl:createped.md "wikilink") [ru:createPed](/ru:createPed.md "wikilink")

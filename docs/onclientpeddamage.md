@@ -16,12 +16,12 @@ element attacker, int weapon, int bodypart [, float loss ]
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [ped](/ped.md "wikilink") that got damaged
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [ped](/ped.md "wikilink") that got damaged
 
 Cancel effect
 -------------
 
-If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), then any damaging effects to the ped will cease.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), then any damaging effects to the ped will cease.
 
 Example
 -------

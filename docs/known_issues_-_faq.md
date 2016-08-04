@@ -1,7 +1,7 @@
 Post here your proposed Q&A, regarding the known problems with MTA:SA and their solutions, especially the problems we are encountering now, that might be also encountered by users in the final release. You are also welcome to edit them grammar/style wise.
 
--   [Map editor FAQ/known issues can be found here.](/docs/Resource:Editor#FAQ.md "wikilink")
--   [Known issues for MTA 0.5r2 can be found here.](/docs/MTA_0.5r2_Known_Issues.md "wikilink")
+-   [Map editor FAQ/known issues can be found here.](/docs/resource:editor#faq.md "wikilink")
+-   [Known issues for MTA 0.5r2 can be found here.](/docs/mta_0.5r2_known_issues.md "wikilink")
 
 Client
 ------
@@ -277,7 +277,7 @@ Run MTA:SA with Administrator privileges. To do this, right click on the install
 :\* **I have unexplainable GTA problems or crashes**
 
   
-Make sure your computer as well as your GTA install meet the [minimum requirements](/docs/Deathmatch_Client_Manual#System_requirements.md "wikilink") and that you are not running in any 98/2000/XP/2003 compatibility modes.
+Make sure your computer as well as your GTA install meet the [minimum requirements](/docs/deathmatch_client_manual#system_requirements.md "wikilink") and that you are not running in any 98/2000/XP/2003 compatibility modes.
 
 <!-- -->
 
@@ -317,7 +317,7 @@ This error happens when the server you are trying to connect to is unable to pro
 
 :\* If you are running the built-in server (**httpserver** is set to **1** and **httpdownloadurl** is empty), make sure that your HTTP server is accessible (you can try to access it by using a browser) for everyone.
 
-:\* If you have configured an external web server (**httpdownloadurl** is set to your custom URL), make sure that your HTTP is accessible and make sure you have read the [Configuring an external web server](/docs/Deathmatch_Server_Manual#Configuring_an_external_web_server.md "wikilink") guide.
+:\* If you have configured an external web server (**httpdownloadurl** is set to your custom URL), make sure that your HTTP is accessible and make sure you have read the [Configuring an external web server](/docs/deathmatch_server_manual#configuring_an_external_web_server.md "wikilink") guide.
 
 #### CRC mismatch
 
@@ -352,7 +352,7 @@ Try closing anti-virus or firewall applications. If it then works, try adding an
 #### Accounts disappearing
 
   
-Account information (or anything else) not being saved correctly can be caused by database corruption. From build 2836, the server checks the integrity of the sqlite database files on startup. If it reports a database error, please read [How to repair the database files](/docs/How_to_repair_the_database_files.md "wikilink").
+Account information (or anything else) not being saved correctly can be caused by database corruption. From build 2836, the server checks the integrity of the sqlite database files on startup. If it reports a database error, please read [How to repair the database files](/docs/how_to_repair_the_database_files.md "wikilink").
 
 If you are running an earlier version and are having troubles such as accounts disappearing, you should upgrade your server to the [lastest build](http://nightly.multitheftauto.com/)
 
@@ -368,6 +368,6 @@ No known reported issues in .
   
 Temporary fix, disable the nohup file: 'nohup ./mta\_server &gt; /dev/null &'
 
-[es:Problemas Conocidos - FAQ](/docs/es:Problemas_Conocidos_-_FAQ.md "wikilink") [it:Bugs noti e FAQ](/it:Bugs_noti_e_FAQ.md "wikilink") [ru:Known Issues - FAQ](/ru:Known_Issues_-_FAQ.md "wikilink") [de:Known Issues - FAQ](/de:Known_Issues_-_FAQ.md "wikilink") [pt-br:Soluções de Problemas - FAQ](/pt-br:Soluções_de_Problemas_-_FAQ.md "wikilink") [hu:Known Issues - FAQ](/hu:Known_Issues_-_FAQ.md "wikilink") [zh-cn:已知问题 - 常见问题](/zh-cn:已知问题_-_常见问题.md "wikilink")
+[es:Problemas Conocidos - FAQ](/docs/es:problemas_conocidos_-_faq.md "wikilink") [it:Bugs noti e FAQ](/it:Bugs_noti_e_FAQ.md "wikilink") [ru:Known Issues - FAQ](/ru:Known_Issues_-_FAQ.md "wikilink") [de:Known Issues - FAQ](/de:Known_Issues_-_FAQ.md "wikilink") [pt-br:Soluções de Problemas - FAQ](/pt-br:Soluções_de_Problemas_-_FAQ.md "wikilink") [hu:Known Issues - FAQ](/hu:Known_Issues_-_FAQ.md "wikilink") [zh-cn:已知问题 - 常见问题](/zh-cn:已知问题_-_常见问题.md "wikilink")
 
-[Category:Support](/docs/Category:Support.md "wikilink")
+[Category:Support](/docs/category:support.md "wikilink")

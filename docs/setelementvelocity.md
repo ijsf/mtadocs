@@ -2,10 +2,10 @@ This function sets the velocity (movement speeds) along each axis, for an elemen
 
 This is not compatible with all elements. Only the following elements are compatible:
 
--   [Peds](/docs/Ped.md "wikilink").
--   [Vehicles](/docs/Vehicle.md "wikilink").
--   [Objects](/docs/Object.md "wikilink").
--   [Projectiles](/docs/Projectile.md "wikilink").
+-   [Peds](/docs/ped.md "wikilink").
+-   [Vehicles](/docs/vehicle.md "wikilink").
+-   [Objects](/docs/object.md "wikilink").
+-   [Projectiles](/docs/projectile.md "wikilink").
 
 Syntax
 ------

@@ -2,7 +2,7 @@ This function can change an [element](/docs/element.md "wikilink")'s [visibility
 
 Visibility settings of lower elements in the element tree override higher ones - if visibility for root is set to false and for a player is set to true, it will be visible to the player.
 
-If you want to clear all visibility settings of an object, try [clearElementVisibleTo](/docs/clearElementVisibleTo.md "wikilink")
+If you want to clear all visibility settings of an object, try [clearElementVisibleTo](/docs/clearelementvisibleto.md "wikilink")
 
 Syntax
 ------

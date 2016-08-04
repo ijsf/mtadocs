@@ -27,7 +27,7 @@ For example: <code lang="xml">
 </syntaxhighlight>
 ### Parsed files
 
-If a file is not specified in the meta file as “raw”, then it is passed through a pre-processor before it is returned to the client. This pre-processor works much like PHP or ASP, but uses LUA. You can embed standard MTA scripts within HTML pages, controlling the output. Almost all standard MTA functions work, plus a number of special [HTTP Functions](/docs/Template:HTTP_functions.md "wikilink"), such as [httpWrite](/httpWrite.md "wikilink"), a function that outputs text to the buffer.
+If a file is not specified in the meta file as “raw”, then it is passed through a pre-processor before it is returned to the client. This pre-processor works much like PHP or ASP, but uses LUA. You can embed standard MTA scripts within HTML pages, controlling the output. Almost all standard MTA functions work, plus a number of special [HTTP Functions](/docs/template:http_functions.md "wikilink"), such as [httpWrite](/httpWrite.md "wikilink"), a function that outputs text to the buffer.
 
 For example: <code lang="html4strict">
 
@@ -53,9 +53,9 @@ There is a shorthand (in common with PHP and ASP) for this code, meaning that yo
 </syntaxhighlight>
 Aside from HTTP functions, embedded Lua has access to the following environment variables that contain information about how the page was requested:
 
--   table **requestHeaders**: This is a table containing all the headers that were requested with the page. You can set returned headers using [httpSetResponseHeader](/docs/httpSetResponseHeader.md "wikilink").
+-   table **requestHeaders**: This is a table containing all the headers that were requested with the page. You can set returned headers using [httpSetResponseHeader](/docs/httpsetresponseheader.md "wikilink").
 -   table **form**: This is a table containing all the form data submitted to the page using HTTP POST combined with any variables passed in the querystring with HTTP GET.
--   table **cookies**: This is a table of all the cookies. You can modify cookies using [httpSetResponseCookie](/docs/httpSetResponseCookie.md "wikilink").
+-   table **cookies**: This is a table of all the cookies. You can modify cookies using [httpSetResponseCookie](/docs/httpsetresponsecookie.md "wikilink").
 -   string **hostname**: This is a string containing the IP address or hostname that requested the page.
 -   string **url**: This is the URL of the page.
 -   account **user**: This is the account of the current user.
@@ -150,20 +150,20 @@ You can see (fairly complex) examples of how this can be done in the resources *
 Securing the web interface
 --------------------------
 
-The [ACL](/docs/ACL.md "wikilink") has a number of rights that can affect what files can be accessed.
+The [ACL](/docs/acl.md "wikilink") has a number of rights that can affect what files can be accessed.
 
 SDK
 ---
 
 There are a number of so-called 'SDKs' available that allow you to interface with the server from other programming languages. With these you could (in theory) write whole gamemodes. In practice this is probably a bad idea, but it is useful for statistics and administration. The PHP SDK is the most developed version. Feel free to modify or create your own SDKs - if you do please send us a copy.
 
--   [Java SDK](/docs/JavaSDK.md "wikilink")
--   [Javascript SDK](/docs/Javascript_SDK.md "wikilink")
--   [Perl SDK](/docs/Perl_SDK.md "wikilink")
--   [PHP SDK](/docs/PHP_SDK.md "wikilink")
--   [C\# SDK](/docs/CSharp_SDK.md "wikilink")
+-   [Java SDK](/docs/javasdk.md "wikilink")
+-   [Javascript SDK](/docs/javascript_sdk.md "wikilink")
+-   [Perl SDK](/docs/perl_sdk.md "wikilink")
+-   [PHP SDK](/docs/php_sdk.md "wikilink")
+-   [C\# SDK](/docs/csharp_sdk.md "wikilink")
 
 See Also
 --------
 
-[callRemote](/docs/callRemote.md "wikilink") - Allows game servers to call functions on PHP pages (with the PHP SDK) and on other game servers. [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink") [ru:Resource Web Access](/ru:Resource_Web_Access.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")
+[callRemote](/docs/callremote.md "wikilink") - Allows game servers to call functions on PHP pages (with the PHP SDK) and on other game servers. [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink") [ru:Resource Web Access](/ru:Resource_Web_Access.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")

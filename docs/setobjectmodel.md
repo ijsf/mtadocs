@@ -1,4 +1,4 @@
-Please use [setElementModel](/docs/setElementModel.md "wikilink")
+Please use [setElementModel](/docs/setelementmodel.md "wikilink")
 
 This sets a new object model to the specified element.
 

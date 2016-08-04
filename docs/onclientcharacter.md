@@ -12,7 +12,7 @@ string character
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
 
 Example
 -------
@@ -29,7 +29,7 @@ end
 addEventHandler("onClientCharacter", getRootElement(), outputPressedCharacter)
 ```
 
-[pl:onClientCharacter](/docs/pl:onClientCharacter.md "wikilink")
+[pl:onClientCharacter](/docs/pl:onclientcharacter.md "wikilink")
 
 See Also
 --------

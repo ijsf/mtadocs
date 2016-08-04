@@ -1,4 +1,4 @@
-[thumb|200px|Bullet splash](/docs/Image:Fxbulletsplash.png.md "wikilink") This function creates a bullet splash particle effect, normally created when shooting into water.
+[thumb|200px|Bullet splash](/docs/image:fxbulletsplash.png.md "wikilink") This function creates a bullet splash particle effect, normally created when shooting into water.
 
 Syntax
 ------

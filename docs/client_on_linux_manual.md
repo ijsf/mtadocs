@@ -1,7 +1,7 @@
 Before you start
 ----------------
 
-First of all, please ensure your computer fits the requirements needed. Read the [Client Manual](/docs/Client_Manual.md "wikilink") page for further informations, or join us on IRC @ <irc://irc.multitheftauto.com/mta>
+First of all, please ensure your computer fits the requirements needed. Read the [Client Manual](/docs/client_manual.md "wikilink") page for further informations, or join us on IRC @ <irc://irc.multitheftauto.com/mta>
 
 ### Requirements
 
@@ -94,4 +94,4 @@ See Also
 -   [nightly.mtasa.com](http://nightly.mtasa.com/) - For nightly builds.
 -   <https://bugs.mtasa.com/view.php?id=8895> - a bug report containing useful info for running MTA in Wine
 
-[Category:Support](/docs/Category:Support.md "wikilink") [ru:Client on Linux Manual](/ru:Client_on_Linux_Manual.md "wikilink") [hu:Client on Linux Manual](/hu:Client_on_Linux_Manual.md "wikilink")
+[Category:Support](/docs/category:support.md "wikilink") [ru:Client on Linux Manual](/ru:Client_on_Linux_Manual.md "wikilink") [hu:Client on Linux Manual](/hu:Client_on_Linux_Manual.md "wikilink")

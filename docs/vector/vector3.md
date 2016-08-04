@@ -1,4 +1,4 @@
-[Category:Incomplete](/docs/Category:Incomplete.md "wikilink") The **vector3** class represents a three-dimensional [vector](/vector.md "wikilink").
+[Category:Incomplete](/docs/category:incomplete.md "wikilink") The **vector3** class represents a three-dimensional [vector](/vector.md "wikilink").
 
 Methods
 -------
@@ -259,4 +259,4 @@ addEventHandler("onClientPreRender", root, moveCameraToTarget)
 
 ### getLength
 
-[ru:Vector/Vector3](/docs/ru:Vector/Vector3.md "wikilink")
+[ru:Vector/Vector3](/docs/ru:vector/vector3.md "wikilink")

@@ -72,8 +72,8 @@ setMissionTimerFormat ( missionTimer, format )
 
 Set the text format for the timer
 
-To remove a missiontimer from the screen, use [destroyElement](/docs/destroyElement.md "wikilink").
+To remove a missiontimer from the screen, use [destroyElement](/docs/destroyelement.md "wikilink").
 
 Missiontimer is only compatible with MTASA 1.0 onwards.
 
-[ru:<Resource:Missiontimer>](/docs/ru:Resource:Missiontimer.md "wikilink")
+[ru:<Resource:Missiontimer>](/docs/ru:resource:missiontimer.md "wikilink")

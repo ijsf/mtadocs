@@ -15,7 +15,7 @@ table getElementsWithinMarker ( marker theMarker )
 
 ### Returns
 
-Returns a *table* containing each element that's inside the marker just like [getElementsWithinColShape](/docs/getElementsWithinColShape.md "wikilink") or *false* if a marker wasn't passed to the function.
+Returns a *table* containing each element that's inside the marker just like [getElementsWithinColShape](/docs/getelementswithincolshape.md "wikilink") or *false* if a marker wasn't passed to the function.
 
 Code
 ----

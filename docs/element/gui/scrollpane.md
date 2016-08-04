@@ -3,9 +3,9 @@ Related scripting functions
 
 ### Scrollpanes
 
--   [guiCreateScrollPane](/docs/guiCreateScrollPane.md "wikilink")
--   [guiScrollPaneGetHorizontalScrollPosition](/docs/guiScrollPaneGetHorizontalScrollPosition.md "wikilink")
--   [guiScrollPaneGetVerticalScrollPosition](/docs/guiScrollPaneGetVerticalScrollPosition.md "wikilink")
--   [guiScrollPaneSetHorizontalScrollPosition](/docs/guiScrollPaneSetHorizontalScrollPosition.md "wikilink")
--   [guiScrollPaneSetScrollBars](/docs/guiScrollPaneSetScrollBars.md "wikilink")
--   [guiScrollPaneSetVerticalScrollPosition](/docs/guiScrollPaneSetVerticalScrollPosition.md "wikilink")
+-   [guiCreateScrollPane](/docs/guicreatescrollpane.md "wikilink")
+-   [guiScrollPaneGetHorizontalScrollPosition](/docs/guiscrollpanegethorizontalscrollposition.md "wikilink")
+-   [guiScrollPaneGetVerticalScrollPosition](/docs/guiscrollpanegetverticalscrollposition.md "wikilink")
+-   [guiScrollPaneSetHorizontalScrollPosition](/docs/guiscrollpanesethorizontalscrollposition.md "wikilink")
+-   [guiScrollPaneSetScrollBars](/docs/guiscrollpanesetscrollbars.md "wikilink")
+-   [guiScrollPaneSetVerticalScrollPosition](/docs/guiscrollpanesetverticalscrollposition.md "wikilink")

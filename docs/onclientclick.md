@@ -1,4 +1,4 @@
-This event triggers whenever the user clicks his mouse. This is linked to the GTA world, as oppose to GUI for which [onClientGUIClick](/docs/onClientGUIClick.md "wikilink") is to be used. This event allows detection of click positions of the 3D world.
+This event triggers whenever the user clicks his mouse. This is linked to the GTA world, as oppose to GUI for which [onClientGUIClick](/docs/onclientguiclick.md "wikilink") is to be used. This event allows detection of click positions of the 3D world.
 
 Parameters
 ----------
@@ -19,7 +19,7 @@ string button, string state, int absoluteX, int absoluteY, float worldX, float w
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
 
 Example
 -------
@@ -45,7 +45,7 @@ end
 addEventHandler ( "onClientClick", getRootElement(), addLabelOnClick )
 ```
 
-[pl:onClientClick](/docs/pl:onClientClick.md "wikilink")
+[pl:onClientClick](/docs/pl:onclientclick.md "wikilink")
 
 See Also
 --------

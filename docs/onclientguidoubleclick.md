@@ -45,7 +45,7 @@ function doubleClickedName( )
 end
 ```
 
-[pl:onClientGUIDoubleClick](/docs/pl:onClientGUIDoubleClick.md "wikilink")
+[pl:onClientGUIDoubleClick](/docs/pl:onclientguidoubleclick.md "wikilink")
 
 See Also
 --------

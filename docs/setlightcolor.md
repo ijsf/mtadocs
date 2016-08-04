@@ -7,7 +7,7 @@ bool setLightColor ( light theLight, float r, float g, float b )
 
 ### Required Arguments
 
--   **theLight:** The [light](/docs/Element/Light.md "wikilink") that you wish to set the color of.
+-   **theLight:** The [light](/docs/element/light.md "wikilink") that you wish to set the color of.
 
 ### Returns
 

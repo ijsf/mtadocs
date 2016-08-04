@@ -40,4 +40,4 @@ addCommandHandler("headmeup", giveBackHead)
 See Also
 --------
 
-[ru:setPedHeadless](/docs/ru:setPedHeadless.md "wikilink")
+[ru:setPedHeadless](/docs/ru:setpedheadless.md "wikilink")

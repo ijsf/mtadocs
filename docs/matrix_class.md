@@ -2,30 +2,30 @@
 
 ### Metamethods
 
--   [\_\_tostring](/docs/Matrix._tostring.md "wikilink")
--   [\_\_gc](/docs/Matrix._gc.md "wikilink")
--   [\_\_add](/docs/Matrix._add.md "wikilink")
--   [\_\_sub](/docs/Matrix._sub.md "wikilink")
--   [\_\_mul](/docs/Matrix._mul.md "wikilink")
--   [\_\_div](/docs/Matrix._div.md "wikilink")
+-   [\_\_tostring](/docs/matrix._tostring.md "wikilink")
+-   [\_\_gc](/docs/matrix._gc.md "wikilink")
+-   [\_\_add](/docs/matrix._add.md "wikilink")
+-   [\_\_sub](/docs/matrix._sub.md "wikilink")
+-   [\_\_mul](/docs/matrix._mul.md "wikilink")
+-   [\_\_div](/docs/matrix._div.md "wikilink")
 
 ### Methods
 
--   [create](/docs/Matrix.create.md "wikilink")
--   [getPosition](/docs/Matrix.getPosition.md "wikilink")
--   [getRotation](/docs/Matrix.getRotation.md "wikilink")
--   [getFront](/docs/Matrix.getFront.md "wikilink")
--   [getRight](/docs/Matrix.getRight.md "wikilink")
--   [getUp](/docs/Matrix.getUp.md "wikilink")
--   [setPosition](/docs/Matrix.setPosition.md "wikilink")
--   [setFront](/docs/Matrix.setFront.md "wikilink")
--   [setRight](/docs/Matrix.setRight.md "wikilink")
--   [setUp](/docs/Matrix.setUp.md "wikilink")
+-   [create](/docs/matrix.create.md "wikilink")
+-   [getPosition](/docs/matrix.getposition.md "wikilink")
+-   [getRotation](/docs/matrix.getrotation.md "wikilink")
+-   [getFront](/docs/matrix.getfront.md "wikilink")
+-   [getRight](/docs/matrix.getright.md "wikilink")
+-   [getUp](/docs/matrix.getup.md "wikilink")
+-   [setPosition](/docs/matrix.setposition.md "wikilink")
+-   [setFront](/docs/matrix.setfront.md "wikilink")
+-   [setRight](/docs/matrix.setright.md "wikilink")
+-   [setUp](/docs/matrix.setup.md "wikilink")
 
 ### Variables
 
--   [position](/docs/Matrix.position.md "wikilink")
--   [rotation](/docs/Matrix.rotation.md "wikilink")
--   [front](/docs/Matrix.front.md "wikilink")
--   [right](/docs/Matrix.right.md "wikilink")
--   [up](/docs/Matrix.up.md "wikilink")
+-   [position](/docs/matrix.position.md "wikilink")
+-   [rotation](/docs/matrix.rotation.md "wikilink")
+-   [front](/docs/matrix.front.md "wikilink")
+-   [right](/docs/matrix.right.md "wikilink")
+-   [up](/docs/matrix.up.md "wikilink")

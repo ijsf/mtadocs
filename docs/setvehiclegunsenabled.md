@@ -1,4 +1,4 @@
-Use [ToggleControl](/docs/ToggleControl.md "wikilink") instead.
+Use [ToggleControl](/docs/togglecontrol.md "wikilink") instead.
 
 This function enables or disables the weapons on a vehicle
 

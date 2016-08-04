@@ -1,6 +1,6 @@
 |                                                                      |
 |----------------------------------------------------------------------|
-| [Image:MTASElogo\_wiki.png](/docs/Image:MTASElogo_wiki.png.md "wikilink") |
+| [Image:MTASElogo\_wiki.png](/docs/image:mtaselogo_wiki.png.md "wikilink") |
 
 Introduction
 ------------
@@ -35,26 +35,26 @@ Screenshots
 
 -   **Main window** - overall look of the application. On the right you can see a list of MTA functions. You can choose what functions you want to be displayed by changing item in the combo box above it. Are you going to ask what this “silly table” at the bottom of the window is doing? I knew it... It's the syntax checker. As you script the syntax is checked by Lua engine and outputs any errors you've made in the script. It speed up progress because you don't have to go into game and restart the resource to check if you fixed the syntax error. I made a little error on line 1 to show you how it looks:
 
-[Image:MTASEmainwnd.png](/docs/Image:MTASEmainwnd.png.md "wikilink")
+[Image:MTASEmainwnd.png](/docs/image:mtasemainwnd.png.md "wikilink")
 
 -   **New resource wizard** - create a resource with 5 simple steps (3 steps are optional):
 
-[Image:MTASEnewreswizard.png](/docs/Image:MTASEnewreswizard.png.md "wikilink")
+[Image:MTASEnewreswizard.png](/docs/image:mtasenewreswizard.png.md "wikilink")
 
 -   **Sound player** - preview sounds by double-clicking sound file in the resource explorer:
 
-[Image:MTASEsoundplayer.png](/docs/Image:MTASEsoundplayer.png.md "wikilink")
+[Image:MTASEsoundplayer.png](/docs/image:mtasesoundplayer.png.md "wikilink")
 
 -   **Image viewer** - preview images by hovering you cursor over nodes in resource explorer:
 
-[Image:MTASEimageviewer.png](/docs/Image:MTASEimageviewer.png.md "wikilink")
+[Image:MTASEimageviewer.png](/docs/image:mtaseimageviewer.png.md "wikilink")
 
 -   **Suggested functions** - a “window” similar to the one in Visual Studio showing a list of functions. It also shows a tooltip telling you what the function does and its parameters. It also contains all exported functions from every resource. You can add a 3 new attributes to your exported function tag in meta.xml to let Script Editor display descriptive tooltip, like on the screenshot:
     -   **retval:** return type (eg. bool, marker, int, etc.)
     -   **params:** list of parameters
     -   **description:** short description of the function\[/list\]
 
-[Image:MTSEsuggestedfuncs.png](/docs/Image:MTSEsuggestedfuncs.png.md "wikilink")
+[Image:MTSEsuggestedfuncs.png](/docs/image:mtsesuggestedfuncs.png.md "wikilink")
 
   
 (screenshot show an example of exported function that in meta.xml looks like the following:)
@@ -64,19 +64,19 @@ Screenshots
 </syntaxhighlight>
 -   **Function tooltip** (available from 0.3) - tooltip showing function description. Moving mouse over function names in the function list (not the suggested functions list)
 
-[Image:MTASE\_func\_desc.png‎](/docs/Image:MTASE_func_desc.png‎.md "wikilink")
+[Image:MTASE\_func\_desc.png‎](/docs/image:mtase_func_desc.png‎.md "wikilink")
 
 -   **MTA Server Configuration** - a window where you can change server's settings. You won't have to open mtaserver.conf and change the server settings, startup resources, adding modules, etc.
 
-[Image:MTASEserverconfig.png](/docs/Image:MTASEserverconfig.png.md "wikilink")
+[Image:MTASEserverconfig.png](/docs/image:mtaseserverconfig.png.md "wikilink")
 
 -   **Customize syntax highlighter** - you can customize many syntax highlighter properties
 
-[Image:MTASEcustomizesyntax.png](/docs/Image:MTASEcustomizesyntax.png.md "wikilink")
+[Image:MTASEcustomizesyntax.png](/docs/image:mtasecustomizesyntax.png.md "wikilink")
 
 -   **Exported functions** - you can view all exported functions from every resource
 
-[Image:MTASEfuncs.png](/docs/Image:MTASEfuncs.png.md "wikilink")
+[Image:MTASEfuncs.png](/docs/image:mtasefuncs.png.md "wikilink")
 
 Overview
 --------
@@ -151,4 +151,4 @@ Credits
 -   [Cazomino05](http://forum.mtasa.com/memberlist.php?mode=viewprofile&u=22437) - XML files with MTA functions and events.
 -   MTA Developers - Delivering the amazing GTA:SA Multiplayer MOD that has almost unlimited possibilities...
 
-[es:MTASE](/docs/es:MTASE.md "wikilink")
+[es:MTASE](/docs/es:mtase.md "wikilink")

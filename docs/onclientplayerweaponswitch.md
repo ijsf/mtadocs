@@ -13,7 +13,7 @@ int previousWeaponSlot, int currentWeaponSlot
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who changed his weapon. (Local player only)
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who changed his weapon. (Local player only)
 
 Cancel effect
 -------------

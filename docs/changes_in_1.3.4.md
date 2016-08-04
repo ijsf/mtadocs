@@ -13,12 +13,12 @@ Main Additions / Changes
 
 #### New Functions
 
--   Added [playSFX](/docs/playSFX.md "wikilink")
--   Added [playSFX3D](/docs/playSFX3D.md "wikilink")
--   Added [getSFXStatus](/docs/getSFXStatus.md "wikilink")
--   Added [setHeliBladeCollisionsEnabled](/docs/setHeliBladeCollisionsEnabled.md "wikilink")
--   Added [getHeliBladeCollisionsEnabled](/docs/getHeliBladeCollisionsEnabled.md "wikilink")
--   Added [getEventHandlers](/docs/getEventHandlers.md "wikilink")
+-   Added [playSFX](/docs/playsfx.md "wikilink")
+-   Added [playSFX3D](/docs/playsfx3d.md "wikilink")
+-   Added [getSFXStatus](/docs/getsfxstatus.md "wikilink")
+-   Added [setHeliBladeCollisionsEnabled](/docs/sethelibladecollisionsenabled.md "wikilink")
+-   Added [getHeliBladeCollisionsEnabled](/docs/gethelibladecollisionsenabled.md "wikilink")
+-   Added [getEventHandlers](/docs/geteventhandlers.md "wikilink")
 
 #### New Events
 
@@ -79,4 +79,4 @@ Extra information
 
 [zh-cn:1.3.4 版本新特性](/docs/zh-cn:1.3.4_版本新特性.md "wikilink")
 
-[Category:Changes in 1.3](/docs/Category:Changes_in_1.3.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Changes in 1.3](/docs/category:changes_in_1.3.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")

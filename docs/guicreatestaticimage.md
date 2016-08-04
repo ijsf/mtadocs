@@ -9,7 +9,7 @@ element guiCreateStaticImage ( float x, float y, float width, float height, stri
 
 ### Required Arguments
 
-[frame|Example GUI static image.](/docs/Image:gui-staticimage.png.md "wikilink")
+[frame|Example GUI static image.](/docs/image:gui-staticimage.png.md "wikilink")
 
 -   **x:** A float of the 2D x position of the image on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the image on a player's screen. This is affected by the *relative* argument.
@@ -40,7 +40,7 @@ This example will display an image (imagename.png) on the client's (player's) sc
 
 </section>
 <section name="meta.xml" class="server" show="true">
-In this example [Meta.xml](/docs/Meta.xml.md "wikilink") is used to tell the server which files it will be using.
+In this example [Meta.xml](/docs/meta.xml.md "wikilink") is used to tell the server which files it will be using.
 
 ``` xml
 <meta>

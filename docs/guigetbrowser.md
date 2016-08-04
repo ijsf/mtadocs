@@ -11,7 +11,7 @@ browser guiGetBrowser ( gui-browser theBrowser )
 
 ### Returns
 
-Returns the [Browser](/docs/Element/Browser.md "wikilink") element if a correct [gui-browser](/Element/gui-browser.md "wikilink") has been passed, *false* otherwise.
+Returns the [Browser](/docs/element/browser.md "wikilink") element if a correct [gui-browser](/Element/gui-browser.md "wikilink") has been passed, *false* otherwise.
 
 Example
 -------

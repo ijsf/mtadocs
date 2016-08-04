@@ -1,4 +1,4 @@
-This function checks whether health target markers are drawn as set by [setPedTargetingMarkerEnabled](/docs/setPedTargetingMarkerEnabled.md "wikilink") or not.
+This function checks whether health target markers are drawn as set by [setPedTargetingMarkerEnabled](/docs/setpedtargetingmarkerenabled.md "wikilink") or not.
 
 Syntax
 ------

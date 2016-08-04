@@ -1,4 +1,4 @@
-[frame|Example GUI window.](/docs/Image:gui-window.png.md "wikilink") The GUI window class represents GUI windows in MTA's GUI system. These are mainly used as layout for other GUI elements. They can be moved and resized by default.
+[frame|Example GUI window.](/docs/image:gui-window.png.md "wikilink") The GUI window class represents GUI windows in MTA's GUI system. These are mainly used as layout for other GUI elements. They can be moved and resized by default.
 
 The element type of this class is **“gui-window”**.
 

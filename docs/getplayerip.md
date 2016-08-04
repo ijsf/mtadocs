@@ -30,4 +30,4 @@ addCommandHandler ( "ip", printIp )
 See Also
 --------
 
-[de:getPlayerIP](/docs/de:getPlayerIP.md "wikilink") [ru:getPlayerIP](/ru:getPlayerIP.md "wikilink")
+[de:getPlayerIP](/docs/de:getplayerip.md "wikilink") [ru:getPlayerIP](/ru:getPlayerIP.md "wikilink")

@@ -7,7 +7,7 @@ string dbPrepareString ( element databaseConnection, string query [, var param1 
 
 ### Required Arguments
 
--   **databaseConnection:** A database connection element previously returned from [dbConnect](/docs/dbConnect.md "wikilink")
+-   **databaseConnection:** A database connection element previously returned from [dbConnect](/docs/dbconnect.md "wikilink")
 -   **query:** An SQL query. Positions where parameter values will be inserted are marked with a **?**
 
 ### Optional Arguments

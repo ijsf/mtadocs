@@ -3,14 +3,14 @@ This is a scripting tutorial teaching you how to create a private messaging syst
 Creating the basic resource
 ---------------------------
 
-Creating your resource is one of the important parts of the tutorial. In Multi Theft Auto, resources are described as sets of scripts; there are many different types of resources but I won't go into detail of that because it is outside the scope of my tutorial. I will not teach the details about **meta.xml** files, but I will walk you through it. For more detailed information on resources and how to create one, follow the [Resources](/docs/Resources.md "wikilink") tutorial.
+Creating your resource is one of the important parts of the tutorial. In Multi Theft Auto, resources are described as sets of scripts; there are many different types of resources but I won't go into detail of that because it is outside the scope of my tutorial. I will not teach the details about **meta.xml** files, but I will walk you through it. For more detailed information on resources and how to create one, follow the [Resources](/docs/resources.md "wikilink") tutorial.
 
 First, you'll need to go to your resources directory. For those running a server from the “HOST GAME” option at the Main Menu, the resources directory will be at *C:/Program Files/MTA San Andreas 1.1/server/mods/deathmatch/resources/*. This path will slightly vary depending on your install location, game version and system architecture - regardless of these three factors it should be pretty easy to find your resource directory. Once you've found it you should create a new directory *inside* the “resources” folder called “pm-system”, this will be our resource. From now on you'll be working on the system inside this folder
 
 Inside our working directory, “pm-system”, create a *meta.xml* and a *server.lua* file. The **meta** file is an XML file which tells Multi Theft Auto which scripts to run and in which order; we only need it to run *server.lua*.
 
 <section name="meta.xml" class="server" show="true">
-XML is another language, so I won't teach you much about it. But to learn more about the meta.xml file, visit [this page](/docs/Meta.xml.md "wikilink"). So type the following code into the file.
+XML is another language, so I won't teach you much about it. But to learn more about the meta.xml file, visit [this page](/docs/meta.xml.md "wikilink"). So type the following code into the file.
 
 ``` xml
 <meta>
@@ -25,7 +25,7 @@ And now thats the meta file finished, onto the real script!
 Creating the command handler
 ----------------------------
 
-Creating command handlers are the way to creating commands in MTA, you won't have to monitor chat input and manually separate text - it's all nicely put into one nice function. First we have to create a function, and then create a command which will bind itself to the function. To do this we use [addCommandHandler](/docs/addCommandHandler.md "wikilink"), so let's start off with this code:
+Creating command handlers are the way to creating commands in MTA, you won't have to monitor chat input and manually separate text - it's all nicely put into one nice function. First we have to create a function, and then create a command which will bind itself to the function. To do this we use [addCommandHandler](/docs/addcommandhandler.md "wikilink"), so let's start off with this code:
 
 ``` lua
 -- Create the function
@@ -36,7 +36,7 @@ end
 addCommandHandler("pm", pmHandler)
 ```
 
-What happens here is that on the second line we start creating a function, on the third line we stop creating the function. Then on the last line we call (execute, start, ask - whatever helps you understand) the [addCommandHandler](/docs/addCommandHandler.md "wikilink") function. The first argument is “pm”, this tells the function that the command we're making will react to the input of "/pm" in the chatbox. The second argument is *pmHandler*, this wasn't wrapped in quotation marks. If you noticed on line 2 that we created a function called *pmHandler*, you can guess that this tells addCommandHandler to bind that function to the command. Testing this right now won't show anything, so I won't teach you how to test it out yet.
+What happens here is that on the second line we start creating a function, on the third line we stop creating the function. Then on the last line we call (execute, start, ask - whatever helps you understand) the [addCommandHandler](/docs/addcommandhandler.md "wikilink") function. The first argument is “pm”, this tells the function that the command we're making will react to the input of "/pm" in the chatbox. The second argument is *pmHandler*, this wasn't wrapped in quotation marks. If you noticed on line 2 that we created a function called *pmHandler*, you can guess that this tells addCommandHandler to bind that function to the command. Testing this right now won't show anything, so I won't teach you how to test it out yet.
 
 Lets have some arguments...
 ---------------------------
@@ -201,4 +201,4 @@ addCommandHandler("pm", pmHandler)
 ```
 
 </section>
-[Category:Tutorials](/docs/Category:Tutorials.md "wikilink")
+[Category:Tutorials](/docs/category:tutorials.md "wikilink")

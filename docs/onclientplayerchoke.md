@@ -18,7 +18,7 @@ The source of this event is the player who is choking. (Local player only)
 Cancel effect
 -------------
 
-If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the player will not be choked.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the player will not be choked.
 
 Example
 -------

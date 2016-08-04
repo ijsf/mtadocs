@@ -11,7 +11,7 @@ bool engineImportCOL ( col, int model_id )
 
 ### Required Arguments
 
--   **col:** The COL that was loaded with [engineLoadCOL](/docs/engineLoadCOL.md "wikilink")
+-   **col:** The COL that was loaded with [engineLoadCOL](/docs/engineloadcol.md "wikilink")
 -   **model\_id:** The model id to import the COL into
 
 ### Returns

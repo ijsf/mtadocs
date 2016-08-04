@@ -11,7 +11,7 @@ table getBoundControls ( string key )
 
 ### Required Arguments
 
--   **key:** The name of the key. See [Key names](/docs/Key_names.md "wikilink").
+-   **key:** The name of the key. See [Key names](/docs/key_names.md "wikilink").
 
 ### Returns
 

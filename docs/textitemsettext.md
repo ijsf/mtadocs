@@ -9,7 +9,7 @@ void textItemSetText ( textitem theTextitem, string text )
 
 ### Required Arguments
 
--   **theTextitem:** An existing text item that was previously created with [textCreateTextItem](/docs/textCreateTextItem.md "wikilink")
+-   **theTextitem:** An existing text item that was previously created with [textCreateTextItem](/docs/textcreatetextitem.md "wikilink")
 -   **text:** The new text for the text item
 
 Example

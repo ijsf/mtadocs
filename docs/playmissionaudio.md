@@ -1,4 +1,4 @@
-This function plays a game sound in a specific slot. Be sure to preload your sound with [PreloadMissionAudio](/docs/PreloadMissionAudio.md "wikilink") into the slot beforehand. An optional position element can be specified.
+This function plays a game sound in a specific slot. Be sure to preload your sound with [PreloadMissionAudio](/docs/preloadmissionaudio.md "wikilink") into the slot beforehand. An optional position element can be specified.
 
 Usage
 -----

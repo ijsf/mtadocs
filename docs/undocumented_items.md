@@ -13,9 +13,9 @@ Server functions that need documenting
 Client events that need documenting
 -----------------------------------
 
--   [onClientBrowserLoadingStart](/docs/onClientBrowserLoadingStart.md "wikilink")
--   [onClientBrowserTooltip](/docs/onClientBrowserTooltip.md "wikilink")
--   [onClientPlayerVoiceResumed](/docs/onClientPlayerVoiceResumed.md "wikilink")
+-   [onClientBrowserLoadingStart](/docs/onclientbrowserloadingstart.md "wikilink")
+-   [onClientBrowserTooltip](/docs/onclientbrowsertooltip.md "wikilink")
+-   [onClientPlayerVoiceResumed](/docs/onclientplayervoiceresumed.md "wikilink")
 
 Server events that need documenting
 -----------------------------------

@@ -16,7 +16,7 @@ Parameters
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [ped](/ped.md "wikilink") who fired the weapon.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [ped](/ped.md "wikilink") who fired the weapon.
 
 Example
 -------

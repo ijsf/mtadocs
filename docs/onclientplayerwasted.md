@@ -8,13 +8,13 @@ element killer, int weapon, int bodypart
 ```
 
 -   **killer**: A [player](/docs/player.md "wikilink") [element](/element.md "wikilink") representing the killer.
--   **weapon**: An integer representing the [killer weapon](/docs/Weapons.md "wikilink") or the [death reason](/Death_Reasons.md "wikilink").
+-   **weapon**: An integer representing the [killer weapon](/docs/weapons.md "wikilink") or the [death reason](/Death_Reasons.md "wikilink").
 -   **bodypart**: An integer representing the bodypart the player was damaged.
 
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that died.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that died.
 
 Example
 -------

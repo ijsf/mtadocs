@@ -2,7 +2,7 @@
 
 Executes a query in the server and retreives the result.
 
-**`IMPORTANT:`**` It is `**`strongly`**` recommended to call `[`mysql_free_result`](/docs/Modules/MTA-MySQL/mysql_free_result.md "wikilink")` after a query,`
+**`IMPORTANT:`**` It is `**`strongly`**` recommended to call `[`mysql_free_result`](/docs/modules/mta-mysql/mysql_free_result.md "wikilink")` after a query,`
 `specially if it returns some data. Query results can be automatically deleted`
 `by the lua garbage collector, so if you `**`forget`**` to free a result it will be`
 `freed at some time in the future, but it doesn't know the real result data size`

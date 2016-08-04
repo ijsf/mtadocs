@@ -122,18 +122,18 @@
 |                                                                           |
 |---------------------------------------------------------------------------|
 | <div style="padding-left: 15px; padding-right: 15px;" class="plainlinks"> 
- [left|85px|link=Archive](/docs/File:MTALogo_8ball.png.md "wikilink")            
+ [left|85px|link=Archive](/docs/file:mtalogo_8ball.png.md "wikilink")            
                                                                             
- -   **About [Multi Theft Auto](/docs/Multi_Theft_Auto.md "wikilink")**          
- -   [Archive](/docs/Archive.md "wikilink")                                      
- -   [Press Coverage](/docs/Press_Coverage.md "wikilink")                        
+ -   **About [Multi Theft Auto](/docs/multi_theft_auto.md "wikilink")**          
+ -   [Archive](/docs/archive.md "wikilink")                                      
+ -   [Press Coverage](/docs/press_coverage.md "wikilink")                        
  -   [Developers](http://code.google.com/p/mtasa-blue/people/list)          
                                                                             
  <!-- -->                                                                   
                                                                             
  -   **Multi Theft Auto 0.5**                                               
- -   [Download](/docs/Archive#Multi_Theft_Auto_0.5.md "wikilink")                
- -   [Known Issues](/docs/MTA_0.5r2_Known_Issues.md "wikilink")                  
+ -   [Download](/docs/archive#multi_theft_auto_0.5.md "wikilink")                
+ -   [Known Issues](/docs/mta_0.5r2_known_issues.md "wikilink")                  
                                                                             
  <!-- -->                                                                   
                                                                             

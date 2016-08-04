@@ -55,4 +55,4 @@ Issues
 See Also
 --------
 
-[ru:killPed](/docs/ru:killPed.md "wikilink")
+[ru:killPed](/docs/ru:killped.md "wikilink")

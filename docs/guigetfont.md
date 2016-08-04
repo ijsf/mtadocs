@@ -14,7 +14,7 @@ string, element guiGetFont ( element guiElement )
 ### Returns
 
 -   **string** A string containing the name of the element's current font, or false if the gui element passed to the function is invalid.
--   '''element ''' The custom [GUI font](/docs/GUI_font.md "wikilink") that is used, or nil otherwise
+-   '''element ''' The custom [GUI font](/docs/gui_font.md "wikilink") that is used, or nil otherwise
 
 Example
 -------
@@ -32,4 +32,4 @@ outputChatBox ( "Font used in the GUI label: " .. guiGetFont ( dummyGuiElement )
 See Also
 --------
 
-[ru:guiGetFont](/docs/ru:guiGetFont.md "wikilink")
+[ru:guiGetFont](/docs/ru:guigetfont.md "wikilink")

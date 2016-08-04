@@ -56,4 +56,4 @@ addCommandHandler( "addarmor", givePlayerArmor )
 See Also
 --------
 
-[ru:setPedArmor](/docs/ru:setPedArmor.md "wikilink")
+[ru:setPedArmor](/docs/ru:setpedarmor.md "wikilink")

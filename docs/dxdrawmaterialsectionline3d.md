@@ -1,4 +1,4 @@
-This function draws a textured 3D line between two points in the 3D world - rendered for one frame. This should be used in conjunction with [onClientPreRender](/docs/onClientPreRender.md "wikilink") in order to display continuously.
+This function draws a textured 3D line between two points in the 3D world - rendered for one frame. This should be used in conjunction with [onClientPreRender](/docs/onclientprerender.md "wikilink") in order to display continuously.
 
 The 3D line with a large width value effectively becomes a rectangle, so it it possible to construct basic shapes such as boxes with several large width lines and the appropriate values for 'faceToward'.
 

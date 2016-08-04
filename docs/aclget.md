@@ -1,4 +1,4 @@
-Get the ACL with the given name. If need to get most of the ACL's, you should consider using [aclList](/docs/aclList.md "wikilink") to get a table of them all.
+Get the ACL with the given name. If need to get most of the ACL's, you should consider using [aclList](/docs/acllist.md "wikilink") to get a table of them all.
 
 Syntax
 ------

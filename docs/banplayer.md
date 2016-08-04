@@ -7,7 +7,7 @@ Syntax
 
 ### Optional Arguments
 
--   **responsibleElement:** The element that is responsible for banning the player. This can be a player or the root ([getRootElement](/docs/getRootElement.md "wikilink")()) (Maximum 30 characters if using a string).
+-   **responsibleElement:** The element that is responsible for banning the player. This can be a player or the root ([getRootElement](/docs/getrootelement.md "wikilink")()) (Maximum 30 characters if using a string).
 -   **reason:** The reason the player will be banned from the server.
 -   **seconds:** The amount of seconds the player will be banned from the server for. This can be 0 for an infinite amount of time.
 
@@ -72,4 +72,4 @@ addEventHandler ( 'onPlayerLogin', getRootElement ( ),
 See Also
 --------
 
-[es:banPlayer](/docs/es:banPlayer.md "wikilink") [ru:BanPlayer](/ru:BanPlayer.md "wikilink")
+[es:banPlayer](/docs/es:banplayer.md "wikilink") [ru:BanPlayer](/ru:BanPlayer.md "wikilink")

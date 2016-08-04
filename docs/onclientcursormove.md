@@ -1,6 +1,6 @@
 This event is called by the root element whenever the cursor is moved over the screen, by the player. It returns information about the world coordinates as well as the screen coordinates of where the player moved the cursor.
 
-The difference between this event and [onClientMouseMove](/docs/onClientMouseMove.md "wikilink"), is that the latter is actually called by GUI elements. This is to prevent double calling of onClientCursorMove, as onClientCursorMove is always called.
+The difference between this event and [onClientMouseMove](/docs/onclientmousemove.md "wikilink"), is that the latter is actually called by GUI elements. This is to prevent double calling of onClientCursorMove, as onClientCursorMove is always called.
 
 Parameters
 ----------
@@ -40,7 +40,7 @@ addEventHandler( "onClientCursorMove", getRootElement( ),
 );
 ```
 
-[pl:onClientCursorMove](/docs/pl:onClientCursorMove.md "wikilink")
+[pl:onClientCursorMove](/docs/pl:onclientcursormove.md "wikilink")
 
 See Also
 --------

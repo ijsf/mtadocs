@@ -18,7 +18,7 @@ If the file is in the current resource, only the file path is necessary, e.g. *f
 
 ### Returns
 
-If successful, returns a file handle which can be used with other file functions ([fileWrite](/docs/fileWrite.md "wikilink"), [fileClose](/fileClose.md "wikilink")...). Returns *false* if an error occured.
+If successful, returns a file handle which can be used with other file functions ([fileWrite](/docs/filewrite.md "wikilink"), [fileClose](/fileClose.md "wikilink")...). Returns *false* if an error occured.
 
 Example
 -------

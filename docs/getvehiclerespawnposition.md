@@ -11,7 +11,7 @@ float, float, float, float, float, float getVehicleRespawnPosition( element theV
 
 ### Required Arguments
 
--   **theVehicle**: A vehicle that have been created using [createVehicle](/docs/createVehicle.md "wikilink").
+-   **theVehicle**: A vehicle that have been created using [createVehicle](/docs/createvehicle.md "wikilink").
 
 ### Returns
 

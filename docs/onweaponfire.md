@@ -6,12 +6,12 @@ Parameters
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the element that fired the weapon. If the server is the creator it returns *nil*.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the element that fired the weapon. If the server is the creator it returns *nil*.
 
 Cancel effect
 -------------
 
-If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the bullet(s) won't be synced with other players.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the bullet(s) won't be synced with other players.
 
 Requirements
 ------------
@@ -29,4 +29,4 @@ addEventHandler( "onWeaponFire", root,
 )
 ```
 
-[ru:OnWeaponFire](/docs/ru:OnWeaponFire.md "wikilink")
+[ru:OnWeaponFire](/docs/ru:onweaponfire.md "wikilink")

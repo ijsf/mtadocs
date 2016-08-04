@@ -36,7 +36,7 @@ If asynchronous loading is disabled, MTA requests all resources to be loaded at 
 
 Otherwise, all resource requests are queued up on the to-be-loaded queue. At the beginning of the game frame, the GTA:SA streaming system is updated, along with its streaming slicers. This is when a model is loaded after going through multiple stages. Having asynchronous loading disabled forces all stages to be consecutively run through.
 
-For more details read [GTA:SA Resource Streaming](/docs/GTA:SA_Resource_Streaming.md "wikilink")
+For more details read [GTA:SA Resource Streaming](/docs/gta:sa_resource_streaming.md "wikilink")
 
 See Also
 --------

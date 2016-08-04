@@ -9,7 +9,7 @@ float, float, float getGaragePosition ( int garageID )
 
 ### Required Arguments
 
--   **garageID:** The [garage ID](/docs/Garage.md "wikilink") that represents the garage door that is being checked.
+-   **garageID:** The [garage ID](/docs/garage.md "wikilink") that represents the garage door that is being checked.
 
 ### Returns
 
@@ -57,4 +57,4 @@ end)
 See Also
 --------
 
-[Category:Needs\_More\_Examples](/docs/Category:Needs_More_Examples.md "wikilink")
+[Category:Needs\_More\_Examples](/docs/category:needs_more_examples.md "wikilink")

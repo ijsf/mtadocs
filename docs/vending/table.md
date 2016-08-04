@@ -1,4 +1,4 @@
-<noinclude>\* Back to [Vending](/docs/Vending.md "wikilink").</noinclude>
+<noinclude>\* Back to [Vending](/docs/vending.md "wikilink").</noinclude>
 
 | Model ID | Name             | X        | Y        | Z        | Rotation Z |
 |----------|------------------|----------|----------|----------|------------|

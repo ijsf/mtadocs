@@ -13,7 +13,7 @@ Returns a floating point value between 0 and 255.
 
 ### Example
 
-*... see [setChatAlpha](/docs/setChatAlpha.md "wikilink") ...*
+*... see [setChatAlpha](/docs/setchatalpha.md "wikilink") ...*
 
 Issues
 ------

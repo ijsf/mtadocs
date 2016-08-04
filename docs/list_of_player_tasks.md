@@ -1,4 +1,4 @@
-This page lists the possible tasks that can be assigned to a ped. Only a subset can be assigned to player. You can use these with [getPedTask](/docs/getPedTask.md "wikilink") and [getPedSimplestTask](/getPedSimplestTask.md "wikilink").
+This page lists the possible tasks that can be assigned to a ped. Only a subset can be assigned to player. You can use these with [getPedTask](/docs/getpedtask.md "wikilink") and [getPedSimplestTask](/getPedSimplestTask.md "wikilink").
 
 There are two types on tasks - simple and complex tasks. Simple tasks make the player do something, complex tasks contain a number of simple tasks that are triggered one after the other to produce some effect.
 

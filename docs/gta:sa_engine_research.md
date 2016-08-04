@@ -5,13 +5,13 @@ Feel free to add articles into this list: it may spark research discussion.
 Streaming System
 ----------------
 
--   [GTA:SA Streaming Garbage Collection](/docs/GTA:SA_Streaming_Garbage_Collection.md "wikilink")
--   [GTA:SA Resource Streaming](/docs/GTA:SA_Resource_Streaming.md "wikilink")
+-   [GTA:SA Streaming Garbage Collection](/docs/gta:sa_streaming_garbage_collection.md "wikilink")
+-   [GTA:SA Resource Streaming](/docs/gta:sa_resource_streaming.md "wikilink")
 
 General
 -------
 
--   [Reversing GTA:SA Code](/docs/Reversing_GTA:SA_Code.md "wikilink")
--   [GTA:SA Rendering System](/docs/GTA:SA_Rendering_System.md "wikilink")
+-   [Reversing GTA:SA Code](/docs/reversing_gta:sa_code.md "wikilink")
+-   [GTA:SA Rendering System](/docs/gta:sa_rendering_system.md "wikilink")
 
-[Category: Development](/docs/Category:_Development.md "wikilink")
+[Category: Development](/docs/category:_development.md "wikilink")

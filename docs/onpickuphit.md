@@ -12,12 +12,12 @@ player thePlayer
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [pickup](/pickup.md "wikilink") that was hit by the player.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [pickup](/pickup.md "wikilink") that was hit by the player.
 
 Cancel effect
 -------------
 
-If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the pickup does not disappear and the player does not receive its bonus.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the pickup does not disappear and the player does not receive its bonus.
 
 Example
 -------

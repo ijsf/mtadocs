@@ -1,4 +1,4 @@
-[thumb|200px|Glass](/docs/Image:Fxglass.png.md "wikilink") This function creates a glass particle effect.
+[thumb|200px|Glass](/docs/image:fxglass.png.md "wikilink") This function creates a glass particle effect.
 
 Syntax
 ------

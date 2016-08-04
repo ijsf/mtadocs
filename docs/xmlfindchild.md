@@ -46,4 +46,4 @@ outputChatBox ( instructions )
 See Also
 --------
 
-[ru:xmlFindChild](/docs/ru:xmlFindChild.md "wikilink")
+[ru:xmlFindChild](/docs/ru:xmlfindchild.md "wikilink")

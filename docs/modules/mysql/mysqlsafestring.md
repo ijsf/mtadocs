@@ -1,4 +1,4 @@
-This function escapes a given string so it's safe to pass as a query to [mysqlQuery](/docs/Modules/MySQL/MysqlQuery.md "wikilink"). Please use this as sanity checking function to prevent bad things like SQL injection.
+This function escapes a given string so it's safe to pass as a query to [mysqlQuery](/docs/modules/mysql/mysqlquery.md "wikilink"). Please use this as sanity checking function to prevent bad things like SQL injection.
 
 The function needs an already established connection to a MySQL database, because it reads out the character set from that database to escape the string.
 
@@ -11,7 +11,7 @@ string mysqlSafeString ( mysql mysqlobj, string query )
 
 ### Required Arguments
 
--   **mysqlobj** : A *mysql* object created by [mysqlCreate](/docs/Modules/MySQL/MysqlCreate.md "wikilink")
+-   **mysqlobj** : A *mysql* object created by [mysqlCreate](/docs/modules/mysql/mysqlcreate.md "wikilink")
 -   **query** : The MySQL query that needs to be escasped
 
 ### Optional Arguments

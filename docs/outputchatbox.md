@@ -144,4 +144,4 @@ addEventHandler("onPlayerJoin", root, onJoin)
 See Also
 --------
 
-[cs:outputChatBox](/docs/cs:outputChatBox.md "wikilink") [pl:outputChatBox](/pl:outputChatBox.md "wikilink") [ru:outputChatBox](/ru:outputChatBox.md "wikilink")
+[cs:outputChatBox](/docs/cs:outputchatbox.md "wikilink") [pl:outputChatBox](/pl:outputChatBox.md "wikilink") [ru:outputChatBox](/ru:outputChatBox.md "wikilink")

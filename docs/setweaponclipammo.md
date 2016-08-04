@@ -1,4 +1,4 @@
-This function sets the ammo left in a [custom weapon](/docs/Element/Weapon.md "wikilink")'s magazine/clip.
+This function sets the ammo left in a [custom weapon](/docs/element/weapon.md "wikilink")'s magazine/clip.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setWeaponClipAmmo ( weapon theWeapon, int clipAmmo )
 
 ### Required Arguments
 
--   **theWeapon:** The [weapon](/docs/Element/Weapon.md "wikilink") to set the clip ammo of.
+-   **theWeapon:** The [weapon](/docs/element/weapon.md "wikilink") to set the clip ammo of.
 -   **clipAmmo:** The amount of ammo in the clip.
 
 ### Returns

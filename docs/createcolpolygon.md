@@ -9,8 +9,8 @@ colshape createColPolygon ( float fX, float fY, float fX1, float fY1, float fX2,
 
 ### Required Arguments
 
--   **fX:** The X position of the collision polygon's position - the position that will be returned from [getElementPosition](/docs/getElementPosition.md "wikilink").
--   **fY:** The Y position of the collision polygon's position - the position that will be returned from [getElementPosition](/docs/getElementPosition.md "wikilink").
+-   **fX:** The X position of the collision polygon's position - the position that will be returned from [getElementPosition](/docs/getelementposition.md "wikilink").
+-   **fY:** The Y position of the collision polygon's position - the position that will be returned from [getElementPosition](/docs/getelementposition.md "wikilink").
 -   **fX1:** The 1st X position of the collision polygon's bound point
 -   **fY1:** The 1st Y position of the collision polygon's bound point
 -   **fX2:** The 2nd X position of the collision polygon's bound point

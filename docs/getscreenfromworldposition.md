@@ -1,4 +1,4 @@
-This function gets the screen position of a point in the world. This is useful for attaching 2D gui elements to parts of the world (e.g. players) or detecting if a point is on the screen (though it does not check if it is actually visible, you should use [processLineOfSight](/docs/processLineOfSight.md "wikilink") for that).
+This function gets the screen position of a point in the world. This is useful for attaching 2D gui elements to parts of the world (e.g. players) or detecting if a point is on the screen (though it does not check if it is actually visible, you should use [processLineOfSight](/docs/processlineofsight.md "wikilink") for that).
 
 Syntax
 ------

@@ -9,7 +9,7 @@ Syntax
 txd engineLoadTXD ( string txd_file / string raw_data [, bool filteringEnabled = true ] )
 ```
 
-[thumb|Difference between texture filtering modes (left = filtering disabled, right = filtering enabled).|284x230px](/docs/Image:Filtering.jpg.md "wikilink")
+[thumb|Difference between texture filtering modes (left = filtering disabled, right = filtering enabled).|284x230px](/docs/image:filtering.jpg.md "wikilink")
 
 ### Required Arguments
 
@@ -21,7 +21,7 @@ txd engineLoadTXD ( string txd_file / string raw_data [, bool filteringEnabled =
 
 ### Returns
 
-Returns a [TXD](/docs/TXD.md "wikilink") if the file was loaded, *false* otherwise.
+Returns a [TXD](/docs/txd.md "wikilink") if the file was loaded, *false* otherwise.
 
 Example
 -------

@@ -1,6 +1,6 @@
 <lowercasetitle></lowercasetitle>
 
-This function can be used to get the relative x,y,z positions from an element and a world position. Requires the [Lua matrix library](/docs/Lua_matrix_library.md "wikilink").
+This function can be used to get the relative x,y,z positions from an element and a world position. Requires the [Lua matrix library](/docs/lua_matrix_library.md "wikilink").
 
 Syntax
 ------

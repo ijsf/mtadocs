@@ -1,6 +1,6 @@
 This function retrieves a resource's root element. The resource's root element is the element in the element tree which is the parent of all elements that belong to a particular resource (except for elements specifically created elsewhere). You can attach event handlers to this element to easily capture events that originate from your resource (and global events that originate from the root element).
 
-Note: every resource has a [predefined global variable](/docs/Predefined_variables_list.md "wikilink") called *resourceRoot* whose value is the root element of that resource.
+Note: every resource has a [predefined global variable](/docs/predefined_variables_list.md "wikilink") called *resourceRoot* whose value is the root element of that resource.
 
 Syntax
 ------
@@ -11,7 +11,7 @@ element getResourceRootElement ( [resource theResource=getThisResource()] )
 
 ### Optional Arguments
 
--   **theResource:** the resource whose root element we are getting. If not specified, assumes the current resource. (the resource returned from [getThisResource](/docs/getThisResource.md "wikilink"))
+-   **theResource:** the resource whose root element we are getting. If not specified, assumes the current resource. (the resource returned from [getThisResource](/docs/getthisresource.md "wikilink"))
 
 ### Returns
 

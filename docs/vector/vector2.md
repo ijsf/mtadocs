@@ -1,4 +1,4 @@
-[Category:Incomplete](/docs/Category:Incomplete.md "wikilink") The Vector2 class is a class introduced in 1.4
+[Category:Incomplete](/docs/category:incomplete.md "wikilink") The Vector2 class is a class introduced in 1.4
 
 Methods
 -------

@@ -33,4 +33,4 @@ addEventHandler( "onBan", getRootElement(), banHappened )
 See Also
 --------
 
-[ru:setBanAdmin](/docs/ru:setBanAdmin.md "wikilink")
+[ru:setBanAdmin](/docs/ru:setbanadmin.md "wikilink")

@@ -7,7 +7,7 @@ bool setLightDirection ( light theLight, float x, float y, float z )
 
 ### Required Arguments
 
--   **theLight:** The [light](/docs/Element/Light.md "wikilink") that you wish to set the direction of.
+-   **theLight:** The [light](/docs/element/light.md "wikilink") that you wish to set the direction of.
 
 ### Returns
 

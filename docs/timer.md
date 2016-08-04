@@ -5,7 +5,7 @@ Note that after a timer has completed all its iterations, it is destroyed and an
 Related scripting functions
 ---------------------------
 
--   [getTimers](/docs/getTimers.md "wikilink")
--   [killTimer](/docs/killTimer.md "wikilink")
--   [setTimer](/docs/setTimer.md "wikilink")
--   [getTimerDetails](/docs/getTimerDetails.md "wikilink")
+-   [getTimers](/docs/gettimers.md "wikilink")
+-   [killTimer](/docs/killtimer.md "wikilink")
+-   [setTimer](/docs/settimer.md "wikilink")
+-   [getTimerDetails](/docs/gettimerdetails.md "wikilink")

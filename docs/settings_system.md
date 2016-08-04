@@ -25,7 +25,7 @@ The *settingName* can be anything you want.
 Manager
 -------
 
-You can manage your settings with the default [admin](/docs/Resource:admin.md "wikilink") manager resource. In addition you can add some attributes in a setting, which will be useful in the settings manager:
+You can manage your settings with the default [admin](/docs/resource:admin.md "wikilink") manager resource. In addition you can add some attributes in a setting, which will be useful in the settings manager:
 
 ``` xml
 <settings>

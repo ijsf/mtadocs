@@ -5,7 +5,7 @@ This function returns whether any system windows that take focus are active. Thi
 -   Main menu
 -   Transferbox
 
-To get the status of the debug view, see [isDebugViewActive](/docs/isDebugViewActive.md "wikilink").
+To get the status of the debug view, see [isDebugViewActive](/docs/isdebugviewactive.md "wikilink").
 
 Syntax
 ------
@@ -35,4 +35,4 @@ setTimer ( dontAllowAnyOpenWindow, 50, 0 )
 See Also
 --------
 
-[ru:isMTAWindowActive](/docs/ru:isMTAWindowActive.md "wikilink")
+[ru:isMTAWindowActive](/docs/ru:ismtawindowactive.md "wikilink")

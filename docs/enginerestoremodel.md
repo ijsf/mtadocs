@@ -1,4 +1,4 @@
-This function restores the visual DFF model of the given model ID. This restores the result of [engineReplaceModel](/docs/engineReplaceModel.md "wikilink").
+This function restores the visual DFF model of the given model ID. This restores the result of [engineReplaceModel](/docs/enginereplacemodel.md "wikilink").
 
 Syntax
 ------

@@ -14,7 +14,7 @@ bool success, int length, string streamName
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [sound](/sound.md "wikilink") which either successfully streamed or failed to stream.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [sound](/sound.md "wikilink") which either successfully streamed or failed to stream.
 
 Example
 -------

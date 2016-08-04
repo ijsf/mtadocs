@@ -26,7 +26,7 @@ Syntax
 
 ### Returns
 
-Returns the [light](/docs/Element/Light.md "wikilink") element if creation was successful, *false* otherwise.
+Returns the [light](/docs/element/light.md "wikilink") element if creation was successful, *false* otherwise.
 
 Example
 -------

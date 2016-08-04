@@ -11,7 +11,7 @@ bool set ( string settingName, var value )
 
 ### Required Arguments
 
--   **settingName:** The name of the setting you want to set. See [setting names](/docs/settings_system#Setting_names.md "wikilink") for information on settings names.
+-   **settingName:** The name of the setting you want to set. See [setting names](/docs/settings_system#setting_names.md "wikilink") for information on settings names.
 -   **value:** The value to set the setting to. This can be any Lua data type, except for functions, most userdata (only [resources](/docs/resource.md "wikilink") can't be stored) and threads.
 
 ### Returns

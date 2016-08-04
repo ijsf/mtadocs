@@ -1,4 +1,4 @@
-This applies to MTA 0.5 (both GTA3:MTA and MTA:VC). The known issues for MTA:SA 1.x can be found [here](/docs/Known_Issues_-_FAQ.md "wikilink").
+This applies to MTA 0.5 (both GTA3:MTA and MTA:VC). The known issues for MTA:SA 1.x can be found [here](/docs/known_issues_-_faq.md "wikilink").
 
 *Server operators: ensure you are running the [MTAServer Patch 1 Hotfix](http://forum.mtasa.com/viewtopic.php?f=44&t=27645). [Windows.](http://files.mtasa.com/apps/0.5/mta05_server_win32_patch1_hotfix.zip) [Linux](http://files.mtasa.com/apps/0.5/mta05_server_linux_patch1_hotfix.tar.gz)*
 
@@ -119,4 +119,4 @@ Please follow **Aeron**'s instructions regarding its use.
 
 A big thank-you to **Mike** for discovering the cause of this problem and **Aeron** for getting a fix out so quickly.
 
-[Category:Vice\_City](/docs/Category:Vice_City.md "wikilink") [Category:GTA3](/Category:GTA3.md "wikilink") [Category:MTA\_0.5](/Category:MTA_0.5.md "wikilink")
+[Category:Vice\_City](/docs/category:vice_city.md "wikilink") [Category:GTA3](/Category:GTA3.md "wikilink") [Category:MTA\_0.5](/Category:MTA_0.5.md "wikilink")

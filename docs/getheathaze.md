@@ -11,7 +11,7 @@ int, int, int, int, int, int, int, int, bool getHeatHaze ( )
 
 ### Returns
 
-Returns 9 values, which are the same used as arguments in [SetHeatHaze](/docs/SetHeatHaze.md "wikilink"):
+Returns 9 values, which are the same used as arguments in [SetHeatHaze](/docs/setheathaze.md "wikilink"):
 
 Example
 -------

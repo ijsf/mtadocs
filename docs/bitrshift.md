@@ -19,7 +19,7 @@ Returns the logical right shifted value as *integer*.
 Example
 -------
 
-This example shows the usage of the function [bitRShift](/docs/bitRShift.md "wikilink").
+This example shows the usage of the function [bitRShift](/docs/bitrshift.md "wikilink").
 
 ``` lua
 local value = 0xFFFFFFFF -- binary: 1111 1111 1111 1111 1111 1111 1111 1111, decimal: 4.294.967.295

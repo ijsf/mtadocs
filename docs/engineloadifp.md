@@ -18,7 +18,7 @@ ifp engineLoadIFP ( string ifp_file )
 
 ### Returns
 
-Returns an [IFP](/docs/IFP.md "wikilink") element if the IFP file loaded, *false* otherwise.
+Returns an [IFP](/docs/ifp.md "wikilink") element if the IFP file loaded, *false* otherwise.
 
 Example
 -------

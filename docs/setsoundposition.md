@@ -41,4 +41,4 @@ Changelog
 See Also
 --------
 
-[ar:setSoundPosition](/docs/ar:setSoundPosition.md "wikilink")
+[ar:setSoundPosition](/docs/ar:setsoundposition.md "wikilink")

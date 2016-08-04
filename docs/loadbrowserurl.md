@@ -7,7 +7,7 @@ Syntax
 
 ### Required arguments
 
--   **webBrowser:** The [browser](/docs/Element/Browser.md "wikilink") element which will load the URL
+-   **webBrowser:** The [browser](/docs/element/browser.md "wikilink") element which will load the URL
 -   **url:** The url you want to load. It can either contain a remote website (“<http://>” prefix) or a website stored within a local resource (“<http://mta/local/gui.html>” for example).
 -   **postData:** The post data passed to the website. Its content type can be any type (e.g. JSON) if urlEncoded is set to *false*
 -   **urlEncoded:** If set to *true*, it will be available f.e. in PHP's $\_POST variable (the content type is: *application/x-www-form-urlencoded*)

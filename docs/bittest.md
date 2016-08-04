@@ -11,7 +11,7 @@ bool bitTest ( uint var1, uint var2, ... )
 
 ### Returns
 
-Returns *true* if the conjuncted value is **not** zero, *false* otherwise. If a bad argument was passed to [bitTest](/docs/bitTest.md "wikilink"), you'll get *nil*.
+Returns *true* if the conjuncted value is **not** zero, *false* otherwise. If a bad argument was passed to [bitTest](/docs/bittest.md "wikilink"), you'll get *nil*.
 
 Example
 -------

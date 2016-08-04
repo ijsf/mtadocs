@@ -1,9 +1,9 @@
-[frame|Example GUI edit field.](/docs/Image:Gui-edit.png.md "wikilink")
+[frame|Example GUI edit field.](/docs/image:gui-edit.png.md "wikilink")
 
 <table>
 <tr>
 <td valign=top height=80>
-This function is for creating a new GUI edit box. This is a text box in which the user can input text. Edit boxes only allow a single line of text. If you want to allow multiple lines of text create a memo box using [guiCreateMemo](/docs/guiCreateMemo.md "wikilink").
+This function is for creating a new GUI edit box. This is a text box in which the user can input text. Edit boxes only allow a single line of text. If you want to allow multiple lines of text create a memo box using [guiCreateMemo](/docs/guicreatememo.md "wikilink").
 
 </td>
 </tr>
@@ -63,4 +63,4 @@ guiEditSetCaretIndex( editBox, 1 )
 See Also
 --------
 
-[ru:guiCreateEdit](/docs/ru:guiCreateEdit.md "wikilink")
+[ru:guiCreateEdit](/docs/ru:guicreateedit.md "wikilink")

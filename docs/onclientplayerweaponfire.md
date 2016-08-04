@@ -16,7 +16,7 @@ int weapon, int ammo, int ammoInClip, float hitX, float hitY, float hitZ, elemen
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the streamed in [player](/player.md "wikilink") who fired the weapon.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the streamed in [player](/player.md "wikilink") who fired the weapon.
 
 Example
 -------

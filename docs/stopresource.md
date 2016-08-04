@@ -1,5 +1,5 @@
 This function stops a running resource.
-**Note:** This function does not stop the resource immediately, so don't expect that it starts stopping until the [onResourceStop](/docs/onResourceStop.md "wikilink") event for that resource is triggered. This happens after the scripts are done executing for this server frame.
+**Note:** This function does not stop the resource immediately, so don't expect that it starts stopping until the [onResourceStop](/docs/onresourcestop.md "wikilink") event for that resource is triggered. This happens after the scripts are done executing for this server frame.
 
 Syntax
 ------

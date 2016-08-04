@@ -21,7 +21,7 @@ For example:
 </meta>
 ```
 
-If you wanted to trigger a client side event from the server, you would first have to register the client side event using [addEvent](/docs/addEvent.md "wikilink"). Then, you can attach a handler to the event as you would in a server side script. Then in the server side script, you'll be able to call [triggerClientEvent](/triggerClientEvent.md "wikilink"), which will trigger the event client side. The same can be done in reverse using [triggerServerEvent](/triggerServerEvent.md "wikilink").
+If you wanted to trigger a client side event from the server, you would first have to register the client side event using [addEvent](/docs/addevent.md "wikilink"). Then, you can attach a handler to the event as you would in a server side script. Then in the server side script, you'll be able to call [triggerClientEvent](/triggerClientEvent.md "wikilink"), which will trigger the event client side. The same can be done in reverse using [triggerServerEvent](/triggerServerEvent.md "wikilink").
 
 For example:
 
@@ -41,4 +41,4 @@ addEventHandler( "doShowObjectBrowser", getRootElement(), showObjectBrowser )
 triggerClientEvent ( somePlayer, "doShowObjectBrowser", getRootElement(), 1034 )
 ```
 
-[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink") [ru:Client side scripts](/ru:Client_side_scripts.md "wikilink") [it:Script client-side](/it:Script_client-side.md "wikilink") [es:Scripts de Cliente](/es:Scripts_de_Cliente.md "wikilink")
+[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [ru:Client side scripts](/ru:Client_side_scripts.md "wikilink") [it:Script client-side](/it:Script_client-side.md "wikilink") [es:Scripts de Cliente](/es:Scripts_de_Cliente.md "wikilink")

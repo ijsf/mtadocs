@@ -1,4 +1,4 @@
-This function gets the state of a [custom weapon](/docs/Element/Weapon.md "wikilink").
+This function gets the state of a [custom weapon](/docs/element/weapon.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ string getWeaponState ( weapon theWeapon )
 
 ### Required arguments
 
--   **theWeapon:** the [weapon](/docs/Element/Weapon.md "wikilink") to get the state of.
+-   **theWeapon:** the [weapon](/docs/element/weapon.md "wikilink") to get the state of.
 
 ### Returns
 
@@ -17,7 +17,7 @@ string getWeaponState ( weapon theWeapon )
     -   **reloading**: the weapon is reloading.
     -   **firing**: the weapon is constantly shooting (unless any shooting blocking flags are set) according to its assigned firing rate.
     -   **ready**: the weapon is idle.
--   *false* if an error occured or the [weapon](/docs/Element/Weapon.md "wikilink") is invalid.
+-   *false* if an error occured or the [weapon](/docs/element/weapon.md "wikilink") is invalid.
 
 Example
 -------

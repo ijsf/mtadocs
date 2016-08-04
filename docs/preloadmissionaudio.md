@@ -1,4 +1,4 @@
-This function preloads a game sound into a specific sound slot. The sound can then be played with [PlayMissionAudio](/docs/PlayMissionAudio.md "wikilink").
+This function preloads a game sound into a specific sound slot. The sound can then be played with [PlayMissionAudio](/docs/playmissionaudio.md "wikilink").
 
 Syntax
 ------

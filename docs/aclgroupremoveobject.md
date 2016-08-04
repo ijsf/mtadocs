@@ -1,4 +1,4 @@
-This function removes the given object (string) from the given ACL group. The object can be a resource or a player. See [aclGroupAddObject](/docs/aclGroupAddObject.md "wikilink") for more details.
+This function removes the given object (string) from the given ACL group. The object can be a resource or a player. See [aclGroupAddObject](/docs/aclgroupaddobject.md "wikilink") for more details.
 
 Syntax
 ------

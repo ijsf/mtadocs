@@ -13,7 +13,7 @@ spawnpoint createSpawnpoint ( float x, float y, float z, [ float rotation = 0, i
 -   **y**: A floating point number representing the Y coordinate on the map.
 -   **z**: A floating point number representing the Z coordinate on the map.
 -   **rotation:** A floating point number representing the spawn's rotation about the Z axis in degrees.
--   **skin:** An integer representing the skin ID (see [character skins](/docs/Character_Skins.md "wikilink")).
+-   **skin:** An integer representing the skin ID (see [character skins](/docs/character_skins.md "wikilink")).
 -   **interior:** An integer representing the interior in which the spawnpoint spawns players.
 -   **dimension:** An integer representing the diimension in which the spawnpoint spawns players.
 

@@ -33,4 +33,4 @@ See Also
 
 ### Client event functions
 
-[es:onClientTrailerDetach](/docs/es:onClientTrailerDetach.md "wikilink")
+[es:onClientTrailerDetach](/docs/es:onclienttrailerdetach.md "wikilink")

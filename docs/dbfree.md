@@ -1,4 +1,4 @@
-This function frees a database query handle. dbFree only needs to be used if a result has not been obtained with [dbPoll](/docs/dbPoll.md "wikilink")
+This function frees a database query handle. dbFree only needs to be used if a result has not been obtained with [dbPoll](/docs/dbpoll.md "wikilink")
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool dbFree ( handle queryHandle )
 
 ### Required Arguments
 
--   **queryHandle:** A query handle previously returned from [dbQuery](/docs/dbQuery.md "wikilink")
+-   **queryHandle:** A query handle previously returned from [dbQuery](/docs/dbquery.md "wikilink")
 
 ### Returns
 
@@ -21,14 +21,14 @@ Example
 ##### These examples show when dbFree should be used:
 
 <div style="margin-left:20px">
-Required because [dbPoll](/docs/dbPoll.md "wikilink") was not called:
+Required because [dbPoll](/docs/dbpoll.md "wikilink") was not called:
 
 ``` lua
 local qh = dbQuery( connection, "SELECT * FROM table_name" )
 dbFree ( qh )
 ```
 
-Required because [dbPoll](/docs/dbPoll.md "wikilink") was not called:
+Required because [dbPoll](/docs/dbpoll.md "wikilink") was not called:
 
 ``` lua
 function aaa()
@@ -40,7 +40,7 @@ function myCallback(qh)
 end
 ```
 
-Required because [dbPoll](/docs/dbPoll.md "wikilink") is called, but the result was not ready and no more attempts will be made:
+Required because [dbPoll](/docs/dbpoll.md "wikilink") is called, but the result was not ready and no more attempts will be made:
 
 ``` lua
 local qh = dbQuery( connection, "SELECT * FROM table_name" )
@@ -57,14 +57,14 @@ end
 =====These examples show when dbFree should NOT be used:=====
 
 <div style="margin-left:20px">
-Not required because [dbPoll](/docs/dbPoll.md "wikilink") was called with a -1 timeout:
+Not required because [dbPoll](/docs/dbpoll.md "wikilink") was called with a -1 timeout:
 
 ``` lua
 local qh = dbQuery( connection, "SELECT * FROM table_name" )
 local result = dbPoll( qh, -1 )    -- Wait until result has been gotten
 ```
 
-Not required because [dbPoll](/docs/dbPoll.md "wikilink") was called from the callback:
+Not required because [dbPoll](/docs/dbpoll.md "wikilink") was called from the callback:
 
 ``` lua
 function aaa()

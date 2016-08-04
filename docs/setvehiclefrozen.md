@@ -1,4 +1,4 @@
-Please use [setElementFrozen](/docs/setElementFrozen.md "wikilink")
+Please use [setElementFrozen](/docs/setelementfrozen.md "wikilink")
 
 This function freezes a vehicle (stops it in its position and disables movement) or unfreezes it.
 

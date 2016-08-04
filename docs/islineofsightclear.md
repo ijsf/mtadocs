@@ -1,4 +1,4 @@
-This function checks if there are obstacles between two points of the game world, optionally ignoring certain kinds of elements. Use [processLineOfSight](/docs/processLineOfSight.md "wikilink") if you want more information about what the ray hits.
+This function checks if there are obstacles between two points of the game world, optionally ignoring certain kinds of elements. Use [processLineOfSight](/docs/processlineofsight.md "wikilink") if you want more information about what the ray hits.
 
 Syntax
 ------
@@ -19,9 +19,9 @@ bool isLineOfSightClear ( float startX, float startY, float startZ, float endX, 
 ### Optional Arguments
 
 -   **checkBuildings:** Allow the line of sight to be blocked by GTA's internally placed buildings, i.e. the world map.
--   **checkVehicles:** Allow the line of sight to be blocked by [vehicles](/docs/Vehicle.md "wikilink").
--   **checkPeds:** Allow the line of sight to be blocked by peds, i.e. [players](/docs/Player.md "wikilink").
--   **checkObjects:** Allow the line of sight to be blocked by [objects](/docs/Object.md "wikilink").
+-   **checkVehicles:** Allow the line of sight to be blocked by [vehicles](/docs/vehicle.md "wikilink").
+-   **checkPeds:** Allow the line of sight to be blocked by peds, i.e. [players](/docs/player.md "wikilink").
+-   **checkObjects:** Allow the line of sight to be blocked by [objects](/docs/object.md "wikilink").
 -   **checkDummies:** Allow the line of sight to be blocked by GTA's internal dummies. These are not used in the current MTA version so this argument can be set to *false*.
 -   **seeThroughStuff:** Allow the line of sight to be blocked by translucent game objects, e.g. glass.
 -   **ignoreSomeObjectsForCamera:** Allow the line of sight to be blocked by certain objects.

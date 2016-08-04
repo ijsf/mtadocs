@@ -19,7 +19,7 @@ Returns the circular left-rotated value as *integer*.
 Example
 -------
 
-This example shows the usage of the function [bitLRotate](/docs/bitLRotate.md "wikilink").
+This example shows the usage of the function [bitLRotate](/docs/bitlrotate.md "wikilink").
 
 ``` lua
 local value = 0xF -- binary: 1111, decimal: 15

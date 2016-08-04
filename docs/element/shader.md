@@ -1,4 +1,4 @@
-The shader class represents a Microsoft HLSL Effect File(.fx) loaded by the client, which can be used instead of a texture when calling [dxDrawImage](/docs/dxDrawImage.md "wikilink")
+The shader class represents a Microsoft HLSL Effect File(.fx) loaded by the client, which can be used instead of a texture when calling [dxDrawImage](/docs/dxdrawimage.md "wikilink")
 
 The element type of this class is **“shader”**.
 
@@ -9,7 +9,7 @@ Note: This page assumes you know what an Effect File and HLSL is. If not, you be
 
 You can use this [shadertest resource](/docs/shadertest_resource.md "wikilink") to try the examples below. Copy the effect source from the code boxes into **shadertest/clientshader.fx** and (re)start shadertest to see the output.
 
-After you've done all that, (or maybe before if glancing below is making you panic), visit [some more shader resource examples](/docs/Shader_examples.md "wikilink").
+After you've done all that, (or maybe before if glancing below is making you panic), visit [some more shader resource examples](/docs/shader_examples.md "wikilink").
 
 ### Techniques
 
@@ -184,7 +184,7 @@ Points to remember when switching between editing lua and .fx files:
 Shaders for world textures
 --------------------------
 
-Here are a couple of examples of shaders to use when replacing world textures with [engineApplyShaderToWorldTexture](/docs/engineApplyShaderToWorldTexture.md "wikilink")
+Here are a couple of examples of shaders to use when replacing world textures with [engineApplyShaderToWorldTexture](/docs/engineapplyshadertoworldtexture.md "wikilink")
 
 ### Simple
 
@@ -363,4 +363,4 @@ to:
 
 ### Client
 
-[Category:Element Types](/docs/Category:Element_Types.md "wikilink")
+[Category:Element Types](/docs/category:element_types.md "wikilink")

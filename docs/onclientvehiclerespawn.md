@@ -28,4 +28,4 @@ See Also
 
 ### Client event functions
 
-[es:onClientVehicleRespawn](/docs/es:onClientVehicleRespawn.md "wikilink")
+[es:onClientVehicleRespawn](/docs/es:onclientvehiclerespawn.md "wikilink")

@@ -29,4 +29,4 @@ end)
 See Also
 --------
 
-[AR:getSoundMetaTags](/docs/AR:getSoundMetaTags.md "wikilink")
+[AR:getSoundMetaTags](/docs/ar:getsoundmetatags.md "wikilink")

@@ -34,7 +34,7 @@ setWeaponAmmo(randPlayer,35,50) -- Decide we're only going to give them 50 rocke
 
 </section>
 <section name="setWeaponAmmo (custom weapons)" class="client" show="true">
-Set the ammo of a custom weapon which was created through [createWeapon](/docs/createWeapon.md "wikilink"). By default, a custom weapon has 9999 ammo (which means infinite ammo).
+Set the ammo of a custom weapon which was created through [createWeapon](/docs/createweapon.md "wikilink"). By default, a custom weapon has 9999 ammo (which means infinite ammo).
 
 Syntax
 ------
@@ -69,4 +69,4 @@ Requirements
 See also
 --------
 
-[ru:setWeaponAmmo](/docs/ru:setWeaponAmmo.md "wikilink")
+[ru:setWeaponAmmo](/docs/ru:setweaponammo.md "wikilink")

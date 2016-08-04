@@ -1,4 +1,4 @@
-Please use [setPedCanBeKnockedOffBike](/docs/setPedCanBeKnockedOffBike.md "wikilink")
+Please use [setPedCanBeKnockedOffBike](/docs/setpedcanbeknockedoffbike.md "wikilink")
 
 This function controls if you can fall of your bike by accident - namely by banging into a wall.
 

@@ -8,16 +8,16 @@ Client
 
 ### New Functions
 
--   Added [removeWorldModel](/docs/removeWorldModel.md "wikilink") (Available in 1.2.0-3591)
--   Added [restoreWorldModel](/docs/restoreWorldModel.md "wikilink") (Available in 1.2.0-3591)
--   Added [restoreAllWorldModels](/docs/restoreAllWorldModels.md "wikilink") (Available in 1.2.0-3591)
--   Added [getBirdsEnabled](/docs/getBirdsEnabled.md "wikilink")
--   Added [setBirdsEnabled](/docs/setBirdsEnabled.md "wikilink")
--   Added [setOcclusionsEnabled](/docs/setOcclusionsEnabled.md "wikilink")
+-   Added [removeWorldModel](/docs/removeworldmodel.md "wikilink") (Available in 1.2.0-3591)
+-   Added [restoreWorldModel](/docs/restoreworldmodel.md "wikilink") (Available in 1.2.0-3591)
+-   Added [restoreAllWorldModels](/docs/restoreallworldmodels.md "wikilink") (Available in 1.2.0-3591)
+-   Added [getBirdsEnabled](/docs/getbirdsenabled.md "wikilink")
+-   Added [setBirdsEnabled](/docs/setbirdsenabled.md "wikilink")
+-   Added [setOcclusionsEnabled](/docs/setocclusionsenabled.md "wikilink")
 
 ### New Events
 
--   Added [onClientVehicleCollision](/docs/onClientVehicleCollision.md "wikilink")
+-   Added [onClientVehicleCollision](/docs/onclientvehiclecollision.md "wikilink")
 
 ### Changes
 
@@ -45,15 +45,15 @@ Server
 
 ### New Functions
 
--   Added [takePlayerScreenShot](/docs/takePlayerScreenShot.md "wikilink")
--   Added [setOcclusionsEnabled](/docs/setOcclusionsEnabled.md "wikilink")
--   Added [removeWorldModel](/docs/removeWorldModel.md "wikilink") (Available in 1.2.0-3624)
--   Added [restoreWorldModel](/docs/restoreWorldModel.md "wikilink") (Available in 1.2.0-3624)
--   Added [restoreAllWorldModels](/docs/restoreAllWorldModels.md "wikilink") (Available in 1.2.0-3624)
+-   Added [takePlayerScreenShot](/docs/takeplayerscreenshot.md "wikilink")
+-   Added [setOcclusionsEnabled](/docs/setocclusionsenabled.md "wikilink")
+-   Added [removeWorldModel](/docs/removeworldmodel.md "wikilink") (Available in 1.2.0-3624)
+-   Added [restoreWorldModel](/docs/restoreworldmodel.md "wikilink") (Available in 1.2.0-3624)
+-   Added [restoreAllWorldModels](/docs/restoreallworldmodels.md "wikilink") (Available in 1.2.0-3624)
 
 ### New Events
 
--   Added [onPlayerScreenShot](/docs/onPlayerScreenShot.md "wikilink")
+-   Added [onPlayerScreenShot](/docs/onplayerscreenshot.md "wikilink")
 
 ### Changes
 
@@ -75,6 +75,6 @@ Editor
 
 -   Added LOD information to aid removing LOD's
 
-[ru:Changes in 1.3](/docs/ru:Changes_in_1.3.md "wikilink") [pt-br:Novidades na versão 1.3](/pt-br:Novidades_na_versão_1.3.md "wikilink") [es:Cambios en la versión 1.3](/es:Cambios_en_la_versión_1.3.md "wikilink")
+[ru:Changes in 1.3](/docs/ru:changes_in_1.3.md "wikilink") [pt-br:Novidades na versão 1.3](/pt-br:Novidades_na_versão_1.3.md "wikilink") [es:Cambios en la versión 1.3](/es:Cambios_en_la_versión_1.3.md "wikilink")
 
-[Category:Changelog](/docs/Category:Changelog.md "wikilink") [Category:Changes in 1.3](/Category:Changes_in_1.3.md "wikilink")
+[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Changes in 1.3](/Category:Changes_in_1.3.md "wikilink")

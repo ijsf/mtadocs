@@ -2,10 +2,10 @@ Each [element](/docs/element.md "wikilink") that is loaded is able to have [elem
 
 Element data is synchronized between the server and the client. Setting data from any of the two sides will force an update in the other, triggering the corresponding element data change events. This is very useful, as it provides a simple way to keep element properties synced without having to set special events to do it manually. This also means that excessive use of element data to store variables that are not required by both server and client becomes a waste of bandwidth.
 
-Since not all datatypes can be packetized to be transferred, there are some restrictions. The types that cannot be stored as element data are *non-element userdata* (see [MTA Classes](/docs/MTA_Classes.md "wikilink")), *functions* and *threads*. Also, you may not send tables which contain one or more values of any of these types.
+Since not all datatypes can be packetized to be transferred, there are some restrictions. The types that cannot be stored as element data are *non-element userdata* (see [MTA Classes](/docs/mta_classes.md "wikilink")), *functions* and *threads*. Also, you may not send tables which contain one or more values of any of these types.
 
 Relevant functions
 ------------------
 
--   [setElementData](/docs/setElementData.md "wikilink"): sets an element data value.
--   [getElementData](/docs/getElementData.md "wikilink"): retrieves an element data value.
+-   [setElementData](/docs/setelementdata.md "wikilink"): sets an element data value.
+-   [getElementData](/docs/getelementdata.md "wikilink"): retrieves an element data value.

@@ -7,7 +7,7 @@ int getSoundBPM ( element sound )
 
 ### Required Arguments
 
--   **sound:** a sound element that is created using [playSound](/docs/playSound.md "wikilink") or [playSound3D](/playSound3D.md "wikilink")
+-   **sound:** a sound element that is created using [playSound](/docs/playsound.md "wikilink") or [playSound3D](/playSound3D.md "wikilink")
 
 ### Returns
 
@@ -37,4 +37,4 @@ Requirements
 See Also
 --------
 
-[ar:getSoundBPM](/docs/ar:getSoundBPM.md "wikilink")
+[ar:getSoundBPM](/docs/ar:getsoundbpm.md "wikilink")

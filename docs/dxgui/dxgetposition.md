@@ -37,4 +37,4 @@ dxSetPosition(ourWindow,x*2,y*2)
 See Also
 --------
 
-[Back to dxGUI page](/docs/dxGUI.md "wikilink")
+[Back to dxGUI page](/docs/dxgui.md "wikilink")

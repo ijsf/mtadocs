@@ -1,4 +1,4 @@
-**Note:** Use [countPlayersInTeam](/docs/countPlayersInTeam.md "wikilink") instead
+**Note:** Use [countPlayersInTeam](/docs/countplayersinteam.md "wikilink") instead
 
 This function get count [player](/docs/player.md "wikilink") in [team](/team.md "wikilink").
 

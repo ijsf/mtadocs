@@ -1,4 +1,4 @@
-This function is the same as [triggerClientEvent ](/docs/triggerClientEvent_.md "wikilink") except the transmission rate of the data contained in the arguments can be limited and other network traffic is not blocked while the data is being transferred.
+This function is the same as [triggerClientEvent ](/docs/triggerclientevent_.md "wikilink") except the transmission rate of the data contained in the arguments can be limited and other network traffic is not blocked while the data is being transferred.
 
 Syntax
 ------
@@ -9,8 +9,8 @@ bool triggerLatentClientEvent ( [table/element sendTo=getRootElement(),] string 
 
 ### Required Arguments
 
--   **name:** The name of the event to trigger client side. You should register this event with [addEvent](/docs/addEvent.md "wikilink") and add at least one event handler using [addEventHandler](/addEventHandler.md "wikilink").
--   **theElement:** The element that is the [source](/docs/Event_system#Event_handlers.md "wikilink") of the event. This could be another player, or if this isn't relevant, use the root element.
+-   **name:** The name of the event to trigger client side. You should register this event with [addEvent](/docs/addevent.md "wikilink") and add at least one event handler using [addEventHandler](/addEventHandler.md "wikilink").
+-   **theElement:** The element that is the [source](/docs/event_system#event_handlers.md "wikilink") of the event. This could be another player, or if this isn't relevant, use the root element.
 
 ### Optional Arguments
 

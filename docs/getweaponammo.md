@@ -1,4 +1,4 @@
-This function gets the total ammo a [custom weapon](/docs/Element/Weapon.md "wikilink") has.
+This function gets the total ammo a [custom weapon](/docs/element/weapon.md "wikilink") has.
 
 Syntax
 ------

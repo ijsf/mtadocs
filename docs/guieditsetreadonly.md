@@ -9,7 +9,7 @@ bool guiEditSetReadOnly ( element editField, bool status )
 
 ### Required Arguments
 
--   **editField:** The element of the [edit field](/docs/Element/GUI/Edit_field.md "wikilink") to be modified.
+-   **editField:** The element of the [edit field](/docs/element/gui/edit_field.md "wikilink") to be modified.
 -   **status:** A boolean value indicating whether read-only is to be enabled or disabled.
 
 ### Returns

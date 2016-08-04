@@ -1,4 +1,4 @@
-Shadermanager is a <em>planned</em> resource to facilitate the managment of shaders in MTA, analogous to mapmanager for maps. This page is simply here to serve as a place to share the proposed system. To discuss, contact [John](/docs/User:John.md "wikilink") on \#mta.
+Shadermanager is a <em>planned</em> resource to facilitate the managment of shaders in MTA, analogous to mapmanager for maps. This page is simply here to serve as a place to share the proposed system. To discuss, contact [John](/docs/user:john.md "wikilink") on \#mta.
 
 Proposed Features
 -----------------
@@ -17,7 +17,7 @@ Making your shader resource compatible with <em>shadermanager</em>
 
 To make your shader resource compatible with shadermanager (which you should do), be sure to:
 
--   Setup your resource's [meta.xml](/docs/Meta.xml.md "wikilink") file properly:
+-   Setup your resource's [meta.xml](/docs/meta.xml.md "wikilink") file properly:
     -   Set the resource's type to “shader”
         ;
 

@@ -1,4 +1,4 @@
-Returns a list of key names that are bound to the specified game [control](/docs/Control_names.md "wikilink") or console command.
+Returns a list of key names that are bound to the specified game [control](/docs/control_names.md "wikilink") or console command.
 
 Syntax
 ------

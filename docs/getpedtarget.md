@@ -42,7 +42,7 @@ end
 setTimer ( playerTargetCheck, 1000, 0 )                            -- call the check function every second
 ```
 
-*Note: A more efficient way to do this would be to use the [onPlayerTarget](/docs/onPlayerTarget.md "wikilink") event.*
+*Note: A more efficient way to do this would be to use the [onPlayerTarget](/docs/onplayertarget.md "wikilink") event.*
 
 </section>
 See Also

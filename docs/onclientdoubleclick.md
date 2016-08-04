@@ -1,4 +1,4 @@
-This event triggers whenever the user double-clicks his mouse. This is linked to the GTA world, as appose to GUI for which [onClientGUIDoubleClick](/docs/onClientGUIDoubleClick.md "wikilink") is to be used. This event allows detection of click positions of the 3D world.
+This event triggers whenever the user double-clicks his mouse. This is linked to the GTA world, as appose to GUI for which [onClientGUIDoubleClick](/docs/onclientguidoubleclick.md "wikilink") is to be used. This event allows detection of click positions of the 3D world.
 
 Parameters
 ----------
@@ -18,7 +18,7 @@ string button, int absoluteX, int absoluteY, float worldX, float worldY, float w
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
 
 Example
 -------
@@ -32,7 +32,7 @@ end
 addEventHandler("onClientDoubleClick", root, onMyMouseDoubleClick)
 ```
 
-[pl:onClientDoubleClick](/docs/pl:onClientDoubleClick.md "wikilink")
+[pl:onClientDoubleClick](/docs/pl:onclientdoubleclick.md "wikilink")
 
 See Also
 --------

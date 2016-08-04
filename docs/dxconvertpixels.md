@@ -1,4 +1,4 @@
-This function converts [pixels](/docs/Texture_pixels.md "wikilink") from one format to another.
+This function converts [pixels](/docs/texture_pixels.md "wikilink") from one format to another.
 
 Syntax
 ------

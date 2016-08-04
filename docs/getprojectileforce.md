@@ -35,4 +35,4 @@ end
 See also
 --------
 
-[it:getProjectileForce](/docs/it:getProjectileForce.md "wikilink")
+[it:getProjectileForce](/docs/it:getprojectileforce.md "wikilink")

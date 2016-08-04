@@ -28,7 +28,7 @@ The values passed to this function are:
 -   **keyPresser:** The player who pressed the key
 -   **key:** The key that was pressed
 -   **keyState:** The state of the key that was pressed, *down* if it was pressed, *up* if it was released.
--   **arguments** The optional arguments you specified when calling [bindKey](/docs/bindKey.md "wikilink") (see below).
+-   **arguments** The optional arguments you specified when calling [bindKey](/docs/bindkey.md "wikilink") (see below).
 
 </section>
 <section name="Client - Syntax 1" class="client" show="true">
@@ -57,7 +57,7 @@ The values passed to this function are:
 
 -   **key:** The key that was pressed
 -   **keyState:** The state of the key that was pressed, *down* if it was pressed, *up* if it was released.
--   **arguments** The optional arguments you specified when calling [bindKey](/docs/bindKey.md "wikilink") (see below).
+-   **arguments** The optional arguments you specified when calling [bindKey](/docs/bindkey.md "wikilink") (see below).
 
 </section>
 ### Optional Arguments

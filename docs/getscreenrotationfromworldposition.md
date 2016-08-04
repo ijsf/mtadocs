@@ -1,4 +1,4 @@
-This function returns a screen relative rotation to a world position. The returned rotation can be used in [dxDrawImage](/docs/dxDrawImage.md "wikilink")
+This function returns a screen relative rotation to a world position. The returned rotation can be used in [dxDrawImage](/docs/dxdrawimage.md "wikilink")
 
 Syntax
 ------

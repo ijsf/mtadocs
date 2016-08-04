@@ -35,4 +35,4 @@ addCommandHandler("duty", duty)
 See Also
 --------
 
-[ru:isElementWithinMarker](/docs/ru:isElementWithinMarker.md "wikilink")
+[ru:isElementWithinMarker](/docs/ru:iselementwithinmarker.md "wikilink")

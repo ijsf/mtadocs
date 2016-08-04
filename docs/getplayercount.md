@@ -44,4 +44,4 @@ end
 See Also
 --------
 
-[ru:getPlayerCount](/docs/ru:getPlayerCount.md "wikilink")
+[ru:getPlayerCount](/docs/ru:getplayercount.md "wikilink")

@@ -44,7 +44,7 @@ end
 addCommandHandler("teamBase", showTeamBase)
 ```
 
-Note that if there are other child elements, you'd have to check whether the element is a base with the [getElementType](/docs/getElementType.md "wikilink") function. For example: 'teamBase 3' would output 'Team Base 3: Factory' with the .map file below, even though it's no base.
+Note that if there are other child elements, you'd have to check whether the element is a base with the [getElementType](/docs/getelementtype.md "wikilink") function. For example: 'teamBase 3' would output 'Team Base 3: Factory' with the .map file below, even though it's no base.
 
 ``` xml
 <team1 id="red">

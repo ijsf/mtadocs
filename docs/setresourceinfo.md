@@ -1,6 +1,6 @@
 This function sets the value of any attribute in a resource info tag.
 
-**Note:** that this is protected under [ACL](/docs/ACL.md "wikilink") ModifyOtherObjects.
+**Note:** that this is protected under [ACL](/docs/acl.md "wikilink") ModifyOtherObjects.
 
 Syntax
 ------

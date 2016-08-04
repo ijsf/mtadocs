@@ -9,16 +9,16 @@ Scripting
 
 ### Client
 
--   Added [createSearchLight](/docs/createSearchLight.md "wikilink"), [getSearchLightStartPosition](/getSearchLightStartPosition.md "wikilink"), [getSearchLightEndPosition](/getSearchLightEndPosition.md "wikilink"), [getSearchLightStartRadius](/getSearchLightStartRadius.md "wikilink"), [getSearchLightEndRadius](/getSearchLightEndRadius.md "wikilink"), [setSearchLightStartPosition](/setSearchLightStartPosition.md "wikilink"), [setSearchLightEndPosition](/setSearchLightEndPosition.md "wikilink"), [setSearchLightStartRadius](/setSearchLightStartRadius.md "wikilink"), [setSearchLightEndRadius](/setSearchLightEndRadius.md "wikilink")
--   Added [setWindowFlashing](/docs/setWindowFlashing.md "wikilink")
--   Fixed position calculation in [dxGetTexturePixels](/docs/dxGetTexturePixels.md "wikilink") (thanks to tederis)
--   Added UsingDepthBuffer flag to [dxGetStatus](/docs/dxGetStatus.md "wikilink")
+-   Added [createSearchLight](/docs/createsearchlight.md "wikilink"), [getSearchLightStartPosition](/getSearchLightStartPosition.md "wikilink"), [getSearchLightEndPosition](/getSearchLightEndPosition.md "wikilink"), [getSearchLightStartRadius](/getSearchLightStartRadius.md "wikilink"), [getSearchLightEndRadius](/getSearchLightEndRadius.md "wikilink"), [setSearchLightStartPosition](/setSearchLightStartPosition.md "wikilink"), [setSearchLightEndPosition](/setSearchLightEndPosition.md "wikilink"), [setSearchLightStartRadius](/setSearchLightStartRadius.md "wikilink"), [setSearchLightEndRadius](/setSearchLightEndRadius.md "wikilink")
+-   Added [setWindowFlashing](/docs/setwindowflashing.md "wikilink")
+-   Fixed position calculation in [dxGetTexturePixels](/docs/dxgettexturepixels.md "wikilink") (thanks to tederis)
+-   Added UsingDepthBuffer flag to [dxGetStatus](/docs/dxgetstatus.md "wikilink")
 
 ### Server
 
--   Added [dbPrepareString](/docs/dbPrepareString.md "wikilink")
+-   Added [dbPrepareString](/docs/dbpreparestring.md "wikilink")
 -   Fixed *Player.outputChat* behaving incorrectly
--   Added [onPlayerACInfo](/docs/onPlayerACInfo.md "wikilink") and [resendPlayerACInfo](/resendPlayerACInfo.md "wikilink")
+-   Added [onPlayerACInfo](/docs/onplayeracinfo.md "wikilink") and [resendPlayerACInfo](/resendPlayerACInfo.md "wikilink")
 
 ### Shared (*Client & Server side*)
 
@@ -27,7 +27,7 @@ Scripting
 -   Fixed loadstring and load not accepting UTF-8 strings with BOM
 -   Improved error handling for function parameter parsing
 -   Changed *coroutine.resume* to output errors by default
--   Added https support for [fetchRemote](/docs/fetchRemote.md "wikilink")
+-   Added https support for [fetchRemote](/docs/fetchremote.md "wikilink")
 
 Client
 ------
@@ -79,4 +79,4 @@ Extra information
 
 :\* [MTA: SA Official Resources](https://github.com/multitheftauto/mtasa-resources)
 
-[Category:Changelog](/docs/Category:Changelog.md "wikilink")
+[Category:Changelog](/docs/category:changelog.md "wikilink")

@@ -29,4 +29,4 @@ See Also
 
 ### Client event functions
 
-[es:onClientVehicleExplode](/docs/es:onClientVehicleExplode.md "wikilink")
+[es:onClientVehicleExplode](/docs/es:onclientvehicleexplode.md "wikilink")

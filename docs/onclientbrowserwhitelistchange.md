@@ -10,12 +10,12 @@ table changedDomains
 Source
 ------
 
-The [browser](/docs/Element/Browser.md "wikilink") element
+The [browser](/docs/element/browser.md "wikilink") element
 
 Example
 -------
 
-[pl:onClientBrowserWhitelistChange](/docs/pl:onClientBrowserWhitelistChange.md "wikilink")
+[pl:onClientBrowserWhitelistChange](/docs/pl:onclientbrowserwhitelistchange.md "wikilink")
 
 See Also
 --------

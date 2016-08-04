@@ -71,4 +71,4 @@ addEventHandler ( "onPickupUse", money, pickupUse )
 See Also
 --------
 
-[ru:GivePlayerMoney](/docs/ru:GivePlayerMoney.md "wikilink")
+[ru:GivePlayerMoney](/docs/ru:giveplayermoney.md "wikilink")

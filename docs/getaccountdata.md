@@ -1,4 +1,4 @@
-This function retrieves a string that has been stored using [setAccountData](/docs/setAccountData.md "wikilink"). Data stored as account data is persistent across user's sessions and maps, unless they are logged into a guest account.
+This function retrieves a string that has been stored using [setAccountData](/docs/setaccountdata.md "wikilink"). Data stored as account data is persistent across user's sessions and maps, unless they are logged into a guest account.
 
 Syntax
 ------
@@ -45,4 +45,4 @@ addEventHandler("onPlayerLogin", getRootElement(), onPlayerLogin) -- add an even
 See Also
 --------
 
-[ru:getAccountData](/docs/ru:getAccountData.md "wikilink") [ar:getAccountData](/ar:getAccountData.md "wikilink") [pl:getAccountData](/pl:getAccountData.md "wikilink")
+[ru:getAccountData](/docs/ru:getaccountdata.md "wikilink") [ar:getAccountData](/ar:getAccountData.md "wikilink") [pl:getAccountData](/pl:getAccountData.md "wikilink")

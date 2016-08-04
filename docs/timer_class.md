@@ -2,12 +2,12 @@
 
 ### Methods
 
--   [getDetails](/docs/getTimerDetails.md "wikilink")
--   [isValid](/docs/isTimer.md "wikilink")
--   [destroy](/docs/killTimer.md "wikilink")
--   [reset](/docs/resetTimer.md "wikilink")
--   [create](/docs/setTimer.md "wikilink")
+-   [getDetails](/docs/gettimerdetails.md "wikilink")
+-   [isValid](/docs/istimer.md "wikilink")
+-   [destroy](/docs/killtimer.md "wikilink")
+-   [reset](/docs/resettimer.md "wikilink")
+-   [create](/docs/settimer.md "wikilink")
 
 ### Variables
 
--   [valid](/docs/Timer.valid.md "wikilink")
+-   [valid](/docs/timer.valid.md "wikilink")

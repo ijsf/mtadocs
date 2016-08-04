@@ -41,7 +41,7 @@ Editor plugins
 
 #### Editor Loop Generator
 
-[thumb|Loop generator working with the editor.|400x250px](/docs/Image:LoopGenerator.jpg.md "wikilink") An example use for this is the loop generator plugin, adapted from Offroader23's work on *offedit*.
+[thumb|Loop generator working with the editor.|400x250px](/docs/image:loopgenerator.jpg.md "wikilink") An example use for this is the loop generator plugin, adapted from Offroader23's work on *offedit*.
 
 This resource adds custom gui which can be used to create perfect loops out of standard objects. After perfoming this, it uses the exported *import* function and allows the editor to manipulate them.
 
@@ -55,7 +55,7 @@ Download no longer available, hosted site closed.
 
 #### Roller Coaster Generator
 
-With this plugin, you can create easily roller coaster like maps. [Learn more by clicking here.](/docs/Roller_Coaster_Generator.md "wikilink") [ru:<Resource:Editor/Plugins>](/ru:Resource:Editor/Plugins.md "wikilink")
+With this plugin, you can create easily roller coaster like maps. [Learn more by clicking here.](/docs/roller_coaster_generator.md "wikilink") [ru:<Resource:Editor/Plugins>](/ru:Resource:Editor/Plugins.md "wikilink")
 
 #### Object Movement Generator
 

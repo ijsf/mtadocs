@@ -1,10 +1,10 @@
 This function allows you to call functions that have been exported with HTTP access by other MTA servers. The calls are asynchronous so you do not get an immediate result from the call, instead a callback function you specify is called when the call returns.
 
-You can also use this function to access a standard web page on a server you own by specifying the URL. The arguments you specify to callRemote are passed to the web page using HTTP POST as a [JSON](/docs/JSON.md "wikilink") array. This will always have an array as the root element. The page must return a JSON formated \*array\* in the page's body with the results of the call (or an empty array if there are no results).
+You can also use this function to access a standard web page on a server you own by specifying the URL. The arguments you specify to callRemote are passed to the web page using HTTP POST as a [JSON](/docs/json.md "wikilink") array. This will always have an array as the root element. The page must return a JSON formated \*array\* in the page's body with the results of the call (or an empty array if there are no results).
 
-You can use the [PHP SDK](/docs/PHP_SDK.md "wikilink") to create PHP pages that can be called by this function. See the PHP SDK page for an example.
+You can use the [PHP SDK](/docs/php_sdk.md "wikilink") to create PHP pages that can be called by this function. See the PHP SDK page for an example.
 
-In addition, it is possible to use this function to get information about a resource in the MTA community, besides other things. Check out the [Community Resources](/docs/Community_Resources.md "wikilink") article.
+In addition, it is possible to use this function to get information about a resource in the MTA community, besides other things. Check out the [Community Resources](/docs/community_resources.md "wikilink") article.
 
 In the case when the call fails, a string containing “ERROR” followed by an integer containing the error reason will be passed to the callback function. The reason for failure will be similar to errors found with websites - file not found, server not found and timeouts.
 
@@ -27,7 +27,7 @@ bool callRemote ( string URL[, int connectionAttempts = 10 ], callback callbackF
 -   **resourceName:** This is a name of the resource that contains the exported function you want to call.
 -   **functionName:** This is a string with the name of the function which you want to call.
 -   **URL:** A full URL in the format *http://hostname/path/file.ext*. A port can be specified with a colon followed by a port number appended to the hostname.
--   **callbackFunction:** This is the function that should receive the data returned from the remote function call. The argument list should match the format of the data returned. The callback function will be passed a string containing “ERROR” followed by an integer indicating the error code when an error occurs calling the function. A list of error codes [can be found here](/docs/Template:Error_codes_for_callRemote_and_fetchRemote.md "wikilink").
+-   **callbackFunction:** This is the function that should receive the data returned from the remote function call. The argument list should match the format of the data returned. The callback function will be passed a string containing “ERROR” followed by an integer indicating the error code when an error occurs calling the function. A list of error codes [can be found here](/docs/template:error_codes_for_callremote_and_fetchremote.md "wikilink").
 
 ### Optional Arguments
 

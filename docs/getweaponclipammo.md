@@ -1,4 +1,4 @@
-This function gets the amount of ammo left in a [custom weapon](/docs/Element/Weapon.md "wikilink")'s magazine/clip.
+This function gets the amount of ammo left in a [custom weapon](/docs/element/weapon.md "wikilink")'s magazine/clip.
 
 Syntax
 ------
@@ -13,7 +13,7 @@ int getWeaponClipAmmo ( weapon theWeapon )
 
 ### Returns
 
-Returns the amount of ammo in the [custom weapon](/docs/Element/Weapon.md "wikilink")'s clip, *false* if an error occured.
+Returns the amount of ammo in the [custom weapon](/docs/element/weapon.md "wikilink")'s clip, *false* if an error occured.
 
 ### Example
 

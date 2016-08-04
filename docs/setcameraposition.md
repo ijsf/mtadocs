@@ -1,4 +1,4 @@
-This function allows you to move a player's camera to a specific location if it is fixed (see [setCameraMode](/docs/setCameraMode.md "wikilink")).
+This function allows you to move a player's camera to a specific location if it is fixed (see [setCameraMode](/docs/setcameramode.md "wikilink")).
 
 Syntax
 ------

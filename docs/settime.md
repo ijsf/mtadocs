@@ -50,4 +50,4 @@ addEventHandler( 'onClientRender', getRootElement( ),
 See Also
 --------
 
-[ru:setTime](/docs/ru:setTime.md "wikilink")
+[ru:setTime](/docs/ru:settime.md "wikilink")

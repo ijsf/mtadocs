@@ -25,7 +25,7 @@ ban addBan ( [ string IP, string Username, string Serial, player responsibleElem
 
 ### Optional Arguments
 
--   **responsibleElement:** The element that is responsible for banning the IP/username/serial. This can be a player or the root ([getRootElement](/docs/getRootElement.md "wikilink")()).
+-   **responsibleElement:** The element that is responsible for banning the IP/username/serial. This can be a player or the root ([getRootElement](/docs/getrootelement.md "wikilink")()).
 -   **reason:** The reason the IP/username/serial will be banned from the server.
 -   **seconds:** The amount of seconds the player will be banned from the server for. This can be 0 for an infinite amount of time.
 
@@ -67,4 +67,4 @@ addCommandHandler( "ban-serial", banSerial )
 See Also
 --------
 
-[ru:addBan](/docs/ru:addBan.md "wikilink")
+[ru:addBan](/docs/ru:addban.md "wikilink")

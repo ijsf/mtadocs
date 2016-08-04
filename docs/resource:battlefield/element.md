@@ -1,1 +1,1 @@
-Elements pertaining to the [<Resource:battlefield>](/docs/Resource:battlefield.md "wikilink") gamemode.
+Elements pertaining to the [<Resource:battlefield>](/docs/resource:battlefield.md "wikilink") gamemode.

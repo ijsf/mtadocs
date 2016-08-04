@@ -35,7 +35,7 @@ end)
 Note
 ----
 
-This function, introduced in 1.1, can be used as a replacement of [guiSetInputEnabled](/docs/guiSetInputEnabled.md "wikilink") since it provides the same functionality with one added feature.
+This function, introduced in 1.1, can be used as a replacement of [guiSetInputEnabled](/docs/guisetinputenabled.md "wikilink") since it provides the same functionality with one added feature.
 
 -   *guiSetInputEnabled ( false )* is the same as *guiSetInputMode ( “allow\_binds” )*
 -   *guiSetInputEnabled ( true )* is the same as *guiSetInputMode ( “no\_binds” )*

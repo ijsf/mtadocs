@@ -9,7 +9,7 @@ Syntax
  )
 ```
 
-[thumb|Example of how it should looks like.|284x230px](/docs/Image:dxDrawTextOnElement.png.md "wikilink")
+[thumb|Example of how it should looks like.|284x230px](/docs/image:dxdrawtextonelement.png.md "wikilink")
 
 Required arguments
 ------------------
@@ -27,14 +27,14 @@ Optional arguments
 -   *B*: The Blue color code (0-255), it's 255 by default.
 -   *alpha*: The alpha of the text, it's 255 by default.
 -   *size*: The size of the text, it's 1 by default.
--   *font*: Either a custom [DX font](/docs/DX_font.md "wikilink") element or the name of a built-in DX font:
+-   *font*: Either a custom [DX font](/docs/dx_font.md "wikilink") element or the name of a built-in DX font:
 
 It's arial by default.
 
 -   **checkBuildings:** Allow the line of sight to be blocked by GTA's internally placed buildings, i.e. the world map.
--   **checkVehicles:** Allow the line of sight to be blocked by [vehicles](/docs/Vehicle.md "wikilink").
--   **checkPeds:** Allow the line of sight to be blocked by peds, i.e. [players](/docs/Player.md "wikilink").
--   **checkObjects:** Allow the line of sight to be blocked by [objects](/docs/Object.md "wikilink").
+-   **checkVehicles:** Allow the line of sight to be blocked by [vehicles](/docs/vehicle.md "wikilink").
+-   **checkPeds:** Allow the line of sight to be blocked by peds, i.e. [players](/docs/player.md "wikilink").
+-   **checkObjects:** Allow the line of sight to be blocked by [objects](/docs/object.md "wikilink").
 -   **checkDummies:** Allow the line of sight to be blocked by GTA's internal dummies. These are not used in the current MTA version so this argument can be set to *false*.
 -   **seeThroughStuff:** Allow the line of sight to be blocked by translucent game objects, e.g. glass.
 -   **ignoreSomeObjectsForCamera:** Allow the line of sight to be blocked by certain objects.

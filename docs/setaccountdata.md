@@ -11,7 +11,7 @@ bool setAccountData ( account theAccount, string key, string value )
 
 -   **theAccount:** The account you wish to retrieve the data from.
 -   **key:** The key under which you wish to store the data
--   **value:** The value you wish to store. Set to false to remove the data. **NOTE:** you cannot store tables as values, but you can use [toJSON](/docs/toJSON.md "wikilink") strings.
+-   **value:** The value you wish to store. Set to false to remove the data. **NOTE:** you cannot store tables as values, but you can use [toJSON](/docs/tojson.md "wikilink") strings.
 
 ### Returns
 
@@ -62,4 +62,4 @@ setAccountData(account, "myKey", tostring(0.123))
 See Also
 --------
 
-[ar:setAccountData](/docs/ar:setAccountData.md "wikilink") [es:setAccountData](/es:setAccountData.md "wikilink")
+[ar:setAccountData](/docs/ar:setaccountdata.md "wikilink") [es:setAccountData](/es:setAccountData.md "wikilink")

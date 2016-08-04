@@ -8,6 +8,6 @@ See also
 
 [ID Lists](/docs/id.md "wikilink")
 
-[Category:ID Lists](/docs/Category:ID_Lists.md "wikilink")
+[Category:ID Lists](/docs/category:id_lists.md "wikilink")
 
-[de:Radarsymbole](/docs/de:Radarsymbole.md "wikilink") [ru:Radar blips](/ru:Radar_blips.md "wikilink") [pl:Radar Blips](/pl:Radar_Blips.md "wikilink")
+[de:Radarsymbole](/docs/de:radarsymbole.md "wikilink") [ru:Radar blips](/ru:Radar_blips.md "wikilink") [pl:Radar Blips](/pl:Radar_Blips.md "wikilink")

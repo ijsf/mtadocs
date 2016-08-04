@@ -1,4 +1,4 @@
-This function converts server ticks to a unix timestamp. **Note**: this was built to work with the server tick timestamp returned by [onPlayerScreenShot](/docs/onPlayerScreenShot.md "wikilink"). Author: qaisjp
+This function converts server ticks to a unix timestamp. **Note**: this was built to work with the server tick timestamp returned by [onPlayerScreenShot](/docs/onplayerscreenshot.md "wikilink"). Author: qaisjp
 
 Syntax
 ------

@@ -13,7 +13,7 @@ bool addEvent ( string eventName [, bool allowRemoteTrigger = false ] )
 
 ### Optional Arguments
 
--   **allowRemoteTrigger:** A boolean specifying whether this event can be called remotely using [triggerClientEvent](/docs/triggerClientEvent.md "wikilink") / [triggerServerEvent](/triggerServerEvent.md "wikilink") or not.
+-   **allowRemoteTrigger:** A boolean specifying whether this event can be called remotely using [triggerClientEvent](/docs/triggerclientevent.md "wikilink") / [triggerServerEvent](/triggerServerEvent.md "wikilink") or not.
 
 ### Returns
 
@@ -48,4 +48,4 @@ This will cause the handler to be triggered, so “test” will be output to the
 See Also
 --------
 
-[ru:addEvent](/docs/ru:addEvent.md "wikilink")
+[ru:addEvent](/docs/ru:addevent.md "wikilink")

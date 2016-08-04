@@ -35,4 +35,4 @@ addEventHandler("onClientPlayerWasted", localPlayer, wasted) --add the event han
 See Also
 --------
 
-[AR:playSound](/docs/AR:playSound.md "wikilink") [DE:playSound](/DE:playSound.md "wikilink")
+[AR:playSound](/docs/ar:playsound.md "wikilink") [DE:playSound](/DE:playSound.md "wikilink")

@@ -1,4 +1,4 @@
-This function gets the server or client (if used client sided it returns time as set on client's computer) real time and returns it in a table. If you want to get the in-game time (shown on GTA's clock) use [getTime](/docs/getTime.md "wikilink").
+This function gets the server or client (if used client sided it returns time as set on client's computer) real time and returns it in a table. If you want to get the in-game time (shown on GTA's clock) use [getTime](/docs/gettime.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ Syntax
 
 ### Optional Arguments
 
--   **seconds:** A count in seconds from the year 1970. Useful for storing points in time, or for retrieving time information for [getBanTime](/docs/getBanTime.md "wikilink"). The valid range of this argument is 0 to 32,000,000,000
+-   **seconds:** A count in seconds from the year 1970. Useful for storing points in time, or for retrieving time information for [getBanTime](/docs/getbantime.md "wikilink"). The valid range of this argument is 0 to 32,000,000,000
 
 ### Returns
 
@@ -51,4 +51,4 @@ Changelog
 See Also
 --------
 
-[ru:getRealTime](/docs/ru:getRealTime.md "wikilink")
+[ru:getRealTime](/docs/ru:getrealtime.md "wikilink")

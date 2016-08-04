@@ -3,9 +3,9 @@ This event is triggered when the resource is stopped. This can occur for a numbe
 -   The *stop* console command was used
 -   The *restart* console command was used
 -   The resource was modified (the resource will automatically restart)
--   Another resource stopped it using [stopResource](/docs/stopResource.md "wikilink").
+-   Another resource stopped it using [stopResource](/docs/stopresource.md "wikilink").
 
-**Note:** If you wish to just detect a single resource being stopped, you should attach handlers for this event to the resource's root element. You can access this using [getResourceRootElement](/docs/getResourceRootElement.md "wikilink").
+**Note:** If you wish to just detect a single resource being stopped, you should attach handlers for this event to the resource's root element. You can access this using [getResourceRootElement](/docs/getresourcerootelement.md "wikilink").
 
 Parameters
 ----------
@@ -19,7 +19,7 @@ resource stoppedResource
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the root [element](/element.md "wikilink") of the resource that is being stopped.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the root [element](/element.md "wikilink") of the resource that is being stopped.
 
 Example
 -------

@@ -7,7 +7,7 @@ Event handlers are functions that are called when a particular event happens. Ea
 
 <!-- -->
 
--   **client**: the client that triggered the event using [triggerServerEvent](/docs/triggerServerEvent.md "wikilink"). Not set if the event was not triggered from a client.
+-   **client**: the client that triggered the event using [triggerServerEvent](/docs/triggerserverevent.md "wikilink"). Not set if the event was not triggered from a client.
 
 It is important to remember that events pass up and down the [element tree](/docs/element_tree.md "wikilink"). An event triggered on the root element is triggered on every element in the tree. An event triggered on any other element is triggered on its ancestors (its parent element and its parent's parent etc) and its children, grandchildren and great-grandchildren. You can use the *getPropagated* argument to specify if you wish your handler to receive events that have propagated up or down the tree.
 
@@ -61,4 +61,4 @@ Changelog
 See Also
 --------
 
-[ru:addEventHandler](/docs/ru:addEventHandler.md "wikilink")
+[ru:addEventHandler](/docs/ru:addeventhandler.md "wikilink")

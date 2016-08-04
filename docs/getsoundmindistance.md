@@ -32,4 +32,4 @@ addCommandHandler("getdistance", distanceFunc)
 See Also
 --------
 
-[AR:getSoundMinDistance](/docs/AR:getSoundMinDistance.md "wikilink")
+[AR:getSoundMinDistance](/docs/ar:getsoundmindistance.md "wikilink")

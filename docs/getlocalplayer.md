@@ -44,4 +44,4 @@ addEventHandler( "onClientPlayerDamage", getLocalPlayer ( ), flashRed )
 See Also
 --------
 
-[ru:getLocalPlayer](/docs/ru:getLocalPlayer.md "wikilink")
+[ru:getLocalPlayer](/docs/ru:getlocalplayer.md "wikilink")

@@ -11,4 +11,4 @@ Known names pending to add
 Forgotten contributors
 ----------------------
 
-If you think that you have been forgotten and you should be in the MTA credits, please refer to this page [Discussion](/docs/Talk:MTA_Credits.md "wikilink").
+If you think that you have been forgotten and you should be in the MTA credits, please refer to this page [Discussion](/docs/talk:mta_credits.md "wikilink").

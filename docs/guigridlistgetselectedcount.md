@@ -1,4 +1,4 @@
-This function returns the amount of options selected in the specified [grid list](/docs/Element/GUI/Gridlist.md "wikilink").
+This function returns the amount of options selected in the specified [grid list](/docs/element/gui/gridlist.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ int guiGridListGetSelectedCount ( element gridList )
 
 ### Required Arguments
 
--   **gridList:** The [grid list](/docs/Element/GUI/Gridlist.md "wikilink") which amount of selected items you want to retrieve.
+-   **gridList:** The [grid list](/docs/element/gui/gridlist.md "wikilink") which amount of selected items you want to retrieve.
 
 ### Returns
 

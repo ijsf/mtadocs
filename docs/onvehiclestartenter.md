@@ -11,11 +11,11 @@ Parameters
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [vehicle](/vehicle.md "wikilink") in which a player began to enter.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [vehicle](/vehicle.md "wikilink") in which a player began to enter.
 
 ### Canceling
 
-If this event is [canceled](/docs/Event_system_#Canceling.md "wikilink"), the player will not enter the vehicle.
+If this event is [canceled](/docs/event_system_#canceling.md "wikilink"), the player will not enter the vehicle.
 
 Example
 -------

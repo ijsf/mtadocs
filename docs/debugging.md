@@ -43,7 +43,7 @@ Now the script will load fine and won't output any errors until a player with th
 
   
 
-This error means that the function **outputChatbox** is a nil value, that is - it doesn't exist! This is because the function is actually called [outputChatBox](/docs/outputChatBox.md "wikilink"), not [outputChatbox](/outputChatbox.md "wikilink") - take care of that capital B.:
+This error means that the function **outputChatbox** is a nil value, that is - it doesn't exist! This is because the function is actually called [outputChatBox](/docs/outputchatbox.md "wikilink"), not [outputChatbox](/outputChatbox.md "wikilink") - take care of that capital B.:
 
 ``` lua
 function SayHello(message, player)
@@ -98,10 +98,10 @@ There are several strategies that support finding errors, apart from going throu
 
 There are some functions that may come in handy for debugging.
 
--   [outputDebugString](/docs/outputDebugString.md "wikilink") or [outputChatBox](/outputChatBox.md "wikilink") for outputting any information (use outputDebugString for technical output)
+-   [outputDebugString](/docs/outputdebugstring.md "wikilink") or [outputChatBox](/outputChatBox.md "wikilink") for outputting any information (use outputDebugString for technical output)
 -   [tostring()](http://www.lua.org/manual/5.1/manual.html#pdf-tostring) on a variable to turn the value into a string. Useful if the value is not a number or string.
--   [getElementType](/docs/getElementType.md "wikilink") to check the type of the MTA element.
--   [isElement](/docs/isElement.md "wikilink") to check if the MTA element exists.
+-   [getElementType](/docs/getelementtype.md "wikilink") to check the type of the MTA element.
+-   [isElement](/docs/iselement.md "wikilink") to check if the MTA element exists.
 
 ### Add debugmessages to check *if*, *when* or *how often* a section of code is executed
 
@@ -118,7 +118,7 @@ Another application would be to check when variable values are modified. First s
 
 ### Add debugmessages to check the *value* of a variable
 
-Let's say you want to create a marker, but it doesn't appear at the position you expect it to be. The first thing you might want to do is check if the [createMarker](/docs/createMarker.md "wikilink") function is executed. But while doing this, you can also check the values being used in the [createMarker](/createMarker.md "wikilink") function in one run.
+Let's say you want to create a marker, but it doesn't appear at the position you expect it to be. The first thing you might want to do is check if the [createMarker](/docs/createmarker.md "wikilink") function is executed. But while doing this, you can also check the values being used in the [createMarker](/createMarker.md "wikilink") function in one run.
 
 ``` lua
 outputChatBox("posX is: "..x.." posY is: "..y.." posZ is: "..z)
@@ -130,7 +130,7 @@ This would output all three variables that are used as coordinates for the marke
 Example
 -------
 
-Imagine you created a [collision shape](/docs/Colshape.md "wikilink") somewhere and you want an action to perform after the player stays for ten seconds inside it, you would do this:
+Imagine you created a [collision shape](/docs/colshape.md "wikilink") somewhere and you want an action to perform after the player stays for ten seconds inside it, you would do this:
 
 ``` lua
 function colShapeHit(player)
@@ -255,7 +255,7 @@ end
 addEventHandler("onColShapeLeave",getRootElement(),colShapeLeave)
 ```
 
-Now the script should work as desired, but it will still output the warning mentioned above. This happens because the timer we try to kill when a player leaves the colshape will not exist anymore when it has reached the 10 seconds (and therefore executed after the 10th second has completed). There are different ways to get rid of that warning (since you know that the timer might not exist anymore and you only want to kill it if it exists). One way would be to check if the timer referenced in the table really exists. To do this, we need to use [isTimer](/docs/isTimer.md "wikilink"), which we will use when we kill the timer:
+Now the script should work as desired, but it will still output the warning mentioned above. This happens because the timer we try to kill when a player leaves the colshape will not exist anymore when it has reached the 10 seconds (and therefore executed after the 10th second has completed). There are different ways to get rid of that warning (since you know that the timer might not exist anymore and you only want to kill it if it exists). One way would be to check if the timer referenced in the table really exists. To do this, we need to use [isTimer](/docs/istimer.md "wikilink"), which we will use when we kill the timer:
 
 ``` lua
 if (isTimer(colshapeTimer[player])) then
@@ -296,7 +296,7 @@ addEventHandler("onColShapeLeave",getRootElement(),colShapeLeave)
 Debugging Performance Issues
 ----------------------------
 
-If your server is using up more resources than it should or you just want to make sure your scripts are efficient, you can find the source of the issue by using a great tool that comes with the default resource package called [performancebrowser](/docs/Resource:Performancebrowser.md "wikilink"). You can start it with **'start performancebrowser**'. If it doesn't exist then you can get the latest resources from the [GitHub repository](https://github.com/multitheftauto/mtasa-resources). This tool provides an incredible amount of information for performance debugging. Memory leaks, element leaks and CPU intensive scripts are all easily findable via performancebrowser. If you use the **'d**' option in Lua timing you can see which functions are using up the CPU.
+If your server is using up more resources than it should or you just want to make sure your scripts are efficient, you can find the source of the issue by using a great tool that comes with the default resource package called [performancebrowser](/docs/resource:performancebrowser.md "wikilink"). You can start it with **'start performancebrowser**'. If it doesn't exist then you can get the latest resources from the [GitHub repository](https://github.com/multitheftauto/mtasa-resources). This tool provides an incredible amount of information for performance debugging. Memory leaks, element leaks and CPU intensive scripts are all easily findable via performancebrowser. If you use the **'d**' option in Lua timing you can see which functions are using up the CPU.
 
 To access performancebrowser you will need to go to your web browser and enter the address: [http://serverIPHere:serverHTTPPortHere/performancebrowser/](http://serverIPHere:serverHTTPPortHere/performancebrowser/) Note that the / at the end is required. So for example: <http://127.0.0.1:22005/performancebrowser/> You will then need to login with an in-game admin account or any account that has access to **'resource.performancebrowser.http**' and **'resource.ajax.http**'. Most of the information you will need are in the categories Lua timing and Lua memory, look for values that are much higher than other values.
 
@@ -351,4 +351,4 @@ function someDodgyCode()
 end
 ```
 
-[it:Guida al Debug](/docs/it:Guida_al_Debug.md "wikilink") [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink") [ru:Debugging](/ru:Debugging.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")
+[it:Guida al Debug](/docs/it:guida_al_debug.md "wikilink") [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink") [ru:Debugging](/ru:Debugging.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")

@@ -12,7 +12,7 @@ var get ( string settingName )
 Optional Arguments
 ------------------
 
-**settingName:** The name of the setting you want to set. See [setting names](/docs/settings_system#Setting_names.md "wikilink") for information on settings names.
+**settingName:** The name of the setting you want to set. See [setting names](/docs/settings_system#setting_names.md "wikilink") for information on settings names.
 
 ### Returns
 

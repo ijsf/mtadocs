@@ -1,5 +1,5 @@
 This function is used to get the name of a specified ped's current simplest [task](/docs/task.md "wikilink").
-*Note: See [getPedTask](/docs/getPedTask.md "wikilink") to get a all tasks.*
+*Note: See [getPedTask](/docs/getpedtask.md "wikilink") to get a all tasks.*
 
 Syntax
 ------

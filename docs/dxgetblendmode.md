@@ -1,4 +1,4 @@
-This function returns the current blend mode for the dxDraw functions. The blend mode is set using [dxSetBlendMode](/docs/dxSetBlendMode.md "wikilink")
+This function returns the current blend mode for the dxDraw functions. The blend mode is set using [dxSetBlendMode](/docs/dxsetblendmode.md "wikilink")
 
 Syntax
 ------

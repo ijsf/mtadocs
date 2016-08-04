@@ -1,4 +1,4 @@
-Draws a string of text on the screen for one frame. In order for the text to stay visible continuously, you need to call this function with the same parameters on each frame update (see [onClientRender](/docs/onClientRender.md "wikilink")).
+Draws a string of text on the screen for one frame. In order for the text to stay visible continuously, you need to call this function with the same parameters on each frame update (see [onClientRender](/docs/onclientrender.md "wikilink")).
 
 Syntax
 ------
@@ -22,7 +22,7 @@ bool dxDrawText ( string text, float left, float top [, float right=left, float 
 -   **bottom:** the absolute Y coordinate of the bottom side of the text bounding box. Used for text aligning, clipping and word breaking.
 -   **color:** the color of the text, a value produced by [tocolor](/docs/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
 -   **scale:** the size of the text.
--   **font:** Either a custom [DX font](/docs/DX_font.md "wikilink") element or the name of a built-in DX font:
+-   **font:** Either a custom [DX font](/docs/dx_font.md "wikilink") element or the name of a built-in DX font:
 
 -   **alignX:** horizontal alignment of the text within the bounding box. Can be **“left”**, **“center”** or **“right”**.
 -   **alignY:** vertical alignment of the text within the bounding box. Can be **“top”**, **“center”** or **“bottom”**.

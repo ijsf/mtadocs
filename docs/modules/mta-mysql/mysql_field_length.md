@@ -1,6 +1,6 @@
 <pageclass class="#AA7592" subcaption="MTA-MySQL Module"></pageclass>
 
-Returns the length of a given field in the last retreived row. The offset of the field must be an integer between **1** and **[mysql\_num\_fields()](/docs/Modules/MTA-MySQL/mysql_num_fields.md "wikilink")**
+Returns the length of a given field in the last retreived row. The offset of the field must be an integer between **1** and **[mysql\_num\_fields()](/docs/modules/mta-mysql/mysql_num_fields.md "wikilink")**
 
 Syntax
 ------

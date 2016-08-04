@@ -9,7 +9,7 @@ int getSlotFromWeapon ( int weaponid )
 
 ### Required Arguments
 
--   **weaponid:** [Weapon](/docs/Weapon.md "wikilink") to find the weapon slot of.
+-   **weaponid:** [Weapon](/docs/weapon.md "wikilink") to find the weapon slot of.
 
 ### Returns
 
@@ -36,4 +36,4 @@ addCommandHandler ( "getWeaponSlot", outputWeaponSlot )
 See Also
 --------
 
-[Weapon IDs](/docs/Weapons.md "wikilink") [ru:getSlotFromWeapon](/ru:getSlotFromWeapon.md "wikilink")
+[Weapon IDs](/docs/weapons.md "wikilink") [ru:getSlotFromWeapon](/ru:getSlotFromWeapon.md "wikilink")

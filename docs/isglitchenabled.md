@@ -1,4 +1,4 @@
-This function retrieves whether San Andreas game glitches are enabled or not, set by using [setGlitchEnabled](/docs/setGlitchEnabled.md "wikilink")
+This function retrieves whether San Andreas game glitches are enabled or not, set by using [setGlitchEnabled](/docs/setglitchenabled.md "wikilink")
 
 Syntax
 ------

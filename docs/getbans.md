@@ -39,4 +39,4 @@ addCommandHandler ( "bans", listBans ) -- Add "/bans" as the trigger for the fun
 See Also
 --------
 
-[ru:getBans](/docs/ru:getBans.md "wikilink")
+[ru:getBans](/docs/ru:getbans.md "wikilink")

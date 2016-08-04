@@ -45,4 +45,4 @@ See Also
 
 ### Client event functions
 
-[es:onClientVehicleEnter](/docs/es:onClientVehicleEnter.md "wikilink")
+[es:onClientVehicleEnter](/docs/es:onclientvehicleenter.md "wikilink")

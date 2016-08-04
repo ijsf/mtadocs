@@ -32,4 +32,4 @@ addCommandHandler("soundspeed",outputSpeed)
 See Also
 --------
 
-[ar:getSoundSpeed](/docs/ar:getSoundSpeed.md "wikilink")
+[ar:getSoundSpeed](/docs/ar:getsoundspeed.md "wikilink")

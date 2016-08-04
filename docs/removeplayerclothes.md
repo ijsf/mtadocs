@@ -10,12 +10,12 @@ bool removePlayerClothes ( player thePlayer, int clothesType, [ string clothesTe
 ### Required Arguments
 
 -   **thePlayer**: The [player](/docs/player.md "wikilink") whose clothes you want to remove.
--   **clothesType**: A integer representing the clothes slot/type to remove. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
+-   **clothesType**: A integer representing the clothes slot/type to remove. See the [clothes catalog](/docs/cj_clothes.md "wikilink").
 
 ### Optional Arguments
 
--   **clothesTexture**: A string determining the clothes texture that will be removed. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
--   **clothesModel**: A string determining the clothes model that will be removed. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
+-   **clothesTexture**: A string determining the clothes texture that will be removed. See the [clothes catalog](/docs/cj_clothes.md "wikilink").
+-   **clothesModel**: A string determining the clothes model that will be removed. See the [clothes catalog](/docs/cj_clothes.md "wikilink").
 
 Returns
 -------

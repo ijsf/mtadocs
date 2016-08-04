@@ -12,7 +12,7 @@ string targetURL, bool isBlocked, bool isMainFrame
 Source
 ------
 
-The [browser](/docs/Element/Browser.md "wikilink") element
+The [browser](/docs/element/browser.md "wikilink") element
 
 Example
 -------
@@ -20,7 +20,7 @@ Example
 Issues
 ------
 
-[pl:onClientBrowserNavigate](/docs/pl:onClientBrowserNavigate.md "wikilink")
+[pl:onClientBrowserNavigate](/docs/pl:onclientbrowsernavigate.md "wikilink")
 
 See Also
 --------

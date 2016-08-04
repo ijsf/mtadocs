@@ -38,4 +38,4 @@ addCommandHandler("setreason", setReason)
 See Also
 --------
 
-[ru:setBanReason](/docs/ru:setBanReason.md "wikilink")
+[ru:setBanReason](/docs/ru:setbanreason.md "wikilink")

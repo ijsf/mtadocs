@@ -1,4 +1,4 @@
-[Category:Incomplete Event](/docs/Category:Incomplete_Event.md "wikilink")
+[Category:Incomplete Event](/docs/category:incomplete_event.md "wikilink")
 
 This event is blahblah and is used for blahblah.
 

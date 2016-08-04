@@ -19,7 +19,7 @@ Returns **true** if the position was set, **false** otherwise.
 Example
 -------
 
-This example sets the position of a scroll pane called “myScrollPane” created with [guiCreateScrollPane](/docs/guiCreateScrollPane.md "wikilink"), and outputs it to the chatbox.
+This example sets the position of a scroll pane called “myScrollPane” created with [guiCreateScrollPane](/docs/guicreatescrollpane.md "wikilink"), and outputs it to the chatbox.
 
 ``` lua
 if ( myScrollPane ) then -- if the scroll pane exist then

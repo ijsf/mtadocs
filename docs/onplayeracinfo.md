@@ -5,7 +5,7 @@ Parameters
 table detectedACList, int d3d9Size, string d3d9MD5, string d3d9SHA256
 ```
 
--   **detectedACList**: A table of [anti-cheat](/docs/Anti-cheat_guide.md "wikilink") codes the player has triggered.
+-   **detectedACList**: A table of [anti-cheat](/docs/anti-cheat_guide.md "wikilink") codes the player has triggered.
 -   **d3d9Size**: A number representing the file size of any custom d3d9.dll the player may have installed.
 -   **d3d9MD5**: A string containing the MD5 of any custom d3d9.dll the player may have installed.
 -   **d3d9SHA256**: A string containing the SHA256 of any custom d3d9.dll the player may have installed.
@@ -13,7 +13,7 @@ table detectedACList, int d3d9Size, string d3d9MD5, string d3d9SHA256
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink")
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink")
 
 Example
 -------

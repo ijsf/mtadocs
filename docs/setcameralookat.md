@@ -1,4 +1,4 @@
-This function allows you to set a player's camera to look at a specific point when the camera is fixed (see [setCameraMode](/docs/setCameraMode.md "wikilink")).
+This function allows you to set a player's camera to look at a specific point when the camera is fixed (see [setCameraMode](/docs/setcameramode.md "wikilink")).
 
 Syntax
 ------

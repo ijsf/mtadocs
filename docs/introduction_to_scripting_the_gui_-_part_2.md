@@ -1,15 +1,15 @@
 In this tutorial we will make a simple rules window, with an accept button and a list of all the server rules & information.
 
-**Note that this tutorial builds on content covered in the [GUI Scripting Introduction](/docs/Introduction_to_Scripting_the_GUI.md "wikilink").**
+**Note that this tutorial builds on content covered in the [GUI Scripting Introduction](/docs/introduction_to_scripting_the_gui.md "wikilink").**
 
 Making the GUI
 --------------
 
 ### Getting set up
 
-The first thing we need to do is create our GUI elements. For this tutorial we will be using one [window](/docs/Element/GUI/Window.md "wikilink"), one [button](/Element/GUI/Button.md "wikilink") and one [label](/Element/GUI/Text_label.md "wikilink"). We will be using **absolute** position values.
+The first thing we need to do is create our GUI elements. For this tutorial we will be using one [window](/docs/element/gui/window.md "wikilink"), one [button](/Element/GUI/Button.md "wikilink") and one [label](/Element/GUI/Text_label.md "wikilink"). We will be using **absolute** position values.
 
-As noted in the [Previous tutorial](/docs/Introduction_to_Scripting_the_GUI.md "wikilink"), all the GUI must be made client side.
+As noted in the [Previous tutorial](/docs/introduction_to_scripting_the_gui.md "wikilink"), all the GUI must be made client side.
 
 If you are following on from that tutorial, open up your gui.lua file to work with.
 
@@ -166,7 +166,7 @@ Both of these examples will create exactly the same text on the label. It is ent
 
 The createRulesWindow function is now complete, but it won't do anything until we call it. It is recommended to create all GUI when the client resource starts, hide them, and show them to the player later when needed.
 
-Therefore, we'll write an event handler for [onClientResourceStart](/docs/onClientResourceStart.md "wikilink") to create the window:
+Therefore, we'll write an event handler for [onClientResourceStart](/docs/onclientresourcestart.md "wikilink") to create the window:
 
 ``` lua
 -- attach the event handler to the root element of the resource
@@ -181,7 +181,7 @@ addEventHandler("onClientResourceStart", getResourceRootElement(getThisResource(
 
 As this is a rules window, we need to show the window when the player joins the game. Fortunately, GUI elements are visible by default so we do not need to write any more code to achieve this.
 
-However, we will also need to show the cursor for the player. This can be done using the same event, [onClientResourceStart](/docs/onClientResourceStart.md "wikilink"), so we can modify the above code to include showing the cursor:
+However, we will also need to show the cursor for the player. This can be done using the same event, [onClientResourceStart](/docs/onclientresourcestart.md "wikilink"), so we can modify the above code to include showing the cursor:
 
 **Note that we are now writing more code for our 'onClientResourceStart' event. This is not a new function and is meant to replace what you already have.**
 
@@ -208,7 +208,7 @@ Now that we have created our GUI, we need to make it work.
 
 ### Detecting the click
 
-When the player clicks on any part of the GUI, the event "[onClientGUIClick](/docs/onClientGUIClick.md "wikilink")" will be triggered for the GUI component you clicked on. This allows us to easily detect any clicks on the GUI elements we want to use. For example, we can attach the event to the 'rulesButton' button to catch any clicks on it:
+When the player clicks on any part of the GUI, the event "[onClientGUIClick](/docs/onclientguiclick.md "wikilink")" will be triggered for the GUI component you clicked on. This allows us to easily detect any clicks on the GUI elements we want to use. For example, we can attach the event to the 'rulesButton' button to catch any clicks on it:
 
 ``` lua
 -- attach the event onClientGUIClick to rulesButton and set it to trigger the 'acceptRules' function
@@ -230,7 +230,7 @@ function createRulesWindow()
 
 ### Managing the click
 
-Now that we can detect when the player clicks on the button, we need to write code to manage what happens when they do. In our [onClientGUIClick](/docs/onClientGUIClick.md "wikilink") event handle, we told it to call the function 'acceptRules' whenever 'rulesButton' is clicked. Therefore, we can now use the function 'acceptRules' to control what happens when the button is clicked:
+Now that we can detect when the player clicks on the button, we need to write code to manage what happens when they do. In our [onClientGUIClick](/docs/onclientguiclick.md "wikilink") event handle, we told it to call the function 'acceptRules' whenever 'rulesButton' is clicked. Therefore, we can now use the function 'acceptRules' to control what happens when the button is clicked:
 
 ``` lua
 -- create the function and define the 'button' and 'state' parameters
@@ -268,7 +268,7 @@ Currently, our window will show when the player joins the server, and they must 
 
 ### Setting a timer
 
-To combat this, we will add a timer using [setTimer](/docs/setTimer.md "wikilink") to kick them from the server after a period of time if they have not accepted the rules. First, we will need a global variable to store the timer pointer:
+To combat this, we will add a timer using [setTimer](/docs/settimer.md "wikilink") to kick them from the server after a period of time if they have not accepted the rules. First, we will need a global variable to store the timer pointer:
 
 ``` lua
 local rulesWarningTimer = nil
@@ -290,7 +290,7 @@ function createRulesWindow()
 end
 ```
 
-Put this [setTimer](/docs/setTimer.md "wikilink") line at the bottom of your 'createRulesWindow' function. This will create a timer that will trigger after 30 seconds.
+Put this [setTimer](/docs/settimer.md "wikilink") line at the bottom of your 'createRulesWindow' function. This will create a timer that will trigger after 30 seconds.
 
 ### Giving a warning
 
@@ -322,7 +322,7 @@ function inactivePlayer(status)
 end
 ```
 
-Note the use of [triggerServerEvent](/docs/triggerServerEvent.md "wikilink") to call the server. You should have experience with client-server interaction from the [Previous tutorial](/Introduction_to_Scripting_the_GUI.md "wikilink"). If not, you can go back and read the full explanation there.
+Note the use of [triggerServerEvent](/docs/triggerserverevent.md "wikilink") to call the server. You should have experience with client-server interaction from the [Previous tutorial](/Introduction_to_Scripting_the_GUI.md "wikilink"). If not, you can go back and read the full explanation there.
 
 We have now completed all the clientside code for this tutorial.
 
@@ -341,7 +341,7 @@ addEventHandler("clientKickInactivePlayer",root,kickInactivePlayer)
 
 **Make sure you add your event handler after you have defined your 'kickInactivePlayer' function.**
 
-Note the use of [addEvent](/docs/addEvent.md "wikilink") and [addEventHandler](/addEventHandler.md "wikilink") on the server. You should have experience with client-server interaction from the [Previous tutorial](/Introduction_to_Scripting_the_GUI.md "wikilink"). If not, you can go back and read the full explanation there.
+Note the use of [addEvent](/docs/addevent.md "wikilink") and [addEventHandler](/addEventHandler.md "wikilink") on the server. You should have experience with client-server interaction from the [Previous tutorial](/Introduction_to_Scripting_the_GUI.md "wikilink"). If not, you can go back and read the full explanation there.
 
 Finally, we will add the 'kickInactivePlayer' function to control kicking of the player:
 
@@ -355,7 +355,7 @@ end
 
 Note the use of the 'client' variable, this is an MTA variable that holds the value of the client (player) that triggered the event.
 
-**Note that [kickPlayer](/docs/kickPlayer.md "wikilink") will require your resource to have kick access in your ACL.**
+**Note that [kickPlayer](/docs/kickplayer.md "wikilink") will require your resource to have kick access in your ACL.**
 
 **This is most easily accomplished by adding your resource into your admin group in the ACL:**
 
@@ -367,10 +367,10 @@ Note the use of the 'client' variable, this is an MTA variable that holds the va
 </group>
 ```
 
-For more information on the [ACL](/docs/ACL.md "wikilink"), see the [ACL](/ACL.md "wikilink") wiki page.
+For more information on the [ACL](/docs/acl.md "wikilink"), see the [ACL](/ACL.md "wikilink") wiki page.
 
 That concludes this tutorial. You should now have a fully working rules window for your server.
 
-For further help with GUI, see the [GUI tutorials](/docs/:Category:GUI_Tutorials.md "wikilink").
+For further help with GUI, see the [GUI tutorials](/docs/:category:gui_tutorials.md "wikilink").
 
-[Category:GUI\_Tutorials](/docs/Category:GUI_Tutorials.md "wikilink")
+[Category:GUI\_Tutorials](/docs/category:gui_tutorials.md "wikilink")

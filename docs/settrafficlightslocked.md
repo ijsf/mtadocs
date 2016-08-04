@@ -1,4 +1,4 @@
-Toggles whether you want the traffic lights to be locked. If the lights are locked, it means they won't change unless you do [setTrafficLightState](/docs/setTrafficLightState.md "wikilink").
+Toggles whether you want the traffic lights to be locked. If the lights are locked, it means they won't change unless you do [setTrafficLightState](/docs/settrafficlightstate.md "wikilink").
 
 Syntax
 ------

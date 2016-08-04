@@ -16,7 +16,7 @@ bool setSoundPanningEnabled ( element sound, bool enable )
 
 Returns *true* if the sound is valid and good arguments were passed, *false* if not.
 
-If the sound is not 3D, this function will return *true* as well, but [isSoundPanningEnabled](/docs/isSoundPanningEnabled.md "wikilink") will always return *true* after this (so it has no effect).
+If the sound is not 3D, this function will return *true* as well, but [isSoundPanningEnabled](/docs/issoundpanningenabled.md "wikilink") will always return *true* after this (so it has no effect).
 
 Example
 -------

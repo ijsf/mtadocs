@@ -11,7 +11,7 @@ Syntax
  )
 ```
 
-[thumb|Example of water quadrant.|284x230px](/docs/Image:WaterAreas.jpg.md "wikilink")
+[thumb|Example of water quadrant.|284x230px](/docs/image:waterareas.jpg.md "wikilink")
 
 ### Required Arguments
 
@@ -28,13 +28,13 @@ Syntax
 
 ### Returns
 
-Returns a water element if successful, *false* otherwise. The water element can be repositioned with [setElementPosition](/docs/setElementPosition.md "wikilink") and destroyed with [destroyElement](/destroyElement.md "wikilink").
+Returns a water element if successful, *false* otherwise. The water element can be repositioned with [setElementPosition](/docs/setelementposition.md "wikilink") and destroyed with [destroyElement](/destroyElement.md "wikilink").
 
 Example
 -------
 
 <section name="Client" class="client" show="true">
-Example code for creating a water area to cover the entire San Andreas Map (flood the cities). Also, [setWaterLevel](/docs/setWaterLevel.md "wikilink") is used to raise the existing rivers and lakes.
+Example code for creating a water area to cover the entire San Andreas Map (flood the cities). Also, [setWaterLevel](/docs/setwaterlevel.md "wikilink") is used to raise the existing rivers and lakes.
 
 ``` lua
 -- Setting water properties.

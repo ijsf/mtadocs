@@ -1,4 +1,4 @@
-This event is triggered when a player has been muted by [setPlayerMuted](/docs/setPlayerMuted.md "wikilink").
+This event is triggered when a player has been muted by [setPlayerMuted](/docs/setplayermuted.md "wikilink").
 
 Parameters
 ----------
@@ -13,7 +13,7 @@ The source of this event is the player who got muted.
 Cancel effect
 -------------
 
-If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the player will not be muted.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the player will not be muted.
 
 Example
 -------

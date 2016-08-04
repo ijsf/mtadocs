@@ -1,4 +1,4 @@
-This event is triggered when a sound has just finished downloading. This means the complete sound file is now loaded in the player's RAM, and can be played completely from start to end. Unlike [onClientSoundStream](/docs/onClientSoundStream.md "wikilink"), this event only triggers for file streams, not for live ones since live streams never actually end.
+This event is triggered when a sound has just finished downloading. This means the complete sound file is now loaded in the player's RAM, and can be played completely from start to end. Unlike [onClientSoundStream](/docs/onclientsoundstream.md "wikilink"), this event only triggers for file streams, not for live ones since live streams never actually end.
 
 Parameters
 ----------
@@ -12,7 +12,7 @@ int length
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [sound](/sound.md "wikilink") which just finished downloading.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [sound](/sound.md "wikilink") which just finished downloading.
 
 Example
 -------

@@ -16,12 +16,12 @@ element theAttacker, int theWeapon, float loss, float damagePosX, float damagePo
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [vehicle](/vehicle.md "wikilink") that got damaged.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [vehicle](/vehicle.md "wikilink") that got damaged.
 
 Cancel effect
 -------------
 
-If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the vehicle health won't be reduced. Physical damage to the vehicle will remain.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the vehicle health won't be reduced. Physical damage to the vehicle will remain.
 
 Example
 -------

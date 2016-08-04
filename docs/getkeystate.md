@@ -11,7 +11,7 @@ bool getKeyState ( string keyName )
 
 ### Required Arguments
 
--   **keyName:** The name of the key you're checking state of. See [Key names](/docs/Key_names.md "wikilink").
+-   **keyName:** The name of the key you're checking state of. See [Key names](/docs/key_names.md "wikilink").
 
 ### Returns
 

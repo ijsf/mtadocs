@@ -10,4 +10,4 @@ Serials are the most accurate form of identifying players that MTA has. However,
 Related scripting functions
 ---------------------------
 
-[Category:Scripting\_Concepts](/docs/Category:Scripting_Concepts.md "wikilink")
+[Category:Scripting\_Concepts](/docs/category:scripting_concepts.md "wikilink")

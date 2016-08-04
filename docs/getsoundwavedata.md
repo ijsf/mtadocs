@@ -75,4 +75,4 @@ Changelog
 See Also
 --------
 
-[ar:getSoundWaveData](/docs/ar:getSoundWaveData.md "wikilink")
+[ar:getSoundWaveData](/docs/ar:getsoundwavedata.md "wikilink")

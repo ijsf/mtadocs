@@ -10,7 +10,7 @@ string command
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who tried to execute a command
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who tried to execute a command
 
 Cancel effect
 -------------

@@ -21,7 +21,7 @@ blip createBlipAttachedTo ( element elementToAttachTo [, int icon = 0, int size 
 
 ### Optional Arguments
 
--   **icon:** The icon that the radar blips should be. Valid values can be seen at [Blip Icons](/docs/Blip_Icons.md "wikilink")
+-   **icon:** The icon that the radar blips should be. Valid values can be seen at [Blip Icons](/docs/blip_icons.md "wikilink")
 -   **size:** The size of the radar blip. Only applicable to the *Marker* icon. Default value is 2.
 -   **r:** The amount of red in the blip's color (0 - 255). Only applicable to the *Marker* icon. Default is 255.
 -   **g:** The amount of green in the blip's color (0 - 255). Only applicable to the *Marker* icon. Default is 0.

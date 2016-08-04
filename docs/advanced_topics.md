@@ -19,7 +19,7 @@ First of all, we can't possibly code without thinking how our system going to wo
 
 Why this way? Because it must have an ID to differ from others, a name to be displayed in the game and world position. What we just did was to outline the flag's basic information that our ctf system will require. From that point, we can start coding.
 
-To keep things simple, we'll create a tiny resource for this tutorial, and you should already know [how to spawn a player](/docs/Scripting_Introduction#Creating_a_simple_script.md "wikilink") and [make use of events](/Scripting_Introduction#Events.md "wikilink"). That resource *will spawn people and handle any flag element created by the current running map* and it only needs one server-side script called ctf.lua or just whatever name you want to give to it.
+To keep things simple, we'll create a tiny resource for this tutorial, and you should already know [how to spawn a player](/docs/scripting_introduction#creating_a_simple_script.md "wikilink") and [make use of events](/Scripting_Introduction#Events.md "wikilink"). That resource *will spawn people and handle any flag element created by the current running map* and it only needs one server-side script called ctf.lua or just whatever name you want to give to it.
 
 With the player spawn code in the script, lets add an custom event that happens when someone pick a flag up, called *onFlagPickup*. It may be defined anywhere in your script, but it should already exists if you want to use it (i.e. addEventHandler). So, our script will look like this:
 

@@ -12,7 +12,7 @@ element editBox
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the editbox which enter was pressed on.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the editbox which enter was pressed on.
 
 Example
 -------
@@ -28,7 +28,7 @@ addEventHandler( "onClientGUIAccepted", editBox,
 )
 ```
 
-[pl:onClientGUIAccepted](/docs/pl:onClientGUIAccepted.md "wikilink")
+[pl:onClientGUIAccepted](/docs/pl:onclientguiaccepted.md "wikilink")
 
 See Also
 --------

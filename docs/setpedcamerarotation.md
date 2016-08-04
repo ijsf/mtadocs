@@ -1,4 +1,4 @@
-This function sets the camera rotation of a ped, e.g. where its camera will look at. Don't confuse this with [getCameraMatrix](/docs/getCameraMatrix.md "wikilink"), because that function is designed for fixed (scripted) camera moves.
+This function sets the camera rotation of a ped, e.g. where its camera will look at. Don't confuse this with [getCameraMatrix](/docs/getcameramatrix.md "wikilink"), because that function is designed for fixed (scripted) camera moves.
 
 Syntax
 ------

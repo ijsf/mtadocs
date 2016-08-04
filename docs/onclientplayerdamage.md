@@ -14,12 +14,12 @@ element attacker, int weapon, int bodypart [, float loss ]
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that got damaged. (Streamed in players only)
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that got damaged. (Streamed in players only)
 
 Cancel effect
 -------------
 
-If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), then any damaging effects to the local player will cease.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), then any damaging effects to the local player will cease.
 
 Example
 -------

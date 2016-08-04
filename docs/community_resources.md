@@ -1,4 +1,4 @@
-This page lists PHP calls that MTA Community allows you to use in your scripts, via [callRemote](/docs/callRemote.md "wikilink").
+This page lists PHP calls that MTA Community allows you to use in your scripts, via [callRemote](/docs/callremote.md "wikilink").
 
 community.mtasa.com/mta/resources.php
 -------------------------------------
@@ -94,4 +94,4 @@ end
 ```
 
 </section>
-[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")

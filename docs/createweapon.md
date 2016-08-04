@@ -1,4 +1,4 @@
-Creates a [custom weapon](/docs/Element/Weapon.md "wikilink") that can fire bullets. **Do not confuse this with player held weapons**.
+Creates a [custom weapon](/docs/element/weapon.md "wikilink") that can fire bullets. **Do not confuse this with player held weapons**.
 
 Syntax
 ------
@@ -17,7 +17,7 @@ weapon createWeapon ( string theType, float x, float y, float z )
 
 ### Returns
 
-Returns a [custom weapon](/docs/Element/Weapon.md "wikilink") element, which represents a weapon floating at that position.
+Returns a [custom weapon](/docs/element/weapon.md "wikilink") element, which represents a weapon floating at that position.
 
 Requirements
 ------------
@@ -45,4 +45,4 @@ addCommandHandler("createminigun", createMinigunWeapon)
 See also
 --------
 
-[ru:createWeapon](/docs/ru:createWeapon.md "wikilink")
+[ru:createWeapon](/docs/ru:createweapon.md "wikilink")

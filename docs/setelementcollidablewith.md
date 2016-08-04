@@ -1,10 +1,10 @@
 This function can be used to set an element to collide with another element. An element with collisions disabled does not interact physically with the other element.
 **Note:** You can only use this function with the element types listed below.
 
--   [Player](/docs/Player.md "wikilink")
--   [Ped](/docs/Ped.md "wikilink")
--   [Vehicle](/docs/Vehicle.md "wikilink")
--   [Object](/docs/Object.md "wikilink")
+-   [Player](/docs/player.md "wikilink")
+-   [Ped](/docs/ped.md "wikilink")
+-   [Vehicle](/docs/vehicle.md "wikilink")
+-   [Object](/docs/object.md "wikilink")
 
 Syntax
 ------

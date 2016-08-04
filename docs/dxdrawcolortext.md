@@ -1,6 +1,6 @@
-Draws a string of text colored with hex codes (in \#RRGGBB format) on the screen for one frame. In order for the text to stay visible continuously, you need to call this function with the same parameters on each frame update (see [onClientRender](/docs/onClientRender.md "wikilink")).
+Draws a string of text colored with hex codes (in \#RRGGBB format) on the screen for one frame. In order for the text to stay visible continuously, you need to call this function with the same parameters on each frame update (see [onClientRender](/docs/onclientrender.md "wikilink")).
 
-It works the same as [dxDrawText](/docs/dxDrawText.md "wikilink"), except word-wrapping (not implemented yet).
+It works the same as [dxDrawText](/docs/dxdrawtext.md "wikilink"), except word-wrapping (not implemented yet).
 
 Syntax
 ------
@@ -22,7 +22,7 @@ void dxDrawColorText ( string text, int left, int top [, int right=left, int bot
 -   **bottom:** the absolute Y coordinate of the bottom side of the text bounding box. Used for text aligning.
 -   **color:** the color of the text, a value produced by [tocolor](/docs/tocolor.md "wikilink"). **Note**: alpha value of this color will be used for the whole string.
 -   **scale:** the size of the text.
--   **font:** Either a custom [DX font](/docs/DX_font.md "wikilink") element or the name of a built-in DX font:
+-   **font:** Either a custom [DX font](/docs/dx_font.md "wikilink") element or the name of a built-in DX font:
 
 -   **alignX:** horizontal alignment of the text within the bounding box. Can be **“left”**, **“center”** or **“right”**.
 -   **alignY:** vertical alignment of the text within the bounding box. Can be **“top”**, **“center”** or **“bottom”**.

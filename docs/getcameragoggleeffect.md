@@ -9,7 +9,7 @@ string getCameraGoggleEffect (  )
 
 ### Returns
 
--   [String](/docs/String.md "wikilink") indicating the current camera goggle effect. Their meanings can be seen below.
+-   [String](/docs/string.md "wikilink") indicating the current camera goggle effect. Their meanings can be seen below.
 
 Example
 -------

@@ -1,4 +1,4 @@
-This function parses a [JSON](/docs/JSON.md "wikilink") formatted string into variables. You can use [toJSON](/toJSON.md "wikilink") to encode variables into a JSON string that can be read by this function.
+This function parses a [JSON](/docs/json.md "wikilink") formatted string into variables. You can use [toJSON](/toJSON.md "wikilink") to encode variables into a JSON string that can be read by this function.
 
 Syntax
 ------

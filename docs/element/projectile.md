@@ -1,4 +1,4 @@
-The projectile class represents the projectiles of certain weapons that are created when the weapon is fired. Alternatively these can be created using [createProjectile](/docs/createProjectile.md "wikilink")
+The projectile class represents the projectiles of certain weapons that are created when the weapon is fired. Alternatively these can be created using [createProjectile](/docs/createprojectile.md "wikilink")
 
 -   '''16: Grenade
 -   '''17: Tear Gas Grenade
@@ -12,4 +12,4 @@ The projectile class represents the projectiles of certain weapons that are crea
 See also
 --------
 
-[Category:Element Types](/docs/Category:Element_Types.md "wikilink")
+[Category:Element Types](/docs/category:element_types.md "wikilink")

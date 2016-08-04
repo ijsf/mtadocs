@@ -46,4 +46,4 @@ addCommandHandler ( "weapon", consoleGiveWeapon )
 See Also
 --------
 
-[ru:getWeaponIDFromName](/docs/ru:getWeaponIDFromName.md "wikilink")
+[ru:getWeaponIDFromName](/docs/ru:getweaponidfromname.md "wikilink")

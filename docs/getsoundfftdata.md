@@ -15,7 +15,7 @@ Syntax
 
 ### Required Arguments
 
--   **sound:** a sound element that is created using [playSound](/docs/playSound.md "wikilink") or [playSound3D](/playSound3D.md "wikilink"). Streams are also supported
+-   **sound:** a sound element that is created using [playSound](/docs/playsound.md "wikilink") or [playSound3D](/playSound3D.md "wikilink"). Streams are also supported
 -   **iSamples:** allowed samples are 256, 512, 1024, 2048, 4096, 8192 and 16384.
 
 ### Optional Arguments
@@ -85,4 +85,4 @@ Changelog
 See Also
 --------
 
-[ES:getSoundFFTData](/docs/ES:getSoundFFTData.md "wikilink") [AR:getSoundFFTData](/AR:getSoundFFTData.md "wikilink")
+[ES:getSoundFFTData](/docs/es:getsoundfftdata.md "wikilink") [AR:getSoundFFTData](/AR:getSoundFFTData.md "wikilink")

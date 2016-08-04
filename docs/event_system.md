@@ -3,7 +3,7 @@ The event system is at the core of MTA scripting. Events work closely in conjunc
 Event handlers
 --------------
 
-To use the event system, you attach event handlers to elements in the element tree using [addEventHandler](/docs/addEventHandler.md "wikilink"). When you do this, your function will get triggered for all the events triggered on that element, it's parents (and their parents, etc.) and it's children (and their children). As such, an event handler attached to the *root* element will be triggered when an event occurs for any element. As a consequence you should generally use as specific a handler as you can. If you wish to just see when the player enters a specific marker, just attach the event handler to that marker.
+To use the event system, you attach event handlers to elements in the element tree using [addEventHandler](/docs/addeventhandler.md "wikilink"). When you do this, your function will get triggered for all the events triggered on that element, it's parents (and their parents, etc.) and it's children (and their children). As such, an event handler attached to the *root* element will be triggered when an event occurs for any element. As a consequence you should generally use as specific a handler as you can. If you wish to just see when the player enters a specific marker, just attach the event handler to that marker.
 
 Each event handler has three 'hidden' variables:
 
@@ -25,7 +25,7 @@ It is *important* to note that events follow the element hierachy. All events ar
 -   You can create 'dummy' elements to catch events from a group of child elements
 -   You can use dummy elements specified in a .map file (e.g. <flag>) and create 'real' representations for them (e.g. objects) and make these real elements children of the dummy element. Event handlers can then be attached to the dummy element and it will receive all the events of the real elements. This is useful for when one resource manages the representation of the element (creating the objects, for example), while another wants to handle special events. This could be a map resource that wants to handle a flag being captured in a specific way - the map resource would (generally) not be aware of the way the flag is represented. This doesn't matter as it can just attach handlers to it's dummy flag element while the other gamemode resource can handle the representation.
 
-The function you attached to an event gets called and passed a bunch of arguments. These arguments are event-specific. Each event has specific parameters, for instance [onClientGUIClick](/docs/onClientGUIClick.md "wikilink") has 4 parameters, which are:
+The function you attached to an event gets called and passed a bunch of arguments. These arguments are event-specific. Each event has specific parameters, for instance [onClientGUIClick](/docs/onclientguiclick.md "wikilink") has 4 parameters, which are:
 
 ``` lua
 string button, string state, int absoluteX, int absoluteY
@@ -36,18 +36,18 @@ The function you attached to this event will be passed these parameters as argum
 Built in events
 ---------------
 
-MTA has a number of built in events. These are listed on the pages [Client Scripting Events](/docs/Client_Scripting_Events.md "wikilink") and [Scripting Events](/Scripting_Events.md "wikilink").
+MTA has a number of built in events. These are listed on the pages [Client Scripting Events](/docs/client_scripting_events.md "wikilink") and [Scripting Events](/Scripting_Events.md "wikilink").
 
 Custom events
 -------------
 
-You can create your own events that can be triggered across all resources. This is an important way to communicate with other resources and allow them to hook into your code. To add your own custom event, just call the [addEvent](/docs/addEvent.md "wikilink") function. You can then use the [triggerEvent](/triggerEvent.md "wikilink") function to trigger that event any time you want - either using a timer, or based on a more general event.
+You can create your own events that can be triggered across all resources. This is an important way to communicate with other resources and allow them to hook into your code. To add your own custom event, just call the [addEvent](/docs/addevent.md "wikilink") function. You can then use the [triggerEvent](/triggerEvent.md "wikilink") function to trigger that event any time you want - either using a timer, or based on a more general event.
 
-For example, you could be making a Capture the Flag game mode and want to trigger an event when a player captures the flag. You could do this by attaching a event handler to the standard MTA [onMarkerHit](/docs/onMarkerHit.md "wikilink") event and checking that the player entering the marker has the flag. if they do, you can then trigger your more specific *onFlagCaptured* event and other resources could handle this as they please.
+For example, you could be making a Capture the Flag game mode and want to trigger an event when a player captures the flag. You could do this by attaching a event handler to the standard MTA [onMarkerHit](/docs/onmarkerhit.md "wikilink") event and checking that the player entering the marker has the flag. if they do, you can then trigger your more specific *onFlagCaptured* event and other resources could handle this as they please.
 
 Canceling
 ---------
 
-Events can be canceled with [cancelEvent](/docs/cancelEvent.md "wikilink"). This can have a variety of effects, but in general this means that the server will not perform whatever action it would usually do. For example, canceling [onPickupUse](/onPickupUse.md "wikilink") would prevent a player being given what they tried to pick up, canceling [onVehicleStartEnter](/onVehicleStartEnter.md "wikilink") would prevent the player entering the vehicle. You can check if the currently active event has been canceled using [wasEventCanceled](/wasEventCanceled.md "wikilink"). It's important to note that canceling event *does not* prevent other event handlers being triggered.
+Events can be canceled with [cancelEvent](/docs/cancelevent.md "wikilink"). This can have a variety of effects, but in general this means that the server will not perform whatever action it would usually do. For example, canceling [onPickupUse](/onPickupUse.md "wikilink") would prevent a player being given what they tried to pick up, canceling [onVehicleStartEnter](/onVehicleStartEnter.md "wikilink") would prevent the player entering the vehicle. You can check if the currently active event has been canceled using [wasEventCanceled](/wasEventCanceled.md "wikilink"). It's important to note that canceling event *does not* prevent other event handlers being triggered.
 
-[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink") [es:Sistema de eventos](/es:Sistema_de_eventos.md "wikilink")
+[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [es:Sistema de eventos](/es:Sistema_de_eventos.md "wikilink")

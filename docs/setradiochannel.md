@@ -41,4 +41,4 @@ Issues
 See Also
 --------
 
-[AR:setRadioChannel](/docs/AR:setRadioChannel.md "wikilink")
+[AR:setRadioChannel](/docs/ar:setradiochannel.md "wikilink")

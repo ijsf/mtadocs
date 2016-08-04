@@ -5,7 +5,7 @@ This function find useful in the form of loading may be able to use guiCreatePro
 Syntax
 ------
 
-[thumb|An example of how dxDrawLoading function works in practice.](/docs/File:Mta-screen_2015-08-28_10-47-28.png.md "wikilink")
+[thumb|An example of how dxDrawLoading function works in practice.](/docs/file:mta-screen_2015-08-28_10-47-28.png.md "wikilink")
 
 ``` lua
 bool dxDrawLoading ( int posX, int posY, int width , int height , int posX2 , int posY2 [ int size = 1.00 , int color = black , int color2 = green ,  int time  = 5000 ] )

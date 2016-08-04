@@ -23,7 +23,7 @@ element dxCreateTexture ( int width, int height [, string textureFormat = "argb"
 
 or
 
--   **pixels:** [Pixels](/docs/Texture_pixels.md "wikilink") containing image data. ('plain', 'jpeg' or 'png' pixels can be used here)
+-   **pixels:** [Pixels](/docs/texture_pixels.md "wikilink") containing image data. ('plain', 'jpeg' or 'png' pixels can be used here)
 
 or
 

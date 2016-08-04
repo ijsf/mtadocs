@@ -35,4 +35,4 @@ outputChatBox ( "The flag's ID is: " .. idstring ) -- output: The flag's ID is: 
 See Also
 --------
 
-[de:GetElementID](/docs/de:GetElementID.md "wikilink")
+[de:GetElementID](/docs/de:getelementid.md "wikilink")

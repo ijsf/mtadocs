@@ -15,7 +15,7 @@ string button, string state, int absoluteX, int absoluteY
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the GUI element that was clicked.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the GUI element that was clicked.
 
 **Note:**If you attach a GUI element to this event, when you click it's parent it will trigger too!
 
@@ -48,7 +48,7 @@ function outputEditBox ( button )
 end
 ```
 
-[pl:onClientGUIClick](/docs/pl:onClientGUIClick.md "wikilink")
+[pl:onClientGUIClick](/docs/pl:onclientguiclick.md "wikilink")
 
 See Also
 --------

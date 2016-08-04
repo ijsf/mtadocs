@@ -1,4 +1,4 @@
-Matrices are one of the most powerful features of MTA [OOP](/docs/OOP.md "wikilink"). We did have a presence of Matrices before with [getElementMatrix](/getElementMatrix.md "wikilink"), but we were given an ugly disgusting table to play with. Now, with the new Matrix class, we can make and magically manipulate Matrices.
+Matrices are one of the most powerful features of MTA [OOP](/docs/oop.md "wikilink"). We did have a presence of Matrices before with [getElementMatrix](/getElementMatrix.md "wikilink"), but we were given an ugly disgusting table to play with. Now, with the new Matrix class, we can make and magically manipulate Matrices.
 
 Methods
 -------
@@ -78,7 +78,7 @@ outputChatBox("x: " .. position:getX() .. ", y: " .. position:getY() .. ", z:" .
 Using Matrices
 --------------
 
-Say you wanted to create a bin - object 1337 - two units in front of a player. You don't want to manually do trigonometry and you don't want to play with the complicated tables. You just want to get the position two units in front of the player whilst taking into account the rotation of the player. You only need to use **[Matrix.getForward](/docs/Matrix#getForward.md "wikilink")**, **[Matrix.getPosition](/Matrix#getPosition.md "wikilink")** and **[getElementMatrix](/getElementMatrix.md "wikilink")**. It's just:
+Say you wanted to create a bin - object 1337 - two units in front of a player. You don't want to manually do trigonometry and you don't want to play with the complicated tables. You just want to get the position two units in front of the player whilst taking into account the rotation of the player. You only need to use **[Matrix.getForward](/docs/matrix#getforward.md "wikilink")**, **[Matrix.getPosition](/Matrix#getPosition.md "wikilink")** and **[getElementMatrix](/getElementMatrix.md "wikilink")**. It's just:
 
 ``` lua
 Object ( 1337, player.matrix.position + player.matrix.forward * 2 )
@@ -107,4 +107,4 @@ local positionBelow = {offX-pX, offY-pY, offZ-pZ}
 local positionBelow = vehicle.position - vehicle.matrix.up
 ```
 
-[ru:Matrix](/docs/ru:Matrix.md "wikilink") [Category:OOP](/Category:OOP.md "wikilink")
+[ru:Matrix](/docs/ru:matrix.md "wikilink") [Category:OOP](/Category:OOP.md "wikilink")

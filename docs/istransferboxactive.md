@@ -1,6 +1,6 @@
 This function returns whether the file downloading dialog box is active or not. This appears when a resource is started and the client doesn't have all the files that resource requires the client to have.
 
-It's important to note that resources aren't started on the client until they're completely downloaded, so a resource cannot use this function to detect if it's own files are downloaded. A client-side resource triggers the [onClientResourceStart](/docs/onClientResourceStart.md "wikilink") event when the files it requires are downloaded.
+It's important to note that resources aren't started on the client until they're completely downloaded, so a resource cannot use this function to detect if it's own files are downloaded. A client-side resource triggers the [onClientResourceStart](/docs/onclientresourcestart.md "wikilink") event when the files it requires are downloaded.
 
 Syntax
 ------

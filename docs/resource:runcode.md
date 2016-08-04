@@ -22,4 +22,4 @@ This will load your code chunk as a new function and calls it, so returning its 
 Web interface
 -------------
 
-A http interface page is also provided where admins can run server side snippets in a more convenient way. It uses [CodePress](http://codepress.sourceforge.net/) for syntax highlighting, including all available Lua and MTA functions. [ru:<Resource:Runcode>](/docs/ru:Resource:Runcode.md "wikilink")
+A http interface page is also provided where admins can run server side snippets in a more convenient way. It uses [CodePress](http://codepress.sourceforge.net/) for syntax highlighting, including all available Lua and MTA functions. [ru:<Resource:Runcode>](/docs/ru:resource:runcode.md "wikilink")

@@ -3,7 +3,7 @@ The **GTA:SA Streaming Garbage Collection system** monitors the usage of game me
 Active Streaming Entities
 -------------------------
 
-[200px|thumb|right|Full potencial of GTA:SA streaming.](/docs/File:chillahad_farclip.png.md "wikilink") Objects, buildings and dummies that have their RenderWare resources loaded are added into the **active entity garbage collector**. Once it runs, it will destroy the RenderWare objects of all registered entities that are **out of sight** and **far away**. If the model reference count has reached 0, the system will free the model resource. Natively, the engine can **handle 1000 entities** in its sorted container (CRenderChainInterface <streamingChainInfo>). If allocation of a container node fails, the requesting entity does destroy its RenderWare data. Hence, natively, only 1000 objects, buildings or dummies can be rendered at a time. The failure to allocate container nodes has often been seen at high draw distances (a.k.a. the **blinking building bug**).
+[200px|thumb|right|Full potencial of GTA:SA streaming.](/docs/file:chillahad_farclip.png.md "wikilink") Objects, buildings and dummies that have their RenderWare resources loaded are added into the **active entity garbage collector**. Once it runs, it will destroy the RenderWare objects of all registered entities that are **out of sight** and **far away**. If the model reference count has reached 0, the system will free the model resource. Natively, the engine can **handle 1000 entities** in its sorted container (CRenderChainInterface <streamingChainInfo>). If allocation of a container node fails, the requesting entity does destroy its RenderWare data. Hence, natively, only 1000 objects, buildings or dummies can be rendered at a time. The failure to allocate container nodes has often been seen at high draw distances (a.k.a. the **blinking building bug**).
 
 The MTA developer [ccw](/docs/user:ccw.md "wikilink") is the person who first found the blinking building bug.
 
@@ -28,11 +28,11 @@ The draw distance bug has been decimated in MTA:BLUE. The maximum number of mana
 
 In MTA:Eir, the drawing distance bug has been fixed, too. While the hardcoded maximum has been left at 1000 entities inside of the garbage collection system, when the limit has been reached, the system allocates new nodes into the sorted container. There is theoretically no limit to object, dummy and building streaming this way.
 
-Multiple options have been added through scripting functions to change the streaming node allocation behavior. The flickering is no longer a bug, but a feature that can be disabled. Using [scripting functions](/docs/MTA:Eir/New_Scripting_Functions.md "wikilink") Lua scripts can retrieve the amount of nodes allocated and free to be allocated.
+Multiple options have been added through scripting functions to change the streaming node allocation behavior. The flickering is no longer a bug, but a feature that can be disabled. Using [scripting functions](/docs/mta:eir/new_scripting_functions.md "wikilink") Lua scripts can retrieve the amount of nodes allocated and free to be allocated.
 
 References
 ----------
 
 -   <http://gtaforums.com/topic/573478-iiivcsa-project-2dfx> - pioneers of draw distance fixing
 
-[ru:GTA:SA\_Streaming\_Garbage\_Collection](/docs/ru:GTA:SA_Streaming_Garbage_Collection.md "wikilink") [Category: Development](/Category:_Development.md "wikilink")
+[ru:GTA:SA\_Streaming\_Garbage\_Collection](/docs/ru:gta:sa_streaming_garbage_collection.md "wikilink") [Category: Development](/Category:_Development.md "wikilink")

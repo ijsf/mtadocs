@@ -1,4 +1,4 @@
-This function creates a [radio button](/docs/Element/GUI/Radio_button.md "wikilink").
+This function creates a [radio button](/docs/element/gui/radio_button.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ element guiCreateRadioButton ( float x, float y, float width, float height, stri
 
 ### Required Arguments
 
-[frame|Example GUI radio buttons.](/docs/Image:gui-radiobutton.png.md "wikilink")
+[frame|Example GUI radio buttons.](/docs/image:gui-radiobutton.png.md "wikilink")
 
 -   **x:** A float of the 2D x position of the radio button on a player's screen. This is affected by the *relative* argument.
 -   **y:** A float of the 2D y position of the radio button on a player's screen. This is affected by the *relative* argument.

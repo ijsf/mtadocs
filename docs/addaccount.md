@@ -105,4 +105,4 @@ addCommandHandler ( "register", registerPlayer ) -- add the command handler
 See Also
 --------
 
-[ar:addAcount](/docs/ar:addAcount.md "wikilink") [es:addAcount](/es:addAcount.md "wikilink") [ru:addAccount](/ru:addAccount.md "wikilink") [pl:addAccount](/pl:addAccount.md "wikilink")
+[ar:addAcount](/docs/ar:addacount.md "wikilink") [es:addAcount](/es:addAcount.md "wikilink") [ru:addAccount](/ru:addAccount.md "wikilink") [pl:addAccount](/pl:addAccount.md "wikilink")

@@ -1,4 +1,4 @@
-Gets whether the traffic lights are currently locked or not. If the lights are locked, it means they won't change unless you do [setTrafficLightState](/docs/setTrafficLightState.md "wikilink").
+Gets whether the traffic lights are currently locked or not. If the lights are locked, it means they won't change unless you do [setTrafficLightState](/docs/settrafficlightstate.md "wikilink").
 
 Syntax
 ------
@@ -31,4 +31,4 @@ addCommandHandler("toggletrafficlights",toggleTrafficLights)
 See Also
 --------
 
-[ru:areTrafficLightsLocked](/docs/ru:areTrafficLightsLocked.md "wikilink")
+[ru:areTrafficLightsLocked](/docs/ru:aretrafficlightslocked.md "wikilink")

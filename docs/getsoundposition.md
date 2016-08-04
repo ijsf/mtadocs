@@ -32,4 +32,4 @@ Changelog
 See Also
 --------
 
-[AR:getSoundPosition](/docs/AR:getSoundPosition.md "wikilink")
+[AR:getSoundPosition](/docs/ar:getsoundposition.md "wikilink")

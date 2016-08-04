@@ -16,4 +16,4 @@ Returns a dxRootPane.
 See Also
 --------
 
-[Back to dxGUI page](/docs/dxGUI.md "wikilink")
+[Back to dxGUI page](/docs/dxgui.md "wikilink")

@@ -1,4 +1,4 @@
-Please use [setPedWeaponSlot](/docs/setPedWeaponSlot.md "wikilink")
+Please use [setPedWeaponSlot](/docs/setpedweaponslot.md "wikilink")
 
 This function sets the player's weapon slot. This affects the current weapon.
 

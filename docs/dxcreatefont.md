@@ -1,8 +1,8 @@
-This function creates a [DX font](/docs/DX_font.md "wikilink") element that can be used in [dxDrawText](/dxDrawText.md "wikilink"). Successful font creation is not guaranteed, and may fail due to hardware or memory limitations.
+This function creates a [DX font](/docs/dx_font.md "wikilink") element that can be used in [dxDrawText](/dxDrawText.md "wikilink"). Successful font creation is not guaranteed, and may fail due to hardware or memory limitations.
 
-To see if creation is likely to fail, use [dxGetStatus](/docs/dxGetStatus.md "wikilink"). (When **VideoMemoryFreeForMTA** is zero, failure *is* guaranteed.)
+To see if creation is likely to fail, use [dxGetStatus](/docs/dxgetstatus.md "wikilink"). (When **VideoMemoryFreeForMTA** is zero, failure *is* guaranteed.)
 
-##### It is highly recommended that [dxSetTestMode](/docs/dxSetTestMode.md "wikilink") is used when writing and testing scripts using dxCreateFont.
+##### It is highly recommended that [dxSetTestMode](/docs/dxsettestmode.md "wikilink") is used when writing and testing scripts using dxCreateFont.
 
 Syntax
 ------
@@ -30,7 +30,7 @@ element dxCreateFont ( string filepath[, int size=9, bool bold=false, string qua
 
 ### Returns
 
-Returns a [DX font](/docs/DX_font.md "wikilink") element if successful, *false* if invalid arguments were passed to the function, or there is insufficient resources available.
+Returns a [DX font](/docs/dx_font.md "wikilink") element if successful, *false* if invalid arguments were passed to the function, or there is insufficient resources available.
 
 **You should always check to see if this function has returned false.**
 

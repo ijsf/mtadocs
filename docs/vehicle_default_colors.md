@@ -15,7 +15,7 @@ Example
 -------
 
 In this example, vehicle ID 445 is being set colors for the server to use when the vehicle is created, you can add your own by adding new ones under it or anywhere inside this file as long as the syntax follows the example above.
-[Vehicle Color Pallete](/docs/Vehicle_Colors.md "wikilink")
+[Vehicle Color Pallete](/docs/vehicle_colors.md "wikilink")
 
 <table>
 <tbody>

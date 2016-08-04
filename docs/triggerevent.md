@@ -22,8 +22,8 @@ bool triggerEvent ( string eventName, element baseElement, [ var argument1, ... 
 ### Returns
 
 -   Returns **nil** if the arguments are invalid or the event could not be found.
--   Returns **true** if the event was triggered successfully, and *was not* cancelled using [cancelEvent](/docs/cancelEvent.md "wikilink").
--   Returns **false** if the event was triggered successfully, and *was* cancelled using [cancelEvent](/docs/cancelEvent.md "wikilink").
+-   Returns **true** if the event was triggered successfully, and *was not* cancelled using [cancelEvent](/docs/cancelevent.md "wikilink").
+-   Returns **false** if the event was triggered successfully, and *was* cancelled using [cancelEvent](/docs/cancelevent.md "wikilink").
 
 Example
 -------
@@ -50,4 +50,4 @@ triggerEvent ( "onSpecialEvent", root, "test" )
 See Also
 --------
 
-[ru:triggerEvent](/docs/ru:triggerEvent.md "wikilink")
+[ru:triggerEvent](/docs/ru:triggerevent.md "wikilink")

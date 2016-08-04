@@ -15,8 +15,8 @@ int getElementModel ( element theElement )
 
 Returns the model ID if successful, *false* otherwise.
 
--   For players/peds: A GTASA player model (skin) ID. See [Character Skins](/docs/Character_Skins.md "wikilink").
--   For vehicles: The [vehicle ID](/docs/Vehicle_IDs.md "wikilink") of the vehicle.
+-   For players/peds: A GTASA player model (skin) ID. See [Character Skins](/docs/character_skins.md "wikilink").
+-   For vehicles: The [vehicle ID](/docs/vehicle_ids.md "wikilink") of the vehicle.
 -   For objects: An [int](/docs/int.md "wikilink") specifying the model id.
 
 Example

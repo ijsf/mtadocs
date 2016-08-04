@@ -32,4 +32,4 @@ Changelog
 See Also
 --------
 
-[ar:getSoundLength](/docs/ar:getSoundLength.md "wikilink")
+[ar:getSoundLength](/docs/ar:getsoundlength.md "wikilink")

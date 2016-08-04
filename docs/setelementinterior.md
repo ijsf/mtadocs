@@ -64,4 +64,4 @@ addCommandHandler ( "interior", interior )
 See Also
 --------
 
-[de:setElementInterior](/docs/de:setElementInterior.md "wikilink")
+[de:setElementInterior](/docs/de:setelementinterior.md "wikilink")

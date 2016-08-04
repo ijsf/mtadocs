@@ -1,4 +1,4 @@
-Please use [setElementFrozen](/docs/setElementFrozen.md "wikilink")
+Please use [setElementFrozen](/docs/setelementfrozen.md "wikilink")
 
 This function freezes (or un-freezes) a pedestrian, meaning they cannot move, jump, aim, shoot, etcetera.
 
@@ -33,4 +33,4 @@ addCommandHandler ( "togglefreeze", toggleFreeze )
 See Also
 --------
 
-[ru:setPedFrozen](/docs/ru:setPedFrozen.md "wikilink")
+[ru:setPedFrozen](/docs/ru:setpedfrozen.md "wikilink")

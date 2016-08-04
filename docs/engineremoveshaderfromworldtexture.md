@@ -10,7 +10,7 @@ bool engineRemoveShaderFromWorldTexture ( element shader, string textureName [, 
 ### Required Arguments
 
 -   **shader:** The shader which is to be removed
--   **textureName:** The name of the world texture to remove the shader from. It should be exactly the same string as used with [engineApplyShaderToWorldTexture](/docs/engineApplyShaderToWorldTexture.md "wikilink") when the shader was initially applied.
+-   **textureName:** The name of the world texture to remove the shader from. It should be exactly the same string as used with [engineApplyShaderToWorldTexture](/docs/engineapplyshadertoworldtexture.md "wikilink") when the shader was initially applied.
 
 ### Optional Arguments
 

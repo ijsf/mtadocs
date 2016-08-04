@@ -1,4 +1,4 @@
-This function provides an alternative way to load XML files to [getResourceConfig](/docs/getResourceConfig.md "wikilink"). This function loads an XML file and returns the node by specifying a specific file path, while [getResourceConfig](/getResourceConfig.md "wikilink") allows for loading an XML file from a resource.
+This function provides an alternative way to load XML files to [getResourceConfig](/docs/getresourceconfig.md "wikilink"). This function loads an XML file and returns the node by specifying a specific file path, while [getResourceConfig](/getResourceConfig.md "wikilink") allows for loading an XML file from a resource.
 
 Syntax
 ------
@@ -32,4 +32,4 @@ node = xmlLoadFile ( ":ctv/settings.xml" )
 See Also
 --------
 
-[ru:xmlLoadFile](/docs/ru:xmlLoadFile.md "wikilink")
+[ru:xmlLoadFile](/docs/ru:xmlloadfile.md "wikilink")

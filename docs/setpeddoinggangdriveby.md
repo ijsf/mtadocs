@@ -42,4 +42,4 @@ addCommandHandler ( "driveby", setDoingDriveby )
 See Also
 --------
 
-[ru:setPedDoingGangDriveby](/docs/ru:setPedDoingGangDriveby.md "wikilink")
+[ru:setPedDoingGangDriveby](/docs/ru:setpeddoinggangdriveby.md "wikilink")

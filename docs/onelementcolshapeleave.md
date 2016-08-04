@@ -13,7 +13,7 @@ colshape theColShape, bool matchingDimension
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") or [vehicle](/vehicle.md "wikilink") that left colshape.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") or [vehicle](/vehicle.md "wikilink") that left colshape.
 
 Example
 -------

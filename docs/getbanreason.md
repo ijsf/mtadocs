@@ -40,4 +40,4 @@ addEventHandler("onBan",getRootElement(),outputBan) -- When a player is banned t
 See Also
 --------
 
-[ru:getBanReason](/docs/ru:getBanReason.md "wikilink")
+[ru:getBanReason](/docs/ru:getbanreason.md "wikilink")

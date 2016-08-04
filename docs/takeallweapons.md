@@ -28,4 +28,4 @@ outputChatBox ( "Weapons are not permitted!" ) --tell the players why they lost 
 See Also
 --------
 
-[ru:takeAllWeapons](/docs/ru:takeAllWeapons.md "wikilink")
+[ru:takeAllWeapons](/docs/ru:takeallweapons.md "wikilink")

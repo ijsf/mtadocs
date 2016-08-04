@@ -19,7 +19,7 @@ Returns true if the progress was set, false otherwise.
 Example
 -------
 
-This example sets the progress of a bar called “somebar” created with [guiCreateProgressBar](/docs/guiCreateProgressBar.md "wikilink"), and outputs it to the chatbox.
+This example sets the progress of a bar called “somebar” created with [guiCreateProgressBar](/docs/guicreateprogressbar.md "wikilink"), and outputs it to the chatbox.
 
 ``` lua
 -- If the progressbar exsist then

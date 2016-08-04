@@ -1,4 +1,4 @@
-This function returns a table of the original vehicle handling. Use [getVehicleHandling](/docs/getVehicleHandling.md "wikilink") if you wish to get the current handling of a vehicle, or [getModelHandling](/getModelHandling.md "wikilink") for a specific vehicle model.
+This function returns a table of the original vehicle handling. Use [getVehicleHandling](/docs/getvehiclehandling.md "wikilink") if you wish to get the current handling of a vehicle, or [getModelHandling](/getModelHandling.md "wikilink") for a specific vehicle model.
 
 Syntax
 ------

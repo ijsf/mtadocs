@@ -33,4 +33,4 @@ end
 See Also
 --------
 
-[ar:getSoundEffects](/docs/ar:getSoundEffects.md "wikilink") [de:getSoundEffects](/de:getSoundEffects.md "wikilink")
+[ar:getSoundEffects](/docs/ar:getsoundeffects.md "wikilink") [de:getSoundEffects](/de:getSoundEffects.md "wikilink")

@@ -1,4 +1,4 @@
-Please use [removeBan](/docs/removeBan.md "wikilink")
+Please use [removeBan](/docs/removeban.md "wikilink")
 
 This function will unban the specified IP.
 

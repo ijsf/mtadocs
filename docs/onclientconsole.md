@@ -1,4 +1,4 @@
-This event is triggered when the local player enters text in the console. Note that, if you want to add custom console commands, it is easier to use the [addCommandHandler](/docs/addCommandHandler.md "wikilink") function.
+This event is triggered when the local player enters text in the console. Note that, if you want to add custom console commands, it is easier to use the [addCommandHandler](/docs/addcommandhandler.md "wikilink") function.
 
 Parameters
 ----------

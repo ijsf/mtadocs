@@ -33,4 +33,4 @@ addCommandHandler("setdistance", distanceFunc)
 See Also
 --------
 
-[AR:setSoundMinDistance](/docs/AR:setSoundMinDistance.md "wikilink")
+[AR:setSoundMinDistance](/docs/ar:setsoundmindistance.md "wikilink")

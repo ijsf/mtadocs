@@ -1,4 +1,4 @@
-Differing from [dxDrawImage](/docs/dxDrawImage.md "wikilink"), this function only draws a part of an image on the screen for a single frame. In order for the image to stay visible continuously, you need to call this function with the same parameters on each frame update (see [onClientRender](/onClientRender.md "wikilink")).
+Differing from [dxDrawImage](/docs/dxdrawimage.md "wikilink"), this function only draws a part of an image on the screen for a single frame. In order for the image to stay visible continuously, you need to call this function with the same parameters on each frame update (see [onClientRender](/onClientRender.md "wikilink")).
 
 Syntax
 ------

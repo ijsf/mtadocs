@@ -23,7 +23,7 @@ The function which you wish to call **must** first be exported within the resour
 
 This enables other resources to call a function from this resource.
 
-You cannot call a server function from the client or vice versa. See [triggerServerEvent](/docs/triggerServerEvent.md "wikilink") and [triggerClientEvent](/triggerClientEvent.md "wikilink") for possibilities to do that.
+You cannot call a server function from the client or vice versa. See [triggerServerEvent](/docs/triggerserverevent.md "wikilink") and [triggerClientEvent](/triggerClientEvent.md "wikilink") for possibilities to do that.
 
 There is an easier syntax replacing this function. For example, you can instead of:
 

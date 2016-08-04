@@ -12,12 +12,12 @@ element targetPlayer
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that initiated the stealth kill.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that initiated the stealth kill.
 
 Cancel effect
 -------------
 
-If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), then the stealth kill is aborted.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), then the stealth kill is aborted.
 
 Example
 -------

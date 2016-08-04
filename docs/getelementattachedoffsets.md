@@ -1,4 +1,4 @@
-This function returns the offsets of an element that has been attached to another element using [attachElements](/docs/attachElements.md "wikilink").
+This function returns the offsets of an element that has been attached to another element using [attachElements](/docs/attachelements.md "wikilink").
 
 Syntax
 ------

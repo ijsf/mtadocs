@@ -1,4 +1,4 @@
-This function sets the [pixels](/docs/Texture_pixels.md "wikilink") of a [texture](/texture.md "wikilink") element. It can be used with a standard texture, render target or screen source. Only **'plain**' format pixels please.
+This function sets the [pixels](/docs/texture_pixels.md "wikilink") of a [texture](/texture.md "wikilink") element. It can be used with a standard texture, render target or screen source. Only **'plain**' format pixels please.
 
 ------------------------------------------------------------------------
 

@@ -1,4 +1,4 @@
-[thumb|200px|Foot splash](/docs/Image:Fxfootsplash.png.md "wikilink") This function creates a foot splash particle effect, normally created when walking into water.
+[thumb|200px|Foot splash](/docs/image:fxfootsplash.png.md "wikilink") This function creates a foot splash particle effect, normally created when walking into water.
 
 Syntax
 ------

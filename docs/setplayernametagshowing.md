@@ -40,4 +40,4 @@ addEventHandler ( "onPlayerJoin", root, onPlayerJoin )
 See Also
 --------
 
-[ar:setPlayerNametagShowing](/docs/ar:setPlayerNametagShowing.md "wikilink")
+[ar:setPlayerNametagShowing](/docs/ar:setplayernametagshowing.md "wikilink")

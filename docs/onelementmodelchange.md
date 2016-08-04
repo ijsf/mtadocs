@@ -17,7 +17,7 @@ The source of this event is the element that changed its model
 Cancel Effect
 -------------
 
-This event doesn't support [cancellation](/docs/Event_system#Canceling.md "wikilink"). Use setElementModel with the old value to reverse.
+This event doesn't support [cancellation](/docs/event_system#canceling.md "wikilink"). Use setElementModel with the old value to reverse.
 
 Example
 -------

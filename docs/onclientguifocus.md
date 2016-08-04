@@ -8,7 +8,7 @@ Parameters
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the GUI element which just gained input focus.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the GUI element which just gained input focus.
 
 Example
 -------

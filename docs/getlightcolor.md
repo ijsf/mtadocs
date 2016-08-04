@@ -7,7 +7,7 @@ int, int, int getLightColor ( light theLight )
 
 ### Required Arguments
 
--   **theLight:** The [light](/docs/Element/Light.md "wikilink") that you wish to retrieve the color of.
+-   **theLight:** The [light](/docs/element/light.md "wikilink") that you wish to retrieve the color of.
 
 ### Returns
 

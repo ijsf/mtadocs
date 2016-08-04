@@ -67,17 +67,17 @@ List of (released) versions
 MTA 0.5
 -------
 
-The latest stable release for GTA III and GTA: Vice City bundled in one client and server. This release was also the first version that had a server browser build in the client. [Spawnscreen in Vice City at Robbers spawn|right|thumb|230px](/docs/File:800px-Robber.jpg.md "wikilink")
+The latest stable release for GTA III and GTA: Vice City bundled in one client and server. This release was also the first version that had a server browser build in the client. [Spawnscreen in Vice City at Robbers spawn|right|thumb|230px](/docs/file:800px-robber.jpg.md "wikilink")
 
 ### Gamemodes
 
 | GTA                                           | Gamemode Name                                           | Uses Spawnscreen |
 |-----------------------------------------------|---------------------------------------------------------|------------------|
-| GTA: Vice City                                | [Deathmatch](/docs/MTA:VC_Deathmatch_Gamemode.md "wikilink") |                  |
-| [Stunt](/docs/MTA:VC_Stunt_Gamemode.md "wikilink") |                                                         |
-| GTA III                                       | [Portland](/docs/GTA3_Portland.md "wikilink")                |                  |
-| [Shoreside Vale](/docs/GTA3_SSV.md "wikilink")     |                                                         |
-| [Staunton](/docs/GTA3_Staunton.md "wikilink")      |                                                         |
+| GTA: Vice City                                | [Deathmatch](/docs/mta:vc_deathmatch_gamemode.md "wikilink") |                  |
+| [Stunt](/docs/mta:vc_stunt_gamemode.md "wikilink") |                                                         |
+| GTA III                                       | [Portland](/docs/gta3_portland.md "wikilink")                |                  |
+| [Shoreside Vale](/docs/gta3_ssv.md "wikilink")     |                                                         |
+| [Staunton](/docs/gta3_staunton.md "wikilink")      |                                                         |
 
 #### Spawns
 
@@ -141,25 +141,25 @@ The latest stable release for GTA III and GTA: Vice City bundled in one client a
 
 ### Archived Wiki pages
 
--   [EULA](/docs/MTA_0.5_EULA.md "wikilink")
--   [Installation](/docs/MTA_0.5_Installation.md "wikilink")
--   [Known Issues](/docs/MTA_0.5_Known_Issues.md "wikilink")
--   [0.5 Vice City](/docs/MTA:VC_0.5.md "wikilink")
--   [Vice City Deathmatch Gamemode](/docs/MTA:VC_Deathmatch_Gamemode.md "wikilink")
--   [Vice City Stunt Gamemode](/docs/MTA:VC_Stunt_Gamemode.md "wikilink")
--   [MTA:mA](/docs/MTA:mA.md "wikilink")
--   [Using the server with screen utility](/docs/Using_A_0.5_Server_With_Screen.md "wikilink")
+-   [EULA](/docs/mta_0.5_eula.md "wikilink")
+-   [Installation](/docs/mta_0.5_installation.md "wikilink")
+-   [Known Issues](/docs/mta_0.5_known_issues.md "wikilink")
+-   [0.5 Vice City](/docs/mta:vc_0.5.md "wikilink")
+-   [Vice City Deathmatch Gamemode](/docs/mta:vc_deathmatch_gamemode.md "wikilink")
+-   [Vice City Stunt Gamemode](/docs/mta:vc_stunt_gamemode.md "wikilink")
+-   [MTA:mA](/docs/mta:ma.md "wikilink")
+-   [Using the server with screen utility](/docs/using_a_0.5_server_with_screen.md "wikilink")
 
 ### See Also
 
--   [MTA Vault](/docs/MTA_Vault.md "wikilink")
+-   [MTA Vault](/docs/mta_vault.md "wikilink")
 
 MTA:San Andreas Race
 --------------------
 
 MTA:SA Race is the first release that was made with the blue framework, a new approach to control the game (GTA). The sync was also better over the previous releases and the client is in game not an external application. Notice the blue GUI in the screenshot.
 
-A new slogan was introduced: “Stop Playing With Yourself.” [MTA Loading screen with the new slogan: “Stop Playing With Yourself.”|thumb|230px](/docs/File:Mtavcbluelaunching.png.md "wikilink")
+A new slogan was introduced: “Stop Playing With Yourself.” [MTA Loading screen with the new slogan: “Stop Playing With Yourself.”|thumb|230px](/docs/file:mtavcbluelaunching.png.md "wikilink")
 
 ### Gamemodes
 
@@ -173,7 +173,7 @@ As the name suggests it is only race (you cannot get out of your vehicle).
 
 ### Features
 
-[Racing in MTA:SA|right|thumb|230px](/docs/File:MTASA-Race-Racing.jpg.md "wikilink")
+[Racing in MTA:SA|right|thumb|230px](/docs/file:mtasa-race-racing.jpg.md "wikilink")
 
 -   In game client.
 -   Map Editor to create a map in game.
@@ -214,16 +214,16 @@ No more releases for MTA:SA Race, the new MTA release made the race version obso
 
 ### Archived Wiki pages
 
--   [MTA:SA Race FAQ](/docs/MTA:SA_Race_FAQ.md "wikilink")
--   [Blue](/docs/Blue.md "wikilink")
--   [MTA:SA R1](/docs/MTA:SA_R1.md "wikilink")
--   [MTA:SA Race-Windows Server Guide](/docs/MTA:SA_Race-Windows_Server_Guide.md "wikilink")
--   [MTA General FAQ](/docs/MTA_General_FAQ.md "wikilink")
--   [MTA R1 remote administration\_protocol](/docs/MTA_R1_remote_administration_protocol.md "wikilink")
+-   [MTA:SA Race FAQ](/docs/mta:sa_race_faq.md "wikilink")
+-   [Blue](/docs/blue.md "wikilink")
+-   [MTA:SA R1](/docs/mta:sa_r1.md "wikilink")
+-   [MTA:SA Race-Windows Server Guide](/docs/mta:sa_race-windows_server_guide.md "wikilink")
+-   [MTA General FAQ](/docs/mta_general_faq.md "wikilink")
+-   [MTA R1 remote administration\_protocol](/docs/mta_r1_remote_administration_protocol.md "wikilink")
 
 ### See Also
 
--   [Upgrading from MTA:Race](/docs/Upgrading_from_MTA:Race.md "wikilink")
+-   [Upgrading from MTA:Race](/docs/upgrading_from_mta:race.md "wikilink")
 
 MTA:San Andreas (Deathmatch) 1.0.x
 ----------------------------------
@@ -254,9 +254,9 @@ This was the first released that allowed to create customized gamemodes with the
 
 ### See Also
 
--   [Changes in 1.0](/docs/Changes_in_1.0.md "wikilink")
+-   [Changes in 1.0](/docs/changes_in_1.0.md "wikilink")
 -   [Subversion on Google Code](http://code.google.com/p/mtasa-blue/)
--   [Scripting Introduction](/docs/Scripting_Introduction.md "wikilink")
+-   [Scripting Introduction](/docs/scripting_introduction.md "wikilink")
 -   [“Programming in Lua” Manual](http://www.lua.org/pil/index.html)
 
 MTA:San Andreas 1.1.x
@@ -281,7 +281,7 @@ MTA:San Andreas 1.1.x
 
 ### See Also
 
--   [Changes in 1.1](/docs/Changes_in_1.1.md "wikilink")
+-   [Changes in 1.1](/docs/changes_in_1.1.md "wikilink")
 
 MTA:San Andreas 1.2.x
 ---------------------
@@ -302,7 +302,7 @@ MTA:San Andreas 1.2.x
 
 ### See Also
 
--   [Changes in 1.2](/docs/Changes_in_1.2.md "wikilink")
+-   [Changes in 1.2](/docs/changes_in_1.2.md "wikilink")
 
 MTA:San Andreas 1.3.x
 ---------------------
@@ -313,12 +313,12 @@ This version was released quickly because 1.2 had several network related issues
 
 -   Fixes for various network problems which occured in 1.1 and 1.2 series. (including a fix for “Map download breaking often on large transfers” issue)
 -   Added new scripting functions for removal of default GTASA map objects. (including breakable ones)
--   Introduced a new scripting event. - [onClientVehicleCollision](/docs/onClientVehicleCollision.md "wikilink")
--   Implemented a new scripting function. - [takePlayerScreenShot](/docs/takePlayerScreenShot.md "wikilink")
+-   Introduced a new scripting event. - [onClientVehicleCollision](/docs/onclientvehiclecollision.md "wikilink")
+-   Implemented a new scripting function. - [takePlayerScreenShot](/docs/takeplayerscreenshot.md "wikilink")
 -   Fixes for various crashes and issues. (including “warp glitch”, inaccurate heat seekers sync, createProjectile() velocity desync between clients, custom models texture crash, “white models” when using custom models and more)
 -   Added functionality to protect client-side scripts which pre-compiles them before being sent and stops resources from being saved on disk. This is configurable in the resource's meta.xml.
 -   Added pixel manipulation functionality.
--   Introduced new client-side scripting functions - [setBirdsEnabled](/docs/setBirdsEnabled.md "wikilink") and [getBirdsEnabled](/getBirdsEnabled.md "wikilink")
+-   Introduced new client-side scripting functions - [setBirdsEnabled](/docs/setbirdsenabled.md "wikilink") and [getBirdsEnabled](/getBirdsEnabled.md "wikilink")
 -   Included a new gui skin - [Lighter black](http://forum.mtasa.com/viewtopic.php?f=139&t=36010#p371815) - contributed by Aibo
 
 ### Minor Updates
@@ -331,12 +331,12 @@ This version was released quickly because 1.2 had several network related issues
 
 ### See Also
 
--   [Changes in 1.3](/docs/Changes_in_1.3.md "wikilink")
--   [Changes in 1.3.1](/docs/Changes_in_1.3.1.md "wikilink")
--   [Changes in 1.3.2](/docs/Changes_in_1.3.2.md "wikilink")
--   [Changes in 1.3.3](/docs/Changes_in_1.3.3.md "wikilink")
--   [Changes in 1.3.4](/docs/Changes_in_1.3.4.md "wikilink")
--   [Changes in 1.3.5](/docs/Changes_in_1.3.5.md "wikilink")
+-   [Changes in 1.3](/docs/changes_in_1.3.md "wikilink")
+-   [Changes in 1.3.1](/docs/changes_in_1.3.1.md "wikilink")
+-   [Changes in 1.3.2](/docs/changes_in_1.3.2.md "wikilink")
+-   [Changes in 1.3.3](/docs/changes_in_1.3.3.md "wikilink")
+-   [Changes in 1.3.4](/docs/changes_in_1.3.4.md "wikilink")
+-   [Changes in 1.3.5](/docs/changes_in_1.3.5.md "wikilink")
 
 MTA:San Andreas 1.4
 -------------------
@@ -344,19 +344,19 @@ MTA:San Andreas 1.4
 ### Features
 
 -   Localization of MTA's Menu
--   Introduced [OOP](/docs/OOP.md "wikilink")
+-   Introduced [OOP](/docs/oop.md "wikilink")
 -   Introduced Matrices and Vectors
 
 ### See Also
 
--   [Changes in 1.4](/docs/Changes_in_1.4.md "wikilink")
--   [Changes in 1.4.1](/docs/Changes_in_1.4.1.md "wikilink")
+-   [Changes in 1.4](/docs/changes_in_1.4.md "wikilink")
+-   [Changes in 1.4.1](/docs/changes_in_1.4.1.md "wikilink")
 
 See Also
 --------
 
 -   [Changelog](https://code.google.com/p/mtasa-blue/source/browse/trunk/CHANGELOG) - Overview of all the changes since MTA: San Andreas 1.0dp1.
--   [MTA Vault](/docs/MTA_Vault.md "wikilink") - Overview of releases before MTA 0.5.
--   [Archive](/docs/Archive.md "wikilink") - Multi Theft Auto Archive.
+-   [MTA Vault](/docs/mta_vault.md "wikilink") - Overview of releases before MTA 0.5.
+-   [Archive](/docs/archive.md "wikilink") - Multi Theft Auto Archive.
 
-[Category: Historical](/docs/Category:_Historical.md "wikilink")
+[Category: Historical](/docs/category:_historical.md "wikilink")

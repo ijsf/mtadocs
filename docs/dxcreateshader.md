@@ -1,7 +1,7 @@
 This function creates a [shader](/docs/shader.md "wikilink") element that can be used in the dxDraw functions. Successful shader creation is not guaranteed unless the [Effect File](/shader.md "wikilink") contains a fallback technique which will work on every PC in the universe.
 
 <h5>
-It is highly recommended that [dxSetTestMode](/docs/dxSetTestMode.md "wikilink") is used when writing and testing scripts using dxCreateShader.
+It is highly recommended that [dxSetTestMode](/docs/dxsettestmode.md "wikilink") is used when writing and testing scripts using dxCreateShader.
 
 </h5>
 Syntax
@@ -17,7 +17,7 @@ element, string dxCreateShader ( string filepath [, float priority = 0, float ma
 
 ### Optional Arguments
 
-*All the following optional arguments are only relevant when the shader is used with [engineApplyShaderToWorldTexture](/docs/engineApplyShaderToWorldTexture.md "wikilink")*
+*All the following optional arguments are only relevant when the shader is used with [engineApplyShaderToWorldTexture](/docs/engineapplyshadertoworldtexture.md "wikilink")*
 
 -   **priority:** If more than one shader is matched to a world texture, the shader with the highest priority will be used. If there is more than one shader with the same highest priority, the most recently created shader is used.
 -   **maxDistance:** If non-zero, the shader will be applied to textures nearer than maxDistance only. This can speed up rendering, but (to look good) may require the shader to fade out it's own effect as the texture reaches maxDistance.

@@ -1,4 +1,4 @@
-This function toggles the camera mode between a fixed view and the default player chase view. The camera's position and rotation in fixed mode can be set with the [setCameraPosition](/docs/setCameraPosition.md "wikilink") and [setCameraLookAt](/setCameraLookAt.md "wikilink") functions respectively.
+This function toggles the camera mode between a fixed view and the default player chase view. The camera's position and rotation in fixed mode can be set with the [setCameraPosition](/docs/setcameraposition.md "wikilink") and [setCameraLookAt](/setCameraLookAt.md "wikilink") functions respectively.
 
 Syntax
 ------

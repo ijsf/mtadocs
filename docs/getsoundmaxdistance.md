@@ -32,4 +32,4 @@ addCommandHandler("getmaxdistance", getmaxdistanceFunc)
 See Also
 --------
 
-[AR:getSoundMaxDistance](/docs/AR:getSoundMaxDistance.md "wikilink")
+[AR:getSoundMaxDistance](/docs/ar:getsoundmaxdistance.md "wikilink")

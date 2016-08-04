@@ -43,4 +43,4 @@ Changelog
 See Also
 --------
 
-[ru:setPedRotation](/docs/ru:setPedRotation.md "wikilink")
+[ru:setPedRotation](/docs/ru:setpedrotation.md "wikilink")

@@ -1,9 +1,9 @@
-There are common issues when wanting to port [FileSystem](/docs/Modules/FileSystem.md "wikilink") code between clientside and serverside environments. This article should help you avoid pitfalls and getting stuck. Since the issues are mostly about lower-level functionality - with a good abstraction layer - you will not have to rewrite much logic.
+There are common issues when wanting to port [FileSystem](/docs/modules/filesystem.md "wikilink") code between clientside and serverside environments. This article should help you avoid pitfalls and getting stuck. Since the issues are mostly about lower-level functionality - with a good abstraction layer - you will not have to rewrite much logic.
 
 There is No 'This Resource' Directory serverside
 ------------------------------------------------
 
-While the [MTA:Eir](/docs/MTA:Eir.md "wikilink") client exposes a secure API that bases translator creation around resource folders, the FileSystem module **cannot do that**. The reason is very technical. Hence if you want to get the resource directory you are *operating* in, you need to **hardcode** it.
+While the [MTA:Eir](/docs/mta:eir.md "wikilink") client exposes a secure API that bases translator creation around resource folders, the FileSystem module **cannot do that**. The reason is very technical. Hence if you want to get the resource directory you are *operating* in, you need to **hardcode** it.
 
 ``` lua
 -- Create a translator in our resource directory.

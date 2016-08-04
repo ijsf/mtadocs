@@ -2,7 +2,7 @@ This function casts a ray between two points in the world, and tells you informa
 
 This function is relatively expensive to call, so over use of this in scripts may have a detrimental effect on performance.
 
-This function is useful for checking for collisions and for editor-style scripts. If you wish to find what element is positioned at a particular point on the screen, use this function combined with [getWorldFromScreenPosition](/docs/getWorldFromScreenPosition.md "wikilink"). If you wish to just know if something is hit, and don't care about what or where was hit, use [isLineOfSightClear](/isLineOfSightClear.md "wikilink").
+This function is useful for checking for collisions and for editor-style scripts. If you wish to find what element is positioned at a particular point on the screen, use this function combined with [getWorldFromScreenPosition](/docs/getworldfromscreenposition.md "wikilink"). If you wish to just know if something is hit, and don't care about what or where was hit, use [isLineOfSightClear](/isLineOfSightClear.md "wikilink").
 
 Syntax
 ------
@@ -48,9 +48,9 @@ int                -- worldLODModelID
 ### Optional Arguments
 
 -   **checkBuildings:** Allow the line of sight to be blocked by GTA's internally placed buildings, i.e. the world map.
--   **checkVehicles:** Allow the line of sight to be blocked by [vehicles](/docs/Vehicle.md "wikilink").
--   **checkPlayers:** Allow the line of sight to be blocked by [players](/docs/Player.md "wikilink").
--   **checkObjects:** Allow the line of sight to be blocked by [objects](/docs/Object.md "wikilink").
+-   **checkVehicles:** Allow the line of sight to be blocked by [vehicles](/docs/vehicle.md "wikilink").
+-   **checkPlayers:** Allow the line of sight to be blocked by [players](/docs/player.md "wikilink").
+-   **checkObjects:** Allow the line of sight to be blocked by [objects](/docs/object.md "wikilink").
 -   **checkDummies:** Allow the line of sight to be blocked by GTA's internal dummies. These are not used in the current MTA version so this argument can be set to *false*.
 -   **seeThroughStuff:** Allow the line of sight to be blocked by translucent game objects, e.g. glass.
 -   **ignoreSomeObjectsForCamera:** Allow the line of sight to pass through objects that have (K) property enabled in “object.dat” data file. (i.e. Most dynamic objects like boxes or barrels)
@@ -68,7 +68,7 @@ The other values are only filled if there is a collision, they contain *nil* oth
 -   **hitX, hitY, hitZ:** collision position
 -   **hitElement:** the MTA element hit if any, *nil* otherwise
 -   **normalX, normalY, normalZ:** the normal of the surface hit
--   **material:** an integer representing the [GTASA material ID](/docs/Material_IDs.md "wikilink") of the surface hit when applicable (world, objects)
+-   **material:** an integer representing the [GTASA material ID](/docs/material_ids.md "wikilink") of the surface hit when applicable (world, objects)
 -   **lighting:** a float between 0 (fully dark) and 1 (bright) representing the amount of light that the hit building surface will transfer to peds or vehicles that are in contact with it. The value can be affected by the game time of day, usually with a lower (darker) value being returned during the night.
 -   **piece:** an integer representing the part of the element hit if hitElement is a vehicle or a ped/player, *0* otherwise.
     -   For a ped/player, piece represents the body part hit:

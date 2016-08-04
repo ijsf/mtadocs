@@ -47,4 +47,4 @@ addCommandHandler ( "locate", locatePlayer )
 See Also
 --------
 
-[ru:getPlayerFromName](/docs/ru:getPlayerFromName.md "wikilink")
+[ru:getPlayerFromName](/docs/ru:getplayerfromname.md "wikilink")

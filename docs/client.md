@@ -2,9 +2,9 @@ The client class represents any client that is connected to the server. Therefor
 
 All client-managing functions operate on both player and server console elements, so the element responsible for a kick can be the server console, for example. However, the server console is protected against some of that functions: it can't get kicked or banned.
 
-The players' clients are also responsible of informing the server about the state of the elements that they're [syncing](/docs/SetElementSyncer.md "wikilink"), so they're essential for accurate sync of peds and vehicles. They also receive data from other clients and the server.
+The players' clients are also responsible of informing the server about the state of the elements that they're [syncing](/docs/setelementsyncer.md "wikilink"), so they're essential for accurate sync of peds and vehicles. They also receive data from other clients and the server.
 
 Related scripting functions
 ---------------------------
 
-[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")

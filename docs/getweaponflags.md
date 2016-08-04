@@ -1,4 +1,4 @@
-This function gets the flags of a [custom weapon](/docs/Element/Weapon.md "wikilink").
+This function gets the flags of a [custom weapon](/docs/element/weapon.md "wikilink").
 
 Syntax
 ------

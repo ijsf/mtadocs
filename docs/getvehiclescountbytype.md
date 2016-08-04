@@ -1,4 +1,4 @@
-This function returns the amount of vehicles by the given type (see [GetVehicleType](/docs/GetVehicleType.md "wikilink")) as an integer value.
+This function returns the amount of vehicles by the given type (see [GetVehicleType](/docs/getvehicletype.md "wikilink")) as an integer value.
 
 ### Authors
 

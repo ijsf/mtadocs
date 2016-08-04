@@ -8,7 +8,7 @@ Parameters
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the GUI element which just lost input focus.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the GUI element which just lost input focus.
 
 Example
 -------
@@ -48,9 +48,9 @@ end
 Notes
 -----
 
--   When the focus is transfered from one GUI element to an other, it is guaranteed that *onClientGUIBlur* on the element that lost focus is triggered before [onClientGUIFocus](/docs/onClientGUIFocus.md "wikilink") on the element that just gained focus
--   When the focus of a full window is lost (transfered to an other window or lost), *onClientGUIBlur* is only triggered for the window itself even if one of its widgets had focus too. It's important in this case to use the 4th parameter of [addEventHandler](/docs/addEventHandler.md "wikilink") if you are only registered for the events of a child widget (cf. Example)
--   When a window is hidden with [guiSetVisible](/docs/guiSetVisible.md "wikilink"), it (or its child widget having focus) keeps focus internally until an other window gains focus or the chatbox is used
+-   When the focus is transfered from one GUI element to an other, it is guaranteed that *onClientGUIBlur* on the element that lost focus is triggered before [onClientGUIFocus](/docs/onclientguifocus.md "wikilink") on the element that just gained focus
+-   When the focus of a full window is lost (transfered to an other window or lost), *onClientGUIBlur* is only triggered for the window itself even if one of its widgets had focus too. It's important in this case to use the 4th parameter of [addEventHandler](/docs/addeventhandler.md "wikilink") if you are only registered for the events of a child widget (cf. Example)
+-   When a window is hidden with [guiSetVisible](/docs/guisetvisible.md "wikilink"), it (or its child widget having focus) keeps focus internally until an other window gains focus or the chatbox is used
 
 See Also
 --------

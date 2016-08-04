@@ -1,6 +1,6 @@
 <lowercasetitle/>
 
-This function draws a number of 2D lines in order to achieve a circle shape on the screen - rendered for **one** frame. This should be used in conjunction with [onClientRender](/docs/onClientRender.md "wikilink") in order to display continuously.
+This function draws a number of 2D lines in order to achieve a circle shape on the screen - rendered for **one** frame. This should be used in conjunction with [onClientRender](/docs/onclientrender.md "wikilink") in order to display continuously.
 
 Syntax
 ------
@@ -11,7 +11,7 @@ Syntax
 
 ### Required Arguments
 
-[thumb|An example of how dxDrawCircle function works in practice.](/docs/Image:DxDrawCircle_example.png.md "wikilink")
+[thumb|An example of how dxDrawCircle function works in practice.](/docs/image:dxdrawcircle_example.png.md "wikilink")
 
 -   **posX**: An integer representing the **absolute** X position of the circle center, represented by pixels on the screen.
 -   **posY**: An integer representing the **absolute** Y position of the circle center, represented by pixels on the screen.

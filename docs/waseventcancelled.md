@@ -1,6 +1,6 @@
 This function checks if the last completed event was cancelled. This is mainly useful for custom events created by scripts.
 
-Events can be cancelled using [cancelEvent](/docs/cancelEvent.md "wikilink"), this indicates that the resource which triggered the event should do whatever it can to reverse any changes made by whatever caused the event. See [triggerEvent](/triggerEvent.md "wikilink") for a more detailed explanation of this.
+Events can be cancelled using [cancelEvent](/docs/cancelevent.md "wikilink"), this indicates that the resource which triggered the event should do whatever it can to reverse any changes made by whatever caused the event. See [triggerEvent](/triggerEvent.md "wikilink") for a more detailed explanation of this.
 
 Syntax
 ------

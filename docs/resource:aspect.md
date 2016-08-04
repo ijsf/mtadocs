@@ -1,7 +1,7 @@
 Introduction
 ============
 
-[<File:Logo.png>](/docs/File:Logo.png.md "wikilink")
+[<File:Logo.png>](/docs/file:logo.png.md "wikilink")
 
 A/D Aspect it's a Attack/Defend type of game mode, was created for professional clan matches with attention to clean game and playinign with rules.
 
@@ -136,4 +136,4 @@ To run:
 Gallery
 =======
 
-[thumb|left|1200px|Client Panel](/docs/File:1.png.md "wikilink") [thumb|left|1200px|Admin Panel](/File:2.png.md "wikilink") [thumb|left|500px|Attack spawn selector](/File:Mta-screen_2012-02-01_22-41-58.png.md "wikilink") [thumb|500px|left|Vehicles selector](/File:Mta-screen_2012-02-01_22-41-47.png.md "wikilink") [thumb|500px|left|Team Selector \#Attack](/File:Mta-screen_2011-12-02_08-22-19.png.md "wikilink") [thumb|500px|left|Team Selector \#Defense](/File:Mta-screen_2011-12-02_08-22-35.png.md "wikilink") [thumb|500px|left|Example of final results\#1](/File:Mta-screen_2011-11-29_12-51-24.jpg.md "wikilink") [thumb|500px|left|Example of final results\#2](/File:Mta-screen_2011-11-30_20-23-30.jpg.md "wikilink") [thumb|500px|left|Example of final results\#3](/File:Mta-screen_2012-01-15_23-16-56.jpg.md "wikilink") [thumb|500px|left|Starting a base](/File:Mta-screen_2012-02-01_22-51-03.jpg.md "wikilink") [thumb|500px|left|Starting a match & info box](/File:Mta-screen_2012-02-01_22-40-44.jpg.md "wikilink")
+[thumb|left|1200px|Client Panel](/docs/file:1.png.md "wikilink") [thumb|left|1200px|Admin Panel](/File:2.png.md "wikilink") [thumb|left|500px|Attack spawn selector](/File:Mta-screen_2012-02-01_22-41-58.png.md "wikilink") [thumb|500px|left|Vehicles selector](/File:Mta-screen_2012-02-01_22-41-47.png.md "wikilink") [thumb|500px|left|Team Selector \#Attack](/File:Mta-screen_2011-12-02_08-22-19.png.md "wikilink") [thumb|500px|left|Team Selector \#Defense](/File:Mta-screen_2011-12-02_08-22-35.png.md "wikilink") [thumb|500px|left|Example of final results\#1](/File:Mta-screen_2011-11-29_12-51-24.jpg.md "wikilink") [thumb|500px|left|Example of final results\#2](/File:Mta-screen_2011-11-30_20-23-30.jpg.md "wikilink") [thumb|500px|left|Example of final results\#3](/File:Mta-screen_2012-01-15_23-16-56.jpg.md "wikilink") [thumb|500px|left|Starting a base](/File:Mta-screen_2012-02-01_22-51-03.jpg.md "wikilink") [thumb|500px|left|Starting a match & info box](/File:Mta-screen_2012-02-01_22-40-44.jpg.md "wikilink")

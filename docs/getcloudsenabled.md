@@ -28,4 +28,4 @@ addCommandHandler("clouds", areCloudsVisible)
 See Also
 --------
 
-[ru:getCloudsEnabled](/docs/ru:getCloudsEnabled.md "wikilink")
+[ru:getCloudsEnabled](/docs/ru:getcloudsenabled.md "wikilink")

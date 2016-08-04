@@ -1,6 +1,6 @@
 This function returns a table containing the handling data of the specified vehicle model.
 
-Note: the data returned may not reflect the actual handling of a particular vehicle, since this may be overriden by the [setVehicleHandling](/docs/setVehicleHandling.md "wikilink") function.
+Note: the data returned may not reflect the actual handling of a particular vehicle, since this may be overriden by the [setVehicleHandling](/docs/setvehiclehandling.md "wikilink") function.
 
 Syntax
 ------

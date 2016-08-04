@@ -18,7 +18,7 @@ The source of this event is the ped who is choking.
 Cancel effect
 -------------
 
-If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the ped will not be choked.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the ped will not be choked.
 
 Example
 -------

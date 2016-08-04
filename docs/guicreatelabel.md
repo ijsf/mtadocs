@@ -1,4 +1,4 @@
-[frame|Example GUI label.](/docs/Image:gui-label.png.md "wikilink")
+[frame|Example GUI label.](/docs/image:gui-label.png.md "wikilink")
 
 <table>
 <tr>
@@ -30,7 +30,7 @@ element guiCreateLabel ( float x, float y, float width, float height, string tex
 
 ### Returns
 
-Returns an [element](/docs/GUI_widgets.md "wikilink") of the created label if it was successfully created, false otherwise.
+Returns an [element](/docs/gui_widgets.md "wikilink") of the created label if it was successfully created, false otherwise.
 
 Example
 -------
@@ -72,4 +72,4 @@ addEventHandler ( "onClientClick", getRootElement(), addLabelOnClick )
 See Also
 --------
 
-[ru:guiCreateLabel](/docs/ru:guiCreateLabel.md "wikilink")
+[ru:guiCreateLabel](/docs/ru:guicreatelabel.md "wikilink")

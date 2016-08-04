@@ -47,7 +47,7 @@ This parameter specifies whether the builtin http server will be used.
 
 Values: 0 - disabled , 1 - enabled ; default value: 1. Optional parameter.
 
-More information: [Using the web interface](/docs/Server_Manual#Using_the_web_interface.md "wikilink")
+More information: [Using the web interface](/docs/server_manual#using_the_web_interface.md "wikilink")
 
 #### httpport
 
@@ -56,7 +56,7 @@ More information: [Using the web interface](/docs/Server_Manual#Using_the_web_in
 
 This parameter specifies the TCP port on which the server will be accepting incoming http connections. It can be set to the same value as <serverport>. It is a required parameter if <httpserver> is set to 1.
 
-More information: [Using the web interface](/docs/Server_Manual#Using_the_web_interface.md "wikilink")
+More information: [Using the web interface](/docs/server_manual#using_the_web_interface.md "wikilink")
 
 #### httpdownloadurl
 
@@ -65,7 +65,7 @@ More information: [Using the web interface](/docs/Server_Manual#Using_the_web_in
 
 If set, this parameter specifies the external URL from which clients will be able to download needed resources ingame. Otherwise they will download them directly from the server.
 
-More information: [Configuring an external web server](/docs/Server_Manual#Configuring_an_external_web_server.md "wikilink")
+More information: [Configuring an external web server](/docs/server_manual#configuring_an_external_web_server.md "wikilink")
 
 #### httpmaxconnectionsperclient
 
@@ -107,7 +107,7 @@ By default, the server will block the use of customized GTA:SA data files.
 
 To allow specific client files, add one or more of the above lines.
 
-More information: [Anti-cheat guide](/docs/Anti-cheat_guide.md "wikilink")
+More information: [Anti-cheat guide](/docs/anti-cheat_guide.md "wikilink")
 
 #### disableac
 
@@ -118,7 +118,7 @@ Comma seperated list of disabled anti-cheats.
 
 e.g. To disable anti-cheat \#2 and \#3, use: 2,3
 
-More information: [Anti-cheat guide](/docs/Anti-cheat_guide.md "wikilink")
+More information: [Anti-cheat guide](/docs/anti-cheat_guide.md "wikilink")
 
 #### enablesd
 
@@ -129,7 +129,7 @@ Comma seperated list of enabled special detections. A special detection is a typ
 
 e.g. To enable special detection \#12 (disallow custom D3D9.DLL) use: 12
 
-More information: [Anti-cheat guide](/docs/Anti-cheat_guide.md "wikilink")
+More information: [Anti-cheat guide](/docs/anti-cheat_guide.md "wikilink")
 
 #### networkencryption
 
@@ -140,16 +140,16 @@ This parameter specifies whether communications between the server and client is
 
 Values: 0 - disabled , 1 - enabled ; default value: 1. Optional parameter.
 
-This parameter can changed and saved while the server is running with [setServerConfigSetting](/docs/setServerConfigSetting.md "wikilink")
+This parameter can changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
 #### minclientversion
 
   
 ''<minclientversion></minclientversion>
 
-Minimum client version. Clients with a lower version will not be allowed to connect. After disconnection, clients will be given an opportunity to download an update. If left blank, this setting is disabled and there are no restrictions on who can connect. Version numbers are described in [getPlayerVersion](/docs/getPlayerVersion.md "wikilink") and look like this: 1.1.0-9.03100.0
+Minimum client version. Clients with a lower version will not be allowed to connect. After disconnection, clients will be given an opportunity to download an update. If left blank, this setting is disabled and there are no restrictions on who can connect. Version numbers are described in [getPlayerVersion](/docs/getplayerversion.md "wikilink") and look like this: 1.1.0-9.03100.0
 
-This parameter can changed and saved while the server is running with [setServerConfigSetting](/docs/setServerConfigSetting.md "wikilink")
+This parameter can changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
 **Note that this setting only determines if the client should be prompted to update. The actual build number they receive will be the [<http://nightly.mtasa.com/ver> highest available](/docs/http://nightly.mtasa.com/ver_highest_available.md "wikilink").**
 
@@ -160,7 +160,7 @@ This parameter can changed and saved while the server is running with [setServer
 
 Recommended client version. When connecting, if clients have a lower version, they will be given the option to download an update. If left blank, this setting is disabled.
 
-This parameter can changed and saved while the server is running with [setServerConfigSetting](/docs/setServerConfigSetting.md "wikilink")
+This parameter can changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
 **Note that this setting only determines if the client should be prompted to update. The actual build number they receive will be the [<http://nightly.mtasa.com/ver> highest available](/docs/http://nightly.mtasa.com/ver_highest_available.md "wikilink").**
 
@@ -187,7 +187,7 @@ This parameter allows you to disable LAN broadcasting.
 
 If set, players will have to provide a password specified below, before they can connect to the server. If left blank, server doesn't require a password from them.
 
-This parameter can changed and saved while the server is running with [setServerPassword](/docs/setServerPassword.md "wikilink") or [setServerConfigSetting](/setServerConfigSetting.md "wikilink")
+This parameter can changed and saved while the server is running with [setServerPassword](/docs/setserverpassword.md "wikilink") or [setServerConfigSetting](/setServerConfigSetting.md "wikilink")
 
 #### bandwidth\_reduction
 
@@ -198,7 +198,7 @@ This parameter reduces the server's bandwidth usage by using various optimizatio
 
 Values: none, medium or maximum ; default value: medium
 
-This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setServerConfigSetting.md "wikilink")
+This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
 #### player\_sync\_interval
 
@@ -209,9 +209,9 @@ This parameter determines the time in milliseconds between player sync packets.
 
 Available range: 50 - 500; default value: 100
 
-This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setServerConfigSetting.md "wikilink")
+This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
-Suggested values for this and the other sync\_interval settings can be found here: [Sync interval settings](/docs/Sync_interval_settings.md "wikilink")
+Suggested values for this and the other sync\_interval settings can be found here: [Sync interval settings](/docs/sync_interval_settings.md "wikilink")
 
 #### lightweight\_sync\_interval
 
@@ -222,9 +222,9 @@ This parameter determines the time in milliseconds between lightweight (player) 
 
 Available range: 200 - 40000; default value: 1500
 
-This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setServerConfigSetting.md "wikilink")
+This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
-Suggested values for this and the other sync\_interval settings can be found here: [Sync interval settings](/docs/Sync_interval_settings.md "wikilink")
+Suggested values for this and the other sync\_interval settings can be found here: [Sync interval settings](/docs/sync_interval_settings.md "wikilink")
 
 #### camera\_sync\_interval
 
@@ -235,9 +235,9 @@ This parameter determines the time in milliseconds between camera sync packets.
 
 Available range: 200 - 400; default value: 500
 
-This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setServerConfigSetting.md "wikilink")
+This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
-Suggested values for this and the other sync\_interval settings can be found here: [Sync interval settings](/docs/Sync_interval_settings.md "wikilink")
+Suggested values for this and the other sync\_interval settings can be found here: [Sync interval settings](/docs/sync_interval_settings.md "wikilink")
 
 #### ped\_sync\_interval
 
@@ -248,9 +248,9 @@ This parameter determines the time in milliseconds between ped sync packets.
 
 Available range: 200 - 4000; default value: 400
 
-This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setServerConfigSetting.md "wikilink")
+This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
-Suggested values for this and the other sync\_interval settings can be found here: [Sync interval settings](/docs/Sync_interval_settings.md "wikilink")
+Suggested values for this and the other sync\_interval settings can be found here: [Sync interval settings](/docs/sync_interval_settings.md "wikilink")
 
 #### unoccupied\_vehicle\_sync\_interval
 
@@ -261,9 +261,9 @@ This parameter determines the time in milliseconds between unoccupied vehicle sy
 
 Available range: 200 - 4000; default value: 1000
 
-This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setServerConfigSetting.md "wikilink")
+This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
-Suggested values for this and the other sync\_interval settings can be found here: [Sync interval settings](/docs/Sync_interval_settings.md "wikilink")
+Suggested values for this and the other sync\_interval settings can be found here: [Sync interval settings](/docs/sync_interval_settings.md "wikilink")
 
 #### keysync\_mouse\_sync\_interval
 
@@ -274,9 +274,9 @@ This parameter determines the minimum time in milliseconds between key sync pack
 
 Available range: 50 - 500; default value: 100
 
-This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setServerConfigSetting.md "wikilink")
+This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
-Suggested values for this and the other sync\_interval settings can be found here: [Sync interval settings](/docs/Sync_interval_settings.md "wikilink")
+Suggested values for this and the other sync\_interval settings can be found here: [Sync interval settings](/docs/sync_interval_settings.md "wikilink")
 
 #### keysync\_analog\_sync\_interval
 
@@ -287,9 +287,9 @@ This parameter determines the minimum time in milliseconds between key sync pack
 
 Available range: 50 - 500; default value: 100
 
-This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setServerConfigSetting.md "wikilink")
+This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
-Suggested values for this and the other sync\_interval settings can be found here: [Sync interval settings](/docs/Sync_interval_settings.md "wikilink")
+Suggested values for this and the other sync\_interval settings can be found here: [Sync interval settings](/docs/sync_interval_settings.md "wikilink")
 
 #### bullet\_sync
 
@@ -300,11 +300,11 @@ This parameter can improve the reliability of shots when using certain weapons. 
 
 **It only works on server build 4247 or later, and when enabled, connecting clients will be auto-updated if required.**
 
-Note that bullet sync will be active regardless of this setting when certain [glitches](/docs/setGlitchEnabled.md "wikilink") are enabled.
+Note that bullet sync will be active regardless of this setting when certain [glitches](/docs/setglitchenabled.md "wikilink") are enabled.
 
 Values: 0 - disabled , 1 - enabled ; default value: 0.
 
-This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setServerConfigSetting.md "wikilink")
+This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
 #### vehext\_percent
 
@@ -360,7 +360,7 @@ Enabling will make the sync smoother, but may increase cpu usage slightly.
 
 Values: 0 - disabled , 1 - enabled ; default value: 1.
 
-This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setServerConfigSetting.md "wikilink")
+This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
 #### idfile
 
@@ -371,7 +371,7 @@ Specifies the location and file name of this servers unique private key. This is
 
 Keep a backup of this file in a safe place. Default value: server-id.keys
 
-More information about client private files: [Filepath](/docs/Filepath.md "wikilink")
+More information about client private files: [Filepath](/docs/filepath.md "wikilink")
 
 #### logfile
 
@@ -392,7 +392,7 @@ As well as the main log file, login successes and failures are logged here for e
   
 ''<dbfile>logs/db.log</dbfile>
 
-Specifies the location and name of the file used to log database queries. The server command [debugdb](/docs/Server_Commands#debugdb.md "wikilink") sets the amount of logging.
+Specifies the location and name of the file used to log database queries. The server command [debugdb](/docs/server_commands#debugdb.md "wikilink") sets the amount of logging.
 
 #### acl
 
@@ -426,7 +426,7 @@ Specifies the frame rate limit that will be applied to connecting clients.
 
 Available range: 25 to 100. Default: 36.
 
-This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setServerConfigSetting.md "wikilink")
+This parameter can be changed and saved while the server is running with [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
 #### autologin
 
@@ -534,7 +534,7 @@ Specifies the module(s) which are loaded with the server. To load several module
 
 ''<resource src="webadmin" startup="1" protected="0"/>
 
-Specifies persistent resources which are loaded when the server starts. Persistent resources are not stopped even if all the other resources that depend on them stop; that is, the only way to stop them is by explicitly using the *stop* server command or [stopResource](/docs/stopResource.md "wikilink") scripting function. To load several resources, add more <resource> parameters.
+Specifies persistent resources which are loaded when the server starts. Persistent resources are not stopped even if all the other resources that depend on them stop; that is, the only way to stop them is by explicitly using the *stop* server command or [stopResource](/docs/stopresource.md "wikilink") scripting function. To load several resources, add more <resource> parameters.
 
 <!-- -->
 
@@ -549,4 +549,4 @@ In addition, there are several flags which control how the server deals with eac
 
 :\* **default**: if given a “1”, “true” or “yes” value, this resource will be the one who populates the built-in HTTP server main page, which is seen when no resource is given in the web address. It is not possible to have more than one default resource.
 
-[Category: Support](/docs/Category:_Support.md "wikilink") [ru:Server mtaserver.conf](/ru:Server_mtaserver.conf.md "wikilink")
+[Category: Support](/docs/category:_support.md "wikilink") [ru:Server mtaserver.conf](/ru:Server_mtaserver.conf.md "wikilink")

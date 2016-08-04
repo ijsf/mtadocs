@@ -23,7 +23,7 @@ blip createBlip ( float x, float y, float z [, int icon = 0, int size = 2, int r
 
 ### Optional Arguments
 
--   **icon:** The icon that the radar blips should be. Valid values can be seen at [Blip Icons](/docs/Blip_Icons.md "wikilink")
+-   **icon:** The icon that the radar blips should be. Valid values can be seen at [Blip Icons](/docs/blip_icons.md "wikilink")
 -   **size:** The size of the radar blip. Only applicable to the *Marker* icon. Default is 2.
 -   **r:** The amount of red in the blip's color (0 - 255). Only applicable to the *Marker* icon. Default is 255.
 -   **g:** The amount of green in the blip's color (0 - 255). Only applicable to the *Marker* icon. Default is 0.
@@ -69,4 +69,4 @@ setElementParent( myBlip, myPlayer )
 See Also
 --------
 
-[AR:createBlip](/docs/AR:createBlip.md "wikilink") [es:createBlip](/es:createBlip.md "wikilink") [DE:createBlip](/DE:createBlip.md "wikilink")
+[AR:createBlip](/docs/ar:createblip.md "wikilink") [es:createBlip](/es:createBlip.md "wikilink") [DE:createBlip](/DE:createBlip.md "wikilink")

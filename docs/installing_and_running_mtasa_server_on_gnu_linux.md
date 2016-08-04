@@ -129,7 +129,7 @@ You can find more 32-bit library alternatives on this page: [www.debian.org/dist
 MySQL Troubleshooting
 ---------------------
 
--   If you are using the inbuilt MySQL functions such as [dbConnect](/docs/dbConnect.md "wikilink") and [dbQuery](/dbQuery.md "wikilink"), you will need to have **libmysqlclient.so.16** installed.
+-   If you are using the inbuilt MySQL functions such as [dbConnect](/docs/dbconnect.md "wikilink") and [dbQuery](/dbQuery.md "wikilink"), you will need to have **libmysqlclient.so.16** installed.
 -   If you get a problem with such as “libmysqlclient.so.16: cannot open shared object file: No such file or directory”, it can be solved on Debian/Ubuntu by doing this:
 
 `apt-get install libmysqlclient16`
@@ -142,7 +142,7 @@ If that fails:
 \[Optional\] Installing and Configuring an External Web Server
 --------------------------------------------------------------
 
-Instructions on how to install and configure Nginx as an external web server for MTA is here: [Installing and Configuring Nginx as an External Web Server](/docs/Installing_and_Configuring_Nginx_as_an_External_Web_Server.md "wikilink")
+Instructions on how to install and configure Nginx as an external web server for MTA is here: [Installing and Configuring Nginx as an External Web Server](/docs/installing_and_configuring_nginx_as_an_external_web_server.md "wikilink")
 
 Server crashes
 --------------
@@ -155,7 +155,7 @@ If your Linux server crashes, please obtain a backtrace and post a report on our
 
 It's usually called 'core', and usually over 100MB, and looks something like this:
 
-[`Image:Core.png`](/docs/Image:Core.png.md "wikilink")
+[`Image:Core.png`](/docs/image:core.png.md "wikilink")
 
 #### If you have a core dump file in the the MTA server directory:
 

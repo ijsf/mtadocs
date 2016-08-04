@@ -98,4 +98,4 @@ addEventHandler ( "onClientResourceStart", getResourceRootElement(getThisResourc
 )
 ```
 
-[ru:<Resource:Customblips>](/docs/ru:Resource:Customblips.md "wikilink")
+[ru:<Resource:Customblips>](/docs/ru:resource:customblips.md "wikilink")

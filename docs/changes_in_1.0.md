@@ -7,11 +7,11 @@ Client
 
 -   The settings menu is now much more advanced and allows for more in depth changes, such as the addition of a **Video** tab which allows you to set the resolution
 
-[Image:Settings\_videotab.png](/docs/Image:Settings_videotab.png.md "wikilink")
+[Image:Settings\_videotab.png](/docs/image:settings_videotab.png.md "wikilink")
 
 ### Console commands
 
-The console commands now use [CVARS](/docs/Console_Commands_and_CVars.md "wikilink"). This essentially means that the standard commands that are built into MTA now exhibit a different syntax.
+The console commands now use [CVARS](/docs/console_commands_and_cvars.md "wikilink"). This essentially means that the standard commands that are built into MTA now exhibit a different syntax.
 
 Whereas in dp2 you may have done:
 
@@ -27,23 +27,23 @@ This applies to all inbuilt commands, except for those that may interface with a
 
 The chatbox has had minor changes in 1.0. In particular, the text now displays an animation when a new line appears, and the *Page Up* and *Page Down* keys can be used to scroll the chat. Now it is also possible to change the chatbox layout in the settings menu.
 
-[Image:Settings\_chatboxtab.png](/docs/Image:Settings_chatboxtab.png.md "wikilink")
+[Image:Settings\_chatboxtab.png](/docs/image:settings_chatboxtab.png.md "wikilink")
 
 ### Host Game
 
 This useful addition allows you to quickly start a game without having to run the MTA Server executable. It is fully functional and based upon the local.conf.
 
-[Image:Hostgame\_window.png](/docs/Image:Hostgame_window.png.md "wikilink")
+[Image:Hostgame\_window.png](/docs/image:hostgame_window.png.md "wikilink")
 
 ### Joypad support
 
 From 1.0, users can use their joypad/controller ingame. The keys for your joypad can be configured in the **Binds** tab, and advanced configuration such as analog keys can be configured in the **Controls** tab.
 
-[Image:Settings\_controltab.png](/docs/Image:Settings_controltab.png.md "wikilink")
+[Image:Settings\_controltab.png](/docs/image:settings_controltab.png.md "wikilink")
 
 ### Map Editor
 
-The Map Editor is now functional as of 1.0. This is assuming you have the map editor installed. Please see the [Editor manual](/docs/Editor.md "wikilink") for details.
+The Map Editor is now functional as of 1.0. This is assuming you have the map editor installed. Please see the [Editor manual](/docs/editor.md "wikilink") for details.
 
 Server
 ------
@@ -79,12 +79,12 @@ Many of the default resources have been changed or updated, and new ones have al
 Scripting
 ---------
 
-Much of the scripting interface has changed in 1.0. Almost all resources will need updating in order to function, although the extent of this varies between scripts. All the affected scripting changes can be viewed on [Changes in 1.0](/docs/:Category:Changes_in_1.0.md "wikilink") page.
+Much of the scripting interface has changed in 1.0. Almost all resources will need updating in order to function, although the extent of this varies between scripts. All the affected scripting changes can be viewed on [Changes in 1.0](/docs/:category:changes_in_1.0.md "wikilink") page.
 
 ### Camera functions
 
-The [Camera Functions](/docs/Server_Scripting_Functions#Camera_functions.md "wikilink") have been completely overhauled.
+The [Camera Functions](/docs/server_scripting_functions#camera_functions.md "wikilink") have been completely overhauled.
 
 ### Player functions
 
-Some [Player functions](/docs/Server_Scripting_Functions#Player_functions.md "wikilink") have been renamed to [Ped functions](/Server_Scripting_Functions#Ped_functions.md "wikilink"). [Category:Changelog](/Category:Changelog.md "wikilink") [Category:Changes in 1.0](/Category:Changes_in_1.0.md "wikilink")
+Some [Player functions](/docs/server_scripting_functions#player_functions.md "wikilink") have been renamed to [Ped functions](/Server_Scripting_Functions#Ped_functions.md "wikilink"). [Category:Changelog](/Category:Changelog.md "wikilink") [Category:Changes in 1.0](/Category:Changes_in_1.0.md "wikilink")

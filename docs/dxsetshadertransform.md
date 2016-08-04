@@ -17,7 +17,7 @@ bool dxSetShaderTransform ( element theShader,
 -   **theShader:** The shader element whose transformation is to be changed
 -   **rotationX:** Rotation angle in degrees around the X axis (Left,right). This will make the shader rotate along its width.
 -   **rotationY:** Rotation angle in degrees around the Y axis (Up,down). This will make the shader rotate along its height.
--   **rotationZ:** Rotation angle in degrees around the Z axis (In,out). This will make the shader rotate in a similar way to the rotation argument in [dxDrawImage](/docs/dxDrawImage.md "wikilink").
+-   **rotationZ:** Rotation angle in degrees around the Z axis (In,out). This will make the shader rotate in a similar way to the rotation argument in [dxDrawImage](/docs/dxdrawimage.md "wikilink").
 
 ### Optional Arguments
 

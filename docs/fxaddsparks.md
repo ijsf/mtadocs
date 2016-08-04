@@ -1,4 +1,4 @@
-[thumb|200px|Sparks](/docs/Image:Fxsparks.png.md "wikilink") Creates a number of sparks originating from a point or along a line.
+[thumb|200px|Sparks](/docs/image:fxsparks.png.md "wikilink") Creates a number of sparks originating from a point or along a line.
 
 Syntax
 ------

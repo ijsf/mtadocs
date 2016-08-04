@@ -1,4 +1,4 @@
-The [powerupManager](/docs/PowerupManager.md "wikilink") library was created to ease the use of advanced, more custom pickups (powerups).
+The [powerupManager](/docs/powerupmanager.md "wikilink") library was created to ease the use of advanced, more custom pickups (powerups).
 
 It exists out of server and client scripts to create, handle and destroy custom powerup items.
 
@@ -29,4 +29,4 @@ Server
 Client
 ------
 
-[ru:PowerupManager](/docs/ru:PowerupManager.md "wikilink")
+[ru:PowerupManager](/docs/ru:powerupmanager.md "wikilink")

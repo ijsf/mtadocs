@@ -73,4 +73,4 @@ Changelog
 See Also
 --------
 
-[ar:getSoundLevelData](/docs/ar:getSoundLevelData.md "wikilink")
+[ar:getSoundLevelData](/docs/ar:getsoundleveldata.md "wikilink")

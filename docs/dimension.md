@@ -8,15 +8,15 @@ A useful use of this is for [interiors](/docs/interior.md "wikilink"). For examp
 Relevant scripting functions
 ----------------------------
 
--   [setElementDimension](/docs/setElementDimension.md "wikilink")
--   [getElementDimension](/docs/getElementDimension.md "wikilink")
--   [spawnPlayer](/docs/spawnPlayer.md "wikilink")
+-   [setElementDimension](/docs/setelementdimension.md "wikilink")
+-   [getElementDimension](/docs/getelementdimension.md "wikilink")
+-   [spawnPlayer](/docs/spawnplayer.md "wikilink")
 
 See Also
 --------
 
--   [Interior](/docs/Interior.md "wikilink")
+-   [Interior](/docs/interior.md "wikilink")
 
-[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
 
-[de:Dimension](/docs/de:Dimension.md "wikilink")
+[de:Dimension](/docs/de:dimension.md "wikilink")

@@ -45,7 +45,7 @@ There are two modes CEF can run in:
 
 Characteristics of local mode:
 
--   you **can** execute Javascript code without any restriction (See: [executeBrowserJavascript](/docs/executeBrowserJavascript.md "wikilink"))
+-   you **can** execute Javascript code without any restriction (See: [executeBrowserJavascript](/docs/executebrowserjavascript.md "wikilink"))
 -   you **can** only load websites stored in the resource folder
 -   you **cannot** load remote content
 
@@ -127,7 +127,7 @@ Lua &lt;
 Lua to Javascript
 -----------------
 
-Lua to javascript is pretty easy as you can execute Javascript code from Lua using [executeBrowserJavascript](/docs/executeBrowserJavascript.md "wikilink").
+Lua to javascript is pretty easy as you can execute Javascript code from Lua using [executeBrowserJavascript](/docs/executebrowserjavascript.md "wikilink").
 
 So, a bit Lua code around it and you have got the first direction:
 
@@ -176,7 +176,7 @@ Since our CEF implementation does not do z-ordering by default, you have to prov
 Performance
 ===========
 
-Creating lots of browsers does not influence MTA directly (except the fact MTA has to copy the texture data in the main/GTA thread due to technical restrictions), because one part of CEF runs in another process and the other part in a secondary thread. So if you do not want to show the browser, it is definitely the best to destroy the browser. If you cannot destroy the browser (imagine you have to save the website's state for some reason), you can save a lot of resources by disabling rendering via [setBrowserRenderingPaused](/docs/setBrowserRenderingPaused.md "wikilink"). This will stop CEF from rendering new frames/processing input and MTA from copying the texture data.
+Creating lots of browsers does not influence MTA directly (except the fact MTA has to copy the texture data in the main/GTA thread due to technical restrictions), because one part of CEF runs in another process and the other part in a secondary thread. So if you do not want to show the browser, it is definitely the best to destroy the browser. If you cannot destroy the browser (imagine you have to save the website's state for some reason), you can save a lot of resources by disabling rendering via [setBrowserRenderingPaused](/docs/setbrowserrenderingpaused.md "wikilink"). This will stop CEF from rendering new frames/processing input and MTA from copying the texture data.
 
 Troubleshooting
 ===============
@@ -191,4 +191,4 @@ Scripting functions
 Scripting events
 ================
 
-[Category:Tutorials](/docs/Category:Tutorials.md "wikilink")
+[Category:Tutorials](/docs/category:tutorials.md "wikilink")

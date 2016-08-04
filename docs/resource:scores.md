@@ -41,4 +41,4 @@ bool updateActiveColumns ( )
 
 Changes the active scoreboard columns according to the resource's current settings.
 
-[ru:<Resource:Scores>](/docs/ru:Resource:Scores.md "wikilink")
+[ru:<Resource:Scores>](/docs/ru:resource:scores.md "wikilink")

@@ -1,5 +1,5 @@
 This function changes the paintjob on the specified vehicle.
-See [paintjob](/docs/Paintjob.md "wikilink") for list of supported vehicles.
+See [paintjob](/docs/paintjob.md "wikilink") for list of supported vehicles.
 
 Syntax
 ------

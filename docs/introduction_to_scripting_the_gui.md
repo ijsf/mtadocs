@@ -1,11 +1,11 @@
 One important feature in MTA:SA is the ability to script customized GUI (Graphic User Interface). The GUI consists of windows, button, edit boxes, check boxes... Almost every standard form components in graphical environments. They can be displayed while the user is in game, and used for inputs and outputs in place of traditional commands.
 
-[thumb|Admin Console GUI](/docs/Image:AdminGUI.png.md "wikilink")
+[thumb|Admin Console GUI](/docs/image:admingui.png.md "wikilink")
 
 A tutorial to make a login window
 ---------------------------------
 
-In this tutorial we'll make a simple login window, with two input boxes and a button. The window appears when the player joins the game, and once the button is clicked, the player is spawned. The tutorial will continue the gamemode we made in [Introduction to Scripting](/docs/Scripting_Introduction.md "wikilink") *(If you have used the [Introduction to Scripting](/Scripting_Introduction.md "wikilink"), you will need to remove or comment the [spawnPlayer](/spawnPlayer.md "wikilink") line in the “joinHandler” function in your code, as we will be replacing it with a gui alternative in this tutorial)*. We'll also take a look at client-side scripting.
+In this tutorial we'll make a simple login window, with two input boxes and a button. The window appears when the player joins the game, and once the button is clicked, the player is spawned. The tutorial will continue the gamemode we made in [Introduction to Scripting](/docs/scripting_introduction.md "wikilink") *(If you have used the [Introduction to Scripting](/Scripting_Introduction.md "wikilink"), you will need to remove or comment the [spawnPlayer](/spawnPlayer.md "wikilink") line in the “joinHandler” function in your code, as we will be replacing it with a gui alternative in this tutorial)*. We'll also take a look at client-side scripting.
 
 ### Draw the window
 
@@ -13,7 +13,7 @@ All the GUI must be made client side. It is also a good practice to keep all the
 
 Browse to /Your MTA Server/mods/deathmatch/resources/myserver/ directory, and create a folder named “client”. Under /client/ directory, create a text file and name it “gui.lua”.
 
-In this file we will write a funtion that draws the window. To create a window we will use [guiCreateWindow](/docs/guiCreateWindow.md "wikilink"):
+In this file we will write a funtion that draws the window. To create a window we will use [guiCreateWindow](/docs/guicreatewindow.md "wikilink"):
 
 ``` lua
 function createLoginWindow()
@@ -33,7 +33,7 @@ end
 
 Note that the final argument passed to guiCreateWindow in the above example is *true*. This indicates that the coordinates and dimensions of the window are **relative**, meaning they are a *percentage* of the total screen size. This means that if the far left side of the screen is 0, and the far right is 1, an X position of 0.5 would represent the centre point of the screen. Similarly, if the top of the screen is 0 and the bottom is 1, a Y position of 0.2 would be 20% of the way down the screen. The same principles apply to both Width and Height as well (with a Width value of 0.5 meaning the window will be half as wide as the screen).
 
-The alternative to using relative values is using **absolute** (by passing *false* instead of true to guiCreateWindow). Absolute values are calculated as the total number of pixels from the top-left corner of the parent (if no gui element parent is specified, the parent is the screen itself). If we assume a screen resolution of 1920x1200, the far left side of the screen being 0 pixels and the far right being 1920 pixels, an X position of 960 will represent the centre point of the screen. Similarly, if the top of the screen is 0 pixels and the bottom is 1200, a Y position of 20 would be 20 pixels down from the top of the screen. The same principles apply to both Width and Height as well (with a Width value of 50 meaning the window will be 50 pixels wide). *You can use [guiGetScreenSize](/docs/guiGetScreenSize.md "wikilink") and a little maths to calculate certain absolute positions.*
+The alternative to using relative values is using **absolute** (by passing *false* instead of true to guiCreateWindow). Absolute values are calculated as the total number of pixels from the top-left corner of the parent (if no gui element parent is specified, the parent is the screen itself). If we assume a screen resolution of 1920x1200, the far left side of the screen being 0 pixels and the far right being 1920 pixels, an X position of 960 will represent the centre point of the screen. Similarly, if the top of the screen is 0 pixels and the bottom is 1200, a Y position of 20 would be 20 pixels down from the top of the screen. The same principles apply to both Width and Height as well (with a Width value of 50 meaning the window will be 50 pixels wide). *You can use [guiGetScreenSize](/docs/guigetscreensize.md "wikilink") and a little maths to calculate certain absolute positions.*
 
 The differences between using relative and absolute values is quite simple; gui created using absolute values will always remain exactly the same pixel size and position, while gui created using relative values will always be a percentage of its parent's size.
 
@@ -45,7 +45,7 @@ For the purposes of this introduction we will be using relative values.
 
 Next, we'll add the text labels (saying “username:” and “password:”), edit boxes (for entering your data) and a button to log in.
 
-To create buttons we use [guiCreateButton](/docs/guiCreateButton.md "wikilink") and to create edit boxes use [guiCreateEdit](/guiCreateEdit.md "wikilink"):
+To create buttons we use [guiCreateButton](/docs/guicreatebutton.md "wikilink") and to create edit boxes use [guiCreateEdit](/guiCreateEdit.md "wikilink"):
 
 **Note that we are now writing more code for our existing 'createLoginWindow' function. This is not a new function and is meant to replace what you already have.**
 
@@ -103,7 +103,7 @@ guiSetVisible(wdwLogin, false) --hides all the GUI we made so we can show them t
 
 ### Using the function we wrote
 
-The createLoginWindow function is now complete, but it won't do anything until we call it. It is recommended to create all GUI when the client resource starts, hide them, and show them to the player later when needed. Therefore, we'll write an event handler for "[onClientResourceStart](/docs/onClientResourceStart.md "wikilink")" to create the window:
+The createLoginWindow function is now complete, but it won't do anything until we call it. It is recommended to create all GUI when the client resource starts, hide them, and show them to the player later when needed. Therefore, we'll write an event handler for "[onClientResourceStart](/docs/onclientresourcestart.md "wikilink")" to create the window:
 
 ``` lua
 -- attach the event handler to the root element of the resource
@@ -115,7 +115,7 @@ addEventHandler("onClientResourceStart", getResourceRootElement(),
 )   
 ```
 
-As this is a log in window, we now need to show the window when the player joins the game. This can be done using the same event, "[onClientResourceStart](/docs/onClientResourceStart.md "wikilink")", so we can modify the above code to include showing the window:
+As this is a log in window, we now need to show the window when the player joins the game. This can be done using the same event, "[onClientResourceStart](/docs/onclientresourcestart.md "wikilink")", so we can modify the above code to include showing the window:
 
 **Note that we are now writing more code for our existing 'onClientResourceStart' handler. This is not a new event handler and is meant to replace what you already have.**
 
@@ -153,7 +153,7 @@ Now that we have created our GUI and shown it to the player, we need to make it 
 
 ### Detecting the click
 
-When the player clicks on any part of the GUI, the event "[onClientGUIClick](/docs/onClientGUIClick.md "wikilink")" will be triggered for the GUI component you clicked on. This allows us to easily detect any clicks on the GUI elements we want to use. For example, we can attach the event to the btnLogin button to catch any clicks on it:
+When the player clicks on any part of the GUI, the event "[onClientGUIClick](/docs/onclientguiclick.md "wikilink")" will be triggered for the GUI component you clicked on. This allows us to easily detect any clicks on the GUI elements we want to use. For example, we can attach the event to the btnLogin button to catch any clicks on it:
 
 ``` lua
 -- attach the event onClientGUIClick to btnLogin and set it to trigger the 'clientSubmitLogin' function
@@ -177,7 +177,7 @@ function createLoginWindow()
 
 ### Managing the click
 
-Now that we can detect when the player clicks on the button, we need to write code to manage what happens when they do. In our [onClientGUIClick](/docs/onClientGUIClick.md "wikilink") event handle, we told it to call the function clientSubmitLogin whenever btnLogin is clicked. Therefore, we can now use the function clientSubmitLogin to control what happens when the button is clicked:
+Now that we can detect when the player clicks on the button, we need to write code to manage what happens when they do. In our [onClientGUIClick](/docs/onclientguiclick.md "wikilink") event handle, we told it to call the function clientSubmitLogin whenever btnLogin is clicked. Therefore, we can now use the function clientSubmitLogin to control what happens when the button is clicked:
 
 ``` lua
 -- create the function and define the 'button' and 'state' parameters
@@ -199,7 +199,7 @@ Now, when the button is clicked, the window will be hidden and all controls will
 
 ### Triggering the server
 
-Triggering the server can be done using [triggerServerEvent](/docs/triggerServerEvent.md "wikilink"). This allows you to trigger a specified event on the server from the client. The same can be done in reverse using [triggerClientEvent](/triggerClientEvent.md "wikilink"). Here, we use the [triggerServerEvent](/triggerServerEvent.md "wikilink") function to call our own custom event on the server, named “submitLogin”, which will then control the spawning of the player serverside.
+Triggering the server can be done using [triggerServerEvent](/docs/triggerserverevent.md "wikilink"). This allows you to trigger a specified event on the server from the client. The same can be done in reverse using [triggerClientEvent](/triggerClientEvent.md "wikilink"). Here, we use the [triggerServerEvent](/triggerServerEvent.md "wikilink") function to call our own custom event on the server, named “submitLogin”, which will then control the spawning of the player serverside.
 
 **Note that we are now writing more code for our existing 'clientSubmitLogin' function. This is not a new function and is meant to replace what you already have.**
 
@@ -231,9 +231,9 @@ end
 
 ### Creating the serverside event
 
-At this point we now have all the code needed on the client side, so open up your serverside 'script.lua' file (from the [Introduction to Scripting](/docs/Scripting_Introduction.md "wikilink")) or another suitable serverside file to work with.
+At this point we now have all the code needed on the client side, so open up your serverside 'script.lua' file (from the [Introduction to Scripting](/docs/scripting_introduction.md "wikilink")) or another suitable serverside file to work with.
 
-On the server side, recall that we are spawning the player as soon as they login. So, first of all, we will need to define the custom event that we used before on the client. This can be done using [addEvent](/docs/addEvent.md "wikilink") and [addEventHandler](/addEventHandler.md "wikilink").
+On the server side, recall that we are spawning the player as soon as they login. So, first of all, we will need to define the custom event that we used before on the client. This can be done using [addEvent](/docs/addevent.md "wikilink") and [addEventHandler](/addEventHandler.md "wikilink").
 
 ``` lua
 -- create our loginHandler function, with username and password parameters (passed from the client gui)
@@ -284,6 +284,6 @@ Finally, do not forget to include the new gui.lua file in the meta.xml of the ma
 
 At this point, we now have a basic login window that checks the player's username and password when the login button is clicked. If they are correct, the player is automatically spawned.
 
-For further help with GUI, see the [GUI tutorials](/docs/:Category:GUI_Tutorials.md "wikilink").
+For further help with GUI, see the [GUI tutorials](/docs/:category:gui_tutorials.md "wikilink").
 
-[Category:GUI\_Tutorials](/docs/Category:GUI_Tutorials.md "wikilink") [it:Introduzione\_allo\_scripting\_della\_GUI](/it:Introduzione_allo_scripting_della_GUI.md "wikilink") [ru:Introduction to Scripting the GUI](/ru:Introduction_to_Scripting_the_GUI.md "wikilink") [es:Introducción a la Programación de GUI](/es:Introducción_a_la_Programación_de_GUI.md "wikilink")
+[Category:GUI\_Tutorials](/docs/category:gui_tutorials.md "wikilink") [it:Introduzione\_allo\_scripting\_della\_GUI](/it:Introduzione_allo_scripting_della_GUI.md "wikilink") [ru:Introduction to Scripting the GUI](/ru:Introduction_to_Scripting_the_GUI.md "wikilink") [es:Introducción a la Programación de GUI](/es:Introducción_a_la_Programación_de_GUI.md "wikilink")

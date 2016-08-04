@@ -1,4 +1,4 @@
-This function starts a database query using the supplied connection. Use the returned query handle with [dbPoll](/docs/dbPoll.md "wikilink") to get the result, or [dbFree](/dbFree.md "wikilink") if you don't want the result.
+This function starts a database query using the supplied connection. Use the returned query handle with [dbPoll](/docs/dbpoll.md "wikilink") to get the result, or [dbFree](/dbFree.md "wikilink") if you don't want the result.
 
 Syntax
 ------
@@ -9,12 +9,12 @@ handle dbQuery ( [ function callbackFunction, [ table callbackArguments, ] ] ele
 
 ### Required Arguments
 
--   **databaseConnection:** A database connection element previously returned from [dbConnect](/docs/dbConnect.md "wikilink")
+-   **databaseConnection:** A database connection element previously returned from [dbConnect](/docs/dbconnect.md "wikilink")
 -   **query:** An SQL query. Positions where parameter values will be inserted are marked with a **?**
 
 ### Optional Arguments
 
--   **callbackFunction:** An optional function to be called when a result is ready. The function will only be called if the result has not already been read with [dbPoll](/docs/dbPoll.md "wikilink"). The function is called with the query handle as the first argument. (Notice: Do not use a function with a local prefix)
+-   **callbackFunction:** An optional function to be called when a result is ready. The function will only be called if the result has not already been read with [dbPoll](/docs/dbpoll.md "wikilink"). The function is called with the query handle as the first argument. (Notice: Do not use a function with a local prefix)
 -   **callbackArguments:** An optional table containing extra arguments to be sent to the callback function.
 -   **paramX:** A variable number of parameters. These must be strings or numbers - it is important to make sure they are of the correct type. Also, the number of parameters passed must be equal to the number of **?** characters in the query string.
 

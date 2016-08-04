@@ -23,7 +23,7 @@ bool setPedLookAt ( ped thePed, float x, float y, float z [, int time = 3000 [, 
 Example
 -------
 
-This example makes the local player look at where the camera points at. If you want to sync this effect with other players you can use [triggerLatentServerEvent](/docs/triggerLatentServerEvent.md "wikilink") and [triggerLatentClientEvent](/triggerLatentClientEvent.md "wikilink") functions.
+This example makes the local player look at where the camera points at. If you want to sync this effect with other players you can use [triggerLatentServerEvent](/docs/triggerlatentserverevent.md "wikilink") and [triggerLatentClientEvent](/triggerLatentClientEvent.md "wikilink") functions.
 
 ``` lua
 local sx, sy = guiGetScreenSize()

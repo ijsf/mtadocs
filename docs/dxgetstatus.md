@@ -11,13 +11,13 @@ table dxGetStatus ( )
 
 Returns a table with the following entries:
 
--   **TestMode :** The current dx test mode. See [dxSetTestMode](/docs/dxSetTestMode.md "wikilink").
+-   **TestMode :** The current dx test mode. See [dxSetTestMode](/docs/dxsettestmode.md "wikilink").
 -   **VideoCardName :** The name of the graphics card.
 -   **VideoCardRAM :** The installed memory in MB of the graphics card.
 -   **VideoCardPSVersion :** The maximum pixel shader version of the graphics card.
 -   **VideoCardNumRenderTargets:** The maximum number of simultaneous render targets a shader can use.
 -   **VideoCardMaxAnisotropy:** The maximum anisotropic filtering available. (0-4 which respectively mean: off,2x,4x,8x,16x)
--   **VideoMemoryFreeForMTA :** The amount of memory in MB available for MTA to use. **When this gets to zero, [guiCreateFont](/docs/guiCreateFont.md "wikilink"), [dxCreateFont](/dxCreateFont.md "wikilink") and [dxCreateRenderTarget](/dxCreateRenderTarget.md "wikilink") will fail.**
+-   **VideoMemoryFreeForMTA :** The amount of memory in MB available for MTA to use. **When this gets to zero, [guiCreateFont](/docs/guicreatefont.md "wikilink"), [dxCreateFont](/dxCreateFont.md "wikilink") and [dxCreateRenderTarget](/dxCreateRenderTarget.md "wikilink") will fail.**
 -   **VideoMemoryUsedByFonts :** The amount of graphic memory in MB used by custom fonts.
 -   **VideoMemoryUsedByTextures :** The amount of graphic memory in MB used by textures.
 -   **VideoMemoryUsedByRenderTargets :** The amount of graphic memory in MB used by render targets.

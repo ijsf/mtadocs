@@ -12,7 +12,7 @@ table split ( string stringToSplit, string / int separatingChar )
 ### Required Arguments
 
 -   **stringToSplit** The string you wish to split into parts.
--   **separatingChar** A string of the character you want to split, or the [ASCII number](/docs/ASCII.md "wikilink") representing the character you want to use to split.
+-   **separatingChar** A string of the character you want to split, or the [ASCII number](/docs/ascii.md "wikilink") representing the character you want to use to split.
 
 ### Returns
 

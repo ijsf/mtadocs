@@ -27,4 +27,4 @@ Example
 See also
 --------
 
-[pl:Modules/SebasIRC/ircConnect](/docs/pl:Modules/SebasIRC/ircConnect.md "wikilink")
+[pl:Modules/SebasIRC/ircConnect](/docs/pl:modules/sebasirc/ircconnect.md "wikilink")

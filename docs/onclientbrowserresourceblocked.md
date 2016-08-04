@@ -15,12 +15,12 @@ string url, string domain, int reason
 Source
 ------
 
-The [browser](/docs/Element/Browser.md "wikilink") element
+The [browser](/docs/element/browser.md "wikilink") element
 
 Example
 -------
 
-[pl:onClientBrowserResourceBlocked](/docs/pl:onClientBrowserResourceBlocked.md "wikilink")
+[pl:onClientBrowserResourceBlocked](/docs/pl:onclientbrowserresourceblocked.md "wikilink")
 
 See Also
 --------

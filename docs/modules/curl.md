@@ -18,9 +18,9 @@ cURL functions
 cURL variables
 --------------
 
-[Category:Modules](/docs/Category:Modules.md "wikilink")
+[Category:Modules](/docs/category:modules.md "wikilink")
 
-[ru:Modules/cURL](/docs/ru:Modules/cURL.md "wikilink")
+[ru:Modules/cURL](/docs/ru:modules/curl.md "wikilink")
 
 Changelog
 ---------

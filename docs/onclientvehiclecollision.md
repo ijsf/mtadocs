@@ -1,6 +1,6 @@
 This event is triggered when a vehicle collides with an [element](/docs/element.md "wikilink") or a world object.
 
-Note that the collision reported by this event doesn't always damage the vehicle by default (this event triggers when hitting lamp posts, but the vehicle isn't damaged by them automatically, for example). If you want to deal with real damage, please refer to [onClientVehicleDamage](/docs/onClientVehicleDamage.md "wikilink").
+Note that the collision reported by this event doesn't always damage the vehicle by default (this event triggers when hitting lamp posts, but the vehicle isn't damaged by them automatically, for example). If you want to deal with real damage, please refer to [onClientVehicleDamage](/docs/onclientvehicledamage.md "wikilink").
 
 Parameters
 ----------

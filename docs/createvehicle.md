@@ -1,6 +1,6 @@
 This function creates a vehicle at the specified location.
 
-Its worth noting that the position of the vehicle is the center point of the vehicle, not its base. As such, you need to ensure that the z value (vertical axis) is some height above the ground. You can find the exact height using the client side function [getElementDistanceFromCentreOfMassToBaseOfModel](/docs/getElementDistanceFromCentreOfMassToBaseOfModel.md "wikilink"), or you can estimate it yourself and just spawn the vehicle so it drops to the ground.
+Its worth noting that the position of the vehicle is the center point of the vehicle, not its base. As such, you need to ensure that the z value (vertical axis) is some height above the ground. You can find the exact height using the client side function [getElementDistanceFromCentreOfMassToBaseOfModel](/docs/getelementdistancefromcentreofmasstobaseofmodel.md "wikilink"), or you can estimate it yourself and just spawn the vehicle so it drops to the ground.
 
 Syntax
 ------
@@ -11,7 +11,7 @@ vehicle createVehicle ( int model, float x, float y, float z [, float rx, float 
 
 ### Required Arguments
 
--   **model**: The [vehicle ID](/docs/Vehicle_IDs.md "wikilink") of the vehicle being created.
+-   **model**: The [vehicle ID](/docs/vehicle_ids.md "wikilink") of the vehicle being created.
 -   **x**: A floating point number representing the X coordinate on the map.
 -   **y**: A floating point number representing the Y coordinate on the map.
 -   **z**: A floating point number representing the Z coordinate on the map.
@@ -146,4 +146,4 @@ addCommandHandler ( "tank", scriptCreateTank )
 See Also
 --------
 
-[de:createVehicle](/docs/de:createVehicle.md "wikilink") [pl:createVehicle](/pl:createVehicle.md "wikilink") [RU:CreateVehicle](/RU:CreateVehicle.md "wikilink")
+[de:createVehicle](/docs/de:createvehicle.md "wikilink") [pl:createVehicle](/pl:createVehicle.md "wikilink") [RU:CreateVehicle](/RU:CreateVehicle.md "wikilink")

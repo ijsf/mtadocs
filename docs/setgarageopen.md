@@ -9,7 +9,7 @@ bool setGarageOpen ( int garageID, bool open )
 
 ### Required Arguments
 
--   **garageID:** The [garage ID](/docs/Garage.md "wikilink") that represents the garage door being opened or closed.
+-   **garageID:** The [garage ID](/docs/garage.md "wikilink") that represents the garage door being opened or closed.
 -   **isOpen:** A boolean indicating whether or not to open the door.
 
 ### Returns
@@ -60,4 +60,4 @@ end
 See Also
 --------
 
-[ru:setGarageOpen](/docs/ru:setGarageOpen.md "wikilink")
+[ru:setGarageOpen](/docs/ru:setgarageopen.md "wikilink")

@@ -1,6 +1,6 @@
 This function sets the camera's position and direction. The first three arguments are the point at which the camera lies, the last three are the point the camera faces (or the point it “looks at”).
 
-**Note:** Calling this function takes the camera's focus away from the player and sets the camera in a fixed position and rotation. The camera's focus can be brought back to the player using the [setCameraTarget](/docs/setCameraTarget.md "wikilink") function.
+**Note:** Calling this function takes the camera's focus away from the player and sets the camera in a fixed position and rotation. The camera's focus can be brought back to the player using the [setCameraTarget](/docs/setcameratarget.md "wikilink") function.
 
 Syntax
 ------

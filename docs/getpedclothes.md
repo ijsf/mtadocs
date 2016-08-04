@@ -39,4 +39,4 @@ addCommandHandler ( "clothes", getClothes )
 See Also
 --------
 
-[pl:GetPedClothes](/docs/pl:GetPedClothes.md "wikilink")
+[pl:GetPedClothes](/docs/pl:getpedclothes.md "wikilink")

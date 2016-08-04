@@ -1,4 +1,4 @@
-This function sets the color of a single pixel for [pixels](/docs/Texture_pixels.md "wikilink") contained in a string. It only works with **'plain**' format pixels.
+This function sets the color of a single pixel for [pixels](/docs/texture_pixels.md "wikilink") contained in a string. It only works with **'plain**' format pixels.
 
 Syntax
 ------

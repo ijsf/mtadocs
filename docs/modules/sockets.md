@@ -32,6 +32,6 @@ See Also
 
 -   [<resource:irc>](/docs/resource:irc.md "wikilink")
 
-[Category:Modules](/docs/Category:Modules.md "wikilink")
+[Category:Modules](/docs/category:modules.md "wikilink")
 
-[ru:Modules/Sockets](/docs/ru:Modules/Sockets.md "wikilink")
+[ru:Modules/Sockets](/docs/ru:modules/sockets.md "wikilink")

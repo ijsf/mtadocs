@@ -1,6 +1,6 @@
 This function imports (adds) a loaded RenderWare Texture Dictionary into a specific model. This is necessary in order for the DFF loader to find any new textures. Please **call this function before loading the DFF model file**, in order to allow the DFF loading process to find the new textures. This function can also replace default GTA textures, so that it becomes possible to e.g. put custom images on existing billboards. Ped and weapon textures are also supported.
 
-See here for [tips on reducing the size of TXD files](/docs/Optimize_Custom_TXD.md "wikilink").
+See here for [tips on reducing the size of TXD files](/docs/optimize_custom_txd.md "wikilink").
 
 Syntax
 ------
@@ -11,7 +11,7 @@ bool engineImportTXD ( txd texture, int model_id )
 
 ### Required Arguments
 
--   **texture:** The [TXD](/docs/TXD.md "wikilink") that was loaded with [engineLoadTXD](/engineLoadTXD.md "wikilink")
+-   **texture:** The [TXD](/docs/txd.md "wikilink") that was loaded with [engineLoadTXD](/engineLoadTXD.md "wikilink")
 -   **model\_id:** The model id to import the TXD into
 
 ### Returns

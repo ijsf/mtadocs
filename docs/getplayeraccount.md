@@ -34,4 +34,4 @@ addCommandHandler("setmoney",setMoney)
 See Also
 --------
 
-[ar:getPlayerAccount](/docs/ar:getPlayerAccount.md "wikilink") [ru:getPlayerAccount](/ru:getPlayerAccount.md "wikilink")
+[ar:getPlayerAccount](/docs/ar:getplayeraccount.md "wikilink") [ru:getPlayerAccount](/ru:getPlayerAccount.md "wikilink")

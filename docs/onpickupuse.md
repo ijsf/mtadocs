@@ -12,11 +12,11 @@ player playerWhoUsed
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [pickup](/pickup.md "wikilink") that is getting used by the player.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [pickup](/pickup.md "wikilink") that is getting used by the player.
 
 ### Canceling
 
-If this event is [canceled](/docs/Event_system_#Canceling.md "wikilink"), the player will not be given the item they picked up.
+If this event is [canceled](/docs/event_system_#canceling.md "wikilink"), the player will not be given the item they picked up.
 
 Example
 -------

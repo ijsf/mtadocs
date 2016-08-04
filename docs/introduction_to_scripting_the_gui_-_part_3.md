@@ -2,18 +2,18 @@
 
 In this tutorial we will make a simple city teleport window, with 3 buttons (one for each city) that when clicked will teleport you to that city.
 
-**Note that this tutorial builds on content covered in the [GUI Scripting Introduction](/docs/Introduction_to_Scripting_the_GUI.md "wikilink").**
+**Note that this tutorial builds on content covered in the [GUI Scripting Introduction](/docs/introduction_to_scripting_the_gui.md "wikilink").**
 
-[thumb|GUI Teleport Window](/docs/Image:Gui_teleport_tutorial.PNG.md "wikilink")
+[thumb|GUI Teleport Window](/docs/image:gui_teleport_tutorial.png.md "wikilink")
 
 Making the GUI
 --------------
 
 ### Getting set up
 
-The first thing we need to do is create our GUI elements. For this tutorial we will be using one [window](/docs/Element/GUI/Window.md "wikilink"), three [buttons](/Element/GUI/Button.md "wikilink") and one [label](/Element/GUI/Text_label.md "wikilink"). We will be using **absolute** position values.
+The first thing we need to do is create our GUI elements. For this tutorial we will be using one [window](/docs/element/gui/window.md "wikilink"), three [buttons](/Element/GUI/Button.md "wikilink") and one [label](/Element/GUI/Text_label.md "wikilink"). We will be using **absolute** position values.
 
-As noted in [Previous tutorials](/docs/:Category:GUI_Tutorials.md "wikilink"), all the GUI must be made client side.
+As noted in [Previous tutorials](/docs/:category:gui_tutorials.md "wikilink"), all the GUI must be made client side.
 
 If you are following on from that tutorial, open up your gui.lua file to work with.
 
@@ -27,7 +27,7 @@ If you have not already done so, do not forget to include the new gui.lua file i
 
 ### Making the window
 
-In this file we will now write a funtion that creates the window. To create a window we will use [guiCreateWindow](/docs/guiCreateWindow.md "wikilink"):
+In this file we will now write a funtion that creates the window. To create a window we will use [guiCreateWindow](/docs/guicreatewindow.md "wikilink"):
 
 ``` lua
 -- create the function that will hold our gui creation code
@@ -52,7 +52,7 @@ This will create a basic window in the centre of the screen that cannot be resiz
 
 ### Making the label
 
-Next, we will add the label describing what the buttons do. To create a label we will use [guiCreateLabel](/docs/guiCreateLabel.md "wikilink"):
+Next, we will add the label describing what the buttons do. To create a label we will use [guiCreateLabel](/docs/guicreatelabel.md "wikilink"):
 
 **Note that we are now writing more code for our existing 'createTeleportWindow' function. This is not a new function and is meant to replace what you already have.**
 
@@ -82,7 +82,7 @@ You will now have a simple window with some centered instructions at the top.
 
 ### Making the buttons
 
-Now we need to add the city teleport buttons. To create a button we will use [guiCreateButton](/docs/guiCreateButton.md "wikilink"):
+Now we need to add the city teleport buttons. To create a button we will use [guiCreateButton](/docs/guicreatebutton.md "wikilink"):
 
 **Note that we are now writing more code for our existing 'createTeleportWindow' function. This is not a new function and is meant to replace what you already have.**
 
@@ -120,7 +120,7 @@ end
 
 Now our 'createTeleportWindow' function is ready, but it wont do anything until we call it. It is recommended to create all GUI when the client resource starts, hide them, and show them to the player later when needed.
 
-Therefore, we'll write an event handler for [onClientResourceStart](/docs/onClientResourceStart.md "wikilink") to create the window:
+Therefore, we'll write an event handler for [onClientResourceStart](/docs/onclientresourcestart.md "wikilink") to create the window:
 
 ``` lua
 -- add our event handler, using the root element of the resource
@@ -137,7 +137,7 @@ Now that we have our GUI created, we need a way for the players to open the wind
 
 ### Opening the GUI
 
-There are several ways this could be done, depending on your personal preference or the particulars of the situation. For this tutorial, we will use a simple [command](/docs/addCommandHandler.md "wikilink").
+There are several ways this could be done, depending on your personal preference or the particulars of the situation. For this tutorial, we will use a simple [command](/docs/addcommandhandler.md "wikilink").
 
 To open the GUI, we will use the command /teleportme :
 
@@ -249,9 +249,9 @@ end
 
 ### Creating the serverside event
 
-At this point we now have all the code needed on the client side, so open up your serverside 'script.lua' file (from the [Introduction to Scripting](/docs/Scripting_Introduction.md "wikilink")) or another suitable serverside file to work with.
+At this point we now have all the code needed on the client side, so open up your serverside 'script.lua' file (from the [Introduction to Scripting](/docs/scripting_introduction.md "wikilink")) or another suitable serverside file to work with.
 
-On the clientside, we are triggering the server event “movePlayerToPosition”. So, we will first define that event. To do that we will use [addEvent](/docs/addEvent.md "wikilink"), then [addEventHandler](/addEventHandler.md "wikilink"):
+On the clientside, we are triggering the server event “movePlayerToPosition”. So, we will first define that event. To do that we will use [addEvent](/docs/addevent.md "wikilink"), then [addEventHandler](/addEventHandler.md "wikilink"):
 
 ``` lua
 -- create our function, with the x,y and z values we passed from the client
@@ -288,12 +288,12 @@ function moveThePlayer(x,y,z,rotation)
 end
 ```
 
-Note the use of [spawnPlayer](/docs/spawnPlayer.md "wikilink") rather than, for example, [setElementPosition](/setElementPosition.md "wikilink"). Using [spawnPlayer](/spawnPlayer.md "wikilink") has several advantages, such as being able to set the position when 'de-spawned' or dead, and automatically refilling health. Of course, [setElementPosition](/setElementPosition.md "wikilink") would work just as well to simply move them, so the choice is yours.
+Note the use of [spawnPlayer](/docs/spawnplayer.md "wikilink") rather than, for example, [setElementPosition](/setElementPosition.md "wikilink"). Using [spawnPlayer](/spawnPlayer.md "wikilink") has several advantages, such as being able to set the position when 'de-spawned' or dead, and automatically refilling health. Of course, [setElementPosition](/setElementPosition.md "wikilink") would work just as well to simply move them, so the choice is yours.
 
 Also note the use of the variable “client”, it's an internal variable used by MTA to identify the player who triggered the event.
 
 At this point, you should have a basic teleport window, allowing the player to teleport to any of the 3 major cities in San Andreas.
 
-For further help with GUI, see the [GUI tutorials](/docs/:Category:GUI_Tutorials.md "wikilink").
+For further help with GUI, see the [GUI tutorials](/docs/:category:gui_tutorials.md "wikilink").
 
-[Category:GUI\_Tutorials](/docs/Category:GUI_Tutorials.md "wikilink")
+[Category:GUI\_Tutorials](/docs/category:gui_tutorials.md "wikilink")

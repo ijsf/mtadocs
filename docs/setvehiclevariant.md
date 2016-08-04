@@ -1,4 +1,4 @@
-This function sets the variant of a specified vehicle. In GTA SA some vehicles are different for example the labelling on trucks or the contents of a pick-up truck and the varying types of a motor bike. For the default GTA SA variant list see: [Vehicle variants](/docs/Vehicle_variants.md "wikilink")
+This function sets the variant of a specified vehicle. In GTA SA some vehicles are different for example the labelling on trucks or the contents of a pick-up truck and the varying types of a motor bike. For the default GTA SA variant list see: [Vehicle variants](/docs/vehicle_variants.md "wikilink")
 
 ` `
 ` `
@@ -21,8 +21,8 @@ Optional Arguments
 
 Both arguments need to be supplied, otherwise random variants will be picked.
 
--   **variant1**: An integer for the first variant see [Vehicle variants](/docs/Vehicle_variants.md "wikilink")
--   **variant2**: An integer for the second variant see [Vehicle variants](/docs/Vehicle_variants.md "wikilink")
+-   **variant1**: An integer for the first variant see [Vehicle variants](/docs/vehicle_variants.md "wikilink")
+-   **variant2**: An integer for the second variant see [Vehicle variants](/docs/vehicle_variants.md "wikilink")
 
 Returns
 -------

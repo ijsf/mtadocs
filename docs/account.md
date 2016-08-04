@@ -4,13 +4,13 @@ Accounts are unique to each client and can be used to store information that is 
 
 When a user logs in or out, the account object assigned to them will change. As such, you must not assume that the account attached to a client remains constant during their session.
 
-PHP code to check password hashes from the MTA server database is [here.](/docs/Account_PHP.md "wikilink")
+PHP code to check password hashes from the MTA server database is [here.](/docs/account_php.md "wikilink")
 
 Related scripting functions
 ---------------------------
 
 ### Server
 
-[Category:Scripting Concepts](/docs/Category:Scripting_Concepts.md "wikilink")
+[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
 
-[it:Account](/docs/it:Account.md "wikilink") [de:Account](/de:Account.md "wikilink") [ru:Account](/ru:Account.md "wikilink")
+[it:Account](/docs/it:account.md "wikilink") [de:Account](/de:Account.md "wikilink") [ru:Account](/ru:Account.md "wikilink")

@@ -1,6 +1,6 @@
 ACL Groups are groups that holds objects such as accounts, and resources which allows them to do some things depending on the permission the group has/holds.
 
-(Referring to [ACL\#Default\_Groups](/docs/ACL#Default_Groups.md "wikilink"))
+(Referring to [ACL\#Default\_Groups](/docs/acl#default_groups.md "wikilink"))
 
 ### Default Groups
 
@@ -11,7 +11,7 @@ MTA has provided some default groups with increasing permissions. These groups a
 -   **SuperModerator**
 -   **Admin**
 -   **Console** - This controls permissions of people who are using the console through **<object name="user.Console" />**
--   **RPC** - Remote Procedure Call. Specifically grants access to [callRemote](/docs/callRemote.md "wikilink") only and disables commands of default resources. Check the function for details.
+-   **RPC** - Remote Procedure Call. Specifically grants access to [callRemote](/docs/callremote.md "wikilink") only and disables commands of default resources. Check the function for details.
 
 To explain further, I will use the Everyone group as an example. By default it looks like this:
 
@@ -50,8 +50,8 @@ Now, scroll further down the ACL and you will see the **<acl name="Default" />**
 
 \***Function** entries are MTA scripting functions. For example, if a resource needed to use restartResource and was only in the 'Everyone' group (with the 'Default' list), it would be denied access to restartResource and fail to work correctly.
 
--   **Commands** are created when a resource uses [addCommandHandler](/docs/addCommandHandler.md "wikilink"). An example would be typing **/createvehicle \[vehicle\]** in the chatbox for the freeroam resource. This controls whether users in the group using this ACL can use the command. *Note: commands have no effect on resources within the group. Commands are only related to users.*
-    -   *General is a custom right name group created by the admin resource but it works on the same principles. The script works with them by using [hasObjectPermissionTo](/docs/hasObjectPermissionTo.md "wikilink")*
+-   **Commands** are created when a resource uses [addCommandHandler](/docs/addcommandhandler.md "wikilink"). An example would be typing **/createvehicle \[vehicle\]** in the chatbox for the freeroam resource. This controls whether users in the group using this ACL can use the command. *Note: commands have no effect on resources within the group. Commands are only related to users.*
+    -   *General is a custom right name group created by the admin resource but it works on the same principles. The script works with them by using [hasObjectPermissionTo](/docs/hasobjectpermissionto.md "wikilink")*
 
 You will notice some groups such as admin have multiple **<acl name="" />** nodes. An example is the admin group:
 

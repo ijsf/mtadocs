@@ -20,7 +20,7 @@ Returns *true* if the header value was set successfully, *false* otherwise.
 Example
 -------
 
-Using httpSetResponseHeader to set the content type. (Example from [httpWrite](/docs/httpWrite.md "wikilink"))
+Using httpSetResponseHeader to set the content type. (Example from [httpWrite](/docs/httpwrite.md "wikilink"))
 
 ``` lua
 <*

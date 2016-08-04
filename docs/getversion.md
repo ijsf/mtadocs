@@ -23,7 +23,7 @@ Returns a table with version information. Specifically these keys are present in
     -   **“Custom”** - A build compiled manually
     -   **“Release”** - A build that is publicly released (provisional).
 -   **tag:** the build tag (from 1.0.3 onwards). Contains infomation about the underlying version used. i.e. The final version of 1.0.3 has the build tag of “1.0.3 rc-9”. (This can be confirmed by using the console command 'ver'.)
--   **sortable:** a 15 character sortable version string (from 1.0.4 onwards). Format of the string is described in [getPlayerVersion](/docs/getPlayerVersion.md "wikilink").
+-   **sortable:** a 15 character sortable version string (from 1.0.4 onwards). Format of the string is described in [getPlayerVersion](/docs/getplayerversion.md "wikilink").
 
 Example
 -------

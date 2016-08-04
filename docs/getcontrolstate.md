@@ -1,4 +1,4 @@
-This function will check if a player is pressing a particular control. Controls are those that affect GTA. If you wish to get the state of another key, use [bindKey](/docs/bindKey.md "wikilink") and a command function.
+This function will check if a player is pressing a particular control. Controls are those that affect GTA. If you wish to get the state of another key, use [bindKey](/docs/bindkey.md "wikilink") and a command function.
 
 Note: Not all control states are sent to the server at all times, as such their state may be given incorrectly. As a rule, keys that move or affect the player or their vehicle are most likely to be accurate. For increased accuracy (and also increased bandwidth usage) use bindKey instead to bind a GTA control name to a function.
 

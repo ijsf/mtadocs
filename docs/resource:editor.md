@@ -14,30 +14,30 @@ Once the editor has started, you are presented with two menu bars: the main menu
 
 These are the buttons in the main menu:
 
--   [Image:Editor\_New.png](/docs/Image:Editor_New.png.md "wikilink") Create a new map.
--   [Image:Editor\_Open.png](/docs/Image:Editor_Open.png.md "wikilink") Open an existing map.
--   [Image:Editor\_Save.png](/docs/Image:Editor_Save.png.md "wikilink") Save the map you're working on.
--   [Image:Editor\_Save\_as.png](/docs/Image:Editor_Save_as.png.md "wikilink") Save your map under a different name.
--   [Image:Editor\_Options.png](/docs/Image:Editor_Options.png.md "wikilink") Alter general map editor settings.
--   [Image:Editor\_Undo.png](/docs/Image:Editor_Undo.png.md "wikilink") Undo the last action.
--   [Image:Editor\_Redo.png](/docs/Image:Editor_Redo.png.md "wikilink") Restore the last undone action.
--   [Image:Editor\_Locations.png](/docs/Image:Editor_Locations.png.md "wikilink") Stored game world locations. The editor comes with a great list of San Andreas Interior locations but you can also add your own interior and non-interior locations to the list.
--   [Image:Editor\_Current\_elements.png](/docs/Image:Editor_Current_elements.png.md "wikilink") List all the elements the map contains (objects, vehicles, markers, pickups etc.)
--   [Image:Editor\_Map\_settings.png](/docs/Image:Editor_Map_settings.png.md "wikilink") Map specific settings, like time of day, gravity etc. Here you can also specify what gamemodes the map is compatible with.
--   [Image:Editor\_Definitions.png](/docs/Image:Editor_Definitions.png.md "wikilink") Load [editor definition files (EDF)](/Resource:Editor/EDF.md "wikilink") that you want to use.
--   [Image:Editor\_Test.png](/docs/Image:Editor_Test.png.md "wikilink") Go into play mode to try out the map. This will load up the gamemode the map is made for.
+-   [Image:Editor\_New.png](/docs/image:editor_new.png.md "wikilink") Create a new map.
+-   [Image:Editor\_Open.png](/docs/image:editor_open.png.md "wikilink") Open an existing map.
+-   [Image:Editor\_Save.png](/docs/image:editor_save.png.md "wikilink") Save the map you're working on.
+-   [Image:Editor\_Save\_as.png](/docs/image:editor_save_as.png.md "wikilink") Save your map under a different name.
+-   [Image:Editor\_Options.png](/docs/image:editor_options.png.md "wikilink") Alter general map editor settings.
+-   [Image:Editor\_Undo.png](/docs/image:editor_undo.png.md "wikilink") Undo the last action.
+-   [Image:Editor\_Redo.png](/docs/image:editor_redo.png.md "wikilink") Restore the last undone action.
+-   [Image:Editor\_Locations.png](/docs/image:editor_locations.png.md "wikilink") Stored game world locations. The editor comes with a great list of San Andreas Interior locations but you can also add your own interior and non-interior locations to the list.
+-   [Image:Editor\_Current\_elements.png](/docs/image:editor_current_elements.png.md "wikilink") List all the elements the map contains (objects, vehicles, markers, pickups etc.)
+-   [Image:Editor\_Map\_settings.png](/docs/image:editor_map_settings.png.md "wikilink") Map specific settings, like time of day, gravity etc. Here you can also specify what gamemodes the map is compatible with.
+-   [Image:Editor\_Definitions.png](/docs/image:editor_definitions.png.md "wikilink") Load [editor definition files (EDF)](/Resource:Editor/EDF.md "wikilink") that you want to use.
+-   [Image:Editor\_Test.png](/docs/image:editor_test.png.md "wikilink") Go into play mode to try out the map. This will load up the gamemode the map is made for.
 
 ### Element menu
 
 The element menu is used to add new elements to the map.
 
--   [Image:Editor\_Vehicle.png](/docs/Image:Editor_Vehicle.png.md "wikilink") Create a new vehicle.
--   [Image:Editor\_Object.png](/docs/Image:Editor_Object.png.md "wikilink") Create a new object (buildings, roads and other scenery).
--   [Image:Editor\_Pickup.png](/docs/Image:Editor_Pickup.png.md "wikilink") Create a new pickup (health, armor, weapons and custom).
--   [Image:Editor\_Marker.png](/docs/Image:Editor_Marker.png.md "wikilink") Create a new marker (checkpoint, ring, cylinder, arrow and corona).
--   [<File:Crosshair.png>‎](/docs/File:Crosshair.png‎.md "wikilink") Select world object.
+-   [Image:Editor\_Vehicle.png](/docs/image:editor_vehicle.png.md "wikilink") Create a new vehicle.
+-   [Image:Editor\_Object.png](/docs/image:editor_object.png.md "wikilink") Create a new object (buildings, roads and other scenery).
+-   [Image:Editor\_Pickup.png](/docs/image:editor_pickup.png.md "wikilink") Create a new pickup (health, armor, weapons and custom).
+-   [Image:Editor\_Marker.png](/docs/image:editor_marker.png.md "wikilink") Create a new marker (checkpoint, ring, cylinder, arrow and corona).
+-   [<File:Crosshair.png>‎](/docs/file:crosshair.png‎.md "wikilink") Select world object.
 
-Additionally, if you have [editor definitions loaded](/docs/Resource:Editor/EDF.md "wikilink"), you can roll the mousewheel in this menu to bring up custom elements.
+Additionally, if you have [editor definitions loaded](/docs/resource:editor/edf.md "wikilink"), you can roll the mousewheel in this menu to bring up custom elements.
 
 Using the editor
 ----------------
@@ -52,16 +52,16 @@ To access the editor's interface and control panel you need to switch to *cursor
 
 Camera mode can be recognized by a crosshair in the center of the screen. You can use it to select and move elements just like in cursor mode.
 
-[center](/docs/Image:Editor_Crosshair.png.md "wikilink")
+[center](/docs/image:editor_crosshair.png.md "wikilink")
 
 ### Starting a new map
 
 -   Start the editor, or if it is already started, click the *New* menu button.
 -   Click the *Map settings* button. In the *Meta* tab, fill in the Name and Author fields with the name of the map and your name respectively. Also open the *Gamemodes* tab and add the gamemodes your map is meant for (they will be moved to the *Added gamemodes* list). You can do this by selecting them and clicking *Add*, or by double clicking them. Click OK when you're done.
 
-[center](/docs/Image:Editor_Mapsettings.png.md "wikilink")
+[center](/docs/image:editor_mapsettings.png.md "wikilink")
 
--   Click the *Definitions* window and add the resources of which you want to use the custom elements. These will consist of the gamemodes you selected in the *Map settings* window, plus eventual additional resources. For more information about editor definitions, see [EDF](/docs/Resource:Editor/EDF.md "wikilink"). Click OK when you're done.
+-   Click the *Definitions* window and add the resources of which you want to use the custom elements. These will consist of the gamemodes you selected in the *Map settings* window, plus eventual additional resources. For more information about editor definitions, see [EDF](/docs/resource:editor/edf.md "wikilink"). Click OK when you're done.
 
 ### Creating new elements
 
@@ -71,11 +71,11 @@ Adding elements to your map, such as vehicles and objects, is very straightforwa
 -   Click the button in the element menu that represents what you want. E.g., click the button with a car on it to add a vehicle.
 -   A new element of the selected type will be created and attached to your cursor. Move it to the location where you want it and **left click** to drop it off.
 
-[center](/docs/Image:Editor_Addelem.png.md "wikilink")
+[center](/docs/image:editor_addelem.png.md "wikilink")
 
-To create custom elements that are specific to a resource, hover the cursor over the element menu and turn the scroll wheel until the desired resource comes up. Note that for this to work, you first have to add the [EDF](/docs/Resource:Editor/EDF.md "wikilink") file of the resource in the *Definitions* window.
+To create custom elements that are specific to a resource, hover the cursor over the element menu and turn the scroll wheel until the desired resource comes up. Note that for this to work, you first have to add the [EDF](/docs/resource:editor/edf.md "wikilink") file of the resource in the *Definitions* window.
 
-[center](/docs/Image:Editor_Selectedf.png.md "wikilink")
+[center](/docs/image:editor_selectedf.png.md "wikilink")
 
 ### Selecting
 
@@ -127,7 +127,7 @@ Or:
 
 With both methods you can additionally hold **ALT** to decrease the rotation speed or **SHIFT** to increase it.
 
-[center](/docs/Image:Editor_Rotateelem.png.md "wikilink")
+[center](/docs/image:editor_rotateelem.png.md "wikilink")
 
 ### Changing model and other properties
 
@@ -137,7 +137,7 @@ Most elements have a variety of options that can be altered to change their appe
 -   Make any alterations that you want. For example, to change the model of a car or object, click the **Browse** button next to “model” to open the model browser.
 -   Click OK when you're done.
 
-[center](/docs/Image:Editor_Props.png.md "wikilink")
+[center](/docs/image:editor_props.png.md "wikilink")
 
 ### Cloning
 
@@ -162,7 +162,7 @@ Creating maps for specific gamemodes
 To make a map for a specific gamemode, you have to do two things:
 
 -   Click the **Map Settings** button in the top menu, go to the **Gamemodes** tab and add any gamemodes that your map is to be used with.
--   You will likely also need to add one or more [Editor Definition Files](/docs/Resource:Editor/EDF.md "wikilink"). These will allow you to place gamemode specific elements in the map, like spawnpoints, race checkpoints, or CTF flags. You can add EDF's by clicking the **Definitions** menu button and adding the relevant gamemodes.
+-   You will likely also need to add one or more [Editor Definition Files](/docs/resource:editor/edf.md "wikilink"). These will allow you to place gamemode specific elements in the map, like spawnpoints, race checkpoints, or CTF flags. You can add EDF's by clicking the **Definitions** menu button and adding the relevant gamemodes.
 
 Controls
 --------
@@ -283,4 +283,4 @@ Sometimes resetting the map editor will solve certain issues. The easiest way to
 
 Please use the official [bugtracker](http://bugs.mtasa.com) for reporting bugs. Feel free to also join us on [IRC](http://www.multitheftauto.com/irc.html).
 
-[ru:<Resource:Editor>](/docs/ru:Resource:Editor.md "wikilink") [es:<Resource:Editor>](/es:Resource:Editor.md "wikilink")
+[ru:<Resource:Editor>](/docs/ru:resource:editor.md "wikilink") [es:<Resource:Editor>](/es:Resource:Editor.md "wikilink")

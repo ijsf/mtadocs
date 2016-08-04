@@ -109,11 +109,11 @@ player hitPlayer
 
 #### Source
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the interior element which was hit.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the interior element which was hit.
 
 #### Cancel effect
 
-If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the player will not be warped to his destination point.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the player will not be warped to his destination point.
 
 ------------------------------------------------------------------------
 
@@ -131,7 +131,7 @@ player warpedPlayer
 
 #### Source
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the interior element which was warped **to**.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the interior element which was warped **to**.
 
 ------------------------------------------------------------------------
 
@@ -149,11 +149,11 @@ element hitInterior
 
 #### Source
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the player who hit the interior element.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the player who hit the interior element.
 
 #### Cancel effect
 
-If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the player will not be warped to his destination point.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the player will not be warped to his destination point.
 
 ------------------------------------------------------------------------
 
@@ -171,10 +171,10 @@ element warpedInterior
 
 #### Source
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the player who was warped to his destination point.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the player who was warped to his destination point.
 
 ------------------------------------------------------------------------
 
 ### Examples
 
-**Coming soon** [ru:<Resource:Interiors>](/docs/ru:Resource:Interiors.md "wikilink")
+**Coming soon** [ru:<Resource:Interiors>](/docs/ru:resource:interiors.md "wikilink")

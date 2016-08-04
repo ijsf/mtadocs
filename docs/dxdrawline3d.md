@@ -1,4 +1,4 @@
-This function draws a 3D line between two points in the 3D world - rendered for **one** frame. This should be used in conjunction with [onClientRender](/docs/onClientRender.md "wikilink") in order to display continuously.
+This function draws a 3D line between two points in the 3D world - rendered for **one** frame. This should be used in conjunction with [onClientRender](/docs/onclientrender.md "wikilink") in order to display continuously.
 
 Syntax
 ------

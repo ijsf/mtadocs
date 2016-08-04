@@ -12,7 +12,7 @@ element Scrolled
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the scrollbar element that got scrolled.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the scrollbar element that got scrolled.
 
 Example
 -------
@@ -26,7 +26,7 @@ end
 addEventHandler("onClientGUIScroll",getRootElement(),OnScroll)
 ```
 
-[pl:onClientGUIScroll](/docs/pl:onClientGUIScroll.md "wikilink")
+[pl:onClientGUIScroll](/docs/pl:onclientguiscroll.md "wikilink")
 
 See Also
 --------

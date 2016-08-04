@@ -10,7 +10,7 @@ bool setPedSkin ( ped thePed, int skinID )
 ### Required Arguments
 
 -   **thePed:** The [ped](/docs/ped.md "wikilink") whose model will be changed.
--   **skinID:** A GTASA player model (skin) ID. See [Character Skins](/docs/Character_Skins.md "wikilink").
+-   **skinID:** A GTASA player model (skin) ID. See [Character Skins](/docs/character_skins.md "wikilink").
 
 Example
 -------

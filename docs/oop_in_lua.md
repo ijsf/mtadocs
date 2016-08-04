@@ -9,7 +9,7 @@ Glossary
 Initialising
 ------------
 
-There is a basic and simple predefined variables we should recognize and know: **[self](/docs/#Glossary.md "wikilink")**.
+There is a basic and simple predefined variables we should recognize and know: **[self](/docs/#glossary.md "wikilink")**.
 
 ### Our first environment
 
@@ -36,7 +36,7 @@ array:example(", world!")
 array.example(array, ", world!")
 ```
 
-We're able to call a function using two ways: "**:**" and "**.**". As you can see on the example above, if we use a dot we're directly accessing the function. We need to manually send the *self* value . But if use a colon, *self* will be the environment the function is under, i.e. **array**. We can send the self value in case we want a function to override the object, read ahead to [advanced examples](/docs/#Advanced_examples.md "wikilink") for more information about this.
+We're able to call a function using two ways: "**:**" and "**.**". As you can see on the example above, if we use a dot we're directly accessing the function. We need to manually send the *self* value . But if use a colon, *self* will be the environment the function is under, i.e. **array**. We can send the self value in case we want a function to override the object, read ahead to [advanced examples](/docs/#advanced_examples.md "wikilink") for more information about this.
 
 ### Variables
 
@@ -349,7 +349,7 @@ end
 Useful links
 ============
 
--   [Official MTA OOP Introduction](/docs/OOP_Introduction.md "wikilink")
--   [OOP](/docs/OOP.md "wikilink")
+-   [Official MTA OOP Introduction](/docs/oop_introduction.md "wikilink")
+-   [OOP](/docs/oop.md "wikilink")
 
-[Category:Tutorials](/docs/Category:Tutorials.md "wikilink")
+[Category:Tutorials](/docs/category:tutorials.md "wikilink")

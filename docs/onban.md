@@ -12,7 +12,7 @@ ban theBan
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the [element](/element.md "wikilink") that was responsible for the banning. If no responsible was specified, the source is the global root element.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [element](/element.md "wikilink") that was responsible for the banning. If no responsible was specified, the source is the global root element.
 
 Cancel effect
 -------------

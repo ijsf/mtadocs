@@ -1,4 +1,4 @@
-This function converts a **single** value (preferably a Lua table) into a [JSON](/docs/JSON.md "wikilink") encoded string. You can use this to store the data and then load it again using [fromJSON](/fromJSON.md "wikilink").
+This function converts a **single** value (preferably a Lua table) into a [JSON](/docs/json.md "wikilink") encoded string. You can use this to store the data and then load it again using [fromJSON](/fromJSON.md "wikilink").
 
 Syntax
 ------

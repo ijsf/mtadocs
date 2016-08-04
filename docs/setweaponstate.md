@@ -1,4 +1,4 @@
-This function sets a [custom weapon](/docs/Element/Weapon.md "wikilink")'s state.
+This function sets a [custom weapon](/docs/element/weapon.md "wikilink")'s state.
 
 Syntax
 ------

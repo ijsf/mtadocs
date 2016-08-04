@@ -1,4 +1,4 @@
-This applies to MTA 0.5r2 (both GTA3:MTA and MTA:VC). The known issues for MTA:SA 1.x can be found [here](/docs/Known_Issues_-_FAQ.md "wikilink").
+This applies to MTA 0.5r2 (both GTA3:MTA and MTA:VC). The known issues for MTA:SA 1.x can be found [here](/docs/known_issues_-_faq.md "wikilink").
 
 Client issues:
 --------------
@@ -103,6 +103,6 @@ Please follow **Aeron**'s instructions regarding its use.
 
 A big thank-you to **Mike** for discovering the cause of this problem and **Aeron** for getting a fix out so quickly.
 
-[ru:MTA\_0.5r2\_Known\_Issues](/docs/ru:MTA_0.5r2_Known_Issues.md "wikilink")
+[ru:MTA\_0.5r2\_Known\_Issues](/docs/ru:mta_0.5r2_known_issues.md "wikilink")
 
-[Category:Vice\_City](/docs/Category:Vice_City.md "wikilink") [Category:GTA3](/Category:GTA3.md "wikilink") [Category:MTA\_0.5](/Category:MTA_0.5.md "wikilink")
+[Category:Vice\_City](/docs/category:vice_city.md "wikilink") [Category:GTA3](/Category:GTA3.md "wikilink") [Category:MTA\_0.5](/Category:MTA_0.5.md "wikilink")

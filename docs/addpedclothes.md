@@ -10,9 +10,9 @@ bool addPedClothes ( ped thePed, string clothesTexture, string clothesModel, int
 ### Required Arguments
 
 -   **thePed**: The [ped](/docs/ped.md "wikilink") whose clothes you want to change.
--   **clothesTexture**: A string determining the clothes texture that will be added. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
--   **clothesModel**: A string determining the clothes model that will be added. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
--   **clothesType**: A integer representing the clothes slot/type the clothes should be added to. See the [clothes catalog](/docs/CJ_Clothes.md "wikilink").
+-   **clothesTexture**: A string determining the clothes texture that will be added. See the [clothes catalog](/docs/cj_clothes.md "wikilink").
+-   **clothesModel**: A string determining the clothes model that will be added. See the [clothes catalog](/docs/cj_clothes.md "wikilink").
+-   **clothesType**: A integer representing the clothes slot/type the clothes should be added to. See the [clothes catalog](/docs/cj_clothes.md "wikilink").
 
 ### Returns
 
@@ -44,4 +44,4 @@ addEventHandler ( "onPlayerVehicleExit", root, onExitVehicle )
 See Also
 --------
 
-[pl:AddPedClothes](/docs/pl:AddPedClothes.md "wikilink")
+[pl:AddPedClothes](/docs/pl:addpedclothes.md "wikilink")

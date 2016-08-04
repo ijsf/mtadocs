@@ -12,17 +12,17 @@ string playerNick, string playerIP, string playerUsername, string playerSerial, 
 -   **playerUsername**: The player's community username.
 -   **playerSerial**: The player's serial number.
 -   **playerVersionNumber**: The player's MTA version in pure numerical form, e.g. **'256**' for 1.0, **'257**' for 1.0.1, etc.
--   **playerVersionString**: The player's MTA version in sortable string form. Same as the return value from [getPlayerVersion](/docs/getPlayerVersion.md "wikilink").
+-   **playerVersionString**: The player's MTA version in sortable string form. Same as the return value from [getPlayerVersion](/docs/getplayerversion.md "wikilink").
 
 Source
 ------
 
-The [source](/docs/event_system#Event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
 
 Cancel effect
 -------------
 
-If this event is [canceled](/docs/Event_system#Canceling.md "wikilink"), the player will be disconnected with an error message saying the reason specified in cancelEvent or “Disconnected: server refused the connection” if none was specified.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the player will be disconnected with an error message saying the reason specified in cancelEvent or “Disconnected: server refused the connection” if none was specified.
 
 Example
 -------

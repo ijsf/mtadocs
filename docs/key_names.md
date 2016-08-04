@@ -1,4 +1,4 @@
-This page lists all the key names. These can be used by the console commands *bind* and *unbind* as well as the script functions [bindKey](/docs/bindKey.md "wikilink") and [unbindKey](/unbindKey.md "wikilink").
+This page lists all the key names. These can be used by the console commands *bind* and *unbind* as well as the script functions [bindKey](/docs/bindkey.md "wikilink") and [unbindKey](/unbindKey.md "wikilink").
 
 Lua table of all the valid key names listed on this page:
 
@@ -166,4 +166,4 @@ OTHER
 -   **=**
 
 </div>
-[pl:Key names](/docs/pl:Key_names.md "wikilink") [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")
+[pl:Key names](/docs/pl:key_names.md "wikilink") [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")

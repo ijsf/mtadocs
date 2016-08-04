@@ -1,4 +1,4 @@
-This function unloads an animation library loaded by [engineLoadIFP](/docs/engineLoadIFP.md "wikilink").
+This function unloads an animation library loaded by [engineLoadIFP](/docs/engineloadifp.md "wikilink").
 
 Syntax
 ------

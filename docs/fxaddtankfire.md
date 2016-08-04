@@ -1,4 +1,4 @@
-[thumb|200px|Tank fire](/docs/Image:Fxtankfire.png.md "wikilink") This function creates a tank firing particle effect.
+[thumb|200px|Tank fire](/docs/image:fxtankfire.png.md "wikilink") This function creates a tank firing particle effect.
 
 Syntax
 ------

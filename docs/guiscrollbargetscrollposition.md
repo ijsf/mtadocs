@@ -27,4 +27,4 @@ This page lacks an example
 See Also
 --------
 
-[Catogory:Needs\_Example](/docs/Catogory:Needs_Example.md "wikilink")
+[Catogory:Needs\_Example](/docs/catogory:needs_example.md "wikilink")
