@@ -2,7 +2,7 @@ This resource provides a function that shows an dx-errorwindow. The window's siz
 
 Example (top -&gt; errorwindow, bottom -&gt; infowindow):
 
-[Image:errorwindow.png](/docs/image:errorwindow.png.md "wikilink")
+![errorwindow.png](/images/errorwindow.png)
 
 In its settings, you can set the color of:
 

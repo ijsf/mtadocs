@@ -5,15 +5,15 @@ Download and Install
 
 If you haven't done so already, download MultiTheftAuto 0.5 by clicking [here](https://mega.co.nz/#!DFNz2JSY!3-Yc3y0ek40HG7MTrH6kxuphmojlzqtBrCeQ4feM84U) and start the installer.
 
-[Image:0.5\_installer.png](/docs/image:0.5_installer.png.md "wikilink")
+![0.5\_installer.png](/images/0.5_installer.png)
 
 Hit the Next button, read the [EULA](/docs/mta_0.5_eula.md "wikilink") and click “I Agree”
 
-[Image:0.5\_eula.png](/docs/image:0.5_eula.png.md "wikilink")
+![0.5\_eula.png](/images/0.5_eula.png)
 
 The next page shows the elements that can be installed. The client is required. Please select the game you want to install MTA for (GTA3 and/or Vice City) and if you want the server and server administration tool.
 
-[Image:0.5\_installer\_selection.png‎](/docs/image:0.5_installer_selection.png‎.md "wikilink")
+![0.5\_installer\_selection.png‎](/images/0.5_installer_selection.png‎)
 
 Click Next again. Point the installer to the correct directories of your GTA game(s). The installer is pointed towards the default installation locations of GTA.
 
@@ -24,11 +24,11 @@ The first run
 
 The first time you run MultiTheftAuto 0.5, you will be presented with a “Welcome” message like the one show below:
 
-[Image:0.5\_welcome.png](/docs/image:0.5_welcome.png.md "wikilink")
+![0.5\_welcome.png](/images/0.5_welcome.png)
 
 Read the message, then click “Ok”. The next screen you'll see will be the main client window. This allows you to connect to the server and change all the relevant settings:
 
-[Image:Clientwelcome nick.jpg](/docs/image:clientwelcome_nick.jpg.md "wikilink")
+![Clientwelcome nick.jpg](/images/clientwelcome_nick.jpg)
 
 The first thing you should do is change the Nickname from “MTAPlayer” to a name of your choice. Remember, it is not a good idea to use your real name.
 
@@ -46,7 +46,7 @@ Starting the game
 
 Now that you're connected, you can use the “Chat” area to talk to the other people on the server. Just enter a message in the box at the bottom, and click “Send” or hit Enter.
 
-[Image:Clientwelcome chat.jpg](/docs/image:clientwelcome_chat.jpg.md "wikilink")
+![Clientwelcome chat.jpg](/images/clientwelcome_chat.jpg)
 
 When you're ready to start playing, just click the “Start Game” button and the game will launch itself. The first time you do this, you may be asked where the game is installed. If you get any errors, ensure that you have chosen an installed version of the game (Vice City or GTA3) that has no mods installed.
 

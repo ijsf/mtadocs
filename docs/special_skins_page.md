@@ -1,16 +1,16 @@
 **These skins are available for use in MTA 1.1 or higher.**
 
-'''1 '''[Image:Skin1.jpg](/docs/image:skin1.jpg.md "wikilink") '''2 '''[Image:Skin2.jpg](/Image:Skin2.jpg.md "wikilink") '''265 '''[Image:Skin265.jpg](/Image:Skin265.jpg.md "wikilink") '''266 '''[Image:Skin266.jpg](/Image:Skin266.jpg.md "wikilink") '''267 '''[Image:Skin267.jpg](/Image:Skin267.jpg.md "wikilink") '''268 '''[Image:Skin268.jpg](/Image:Skin268.jpg.md "wikilink")
+'''1 '''![Skin1.jpg](/images/skin1.jpg) '''2 '''![Skin2.jpg](/images/skin2.jpg) '''265 '''![Skin265.jpg](/images/skin265.jpg) '''266 '''![Skin266.jpg](/images/skin266.jpg) '''267 '''![Skin267.jpg](/images/skin267.jpg) '''268 '''![Skin268.jpg](/images/skin268.jpg)
 
-'''269 '''[Image:Skin269.jpg](/docs/image:skin269.jpg.md "wikilink") '''270 '''[Image:Skin270.jpg](/Image:Skin270.jpg.md "wikilink") '''271 '''[Image:Skin271.jpg](/Image:Skin271.jpg.md "wikilink") '''272 '''[Image:Skin272.jpg](/Image:Skin272.jpg.md "wikilink") '''290 '''[Image:Skin290.jpg](/Image:Skin290.jpg.md "wikilink") '''291 '''[Image:Skin291.jpg](/Image:Skin291.jpg.md "wikilink")
+'''269 '''![Skin269.jpg](/images/skin269.jpg) '''270 '''![Skin270.jpg](/images/skin270.jpg) '''271 '''![Skin271.jpg](/images/skin271.jpg) '''272 '''![Skin272.jpg](/images/skin272.jpg) '''290 '''![Skin290.jpg](/images/skin290.jpg) '''291 '''![Skin291.jpg](/images/skin291.jpg)
 
-'''292 '''[Image:Skin292.jpg](/docs/image:skin292.jpg.md "wikilink") '''293 '''[Image:Skin293.jpg](/Image:Skin293.jpg.md "wikilink") '''294 '''[Image:Skin294.jpg](/Image:Skin294.jpg.md "wikilink") '''295 '''[Image:Skin295.jpg](/Image:Skin295.jpg.md "wikilink") '''296 '''[Image:Skin296.jpg](/Image:Skin296.jpg.md "wikilink") '''297 '''[Image:Skin297.jpg](/Image:Skin297.jpg.md "wikilink")
+'''292 '''![Skin292.jpg](/images/skin292.jpg) '''293 '''![Skin293.jpg](/images/skin293.jpg) '''294 '''![Skin294.jpg](/images/skin294.jpg) '''295 '''![Skin295.jpg](/images/skin295.jpg) '''296 '''![Skin296.jpg](/images/skin296.jpg) '''297 '''![Skin297.jpg](/images/skin297.jpg)
 
-'''298 '''[Image:Skin298.jpg](/docs/image:skin298.jpg.md "wikilink") '''299 '''[Image:Skin299.jpg](/Image:Skin299.jpg.md "wikilink") '''300 '''[Image:Skin271.jpg](/Image:Skin271.jpg.md "wikilink") '''301 '''[Image:Skin301.jpg](/Image:Skin301.jpg.md "wikilink") '''302 '''[Image:Skin302.jpg](/Image:Skin302.jpg.md "wikilink") '''303 '''[Image:Skin303.jpg](/Image:Skin303.jpg.md "wikilink")
+'''298 '''![Skin298.jpg](/images/skin298.jpg) '''299 '''![Skin299.jpg](/images/skin299.jpg) '''300 '''![Skin271.jpg](/images/skin271.jpg) '''301 '''![Skin301.jpg](/images/skin301.jpg) '''302 '''![Skin302.jpg](/images/skin302.jpg) '''303 '''![Skin303.jpg](/images/skin303.jpg)
 
-'''304 '''[Image:Skin304.jpg](/docs/image:skin304.jpg.md "wikilink") '''305 '''[Image:Skin305.jpg](/Image:Skin305.jpg.md "wikilink") '''306 '''[Image:Skin306.jpg](/Image:Skin306.jpg.md "wikilink") '''307 '''[Image:Skin307.jpg](/Image:Skin307.jpg.md "wikilink") '''308 '''[Image:Skin308.jpg](/Image:Skin308.jpg.md "wikilink") '''309 '''[Image:Skin309.jpg](/Image:Skin309.jpg.md "wikilink")
+'''304 '''![Skin304.jpg](/images/skin304.jpg) '''305 '''![Skin305.jpg](/images/skin305.jpg) '''306 '''![Skin306.jpg](/images/skin306.jpg) '''307 '''![Skin307.jpg](/images/skin307.jpg) '''308 '''![Skin308.jpg](/images/skin308.jpg) '''309 '''![Skin309.jpg](/images/skin309.jpg)
 
-'''310 '''[Image:Skin310.jpg](/docs/image:skin310.jpg.md "wikilink") '''311 '''[Image:Skin311.jpg](/Image:Skin311.jpg.md "wikilink") '''312 '''[Image:Skin312.jpg](/Image:Skin312.jpg.md "wikilink")
+'''310 '''![Skin310.jpg](/images/skin310.jpg) '''311 '''![Skin311.jpg](/images/skin311.jpg) '''312 '''![Skin312.jpg](/images/skin312.jpg)
 
 Notes:
 ------

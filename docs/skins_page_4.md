@@ -1,9 +1,9 @@
-**77**[Image:Skinid77.jpg](/docs/image:skinid77.jpg.md "wikilink") **78**[Image:Skinid78.jpg](/Image:Skinid78.jpg.md "wikilink") **79**[Image:Skinid79.jpg](/Image:Skinid79.jpg.md "wikilink") **80**[Image:Skinid80.jpg](/Image:Skinid80.jpg.md "wikilink") **81**[Image:Skinid81.jpg](/Image:Skinid81.jpg.md "wikilink")
+**77**![Skinid77.jpg](/images/skinid77.jpg) **78**![Skinid78.jpg](/images/skinid78.jpg) **79**![Skinid79.jpg](/images/skinid79.jpg) **80**![Skinid80.jpg](/images/skinid80.jpg) **81**![Skinid81.jpg](/images/skinid81.jpg)
 
-**82**[Image:Skinid82.jpg](/docs/image:skinid82.jpg.md "wikilink") **83**[Image:Skinid83.jpg](/Image:Skinid83.jpg.md "wikilink") **84**[Image:Skinid84.jpg](/Image:Skinid84.jpg.md "wikilink") **85**[Image:Skinid85.jpg](/Image:Skinid85.jpg.md "wikilink") **87**[Image:Skinid87.jpg](/Image:Skinid87.jpg.md "wikilink")
+**82**![Skinid82.jpg](/images/skinid82.jpg) **83**![Skinid83.jpg](/images/skinid83.jpg) **84**![Skinid84.jpg](/images/skinid84.jpg) **85**![Skinid85.jpg](/images/skinid85.jpg) **87**![Skinid87.jpg](/images/skinid87.jpg)
 
-**88**[Image:Skinid88.jpg](/docs/image:skinid88.jpg.md "wikilink") **89**[Image:Skinid89.jpg](/Image:Skinid89.jpg.md "wikilink") **90**[Image:Skinid90.jpg](/Image:Skinid90.jpg.md "wikilink") **91**[Image:Skinid91.jpg](/Image:Skinid91.jpg.md "wikilink") **92**[Image:Skinid92.jpg](/Image:Skinid92.jpg.md "wikilink")
+**88**![Skinid88.jpg](/images/skinid88.jpg) **89**![Skinid89.jpg](/images/skinid89.jpg) **90**![Skinid90.jpg](/images/skinid90.jpg) **91**![Skinid91.jpg](/images/skinid91.jpg) **92**![Skinid92.jpg](/images/skinid92.jpg)
 
-**93**[Image:Skinid93.jpg](/docs/image:skinid93.jpg.md "wikilink") **94**[Image:Skinid94.jpg](/Image:Skinid94.jpg.md "wikilink") **95**[Image:Skinid95.jpg](/Image:Skinid95.jpg.md "wikilink") **96**[Image:Skinid96.jpg](/Image:Skinid96.jpg.md "wikilink") **97**[Image:Skinid97.jpg](/Image:Skinid97.jpg.md "wikilink")
+**93**![Skinid93.jpg](/images/skinid93.jpg) **94**![Skinid94.jpg](/images/skinid94.jpg) **95**![Skinid95.jpg](/images/skinid95.jpg) **96**![Skinid96.jpg](/images/skinid96.jpg) **97**![Skinid97.jpg](/images/skinid97.jpg)
 
-**98**[Image:Skinid98.jpg](/docs/image:skinid98.jpg.md "wikilink") **99**[Image:Skinid99.jpg](/Image:Skinid99.jpg.md "wikilink")
+**98**![Skinid98.jpg](/images/skinid98.jpg) **99**![Skinid99.jpg](/images/skinid99.jpg)

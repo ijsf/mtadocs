@@ -206,7 +206,7 @@ if (playerRancho != null){ // If playerRancho exists
 More complex example
 --------------------
 
-[Image:ExamplaSDK.png](/docs/image:examplasdk.png.md "wikilink")
+![ExamplaSDK.png](/images/examplasdk.png)
 
 Caveats
 -------

@@ -7,7 +7,7 @@ Client
 
 -   The settings menu is now much more advanced and allows for more in depth changes, such as the addition of a **Video** tab which allows you to set the resolution
 
-[Image:Settings\_videotab.png](/docs/image:settings_videotab.png.md "wikilink")
+![Settings\_videotab.png](/images/settings_videotab.png)
 
 ### Console commands
 
@@ -27,19 +27,19 @@ This applies to all inbuilt commands, except for those that may interface with a
 
 The chatbox has had minor changes in 1.0. In particular, the text now displays an animation when a new line appears, and the *Page Up* and *Page Down* keys can be used to scroll the chat. Now it is also possible to change the chatbox layout in the settings menu.
 
-[Image:Settings\_chatboxtab.png](/docs/image:settings_chatboxtab.png.md "wikilink")
+![Settings\_chatboxtab.png](/images/settings_chatboxtab.png)
 
 ### Host Game
 
 This useful addition allows you to quickly start a game without having to run the MTA Server executable. It is fully functional and based upon the local.conf.
 
-[Image:Hostgame\_window.png](/docs/image:hostgame_window.png.md "wikilink")
+![Hostgame\_window.png](/images/hostgame_window.png)
 
 ### Joypad support
 
 From 1.0, users can use their joypad/controller ingame. The keys for your joypad can be configured in the **Binds** tab, and advanced configuration such as analog keys can be configured in the **Controls** tab.
 
-[Image:Settings\_controltab.png](/docs/image:settings_controltab.png.md "wikilink")
+![Settings\_controltab.png](/images/settings_controltab.png)
 
 ### Map Editor
 

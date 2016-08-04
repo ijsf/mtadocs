@@ -28,15 +28,15 @@ Setup
 
 1.  Click on the *Definitions* icon.
       
-    [Image:Editor\_Definitions.png](/docs/image:editor_definitions.png.md "wikilink")
+    ![Editor\_Definitions.png](/images/editor_definitions.png)
 
 2.  Add *rcg* definition.
       
-    [Image:Rcg\_setup1.png](/docs/image:rcg_setup1.png.md "wikilink")
+    ![Rcg\_setup1.png](/images/rcg_setup1.png)
 
 3.  Click Ok.
       
-    [Image:Rcg\_setup2.png](/docs/image:rcg_setup2.png.md "wikilink")
+    ![Rcg\_setup2.png](/images/rcg_setup2.png)
 
 Usage
 -----
@@ -47,11 +47,11 @@ Usage
 
 1.  Go over the icons with your cursor.
       
-    [Image:Rcg\_def1.png](/docs/image:rcg_def1.png.md "wikilink")
+    ![Rcg\_def1.png](/images/rcg_def1.png)
 
 2.  Scroll with your mouse wheel.
       
-    [Image:Rcg\_def2.png](/docs/image:rcg_def2.png.md "wikilink")
+    ![Rcg\_def2.png](/images/rcg_def2.png)
 
 #### Control point
 

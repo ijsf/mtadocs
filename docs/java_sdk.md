@@ -40,7 +40,7 @@ System.out.println(“Root element type:” + rootElementType );
 More complex example
 --------------------
 
-[Image:Mta java sdk example.png](/docs/image:mta_java_sdk_example.png.md "wikilink")
+![Mta java sdk example.png](/images/mta_java_sdk_example.png)
 
 The zip file contains an example program (MTAJavaTest.java) that implements a console that allows you to see events on a server and chat to the players there. This allows you to see how you can handle multiple returns.
 

@@ -45,45 +45,45 @@ Aircrafts
                                                                                  
  | Name       | ID  | Image                                                   |  
  |------------|-----|---------------------------------------------------------|  
- | Andromada  | 592 | [Image:Androm.png](/docs/image:androm.png.md "wikilink")     |  
- | AT-400     | 577 | [Image:At400.png](/docs/image:at400.png.md "wikilink")       |  
- | Beagle     | 511 | [Image:Beagle.png](/docs/image:beagle.png.md "wikilink")     |  
- | Cropduster | 512 | [Image:Cropdust.png](/docs/image:cropdust.png.md "wikilink") |  
- | Dodo       | 593 | [Image:Dodo.png](/docs/image:dodo.png.md "wikilink")         |  
- | Hydra      | 520 | [Image:Hydra.png](/docs/image:hydra.png.md "wikilink")       |  
- | Nevada     | 553 | [Image:Nevada.png](/docs/image:nevada.png.md "wikilink")     |  
- | Rustler    | 476 | [Image:Rustler.png](/docs/image:rustler.png.md "wikilink")   |  
- | Shamal     | 519 | [Image:Shamal.png](/docs/image:shamal.png.md "wikilink")     |  
- | Skimmer    | 460 | [Image:Skimmer.png](/docs/image:skimmer.png.md "wikilink")   |  
- | Stuntplane | 513 | [Image:Stunt.png](/docs/image:stunt.png.md "wikilink")       |  | ### Helicopters                                                                     
+ | Andromada  | 592 | ![Androm.png](/images/androm.png)     |  
+ | AT-400     | 577 | ![At400.png](/images/at400.png)       |  
+ | Beagle     | 511 | ![Beagle.png](/images/beagle.png)     |  
+ | Cropduster | 512 | ![Cropdust.png](/images/cropdust.png) |  
+ | Dodo       | 593 | ![Dodo.png](/images/dodo.png)         |  
+ | Hydra      | 520 | ![Hydra.png](/images/hydra.png)       |  
+ | Nevada     | 553 | ![Nevada.png](/images/nevada.png)     |  
+ | Rustler    | 476 | ![Rustler.png](/images/rustler.png)   |  
+ | Shamal     | 519 | ![Shamal.png](/images/shamal.png)     |  
+ | Skimmer    | 460 | ![Skimmer.png](/images/skimmer.png)   |  
+ | Stuntplane | 513 | ![Stunt.png](/images/stunt.png)       |  | ### Helicopters                                                                     
                                                                                                                                                                        
                                                                                   | Name            | ID  | Image                                                   |  
                                                                                   |-----------------|-----|---------------------------------------------------------|  
-                                                                                  | Cargobob        | 548 | [Image:Cargobob.png](/docs/image:cargobob.png.md "wikilink") |  
-                                                                                  | Hunter          | 425 | [Image:Hunter.png](/docs/image:hunter.png.md "wikilink")     |  
-                                                                                  | Leviathan       | 417 | [Image:Leviathn.png](/docs/image:leviathn.png.md "wikilink") |  
-                                                                                  | Maverick        | 487 | [Image:Maverick.png](/docs/image:maverick.png.md "wikilink") |  
-                                                                                  | News Chopper    | 488 | [Image:Newschop.png](/docs/image:newschop.png.md "wikilink") |  
-                                                                                  | Police Maverick | 497 | [Image:Polmav.png](/docs/image:polmav.png.md "wikilink")     |  
-                                                                                  | Raindance       | 563 | [Image:Raindanc.png](/docs/image:raindanc.png.md "wikilink") |  
-                                                                                  | Seasparrow      | 447 | [Image:Seaspar.png](/docs/image:seaspar.png.md "wikilink")   |  
-                                                                                  | Sparrow         | 469 | [Image:Sparrow.png](/docs/image:sparrow.png.md "wikilink")   |  |
+                                                                                  | Cargobob        | 548 | ![Cargobob.png](/images/cargobob.png) |  
+                                                                                  | Hunter          | 425 | ![Hunter.png](/images/hunter.png)     |  
+                                                                                  | Leviathan       | 417 | ![Leviathn.png](/images/leviathn.png) |  
+                                                                                  | Maverick        | 487 | ![Maverick.png](/images/maverick.png) |  
+                                                                                  | News Chopper    | 488 | ![Newschop.png](/images/newschop.png) |  
+                                                                                  | Police Maverick | 497 | ![Polmav.png](/images/polmav.png)     |  
+                                                                                  | Raindance       | 563 | ![Raindanc.png](/images/raindanc.png) |  
+                                                                                  | Seasparrow      | 447 | ![Seaspar.png](/images/seaspar.png)   |  
+                                                                                  | Sparrow         | 469 | ![Sparrow.png](/images/sparrow.png)   |  |
 
 Boats
 -----
 
 | Name       | ID  | Image                                                   |
 |------------|-----|---------------------------------------------------------|
-| Coastguard | 472 | [Image:Coastg.png](/docs/image:coastg.png.md "wikilink")     |
-| Dinghy     | 473 | [Image:Dinghy.png](/docs/image:dinghy.png.md "wikilink")     |
-| Jetmax     | 493 | [Image:Jetmax.png](/docs/image:jetmax.png.md "wikilink")     |
-| Launch     | 595 | [Image:Launch.png](/docs/image:launch.png.md "wikilink")     |
+| Coastguard | 472 | ![Coastg.png](/images/coastg.png)     |
+| Dinghy     | 473 | ![Dinghy.png](/images/dinghy.png)     |
+| Jetmax     | 493 | ![Jetmax.png](/images/jetmax.png)     |
+| Launch     | 595 | ![Launch.png](/images/launch.png)     |
 | Marquis    | 484 |
-| Predator   | 430 | [Image:Predator.png](/docs/image:predator.png.md "wikilink") |
-| Reefer     | 453 | [Image:Reefer.png](/docs/image:reefer.png.md "wikilink")     |
-| Speeder    | 452 | [Image:Speeder.png](/docs/image:speeder.png.md "wikilink")   |
-| Squalo     | 446 | [Image:Squalo.png](/docs/image:squalo.png.md "wikilink")     |
-| Tropic     | 454 | [Image:Tropic.png](/docs/image:tropic.png.md "wikilink")     |
+| Predator   | 430 | ![Predator.png](/images/predator.png) |
+| Reefer     | 453 | ![Reefer.png](/images/reefer.png)     |
+| Speeder    | 452 | ![Speeder.png](/images/speeder.png)   |
+| Squalo     | 446 | ![Squalo.png](/images/squalo.png)     |
+| Tropic     | 454 | ![Tropic.png](/images/tropic.png)     |
 
 Land vehicles
 -------------
@@ -94,63 +94,63 @@ Land vehicles
                                                                                     
  | Name          | ID  | Image                                                   |  
  |---------------|-----|---------------------------------------------------------|  
- | BF-400        | 581 | [Image:Bf400.png](/docs/image:bf400.png.md "wikilink")       |  
- | Bike          | 509 | [Image:Bike.png](/docs/image:bike.png.md "wikilink")         |  
- | BMX           | 481 | [Image:Bmx.png](/docs/image:bmx.png.md "wikilink")           |  
- | Faggio        | 462 | [Image:Faggio.png](/docs/image:faggio.png.md "wikilink")     |  
- | FCR-900       | 521 | [Image:Fcr900.png](/docs/image:fcr900.png.md "wikilink")     |  
- | Freeway       | 463 | [Image:Freeway.png](/docs/image:freeway.png.md "wikilink")   |  
- | Mountain Bike | 510 | [Image:Mtbike.png](/docs/image:mtbike.png.md "wikilink")     |  
- | NRG-500       | 522 | [Image:Nrg500.png](/docs/image:nrg500.png.md "wikilink")     |  
- | PCJ-600       | 461 | [Image:Pcj600.png](/docs/image:pcj600.png.md "wikilink")     |  
- | Pizza Boy     | 448 | [Image:Pizzaboy.png](/docs/image:pizzaboy.png.md "wikilink") |  
- | Sanchez       | 468 | [Image:Sanchez.png](/docs/image:sanchez.png.md "wikilink")   |  
- | Wayfarer      | 586 | [Image:Wayfarer.png](/docs/image:wayfarer.png.md "wikilink") |  | ### 2-Door & Compact cars                                                          
+ | BF-400        | 581 | ![Bf400.png](/images/bf400.png)       |  
+ | Bike          | 509 | ![Bike.png](/images/bike.png)         |  
+ | BMX           | 481 | ![Bmx.png](/images/bmx.png)           |  
+ | Faggio        | 462 | ![Faggio.png](/images/faggio.png)     |  
+ | FCR-900       | 521 | ![Fcr900.png](/images/fcr900.png)     |  
+ | Freeway       | 463 | ![Freeway.png](/images/freeway.png)   |  
+ | Mountain Bike | 510 | ![Mtbike.png](/images/mtbike.png)     |  
+ | NRG-500       | 522 | ![Nrg500.png](/images/nrg500.png)     |  
+ | PCJ-600       | 461 | ![Pcj600.png](/images/pcj600.png)     |  
+ | Pizza Boy     | 448 | ![Pizzaboy.png](/images/pizzaboy.png) |  
+ | Sanchez       | 468 | ![Sanchez.png](/images/sanchez.png)   |  
+ | Wayfarer      | 586 | ![Wayfarer.png](/images/wayfarer.png) |  | ### 2-Door & Compact cars                                                          
                                                                                                                                                                          
                                                                                      | Name           | ID  | Image                                                   |  
                                                                                      |----------------|-----|---------------------------------------------------------|  
-                                                                                     | Alpha          | 602 | [Image:Alpha.png](/docs/image:alpha.png.md "wikilink")       |  
-                                                                                     | Blista Compact | 496 | [Image:Blistac.png](/docs/image:blistac.png.md "wikilink")   |  
-                                                                                     | Bravura        | 401 | [Image:Bravura.png](/docs/image:bravura.png.md "wikilink")   |  
-                                                                                     | Buccaneer      | 518 | [Image:Buccanee.png](/docs/image:buccanee.png.md "wikilink") |  
-                                                                                     | Cadrona        | 527 | [Image:Cadrona.png](/docs/image:cadrona.png.md "wikilink")   |  
-                                                                                     | Club           | 589 | [Image:Club.png](/docs/image:club.png.md "wikilink")         |  
-                                                                                     | Esperanto      | 419 | [Image:Esperant.png](/docs/image:esperant.png.md "wikilink") |  
-                                                                                     | Euros          | 587 | [Image:Euros.png](/docs/image:euros.png.md "wikilink")       |  
-                                                                                     | Feltzer        | 533 | [Image:Feltzer.png](/docs/image:feltzer.png.md "wikilink")   |  
-                                                                                     | Fortune        | 526 | [Image:Fortune.png](/docs/image:fortune.png.md "wikilink")   |  
-                                                                                     | Hermes         | 474 | [Image:Hermes.png](/docs/image:hermes.png.md "wikilink")     |  
-                                                                                     | Hustler        | 545 | [Image:Hustler.png](/docs/image:hustler.png.md "wikilink")   |  
-                                                                                     | Majestic       | 517 | [Image:Majestic.png](/docs/image:majestic.png.md "wikilink") |  
-                                                                                     | Manana         | 410 | [Image:Manana.png](/docs/image:manana.png.md "wikilink")     |  
-                                                                                     | Picador        | 600 | [Image:Picador.png](/docs/image:picador.png.md "wikilink")   |  
-                                                                                     | Previon        | 436 | [Image:Previon.png](/docs/image:previon.png.md "wikilink")   |  
-                                                                                     | Stallion       | 439 | [Image:Stallion.png](/docs/image:stallion.png.md "wikilink") |  
-                                                                                     | Tampa          | 549 | [Image:Tampa.png](/docs/image:tampa.png.md "wikilink")       |  
-                                                                                     | Virgo          | 491 | [Image:Virgo.png](/docs/image:virgo.png.md "wikilink")       |  | ### 4-Door & Luxury cars                                                             
+                                                                                     | Alpha          | 602 | ![Alpha.png](/images/alpha.png)       |  
+                                                                                     | Blista Compact | 496 | ![Blistac.png](/images/blistac.png)   |  
+                                                                                     | Bravura        | 401 | ![Bravura.png](/images/bravura.png)   |  
+                                                                                     | Buccaneer      | 518 | ![Buccanee.png](/images/buccanee.png) |  
+                                                                                     | Cadrona        | 527 | ![Cadrona.png](/images/cadrona.png)   |  
+                                                                                     | Club           | 589 | ![Club.png](/images/club.png)         |  
+                                                                                     | Esperanto      | 419 | ![Esperant.png](/images/esperant.png) |  
+                                                                                     | Euros          | 587 | ![Euros.png](/images/euros.png)       |  
+                                                                                     | Feltzer        | 533 | ![Feltzer.png](/images/feltzer.png)   |  
+                                                                                     | Fortune        | 526 | ![Fortune.png](/images/fortune.png)   |  
+                                                                                     | Hermes         | 474 | ![Hermes.png](/images/hermes.png)     |  
+                                                                                     | Hustler        | 545 | ![Hustler.png](/images/hustler.png)   |  
+                                                                                     | Majestic       | 517 | ![Majestic.png](/images/majestic.png) |  
+                                                                                     | Manana         | 410 | ![Manana.png](/images/manana.png)     |  
+                                                                                     | Picador        | 600 | ![Picador.png](/images/picador.png)   |  
+                                                                                     | Previon        | 436 | ![Previon.png](/images/previon.png)   |  
+                                                                                     | Stallion       | 439 | ![Stallion.png](/images/stallion.png) |  
+                                                                                     | Tampa          | 549 | ![Tampa.png](/images/tampa.png)       |  
+                                                                                     | Virgo          | 491 | ![Virgo.png](/images/virgo.png)       |  | ### 4-Door & Luxury cars                                                             
                                                                                                                                                                                                                                                                 
                                                                                                                                                                           | Name             | ID  | Image                                                   |  
                                                                                                                                                                           |------------------|-----|---------------------------------------------------------|  
-                                                                                                                                                                          | Admiral          | 445 | [Image:Admiral.png](/docs/image:admiral.png.md "wikilink")   |  
-                                                                                                                                                                          | Damaged Glendale | 604 | [Image:Glenshit.png](/docs/image:glenshit.png.md "wikilink") |  
-                                                                                                                                                                          | Elegant          | 507 | [Image:Elegant.png](/docs/image:elegant.png.md "wikilink")   |  
-                                                                                                                                                                          | Emperor          | 585 | [Image:Emperor.png](/docs/image:emperor.png.md "wikilink")   |  
-                                                                                                                                                                          | Glendale         | 466 | [Image:Glendale.png](/docs/image:glendale.png.md "wikilink") |  
-                                                                                                                                                                          | Greenwood        | 492 | [Image:Greenwoo.png](/docs/image:greenwoo.png.md "wikilink") |  
-                                                                                                                                                                          | Intruder         | 546 | [Image:Intruder.png](/docs/image:intruder.png.md "wikilink") |  
-                                                                                                                                                                          | Merit            | 551 | [Image:Merit.png](/docs/image:merit.png.md "wikilink")       |  
-                                                                                                                                                                          | Nebula           | 516 | [Image:Nebula.png](/docs/image:nebula.png.md "wikilink")     |  
-                                                                                                                                                                          | Oceanic          | 467 | [Image:Oceanic.png](/docs/image:oceanic.png.md "wikilink")   |  
-                                                                                                                                                                          | Premier          | 426 | [Image:Premier.png](/docs/image:premier.png.md "wikilink")   |  
-                                                                                                                                                                          | Primo            | 547 | [Image:Primo.png](/docs/image:primo.png.md "wikilink")       |  
-                                                                                                                                                                          | Sentinel         | 405 | [Image:Sentinel.png](/docs/image:sentinel.png.md "wikilink") |  
-                                                                                                                                                                          | Stafford         | 580 | [Image:Stafford.png](/docs/image:stafford.png.md "wikilink") |  
-                                                                                                                                                                          | Stretch          | 409 | [Image:Stretch.png](/docs/image:stretch.png.md "wikilink")   |  
-                                                                                                                                                                          | Sunrise          | 550 | [Image:Sunrise.png](/docs/image:sunrise.png.md "wikilink")   |  
-                                                                                                                                                                          | Tahoma           | 566 | [Image:Tahoma.png](/docs/image:tahoma.png.md "wikilink")     |  
-                                                                                                                                                                          | Vincent          | 540 | [Image:Vincent.png](/docs/image:vincent.png.md "wikilink")   |  
-                                                                                                                                                                          | Washington       | 421 | [Image:Washing.png](/docs/image:washing.png.md "wikilink")   |  
-                                                                                                                                                                          | Willard          | 529 | [Image:Willard.png](/docs/image:willard.png.md "wikilink")   |  |
+                                                                                                                                                                          | Admiral          | 445 | ![Admiral.png](/images/admiral.png)   |  
+                                                                                                                                                                          | Damaged Glendale | 604 | ![Glenshit.png](/images/glenshit.png) |  
+                                                                                                                                                                          | Elegant          | 507 | ![Elegant.png](/images/elegant.png)   |  
+                                                                                                                                                                          | Emperor          | 585 | ![Emperor.png](/images/emperor.png)   |  
+                                                                                                                                                                          | Glendale         | 466 | ![Glendale.png](/images/glendale.png) |  
+                                                                                                                                                                          | Greenwood        | 492 | ![Greenwoo.png](/images/greenwoo.png) |  
+                                                                                                                                                                          | Intruder         | 546 | ![Intruder.png](/images/intruder.png) |  
+                                                                                                                                                                          | Merit            | 551 | ![Merit.png](/images/merit.png)       |  
+                                                                                                                                                                          | Nebula           | 516 | ![Nebula.png](/images/nebula.png)     |  
+                                                                                                                                                                          | Oceanic          | 467 | ![Oceanic.png](/images/oceanic.png)   |  
+                                                                                                                                                                          | Premier          | 426 | ![Premier.png](/images/premier.png)   |  
+                                                                                                                                                                          | Primo            | 547 | ![Primo.png](/images/primo.png)       |  
+                                                                                                                                                                          | Sentinel         | 405 | ![Sentinel.png](/images/sentinel.png) |  
+                                                                                                                                                                          | Stafford         | 580 | ![Stafford.png](/images/stafford.png) |  
+                                                                                                                                                                          | Stretch          | 409 | ![Stretch.png](/images/stretch.png)   |  
+                                                                                                                                                                          | Sunrise          | 550 | ![Sunrise.png](/images/sunrise.png)   |  
+                                                                                                                                                                          | Tahoma           | 566 | ![Tahoma.png](/images/tahoma.png)     |  
+                                                                                                                                                                          | Vincent          | 540 | ![Vincent.png](/images/vincent.png)   |  
+                                                                                                                                                                          | Washington       | 421 | ![Washing.png](/images/washing.png)   |  
+                                                                                                                                                                          | Willard          | 529 | ![Willard.png](/images/willard.png)   |  |
 
 |                                                                                 |                                                                                   |                                                                                       |                                                                                      |                                                                                 |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
@@ -158,84 +158,84 @@ Land vehicles
                                                                                   
  | Name        | ID  | Image                                                   |  
  |-------------|-----|---------------------------------------------------------|  
- | Baggage     | 485 | [Image:Baggage.png](/docs/image:baggage.png.md "wikilink")   |  
- | Bus         | 431 | [Image:Bus.png](/docs/image:bus.png.md "wikilink")           |  
- | Cabbie      | 438 | [Image:Cabbie.png](/docs/image:cabbie.png.md "wikilink")     |  
- | Coach       | 437 | [Image:Coach.png](/docs/image:coach.png.md "wikilink")       |  
- | Sweeper     | 574 | [Image:Sweeper.png](/docs/image:sweeper.png.md "wikilink")   |  
- | Taxi        | 420 | [Image:Taxi.png](/docs/image:taxi.png.md "wikilink")         |  
- | Towtruck    | 525 | [Image:Towtruck.png](/docs/image:towtruck.png.md "wikilink") |  
- | Trashmaster | 408 | [Image:Trash.png](/docs/image:trash.png.md "wikilink")       |  
- | Utility Van | 552 | [Image:Utility.png](/docs/image:utility.png.md "wikilink")   |  | ### Government vehicles                                                           
+ | Baggage     | 485 | ![Baggage.png](/images/baggage.png)   |  
+ | Bus         | 431 | ![Bus.png](/images/bus.png)           |  
+ | Cabbie      | 438 | ![Cabbie.png](/images/cabbie.png)     |  
+ | Coach       | 437 | ![Coach.png](/images/coach.png)       |  
+ | Sweeper     | 574 | ![Sweeper.png](/images/sweeper.png)   |  
+ | Taxi        | 420 | ![Taxi.png](/images/taxi.png)         |  
+ | Towtruck    | 525 | ![Towtruck.png](/images/towtruck.png) |  
+ | Trashmaster | 408 | ![Trash.png](/images/trash.png)       |  
+ | Utility Van | 552 | ![Utility.png](/images/utility.png)   |  | ### Government vehicles                                                           
                                                                                                                                                                       
                                                                                    | Name          | ID  | Image                                                   |  
                                                                                    |---------------|-----|---------------------------------------------------------|  
-                                                                                   | Ambulance     | 416 | [Image:Ambulan.png](/docs/image:ambulan.png.md "wikilink")   |  
-                                                                                   | Barracks      | 433 | [Image:Barracks.png](/docs/image:barracks.png.md "wikilink") |  
-                                                                                   | Enforcer      | 427 | [Image:Enforcer.png](/docs/image:enforcer.png.md "wikilink") |  
-                                                                                   | FBI Rancher   | 490 | [Image:Fbiranch.png](/docs/image:fbiranch.png.md "wikilink") |  
-                                                                                   | FBI Truck     | 528 | [Image:Fbitruck.png](/docs/image:fbitruck.png.md "wikilink") |  
-                                                                                   | Fire Truck    | 407 | [Image:Firetruk.png](/docs/image:firetruk.png.md "wikilink") |  
-                                                                                   | Fire Truck    | 544 | [Image:Firela.png](/docs/image:firela.png.md "wikilink")     |  
-                                                                                   | HPV1000       | 523 | [Image:Hpv1000.png](/docs/image:hpv1000.png.md "wikilink")   |  
-                                                                                   | Patriot       | 470 | [Image:Patriot.png](/docs/image:patriot.png.md "wikilink")   |  
-                                                                                   | Police LS     | 596 | [Image:Policels.png](/docs/image:policels.png.md "wikilink") |  
-                                                                                   | Police LV     | 598 | [Image:Policelv.png](/docs/image:policelv.png.md "wikilink") |  
-                                                                                   | Police Ranger | 599 | [Image:Policeru.png](/docs/image:policeru.png.md "wikilink") |  
-                                                                                   | Police SF     | 597 | [Image:Policesf.png](/docs/image:policesf.png.md "wikilink") |  
-                                                                                   | Rhino         | 432 | [Image:Rhino.png](/docs/image:rhino.png.md "wikilink")       |  
-                                                                                   | S.W.A.T.      | 601 | [Image:Swatvan.png](/docs/image:swatvan.png.md "wikilink")   |  
-                                                                                   | Securicar     | 428 | [Image:Securica.png](/docs/image:securica.png.md "wikilink") |  | ### Heavy & Utility trucks                                                            
+                                                                                   | Ambulance     | 416 | ![Ambulan.png](/images/ambulan.png)   |  
+                                                                                   | Barracks      | 433 | ![Barracks.png](/images/barracks.png) |  
+                                                                                   | Enforcer      | 427 | ![Enforcer.png](/images/enforcer.png) |  
+                                                                                   | FBI Rancher   | 490 | ![Fbiranch.png](/images/fbiranch.png) |  
+                                                                                   | FBI Truck     | 528 | ![Fbitruck.png](/images/fbitruck.png) |  
+                                                                                   | Fire Truck    | 407 | ![Firetruk.png](/images/firetruk.png) |  
+                                                                                   | Fire Truck    | 544 | ![Firela.png](/images/firela.png)     |  
+                                                                                   | HPV1000       | 523 | ![Hpv1000.png](/images/hpv1000.png)   |  
+                                                                                   | Patriot       | 470 | ![Patriot.png](/images/patriot.png)   |  
+                                                                                   | Police LS     | 596 | ![Policels.png](/images/policels.png) |  
+                                                                                   | Police LV     | 598 | ![Policelv.png](/images/policelv.png) |  
+                                                                                   | Police Ranger | 599 | ![Policeru.png](/images/policeru.png) |  
+                                                                                   | Police SF     | 597 | ![Policesf.png](/images/policesf.png) |  
+                                                                                   | Rhino         | 432 | ![Rhino.png](/images/rhino.png)       |  
+                                                                                   | S.W.A.T.      | 601 | ![Swatvan.png](/images/swatvan.png)   |  
+                                                                                   | Securicar     | 428 | ![Securica.png](/images/securica.png) |  | ### Heavy & Utility trucks                                                            
                                                                                                                                                                                                                                                               
                                                                                                                                                                        | Name              | ID  | Image                                                   |  
                                                                                                                                                                        |-------------------|-----|---------------------------------------------------------|  
-                                                                                                                                                                       | Benson            | 499 | [Image:Benson.png](/docs/image:benson.png.md "wikilink")     |  
-                                                                                                                                                                       | Black Boxville    | 609 | [Image:Boxburg.png](/docs/image:boxburg.png.md "wikilink")   |  
-                                                                                                                                                                       | Boxville          | 498 | [Image:Boxville.png](/docs/image:boxville.png.md "wikilink") |  
-                                                                                                                                                                       | Cement Truck      | 524 | [Image:Cement.png](/docs/image:cement.png.md "wikilink")     |  
-                                                                                                                                                                       | Combine Harvester | 532 | [Image:Combine.png](/docs/image:combine.png.md "wikilink")   |  
-                                                                                                                                                                       | DFT-30            | 578 | [Image:Dft30.png](/docs/image:dft30.png.md "wikilink")       |  
-                                                                                                                                                                       | Dozer             | 486 | [Image:Dozer.png](/docs/image:dozer.png.md "wikilink")       |  
-                                                                                                                                                                       | Dumper            | 406 | [Image:Dumper.png](/docs/image:dumper.png.md "wikilink")     |  
-                                                                                                                                                                       | Dune              | 573 | [Image:Dune.png](/docs/image:dune.png.md "wikilink")         |  
-                                                                                                                                                                       | Flatbed           | 455 | [Image:Flatbed.png](/docs/image:flatbed.png.md "wikilink")   |  
-                                                                                                                                                                       | Hotdog            | 588 | [Image:Hotdog.png](/docs/image:hotdog.png.md "wikilink")     |  
-                                                                                                                                                                       | Linerunner        | 403 | [Image:Linerun.png](/docs/image:linerun.png.md "wikilink")   |  
-                                                                                                                                                                       | Mr. Whoopee       | 423 | [Image:Mrwhoop.png](/docs/image:mrwhoop.png.md "wikilink")   |  
-                                                                                                                                                                       | Mule              | 414 | [Image:Mule.png](/docs/image:mule.png.md "wikilink")         |  
-                                                                                                                                                                       | Packer            | 443 | [Image:Packer.png](/docs/image:packer.png.md "wikilink")     |  
-                                                                                                                                                                       | Roadtrain         | 515 | [Image:Rdtrain.png](/docs/image:rdtrain.png.md "wikilink")   |  
-                                                                                                                                                                       | Tanker            | 514 | [Image:Tanker.png](/docs/image:tanker.png.md "wikilink")     |  
-                                                                                                                                                                       | Tractor           | 531 | [Image:Tractor.png](/docs/image:tractor.png.md "wikilink")   |  
-                                                                                                                                                                       | Yankee            | 456 | [Image:Yankee.png](/docs/image:yankee.png.md "wikilink")     |  | ### Light trucks & Vans                                                              
+                                                                                                                                                                       | Benson            | 499 | ![Benson.png](/images/benson.png)     |  
+                                                                                                                                                                       | Black Boxville    | 609 | ![Boxburg.png](/images/boxburg.png)   |  
+                                                                                                                                                                       | Boxville          | 498 | ![Boxville.png](/images/boxville.png) |  
+                                                                                                                                                                       | Cement Truck      | 524 | ![Cement.png](/images/cement.png)     |  
+                                                                                                                                                                       | Combine Harvester | 532 | ![Combine.png](/images/combine.png)   |  
+                                                                                                                                                                       | DFT-30            | 578 | ![Dft30.png](/images/dft30.png)       |  
+                                                                                                                                                                       | Dozer             | 486 | ![Dozer.png](/images/dozer.png)       |  
+                                                                                                                                                                       | Dumper            | 406 | ![Dumper.png](/images/dumper.png)     |  
+                                                                                                                                                                       | Dune              | 573 | ![Dune.png](/images/dune.png)         |  
+                                                                                                                                                                       | Flatbed           | 455 | ![Flatbed.png](/images/flatbed.png)   |  
+                                                                                                                                                                       | Hotdog            | 588 | ![Hotdog.png](/images/hotdog.png)     |  
+                                                                                                                                                                       | Linerunner        | 403 | ![Linerun.png](/images/linerun.png)   |  
+                                                                                                                                                                       | Mr. Whoopee       | 423 | ![Mrwhoop.png](/images/mrwhoop.png)   |  
+                                                                                                                                                                       | Mule              | 414 | ![Mule.png](/images/mule.png)         |  
+                                                                                                                                                                       | Packer            | 443 | ![Packer.png](/images/packer.png)     |  
+                                                                                                                                                                       | Roadtrain         | 515 | ![Rdtrain.png](/images/rdtrain.png)   |  
+                                                                                                                                                                       | Tanker            | 514 | ![Tanker.png](/images/tanker.png)     |  
+                                                                                                                                                                       | Tractor           | 531 | ![Tractor.png](/images/tractor.png)   |  
+                                                                                                                                                                       | Yankee            | 456 | ![Yankee.png](/images/yankee.png)     |  | ### Light trucks & Vans                                                              
                                                                                                                                                                                                                                                                                                                                                      
                                                                                                                                                                                                                                                                | Name             | ID  | Image                                                   |  
                                                                                                                                                                                                                                                                |------------------|-----|---------------------------------------------------------|  
-                                                                                                                                                                                                                                                               | Berkley's RC Van | 459 | [Image:Topfun.png](/docs/image:topfun.png.md "wikilink")     |  
-                                                                                                                                                                                                                                                               | Bobcat           | 422 | [Image:Bobcat.png](/docs/image:bobcat.png.md "wikilink")     |  
-                                                                                                                                                                                                                                                               | Burrito          | 482 | [Image:Burrito.png](/docs/image:burrito.png.md "wikilink")   |  
-                                                                                                                                                                                                                                                               | Damaged Sadler   | 605 | [Image:Sadlshit.png](/docs/image:sadlshit.png.md "wikilink") |  
-                                                                                                                                                                                                                                                               | Forklift         | 530 | [Image:Forklift.png](/docs/image:forklift.png.md "wikilink") |  
-                                                                                                                                                                                                                                                               | Moonbeam         | 418 | [Image:Moonbeam.png](/docs/image:moonbeam.png.md "wikilink") |  
-                                                                                                                                                                                                                                                               | Mower            | 572 | [Image:Mower.png](/docs/image:mower.png.md "wikilink")       |  
-                                                                                                                                                                                                                                                               | News Van         | 582 | [Image:Newsvan.png](/docs/image:newsvan.png.md "wikilink")   |  
-                                                                                                                                                                                                                                                               | Pony             | 413 | [Image:Pony.png](/docs/image:pony.png.md "wikilink")         |  
-                                                                                                                                                                                                                                                               | Rumpo            | 440 | [Image:Rumpo.png](/docs/image:rumpo.png.md "wikilink")       |  
-                                                                                                                                                                                                                                                               | Sadler           | 543 | [Image:Sadler.png](/docs/image:sadler.png.md "wikilink")     |  
-                                                                                                                                                                                                                                                               | Tug              | 583 | [Image:Tug.png](/docs/image:tug.png.md "wikilink")           |  
-                                                                                                                                                                                                                                                               | Walton           | 478 | [Image:Walton.png](/docs/image:walton.png.md "wikilink")     |  
-                                                                                                                                                                                                                                                               | Yosemite         | 554 | [Image:Yosemite.png](/docs/image:yosemite.png.md "wikilink") |  | ### SUVs & Wagons                                                               
+                                                                                                                                                                                                                                                               | Berkley's RC Van | 459 | ![Topfun.png](/images/topfun.png)     |  
+                                                                                                                                                                                                                                                               | Bobcat           | 422 | ![Bobcat.png](/images/bobcat.png)     |  
+                                                                                                                                                                                                                                                               | Burrito          | 482 | ![Burrito.png](/images/burrito.png)   |  
+                                                                                                                                                                                                                                                               | Damaged Sadler   | 605 | ![Sadlshit.png](/images/sadlshit.png) |  
+                                                                                                                                                                                                                                                               | Forklift         | 530 | ![Forklift.png](/images/forklift.png) |  
+                                                                                                                                                                                                                                                               | Moonbeam         | 418 | ![Moonbeam.png](/images/moonbeam.png) |  
+                                                                                                                                                                                                                                                               | Mower            | 572 | ![Mower.png](/images/mower.png)       |  
+                                                                                                                                                                                                                                                               | News Van         | 582 | ![Newsvan.png](/images/newsvan.png)   |  
+                                                                                                                                                                                                                                                               | Pony             | 413 | ![Pony.png](/images/pony.png)         |  
+                                                                                                                                                                                                                                                               | Rumpo            | 440 | ![Rumpo.png](/images/rumpo.png)       |  
+                                                                                                                                                                                                                                                               | Sadler           | 543 | ![Sadler.png](/images/sadler.png)     |  
+                                                                                                                                                                                                                                                               | Tug              | 583 | ![Tug.png](/images/tug.png)           |  
+                                                                                                                                                                                                                                                               | Walton           | 478 | ![Walton.png](/images/walton.png)     |  
+                                                                                                                                                                                                                                                               | Yosemite         | 554 | ![Yosemite.png](/images/yosemite.png) |  | ### SUVs & Wagons                                                               
                                                                                                                                                                                                                                                                                                                                                                                                                                        
                                                                                                                                                                                                                                                                                                                                                       | Name        | ID  | Image                                                   |  
                                                                                                                                                                                                                                                                                                                                                       |-------------|-----|---------------------------------------------------------|  
-                                                                                                                                                                                                                                                                                                                                                      | Huntley     | 579 | [Image:Huntley.png](/docs/image:huntley.png.md "wikilink")   |  
-                                                                                                                                                                                                                                                                                                                                                      | Landstalker | 400 | [Image:Landstal.png](/docs/image:landstal.png.md "wikilink") |  
-                                                                                                                                                                                                                                                                                                                                                      | Perennial   | 404 | [Image:Peren.png](/docs/image:peren.png.md "wikilink")       |  
-                                                                                                                                                                                                                                                                                                                                                      | Rancher     | 489 | [Image:Rancher.png](/docs/image:rancher.png.md "wikilink")   |  
-                                                                                                                                                                                                                                                                                                                                                      | Rancher     | 505 | [Image:Rnchlure.png](/docs/image:rnchlure.png.md "wikilink") |  
-                                                                                                                                                                                                                                                                                                                                                      | Regina      | 479 | [Image:Regina.png](/docs/image:regina.png.md "wikilink")     |  
-                                                                                                                                                                                                                                                                                                                                                      | Romero      | 442 | [Image:Romero.png](/docs/image:romero.png.md "wikilink")     |  
-                                                                                                                                                                                                                                                                                                                                                      | Solair      | 458 | [Image:Solair.png](/docs/image:solair.png.md "wikilink")     |  |
+                                                                                                                                                                                                                                                                                                                                                      | Huntley     | 579 | ![Huntley.png](/images/huntley.png)   |  
+                                                                                                                                                                                                                                                                                                                                                      | Landstalker | 400 | ![Landstal.png](/images/landstal.png) |  
+                                                                                                                                                                                                                                                                                                                                                      | Perennial   | 404 | ![Peren.png](/images/peren.png)       |  
+                                                                                                                                                                                                                                                                                                                                                      | Rancher     | 489 | ![Rancher.png](/images/rancher.png)   |  
+                                                                                                                                                                                                                                                                                                                                                      | Rancher     | 505 | ![Rnchlure.png](/images/rnchlure.png) |  
+                                                                                                                                                                                                                                                                                                                                                      | Regina      | 479 | ![Regina.png](/images/regina.png)     |  
+                                                                                                                                                                                                                                                                                                                                                      | Romero      | 442 | ![Romero.png](/images/romero.png)     |  
+                                                                                                                                                                                                                                                                                                                                                      | Solair      | 458 | ![Solair.png](/images/solair.png)     |  |
 
 |                                                                               |                                                                           |                                                                                     |
 |-------------------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
@@ -243,42 +243,42 @@ Land vehicles
                                                                                 
  | Name      | ID  | Image                                                   |  
  |-----------|-----|---------------------------------------------------------|  
- | Blade     | 536 | [Image:Blade.png](/docs/image:blade.png.md "wikilink")       |  
- | Broadway  | 575 | [Image:Broadway.png](/docs/image:broadway.png.md "wikilink") |  
- | Remington | 534 | [Image:Remingtn.png](/docs/image:remingtn.png.md "wikilink") |  
- | Savanna   | 567 | [Image:Savanna.png](/docs/image:savanna.png.md "wikilink")   |  
- | Slamvan   | 535 | [Image:Slamvan.png](/docs/image:slamvan.png.md "wikilink")   |  
- | Tornado   | 576 | [Image:Tornado.png](/docs/image:tornado.png.md "wikilink")   |  
- | Voodoo    | 412 | [Image:Voodoo.png](/docs/image:voodoo.png.md "wikilink")     |  | ### Muscle cars                                                           
+ | Blade     | 536 | ![Blade.png](/images/blade.png)       |  
+ | Broadway  | 575 | ![Broadway.png](/images/broadway.png) |  
+ | Remington | 534 | ![Remingtn.png](/images/remingtn.png) |  
+ | Savanna   | 567 | ![Savanna.png](/images/savanna.png)   |  
+ | Slamvan   | 535 | ![Slamvan.png](/images/slamvan.png)   |  
+ | Tornado   | 576 | ![Tornado.png](/images/tornado.png)   |  
+ | Voodoo    | 412 | ![Voodoo.png](/images/voodoo.png)     |  | ### Muscle cars                                                           
                                                                                                                                                             
                                                                                  | Name    | ID  | Image                                                 |  
                                                                                  |---------|-----|-------------------------------------------------------|  
-                                                                                 | Buffalo | 402 | [Image:Buffalo.png](/docs/image:buffalo.png.md "wikilink") |  
-                                                                                 | Clover  | 542 | [Image:Clover.png](/docs/image:clover.png.md "wikilink")   |  
-                                                                                 | Phoenix | 603 | [Image:Phoenix.png](/docs/image:phoenix.png.md "wikilink") |  
-                                                                                 | Sabre   | 475 | [Image:Sabre.png](/docs/image:sabre.png.md "wikilink")     |  | ### Street racers                                                                   
+                                                                                 | Buffalo | 402 | ![Buffalo.png](/images/buffalo.png) |  
+                                                                                 | Clover  | 542 | ![Clover.png](/images/clover.png)   |  
+                                                                                 | Phoenix | 603 | ![Phoenix.png](/images/phoenix.png) |  
+                                                                                 | Sabre   | 475 | ![Sabre.png](/images/sabre.png)     |  | ### Street racers                                                                   
                                                                                                                                                                                                                                                   
                                                                                                                                                              | Name            | ID  | Image                                                   |  
                                                                                                                                                              |-----------------|-----|---------------------------------------------------------|  
-                                                                                                                                                             | Banshee         | 429 | [Image:Banshee.png](/docs/image:banshee.png.md "wikilink")   |  
-                                                                                                                                                             | Bullet          | 541 | [Image:Bullet.png](/docs/image:bullet.png.md "wikilink")     |  
-                                                                                                                                                             | Cheetah         | 415 | [Image:Cheetah.png](/docs/image:cheetah.png.md "wikilink")   |  
-                                                                                                                                                             | Comet           | 480 | [Image:Comet.png](/docs/image:comet.png.md "wikilink")       |  
-                                                                                                                                                             | Elegy           | 562 | [Image:Elegy.png](/docs/image:elegy.png.md "wikilink")       |  
-                                                                                                                                                             | Flash           | 565 | [Image:Flash.png](/docs/image:flash.png.md "wikilink")       |  
-                                                                                                                                                             | Hotknife        | 434 | [Image:Hotknife.png](/docs/image:hotknife.png.md "wikilink") |  
-                                                                                                                                                             | Hotring Racer   | 494 | [Image:Hotring.png](/docs/image:hotring.png.md "wikilink")   |  
-                                                                                                                                                             | Hotring Racer 2 | 502 | [Image:Hotrina.png](/docs/image:hotrina.png.md "wikilink")   |  
-                                                                                                                                                             | Hotring Racer 3 | 503 | [Image:Hotrinb.png](/docs/image:hotrinb.png.md "wikilink")   |  
-                                                                                                                                                             | Infernus        | 411 | [Image:411.png](/docs/image:411.png.md "wikilink")           |  
-                                                                                                                                                             | Jester          | 559 | [Image:Jester.png](/docs/image:jester.png.md "wikilink")     |  
-                                                                                                                                                             | Stratum         | 561 | [Image:Stratum.png](/docs/image:stratum.png.md "wikilink")   |  
-                                                                                                                                                             | Sultan          | 560 | [Image:Sultan.png](/docs/image:sultan.png.md "wikilink")     |  
-                                                                                                                                                             | Super GT        | 506 | [Image:Supergt.png](/docs/image:supergt.png.md "wikilink")   |  
-                                                                                                                                                             | Turismo         | 451 | [Image:Turismo.png](/docs/image:turismo.png.md "wikilink")   |  
-                                                                                                                                                             | Uranus          | 558 | [Image:Uranus.png](/docs/image:uranus.png.md "wikilink")     |  
-                                                                                                                                                             | Windsor         | 555 | [Image:Windsor.png](/docs/image:windsor.png.md "wikilink")   |  
-                                                                                                                                                             | ZR-350          | 477 | [Image:Zr350.png](/docs/image:zr350.png.md "wikilink")       |  |
+                                                                                                                                                             | Banshee         | 429 | ![Banshee.png](/images/banshee.png)   |  
+                                                                                                                                                             | Bullet          | 541 | ![Bullet.png](/images/bullet.png)     |  
+                                                                                                                                                             | Cheetah         | 415 | ![Cheetah.png](/images/cheetah.png)   |  
+                                                                                                                                                             | Comet           | 480 | ![Comet.png](/images/comet.png)       |  
+                                                                                                                                                             | Elegy           | 562 | ![Elegy.png](/images/elegy.png)       |  
+                                                                                                                                                             | Flash           | 565 | ![Flash.png](/images/flash.png)       |  
+                                                                                                                                                             | Hotknife        | 434 | ![Hotknife.png](/images/hotknife.png) |  
+                                                                                                                                                             | Hotring Racer   | 494 | ![Hotring.png](/images/hotring.png)   |  
+                                                                                                                                                             | Hotring Racer 2 | 502 | ![Hotrina.png](/images/hotrina.png)   |  
+                                                                                                                                                             | Hotring Racer 3 | 503 | ![Hotrinb.png](/images/hotrinb.png)   |  
+                                                                                                                                                             | Infernus        | 411 | ![411.png](/images/411.png)           |  
+                                                                                                                                                             | Jester          | 559 | ![Jester.png](/images/jester.png)     |  
+                                                                                                                                                             | Stratum         | 561 | ![Stratum.png](/images/stratum.png)   |  
+                                                                                                                                                             | Sultan          | 560 | ![Sultan.png](/images/sultan.png)     |  
+                                                                                                                                                             | Super GT        | 506 | ![Supergt.png](/images/supergt.png)   |  
+                                                                                                                                                             | Turismo         | 451 | ![Turismo.png](/images/turismo.png)   |  
+                                                                                                                                                             | Uranus          | 558 | ![Uranus.png](/images/uranus.png)     |  
+                                                                                                                                                             | Windsor         | 555 | ![Windsor.png](/images/windsor.png)   |  
+                                                                                                                                                             | ZR-350          | 477 | ![Zr350.png](/images/zr350.png)       |  |
 
 |                                                                               |                                                                                     |                                                                                           |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
@@ -286,54 +286,54 @@ Land vehicles
                                                                                 
  | Name      | ID  | Image                                                   |  
  |-----------|-----|---------------------------------------------------------|  
- | RC Bandit | 441 | [Image:Rcbandit.png](/docs/image:rcbandit.png.md "wikilink") |  
- | RC Baron  | 464 | [Image:Rcbaron.png](/docs/image:rcbaron.png.md "wikilink")   |  
- | RC Cam    | 594 | [Image:Rccam.png](/docs/image:rccam.png.md "wikilink")       |  
- | RC Goblin | 501 | [Image:Rcgoblin.png](/docs/image:rcgoblin.png.md "wikilink") |  
- | RC Raider | 465 | [Image:Rcraider.png](/docs/image:rcraider.png.md "wikilink") |  
- | RC Tiger  | 564 | [Image:Rctiger.png](/docs/image:rctiger.png.md "wikilink")   |  | ### Trailers                                                                        
+ | RC Bandit | 441 | ![Rcbandit.png](/images/rcbandit.png) |  
+ | RC Baron  | 464 | ![Rcbaron.png](/images/rcbaron.png)   |  
+ | RC Cam    | 594 | ![Rccam.png](/images/rccam.png)       |  
+ | RC Goblin | 501 | ![Rcgoblin.png](/images/rcgoblin.png) |  
+ | RC Raider | 465 | ![Rcraider.png](/images/rcraider.png) |  
+ | RC Tiger  | 564 | ![Rctiger.png](/images/rctiger.png)   |  | ### Trailers                                                                        
                                                                                                                                                                       
                                                                                  | Name            | ID  | Image                                                   |  
                                                                                  |-----------------|-----|---------------------------------------------------------|  
-                                                                                 | Baggage Trailer | 606 | [Image:Bagboxa.png](/docs/image:bagboxa.png.md "wikilink")   |  
-                                                                                 | Baggage Trailer | 607 | [Image:Bagboxb.png](/docs/image:bagboxb.png.md "wikilink")   |  
-                                                                                 | Farm Trailer    | 610 | [Image:Farmtr1.png](/docs/image:farmtr1.png.md "wikilink")   |  
-                                                                                 | Petrol trailer  | 584 | [Image:Petrotr.png](/docs/image:petrotr.png.md "wikilink")   |  
-                                                                                 | Trailer         | 611 | [Image:Utiltr1.png](/docs/image:utiltr1.png.md "wikilink")   |  
-                                                                                 | Trailer         | 608 | [Image:Tugstair.png](/docs/image:tugstair.png.md "wikilink") |  
-                                                                                 | Trailer 1       | 435 | [Image:Artict1.png](/docs/image:artict1.png.md "wikilink")   |  
-                                                                                 | Trailer 2       | 450 | [Image:Artict2.png](/docs/image:artict2.png.md "wikilink")   |  
-                                                                                 | Trailer 3       | 591 | [Image:Artict3.png](/docs/image:artict3.png.md "wikilink")   |  
+                                                                                 | Baggage Trailer | 606 | ![Bagboxa.png](/images/bagboxa.png)   |  
+                                                                                 | Baggage Trailer | 607 | ![Bagboxb.png](/images/bagboxb.png)   |  
+                                                                                 | Farm Trailer    | 610 | ![Farmtr1.png](/images/farmtr1.png)   |  
+                                                                                 | Petrol trailer  | 584 | ![Petrotr.png](/images/petrotr.png)   |  
+                                                                                 | Trailer         | 611 | ![Utiltr1.png](/images/utiltr1.png)   |  
+                                                                                 | Trailer         | 608 | ![Tugstair.png](/images/tugstair.png) |  
+                                                                                 | Trailer 1       | 435 | ![Artict1.png](/images/artict1.png)   |  
+                                                                                 | Trailer 2       | 450 | ![Artict2.png](/images/artict2.png)   |  
+                                                                                 | Trailer 3       | 591 | ![Artict3.png](/images/artict3.png)   |  
                                                                                  ||                                                                                   | ### Trains & Railroad cars                                                                
                                                                                                                                                                                                                                                                   
                                                                                                                                                                        | Name                  | ID  | Image                                                   |  
                                                                                                                                                                        |-----------------------|-----|---------------------------------------------------------|  
-                                                                                                                                                                       | Box Freight           | 590 | [Image:Freibox.png](/docs/image:freibox.png.md "wikilink")   |  
-                                                                                                                                                                       | Brown Streak          | 538 | [Image:Streak.png](/docs/image:streak.png.md "wikilink")     |  
-                                                                                                                                                                       | Brown Streak Carriage | 570 | [Image:Streakc.png](/docs/image:streakc.png.md "wikilink")   |  
-                                                                                                                                                                       | Flat Freight          | 569 | [Image:Freiflat.png](/docs/image:freiflat.png.md "wikilink") |  
-                                                                                                                                                                       | Freight               | 537 | [Image:Freight.png](/docs/image:freight.png.md "wikilink")   |  
-                                                                                                                                                                       | Tram                  | 449 | [Image:Tram.png](/docs/image:tram.png.md "wikilink")         |  |
+                                                                                                                                                                       | Box Freight           | 590 | ![Freibox.png](/images/freibox.png)   |  
+                                                                                                                                                                       | Brown Streak          | 538 | ![Streak.png](/images/streak.png)     |  
+                                                                                                                                                                       | Brown Streak Carriage | 570 | ![Streakc.png](/images/streakc.png)   |  
+                                                                                                                                                                       | Flat Freight          | 569 | ![Freiflat.png](/images/freiflat.png) |  
+                                                                                                                                                                       | Freight               | 537 | ![Freight.png](/images/freight.png)   |  
+                                                                                                                                                                       | Tram                  | 449 | ![Tram.png](/images/tram.png)         |  |
 
 Recreational
 ------------
 
 | Name             | ID  | Image                                                   |
 |------------------|-----|---------------------------------------------------------|
-| Bandito          | 568 | [Image:Bandito.png](/docs/image:bandito.png.md "wikilink")   |
-| BF Injection     | 424 | [Image:Bfinject.png](/docs/image:bfinject.png.md "wikilink") |
-| Bloodring Banger | 504 | [Image:Bloodra.png](/docs/image:bloodra.png.md "wikilink")   |
-| Caddy            | 457 | [Image:Caddy.png](/docs/image:caddy.png.md "wikilink")       |
-| Camper           | 483 | [Image:Camper.png](/docs/image:camper.png.md "wikilink")     |
-| Journey          | 508 | [Image:Journey.png](/docs/image:journey.png.md "wikilink")   |
-| Kart             | 571 | [Image:Kart.png](/docs/image:kart.png.md "wikilink")         |
-| Mesa             | 500 | [Image:Mesa.png](/docs/image:mesa.png.md "wikilink")         |
-| Monster          | 444 | [Image:Monster.png](/docs/image:monster.png.md "wikilink")   |
-| Monster 2        | 556 | [Image:Monstera.png](/docs/image:monstera.png.md "wikilink") |
-| Monster 3        | 557 | [Image:Monsterb.png](/docs/image:monsterb.png.md "wikilink") |
-| Quadbike         | 471 | [Image:Quad.png](/docs/image:quad.png.md "wikilink")         |
-| Sandking         | 495 | [Image:Sandking.png](/docs/image:sandking.png.md "wikilink") |
-| Vortex           | 539 | [Image:Vortex.png](/docs/image:vortex.png.md "wikilink")     |
+| Bandito          | 568 | ![Bandito.png](/images/bandito.png)   |
+| BF Injection     | 424 | ![Bfinject.png](/images/bfinject.png) |
+| Bloodring Banger | 504 | ![Bloodra.png](/images/bloodra.png)   |
+| Caddy            | 457 | ![Caddy.png](/images/caddy.png)       |
+| Camper           | 483 | ![Camper.png](/images/camper.png)     |
+| Journey          | 508 | ![Journey.png](/images/journey.png)   |
+| Kart             | 571 | ![Kart.png](/images/kart.png)         |
+| Mesa             | 500 | ![Mesa.png](/images/mesa.png)         |
+| Monster          | 444 | ![Monster.png](/images/monster.png)   |
+| Monster 2        | 556 | ![Monstera.png](/images/monstera.png) |
+| Monster 3        | 557 | ![Monsterb.png](/images/monsterb.png) |
+| Quadbike         | 471 | ![Quad.png](/images/quad.png)         |
+| Sandking         | 495 | ![Sandking.png](/images/sandking.png) |
+| Vortex           | 539 | ![Vortex.png](/images/vortex.png)     |
 
 Vehicle Functions
 -----------------

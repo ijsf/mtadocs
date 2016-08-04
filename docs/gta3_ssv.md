@@ -58,7 +58,7 @@ You can also choose from a range of different weapons before spawning.
 <table>
 <tr>
 <td>
-[Image:GTA3\_Uzi.png](/docs/image:gta3_uzi.png.md "wikilink")
+![GTA3\_Uzi.png](/images/gta3_uzi.png)
 
 </td>
 <td>
@@ -68,7 +68,7 @@ An Uzi is selected by default in the character selction menu. This is a good all
 </tr>
 <tr>
 <td>
-[Image:GTA3\_Flame.png](/docs/image:gta3_flame.png.md "wikilink")
+![GTA3\_Flame.png](/images/gta3_flame.png)
 
 </td>
 <td>
@@ -78,7 +78,7 @@ The Flamethrower is a popular choice, although flamethrowing players are often u
 </tr>
 <tr>
 <td>
-[Image:GTA3\_AK47.png](/docs/image:gta3_ak47.png.md "wikilink")
+![GTA3\_AK47.png](/images/gta3_ak47.png)
 
 </td>
 <td>
@@ -88,7 +88,7 @@ The AK-47 is suitable for long-range combat.
 </tr>
 <tr>
 <td>
-[Image:GTA3\_Shotgun.png](/docs/image:gta3_shotgun.png.md "wikilink")
+![GTA3\_Shotgun.png](/images/gta3_shotgun.png)
 
 </td>
 <td>

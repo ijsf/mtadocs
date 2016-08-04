@@ -14,27 +14,27 @@ Once the editor has started, you are presented with two menu bars: the main menu
 
 These are the buttons in the main menu:
 
--   [Image:Editor\_New.png](/docs/image:editor_new.png.md "wikilink") Create a new map.
--   [Image:Editor\_Open.png](/docs/image:editor_open.png.md "wikilink") Open an existing map.
--   [Image:Editor\_Save.png](/docs/image:editor_save.png.md "wikilink") Save the map you're working on.
--   [Image:Editor\_Save\_as.png](/docs/image:editor_save_as.png.md "wikilink") Save your map under a different name.
--   [Image:Editor\_Options.png](/docs/image:editor_options.png.md "wikilink") Alter general map editor settings.
--   [Image:Editor\_Undo.png](/docs/image:editor_undo.png.md "wikilink") Undo the last action.
--   [Image:Editor\_Redo.png](/docs/image:editor_redo.png.md "wikilink") Restore the last undone action.
--   [Image:Editor\_Locations.png](/docs/image:editor_locations.png.md "wikilink") Stored game world locations. The editor comes with a great list of San Andreas Interior locations but you can also add your own interior and non-interior locations to the list.
--   [Image:Editor\_Current\_elements.png](/docs/image:editor_current_elements.png.md "wikilink") List all the elements the map contains (objects, vehicles, markers, pickups etc.)
--   [Image:Editor\_Map\_settings.png](/docs/image:editor_map_settings.png.md "wikilink") Map specific settings, like time of day, gravity etc. Here you can also specify what gamemodes the map is compatible with.
--   [Image:Editor\_Definitions.png](/docs/image:editor_definitions.png.md "wikilink") Load [editor definition files (EDF)](/Resource:Editor/EDF.md "wikilink") that you want to use.
--   [Image:Editor\_Test.png](/docs/image:editor_test.png.md "wikilink") Go into play mode to try out the map. This will load up the gamemode the map is made for.
+-   ![Editor\_New.png](/images/editor_new.png) Create a new map.
+-   ![Editor\_Open.png](/images/editor_open.png) Open an existing map.
+-   ![Editor\_Save.png](/images/editor_save.png) Save the map you're working on.
+-   ![Editor\_Save\_as.png](/images/editor_save_as.png) Save your map under a different name.
+-   ![Editor\_Options.png](/images/editor_options.png) Alter general map editor settings.
+-   ![Editor\_Undo.png](/images/editor_undo.png) Undo the last action.
+-   ![Editor\_Redo.png](/images/editor_redo.png) Restore the last undone action.
+-   ![Editor\_Locations.png](/images/editor_locations.png) Stored game world locations. The editor comes with a great list of San Andreas Interior locations but you can also add your own interior and non-interior locations to the list.
+-   ![Editor\_Current\_elements.png](/images/editor_current_elements.png) List all the elements the map contains (objects, vehicles, markers, pickups etc.)
+-   ![Editor\_Map\_settings.png](/images/editor_map_settings.png) Map specific settings, like time of day, gravity etc. Here you can also specify what gamemodes the map is compatible with.
+-   ![Editor\_Definitions.png](/images/editor_definitions.png) Load [editor definition files (EDF)](/Resource:Editor/EDF.md "wikilink") that you want to use.
+-   ![Editor\_Test.png](/images/editor_test.png) Go into play mode to try out the map. This will load up the gamemode the map is made for.
 
 ### Element menu
 
 The element menu is used to add new elements to the map.
 
--   [Image:Editor\_Vehicle.png](/docs/image:editor_vehicle.png.md "wikilink") Create a new vehicle.
--   [Image:Editor\_Object.png](/docs/image:editor_object.png.md "wikilink") Create a new object (buildings, roads and other scenery).
--   [Image:Editor\_Pickup.png](/docs/image:editor_pickup.png.md "wikilink") Create a new pickup (health, armor, weapons and custom).
--   [Image:Editor\_Marker.png](/docs/image:editor_marker.png.md "wikilink") Create a new marker (checkpoint, ring, cylinder, arrow and corona).
+-   ![Editor\_Vehicle.png](/images/editor_vehicle.png) Create a new vehicle.
+-   ![Editor\_Object.png](/images/editor_object.png) Create a new object (buildings, roads and other scenery).
+-   ![Editor\_Pickup.png](/images/editor_pickup.png) Create a new pickup (health, armor, weapons and custom).
+-   ![Editor\_Marker.png](/images/editor_marker.png) Create a new marker (checkpoint, ring, cylinder, arrow and corona).
 -   [<File:Crosshair.png>‎](/docs/file:crosshair.png‎.md "wikilink") Select world object.
 
 Additionally, if you have [editor definitions loaded](/docs/resource:editor/edf.md "wikilink"), you can roll the mousewheel in this menu to bring up custom elements.

@@ -3,7 +3,7 @@ The MTA Vault, a walk down memory lane
 
 ### GTA3:AM
 
-[Image:Gta3am01.jpg](/docs/image:gta3am01.jpg.md "wikilink")
+![Gta3am01.jpg](/images/gta3am01.jpg)
 
 The first client: GTA3:AM.
 
@@ -17,13 +17,13 @@ The first client: GTA3:AM.
 
 The 0.2.2 (0.2a) client. Click to enlarge. [Click here](http://wiki.multitheftauto.com/images/1/1b/02aclientsmall.jpg) for an old, but very small, image with a working “server list”.
 
-[image:am4.jpg](/docs/image:am4.jpg.md "wikilink")
+![am4.jpg](/images/am4.jpg)
 [Previous-car-method](/docs/previous-car-method.md "wikilink") in action. Notice the red lights.
 
-[image:Am2.jpg](/docs/image:am2.jpg.md "wikilink")
+![Am2.jpg](/images/am2.jpg)
 2 F16 flying out of formation (pilot error).
 
-[image:Am3.jpg](/docs/image:am3.jpg.md "wikilink")
+![Am3.jpg](/images/am3.jpg)
 Proof of concept. No AI would be driving like that.
 
 [250px](/docs/image:am1.jpg.md "wikilink")
@@ -33,23 +33,23 @@ From a long lost movie. The first stunt movie ever.
 
 ### GTA3:MTA 0.3b
 
-[Image:03betaclient.jpg](/docs/image:03betaclient.jpg.md "wikilink")
+![03betaclient.jpg](/images/03betaclient.jpg)
 
 An unreleased version of the 0.3b client.
 
-[image:3b1.jpg](/docs/image:3b1.jpg.md "wikilink")
+![3b1.jpg](/images/3b1.jpg)
 Testing of the actor system.
 
-[image:3b2.jpg](/docs/image:3b2.jpg.md "wikilink")
+![3b2.jpg](/images/3b2.jpg)
 Testing of the vehicles.
 
-[image:3b3.jpg](/docs/image:3b3.jpg.md "wikilink")
+![3b3.jpg](/images/3b3.jpg)
 More actor placements.
 
-[image:3b4.JPG](/docs/image:3b4.jpg.md "wikilink")
+![3b4.JPG](/images/3b4.jpg)
 First rounds fired.
 
-[image:3b5.jpg](/docs/image:3b5.jpg.md "wikilink")
+![3b5.jpg](/images/3b5.jpg)
 Fighting it out. Notice the color bug on the cars.
 
 [Download the 0.3b teaser trailer.](http://files.mtasa.com/media/gta3mta/Videos/mta0.3binprogress3.rar)

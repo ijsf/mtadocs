@@ -1,6 +1,6 @@
 |                                                                      |
 |----------------------------------------------------------------------|
-| [Image:MTASElogo\_wiki.png](/docs/image:mtaselogo_wiki.png.md "wikilink") |
+| ![MTASElogo\_wiki.png](/images/mtaselogo_wiki.png) |
 
 Introduction
 ------------
@@ -35,26 +35,26 @@ Screenshots
 
 -   **Main window** - overall look of the application. On the right you can see a list of MTA functions. You can choose what functions you want to be displayed by changing item in the combo box above it. Are you going to ask what this “silly table” at the bottom of the window is doing? I knew it... It's the syntax checker. As you script the syntax is checked by Lua engine and outputs any errors you've made in the script. It speed up progress because you don't have to go into game and restart the resource to check if you fixed the syntax error. I made a little error on line 1 to show you how it looks:
 
-[Image:MTASEmainwnd.png](/docs/image:mtasemainwnd.png.md "wikilink")
+![MTASEmainwnd.png](/images/mtasemainwnd.png)
 
 -   **New resource wizard** - create a resource with 5 simple steps (3 steps are optional):
 
-[Image:MTASEnewreswizard.png](/docs/image:mtasenewreswizard.png.md "wikilink")
+![MTASEnewreswizard.png](/images/mtasenewreswizard.png)
 
 -   **Sound player** - preview sounds by double-clicking sound file in the resource explorer:
 
-[Image:MTASEsoundplayer.png](/docs/image:mtasesoundplayer.png.md "wikilink")
+![MTASEsoundplayer.png](/images/mtasesoundplayer.png)
 
 -   **Image viewer** - preview images by hovering you cursor over nodes in resource explorer:
 
-[Image:MTASEimageviewer.png](/docs/image:mtaseimageviewer.png.md "wikilink")
+![MTASEimageviewer.png](/images/mtaseimageviewer.png)
 
 -   **Suggested functions** - a “window” similar to the one in Visual Studio showing a list of functions. It also shows a tooltip telling you what the function does and its parameters. It also contains all exported functions from every resource. You can add a 3 new attributes to your exported function tag in meta.xml to let Script Editor display descriptive tooltip, like on the screenshot:
     -   **retval:** return type (eg. bool, marker, int, etc.)
     -   **params:** list of parameters
     -   **description:** short description of the function\[/list\]
 
-[Image:MTSEsuggestedfuncs.png](/docs/image:mtsesuggestedfuncs.png.md "wikilink")
+![MTSEsuggestedfuncs.png](/images/mtsesuggestedfuncs.png)
 
   
 (screenshot show an example of exported function that in meta.xml looks like the following:)
@@ -64,19 +64,19 @@ Screenshots
 </syntaxhighlight>
 -   **Function tooltip** (available from 0.3) - tooltip showing function description. Moving mouse over function names in the function list (not the suggested functions list)
 
-[Image:MTASE\_func\_desc.png‎](/docs/image:mtase_func_desc.png‎.md "wikilink")
+![MTASE\_func\_desc.png‎](/images/mtase_func_desc.png‎)
 
 -   **MTA Server Configuration** - a window where you can change server's settings. You won't have to open mtaserver.conf and change the server settings, startup resources, adding modules, etc.
 
-[Image:MTASEserverconfig.png](/docs/image:mtaseserverconfig.png.md "wikilink")
+![MTASEserverconfig.png](/images/mtaseserverconfig.png)
 
 -   **Customize syntax highlighter** - you can customize many syntax highlighter properties
 
-[Image:MTASEcustomizesyntax.png](/docs/image:mtasecustomizesyntax.png.md "wikilink")
+![MTASEcustomizesyntax.png](/images/mtasecustomizesyntax.png)
 
 -   **Exported functions** - you can view all exported functions from every resource
 
-[Image:MTASEfuncs.png](/docs/image:mtasefuncs.png.md "wikilink")
+![MTASEfuncs.png](/images/mtasefuncs.png)
 
 Overview
 --------
