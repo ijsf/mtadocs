@@ -16,6 +16,7 @@ After conversion to separate files and directories, the following rules were app
 * Conversion of <code>[...]</code> into <syntaxhighlight lang="..."></syntaxhighlight> which is understood by Pandoc:
   ```
   find . -type f -name "*.wiki" -exec perl -p -i -e 's/<code>\[([a-zA-Z]+),?.*\]/<syntaxhighlight lang="\1">/g' {} \;
+  find . -type f -name "*.wiki" -exec perl -p -i -e 's/<code>/<syntaxhighlight>/g' {} \;
   find . -type f -name "*.wiki" -exec perl -p -i -e 's/<\/code>/<\/syntaxhighlight>/g' {} \;
   ```
 * Removal of any Mediawiki commands:
@@ -34,9 +35,9 @@ Conversion to Markdown (Github style) was then performed using Pandoc:
 
 ```
 find . -type d -print0 >../dirs.txt
-xargs -0 mkdir -p <dirs.txt
+xargs -0 mkdir -p <../dirs.txt
 
-find . -type f -name "*.wiki" -exec sh -c 'pandoc -s -S -f mediawiki -t markdown_github "${0}" -o "../md/${0}.md"' {} \;
+find . -type f -name "*.wiki" -exec sh -c 'pandoc -s -S -f mediawiki -t markdown_github "${0}" -o "../md/${0%.wiki}.md"' {} \;
 
 pandoc -s -S -f mediawiki -t markdown_github test.wiki -o test.md
 ```
@@ -48,4 +49,4 @@ pandoc -s -S -f mediawiki -t markdown_github test.wiki -o test.md
 * Similar to the previous issue, templates and files are lost.
 * Image tags are not converted properly.
 * Spaces in links are not converted properly (must be converted to _).
-
+* Convert / links to relative ./ links.
