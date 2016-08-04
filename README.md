@@ -56,8 +56,5 @@ pandoc -s -S -f mediawiki -t markdown_github test.wiki -o test.md
 * Mediawiki specific pages such as File:*, Template:*, User:*, Talk:*, etc. are removed.
 * Similar to the previous issue, templates and files are lost.
 * Image tags are not converted properly.
-* Spaces in links are not converted properly (must be converted to _).
-* Uppercase/lowercase linking issues.
-
 * Convert old Category and Template pages into index.
 
