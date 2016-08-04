@@ -1,0 +1,31 @@
+This function returns whether the ingame debug window is visible or not. This is the debugwindow visible using the “debugscript <level>” command.
+
+Syntax
+------
+
+``` lua
+bool isDebugViewActive ()
+```
+
+### Returns
+
+Returns *true* if the debug view is visible, *false* if not.
+
+Example
+-------
+
+This example makes a /debug command to check if the client's debugscript is on or off.
+
+``` lua
+function checkDebug () -- The function header
+    if ( isDebugViewActive() ) then -- Check if debugscript is active...
+        outputChatBox ( "You currently have debugscript on." ) -- If it is, output that it is
+    else -- If it returns anything else (that it's not active)...
+        outputChatBox ( "You currently have debugscript off." ) -- Output that they haven't got it on.
+    end
+end
+addCommandHandler ( "debug", checkDebug ) -- Execute the script when the client types "/debug"
+```
+
+See Also
+--------

@@ -1,0 +1,36 @@
+This function retrieves the amount of health or armor given from a pickup.
+
+Syntax
+------
+
+``` lua
+int getPickupAmount ( pickup thePickup )        
+```
+
+### Required Arguments
+
+-   **thePickup:** The pickup you wish to retrieve the amount from.
+
+### Returns
+
+Returns an *integer* of the amount the pickup is set to, *false* if it's invalid, 0 if it's no health or amor pickup.
+
+Example
+-------
+
+This example outputs the amount of health a player picked up.
+
+<section show="true" name="Server" class="server">
+``` lua
+function onPickupHitFunction ( thePlayer )
+    if getPickupType ( source ) == 0 then      -- check the type of pickup, if it is a health pickup then
+        amount = getPickupAmount ( source )
+        outputChatBox ( "You picked up " .. amount .. " health", thePlayer)
+    end
+end
+addEventHandler ( "onPickupHit", getRootElement(), onPickupHitFunction )   -- add an event handler for onPickupHit 
+```
+
+</section>
+See Also
+--------

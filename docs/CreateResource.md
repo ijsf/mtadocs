@@ -1,0 +1,45 @@
+This function creates an new, empty resource. This creates a directory matching the name you specify on disk, then creates an empty meta.xml file with a <meta> element in it.
+
+Syntax
+------
+
+``` lua
+resource createResource ( string resourceName [, string organizationalDir ] )
+```
+
+### Required Arguments
+
+-   **resourceName:** The name of the new resource. This should be a valid file name. It's recommended that you do not have spaces or non-ASCII characters in resource names.
+
+### Optional Arguments
+
+-   **organizationalDir**: A string containing the path where the resource should be created (e.g. "\[gamemodes\]/\[amx\]").
+
+### Returns
+
+Returns the [resource](/resource.md "wikilink") element of the new resource if successful, *false* otherwise. This could fail if the resource name already is in use, if a directory already exists with the name you've specified (but this isn't a valid resource) or if the name you specify isn't valid. It could also fail if the disk was full or for other similar reasons.
+
+Example
+-------
+
+This example creates a new resource named what the player specified. The command is "/new-resource <name>".
+
+``` lua
+function createNewResource ( source, command, resourceName ) -- Define the source and add a resourceName argument.
+    if ( resourceName ) then -- Check if they entered a resource name, and if they did...
+        local resourceName = tostring ( resourceName ) -- Convert the name into a string.
+        local newResource = createResource ( resourceName ) -- Create the new resource.
+            if ( newResource ) then -- Check if the resource has been created, if so then...
+                outputChatBox ( "New resource created succcessfully.", source, 255, 0, 0 ) -- Output it's done.
+            else -- If the resource wasn't made successfully then...
+                outputChatBox ( "An un-expected error occured.", source, 255, 0, 0 ) -- Output it failed.
+            end
+    else -- If they didn't enter a resource name...
+        outputChatBox ( "Please specify a name for your new resource.", source, 255, 0, 0 ) -- Tell them to specify a name.
+    end
+end
+addCommandHandler ( "new-resource", createNewResource ) -- Make it trigger when somebody types "/new-resource <name>".
+```
+
+See Also
+--------

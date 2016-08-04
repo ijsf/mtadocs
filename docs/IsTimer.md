@@ -1,0 +1,45 @@
+This function checks if a variable is a [timer](/timer.md "wikilink").
+
+Syntax
+------
+
+``` lua
+bool isTimer ( timer theTimer )
+```
+
+### Required Arguments
+
+-   **theTimer**: The variable that we want to check.
+
+### Returns
+
+Returns *true* if the passed value is a timer, *false* otherwise.
+
+Example
+-------
+
+<section name="Server" class="server" show="true">
+This example uses isTimer to prevent players from using chat/teamchat/me more than once a second, to prevent spammers.
+
+``` lua
+-- This anti spam is just an example and won't work if you have other scripts and game modes which manipulate chat,
+-- If you do then this script would need to be put with the other script/gamemode that handles chat else cancelEvent() won't work.
+
+antiSpam = {} -- This makes a table called antiSpam
+function antiChatSpam() -- The function that the event has called. Will stop all mainchat/teamchat/me spam.
+    if isTimer(antiSpam[source]) then -- Check if timer is running using isTimer (this is an example of its use and all)
+        cancelEvent()  -- If timer is running then cancel the event
+        outputChatBox("Sorry bro, you may only send 1 message a second to prevent spam.", source, 255, 255, 0) -- Message to player
+    else
+        antiSpam[source] = setTimer(function(source) antiSpam[source] = nil end, 1000, 1, source) -- Timer lasting 1 second.
+        -- The "function(source) antiSpam[source] = nil end" should clear the player from table after 1 second so he can chat again. 
+                -- antiSpam[source] = setTimer(... is using the table to bind that player to the timer.
+    end
+end
+addEventHandler("onPlayerChat", root, antiChatSpam) -- Event we're using, don't waste your time with getRootElement() (root is the same)
+-- You now have an antispam to prevent people super spamming your chatbox!
+```
+
+</section>
+See Also
+--------

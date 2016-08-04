@@ -1,0 +1,39 @@
+This event is triggered when the local player stealth kills another player.
+
+Parameters
+----------
+
+``` lua
+element targetPlayer
+```
+
+-   **targetPlayer**: The [player](/player.md "wikilink") or [ped](/ped.md "wikilink") that is being stealth killed.
+
+Source
+------
+
+The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that initiated the stealth kill. (Local player only)
+
+Cancel effect
+-------------
+
+If this event is [canceled](/Event_system#Canceling.md "wikilink"), then the stealth kill is aborted.
+
+Example
+-------
+
+This example disables stealth kills.
+
+``` lua
+function abortAllStealthKills(targetPlayer)
+    cancelEvent()
+end
+addEventHandler("onClientPlayerStealthKill", getLocalPlayer(), abortAllStealthKills)
+```
+
+See Also
+--------
+
+### Client player events
+
+### Client event functions

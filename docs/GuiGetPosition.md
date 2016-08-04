@@ -1,0 +1,47 @@
+This function allows retrieval of a GUI element's current position, relative to its parent.
+
+Syntax
+------
+
+``` lua
+float, float guiGetPosition ( element guiElement, bool relative )
+```
+
+### Required Arguments
+
+-   **guiElement:** The gui element of which you wish to retrieve the position.
+-   **relative:** A boolean representing whether the position should be relative to the element's parent width, or the number of offset pixels from the parent's origin.
+
+### Returns
+
+Returns floats representing the *x* and *y* position of the element, or false if the position could not be retrieved.
+
+Example
+-------
+
+This example checks which corner a gui element exists in
+
+``` lua
+function positionCheck ( guiElement )
+    local x,y = guiGetPosition ( guiElement, true ) --get the position
+    local position --define the position
+    if ( x == 0.5 ) and ( y == 0.5 ) then --if its bang in the middle
+        position = "middle" --set position to middle
+    elseif ( x > 0.5 ) and ( y > 0.5 ) then --if its in the right bottom
+        position = "right-bottom" 
+    elseif ( x < 0.5 ) and ( y < 0.5 ) then --if its in the left top
+        position = "left-top"
+    elseif ( x < 0.5 ) and ( y > 0.5 ) then --if its in the left bottom
+        position = "left-bottom"
+    elseif ( x > 0.5 ) and ( y < 0.5 ) then --if its in the right top
+        position = "right-top" 
+    else --if it couldnt be retrieved
+        position = "unknown"
+    end
+    --announce this into the chatbox
+    outputChatBox ( "The gui element's position is "..position.."!" )
+end
+```
+
+See Also
+--------

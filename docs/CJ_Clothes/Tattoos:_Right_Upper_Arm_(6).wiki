@@ -1,8 +1,0 @@
-{| border="1"
-| {{Clothes|index=0|type=6|model=6aztec|texture=6AZTEC}}
-| {{Clothes|index=1|type=6|model=6crown|texture=6CROWN}}
-| {{Clothes|index=2|type=6|model=6clown|texture=6CLOWN}}
-| {{Clothes|index=3|type=6|model=6africa|texture=6AFRICA}}
-|}
-
-[[/pl:CJ_Clothes%5CTattoos:_Right_Upper_Arm_(6).md|pl:CJ_Clothes%5CTattoos:_Right_Upper_Arm_(6)]]

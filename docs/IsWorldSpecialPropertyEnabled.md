@@ -1,0 +1,59 @@
+Checks if a special world property (cheat) is enabled or not.
+
+Syntax
+------
+
+``` lua
+bool isWorldSpecialPropertyEnabled ( string propname )
+```
+
+### Required Arguments
+
+-   **propname:** the name of the property to retrieve. Possible values are:
+    -   **hovercars**
+    -   **aircars**
+    -   **extrabunny**
+    -   **extrajump**
+
+### Returns
+
+Returns *true* if the property is enabled, *false* if it is disabled or the specified property name is invalid.
+
+Example
+-------
+
+<section name="Clientside example" class="client" show="true">
+This example detects any cheaters using these cheats on your server and sends them to hell, or you could kick them if you trigger a server event which does that.
+
+``` lua
+function clientCheatScan()
+        glp = getLocalPlayer()
+    if isWorldSpecialPropertyEnabled("aircars") then
+        clientCheat()
+    end
+    if isWorldSpecialPropertyEnabled("hovercars") then
+        clientCheat()
+    end
+    if isWorldSpecialPropertyEnabled("extrabunny") then
+        clientCheat()
+    end
+    if isWorldSpecialPropertyEnabled("extrajump") then
+        clientCheat()
+    end
+end
+setTimer(clientCheatScan, 15000, 0)
+
+function clientCheat() -- This function will send them to hell.
+    fadeCamera(false, 1, 255, 0, 0)
+    x,y,z = getElementPosition(glp)
+    createExplosion(x,y,z, 1)
+    toggleAllControls(false, true, true)
+    createMarker(x,y,z, "cylinder", 1, 1, 1, 1)
+    setTimer(clientCheat, 200, 1)
+    outputChatBox("WELCOME TO CHEATERS HELL LMAO!")
+end
+```
+
+</section>
+See Also
+--------

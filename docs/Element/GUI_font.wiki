@@ -1,4 +1,0 @@
-
-The GUI font class represents a custom typeface which can be applied to [[/GUI widgets.md|GUI widgets]]. A GUI font is created with [[/guiCreateFont.md|guiCreateFont]] and can then used as a parameter in [[/guiSetFont.md|guiSetFont]].
-
-The element type of this class is '''"gui-font"'''.

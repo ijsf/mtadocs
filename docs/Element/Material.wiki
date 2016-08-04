@@ -1,8 +1,0 @@
-
-The material class represents a source of renderable information which can be used in functions such as [[/dxDrawImage.md|dxDrawImage]], [[/dxDrawImageSection.md|dxDrawImageSection]] and [[/dxDrawMaterialSectionLine3D.md|dxDrawMaterialSectionLine3D]].
-
-Elements which are materials:
-*[[/Texture.md|Texture]]
-*[[/Shader.md|Shader]]
-
-[[/pl:Element/Material.md|pl:Element/Material]]

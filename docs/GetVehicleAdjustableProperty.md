@@ -1,0 +1,39 @@
+Use this to get the value of a vehicles adjustable property. This property relates to movable parts of a model, for example hydra jets or dump truck tray.
+
+Syntax
+------
+
+``` lua
+int getVehicleAdjustableProperty ( vehicle theVehicle )
+```
+
+### Required Arguments
+
+-   **theVehicle:** The vehicle you want to get the name of.
+
+### Returns
+
+Returns a value from 0 upwards representing adjustment. 0 is default position. Maximum varies per vehicle, for example hydra horizontal flight is 5000, while dump truck tray max tilt is 2500. Or returns *false* if the vehicle passed to the function is invalid.
+
+Example
+-------
+
+This example creates a command, so if the local player wants to know how much they tilt/adjusted a vehicle adjustable property
+
+``` lua
+addCommandHandler("getAdjust",function()
+      if isPedInVehicle(localPlayer) then
+           local adjusted = getVehicleAdjustableProperty(getPedOccupiedVehicle(localPlayer))
+           if adjusted then
+                outputChatBox(adjusted)
+           else
+                outputChatBox("Sorry, but your vehicle doesn't have any adjustable properties!")
+           end
+      else
+           outputChatBox("Sorry, but you have to be in a vehicle to use this command!")
+      end
+end)
+```
+
+See Also
+--------

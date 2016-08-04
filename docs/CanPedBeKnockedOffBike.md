@@ -1,0 +1,36 @@
+This function checks if the given ped can fall off bikes.
+
+Syntax
+------
+
+``` lua
+bool canPedBeKnockedOffBike ( ped thePed )         
+```
+
+### Required Arguments
+
+-   **thePed:** the ped you want to check.
+
+### Returns
+
+Returns *true* if the ped can be knocked off bikes, *false* if he cannot or an invalid element was passed.
+
+Example
+-------
+
+This example adds a console command with which the local player can toggle whether he can fall off bikes.
+
+``` lua
+function changeCanBeKnockedOff ( command )
+    -- lets players be knocked off bikes if it was set to false, true otherwise
+    local bCanBeKnockedOff = canPedBeKnockedOffBike(localPlayer)
+    setPedCanBeKnockedOffBike(localPlayer, not bCanBeKnockedOff)
+    
+    -- outputs the respective message
+    outputChatBox( ('Now you %s be knocked off your bike.'):format(bCanBeKnockedOff and 'can\'t' or 'can') )
+end
+addCommandHandler('knock', changeCanBeKnockedOff)
+```
+
+See Also
+--------

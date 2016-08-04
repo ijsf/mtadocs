@@ -1,0 +1,35 @@
+This function sets if the camera will “collide” with any objects or vehicles in its way. This means that if object clip is enabled an object is in the way of where the camera actually wants to be, the camera will try to be in front of it. This function can disable that.
+
+**Note:** This function doesn't fix the issue of camera clip not working on objects out of world bounds.
+
+Syntax
+------
+
+``` lua
+bool setCameraClip ( [ bool objects = true, bool vehicles = true ] ) 
+```
+
+### Optional Arguments
+
+-   **objects:** Sets if you want the camera to clip on objects.
+-   **vehicles:** Sets if you want the camera to clip on vehicles.
+
+### Returns
+
+Always returns *true*.
+
+Example
+-------
+
+This function enables it to look though cars
+
+``` lua
+function enableCameraThoughCars ()
+  setCameraClip (true,false)
+  outputChatBox ("Your camera can see the vehicle interior now!",255,0,0,false)
+end
+addEventHandler ("onClientResourceStart",resourceRoot,enableCameraThoughCars)
+```
+
+See Also
+--------

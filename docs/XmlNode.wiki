@@ -1,5 +1,0 @@
-A '''xmlnode''' is an object that represents a node in a XML document tree.
-
-==Related scripting functions==
-{{XML functions}}
-[[/ru:XML узел.md|ru:XML узел]]

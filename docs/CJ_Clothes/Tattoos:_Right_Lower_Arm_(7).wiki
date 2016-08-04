@@ -1,8 +1,0 @@
-{| border="1"
-| {{Clothes|index=0|type=7|model=7cross|texture=7CROSS}}
-| {{Clothes|index=1|type=7|model=7cross2|texture=7CROSS2}}
-| {{Clothes|index=2|type=7|model=7cross3|texture=7CROSS3}}
-| {{Clothes|index=3|type=7|model=7mary|texture=7MARY}}
-|}
-
-[[/pl:CJ_Clothes%5CTattoos:_Right_Lower_Arm_(7).md|pl:CJ_Clothes%5CTattoos:_Right_Lower_Arm_(7)]]

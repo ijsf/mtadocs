@@ -1,0 +1,29 @@
+Sends a message to the channel or a nickname
+
+Syntax
+------
+
+``` lua
+bool ircSay(string to, string message)
+```
+
+### Required arguments
+
+-   **to:** The channel name, or a nickname.
+-   **message:** The message to send..
+
+### Returns
+
+Returns true, otherwise false when giving wrong arguments.
+
+Example
+-------
+
+``` lua
+-- Example here
+```
+
+[pl:Modules/SebasIRC/ircSay](/pl:Modules/SebasIRC/ircSay.md "wikilink")
+
+See also
+--------

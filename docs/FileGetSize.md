@@ -1,0 +1,34 @@
+Returns the total size in bytes of the given file.
+
+Syntax
+------
+
+``` lua
+int fileGetSize ( file theFile )
+```
+
+### Required Arguments
+
+-   **theFile:** the file handle you wish to get the size of.
+
+### Returns
+
+Returns the file size if successful, or *false* if an error occured (e.g. an invalid file handle was passed).
+
+Example
+-------
+
+``` lua
+local newFile = fileCreate("test.txt")                -- attempt to create a new file
+if (newFile) then                                       -- check if the creation succeeded
+    fileWrite(newFile, "This is a test file!")        -- write a text line
+    local size = fileGetSize(newFile)              -- get size
+    if size then
+        outputChatBox("Size of test.txt is: "..size, source) -- output size
+        end
+    fileClose(newFile)                                -- close the file once you're done with it
+end
+```
+
+See Also
+--------

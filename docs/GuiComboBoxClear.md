@@ -1,0 +1,41 @@
+This function removes all the items from a combobox.
+
+Syntax
+------
+
+``` lua
+bool guiComboBoxClear ( element comboBox )
+```
+
+### Required Arguments
+
+-   **comboBox:** The combobox element to be cleared
+
+### Returns
+
+Returns *true* if the combobox element is valid and has been cleared successfully, *false* otherwise.
+
+Example
+-------
+
+This example creates a combo box with all server vehicles on it, with a command to clear the combo box.
+
+``` lua
+addEventHandler ( "onClientResourceStart", resourceRoot,
+    function ( )
+        vehiclesComboBox = guiCreateComboBox ( 400, 100, 200, 5 * #getElementsByType ( "vehicle" ), "", false ) -- We create a combo box.
+        for index, vehicle in ipairs ( getElementsByType ( "vehicle" ) ) do -- We loop through all vehicles.
+            guiComboBoxAddItem ( vehiclesComboBox, getVehicleName ( vehicle ) ) -- We add the vehicle name to our combo box.
+        end
+    end
+)
+
+addCommandHandler ( "clear",
+    function ( )
+        guiComboBoxClear ( vehiclesComboBox ) -- We clear our combo box removing all vehicles.
+    end
+)
+```
+
+See Also
+--------

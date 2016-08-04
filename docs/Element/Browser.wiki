@@ -1,7 +1,0 @@
-Todo
-
-==Related scripting functions==
-{{CEF_functions}}
-
-==Related scripting events==
-{{CEF_events}}

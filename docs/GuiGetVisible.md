@@ -1,0 +1,37 @@
+This function determines if a GUI element is visible.
+
+Syntax
+------
+
+``` lua
+bool guiGetVisible ( element guiElement )
+```
+
+### Required Arguments
+
+-   **guiElement:** the GUI element to be checked
+
+### Returns
+
+Returns *true* if the element is visible, *false* otherwise.
+
+Example
+-------
+
+This example toggles the visibility of myWindow.
+
+``` lua
+function guiToggleVisible ( )        
+        if ( guiGetVisible ( myWindow ) == true ) then -- check if the gui element is visible               
+                guiSetVisible ( myWindow, false ) -- if it is, we hide it
+        else              
+                guiSetVisible ( myWindow, true ) -- if not, we make it visible
+        end
+end
+
+myWindow = guiCreateWindow ( 0, 0, .5, .5, "my window", true ) -- Create the gui window
+bindKey ( "space", "down", guiToggleVisible ) --bind the player's spacebar to the function guiToggleVisible
+```
+
+See Also
+--------

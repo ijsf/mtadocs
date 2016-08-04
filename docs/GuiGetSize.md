@@ -1,0 +1,32 @@
+This function gets the size of a GUI element.
+
+Syntax
+------
+
+``` lua
+float float guiGetSize ( element theElement, bool relative )
+```
+
+### Required Arguments
+
+-   **theElement:** The GUI element to get size of.
+-   **relative:** A boolean representing whether the size should be relative to the element's parent width, or an absolute size in pixels.
+
+### Returns
+
+Returns the GUI element size *x* and *y* if the function has been successful, *false* otherwise.
+
+Example
+-------
+
+This example creates a random sized gui window and outputs its size to the chatbox.
+
+``` lua
+local window = guiCreateWindow ( 0, 0, (math.random ( 0, 100 ) / 100), (math.random ( 0, 100 ) / 100), "test", true ) 
+-- Create the window
+local x, y = guiGetSize ( window, false ) -- Get the gui window size
+outputChatBox ( "Window size: " .. x .. " " .. y ) --output the gui window size
+```
+
+See Also
+--------

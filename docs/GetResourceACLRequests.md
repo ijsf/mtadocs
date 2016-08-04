@@ -1,0 +1,47 @@
+This function retrieves the ACL request section from the meta.xml file of the given resource.
+
+Syntax
+------
+
+``` lua
+table getResourceACLRequests ( resource theResource ) 
+```
+
+### Required Arguments
+
+-   **theResource:** the resource to get the ACL requests for.
+
+### Returns
+
+Returns a *table* with the ACL requests for the given resource, or *false* if the resource is not valid. A valid resource with no ACL requests will return an empty table.
+
+Example
+-------
+
+This function lists ACL requests from all resources in the client console.
+
+``` lua
+function showAllACLRequests()
+  for _,resource in ipairs(getResources()) do
+    local requests = getResourceACLRequests (resource)
+    if #requests > 0 then
+      outputConsole( getResourceName(resource).." has "..#requests.." ACL request(s)" )
+      for i,request in ipairs(requests) do
+        outputConsole( tostring(i)
+                 .. "  name:" .. request.name
+                 .. "  access:" .. tostring(request.access)
+                 .. "  pending:" .. tostring(request.pending)
+                 .. "  who:" .. request.who
+                 .. "  date:" .. request.date
+               )
+      end
+    end
+  end
+end
+```
+
+Requirements
+------------
+
+See Also
+--------

@@ -1,0 +1,32 @@
+This function allows the setting of the scale of a text item.
+
+Syntax
+------
+
+``` lua
+bool textItemSetScale ( textitem theTextitem, float scale )             
+```
+
+### Required Arguments
+
+-   **theTextitem:** The text item you wish to set the scale of.
+-   **scale:** A floating point value indicating the scale of the text you wish to set to. 1.0 is around 12pt.
+
+### Returns
+
+Returns *true* if the scale was successfully set, *false* otherwise.
+
+Example
+-------
+
+This example retrieves the scale of the *theTextitem* text item, and if it is too small it enlarges it so it is more visible.
+
+``` lua
+local scale = textItemGetScale ( theTextItem )  --get the scale of theTextitem and define it as 'scale'
+if (scale < 0.5) then --if the scale is smaller than 0.5
+    textItemSetScale ( theTextItem, 1.0 ) --then restore it to default size, 1.0.
+end
+```
+
+See Also
+--------

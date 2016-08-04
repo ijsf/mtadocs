@@ -1,0 +1,38 @@
+This function returns the name of an upgrade slot name (e.g. roof, spoiler).
+
+Syntax
+------
+
+There are two ways of using this function, the parameter can either be the slot ID (0 to 16) or an upgrade ID (1000 to 1193)
+
+``` lua
+string getVehicleUpgradeSlotName ( int slot/upgrade )
+```
+
+### Required Arguments
+
+-   **slot/upgrade:** the slot ID or corresponding upgrade ID of which you want the name.
+
+### Returns
+
+Returns a *string* with the slot name if a valid slot or upgrade ID was given, *false* otherwise.
+
+Example
+-------
+
+<section name="Server" class="server" show="true">
+This example prints the name and upgrades on each slot of an entered vehicle to the chat.
+
+``` lua
+function scriptOnPlayerEnterVehicle ( theVehicle, seat, jacked )
+    local upgrades = getVehicleUpgrades ( theVehicle )
+    for _, upgrade in ipairs ( upgrades ) do
+        outputChatBox ( getVehicleUpgradeSlotName ( upgrade ) .. ": " .. upgrade )
+    end
+end
+addEventHandler ( "onPlayerVehicleEnter", getRootElement(), scriptOnPlayerEnterVehicle )
+```
+
+</section>
+See Also
+--------

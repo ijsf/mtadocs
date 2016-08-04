@@ -1,0 +1,37 @@
+This function allows you to specify whether or not a user can move a GUI window.
+
+Syntax
+------
+
+``` lua
+bool guiWindowSetMovable ( element theElement, bool status )
+```
+
+### Required Arguments
+
+-   **theElement:** The window to be changed.
+-   **status:** A boolean value indicating whether the window is movable or not.
+
+### Returns
+
+Returns *true* if the function is successful, *false* otherwise.
+
+Example
+-------
+
+This example creates a gui window and sets it to be not movable
+
+``` lua
+function initialize ()
+    -- Create a gui window
+    local window = guiCreateWindow ( 0.50, 0.50, 0.25, 0.25, "Test", true )
+    -- set it to be not movable
+    guiWindowSetMovable ( window, false )
+    -- Show cursor to check if our changes work fine
+    showCursor ( true )
+end
+addEventHandler ( "onClientResourceStart", resourceRoot, initialize )
+```
+
+See Also
+--------

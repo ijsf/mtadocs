@@ -1,0 +1,57 @@
+This functions changes or adds the given right in the given ACL. The access can be *true* or *false* and specifies whether the ACL gives access to the right or not.
+
+Syntax
+------
+
+``` lua
+bool aclSetRight ( acl theAcl, string rightName, bool hasAccess )
+```
+
+### Required Arguments
+
+-   **theAcl:** The ACL to change the right of
+-   **rightName:** The right to add/change the access property of
+-   **hasAccess:** Whether the access should be set to true or false
+
+### Returns
+
+Returns *true* if the access was successfully changed, *false* or *nil* if it failed for some reason, ie. invalid ACL or the rightname is invalid.
+
+Example
+-------
+
+This example adds a command *setaclright* with which you can easily add new rights to specified access control lists.
+
+``` lua
+function setACLRight ( thePlayer, commandName, aclName, rightName, access )
+    local ourACL = aclGet ( aclName )
+    -- if there is no previous ACL with this name, we need to create one
+    if not ourACL then
+        ourACL = aclCreate ( aclName )
+    end
+
+    -- turn the boolean string to lower case
+    access = string.lower ( access )
+    -- access has to be either true or false (booleans)
+    if not (access == "true" or access == "false") then
+        -- print out error message to debug window
+        return outputDebugString ( "Invalid access; true and false are only accepted", 1 )
+    end
+
+    -- change the access to boolean
+    if access == "true" then
+        access = true
+    else 
+        access = false
+    end
+
+    -- and finally let's set the right
+    aclSetRight ( ourACL, rightName, access )
+    -- don't forget to save the ACL after it has been modified
+    aclSave ()
+end
+addCommandHandler ( "setaclright", setACLRight )
+```
+
+See Also
+--------

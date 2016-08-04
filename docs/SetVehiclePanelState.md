@@ -1,0 +1,60 @@
+This function allows you to change the state of one of the six panels vehicle's can have. When executed on the server-side resources, the damage will be synched for all players, whereas the change is only client-side if the function is used in a client resource.
+
+Syntax
+------
+
+``` lua
+bool setVehiclePanelState ( vehicle theVehicle, int panelID, int state )
+```
+
+Required Arguments
+------------------
+
+-   **theVehicle:** The [vehicle](/vehicle.md "wikilink") you would like to modify the panel of.
+-   **panelID:** An ID specifying the part of the vehicle. Possible values are:
+
+<!-- -->
+
+-   **Cars:**
+    -   **0:** Front-left panel
+    -   **1:** Front-right panel
+    -   **2:** Rear-left panel
+    -   **3:** Rear-right panel
+    -   **4:** Windscreen
+    -   **5:** Front bumper
+    -   **6:** Rear bumper
+
+<!-- -->
+
+-   **Planes:**
+    -   **0:** Engine Smoke (left engine for a Nevada or a Beagle)
+    -   **1:** Engine Smoke (right engine for a Nevada or a Beagle)
+    -   **2:** Rudder
+    -   **3:** Elevators
+    -   **4:** Ailerons
+    -   **5:** Unknown
+    -   **6:** Unknown
+
+*NOTE:* Settings are not applicable for all vehicles of these types, for instance panel 0 effects a Dodo, but does nothing to a hydra.
+
+-   **state:** How damaged the part is on the scale of 0 to 3, with 0 being undamaged and 3 being very damaged. How this is manifested depends on the panel and the vehicle.
+
+Returns
+-------
+
+Returns *true* if the panel state has been updated, *false* otherwise
+
+Example
+-------
+
+<section name="Example 1: Server" class="server" show="true">
+``` lua
+-- create a new vehicle
+local newcar = createVehicle ( 520, 1024, 1024, 1024 )
+-- break the front bumper off
+setVehiclePanelState ( newcar, 5, 3 )
+```
+
+</section>
+See Also
+--------

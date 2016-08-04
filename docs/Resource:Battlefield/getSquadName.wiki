@@ -1,9 +1,0 @@
-This function retrieves the squad name. It can be retrieved with the squad element.<br/><br/>
-Alpha Bravo Charlie Delta Echo Foxtrot Golf Hotel
-
-==Syntax==
-<syntaxhighlight lang="lua">
-string getSquadName ( squad squadElement, team squadTeam )
-</syntaxhighlight>
-
-[[/Resource:battlefield.md|Resource:battlefield]]

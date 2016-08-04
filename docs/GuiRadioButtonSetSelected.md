@@ -1,0 +1,39 @@
+This function selects or unselects a radio button.
+
+Syntax
+------
+
+``` lua
+bool guiRadioButtonSetSelected ( element guiRadioButton, bool state )
+```
+
+### Required Arguments
+
+-   **guiRadioButton:** The GUI radio button in which you wish to change the selection state of
+-   **state:** The state of the radio button, where *true* indicates selected, and *false* indicates unselected.
+
+### Returns
+
+Returns *true* if the radio button's selection state was successfully set, *false* otherwise.
+
+Example
+-------
+
+This example creates a radio button then checks if one is selected and if it is, then it's output the title and sets the next radio button selected. (TESTED!)
+
+``` lua
+hi = guiCreateRadioButton(243,204,36,16,"Hi",false)
+guiRadioButtonSetSelected(hi,true)
+bye = guiCreateRadioButton(243,224,41,16,"Bye",false)
+
+if(guiRadioButtonGetSelected(hi))then
+    outputChatBox("Hi "..getPlayerName(localPlayer))
+    guiRadioButtonSetSelected(bye,true)
+else
+    outputChatBox("Bye "..getPlayerName(localPlayer))
+    guiRadioButtonSetSelected(hi,true)
+end
+```
+
+See Also
+--------

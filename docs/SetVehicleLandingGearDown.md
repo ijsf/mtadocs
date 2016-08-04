@@ -1,0 +1,35 @@
+This function is used to set the landing gear state of certain vehicles.
+
+Syntax
+------
+
+``` lua
+bool setVehicleLandingGearDown ( vehicle theVehicle, bool gearState )
+```
+
+### Required Arguments
+
+-   **theVehicle:** The vehicle of which you wish to set the landing gear state.
+-   **gearState:** A bool representing the state of the landing gear. *true* represents a collapsed landing gear, while *false* represents a disabled landing gear.
+
+### Returns
+
+Returns *true* if the landing gear was set successfully, *false* otherwise.
+
+Example
+-------
+
+This example sets the landing gear up and outputs to the player to pull up
+
+``` lua
+function checkGear( thePlayer )
+    local theVehicle = getPedOccupiedVehicle( thePlayer )    --Get the players vehicle
+    if ( getElementModel(theVehicle) == 520 and getVehicleLandingGearDown( theVehicle ) == true) then --if the vehicle is a hydra, and the landing gear is down
+      setVehicleLandingGearDown(theVehicle,false) --Set the landing gear up
+      outputChatBox( "Pull up!", thePlayer )    --and tell the player to pull up.
+    end
+end
+```
+
+See Also
+--------

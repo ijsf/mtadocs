@@ -1,4 +1,0 @@
-
-The DX font class represents a custom typeface which can be used in the [[/Client_Scripting_Functions#Drawing_functions.md|Drawing functions]]. A DX font is created with [[/dxCreateFont.md|dxCreateFont]] and can be used as a parameter in [[/dxDrawText.md|dxDrawText]]. 
-
-The element type of this class is '''"dx-font"'''.

@@ -1,9 +1,0 @@
-
-[[/Image:gui-checkbox.png.md|frame|Example GUI checkboxes.]]
-The GUI checkbox class represents GUI checkboxes in MTA's GUI system. These can be checked or unchecked.
-
-The element type of this class is '''"gui-checkbox"'''.
-
-==Related scripting functions==
-===Client===
-{{GUI_functions}}

@@ -1,4 +1,0 @@
-==Related scripting functions==
-===Server===
-{{connection functions}}
-[[/Category:Scripting Concepts.md|Category:Scripting Concepts]]

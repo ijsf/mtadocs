@@ -1,4 +1,0 @@
-{{MTA0.5 page}}
-Staunton Island is a new addition to GTA3:MTA, having been added in version 0.5. This follows a similar gameplay style to the Portland map, in that you spawn with only a baseball bat and pistol and each player has the same character, Claude. Staunton Island, however, is geared towards stunting, enabling players to receive money for stunts and offering many fast vehicles dotted around the map. Unlike Vice City's dedicated [[/MTA:VC_Stunt_Gamemode.md|Stunt mode]], however, Staunton offers stunt as a side-activity to deathmatch.
-
-[[/Category:MTA 0.5.md|Category:MTA 0.5]] [[/Category:Historical.md|Category:Historical]]

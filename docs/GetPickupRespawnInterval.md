@@ -1,0 +1,30 @@
+Returns the time it takes before a pickup respawns after a player picked it up. The time is specified in milliseconds.
+
+Syntax
+------
+
+``` lua
+int getPickupRespawnInterval ( pickup thePickup )
+```
+
+### Required Arguments
+
+-   **thePickup:** the pickup you want the respawn time of
+
+### Returns
+
+Returns the respawn time of the pickup if successful, *false* in case of failure.
+
+Example
+-------
+
+This example outputs to the player that picked up the pickup, that it's not going to spawn again for another ... secs.
+
+``` lua
+addEventHandler("onPickUpHit",root,function(player)
+    outputChatBox("That pickup isn't going to be there until "..tostring(getPickupRespawnInterval(source)).." is done.",player)
+end)
+```
+
+See Also
+--------

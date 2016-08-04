@@ -1,0 +1,59 @@
+Syntax
+------
+
+``` lua
+table getVehicleSirenParams ( vehicle theVehicle )
+```
+
+### Required Arguments
+
+-   **theVehicle:** The vehicle to get the siren parameters of
+
+### Returns
+
+Returns a *table* with the siren count, siren type and a sub table for the four flags. False otherwise.
+
+``` lua
+[int]   SirenParams.SirenCount
+[int]   SirenParams.SirenType
+[table] SirenParams.Flags
+ [bool] SirenParams.Flags["360"]
+ [bool] SirenParams.Flags.DoLOSCheck
+ [bool] SirenParams.Flags.UseRandomiser
+ [bool] SirenParams.Flags.Silent
+```
+
+Example
+-------
+
+<section name="Server" class="server" show="true">
+This example returns the vehicle parameters when the players presses g.
+
+``` lua
+addEventHandler("onVehicleEnter",root,function(player,seat)
+   if(player)and(seat==0)then
+      addVehicleSirens(source,1,1)
+      setVehicleSirens(source,1,0,0,0,100,0,100,255,122)
+      bindKey(player,"g","up",getSiren,source)
+   end
+end)
+ 
+function getSiren(player,button,state,vehicle)
+   local sirenParams = getVehicleSirenParams(vehicle)
+   outputChatBox("Here's the parameters of your vehicle sirens: Siren Points: "..tostring(sirenParams.SirenCount)..", Type of Siren: "..tostring(sirenParams.SirenType)..".",player)
+end
+ 
+addEventHandler("onVehicleExit",root,function(player,seat)
+   if(player)and(seat==0)then
+      removeVehicleSirens(source)
+      unbindKey(player,"g","up",getSiren)
+   end
+end)
+```
+
+</section>
+Requirements
+------------
+
+See Also
+--------

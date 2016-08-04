@@ -1,8 +1,0 @@
-{| border="1"
-| {{Clothes|index=0|type=5|model=5gun|texture=5GUN}}
-| {{Clothes|index=1|type=5|model=5cross|texture=5CROSS}}
-| {{Clothes|index=2|type=5|model=5cross2|texture=5CROSS2}}
-| {{Clothes|index=3|type=5|model=5cross3|texture=5CROSS3}}
-|}
-
-[[/pl:CJ_Clothes%5CTattoos:_Left_Lower_Arm_(5).md|pl:CJ_Clothes%5CTattoos:_Left_Lower_Arm_(5)]]

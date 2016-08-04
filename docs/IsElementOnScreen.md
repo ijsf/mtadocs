@@ -1,0 +1,47 @@
+This function will check if an element is on the screen. Elements behind objects but still in the camera view count as being on screen.
+
+This function is particularly useful for detecting if dynamic objects are in “destroyed” state. Destroyed objects will return false.
+
+Syntax
+------
+
+``` lua
+bool isElementOnScreen ( element theElement )
+```
+
+### Required Arguments
+
+-   **theElement:** The element of which you wish to check wether it's being rendered on screen.
+
+### Returns
+
+Returns *true* if element is on screen, *false* if not.
+
+Issues
+------
+
+Example
+-------
+
+This function will check if you can see your killer when you die.
+
+``` lua
+function player_Wasted ( killer, weapon, bodypart )
+    -- if there even was a killer and the killer isn't the killed player itself
+    if ( killer ) and ( killer ~= source ) then
+        -- there was a killer
+        if ( isElementOnScreen ( killer ) ) then
+            -- the killer was on screen
+            outputChatBox ( "You can still see your killer!", 255, 0, 0 )
+        else
+            -- the killer was not on screen
+            outputChatBox ( "You can not see your killer!", 255, 0, 0 )
+        end
+    end
+end
+-- call player_Wasted when only the local player dies
+addEventHandler ( "onClientPlayerWasted", localPlayer, player_Wasted )
+```
+
+See Also
+--------

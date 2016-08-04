@@ -1,0 +1,42 @@
+This function returns the current state of a specifed panel on the vehicle. A vehicle can have up to 7 panels.
+
+Syntax
+------
+
+``` lua
+int getVehiclePanelState ( vehicle theVehicle, int panel )
+```
+
+Required Arguments
+------------------
+
+-   **theVehicle:** the [vehicle](/vehicle.md "wikilink") that you wish to know the panel state of.
+-   **panel:** an *integer* specifying the panel you want to know the state of. Not every vehicle has every panel. Possible values are:
+    -   **0:** Front-left panel
+    -   **1:** Front-right panel
+    -   **2:** Rear-left panel
+    -   **3:** Rear-right panel
+    -   **4:** Windscreen
+    -   **5:** Front bumper
+    -   **6:** Rear bumper
+
+Returns
+-------
+
+Returns an [int](/integer.md "wikilink") indicating the state of the specified the panel. This is a value between 0 and 3, with 0 indicating the panel is undamaged and 3 indicating it is very damaged.
+
+Example
+-------
+
+This function creates an admiral and outputs every panel's state in the chatbox.
+
+``` lua
+local admiral = createVehicle ( 445, 0, 0, 10 )
+for i=0, 6 do
+    local panel = getVehiclePanelState ( admiral, i )
+    outputChatBox ( tostring ( panel ) )
+end
+```
+
+See Also
+--------

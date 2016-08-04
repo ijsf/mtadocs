@@ -1,0 +1,59 @@
+[thumb|200px|Sparks](/Image:Fxsparks.png.md "wikilink") Creates a number of sparks originating from a point or along a line.
+
+Syntax
+------
+
+``` lua
+bool fxAddSparks ( float posX, float posY, float posZ, float dirX, float dirY, float dirZ, [float force=1, int count=1, float acrossLineX=0, float acrossLineY=0, float acrossLineZ=0, bool blur=false, float spread=1, float life=1] )
+```
+
+### Required Arguments
+
+-   **posX, posY, posZ:** the world coordinates where the sparks originate.
+-   **dirX, dirY, dirZ:** a direction vector indicating where the sparks fly to. The longer this vector is, the faster the sparks fly.
+
+### Optional Arguments
+
+-   **force:** speed factor: the higher this value, the faster and further the sparks fly.
+-   **count:** the number of effects to create.
+-   **acrossLineX, acrossLineY, acrossLineZ:** a vector starting at the **pos** coordinates. If specified, the sparks will be created along a line going from **pos** to **pos - acrossLine**. If not specified, all sparks originate from the point at **pos**.
+-   **blur:** if *false*, creates standard bullet impact-like sparks. If *true*, adds motion blur to the sparks.
+-   **spread:** determines how strongly the particles deviate from each other. With low values the particles will stay quite close together, high values will make them fly in all directions. Also affects their speed.
+-   **life:** the higher this value, the longer the sparks survive before they disappear.
+
+### Returns
+
+Returns a true if the operation was successful, false otherwise.
+
+Example
+-------
+
+<section name="Client" class="client" show="true">
+This example will add Fire Bins to all locations added in the table.
+
+``` lua
+fires = {
+    {0, 0, 3} --Middle of SA
+}
+
+
+for i = 1, #fires do
+    bin = createObject(1362, fires[i][1], fires[i][2], fires[i][3]-0.5)
+    torch = createObject(3461, fires[i][1]-0.1, fires[i][2]-0.1, fires[i][3]-2)
+    light = createMarker(fires[i][1], fires[i][2], fires[i][3]+0.2, "corona", 1, 255, 170, 0, 80, root)
+    fireCol = createColSphere(fires[i][1], fires[i][2], fires[i][3]+0.5, 0.8)
+    setTimer(fxAddSparks, math.random(4000, 5000), 0, fires[i][1]+math.random(0.1, 0.3), fires[i][2]+math.random(0.1, 0.2), fires[i][3]+0.2, 1, 1, 1)         
+            
+    addEventHandler("onClientColShapeHit", fireCol, 
+    function(theElement)
+        if (getElementType(theElement) == "player") then
+            setPedOnFire(theElement, true)
+        end
+    end)
+            
+end
+```
+
+</section>
+See Also
+--------

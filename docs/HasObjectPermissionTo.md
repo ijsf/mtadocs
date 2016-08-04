@@ -1,0 +1,72 @@
+This function returns whether or not the given object has access to perform the given action.
+
+Scripts frequently wish to limit access to features to particular users. The naïve way to do this would be to check if the player who is attempting to perform an action is in a particular group (usually the Admin group). The main issue with doing this is that the Admin group is not guaranteed to exist. It also doesn't give the server admin any flexibility. He might want to allow his 'moderators' access to the function you're limiting access to, or he may want it disabled entirely.
+
+This is where using the ACL properly comes in, and luckily this is very easy. It all comes down to using this function. This, somewhat confusingly named function lets you check if an ACL object (a player or a resource) has a particular ACL right. In this case, we just care about players.
+
+So, first of all, think of a name for your 'right'. Let's say we want a private area only certain people can go in, we'll call our right accessPrivateArea. Then, all you need to do is add one 'if' statement to your code:
+
+``` lua
+if hasObjectPermissionTo ( player, "resource.YourResourceName.accessPrivateArea", false ) then
+-- Whatever you want to happen if they're allowed in
+else
+-- Whatever you want to happen if they aren't
+end
+```
+
+Notice that we've named the *right* using *resource.YourResourceName.accessPrivateArea* - this is just for neatness, so that the admin knows what resource the right belongs to. It's strongly advised you follow this convention. The *false* argument specifies the 'defaultPermission', false indicating that if the user hasn't had the right allowed or dissallowed (i.e. the admin hasn't added it to the config), that it should default to being not allowed.
+
+The only downside of using this method is that the admin has to modify his config. The upsides are that the admin has much more control and your script will work for any server, however the admin has configured it.
+
+Syntax
+------
+
+``` lua
+bool hasObjectPermissionTo ( string / element theObject, string theAction [, bool defaultPermission = true ] )
+```
+
+### Required Arguments
+
+-   **theObject:** The object to test if has permission to. This can be a client element (ie. a player), a resource or a string in the form “user.<name>” or “resource.<name>”.
+-   **theAction:** The action to test if the given object has access to. Ie. “function.kickPlayer”.
+
+### Optional Arguments
+
+-   **defaultPermission:** The default permission if none is specified in either of the groups the given object is a member of. If this is left to true, the given object will have permissions to perform the action unless the opposite is explicitly specified in the [ACL](/ACL.md "wikilink"). If false, the action will be denied by default unless explicitly approved by the [Access Control List](/Access_Control_List.md "wikilink").
+
+### Returns
+
+Returns *true* if the given object has permission to perform the given action, *false* otherwise. Returns *nil* if the function failed because of bad arguments.
+
+Example
+-------
+
+This example kicks a player if the user using it has access to the kickPlayer function.
+
+``` lua
+-- Kick command
+function onKickCommandHandler ( playerSource, commandName, playerToKick, stringReason )
+    -- Does the calling user have permission to kick the player? Default
+    -- to false for safety reasons. We do this so any user can't use us to
+    -- kick players.
+    if ( hasObjectPermissionTo ( playerSource, "function.kickPlayer", false ) ) then
+
+        -- Do we have permission to kick the player? We do this so we can fail
+        -- nicely if this resource doesn't have access to call that function.
+        if ( hasObjectPermissionTo ( getThisResource (), "function.kickPlayer", true ) ) then
+            -- Kick him
+            kickPlayer ( playerToKick, playerSource, stringReason )
+        else
+            -- Resource doesn't have any permissions, sorry
+            outputChatBox ( "kick: The admin resource is not able to kick players. Please give this resource access to 'function.kickPlayer' in the ACL to use this function.", playerSource )
+        end
+    else
+        -- User doesn't have any permissions
+        outputChatBox ( "kick: You don't have permissions to use this command.", playerSource )
+    end
+end
+addCommandHandler ( "kick", onKickCommandHandler )
+```
+
+See Also
+--------

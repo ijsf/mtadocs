@@ -1,0 +1,30 @@
+This function gets a rule value. A rule value is a string that can be viewed by server browsers and used for filtering the server list.
+
+Syntax
+------
+
+``` lua
+string getRuleValue ( string key )              
+```
+
+### Required Arguments
+
+-   **key:** The name of the rule
+
+### Returns
+
+Returns a string containing the value set for the specified *key*, *false* if invalid arguments were specified.
+
+Example
+-------
+
+This example shows how you can check if a rule is set.
+
+``` lua
+if getRuleValue ( "myScriptRunning" ) then
+    -- the value is set
+end
+```
+
+See Also
+--------

@@ -1,1 +1,0 @@
-A small introduction to Matrices is available at the [[/Matrix.md|Matrix]] page, in the future, a more in-depth tutorial will be available here.

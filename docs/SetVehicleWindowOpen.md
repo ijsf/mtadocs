@@ -1,0 +1,61 @@
+Syntax
+------
+
+``` lua
+bool setVehicleWindowOpen ( vehicle theVehicle, int window, bool open )
+```
+
+### Required arguments
+
+-   **theVehicle:** The vehicle that you wish to change the window state.
+-   **window:** An integer representing window.
+    -   **0:** motorbike shield
+    -   **1:** rear window
+    -   **2:** right front window
+    -   **3:** right back window
+    -   **4:** left front (driver) window
+    -   **5:** left back window
+    -   **6:** windshield
+-   **open:** Boolean which represent window open state.
+
+### Returns
+
+-   when the vehicle is not streamed in:
+    -   if the window ID does lie within the acceptable list of values, it will return **true**
+    -   if the window ID does *not* lie within the acceptable list of values, it will return **false**
+-   when the vehicle is streamed in:
+    -   if the vehicle has the window, it will return **true**
+    -   if the vehicle does not have the window, it will return **false**
+
+Example
+-------
+
+Command which allow player to open window which near sits.
+
+``` lua
+local seatWindows = {
+    [0] = 4,
+    [1] = 2,
+    [2] = 5,
+    [3] = 3
+}
+
+addCommandHandler("window",
+    function()
+        local veh = getPedOccupiedVehicle( localPlayer )
+        if veh then
+            local seat = getPedOccupiedVehicleSeat( localPlayer )
+            if seatWindows[seat] and setVehicleWindowOpen( veh, seatWindows[seat], not isVehicleWindowOpen( veh, seatWindows[seat] ) ) then
+                outputChatBox( "Window switched!" )
+            else
+                outputChatBox( "You don't have window!" )
+            end
+        else
+            outputChatBox( "You must be in vehicle!" )
+        end
+    end
+)
+```
+
+See also
+--------

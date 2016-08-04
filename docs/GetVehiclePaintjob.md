@@ -1,0 +1,41 @@
+This function gets the current paintjob on the specified vehicle.
+
+Syntax
+------
+
+``` lua
+int getVehiclePaintjob ( vehicle theVehicle )
+```
+
+### Required Arguments
+
+-   **theVehicle**: the [vehicle](/vehicle.md "wikilink") you wish to get the paintjob of.
+
+Returns
+-------
+
+Returns an integer representing the current paintjob on the vehicle.
+\* **0**: The first paintjob
+
+-   **1**: The second paintjob
+-   **2**: The third paintjob
+-   **3**: Default paintjob (no paintjob)
+
+Note: Always returns 3 if paintjobs are not supported for the vehicle.
+
+Example
+-------
+
+This example will set the paintjob of a new sultan to '2', then check it was set.
+
+``` lua
+newvehicle = createVehicle ( 560, 100, 100, 40 )   -- create the sultan
+setVehiclePaintjob ( newvehicle, 2 )               -- change the paintjob
+paintjob = getVehiclePaintjob ( newvehicle )
+if ( paintjob == 2 ) then
+    outputChatBox ( "the paintjob was successfully set" )
+end
+```
+
+See Also
+--------

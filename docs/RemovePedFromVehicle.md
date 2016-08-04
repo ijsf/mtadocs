@@ -1,0 +1,41 @@
+This function removes a ped from a vehicle immediately. This works for drivers and passengers. Note that this removes the ped from the vehicle and puts him in the exact position where the command was initiated.
+
+**Available client side from 1.3.1** (It will only work with client side vehicles and peds)
+
+Syntax
+------
+
+``` lua
+bool removePedFromVehicle ( ped thePed )           
+```
+
+### Required Arguments
+
+-   **thePed:** The ped you wish to remove from a vehicle
+
+### Returns
+
+Returns *true* if the operation was successful, *false* if the specified ped is not valid or if it isn't in a vehicle.
+
+Example
+-------
+
+Small example to show how to remove a ped from any vehicle it's in.
+
+``` lua
+function setupForRace ( )
+    RacerPed = createPed ( 252, 0, 0, 3 )                         -- create a ped called "RacerPed".
+    local RaceVehicle = createVehicle ( 411, 4, 0, 3 )            -- create a vehicle.
+    warpPedIntoVehicle ( RacerPed, RaceVehicle )                  -- warp the ped straight into the vehicle
+    setTimer(removeThePed, 5000, 1)                               -- Setup a timer which will remove the ped from the vehicle after 5 seconds.
+end
+addCommandHandler ( "startrace", setupForRace )                   -- add a command to start race
+
+
+function removeThePed ( )
+removePedFromVehicle ( RacerPed )                                 -- Removes the ped from any vehicle. 
+end
+```
+
+See Also
+--------

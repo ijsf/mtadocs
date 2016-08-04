@@ -1,0 +1,45 @@
+This function returns the current move state for the specified [ped](/ped.md "wikilink").
+
+Syntax
+------
+
+``` lua
+string getPedMoveState ( ped thePed )
+```
+
+### Required Arguments
+
+-   **thePed:** The [ped](/ped.md "wikilink") whose move state you want to know
+
+### Returns
+
+Returns a [string](/string.md "wikilink") indicating the ped's move state, or *false* if the ped is not streamed in, the movement type is unknown, the ped is in a vehicle or the ped is invalid.
+
+Example
+-------
+
+<section show="true">
+**Example 1:** This example shows how you can output a players current movestate.
+
+``` lua
+function getMoveState( command, playerName )
+-- If the player name exists we will have our 'player'
+local player = getPlayerFromName( playerName )
+ 
+    -- If the player does not exist, the script will stop.
+    if not player then 
+        outputChatBox( "No player named " .. playerName .. " was found.", 250, 0, 0, true )
+        return false
+    end
+ 
+-- If we found the player from the name, we can get his movestate.
+local moveState = getPedMoveState( player )
+-- If a player and a movestate is found, the script will output it to the chatbox.
+outputChatBox( playerName .. "'s current moveState is: " .. moveState, 0, 150, 0, true )
+end
+addCommandHandler( "getMoveState", getMoveState ) -- To execute this command, simply write: /getMoveState playerName
+```
+
+</section>
+See Also
+--------

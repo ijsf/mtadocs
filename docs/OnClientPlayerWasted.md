@@ -1,0 +1,45 @@
+This event is triggered whenever a player, including those remote, dies.
+
+Parameters
+----------
+
+``` lua
+element killer, int weapon, int bodypart
+```
+
+-   **killer**: A [player](/player.md "wikilink") [element](/element.md "wikilink") representing the killer.
+-   **weapon**: An integer representing the [killer weapon](/Weapons.md "wikilink") or the [death reason](/Death_Reasons.md "wikilink").
+-   **bodypart**: An integer representing the bodypart the player was damaged.
+
+Source
+------
+
+The [source](/event_system#Event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that died.
+
+Example
+-------
+
+This example outputs a mocking message when the local player dies.
+
+``` lua
+messages = { 
+"Better luck next time",
+"Don't think you're so cool now, do you?",
+"Nice one, pal",
+"Your opinion is void" 
+}
+
+function wastedMessage ( killer, weapon, bodypart )
+    local randomID = math.random ( 1, #messages ) --get a random ID from the table
+    local randomMessage = messages[randomID] --use that to retrieve a message
+    outputChatBox ( randomMessage, 255, 0, 0 ) --output the message
+end
+addEventHandler ( "onClientPlayerWasted", getLocalPlayer(), wastedMessage ) --add an event for the local player only
+```
+
+See Also
+--------
+
+### Client player events
+
+### Client event functions

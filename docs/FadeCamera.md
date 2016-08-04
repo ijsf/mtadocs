@@ -1,0 +1,67 @@
+This function will fade a player's camera to a color or back to normal over a specified time period. This will also affect the sound volume for the player (50% faded = 50% volume, full fade = no sound). For clientside scripts you can perform 2 fade ins or fade outs in a row, but for serverside scripts you must use one then the other.
+
+Syntax
+------
+
+<section name="Server" class="server" show="true">
+``` lua
+bool fadeCamera ( player thePlayer, bool fadeIn, [ float timeToFade = 1.0, int red = 0, int green = 0, int blue = 0 ] )
+```
+
+### Required Arguments
+
+-   **thePlayer:** The player whose camera you wish to fade.
+-   **fadeIn:** Should the camera be faded in or out? Pass *true* to fade the camera in, *false* to fade it out to a color.
+
+### Optional Arguments
+
+-   **timeToFade:** The number of seconds it should take to fade. Any number less than 1 makes the fade instant.
+-   **red:** The amount of red in the color that the camera fades out to (0 - 255). Not required for fading in.
+-   **green:** The amount of green in the color that the camera fades out to (0 - 255). Not required for fading in.
+-   **blue:** The amount of blue in the color that the camera fades out to (0 - 255). Not required for fading in.
+
+</section>
+<section name="Client" class="client" show="true">
+``` lua
+bool fadeCamera ( bool fadeIn, [ float timeToFade = 1.0, int red = 0, int green = 0, int blue = 0 ] )
+```
+
+### Required Arguments
+
+-   **fadeIn:** Should the camera be faded in our out? Pass *true* to fade the camera in, *false* to fade it out to a color.
+
+### Optional Arguments
+
+-   **timeToFade:** The number of seconds it should take to fade. Any number less than 1 makes the fade instant.
+-   **red:** The amount of red in the color that the camera fades out to (0 - 255). Not required for fading in.
+-   **green:** The amount of green in the color that the camera fades out to (0 - 255). Not required for fading in.
+-   **blue:** The amount of blue in the color that the camera fades out to (0 - 255). Not required for fading in.
+
+</section>
+### Returns
+
+Returns *true* if the camera was faded successfully, *false* if invalid arguments were passed to the function.
+
+Example
+-------
+
+<section name="Server example" class="server" show="true">
+When a player gets damaged, place a quick fade-to-red effect on his screen.
+
+``` lua
+function addRednessOnDamage ( )
+      fadeCamera ( source, false, 1.0, 255, 0, 0 )         -- fade the player's camera to red over a period of 1 second
+      setTimer ( fadeCameraDelayed, 500, 1, source )   -- don't let it go to opaque red, interrupt it after half a second and fade back to normal
+end
+addEventHandler ( "onPlayerDamage", root, addRednessOnDamage )
+
+function fadeCameraDelayed(player) -- This function prevents debug warnings when the player disconnects while the timer is running.
+      if (isElement(player)) then
+            fadeCamera(player, true, 0.5)
+      end
+end
+```
+
+</section>
+See Also
+--------

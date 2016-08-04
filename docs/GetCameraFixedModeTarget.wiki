@@ -1,2 +1,0 @@
-{{client function}}
-{{Deprecated|getCameraTarget|Please use [[/getCameraMatrix.md|getCameraMatrix]] to get the coordinates the camera is looking to.}}

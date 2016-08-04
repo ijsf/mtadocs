@@ -1,0 +1,37 @@
+Sets the current read/write position in the file.
+
+Syntax
+------
+
+``` lua
+int fileSetPos ( file theFile, int offset )
+```
+
+### Required Arguments
+
+-   **theFile:** The file handle of which you want to change the read/write position.
+-   **offset:** The new position. This is the number of bytes from the beginning of the file. If this value is larger than the file size, it is limited to 52,428,800 bytes (50 MB).
+
+### Returns
+
+Returns where the offset was actually set at. I.e. if **offset** was past the end of the file, it will be set at the end of the file, and this position will be returned. Returns *false* in case of failure (e.g. the specified file handle is invalid).
+
+Example
+-------
+
+This example opens a binary file and prints the value of the byte at position 8 to the console.
+
+``` lua
+local hFile = fileOpen("test.dat")          -- attempt to open the file
+if hFile then                               -- check if it succeeded
+    fileSetPos(hFile, 8)                    -- set the read/write position
+    local readByte = fileRead(hFile, 1)     -- read one byte from this position
+    outputConsole("Byte at position 8 = " .. string.byte(readByte))     -- output it
+    fileClose(hFile)                        -- close the file
+else
+    outputConsole("Unable to open test.dat")
+end
+```
+
+See Also
+--------

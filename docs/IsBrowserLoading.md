@@ -1,0 +1,36 @@
+Syntax
+------
+
+``` lua
+bool isBrowserLoading ( browser webBrowser )
+```
+
+### Required arguments
+
+-   **webBrowser:** The browser
+
+### Returns
+
+Returns *true* if the browser is loading a website, *false* otherwise and *nil* if invalid arguments were passed.
+
+Example
+-------
+
+This example will add an command /checkload to check if the site is loading or not.
+
+``` lua
+local webbrowser = createBrowser(1000, 1000, false, false)
+loadBrowserUrl(webbrowser, "https://www.youtube.com/watch?v=jofNR_WkoCE")
+addCommandHandler("checkload",
+      function()
+            if isBrowserLoading(webbrowser) then  
+                  outputChatBox("Please  wait, The site is loading!") 
+            else
+                  outputChatBox("This site was already loaded")
+            end
+      end
+)
+```
+
+See Also
+--------

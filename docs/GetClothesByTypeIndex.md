@@ -1,0 +1,49 @@
+This function is used to get the texture and model of clothes by the clothes type and index. (Scans through the list of clothes for the specific type).
+
+Syntax
+------
+
+``` lua
+string string getClothesByTypeIndex ( int clothesType, int clothesIndex )
+```
+
+### Required Arguments
+
+-   **clothesType**: An integer representing the clothes slot/type to scan through.
+
+-   **clothesIndex**: An integer representing the index (0 based) set of clothes in the list you wish to retrieve. Each type has a different number of valid indexes.
+
+Returns
+-------
+
+This function returns 2 strings, a texture and model respectively, *false* if invalid arguments were passed to the function.
+
+Example
+-------
+
+This example gets the current clothes of a certain type on a player, then swaps with the next in the clothes list.
+
+``` lua
+function scriptNextClothes ( thePlayer, key, clothesType )
+  local currentTexture, currentModel = getPedClothes ( thePlayer, clothesType ) -- get the current clothes on this slot
+  local clothesIndex = -1
+  if ( currentTexture ) then -- if he had clothes of that type
+    local tempA, tempB = getTypeIndexFromClothes ( currentTexture, currentModel ) -- get the type and index for these clothes, so we can increase it to get the next set in the list
+    if ( tempA and tempB ) then -- if we found them
+      clothesType, clothesIndex = tempA, tempB
+    end
+  end
+  clothesIndex = clothesIndex + 1
+  local texture, model = getClothesByTypeIndex ( clothesType, clothesIndex ) -- get the new texture and model
+  if ( texture == false ) then -- if we've reached the end of the list
+    removePedClothes ( thePlayer, clothesType )
+  else addPedClothes ( thePlayer, texture, model, clothesType )
+  end
+end
+addCommandHandler ( "nextClothes", scriptNextClothes )
+```
+
+See Also
+--------
+
+[pl:GetClothesByTypeIndex](/pl:GetClothesByTypeIndex.md "wikilink")

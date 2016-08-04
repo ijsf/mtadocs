@@ -1,7 +1,0 @@
-{| border="1"
-| {{Clothes|index=0|type=4|model=4weed|texture=4WEED}}
-| {{Clothes|index=1|type=4|model=4rip|texture=4RIP}}
-| {{Clothes|index=2|type=4|model=4spider|texture=4SPIDER}}
-|}
-
-[[/pl:CJ_Clothes%5CTattoos:_Left_Upper_Arm_(4).md|pl:CJ_Clothes%5CTattoos:_Left_Upper_Arm_(4)]]

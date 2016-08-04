@@ -1,0 +1,37 @@
+This function is used to get “occlusions enabled” state.
+
+**Note:** Occlusions are used by GTA to enhance performance by hiding objects that are (normally) obscured by certain large buildings. However when [removeWorldModel](/removeWorldModel.md "wikilink") is used they may also have the undesired effect of making parts of the map disappear. Disabling occlusions will fix that.
+
+Syntax
+------
+
+``` lua
+bool getOcclusionsEnabled ( )
+```
+
+### Returns
+
+Returns *true* if occlusions are enabled, or *false* otherwise.
+
+Example
+-------
+
+This example shows how to disable occlusions after the whole map has been cleared:
+
+``` lua
+-- Remove all world models
+for i=700,20000 do
+    removeWorldModel(i,10000,0,0,0)
+end
+
+-- Turn off occlusions with simple check
+if getOcclusionsEnabled() then
+    setOcclusionsEnabled( false )
+end
+```
+
+Requirements
+------------
+
+See Also
+--------

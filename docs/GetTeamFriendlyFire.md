@@ -1,0 +1,39 @@
+This function tells you if friendly fire is turned on for the specified team.
+
+Syntax
+------
+
+``` lua
+bool getTeamFriendlyFire ( team theTeam )
+```
+
+### Required Arguments
+
+-   **theTeam:** The team object that will be checked
+
+### Returns
+
+Returns *true* if friendly fire is on for the specified team, *false* if it is turned off or if invalid arguments are specified.
+
+Example
+-------
+
+This example makes a command that checks if friendly fire is on for each team, and toggles it on if it isn't.
+
+``` lua
+function setFriendlyFireOn ( )
+    -- For each team,   
+    for index, theTeam in ipairs ( getElementsByType("team") ) do
+            -- if friendly fire is off,
+            if ( getTeamFriendlyFire ( theTeam ) == false ) then
+                    -- switch it on.
+                    setTeamFriendlyFire ( theTeam, true )
+            end
+    end
+end
+-- Add console command 'setFF'
+addCommandHandler ( "setFF", setFriendlyFireOn )
+```
+
+See Also
+--------
