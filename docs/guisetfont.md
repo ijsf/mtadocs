@@ -10,7 +10,7 @@ bool guiSetFont ( element guiElement, mixed font )
 ### Required Arguments
 
 -   **guiElement:** The GUI element you wish to change the font of
--   **font:** Either a custom [GUI font](/docs/gui_font.md "wikilink") element or the name of a built-in GUI font. See [Standard GUI Font Names](/Standard_GUI_Font_Names.md "wikilink")
+-   **font:** Either a custom [GUI font](/docs/gui_font.md "wikilink") element or the name of a built-in GUI font. See [Standard GUI Font Names](/docs/standard_gui_font_names.md "wikilink")
 
 ### Returns
 

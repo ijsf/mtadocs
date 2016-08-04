@@ -46,7 +46,7 @@ Client
 
 ### Client: Additions
 
--   Added alternative syntax to [guiGridListAddRow](/docs/guigridlistaddrow.md "wikilink") and [guiGridListInsertRowAfter](/guiGridListInsertRowAfter.md "wikilink")
+-   Added alternative syntax to [guiGridListAddRow](/docs/guigridlistaddrow.md "wikilink") and [guiGridListInsertRowAfter](/docs/guigridlistinsertrowafter.md "wikilink")
 -   [onClientPlayerDamage](/docs/onclientplayerdamage.md "wikilink") now supports objects and weapons as attackers.
 -   Water elements are now limited to a specific dimension.
 -   [onClientVehicleStartEnter](/docs/onclientvehiclestartenter.md "wikilink") is now cancellable if the local player is entering the vehicle.
@@ -89,4 +89,4 @@ Extra information
 
 :\* [MTA: SA Official Resources](https://github.com/multitheftauto/mtasa-resources)
 
-[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Incomplete](/docs/category:incomplete.md "wikilink")

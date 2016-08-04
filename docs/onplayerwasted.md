@@ -5,7 +5,7 @@ Parameters
 
 -   **totalAmmo**: an integer representing the total ammo the victim had when he died.
 -   **killer**: an [element](/docs/element.md "wikilink") representing the player or vehicle who was the killer. If there was no killer this is *false*.
--   **killerWeapon**: an integer representing the [killer weapon](/docs/weapons.md "wikilink") or the [death reason](/Death_Reasons.md "wikilink").
+-   **killerWeapon**: an integer representing the [killer weapon](/docs/weapons.md "wikilink") or the [death reason](/docs/death_reasons.md "wikilink").
 -   **bodypart**: an integer representing the bodypart ID the victim was hit on when he died.
 
 -   
@@ -13,7 +13,7 @@ Parameters
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that died or got killed.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/player.md "wikilink") that died or got killed.
 
 Example
 -------

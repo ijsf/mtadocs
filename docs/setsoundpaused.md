@@ -1,4 +1,4 @@
-This function is used to either pause or unpause the playback of the specified [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink").
+This function is used to either pause or unpause the playback of the specified [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink").
 
 Syntax
 ------
@@ -9,12 +9,12 @@ bool setSoundPaused ( element theSound, bool paused )
 
 ### Required Arguments
 
--   **theSound:** the [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") which you want to pause/unpause.
+-   **theSound:** the [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") which you want to pause/unpause.
 -   **paused:** a [boolean](/docs/boolean.md "wikilink") value representing whether the sound should be paused or not. To pause the sound, use *true*.
 
 ### Returns
 
-Returns *true* if the [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") was successfully paused, *false* otherwise.
+Returns *true* if the [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") was successfully paused, *false* otherwise.
 
 Example
 -------

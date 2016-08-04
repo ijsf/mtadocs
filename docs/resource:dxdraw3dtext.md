@@ -22,7 +22,7 @@ The dxDraw3DText function
 ### Optional Arguments
 
 -   **scale :** An [int](/docs/int.md "wikilink") representing the size of the font .
--   **font :** A [string](/docs/string.md "wikilink") representing the font type, This CAN'T be a [DX font](/DX_font.md "wikilink") element, It can ONLY be :
+-   **font :** A [string](/docs/string.md "wikilink") representing the font type, This CAN'T be a [DX font](/docs/dx_font.md "wikilink") element, It can ONLY be :
 
 -   **r, g, b :** Three integers representing the RGB Color codes for the text .
 -   *' maxDistance :*' An [int](/docs/int.md "wikilink") representing the max distance the text will show in .

@@ -12,7 +12,7 @@ vehicle theTruck
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the trailer [vehicle](/vehicle.md "wikilink") that the truck got attached to.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the trailer [vehicle](/docs/vehicle.md "wikilink") that the truck got attached to.
 
 Cancel effect
 -------------

@@ -13,7 +13,7 @@ account thePreviousAccount, account theCurrentAccount
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the client [element](/element.md "wikilink") that logged out. For example a player.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the client [element](/docs/element.md "wikilink") that logged out. For example a player.
 
 Example
 -------

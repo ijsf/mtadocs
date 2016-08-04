@@ -1,4 +1,4 @@
-This function sets the health for the specified [element](/docs/element.md "wikilink"). This can be a [ped](/ped.md "wikilink"), [object](/object.md "wikilink") or a [vehicle](/vehicle.md "wikilink").
+This function sets the health for the specified [element](/docs/element.md "wikilink"). This can be a [ped](/docs/ped.md "wikilink"), [object](/docs/object.md "wikilink") or a [vehicle](/docs/vehicle.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setElementHealth ( element theElement, float newHealth )
 
 ### Required Arguments
 
--   **theElement:** The [ped](/docs/ped.md "wikilink"), [vehicle](/vehicle.md "wikilink") or [object](/object.md "wikilink") whose health you want to set.
+-   **theElement:** The [ped](/docs/ped.md "wikilink"), [vehicle](/docs/vehicle.md "wikilink") or [object](/docs/object.md "wikilink") whose health you want to set.
 -   **newHealth:** A float indicating the new health to set for the element.
 
 ### Returns

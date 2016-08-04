@@ -1,4 +1,4 @@
-This function creates a GUI scrollbar. You can use the functions [guiScrollPaneSetHorizontalScrollPosition](/docs/guiscrollpanesethorizontalscrollposition.md "wikilink"), [guiScrollPaneSetVerticalScrollPosition](/guiScrollPaneSetVerticalScrollPosition.md "wikilink"), [guiScrollPaneGetHorizontalScrollPosition](/guiScrollPaneGetHorizontalScrollPosition.md "wikilink") and [guiScrollPaneGetVerticalScrollPosition](/guiScrollPaneGetVerticalScrollPosition.md "wikilink") to read and modify the scrollbar's scroll.
+This function creates a GUI scrollbar. You can use the functions [guiScrollPaneSetHorizontalScrollPosition](/docs/guiscrollpanesethorizontalscrollposition.md "wikilink"), [guiScrollPaneSetVerticalScrollPosition](/docs/guiscrollpanesetverticalscrollposition.md "wikilink"), [guiScrollPaneGetHorizontalScrollPosition](/docs/guiscrollpanegethorizontalscrollposition.md "wikilink") and [guiScrollPaneGetVerticalScrollPosition](/docs/guiscrollpanegetverticalscrollposition.md "wikilink") to read and modify the scrollbar's scroll.
 
 Syntax
 ------

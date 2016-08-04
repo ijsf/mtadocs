@@ -35,7 +35,7 @@ else
 end
 ```
 
-[fileOpen](/docs/fileopen.md "wikilink") sets the read/write position to the beginning of the file. Each call of fileRead will read 500 bytes from the current position, and advance the position over the same amount. If we get near the end of the file and there are less than 500 bytes left to read, all that's left will be read and [fileIsEOF](/fileIsEOF.md "wikilink") will return *true*.
+[fileOpen](/docs/fileopen.md "wikilink") sets the read/write position to the beginning of the file. Each call of fileRead will read 500 bytes from the current position, and advance the position over the same amount. If we get near the end of the file and there are less than 500 bytes left to read, all that's left will be read and [fileIsEOF](/docs/fileiseof.md "wikilink") will return *true*.
 
 See Also
 --------

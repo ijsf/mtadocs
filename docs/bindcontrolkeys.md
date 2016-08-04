@@ -1,6 +1,6 @@
 <lowercasetitle></lowercasetitle>
 
-These useful clientside functions bind the keys bound to a control individually, using [bindKey](/docs/bindkey.md "wikilink"), and unbind them using [unbindKey](/unbindKey.md "wikilink"). The objective of these functions is to bypass the limitation of binding a control directly which ignores key presses if the control is deactivated at the moment (so the script would be able to react if the player presses *aim\_weapon* in a vehicle, for example).
+These useful clientside functions bind the keys bound to a control individually, using [bindKey](/docs/bindkey.md "wikilink"), and unbind them using [unbindKey](/docs/unbindkey.md "wikilink"). The objective of these functions is to bypass the limitation of binding a control directly which ignores key presses if the control is deactivated at the moment (so the script would be able to react if the player presses *aim\_weapon* in a vehicle, for example).
 
 Syntaxes
 --------

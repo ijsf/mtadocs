@@ -16,7 +16,7 @@ element dxCreateScreenSource ( int width, int height )
 
 ### Returns
 
-Returns a [texture](/docs/texture.md "wikilink") [element](/element.md "wikilink") if successful, *false* if invalid arguments were passed to the function.
+Returns a [texture](/docs/texture.md "wikilink") [element](/docs/element.md "wikilink") if successful, *false* if invalid arguments were passed to the function.
 
 Example
 -------

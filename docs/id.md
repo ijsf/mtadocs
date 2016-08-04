@@ -46,6 +46,6 @@ Brophy/Ratt/Panther/Twig (lots of inital ID data)
 
 GTAForums (Allowing Ransom to find IDs for lists)
 
-[de:Id](/docs/de:id.md "wikilink") [ru:Id](/ru:Id.md "wikilink") [zh-cn:ID 列表](/zh-cn:ID_列表.md "wikilink")
+[de:Id](/docs/de:id.md "wikilink") [ru:Id](/docs/ru:id.md "wikilink") [zh-cn:ID 列表](/docs/zh-cn:id_列表.md "wikilink")
 
 [Category:ID Lists](/docs/category:id_lists.md "wikilink")

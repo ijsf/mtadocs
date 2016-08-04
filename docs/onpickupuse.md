@@ -1,4 +1,4 @@
-This event is triggered when a [player](/docs/player.md "wikilink") stands on a [pickup](/pickup.md "wikilink") while not in a [vehicle](/vehicle.md "wikilink"). Pickups use [colshapes](/colshape.md "wikilink"), you can get the [colshape](/colshape.md "wikilink") of the [pickup](/pickup.md "wikilink") with [getElementColShape](/getElementColShape.md "wikilink") and use [colshape](/colshape.md "wikilink") [events](/event.md "wikilink") to it
+This event is triggered when a [player](/docs/player.md "wikilink") stands on a [pickup](/docs/pickup.md "wikilink") while not in a [vehicle](/docs/vehicle.md "wikilink"). Pickups use [colshapes](/docs/colshape.md "wikilink"), you can get the [colshape](/docs/colshape.md "wikilink") of the [pickup](/docs/pickup.md "wikilink") with [getElementColShape](/docs/getelementcolshape.md "wikilink") and use [colshape](/docs/colshape.md "wikilink") [events](/docs/event.md "wikilink") to it
 
 Parameters
 ----------
@@ -12,7 +12,7 @@ player playerWhoUsed
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [pickup](/pickup.md "wikilink") that is getting used by the player.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [pickup](/docs/pickup.md "wikilink") that is getting used by the player.
 
 ### Canceling
 

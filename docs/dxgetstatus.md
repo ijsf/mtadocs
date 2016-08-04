@@ -17,7 +17,7 @@ Returns a table with the following entries:
 -   **VideoCardPSVersion :** The maximum pixel shader version of the graphics card.
 -   **VideoCardNumRenderTargets:** The maximum number of simultaneous render targets a shader can use.
 -   **VideoCardMaxAnisotropy:** The maximum anisotropic filtering available. (0-4 which respectively mean: off,2x,4x,8x,16x)
--   **VideoMemoryFreeForMTA :** The amount of memory in MB available for MTA to use. **When this gets to zero, [guiCreateFont](/docs/guicreatefont.md "wikilink"), [dxCreateFont](/dxCreateFont.md "wikilink") and [dxCreateRenderTarget](/dxCreateRenderTarget.md "wikilink") will fail.**
+-   **VideoMemoryFreeForMTA :** The amount of memory in MB available for MTA to use. **When this gets to zero, [guiCreateFont](/docs/guicreatefont.md "wikilink"), [dxCreateFont](/docs/dxcreatefont.md "wikilink") and [dxCreateRenderTarget](/docs/dxcreaterendertarget.md "wikilink") will fail.**
 -   **VideoMemoryUsedByFonts :** The amount of graphic memory in MB used by custom fonts.
 -   **VideoMemoryUsedByTextures :** The amount of graphic memory in MB used by textures.
 -   **VideoMemoryUsedByRenderTargets :** The amount of graphic memory in MB used by render targets.

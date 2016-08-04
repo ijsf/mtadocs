@@ -11,7 +11,7 @@ Syntax
 ### Required Arguments
 
 -   **thePlayer:** The player you wish to bind the key of.
--   **key:** The key or control you wish to bind to the command. See [key names](/docs/key_names.md "wikilink") for a list of possible keys and [control names](/control_names.md "wikilink") for a list of possible controls.
+-   **key:** The key or control you wish to bind to the command. See [key names](/docs/key_names.md "wikilink") for a list of possible keys and [control names](/docs/control_names.md "wikilink") for a list of possible controls.
 -   **keyState:** A string that has one of the following values:
     -   **“up”:** If the bound key should trigger the function when the key is released
     -   **“down”:** If the bound key should trigger the function when the key is pressed
@@ -38,7 +38,7 @@ The values passed to this function are:
 
 ### Required Arguments
 
--   **key:** The key or control you wish to bind to the command. See [key names](/docs/key_names.md "wikilink") for a list of possible keys and [control names](/control_names.md "wikilink") for a list of possible controls.
+-   **key:** The key or control you wish to bind to the command. See [key names](/docs/key_names.md "wikilink") for a list of possible keys and [control names](/docs/control_names.md "wikilink") for a list of possible controls.
 -   **keyState:** A string that has one of the following values:
     -   **“up”:** If the bound key should trigger the function when the key is released
     -   **“down”:** If the bound key should trigger the function when the key is pressed

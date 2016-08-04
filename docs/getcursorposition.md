@@ -1,4 +1,4 @@
-This function gets the current position of the mouse cursor. Note that for performance reasons, the world position returned is always 300 units away. If you want the exact world point (similar to [onClientClick](/docs/onclientclick.md "wikilink")), use [processLineOfSight](/processLineOfSight.md "wikilink") between the camera position and the worldX/Y/Z result of this function. (See example below)
+This function gets the current position of the mouse cursor. Note that for performance reasons, the world position returned is always 300 units away. If you want the exact world point (similar to [onClientClick](/docs/onclientclick.md "wikilink")), use [processLineOfSight](/docs/processlineofsight.md "wikilink") between the camera position and the worldX/Y/Z result of this function. (See example below)
 
 Syntax
 ------

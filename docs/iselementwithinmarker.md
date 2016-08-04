@@ -1,4 +1,4 @@
-This function is used to determine if an [element](/docs/element.md "wikilink") is within a [marker](/marker.md "wikilink").
+This function is used to determine if an [element](/docs/element.md "wikilink") is within a [marker](/docs/marker.md "wikilink").
 
 Syntax
 ------

@@ -1,6 +1,6 @@
 <lowercasetitle></lowercasetitle>
 
-This function checks if a [vehicle](/docs/vehicle.md "wikilink") is being occupied by a [ped](/ped.md "wikilink") or [player](/player.md "wikilink").
+This function checks if a [vehicle](/docs/vehicle.md "wikilink") is being occupied by a [ped](/docs/ped.md "wikilink") or [player](/docs/player.md "wikilink").
 
 Syntax
 ------

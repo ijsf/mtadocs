@@ -37,4 +37,4 @@ Vehicle events
 Weapon events
 -------------
 
-[ru:Server Scripting Events](/docs/ru:server_scripting_events.md "wikilink") [fr:Server Scripting Events](/fr:Server_Scripting_Events.md "wikilink")
+[ru:Server Scripting Events](/docs/ru:server_scripting_events.md "wikilink") [fr:Server Scripting Events](/docs/fr:server_scripting_events.md "wikilink")

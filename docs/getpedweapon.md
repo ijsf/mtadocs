@@ -19,7 +19,7 @@ int getPedWeapon ( ped thePed, [ int weaponSlot = current ] )
 
 Returns an [int](/docs/int.md "wikilink") indicating the type of the weapon the ped has in the specified slot. If the slot is empty, it returns 0.
 
-It should be noted that if a ped runs out of ammo for a weapon, it will still return the ID of that weapon in the slot (even if it appears as if the ped does not have a weapon at all), though [getPedTotalAmmo](/docs/getpedtotalammo.md "wikilink") will return **0**. Therefore, [getPedTotalAmmo](/getPedTotalAmmo.md "wikilink") should be used in conjunction with [getPedWeapon](/getPedWeapon.md "wikilink") in order to check if a ped has a weapon.
+It should be noted that if a ped runs out of ammo for a weapon, it will still return the ID of that weapon in the slot (even if it appears as if the ped does not have a weapon at all), though [getPedTotalAmmo](/docs/getpedtotalammo.md "wikilink") will return **0**. Therefore, [getPedTotalAmmo](/docs/getpedtotalammo.md "wikilink") should be used in conjunction with [getPedWeapon](/docs/getpedweapon.md "wikilink") in order to check if a ped has a weapon.
 
 Example
 -------

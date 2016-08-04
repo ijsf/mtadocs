@@ -1,4 +1,4 @@
-This function is used to return the current pause state of the specified [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink").
+This function is used to return the current pause state of the specified [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ bool isSoundPaused ( element theSound )
 
 ### Required Arguments
 
--   **theSound:** the [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") which pause state you want to return.
+-   **theSound:** the [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") which pause state you want to return.
 
 ### Returns
 
-Returns *true* if the [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") is paused, *false* if unpaused or invalid arguments were passed.
+Returns *true* if the [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") is paused, *false* if unpaused or invalid arguments were passed.
 
 Example
 -------

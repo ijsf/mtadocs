@@ -21,25 +21,25 @@ i definetly agree, onElementCreated would be VERY useful for utility/librares sc
 
 ------------------------------------------------------------------------
 
-I ask for a function that detects if a ped is on floor, eg. **isPedOnFloor(ped thePed)**, thanks. --<span style="font-family:Courier New, Courier, monospace">[Shadd](/docs/user:shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/User_talk:Shadd.md "wikilink"))</sub> 11:29, 15 June 2008 (CDT)
+I ask for a function that detects if a ped is on floor, eg. **isPedOnFloor(ped thePed)**, thanks. --<span style="font-family:Courier New, Courier, monospace">[Shadd](/docs/user:shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/docs/user_talk:shadd.md "wikilink"))</sub> 11:29, 15 June 2008 (CDT)
 
   
-[isPedOnGround](/docs/ispedonground.md "wikilink")? [Awwu](/User:Awwu.md "wikilink") 12:58, 15 June 2008 (CDT)
+[isPedOnGround](/docs/ispedonground.md "wikilink")? [Awwu](/docs/user:awwu.md "wikilink") 12:58, 15 June 2008 (CDT)
 
   
-I need to know if the player has its back touching the ground, not if it's simply “on ground”. --<span style="font-family:Courier New, Courier, monospace">[Shadd](/docs/user:shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/User_talk:Shadd.md "wikilink"))</sub> 14:16, 16 June 2008 (CDT)
+I need to know if the player has its back touching the ground, not if it's simply “on ground”. --<span style="font-family:Courier New, Courier, monospace">[Shadd](/docs/user:shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/docs/user_talk:shadd.md "wikilink"))</sub> 14:16, 16 June 2008 (CDT)
 
   
 Check what task the player has, they should have TASK\_COMPLEX\_FALL\_AND\_GET\_UP or TASK\_COMPLEX\_FALL\_AND\_STAY\_DOWN... [eAi](/docs/user:eai.md "wikilink") 19:12, 16 June 2008 (CDT)
 
   
-Thanks. What task does player have after being hitten by a melee attack that cause it to fall down? Would “TASK\_SIMPLE\_BE\_KICKED\_ON\_GROUND” and “TASK\_SIMPLE\_GET\_UP” work? --<span style="font-family:Courier New, Courier, monospace">[Shadd](/docs/user:shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/User_talk:Shadd.md "wikilink"))</sub> 09:35, 17 June 2008 (CDT)
+Thanks. What task does player have after being hitten by a melee attack that cause it to fall down? Would “TASK\_SIMPLE\_BE\_KICKED\_ON\_GROUND” and “TASK\_SIMPLE\_GET\_UP” work? --<span style="font-family:Courier New, Courier, monospace">[Shadd](/docs/user:shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/docs/user_talk:shadd.md "wikilink"))</sub> 09:35, 17 June 2008 (CDT)
 
   
 Try it, I'm not entirely sure. You should be able to produce some code to show the player's current tasks very easily... [eAi](/docs/user:eai.md "wikilink") 19:20, 17 June 2008 (CDT)
 
   
-My goal is to edit the standard damage of the attacks, in this case i have to know when player is on ground to cause higher damage. However it doesn't seem to work, when i hit the player it simply gets up without animation with no damage. --<span style="font-family:Courier New, Courier, monospace">[Shadd](/docs/user:shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/User_talk:Shadd.md "wikilink"))</sub> 19:10, 19 June 2008 (CDT)
+My goal is to edit the standard damage of the attacks, in this case i have to know when player is on ground to cause higher damage. However it doesn't seem to work, when i hit the player it simply gets up without animation with no damage. --<span style="font-family:Courier New, Courier, monospace">[Shadd](/docs/user:shadd.md "wikilink")</span><sub>([In\\ caso\\ di\\ emergenza\\ rompere\\ le\\ scatole](/docs/user_talk:shadd.md "wikilink"))</sub> 19:10, 19 June 2008 (CDT)
 
 ------------------------------------------------------------------------
 
@@ -76,7 +76,7 @@ That's so easy to do yourself that it's barely worth adding. Just loop all the i
 
 ------------------------------------------------------------------------
 
-[setProjectileTarget](/docs/setprojectiletarget.md "wikilink") for setting a projectile to target a specific entity. I am trying to create a Battlefield Bad Company type of gamemode and in that game, you can plant a 'tracer'. Any rocket fired (if the tracer is on screen) will seek the tracer. [LeetWoovie](/User:LeetWoovie.md "wikilink") 05:01, 19 April 2010 (UTC)
+[setProjectileTarget](/docs/setprojectiletarget.md "wikilink") for setting a projectile to target a specific entity. I am trying to create a Battlefield Bad Company type of gamemode and in that game, you can plant a 'tracer'. Any rocket fired (if the tracer is on screen) will seek the tracer. [LeetWoovie](/docs/user:leetwoovie.md "wikilink") 05:01, 19 April 2010 (UTC)
 
 ------------------------------------------------------------------------
 
@@ -96,7 +96,7 @@ Function "**isPlayerStunting**" for add options to events "*onClientPlayerStuntS
 Event “onClientVehicleFire”, which would be triggered when a vehicle shoots.
 
   
-See [OnVehicleWeaponFire](/docs/onvehicleweaponfire.md "wikilink") --[X86dev](/User:X86dev.md "wikilink") 12:11, 19 April 2013 (UTC)
+See [OnVehicleWeaponFire](/docs/onvehicleweaponfire.md "wikilink") --[X86dev](/docs/user:x86dev.md "wikilink") 12:11, 19 April 2013 (UTC)
 
 ------------------------------------------------------------------------
 
@@ -121,7 +121,7 @@ It'd be useful to have something to disable elements of the default hud (weapon 
 [Lord Xalphox](/docs/user:lord_xalphox.md "wikilink") 19:32, 22 March 2009 (CET)
 
   
-[showPlayerHudComponent](/docs/showplayerhudcomponent.md "wikilink")? [Awwu](/User:Awwu.md "wikilink") 19:43, 22 March 2009 (CET)
+[showPlayerHudComponent](/docs/showplayerhudcomponent.md "wikilink")? [Awwu](/docs/user:awwu.md "wikilink") 19:43, 22 March 2009 (CET)
 
 ------------------------------------------------------------------------
 

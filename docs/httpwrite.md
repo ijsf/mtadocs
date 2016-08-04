@@ -1,4 +1,4 @@
-This function adds text to the output of the current HTTP file of the [HTTP interface](/docs/resource_web_access.md "wikilink"). The function can only be used on parsed (i.e not marked as *raw*) HTTP pages. httpWrite can support outputing binary data, if you specify the length of the data you are outtputing. If you do this, you should ensure you set an accurate content-type using [httpSetResponseHeader](/httpSetResponseHeader.md "wikilink") otherwise it may be displayed inconsistently by browsers.
+This function adds text to the output of the current HTTP file of the [HTTP interface](/docs/resource_web_access.md "wikilink"). The function can only be used on parsed (i.e not marked as *raw*) HTTP pages. httpWrite can support outputing binary data, if you specify the length of the data you are outtputing. If you do this, you should ensure you set an accurate content-type using [httpSetResponseHeader](/docs/httpsetresponseheader.md "wikilink") otherwise it may be displayed inconsistently by browsers.
 
 Syntax
 ------

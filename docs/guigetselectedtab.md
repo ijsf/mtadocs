@@ -13,7 +13,7 @@ element guiGetSelectedTab ( element tabPanel )
 
 ### Returns
 
-Returns an [element](/docs/element.md "wikilink") of the [tab](/Element/GUI/Tab.md "wikilink") if a tab was selected or [nil](/nil.md "wikilink") if no tab was selected. If passed arguments were invalid or something went wrong, the function will return *false*.
+Returns an [element](/docs/element.md "wikilink") of the [tab](/docs/element/gui/tab.md "wikilink") if a tab was selected or [nil](/docs/nil.md "wikilink") if no tab was selected. If passed arguments were invalid or something went wrong, the function will return *false*.
 
 Example
 -------

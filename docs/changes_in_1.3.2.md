@@ -8,7 +8,7 @@ Main Additions / Changes
 #### New Functions
 
 -   Added [isPlayerHudComponentVisible](/docs/isplayerhudcomponentvisible.md "wikilink")
--   Added [setPlayerHudComponentVisible](/docs/setplayerhudcomponentvisible.md "wikilink") (alias of [showPlayerHudComponent](/showPlayerHudComponent.md "wikilink"))
+-   Added [setPlayerHudComponentVisible](/docs/setplayerhudcomponentvisible.md "wikilink") (alias of [showPlayerHudComponent](/docs/showplayerhudcomponent.md "wikilink"))
 -   Added [guiLabelGetColor](/docs/guilabelgetcolor.md "wikilink")
 -   Added [isVoiceEnabled](/docs/isvoiceenabled.md "wikilink")
 -   Added [getPedOxygenLevel](/docs/getpedoxygenlevel.md "wikilink")
@@ -90,7 +90,7 @@ Main Additions / Changes
 -   Fixed chinese characters in chat freezing the game
 -   Fixed FarClipDistance reseting each respawn
 -   Fixed [setFarClipDistance](/docs/setfarclipdistance.md "wikilink") messing with water drawing
--   Added an interior argument (optional) to [removeWorldModel](/docs/removeworldmodel.md "wikilink") and [restoreWorldModel](/restoreWorldModel.md "wikilink")
+-   Added an interior argument (optional) to [removeWorldModel](/docs/removeworldmodel.md "wikilink") and [restoreWorldModel](/docs/restoreworldmodel.md "wikilink")
 -   Fixed an issue when ped rotation while in air goes opposite direction by adding *conformPedAirRotation* argument to [setElementRotation](/docs/setelementrotation.md "wikilink")
 -   Added work around to prevent server nitro adds cutting off recent client nitro adds
 -   Fixed blank lines in the client console sometimes
@@ -123,7 +123,7 @@ Main Additions / Changes
 -   Added ped vertex [shader](/docs/shader.md "wikilink") support
 -   Fixed [engineGetModelTextureNames](/docs/enginegetmodeltexturenames.md "wikilink") for CJ model
 -   Small memory optimization for the server browser
--   Fixed [guiGetEnabled](/docs/guigetenabled.md "wikilink") and [guiGetVisible](/guiGetVisible.md "wikilink") for tabs
+-   Fixed [guiGetEnabled](/docs/guigetenabled.md "wikilink") and [guiGetVisible](/docs/guigetvisible.md "wikilink") for tabs
 -   Fixed binds that were attached directly to controls getting reset when loading default binds in settings
 -   Fixed [getVehicleType](/docs/getvehicletype.md "wikilink") with trailers returning empty string client-side
 -   Fixed chat messages not updating while a map download is in progress
@@ -151,7 +151,7 @@ Main Additions / Changes
 -   Added some BASS API functions to voice - Details: [Google Code](http://code.google.com/p/mtasa-blue/source/detail?r=5247)
 -   Added clothing component textures to [engineImportTXD](/docs/engineimporttxd.md "wikilink")
 -   Reduced stutter/lags on big maps
--   Fixed [depth buffer](/docs/depthbuffer.md "wikilink") [shaders](/Shader.md "wikilink") not working right with mirrors
+-   Fixed [depth buffer](/docs/depthbuffer.md "wikilink") [shaders](/docs/shader.md "wikilink") not working right with mirrors
 -   Fixed client crash after login and spawn
 -   Added ability to turn off sounds when MTA:SA is minimized
 -   Sped up deletion of certain client element types
@@ -199,10 +199,10 @@ Main Additions / Changes
 
 -   Added crash handler for Linux (It outputs log files in dumps/)
 -   Added account name to [whowas](/docs/server_commands#whowas.md "wikilink") command
--   Added an interior argument (optional) to [removeWorldModel](/docs/removeworldmodel.md "wikilink") and [restoreWorldModel](/restoreWorldModel.md "wikilink")
+-   Added an interior argument (optional) to [removeWorldModel](/docs/removeworldmodel.md "wikilink") and [restoreWorldModel](/docs/restoreworldmodel.md "wikilink")
 -   Fixed an issue when ped rotation while in air goes opposite direction by adding *conformPedAirRotation* argument to [setElementRotation](/docs/setelementrotation.md "wikilink")
 -   Added auto generation of correct [min\_mta\_version](/docs/meta.xml#<min_mta_version_/>.md "wikilink") to 'upgrade' command
--   Changed ['upgrade'](/docs/server_commands#upgrade.md "wikilink") and ['check'](/Server_Commands#check.md "wikilink") commands to also work on single resources
+-   Changed ['upgrade'](/docs/server_commands#upgrade.md "wikilink") and ['check'](/docs/server_commands#check.md "wikilink") commands to also work on single resources
 -   Fixed file download not working on some servers
 -   Added network filter option
 -   Fixed server crash when deleting element in [onResourceStop](/docs/onresourcestop.md "wikilink")
@@ -223,9 +223,9 @@ Main Additions / Changes
 -   Fixed [setRuleValue](/docs/setrulevalue.md "wikilink") crash
 -   Fixed the client-side scripts “protected” attribute not working on Linux servers
 -   Fixed occasional crash when empty filename used for some functions
--   Fixed a problem where [onResourceStart](/docs/onresourcestart.md "wikilink") is not triggered for the root element when using [startResource](/startResource.md "wikilink") from inside a (root attached) event handler
+-   Fixed a problem where [onResourceStart](/docs/onresourcestart.md "wikilink") is not triggered for the root element when using [startResource](/docs/startresource.md "wikilink") from inside a (root attached) event handler
 -   Added resource name and bandwidth usage to function performance stats
--   Added [latency\_reduction](/docs/mtaserver.conf#latency_reduction.md "wikilink") option to [mtaserver.conf](/mtaserver.conf.md "wikilink")
+-   Added [latency\_reduction](/docs/mtaserver.conf#latency_reduction.md "wikilink") option to [mtaserver.conf](/docs/mtaserver.conf.md "wikilink")
 -   Fixed and re-enabled [setPedWalkingStyle](/docs/setpedwalkingstyle.md "wikilink")
 -   Fixed [setElementDimension](/docs/setelementdimension.md "wikilink") not working on children
 -   Added “shared” script type to [meta.xml](/docs/meta.xml.md "wikilink")
@@ -244,11 +244,11 @@ Main Additions / Changes
 -   Fixed markers created by .map-files having wrong colshapes
 -   Added process memory to performance stats
 -   Fixed server 'per player entity' crash
--   Fixed [warpPedIntoVehicle](/docs/warppedintovehicle.md "wikilink") after [cancelEvent](/cancelEvent.md "wikilink") of [onVehicleStartEnter](/onVehicleStartEnter.md "wikilink") causing network trouble
+-   Fixed [warpPedIntoVehicle](/docs/warppedintovehicle.md "wikilink") after [cancelEvent](/docs/cancelevent.md "wikilink") of [onVehicleStartEnter](/docs/onvehiclestartenter.md "wikilink") causing network trouble
 -   Added 'hitanim' glitch to [setGlitchEnabled](/docs/setglitchenabled.md "wikilink") (shot hit animation)
 -   Added server setting to change syncer distances
 -   Added server multiple IP support
--   Fixed [xmlFindChild](/docs/xmlfindchild.md "wikilink") after [xmlSetNodeValue](/xmlSetNodeValue.md "wikilink") causing a crash
+-   Fixed [xmlFindChild](/docs/xmlfindchild.md "wikilink") after [xmlSetNodeValue](/docs/xmlsetnodevalue.md "wikilink") causing a crash
 -   Fixed [getPedTotalAmmo](/docs/getpedtotalammo.md "wikilink") not returning the correct values
 
 ### Resources

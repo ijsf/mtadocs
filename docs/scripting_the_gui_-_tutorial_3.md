@@ -215,7 +215,7 @@ The next step is to animate our news feed.
 
 ### Looking at Frames
 
-To do this, we will introduce a new event: [onClientRender](/docs/onclientrender.md "wikilink"). As stated on the [onClientRender](/onClientRender.md "wikilink") wiki page, this event is called every time GTA renders a new frame (ie: very often).
+To do this, we will introduce a new event: [onClientRender](/docs/onclientrender.md "wikilink"). As stated on the [onClientRender](/docs/onclientrender.md "wikilink") wiki page, this event is called every time GTA renders a new frame (ie: very often).
 
 As usual, to use this event we will need to create an event handler for it:
 
@@ -227,7 +227,7 @@ This will call our scrollNews function every frame, which we will then use to up
 
 **Make sure you add this handler after you have defined your scrollNews function.**
 
-For our purposes, [onClientRender](/docs/onclientrender.md "wikilink") has one main advantage over, for example, [setTimer](/setTimer.md "wikilink"). As it is called every frame (and therefore is dependant on the players FPS), the movement of the news item will always appear to be completely smooth, unlike using a timer which would often appear to lag.
+For our purposes, [onClientRender](/docs/onclientrender.md "wikilink") has one main advantage over, for example, [setTimer](/docs/settimer.md "wikilink"). As it is called every frame (and therefore is dependant on the players FPS), the movement of the news item will always appear to be completely smooth, unlike using a timer which would often appear to lag.
 
 ### Moving the News
 
@@ -314,7 +314,7 @@ Place this line of code in your 'createNewsFeed' function, after your gridlist h
 
 I find an alpha level of 0.8 looks best, however this is personal preference and you can experiment to suit your needs.
 
-Next, we will look at the font of the label text. To set the font, use [guiSetFont](/docs/guisetfont.md "wikilink") and pass the string name of the font you want to use (available to see on the [Standard GUI Font Names](/Standard_GUI_Font_Names.md "wikilink") page).
+Next, we will look at the font of the label text. To set the font, use [guiSetFont](/docs/guisetfont.md "wikilink") and pass the string name of the font you want to use (available to see on the [Standard GUI Font Names](/docs/standard_gui_font_names.md "wikilink") page).
 
 ``` lua
 guiSetFont(newsLabel,"default-bold-small")

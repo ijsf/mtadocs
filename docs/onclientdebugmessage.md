@@ -21,7 +21,7 @@ string message, int level, string file, int line
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [root element](/root_element.md "wikilink").
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [root element](/docs/root_element.md "wikilink").
 
 Examples
 --------

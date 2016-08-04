@@ -49,8 +49,8 @@ All you have to do is head to the [download page](http://www.mtasa.com/) and ins
 
 ### Server Owners
 
-Server owners can easily upgrade to MTA:SA . Races are fully compatible after a short upgrade process. Simply install the latest server package, and use our [batch converter](http://files.mtasa.com/apps/1.0/raceconv.zip) to convert your maps into MTA:SA resource format. From then on, your converted maps work with the [race gamemode](/docs/resource:race.md "wikilink") and can be managed through the [map manager](/Resource:mapmanager.md "wikilink") and the [vote manager](/Resource:votemanager.md "wikilink").
+Server owners can easily upgrade to MTA:SA . Races are fully compatible after a short upgrade process. Simply install the latest server package, and use our [batch converter](http://files.mtasa.com/apps/1.0/raceconv.zip) to convert your maps into MTA:SA resource format. From then on, your converted maps work with the [race gamemode](/docs/resource:race.md "wikilink") and can be managed through the [map manager](/docs/resource:mapmanager.md "wikilink") and the [vote manager](/docs/resource:votemanager.md "wikilink").
 
-[pt-br:Migrando do MTA:Race ao MTA:SA 1.3](/docs/pt-br:migrando_do_mta:race_ao_mta:sa_1.3.md "wikilink") [ru:Upgrading from MTA:Race](/ru:Upgrading_from_MTA:Race.md "wikilink")
+[pt-br:Migrando do MTA:Race ao MTA:SA 1.3](/docs/pt-br:migrando_do_mta:race_ao_mta:sa_1.3.md "wikilink") [ru:Upgrading from MTA:Race](/docs/ru:upgrading_from_mta:race.md "wikilink")
 
 [Category:Support](/docs/category:support.md "wikilink")

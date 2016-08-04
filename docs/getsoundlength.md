@@ -13,7 +13,7 @@ float getSoundLength ( element theSound )
 
 ### Returns
 
-Returns an [float](/docs/float.md "wikilink") value indicating the playback length of the [sound](/sound.md "wikilink") element in seconds.
+Returns an [float](/docs/float.md "wikilink") value indicating the playback length of the [sound](/docs/sound.md "wikilink") element in seconds.
 
 Example
 -------

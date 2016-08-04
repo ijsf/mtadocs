@@ -1,4 +1,4 @@
-<pageclass class="client"></pageclass> This page lists all the **client-side** scripting classes that are implemented in the 1.4 version of Multi Theft Auto. It mirrors the procedural [client functions](/docs/client_scripting_functions.md "wikilink"). For information on how to enable OOP in 1.4 please refer to [Meta.xml](/Meta.xml.md "wikilink").
+<pageclass class="client"></pageclass> This page lists all the **client-side** scripting classes that are implemented in the 1.4 version of Multi Theft Auto. It mirrors the procedural [client functions](/docs/client_scripting_functions.md "wikilink"). For information on how to enable OOP in 1.4 please refer to [Meta.xml](/docs/meta.xml.md "wikilink").
 
 Classes can be instantiated by either calling the **create** method, when applicable, or by calling the class. For example: *Vehicle(...)* is the same as *Vehicle.create(...)*.
 

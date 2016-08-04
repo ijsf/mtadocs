@@ -1,7 +1,7 @@
 How it works
 ------------
 
-Triggering an [event](/docs/event.md "wikilink") on an [element](/element.md "wikilink"), also triggers the event on its parents (up the [element tree](/element_tree.md "wikilink")) and its children (down the [element tree](/element_tree.md "wikilink"))
+Triggering an [event](/docs/event.md "wikilink") on an [element](/docs/element.md "wikilink"), also triggers the event on its parents (up the [element tree](/docs/element_tree.md "wikilink")) and its children (down the [element tree](/docs/element_tree.md "wikilink"))
 
 <table>
 <tbody>

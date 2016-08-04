@@ -1,4 +1,4 @@
-With this function you can retrieve the [string](/docs/string.md "wikilink") data associated with an item in a [grid list](/Element/GUI/Gridlist.md "wikilink"). This is not the text that is displayed on the item, but an internal string that you can use to hold extra information about the item.
+With this function you can retrieve the [string](/docs/string.md "wikilink") data associated with an item in a [grid list](/docs/element/gui/gridlist.md "wikilink"). This is not the text that is displayed on the item, but an internal string that you can use to hold extra information about the item.
 **Note:** This function will only work **after** you set the item's text using [guiGridListSetItemText](/docs/guigridlistsetitemtext.md "wikilink")!
 
 Syntax

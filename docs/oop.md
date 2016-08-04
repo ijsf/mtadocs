@@ -1,4 +1,4 @@
-Object Orientated Programming was introduced in MTA:SA 1.4 and comes with special utility classes like [Vector](/docs/vector.md "wikilink") and [Matrix](/Matrix.md "wikilink"). This page contains general information about the OOP functions and provides useful links.
+Object Orientated Programming was introduced in MTA:SA 1.4 and comes with special utility classes like [Vector](/docs/vector.md "wikilink") and [Matrix](/docs/matrix.md "wikilink"). This page contains general information about the OOP functions and provides useful links.
 
 Turning it on
 -------------
@@ -12,7 +12,7 @@ By default, OOP is disabled (however, vectors and matrices are always available)
 Vectors and Matrices
 --------------------
 
-[Vectors](/docs/vector.md "wikilink") and [Matrices](/Matrix.md "wikilink") make it easier to drop the complex maths and go straight ahead with fun part of maths. As mentioned above, OOP does not have to be enabled in the server config for this to be enabled.
+[Vectors](/docs/vector.md "wikilink") and [Matrices](/docs/matrix.md "wikilink") make it easier to drop the complex maths and go straight ahead with fun part of maths. As mentioned above, OOP does not have to be enabled in the server config for this to be enabled.
 
 Understanding the documentation
 -------------------------------
@@ -22,7 +22,7 @@ The documentation for the OOP syntax intends to be very simplistic and is suppor
 <section name="Example" class="generic" show="true">
 </section>
 -   Sometimes a note is added to the page. This will explain any special differences in the use of OOP for that function.
--   Methods can either start like *[player](/docs/player.md "wikilink"):* or *[Player](/Player.md "wikilink").* - the former is only for a function on an instance (setPlayerHealth) and the latter is a static method (getRandomPlayer).
+-   Methods can either start like *[player](/docs/player.md "wikilink"):* or *[Player](/docs/player.md "wikilink").* - the former is only for a function on an instance (setPlayerHealth) and the latter is a static method (getRandomPlayer).
 -   The counterpart section this allows you to see at a glance how the variable can be used. In most cases this can be inferred from the function page.
 
 If you are a contributor to the wiki, please also consider reading [the OOP template](/docs/template:oop.md "wikilink").
@@ -85,6 +85,6 @@ Useful Links
 ------------
 
 -   **[OOP Introduction](/docs/oop_introduction.md "wikilink")** - teaches you about the basics of OOP
--   **[Function list (client)](/docs/oop_client.md "wikilink")** and **[Function list (server)](/OOP_server.md "wikilink")** - a list of functions implemented
+-   **[Function list (client)](/docs/oop_client.md "wikilink")** and **[Function list (server)](/docs/oop_server.md "wikilink")** - a list of functions implemented
 
 [Category:OOP](/docs/category:oop.md "wikilink")

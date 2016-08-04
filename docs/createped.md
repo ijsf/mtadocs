@@ -76,4 +76,4 @@ Issues
 See Also
 --------
 
-[pl:createPed](/docs/pl:createped.md "wikilink") [ru:createPed](/ru:createPed.md "wikilink")
+[pl:createPed](/docs/pl:createped.md "wikilink") [ru:createPed](/docs/ru:createped.md "wikilink")

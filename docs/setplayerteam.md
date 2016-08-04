@@ -1,4 +1,4 @@
-This function adds a [player](/docs/player.md "wikilink") to an existing [team](/team.md "wikilink"). The player will automatically be removed from his current team if he's on one.
+This function adds a [player](/docs/player.md "wikilink") to an existing [team](/docs/team.md "wikilink"). The player will automatically be removed from his current team if he's on one.
 
 Syntax
 ------

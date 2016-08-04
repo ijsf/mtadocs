@@ -1,6 +1,6 @@
 Spawnmanager is a resource that provides some default spawning functions. It provides ideal conditions for gamemodes which require fairly basic spawning systems, and uses the <spawnpoint/> element for all its functions.
 
-Spawnmanager also offers basic support for a *waves* spawning system - which involves spawning multiple players at regular periods of time. Spawnmanager does not internally support delayed spawning, though [setTimer](/docs/settimer.md "wikilink") can be used in conjunction with [spawnPlayerAtSpawnpoint](/Resource:Spawnmanager/spawnPlayerAtSpawnpoint.md "wikilink") to achieve this.
+Spawnmanager also offers basic support for a *waves* spawning system - which involves spawning multiple players at regular periods of time. Spawnmanager does not internally support delayed spawning, though [setTimer](/docs/settimer.md "wikilink") can be used in conjunction with [spawnPlayerAtSpawnpoint](/docs/resource:spawnmanager/spawnplayeratspawnpoint.md "wikilink") to achieve this.
 
 Functions
 ---------

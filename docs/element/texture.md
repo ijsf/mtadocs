@@ -1,4 +1,4 @@
-The texture class represents a source of renderable pixels which can be used as an image with [dxDrawImage](/docs/dxdrawimage.md "wikilink"), [dxDrawImageSection](/dxDrawImageSection.md "wikilink") or as a value in [dxSetShaderValue](/dxSetShaderValue.md "wikilink").
+The texture class represents a source of renderable pixels which can be used as an image with [dxDrawImage](/docs/dxdrawimage.md "wikilink"), [dxDrawImageSection](/docs/dxdrawimagesection.md "wikilink") or as a value in [dxSetShaderValue](/docs/dxsetshadervalue.md "wikilink").
 
 The element type of this class is **“texture”**.
 

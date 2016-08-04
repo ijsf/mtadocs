@@ -34,9 +34,9 @@ MTA:mA v1.21 is the latest version for MTA:VC 0.3.
 
 |                                                                                 |                                                                                 |                                                                                                    |
 |---------------------------------------------------------------------------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [thumb|none|200px|MTA Connection Script v0.1](/docs/image:mtacs01.gif.md "wikilink") | [thumb|none|200px|MTA Connection Script v0.2](/Image:MTACS02.GIF.md "wikilink") | [thumb|none|200px|Scripting component of MTA Admin control v0.1](/Image:MTACS03.gif.md "wikilink") |
-| [thumb|none|200px|MTA Admin Control v0.1](/docs/image:mtama01.gif.md "wikilink")     | [thumb|none|200px|MTA Admin Control v0.2](/Image:MTAMA02.gif.md "wikilink")     | [thumb|none|200px|MTA mIRC Admin v1.12](/Image:MTAMA112.gif.md "wikilink")                         |
-| [thumb|none|200px|MTA mIRC Admin v1.20](/docs/image:mtama120.gif.md "wikilink")      | [thumb|none|200px|MTA mIRC Admin v1.221](/Image:MTAMA1221.gif.md "wikilink")    | [thumb|none|200px|MTA mIRC Admin v1.222](/Image:MTAMA1222.gif.md "wikilink")                       |
+| [thumb|none|200px|MTA Connection Script v0.1](/docs/image:mtacs01.gif.md "wikilink") | [thumb|none|200px|MTA Connection Script v0.2](/docs/image:mtacs02.gif.md "wikilink") | [thumb|none|200px|Scripting component of MTA Admin control v0.1](/docs/image:mtacs03.gif.md "wikilink") |
+| [thumb|none|200px|MTA Admin Control v0.1](/docs/image:mtama01.gif.md "wikilink")     | [thumb|none|200px|MTA Admin Control v0.2](/docs/image:mtama02.gif.md "wikilink")     | [thumb|none|200px|MTA mIRC Admin v1.12](/docs/image:mtama112.gif.md "wikilink")                         |
+| [thumb|none|200px|MTA mIRC Admin v1.20](/docs/image:mtama120.gif.md "wikilink")      | [thumb|none|200px|MTA mIRC Admin v1.221](/docs/image:mtama1221.gif.md "wikilink")    | [thumb|none|200px|MTA mIRC Admin v1.222](/docs/image:mtama1222.gif.md "wikilink")                       |
 
 ### v2 series
 
@@ -46,7 +46,7 @@ MTA:mA v2.013 is the latest version for MTA:VC 0.3.1.
 
 |                                                                                |                                                                              |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| [thumb|none|200px|MTA mIRC Admin v2.0 Alpha](/docs/image:mtama2a.gif.md "wikilink") | [thumb|none|200px|MTA mIRC Admin v2.005](/Image:MTAMA2005.gif.md "wikilink") |
+| [thumb|none|200px|MTA mIRC Admin v2.0 Alpha](/docs/image:mtama2a.gif.md "wikilink") | [thumb|none|200px|MTA mIRC Admin v2.005](/docs/image:mtama2005.gif.md "wikilink") |
 
 ### v3 series
 
@@ -56,7 +56,7 @@ MTA:mA v3.24 is the latest version for MTA 0.4, MTA 0.5, and MTA 0.5r2.
 
 |                                                                         |                                                                            |
 |-------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| [thumb|none|200px|MTA mIRC Admin v3.24](/docs/image:mtama.jpg.md "wikilink") | [thumb|none|200px|MTA mIRC Admin v3.07](/Image:MTAMA307.gif.md "wikilink") |
+| [thumb|none|200px|MTA mIRC Admin v3.24](/docs/image:mtama.jpg.md "wikilink") | [thumb|none|200px|MTA mIRC Admin v3.07](/docs/image:mtama307.gif.md "wikilink") |
 
 ### v4 series
 
@@ -66,7 +66,7 @@ MTA:mA v4.12 is the latest version for MTA:SA 1.0
 
 |                                                                            |                                                                                             |
 |----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [thumb|none|200px|MTA mIRC Admin v4.06](/docs/image:mtama406.png.md "wikilink") | [thumb|none|200px|Map component of MTA mIRC Admin v4.12](/Image:MTAMA412.png.md "wikilink") |
+| [thumb|none|200px|MTA mIRC Admin v4.06](/docs/image:mtama406.png.md "wikilink") | [thumb|none|200px|Map component of MTA mIRC Admin v4.12](/docs/image:mtama412.png.md "wikilink") |
 
 Scripts
 -------
@@ -75,7 +75,7 @@ There are hundreds of scripts for MTA:mA. These are the most popular ones:
 
 ### MTA:mA:GRS
 
-A very popular script is *MTA:mA:GRS* (*General Release Script*, developed by Oliver Brown (\[FMJ\]Oli), which is widely used in both *[GTA3:MTA](/docs/gta3mta_0.5.md "wikilink")* and *[MTA:VC](/MTAVC_0.5.md "wikilink")* servers.
+A very popular script is *MTA:mA:GRS* (*General Release Script*, developed by Oliver Brown (\[FMJ\]Oli), which is widely used in both *[GTA3:MTA](/docs/gta3mta_0.5.md "wikilink")* and *[MTA:VC](/docs/mtavc_0.5.md "wikilink")* servers.
 
 [300px|center|thumb|General Release Script / GRS](/docs/image:grs.jpg.md "wikilink")
 
@@ -126,4 +126,4 @@ Links
 -   [MTA:mA - General Release Script 4.04 - Manual](http://files.mtasa.com/apps/tools/MTAmA/GRS_MANUAL_4.04.txt) [Mirror](http://www.projectredivivus.com/files/tools/MTAmA/GRS_MANUAL_4.04.txt)
 -   [MTA:mA - General Release Script 4.14 - Manual](http://files.mtasa.com/apps/tools/MTAmA/GRS_MANUAL_4.14.txt) [Mirror](http://www.projectredivivus.com/files/tools/MTAmA/GRS_MANUAL_4.14.txt)
 
-[Category:MTA 0.5](/docs/category:mta_0.5.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink")
+[Category:MTA 0.5](/docs/category:mta_0.5.md "wikilink") [Category:Historical](/docs/category:historical.md "wikilink")

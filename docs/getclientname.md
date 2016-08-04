@@ -1,4 +1,4 @@
-This function gets a [client](/docs/client.md "wikilink")'s name (a client can either be a [player](/player.md "wikilink") or an admin).
+This function gets a [client](/docs/client.md "wikilink")'s name (a client can either be a [player](/docs/player.md "wikilink") or an admin).
 
 Syntax
 ------

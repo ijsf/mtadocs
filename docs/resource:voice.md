@@ -13,11 +13,11 @@ The Voice resource provides **channel** functionality. A channel is a way of con
 
 <!-- -->
 
--   **Team channel:** Scripts do not have access to this type of channel, but it is quite similar to a scripted channel. This type of channel is automatically assigned based upon the [Team autoassignment](/docs/resource:voice#team_autoassignment.md "wikilink") setting. When players are in a team, [getPlayerChannel](/Resource:Voice#getPlayerChannel.md "wikilink") will return the actual [team](/team.md "wikilink") element. Players of one team channel cannot hear players in another team channel. Equally, players in a team channel cannot hear players in a *Scripted Channel*.
+-   **Team channel:** Scripts do not have access to this type of channel, but it is quite similar to a scripted channel. This type of channel is automatically assigned based upon the [Team autoassignment](/docs/resource:voice#team_autoassignment.md "wikilink") setting. When players are in a team, [getPlayerChannel](/docs/resource:voice#getplayerchannel.md "wikilink") will return the actual [team](/docs/team.md "wikilink") element. Players of one team channel cannot hear players in another team channel. Equally, players in a team channel cannot hear players in a *Scripted Channel*.
 
 <!-- -->
 
--   **The “root” channel:** Players are placed into this channel by default. This channel is associated to the [root](/docs/getrootelement.md "wikilink") element concept, and [getPlayerChannel](/Resource:Voice#getPlayerChannel.md "wikilink") will actually return the root element. When a player is in the root channel, he is broadcasting to **everyone** in the server, and they will be able to hear him. However, he will not be able to hear from people who are either in a *Team channel* or a *Scripted channel*.
+-   **The “root” channel:** Players are placed into this channel by default. This channel is associated to the [root](/docs/getrootelement.md "wikilink") element concept, and [getPlayerChannel](/docs/resource:voice#getplayerchannel.md "wikilink") will actually return the root element. When a player is in the root channel, he is broadcasting to **everyone** in the server, and they will be able to hear him. However, he will not be able to hear from people who are either in a *Team channel* or a *Scripted channel*.
 
 Settings
 ========
@@ -124,7 +124,7 @@ int/element exports.voice:getPlayerChannel ( player playerToCheck )
 
 -   **playerToCheck:** The player who you wish to retrieve the channel of
 
-Returns an integer of the channel ID they are in, or a [team](/docs/team.md "wikilink") element if they have been assigned to a team channel, or the [root](/getRootElement.md "wikilink") element if they are not in a specific channel.
+Returns an integer of the channel ID they are in, or a [team](/docs/team.md "wikilink") element if they have been assigned to a team channel, or the [root](/docs/getrootelement.md "wikilink") element if they are not in a specific channel.
 
 ### setPlayerChannel
 

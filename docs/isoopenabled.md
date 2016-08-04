@@ -13,7 +13,7 @@ Example
 -------
 
 <section name="Example" class="both" show="true">
-This shared (clientside and serverside) example outputs if *[OOP](/docs/oop.md "wikilink")* is enabled when the [resource](/resource.md "wikilink") which contains it starts, and teleports a random player 10 units left if so.
+This shared (clientside and serverside) example outputs if *[OOP](/docs/oop.md "wikilink")* is enabled when the [resource](/docs/resource.md "wikilink") which contains it starts, and teleports a random player 10 units left if so.
 
 ``` lua
 local function checkOOPStatus()

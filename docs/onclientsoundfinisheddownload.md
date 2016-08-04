@@ -12,7 +12,7 @@ int length
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [sound](/sound.md "wikilink") which just finished downloading.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [sound](/docs/sound.md "wikilink") which just finished downloading.
 
 Example
 -------

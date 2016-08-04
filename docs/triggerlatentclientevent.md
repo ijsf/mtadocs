@@ -9,7 +9,7 @@ bool triggerLatentClientEvent ( [table/element sendTo=getRootElement(),] string 
 
 ### Required Arguments
 
--   **name:** The name of the event to trigger client side. You should register this event with [addEvent](/docs/addevent.md "wikilink") and add at least one event handler using [addEventHandler](/addEventHandler.md "wikilink").
+-   **name:** The name of the event to trigger client side. You should register this event with [addEvent](/docs/addevent.md "wikilink") and add at least one event handler using [addEventHandler](/docs/addeventhandler.md "wikilink").
 -   **theElement:** The element that is the [source](/docs/event_system#event_handlers.md "wikilink") of the event. This could be another player, or if this isn't relevant, use the root element.
 
 ### Optional Arguments

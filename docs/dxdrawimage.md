@@ -17,7 +17,7 @@ bool dxDrawImage ( float posX, float posY, float width, float height, mixed imag
 -   **posY:** the absolute Y coordinate of the top left corner of the image
 -   **width:** the absolute width of the image
 -   **height:** the absolute height of the image
--   **image:** Either a [material](/docs/material.md "wikilink") element or a [filepath](/filepath.md "wikilink") of the image which is going to be drawn. (.dds images are also supported). Image files should ideally have dimensions that are a power of two, to prevent possible blurring.
+-   **image:** Either a [material](/docs/material.md "wikilink") element or a [filepath](/docs/filepath.md "wikilink") of the image which is going to be drawn. (.dds images are also supported). Image files should ideally have dimensions that are a power of two, to prevent possible blurring.
 
 ### Optional Arguments
 

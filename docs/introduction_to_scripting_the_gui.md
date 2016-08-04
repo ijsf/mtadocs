@@ -5,7 +5,7 @@ One important feature in MTA:SA is the ability to script customized GUI (Graphic
 A tutorial to make a login window
 ---------------------------------
 
-In this tutorial we'll make a simple login window, with two input boxes and a button. The window appears when the player joins the game, and once the button is clicked, the player is spawned. The tutorial will continue the gamemode we made in [Introduction to Scripting](/docs/scripting_introduction.md "wikilink") *(If you have used the [Introduction to Scripting](/Scripting_Introduction.md "wikilink"), you will need to remove or comment the [spawnPlayer](/spawnPlayer.md "wikilink") line in the “joinHandler” function in your code, as we will be replacing it with a gui alternative in this tutorial)*. We'll also take a look at client-side scripting.
+In this tutorial we'll make a simple login window, with two input boxes and a button. The window appears when the player joins the game, and once the button is clicked, the player is spawned. The tutorial will continue the gamemode we made in [Introduction to Scripting](/docs/scripting_introduction.md "wikilink") *(If you have used the [Introduction to Scripting](/docs/scripting_introduction.md "wikilink"), you will need to remove or comment the [spawnPlayer](/docs/spawnplayer.md "wikilink") line in the “joinHandler” function in your code, as we will be replacing it with a gui alternative in this tutorial)*. We'll also take a look at client-side scripting.
 
 ### Draw the window
 
@@ -45,7 +45,7 @@ For the purposes of this introduction we will be using relative values.
 
 Next, we'll add the text labels (saying “username:” and “password:”), edit boxes (for entering your data) and a button to log in.
 
-To create buttons we use [guiCreateButton](/docs/guicreatebutton.md "wikilink") and to create edit boxes use [guiCreateEdit](/guiCreateEdit.md "wikilink"):
+To create buttons we use [guiCreateButton](/docs/guicreatebutton.md "wikilink") and to create edit boxes use [guiCreateEdit](/docs/guicreateedit.md "wikilink"):
 
 **Note that we are now writing more code for our existing 'createLoginWindow' function. This is not a new function and is meant to replace what you already have.**
 
@@ -199,7 +199,7 @@ Now, when the button is clicked, the window will be hidden and all controls will
 
 ### Triggering the server
 
-Triggering the server can be done using [triggerServerEvent](/docs/triggerserverevent.md "wikilink"). This allows you to trigger a specified event on the server from the client. The same can be done in reverse using [triggerClientEvent](/triggerClientEvent.md "wikilink"). Here, we use the [triggerServerEvent](/triggerServerEvent.md "wikilink") function to call our own custom event on the server, named “submitLogin”, which will then control the spawning of the player serverside.
+Triggering the server can be done using [triggerServerEvent](/docs/triggerserverevent.md "wikilink"). This allows you to trigger a specified event on the server from the client. The same can be done in reverse using [triggerClientEvent](/docs/triggerclientevent.md "wikilink"). Here, we use the [triggerServerEvent](/docs/triggerserverevent.md "wikilink") function to call our own custom event on the server, named “submitLogin”, which will then control the spawning of the player serverside.
 
 **Note that we are now writing more code for our existing 'clientSubmitLogin' function. This is not a new function and is meant to replace what you already have.**
 
@@ -233,7 +233,7 @@ end
 
 At this point we now have all the code needed on the client side, so open up your serverside 'script.lua' file (from the [Introduction to Scripting](/docs/scripting_introduction.md "wikilink")) or another suitable serverside file to work with.
 
-On the server side, recall that we are spawning the player as soon as they login. So, first of all, we will need to define the custom event that we used before on the client. This can be done using [addEvent](/docs/addevent.md "wikilink") and [addEventHandler](/addEventHandler.md "wikilink").
+On the server side, recall that we are spawning the player as soon as they login. So, first of all, we will need to define the custom event that we used before on the client. This can be done using [addEvent](/docs/addevent.md "wikilink") and [addEventHandler](/docs/addeventhandler.md "wikilink").
 
 ``` lua
 -- create our loginHandler function, with username and password parameters (passed from the client gui)
@@ -286,4 +286,4 @@ At this point, we now have a basic login window that checks the player's usernam
 
 For further help with GUI, see the [GUI tutorials](/docs/:category:gui_tutorials.md "wikilink").
 
-[Category:GUI\_Tutorials](/docs/category:gui_tutorials.md "wikilink") [it:Introduzione\_allo\_scripting\_della\_GUI](/it:Introduzione_allo_scripting_della_GUI.md "wikilink") [ru:Introduction to Scripting the GUI](/ru:Introduction_to_Scripting_the_GUI.md "wikilink") [es:Introducción a la Programación de GUI](/es:Introducción_a_la_Programación_de_GUI.md "wikilink")
+[Category:GUI\_Tutorials](/docs/category:gui_tutorials.md "wikilink") [it:Introduzione\_allo\_scripting\_della\_GUI](/docs/it:introduzione_allo_scripting_della_gui.md "wikilink") [ru:Introduction to Scripting the GUI](/docs/ru:introduction_to_scripting_the_gui.md "wikilink") [es:Introducción a la Programación de GUI](/docs/es:introducción_a_la_programación_de_gui.md "wikilink")

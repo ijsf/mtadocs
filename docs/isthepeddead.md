@@ -1,6 +1,6 @@
 {{ Useful Function }}
 
-This function checks if the specified [ped](/docs/ped.md "wikilink") is dead . '''NOTE: ''' There's a function called [isPedDead](/isPedDead.md "wikilink") but it's server side . This function works on poth server and client side .
+This function checks if the specified [ped](/docs/ped.md "wikilink") is dead . '''NOTE: ''' There's a function called [isPedDead](/docs/ispeddead.md "wikilink") but it's server side . This function works on poth server and client side .
 
 ### Code
 
@@ -29,7 +29,7 @@ bool isThePedDead ( ped thePed )
 
 ### Returns
 
-Returns **true** if the [ped](/docs/ped.md "wikilink") is dead, **false** if a bad [ped](/ped.md "wikilink") pointer was inserted or the [ped](/ped.md "wikilink") is not dead .
+Returns **true** if the [ped](/docs/ped.md "wikilink") is dead, **false** if a bad [ped](/docs/ped.md "wikilink") pointer was inserted or the [ped](/docs/ped.md "wikilink") is not dead .
 
 ### Example
 

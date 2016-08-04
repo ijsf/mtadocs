@@ -11,7 +11,7 @@ bool engineImportTXD ( txd texture, int model_id )
 
 ### Required Arguments
 
--   **texture:** The [TXD](/docs/txd.md "wikilink") that was loaded with [engineLoadTXD](/engineLoadTXD.md "wikilink")
+-   **texture:** The [TXD](/docs/txd.md "wikilink") that was loaded with [engineLoadTXD](/docs/engineloadtxd.md "wikilink")
 -   **model\_id:** The model id to import the TXD into
 
 ### Returns

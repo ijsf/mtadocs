@@ -12,7 +12,7 @@ element targettedElement
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that is targetting the element.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/player.md "wikilink") that is targetting the element.
 
 Example
 -------

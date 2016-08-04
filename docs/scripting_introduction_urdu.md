@@ -68,7 +68,7 @@ Agar ham gor se dekhey [addEventHandler](/docs/addeventhandler.md "wikilink") ko
 
 Server ko start karne ke liye, ap ko simply chalana hai excutable jo ke server directory main hai. Stats ki list sab se pehle show ho gi, is baat ka khyaal rakheu ke port number, ap ko game join karne ke liye chahiye ho ga. Phir server saari resources ko load kar leta hai aur phir “Ready to accept connections!” Connect karne se pehle, ap ko gamemode run karna bohat zaroori hai. Type kareu “start myserver” aur enter press kareu. Server gamemode ko start kar de ga jo ap ne abhi banaya, aur ab se koi errors aur warnings bhi show kare ga. Ab ap MTA ko start kareu, aur “Quick Connect” main apnay IP adress se connect kareu. Agar sab kuch theek hota hai, kuch der baad ap ka character streets pe walk kar raha ho ga Los Santos ki.
 
-Ab aage ham command daleu gay jo players vehicle ko spawn karne ke liye use kar sakte hain apne position pe. Ap shaid is ko skip kar deu aur check kareu [Map Manager](/docs/map_manager.md "wikilink"), jo is tutorial ko continue karta hai. Is tutorial ki aik aur branch bhi hai, [Introduction to Scripting GUI](/Introduction_to_Scripting_GUI.md "wikilink"), ap is ko follow kar sakte hain aur pata chala sakte hain ke kese MTA Graphical User Interface MTA meu draw ki jaati hai aur kese script ki jaati hai.
+Ab aage ham command daleu gay jo players vehicle ko spawn karne ke liye use kar sakte hain apne position pe. Ap shaid is ko skip kar deu aur check kareu [Map Manager](/docs/map_manager.md "wikilink"), jo is tutorial ko continue karta hai. Is tutorial ki aik aur branch bhi hai, [Introduction to Scripting GUI](/docs/introduction_to_scripting_gui.md "wikilink"), ap is ko follow kar sakte hain aur pata chala sakte hain ke kese MTA Graphical User Interface MTA meu draw ki jaati hai aur kese script ki jaati hai.
 
 Aik Simple Command Ko Banana
 ----------------------------
@@ -120,7 +120,7 @@ Function ko fill karne ke liye, jo ham ne banaya, hameu sochna pare ga ke hameu 
 -   Vehicle ko spawn karna hai.
 -   Check karna hai ke vehicle spawn hua hai ke nahi, aur aik message ko output karna hai.
 
-Apne goals ko achieve karne ke liye, hameu bohat se functions use karne pareu gay. Functions ko find karne ke liye, hameu visit karna chahiye [Sserver Functions List](/docs/scripting_functions.md "wikilink") Sab se pehle hameu aik function chahiye player ki position ka pata lagaane ke liye. Jab se players elements hain, ham sab se pehle jump karte hain **Element functions** jahan par hameu pata chalta hai [getElementPosition](/getElementPosition.md "wikilink") function ke baate meu. Function name ko click karne ke baad, hameu function ki description pata chal jai gi. Wahan par ham syntax dekh sakte hain, ye kya return karti hai aur usually aik example. Syntax hameu batata hai ke kon se arguments ham kar sakte hain aur karne hain submit. [getElementPosition](/getElementPosition.md "wikilink") ke liye syntax ye hai:
+Apne goals ko achieve karne ke liye, hameu bohat se functions use karne pareu gay. Functions ko find karne ke liye, hameu visit karna chahiye [Sserver Functions List](/docs/scripting_functions.md "wikilink") Sab se pehle hameu aik function chahiye player ki position ka pata lagaane ke liye. Jab se players elements hain, ham sab se pehle jump karte hain **Element functions** jahan par hameu pata chalta hai [getElementPosition](/docs/getelementposition.md "wikilink") function ke baate meu. Function name ko click karne ke baad, hameu function ki description pata chal jai gi. Wahan par ham syntax dekh sakte hain, ye kya return karti hai aur usually aik example. Syntax hameu batata hai ke kon se arguments ham kar sakte hain aur karne hain submit. [getElementPosition](/docs/getelementposition.md "wikilink") ke liye syntax ye hai:
 
 ``` lua
 float, float, float getElementPosition ( element theElement )
@@ -145,7 +145,7 @@ function createVehicleForPlayer(thePlayer, command, vehicleModel)
 end
 ```
 
-Ab hameu aik aur function chahiye jis se aik vehicle spawn ho. Isi liye, aik baar phir ham search kareu gay [Server Functions List](/docs/scripting_functions.md "wikilink") Jab se ham vehicles kay baare meu baat kar rahe hain, **Vehicle functions** section meu, ham choose kareu gay [createVehicle](/createVehicle.md "wikilink") ko. Is function kay syntax meu, hamaray paas sirf aik return type hai, jo ke zyada common hai. Hum ne ye bhi dekha ke kuch arguments \[ \] se close huay hain, matlab ye optional hain. Hamaray paas already woh saare arguments hain jo hameu [createVehicle](/createVehicle.md "wikilink") ke liye chahiyain, hamaray function meu. Woh position jo ham ne abhi calculate ki *x, y, z* variables main, aur model id jo ham ne provice ki thi command ke through (“createvehicle 468”) aur ham function ko access kar sakte hain as *vehicleModel* variable.
+Ab hameu aik aur function chahiye jis se aik vehicle spawn ho. Isi liye, aik baar phir ham search kareu gay [Server Functions List](/docs/scripting_functions.md "wikilink") Jab se ham vehicles kay baare meu baat kar rahe hain, **Vehicle functions** section meu, ham choose kareu gay [createVehicle](/docs/createvehicle.md "wikilink") ko. Is function kay syntax meu, hamaray paas sirf aik return type hai, jo ke zyada common hai. Hum ne ye bhi dekha ke kuch arguments \[ \] se close huay hain, matlab ye optional hain. Hamaray paas already woh saare arguments hain jo hameu [createVehicle](/docs/createvehicle.md "wikilink") ke liye chahiyain, hamaray function meu. Woh position jo ham ne abhi calculate ki *x, y, z* variables main, aur model id jo ham ne provice ki thi command ke through (“createvehicle 468”) aur ham function ko access kar sakte hain as *vehicleModel* variable.
 
 ``` lua
 function createVehicleForPlayer(thePlayer, command, vehicleModel)
@@ -174,7 +174,7 @@ end
 addCommandHandler("createvehicle", createVehicleForPlayer)
 ```
 
-Jese ke ap ko pata hai, ham ne aik naya function introduce kiya hai [outputChatBox](/docs/outputchatbox.md "wikilink").Ap ab functions ke documentation pages ko khud dekh sakte hain.Zyada advanced scripting kay liye, check kareu [Map Manager](/Map_manager.md "wikilink").
+Jese ke ap ko pata hai, ham ne aik naya function introduce kiya hai [outputChatBox](/docs/outputchatbox.md "wikilink").Ap ab functions ke documentation pages ko khud dekh sakte hain.Zyada advanced scripting kay liye, check kareu [Map Manager](/docs/map_manager.md "wikilink").
 
 Ap Ko Kya Pata Hona Chahiye
 ---------------------------
@@ -294,7 +294,7 @@ Jab koi game mode start hota hai aik map ke saath, map resource khud ba khud sta
 
 ### Events
 
-Events kuch aise cheezeu hain jo mta ko batati hain un cheezou ke baare meu jo hoti hain. Jese ke jab koi player mar jata hai, [onPlayerWasted](/docs/onplayerwasted.md "wikilink") event ko trigger kiya jaata hai. Agar hameu koi action ko perforum karna hai jab koi player mar jaata hai, ap ko apne aap ko tyaar rakhna hai aik command handler ko dalne ke liye, jese ke is meu hai [Sab Se Pehla Chapter](/#Aik_Working_Script_Ko_Banana.md "wikilink").
+Events kuch aise cheezeu hain jo mta ko batati hain un cheezou ke baare meu jo hoti hain. Jese ke jab koi player mar jata hai, [onPlayerWasted](/docs/onplayerwasted.md "wikilink") event ko trigger kiya jaata hai. Agar hameu koi action ko perforum karna hai jab koi player mar jaata hai, ap ko apne aap ko tyaar rakhna hai aik command handler ko dalne ke liye, jese ke is meu hai [Sab Se Pehla Chapter](/docs/#aik_working_script_ko_banana.md "wikilink").
 
 Ye example aik message output kare gi us player ke naam se jo marra ho ga:
 
@@ -310,9 +310,9 @@ Documentation page Events ka batata hai ke parameters pass kiye jaate hain handl
 Yahan Se Ab Kahan Jain?
 -----------------------
 
-Ab ap ko mta ki basic scripting ka pata chal chuka ho gaya ho ga aur thora sa documentation ke baare meu bhi. [Main Page](/docs/main_page.md "wikilink") zyada information ke baare meu links deta hai, tutorials jo ap ko allow karte hain ke ap zyada acha learn kar sakeu. {{note|Yahan se, ham recommend karte hain ke ap [debugging](/debugging.md "wikilink") tutorial parheu. Ache debugging skills necessity hote hain jab ap scripts ko bana rahe hote hain. Ham ap ko [predefined variables list](/predefined_variables_list.md "wikilink") ko parhne ki advice bhi dete hain, ye ap ko certain tasks meu help kare ga. **See also:**
+Ab ap ko mta ki basic scripting ka pata chal chuka ho gaya ho ga aur thora sa documentation ke baare meu bhi. [Main Page](/docs/main_page.md "wikilink") zyada information ke baare meu links deta hai, tutorials jo ap ko allow karte hain ke ap zyada acha learn kar sakeu. {{note|Yahan se, ham recommend karte hain ke ap [debugging](/docs/debugging.md "wikilink") tutorial parheu. Ache debugging skills necessity hote hain jab ap scripts ko bana rahe hote hain. Ham ap ko [predefined variables list](/docs/predefined_variables_list.md "wikilink") ko parhne ki advice bhi dete hain, ye ap ko certain tasks meu help kare ga. **See also:**
 
 -   [Advanced Topics](/docs/advanced_topics.md "wikilink")
 -   [OOP English Scripting Introduction](/docs/oop_introduction.md "wikilink")
 
-[es:Introducción a la Programación](/docs/es:introducción_a_la_programación.md "wikilink") [it:Introduzione allo scripting](/it:Introduzione_allo_scripting.md "wikilink") [nl:Scripting\_introductie](/nl:Scripting_introductie.md "wikilink") [pt-br:Introdução ao Scripting](/pt-br:Introdução_ao_Scripting.md "wikilink") [ru:Scripting Introduction](/ru:Scripting_Introduction.md "wikilink") [ar:مقدمه\_في\_البرمجه](/ar:مقدمه_في_البرمجه.md "wikilink") [zh-cn:脚本编写介绍](/zh-cn:脚本编写介绍.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")
+[es:Introducción a la Programación](/docs/es:introducción_a_la_programación.md "wikilink") [it:Introduzione allo scripting](/docs/it:introduzione_allo_scripting.md "wikilink") [nl:Scripting\_introductie](/docs/nl:scripting_introductie.md "wikilink") [pt-br:Introdução ao Scripting](/docs/pt-br:introdução_ao_scripting.md "wikilink") [ru:Scripting Introduction](/docs/ru:scripting_introduction.md "wikilink") [ar:مقدمه\_في\_البرمجه](/docs/ar:مقدمه_في_البرمجه.md "wikilink") [zh-cn:脚本编写介绍](/docs/zh-cn:脚本编写介绍.md "wikilink") [Category:Tutorials](/docs/category:tutorials.md "wikilink")

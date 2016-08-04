@@ -36,4 +36,4 @@ addCommandHandler ( "getWeaponSlot", outputWeaponSlot )
 See Also
 --------
 
-[Weapon IDs](/docs/weapons.md "wikilink") [ru:getSlotFromWeapon](/ru:getSlotFromWeapon.md "wikilink")
+[Weapon IDs](/docs/weapons.md "wikilink") [ru:getSlotFromWeapon](/docs/ru:getslotfromweapon.md "wikilink")

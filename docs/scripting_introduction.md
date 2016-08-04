@@ -69,7 +69,7 @@ To get the server started, simply run the executable under the server/ directory
 
 Before you connect to the server, you must run the gamemode. Type “start myserver” and press Enter. The server will start the gamemode you just created, and will also show any errors and warnings from this point on. Now you can start the MTA client, and “Quick Connect” using the IP address of your server and the port number you saw earlier. If all goes well, after a few seconds your character will be walking on the streets of Los Santos.
 
-Next we'll add a command to your script that players can use to spawn a vehicle beside their position. You may skip it and check out more advanced scripting with the [Map Manager](/docs/map_manager.md "wikilink"), which continues this tutorial. Another branch from this tutorial is [Introduction to Scripting GUI](/Introduction_to_Scripting_GUI.md "wikilink"), you may follow it to see how Graphical User Interface in MTA is drawn and scripted.
+Next we'll add a command to your script that players can use to spawn a vehicle beside their position. You may skip it and check out more advanced scripting with the [Map Manager](/docs/map_manager.md "wikilink"), which continues this tutorial. Another branch from this tutorial is [Introduction to Scripting GUI](/docs/introduction_to_scripting_gui.md "wikilink"), you may follow it to see how Graphical User Interface in MTA is drawn and scripted.
 
 Creating a simple command
 -------------------------
@@ -125,7 +125,7 @@ In order to fill the function we created, we need to think about what we have to
 -   Spawn the vehicle
 -   Check if it has been spawned successfully, or output a message
 
-In order to achieve our goals, we have to use several functions. To find function we need to use, we should visit the [Server Functions List](/docs/scripting_functions.md "wikilink"). First we need a function to get the players position. Since players are Elements, we first jump to the **Element functions** where we find the [getElementPosition](/getElementPosition.md "wikilink") function. By clicking on the function name in the list, you get to the function description. There we can see the syntax, what it returns and usually an example. The syntax shows us what arguments we can or have to submit.
+In order to achieve our goals, we have to use several functions. To find function we need to use, we should visit the [Server Functions List](/docs/scripting_functions.md "wikilink"). First we need a function to get the players position. Since players are Elements, we first jump to the **Element functions** where we find the [getElementPosition](/docs/getelementposition.md "wikilink") function. By clicking on the function name in the list, you get to the function description. There we can see the syntax, what it returns and usually an example. The syntax shows us what arguments we can or have to submit.
 
 For [getElementPosition](/docs/getelementposition.md "wikilink"), the syntax is:
 
@@ -152,7 +152,7 @@ function createVehicleForPlayer(thePlayer, command, vehicleModel)
 end
 ```
 
-Now we need another function, one to spawn a vehicle. We once again search for it on the [Server Functions List](/docs/scripting_functions.md "wikilink"), this time - since we are talking about vehicles - in the **Vehicle functions** section, where we will choose [createVehicle](/createVehicle.md "wikilink"). In this function's syntax, we only have one return type (which is more common), a vehicle element that points to the vehicle we just created. Also, we see that some arguments are enclosed within \[ \] which means that those are optional.
+Now we need another function, one to spawn a vehicle. We once again search for it on the [Server Functions List](/docs/scripting_functions.md "wikilink"), this time - since we are talking about vehicles - in the **Vehicle functions** section, where we will choose [createVehicle](/docs/createvehicle.md "wikilink"). In this function's syntax, we only have one return type (which is more common), a vehicle element that points to the vehicle we just created. Also, we see that some arguments are enclosed within \[ \] which means that those are optional.
 
 We already have all arguments we need for [createVehicle](/docs/createvehicle.md "wikilink") in our function: The position we just calculated in the *x,y,z* variables and the model id that we provided through the command (“createvehicle 468”) and can access in the function as *vehicleModel* variable.
 
@@ -183,7 +183,7 @@ end
 addCommandHandler("createvehicle", createVehicleForPlayer)
 ```
 
-As you can see, we introduced another function with [outputChatBox](/docs/outputchatbox.md "wikilink"). By now, you should be able to explore the function's documentation page yourself. For more advanced scripting, please check out the [Map Manager](/Map_manager.md "wikilink").
+As you can see, we introduced another function with [outputChatBox](/docs/outputchatbox.md "wikilink"). By now, you should be able to explore the function's documentation page yourself. For more advanced scripting, please check out the [Map Manager](/docs/map_manager.md "wikilink").
 
 What you need to know
 ---------------------
@@ -307,7 +307,7 @@ When a gamemode is started with a map, the map resources is automatically starte
 
 ### Events
 
-[Events](/docs/event.md "wikilink") are the way MTA tells scripts about things that happen. For example when a player dies, the [onPlayerWasted](/onPlayerWasted.md "wikilink") event is triggered. In order to perform any actions when a player dies, you have to prepare yourself similiar to adding a command handler, as shown in [the first chapter](/#Writing_the_script.md "wikilink").
+[Events](/docs/event.md "wikilink") are the way MTA tells scripts about things that happen. For example when a player dies, the [onPlayerWasted](/docs/onplayerwasted.md "wikilink") event is triggered. In order to perform any actions when a player dies, you have to prepare yourself similiar to adding a command handler, as shown in [the first chapter](/docs/#writing_the_script.md "wikilink").
 
 This example will output a message with the name of the player who died:
 
@@ -330,4 +330,4 @@ You should now be familiar with the most basic aspects of MTA scripting and also
 -   [Script security](/docs/script_security.md "wikilink")
 -   [Scripting Introduction Urdu](/docs/scripting_introduction_urdu.md "wikilink")
 
-[es:Introducción a la Programación](/docs/es:introducción_a_la_programación.md "wikilink") [it:Introduzione allo scripting](/it:Introduzione_allo_scripting.md "wikilink") [nl:Scripting\_introductie](/nl:Scripting_introductie.md "wikilink") [pt-br:Introdução ao Scripting](/pt-br:Introdução_ao_Scripting.md "wikilink") [ru:Scripting Introduction](/ru:Scripting_Introduction.md "wikilink") [ar:مقدمه\_في\_البرمجه](/ar:مقدمه_في_البرمجه.md "wikilink") [zh-cn:脚本编写介绍](/zh-cn:脚本编写介绍.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")
+[es:Introducción a la Programación](/docs/es:introducción_a_la_programación.md "wikilink") [it:Introduzione allo scripting](/docs/it:introduzione_allo_scripting.md "wikilink") [nl:Scripting\_introductie](/docs/nl:scripting_introductie.md "wikilink") [pt-br:Introdução ao Scripting](/docs/pt-br:introdução_ao_scripting.md "wikilink") [ru:Scripting Introduction](/docs/ru:scripting_introduction.md "wikilink") [ar:مقدمه\_في\_البرمجه](/docs/ar:مقدمه_في_البرمجه.md "wikilink") [zh-cn:脚本编写介绍](/docs/zh-cn:脚本编写介绍.md "wikilink") [Category:Tutorials](/docs/category:tutorials.md "wikilink")

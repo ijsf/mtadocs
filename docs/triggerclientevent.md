@@ -1,6 +1,6 @@
-This function triggers an event previously registered on a client. This is the primary means of passing information between the server and the client. Clients have a similar [triggerServerEvent](/docs/triggerserverevent.md "wikilink") function that can do the reverse. You can treat this function as if it was an asynchronous function call, using [triggerServerEvent](/triggerServerEvent.md "wikilink") to pass back any returned information if necessary.
+This function triggers an event previously registered on a client. This is the primary means of passing information between the server and the client. Clients have a similar [triggerServerEvent](/docs/triggerserverevent.md "wikilink") function that can do the reverse. You can treat this function as if it was an asynchronous function call, using [triggerServerEvent](/docs/triggerserverevent.md "wikilink") to pass back any returned information if necessary.
 
-Almost any data types can be passed as expected, including [elements](/docs/element.md "wikilink") and complex nested [tables](/table.md "wikilink"). Non-element MTA data types like xmlNodes or resource pointers will not be able to be passed as they do not necessarily have a valid representation on the client.
+Almost any data types can be passed as expected, including [elements](/docs/element.md "wikilink") and complex nested [tables](/docs/table.md "wikilink"). Non-element MTA data types like xmlNodes or resource pointers will not be able to be passed as they do not necessarily have a valid representation on the client.
 
 Events are sent reliably, so clients will receive them, but there may be (but shouldn't be) a significant delay before they are received. You should take this into account when using them.
 
@@ -15,7 +15,7 @@ bool triggerClientEvent ( [table/element sendTo=getRootElement()], string name, 
 
 ### Required Arguments
 
--   **name:** The name of the event to trigger client side. You should register this event with [addEvent](/docs/addevent.md "wikilink") and add at least one event handler using [addEventHandler](/addEventHandler.md "wikilink").
+-   **name:** The name of the event to trigger client side. You should register this event with [addEvent](/docs/addevent.md "wikilink") and add at least one event handler using [addEventHandler](/docs/addeventhandler.md "wikilink").
 -   **sourceElement:** The element that is the [source](/docs/event_system#event_handlers.md "wikilink") of the event.
 
 ### Optional Arguments

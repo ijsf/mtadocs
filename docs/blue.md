@@ -18,4 +18,4 @@ Links
 
 [Category:MTA:SA Race](/docs/category:mta:sa_race.md "wikilink")
 
-[es:Blue\_ES](/docs/es:blue_es.md "wikilink") [pl:Blue](/pl:Blue.md "wikilink")
+[es:Blue\_ES](/docs/es:blue_es.md "wikilink") [pl:Blue](/docs/pl:blue.md "wikilink")

@@ -15,4 +15,4 @@ Related scripting functions
 
 [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
 
-[it:Elemento](/docs/it:elemento.md "wikilink") [ru:Element](/ru:Element.md "wikilink") [es:Elemento](/es:Elemento.md "wikilink")
+[it:Elemento](/docs/it:elemento.md "wikilink") [ru:Element](/docs/ru:element.md "wikilink") [es:Elemento](/docs/es:elemento.md "wikilink")

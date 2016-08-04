@@ -1,4 +1,4 @@
-This function is used to return the animation data of a [player](/docs/player.md "wikilink") or [ped](/ped.md "wikilink") that was set using [setPedAnimation](/setPedAnimation.md "wikilink").
+This function is used to return the animation data of a [player](/docs/player.md "wikilink") or [ped](/docs/ped.md "wikilink") that was set using [setPedAnimation](/docs/setpedanimation.md "wikilink").
 
 Syntax
 ------
@@ -13,7 +13,7 @@ string getPedAnimationData ( ped thePed )
 
 ### Returns
 
-Returns 2 [strings](/docs/string.md "wikilink") containing information about [animations](/animations.md "wikilink"). These keys are present below :
+Returns 2 [strings](/docs/string.md "wikilink") containing information about [animations](/docs/animations.md "wikilink"). These keys are present below :
 
 -   **name:** string - name of the animation
 -   **block\_name:** string - name of animation block

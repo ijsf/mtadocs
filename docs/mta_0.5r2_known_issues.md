@@ -105,4 +105,4 @@ A big thank-you to **Mike** for discovering the cause of this problem and **Aero
 
 [ru:MTA\_0.5r2\_Known\_Issues](/docs/ru:mta_0.5r2_known_issues.md "wikilink")
 
-[Category:Vice\_City](/docs/category:vice_city.md "wikilink") [Category:GTA3](/Category:GTA3.md "wikilink") [Category:MTA\_0.5](/Category:MTA_0.5.md "wikilink")
+[Category:Vice\_City](/docs/category:vice_city.md "wikilink") [Category:GTA3](/docs/category:gta3.md "wikilink") [Category:MTA\_0.5](/docs/category:mta_0.5.md "wikilink")

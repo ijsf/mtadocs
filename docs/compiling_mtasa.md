@@ -66,4 +66,4 @@ Additional information
 
 If you need more information, try our [bug tracker](http://bugs.mtasa.com/), [IRC channel](irc://irc.multitheftauto.com).
 
-[pt-br:Compilando o MTASA](/docs/pt-br:compilando_o_mtasa.md "wikilink") [ru:Compiling MTASA](/ru:Compiling_MTASA.md "wikilink") [Category: Development](/Category:_Development.md "wikilink")
+[pt-br:Compilando o MTASA](/docs/pt-br:compilando_o_mtasa.md "wikilink") [ru:Compiling MTASA](/docs/ru:compiling_mtasa.md "wikilink") [Category: Development](/docs/category:_development.md "wikilink")

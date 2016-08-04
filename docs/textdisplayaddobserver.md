@@ -1,4 +1,4 @@
-This function adds a [player](/docs/player.md "wikilink") as an observer of a [textdisplay](/textdisplay.md "wikilink"). This allows the [player](/player.md "wikilink") to see any [textitems](/textitem.md "wikilink") that the [textdisplay](/textdisplay.md "wikilink") contains.
+This function adds a [player](/docs/player.md "wikilink") as an observer of a [textdisplay](/docs/textdisplay.md "wikilink"). This allows the [player](/docs/player.md "wikilink") to see any [textitems](/docs/textitem.md "wikilink") that the [textdisplay](/docs/textdisplay.md "wikilink") contains.
 
 Syntax
 ------
@@ -9,8 +9,8 @@ void textDisplayAddObserver ( textdisplay display, player playerToAdd )
 
 ### Required Arguments
 
--   **display**: The [textdisplay](/docs/textdisplay.md "wikilink") to add the [player](/player.md "wikilink") to as an observer.
--   **playerToAdd**: The [player](/docs/player.md "wikilink") that should observe the [textdisplay](/textdisplay.md "wikilink").
+-   **display**: The [textdisplay](/docs/textdisplay.md "wikilink") to add the [player](/docs/player.md "wikilink") to as an observer.
+-   **playerToAdd**: The [player](/docs/player.md "wikilink") that should observe the [textdisplay](/docs/textdisplay.md "wikilink").
 
 Example
 -------

@@ -12,7 +12,7 @@ player newSyncer
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [element](/element.md "wikilink") that got synced by a player.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [element](/docs/element.md "wikilink") that got synced by a player.
 
 Example
 -------

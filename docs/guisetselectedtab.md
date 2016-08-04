@@ -1,4 +1,4 @@
-This function is used to change the currently selected [tab](/docs/element/gui/tab.md "wikilink") in a [tab panel](/Element/GUI/Tab_panel.md "wikilink").
+This function is used to change the currently selected [tab](/docs/element/gui/tab.md "wikilink") in a [tab panel](/docs/element/gui/tab_panel.md "wikilink").
 
 Syntax
 ------

@@ -17,7 +17,7 @@ float float getScreenFromWorldPosition ( float x, float y, float z, [ float edge
 
 ### Returns
 
-Returns two *x*, *y* [floats](/docs/float.md "wikilink") indicating the screen position and [float](/float.md "wikilink") distance between screen and given position if successful, *false* otherwise.
+Returns two *x*, *y* [floats](/docs/float.md "wikilink") indicating the screen position and [float](/docs/float.md "wikilink") distance between screen and given position if successful, *false* otherwise.
 
 ### Example
 

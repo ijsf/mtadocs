@@ -72,4 +72,4 @@ addEventHandler ( 'onPlayerLogin', getRootElement ( ),
 See Also
 --------
 
-[es:banPlayer](/docs/es:banplayer.md "wikilink") [ru:BanPlayer](/ru:BanPlayer.md "wikilink")
+[es:banPlayer](/docs/es:banplayer.md "wikilink") [ru:BanPlayer](/docs/ru:banplayer.md "wikilink")

@@ -1,4 +1,4 @@
-This function returns the [serial](/docs/serial.md "wikilink") for a specified [player](/player.md "wikilink").
+This function returns the [serial](/docs/serial.md "wikilink") for a specified [player](/docs/player.md "wikilink").
 
 Syntax
 ------

@@ -9,7 +9,7 @@ bool addVehicleUpgrade ( vehicle theVehicle, int upgrade )
 
 ### Required Arguments
 
--   **theVehicle**: The [element](/docs/element.md "wikilink") representing the [vehicle](/vehicle.md "wikilink") you wish to add the upgrade to.
+-   **theVehicle**: The [element](/docs/element.md "wikilink") representing the [vehicle](/docs/vehicle.md "wikilink") you wish to add the upgrade to.
 -   **upgrade**: The id of the upgrade you wish to add. (1000 to 1193), *see [Vehicle Upgrades](/docs/vehicle_upgrades.md "wikilink")*
 
 **Note:** setCameraTarget will behave strangely if you use hydraulics (upgrade id: 1087) server sided and when your camera target is the player inside the vehicle with hydraulics and if the player is not you.

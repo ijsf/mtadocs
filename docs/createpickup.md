@@ -60,7 +60,7 @@ pickup createPickup ( float x, float y, float z, int theType, int amount/weapon/
 
 ### Returns
 
-Returns [pickup](/docs/pickup.md "wikilink") [element](/element.md "wikilink") if the pickup was created succesfully, otherwise returns *false*.
+Returns [pickup](/docs/pickup.md "wikilink") [element](/docs/element.md "wikilink") if the pickup was created succesfully, otherwise returns *false*.
 
 Example
 -------

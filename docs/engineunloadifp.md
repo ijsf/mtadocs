@@ -9,7 +9,7 @@ bool engineLoadIFP ( element ifp )
 
 ### Required Arguments
 
--   **ifp:** The IFP [element](/docs/element.md "wikilink") loaded by [engineLoadIFP](/engineLoadIFP.md "wikilink") to unload.
+-   **ifp:** The IFP [element](/docs/element.md "wikilink") loaded by [engineLoadIFP](/docs/engineloadifp.md "wikilink") to unload.
 
 ### Returns
 

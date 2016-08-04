@@ -33,7 +33,7 @@ Returns a [string](/docs/string.md "wikilink") containing the specified userdata
 Example
 -------
 
-This example shows a function that can be used to work around the impossibility to transfer vectors as arguments when using [triggerClientEvent](/docs/triggerclientevent.md "wikilink") and [triggerServerEvent](/triggerServerEvent.md "wikilink"), by converting them into a table which can be used safely.
+This example shows a function that can be used to work around the impossibility to transfer vectors as arguments when using [triggerClientEvent](/docs/triggerclientevent.md "wikilink") and [triggerServerEvent](/docs/triggerserverevent.md "wikilink"), by converting them into a table which can be used safely.
 
 ``` lua
 function safeArgsForTransfer(...)

@@ -1,4 +1,4 @@
-This function returns the current rotation (in degrees) of a player around the Z axis. It's used with on-foot players: use [getVehicleRotation](/docs/getvehiclerotation.md "wikilink") on the occupied [vehicle](/vehicle.md "wikilink") if the player is in one.
+This function returns the current rotation (in degrees) of a player around the Z axis. It's used with on-foot players: use [getVehicleRotation](/docs/getvehiclerotation.md "wikilink") on the occupied [vehicle](/docs/vehicle.md "wikilink") if the player is in one.
 
 Syntax
 ------

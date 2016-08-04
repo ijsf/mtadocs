@@ -10,7 +10,7 @@ string getPlayerSimplestTask ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer**: The [player](/docs/player.md "wikilink") whose [task](/task.md "wikilink") you want to retrieve.
+-   **thePlayer**: The [player](/docs/player.md "wikilink") whose [task](/docs/task.md "wikilink") you want to retrieve.
 
 ### Returns
 

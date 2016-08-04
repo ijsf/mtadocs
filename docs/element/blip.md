@@ -29,4 +29,4 @@ Related scripting functions
 
 ### Server
 
-[Category:Element Types](/docs/category:element_types.md "wikilink") [it:Elemento/Blip](/it:Elemento/Blip.md "wikilink")
+[Category:Element Types](/docs/category:element_types.md "wikilink") [it:Elemento/Blip](/docs/it:elemento/blip.md "wikilink")

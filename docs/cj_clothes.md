@@ -22,4 +22,4 @@ These pages contain clothing images and details for all of CJ's apparel.
 Functions used for this
 -----------------------
 
-[pl:CJ Clothes](/docs/pl:cj_clothes.md "wikilink") [it:Vestiti di CJ](/it:Vestiti_di_CJ.md "wikilink") [pt-br:Roupas do CJ](/pt-br:Roupas_do_CJ.md "wikilink") [ru:CJ Clothes](/ru:CJ_Clothes.md "wikilink") [de:CJ Kleider](/de:CJ_Kleider.md "wikilink") [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink") [Category:ID Lists](/Category:ID_Lists.md "wikilink")
+[pl:CJ Clothes](/docs/pl:cj_clothes.md "wikilink") [it:Vestiti di CJ](/docs/it:vestiti_di_cj.md "wikilink") [pt-br:Roupas do CJ](/docs/pt-br:roupas_do_cj.md "wikilink") [ru:CJ Clothes](/docs/ru:cj_clothes.md "wikilink") [de:CJ Kleider](/docs/de:cj_kleider.md "wikilink") [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [Category:ID Lists](/docs/category:id_lists.md "wikilink")

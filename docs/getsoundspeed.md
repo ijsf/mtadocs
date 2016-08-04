@@ -1,4 +1,4 @@
-This function is used to return the playback speed of the specified [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink").
+This function is used to return the playback speed of the specified [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ float getSoundSpeed ( element theSound )
 
 ### Required Arguments
 
--   **theSound:** the [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") which playback speed you want to return.
+-   **theSound:** the [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") which playback speed you want to return.
 
 ### Returns
 
-Returns an [float](/docs/float.md "wikilink") value indicating the playback speed of the [sound](/sound.md "wikilink") [element](/element.md "wikilink"). Default sound playback speed is **1.0**.
+Returns an [float](/docs/float.md "wikilink") value indicating the playback speed of the [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink"). Default sound playback speed is **1.0**.
 
 Example
 -------

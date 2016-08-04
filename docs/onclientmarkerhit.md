@@ -13,7 +13,7 @@ player hitPlayer, bool matchingDimension
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [marker](/marker.md "wikilink") that got hit by the player.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [marker](/docs/marker.md "wikilink") that got hit by the player.
 
 Example
 -------

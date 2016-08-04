@@ -1,4 +1,4 @@
-A [ban](/docs/ban.md "wikilink") is a pointer that represents a banned player arbitrarily. The following functions allow interaction with a [ban](/ban.md "wikilink"):
+A [ban](/docs/ban.md "wikilink") is a pointer that represents a banned player arbitrarily. The following functions allow interaction with a [ban](/docs/ban.md "wikilink"):
 
 -   [addBan](/docs/addban.md "wikilink")
 -   [banPlayer](/docs/banplayer.md "wikilink")
@@ -13,4 +13,4 @@ A [ban](/docs/ban.md "wikilink") is a pointer that represents a banned player ar
 
 [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
 
-[ar:الباند](/docs/ar:الباند.md "wikilink") [de:Bann](/de:Bann.md "wikilink") [ru:Ban](/ru:Ban.md "wikilink")
+[ar:الباند](/docs/ar:الباند.md "wikilink") [de:Bann](/docs/de:bann.md "wikilink") [ru:Ban](/docs/ru:ban.md "wikilink")

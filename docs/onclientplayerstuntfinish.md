@@ -15,7 +15,7 @@ string stuntType, int stuntTime, float stuntDistance
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the local [player](/player.md "wikilink").
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the local [player](/docs/player.md "wikilink").
 
 Example
 -------

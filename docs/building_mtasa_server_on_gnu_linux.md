@@ -105,4 +105,4 @@ Any errors during the compilation of json-c can be solved by calling autoreconf 
 
 If you’re getting any unexpected errors while compiling, please check our [Bug tracker](http://bugs.mtasa.com/) or our [IRC channel](irc://irc.multitheftauto.com/)
 
-[ru:Building MTASA Server on GNU Linux](/docs/ru:building_mtasa_server_on_gnu_linux.md "wikilink") [Category: Development](/Category:_Development.md "wikilink")
+[ru:Building MTASA Server on GNU Linux](/docs/ru:building_mtasa_server_on_gnu_linux.md "wikilink") [Category: Development](/docs/category:_development.md "wikilink")

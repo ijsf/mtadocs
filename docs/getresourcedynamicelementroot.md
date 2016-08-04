@@ -1,4 +1,4 @@
-This function retrieves the *dynamic element root* of a specified [resource](/docs/resource.md "wikilink"). The *dynamic element root* is the parent of elements that are created by scripts (e.g. with [createObject](/createObject.md "wikilink")) unless they specify a different parent.
+This function retrieves the *dynamic element root* of a specified [resource](/docs/resource.md "wikilink"). The *dynamic element root* is the parent of elements that are created by scripts (e.g. with [createObject](/docs/createobject.md "wikilink")) unless they specify a different parent.
 
 Syntax
 ------

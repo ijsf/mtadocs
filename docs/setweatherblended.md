@@ -1,4 +1,4 @@
-This function will change the current [weather](/docs/weather.md "wikilink") to another in a smooth manner, over the period of 2 in-game hours (unlike [setWeather](/setWeather.md "wikilink"), which sets a new weather instantly). To ensure this transition performs as expected, you should not call this function until [getWeather](/getWeather.md "wikilink") indicates that no transition is already being done.
+This function will change the current [weather](/docs/weather.md "wikilink") to another in a smooth manner, over the period of 2 in-game hours (unlike [setWeather](/docs/setweather.md "wikilink"), which sets a new weather instantly). To ensure this transition performs as expected, you should not call this function until [getWeather](/docs/getweather.md "wikilink") indicates that no transition is already being done.
 
 Syntax
 ------

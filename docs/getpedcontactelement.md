@@ -9,11 +9,11 @@ element getPedContactElement ( ped thePed )
 
 ### Required Arguments
 
--   **thePed:** The [ped](/docs/ped.md "wikilink") of which you want to get the [element](/element.md "wikilink") he is standing on.
+-   **thePed:** The [ped](/docs/ped.md "wikilink") of which you want to get the [element](/docs/element.md "wikilink") he is standing on.
 
 ### Returns
 
-Returns an [object](/docs/object.md "wikilink") or a [vehicle](/vehicle.md "wikilink") if the ped is standing on one, *false* if he is touching none or an invalid element was passed.
+Returns an [object](/docs/object.md "wikilink") or a [vehicle](/docs/vehicle.md "wikilink") if the ped is standing on one, *false* if he is touching none or an invalid element was passed.
 
 Example
 -------

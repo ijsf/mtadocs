@@ -27,7 +27,7 @@ There is also an in game version of performance browser called **'ipb**' which i
 Category - Event Packet usage
 =============================
 
-Select **Event Packet usage** from the **Category** drop down to view details about [triggerClientEvent](/docs/triggerclientevent.md "wikilink") and outgoing [setElementData](/setElementData.md "wikilink") packet usage.
+Select **Event Packet usage** from the **Category** drop down to view details about [triggerClientEvent](/docs/triggerclientevent.md "wikilink") and outgoing [setElementData](/docs/setelementdata.md "wikilink") packet usage.
 
 ##### The main columns are:
 

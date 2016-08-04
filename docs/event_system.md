@@ -36,18 +36,18 @@ The function you attached to this event will be passed these parameters as argum
 Built in events
 ---------------
 
-MTA has a number of built in events. These are listed on the pages [Client Scripting Events](/docs/client_scripting_events.md "wikilink") and [Scripting Events](/Scripting_Events.md "wikilink").
+MTA has a number of built in events. These are listed on the pages [Client Scripting Events](/docs/client_scripting_events.md "wikilink") and [Scripting Events](/docs/scripting_events.md "wikilink").
 
 Custom events
 -------------
 
-You can create your own events that can be triggered across all resources. This is an important way to communicate with other resources and allow them to hook into your code. To add your own custom event, just call the [addEvent](/docs/addevent.md "wikilink") function. You can then use the [triggerEvent](/triggerEvent.md "wikilink") function to trigger that event any time you want - either using a timer, or based on a more general event.
+You can create your own events that can be triggered across all resources. This is an important way to communicate with other resources and allow them to hook into your code. To add your own custom event, just call the [addEvent](/docs/addevent.md "wikilink") function. You can then use the [triggerEvent](/docs/triggerevent.md "wikilink") function to trigger that event any time you want - either using a timer, or based on a more general event.
 
 For example, you could be making a Capture the Flag game mode and want to trigger an event when a player captures the flag. You could do this by attaching a event handler to the standard MTA [onMarkerHit](/docs/onmarkerhit.md "wikilink") event and checking that the player entering the marker has the flag. if they do, you can then trigger your more specific *onFlagCaptured* event and other resources could handle this as they please.
 
 Canceling
 ---------
 
-Events can be canceled with [cancelEvent](/docs/cancelevent.md "wikilink"). This can have a variety of effects, but in general this means that the server will not perform whatever action it would usually do. For example, canceling [onPickupUse](/onPickupUse.md "wikilink") would prevent a player being given what they tried to pick up, canceling [onVehicleStartEnter](/onVehicleStartEnter.md "wikilink") would prevent the player entering the vehicle. You can check if the currently active event has been canceled using [wasEventCanceled](/wasEventCanceled.md "wikilink"). It's important to note that canceling event *does not* prevent other event handlers being triggered.
+Events can be canceled with [cancelEvent](/docs/cancelevent.md "wikilink"). This can have a variety of effects, but in general this means that the server will not perform whatever action it would usually do. For example, canceling [onPickupUse](/docs/onpickupuse.md "wikilink") would prevent a player being given what they tried to pick up, canceling [onVehicleStartEnter](/docs/onvehiclestartenter.md "wikilink") would prevent the player entering the vehicle. You can check if the currently active event has been canceled using [wasEventCanceled](/docs/waseventcanceled.md "wikilink"). It's important to note that canceling event *does not* prevent other event handlers being triggered.
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [es:Sistema de eventos](/es:Sistema_de_eventos.md "wikilink")
+[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [es:Sistema de eventos](/docs/es:sistema_de_eventos.md "wikilink")

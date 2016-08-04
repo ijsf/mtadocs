@@ -1,4 +1,4 @@
-This function creates a [blip](/docs/blip.md "wikilink") [element](/element.md "wikilink"), which is displayed as an icon on the client's radar.
+This function creates a [blip](/docs/blip.md "wikilink") [element](/docs/element.md "wikilink"), which is displayed as an icon on the client's radar.
 
 Syntax
 ------
@@ -37,7 +37,7 @@ blip createBlip ( float x, float y, float z [, int icon = 0, int size = 2, int r
 Returns
 -------
 
-Returns an [element](/docs/element.md "wikilink") of the [blip](/blip.md "wikilink") if it was created successfully, *false* otherwise.
+Returns an [element](/docs/element.md "wikilink") of the [blip](/docs/blip.md "wikilink") if it was created successfully, *false* otherwise.
 
 Example
 -------
@@ -69,4 +69,4 @@ setElementParent( myBlip, myPlayer )
 See Also
 --------
 
-[AR:createBlip](/docs/ar:createblip.md "wikilink") [es:createBlip](/es:createBlip.md "wikilink") [DE:createBlip](/DE:createBlip.md "wikilink")
+[AR:createBlip](/docs/ar:createblip.md "wikilink") [es:createBlip](/docs/es:createblip.md "wikilink") [DE:createBlip](/docs/de:createblip.md "wikilink")

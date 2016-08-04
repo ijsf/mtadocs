@@ -25,4 +25,4 @@ See Also
 -   [List of interior IDs](/docs/interior_ids.md "wikilink")
 -   [Dimension](/docs/dimension.md "wikilink")
 
-[de:Interior](/docs/de:interior.md "wikilink") [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink")
+[de:Interior](/docs/de:interior.md "wikilink") [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")

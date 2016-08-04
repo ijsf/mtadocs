@@ -1,4 +1,4 @@
-This function returns the root node of the [element tree](/docs/element_tree.md "wikilink"), called *root*. This node contains every other element: all resource root elements, players and remote clients. It is never destroyed and cannot be destroyed using [destroyElement](/destroyElement.md "wikilink").
+This function returns the root node of the [element tree](/docs/element_tree.md "wikilink"), called *root*. This node contains every other element: all resource root elements, players and remote clients. It is never destroyed and cannot be destroyed using [destroyElement](/docs/destroyelement.md "wikilink").
 
 It is often used to attach handler functions to events triggered for any element, or also to make a scripting function affect all elements.
 

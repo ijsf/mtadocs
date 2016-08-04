@@ -1,4 +1,4 @@
-This event is triggered when a player uses say, teamsay, me successfully. Or when any message is output to chat using [outputChatBox](/docs/outputchatbox.md "wikilink") on the server side. It can be used to get the resource responsible for specific [outputChatBox](/outputChatBox.md "wikilink") call via the second parameter.
+This event is triggered when a player uses say, teamsay, me successfully. Or when any message is output to chat using [outputChatBox](/docs/outputchatbox.md "wikilink") on the server side. It can be used to get the resource responsible for specific [outputChatBox](/docs/outputchatbox.md "wikilink") call via the second parameter.
 
 Parameters
 ----------

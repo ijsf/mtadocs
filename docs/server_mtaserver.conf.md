@@ -187,7 +187,7 @@ This parameter allows you to disable LAN broadcasting.
 
 If set, players will have to provide a password specified below, before they can connect to the server. If left blank, server doesn't require a password from them.
 
-This parameter can changed and saved while the server is running with [setServerPassword](/docs/setserverpassword.md "wikilink") or [setServerConfigSetting](/setServerConfigSetting.md "wikilink")
+This parameter can changed and saved while the server is running with [setServerPassword](/docs/setserverpassword.md "wikilink") or [setServerConfigSetting](/docs/setserverconfigsetting.md "wikilink")
 
 #### bandwidth\_reduction
 
@@ -549,4 +549,4 @@ In addition, there are several flags which control how the server deals with eac
 
 :\* **default**: if given a “1”, “true” or “yes” value, this resource will be the one who populates the built-in HTTP server main page, which is seen when no resource is given in the web address. It is not possible to have more than one default resource.
 
-[Category: Support](/docs/category:_support.md "wikilink") [ru:Server mtaserver.conf](/ru:Server_mtaserver.conf.md "wikilink")
+[Category: Support](/docs/category:_support.md "wikilink") [ru:Server mtaserver.conf](/docs/ru:server_mtaserver.conf.md "wikilink")

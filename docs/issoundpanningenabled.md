@@ -7,7 +7,7 @@ bool isSoundPanningEnabled ( element theSound )
 
 ### Required Arguments
 
--   **theSound :** A valid [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink").
+-   **theSound :** A valid [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink").
 
 ### Returns
 

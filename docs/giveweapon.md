@@ -9,8 +9,8 @@ Syntax
 
 ### Required Arguments
 
--   **thePlayer:** A [player](/docs/player.md "wikilink") or [ped](/ped.md "wikilink") object referencing the specified player (or [ped](/ped.md "wikilink"))
--   **weapon:** A whole number integer that refers to a [Weapon](/docs/weapon.md "wikilink") ID. Click [here](/Weapon.md "wikilink") for a list of possible weapon IDs.
+-   **thePlayer:** A [player](/docs/player.md "wikilink") or [ped](/docs/ped.md "wikilink") object referencing the specified player (or [ped](/docs/ped.md "wikilink"))
+-   **weapon:** A whole number integer that refers to a [Weapon](/docs/weapon.md "wikilink") ID. Click [here](/docs/weapon.md "wikilink") for a list of possible weapon IDs.
 
 ### Optional Arguments
 

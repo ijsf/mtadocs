@@ -9,7 +9,7 @@ bool setSoundEffectEnabled ( element sound, string effectName, bool bEnable )
 
 ### Required Arguments
 
--   **sound:** a [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink").
+-   **sound:** a [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink").
 -   **effectName:** the effect you want to enable or disable
 
 -   **bEnable:** *true* if you want to enable the effect, *false* if you want to disable it.

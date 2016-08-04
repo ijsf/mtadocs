@@ -132,4 +132,4 @@ You can use a large number of ACL scripting functions to modify the ACL on the f
 See Also
 --------
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [ru:Access Control List](/ru:Access_Control_List.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")
+[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [ru:Access Control List](/docs/ru:access_control_list.md "wikilink") [Category:Tutorials](/docs/category:tutorials.md "wikilink")

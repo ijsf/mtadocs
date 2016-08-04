@@ -118,4 +118,4 @@ World functions
 XML functions
 -------------
 
-[ar:Client Scripting Functions](/docs/ar:client_scripting_functions.md "wikilink") [pl:Funkcje po stronie klienta](/pl:Funkcje_po_stronie_klienta.md "wikilink") [it:Funzioni Client-side](/it:Funzioni_Client-side.md "wikilink") [ru:Client Scripting Functions](/ru:Client_Scripting_Functions.md "wikilink") [es:Funciones del cliente](/es:Funciones_del_cliente.md "wikilink") [de:Clientseitige\_Funktionen](/de:Clientseitige_Funktionen.md "wikilink") [tr:Client Taraflı Fonksiyonlar](/tr:Client_Taraflı_Fonksiyonlar.md "wikilink")
+[ar:Client Scripting Functions](/docs/ar:client_scripting_functions.md "wikilink") [pl:Funkcje po stronie klienta](/docs/pl:funkcje_po_stronie_klienta.md "wikilink") [it:Funzioni Client-side](/docs/it:funzioni_client-side.md "wikilink") [ru:Client Scripting Functions](/docs/ru:client_scripting_functions.md "wikilink") [es:Funciones del cliente](/docs/es:funciones_del_cliente.md "wikilink") [de:Clientseitige\_Funktionen](/docs/de:clientseitige_funktionen.md "wikilink") [tr:Client Taraflı Fonksiyonlar](/docs/tr:client_taraflı_fonksiyonlar.md "wikilink")

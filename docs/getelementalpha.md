@@ -1,4 +1,4 @@
-This function returns the alpha (transparency) value for the specified [element](/docs/element.md "wikilink"). This can be a [player](/player.md "wikilink"), [ped](/ped.md "wikilink"), [object](/object.md "wikilink"), [vehicle](/vehicle.md "wikilink") or [weapon](/Element/Weapon.md "wikilink").
+This function returns the alpha (transparency) value for the specified [element](/docs/element.md "wikilink"). This can be a [player](/docs/player.md "wikilink"), [ped](/docs/ped.md "wikilink"), [object](/docs/object.md "wikilink"), [vehicle](/docs/vehicle.md "wikilink") or [weapon](/docs/element/weapon.md "wikilink").
 
 Syntax
 ------

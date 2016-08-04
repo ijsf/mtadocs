@@ -1,4 +1,4 @@
-This function creates a [DX font](/docs/dx_font.md "wikilink") element that can be used in [dxDrawText](/dxDrawText.md "wikilink"). Successful font creation is not guaranteed, and may fail due to hardware or memory limitations.
+This function creates a [DX font](/docs/dx_font.md "wikilink") element that can be used in [dxDrawText](/docs/dxdrawtext.md "wikilink"). Successful font creation is not guaranteed, and may fail due to hardware or memory limitations.
 
 To see if creation is likely to fail, use [dxGetStatus](/docs/dxgetstatus.md "wikilink"). (When **VideoMemoryFreeForMTA** is zero, failure *is* guaranteed.)
 

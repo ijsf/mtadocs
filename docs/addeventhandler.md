@@ -1,4 +1,4 @@
-This function will add an [event](/docs/event.md "wikilink") handler. An event handler is a function that will be called when the event it's attached to is triggered. See [event system](/event_system.md "wikilink") for more information on how the event system works.
+This function will add an [event](/docs/event.md "wikilink") handler. An event handler is a function that will be called when the event it's attached to is triggered. See [event system](/docs/event_system.md "wikilink") for more information on how the event system works.
 
 Event handlers are functions that are called when a particular event happens. Each event specifies a specific set of variables that are passed to the event handler and can be read by your function. The following global variables are available for use in handler functions:
 

@@ -12,7 +12,7 @@ No parameters.
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the player [element](/element.md "wikilink") that just started talking through voice chat.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the player [element](/docs/element.md "wikilink") that just started talking through voice chat.
 
 Cancel effect
 -------------

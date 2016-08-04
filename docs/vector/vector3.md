@@ -1,4 +1,4 @@
-[Category:Incomplete](/docs/category:incomplete.md "wikilink") The **vector3** class represents a three-dimensional [vector](/vector.md "wikilink").
+[Category:Incomplete](/docs/category:incomplete.md "wikilink") The **vector3** class represents a three-dimensional [vector](/docs/vector.md "wikilink").
 
 Methods
 -------

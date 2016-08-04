@@ -27,7 +27,7 @@ float getWaterLevel ( water theWater )
 
 ### Returns
 
-Returns an *integer* of the water level if the [localPlayer](/docs/localplayer.md "wikilink")/position is near the water (-3 to 20 on the Z coordinate) else *false* if there's no water near the [localPlayer](/localPlayer.md "wikilink")/position.
+Returns an *integer* of the water level if the [localPlayer](/docs/localplayer.md "wikilink")/position is near the water (-3 to 20 on the Z coordinate) else *false* if there's no water near the [localPlayer](/docs/localplayer.md "wikilink")/position.
 
 Example
 -------

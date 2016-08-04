@@ -1,6 +1,6 @@
 Sets an analog state of a specified [ped](/docs/ped.md "wikilink")'s control, as if they pressed or released it.
 
-This function only works on [peds](/docs/ped.md "wikilink"), to change the analog control state for a player, please use [setAnalogControlState](/setAnalogControlState.md "wikilink").
+This function only works on [peds](/docs/ped.md "wikilink"), to change the analog control state for a player, please use [setAnalogControlState](/docs/setanalogcontrolstate.md "wikilink").
 
 Syntax
 ------

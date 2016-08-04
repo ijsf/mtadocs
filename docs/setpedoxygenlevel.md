@@ -10,7 +10,7 @@ bool setPedOxygenLevel ( ped thePed, float oxygen )
 ### Required Arguments
 
 -   **thePed**: the [ped](/docs/ped.md "wikilink") whose oxygen level you want to modify.
--   **oxygen**: the amount of oxygen you want to set on the [ped](/docs/ped.md "wikilink"). Native values are from 0 to 1000. Each of the stamina (22) and underwater stamina (225) [stat](/Template:Stats.md "wikilink") maximum adds a bonus of 1500. So the maximum oxygen level is 4000.
+-   **oxygen**: the amount of oxygen you want to set on the [ped](/docs/ped.md "wikilink"). Native values are from 0 to 1000. Each of the stamina (22) and underwater stamina (225) [stat](/docs/template:stats.md "wikilink") maximum adds a bonus of 1500. So the maximum oxygen level is 4000.
 
 ### Returns
 

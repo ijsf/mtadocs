@@ -318,7 +318,7 @@ This version was released quickly because 1.2 had several network related issues
 -   Fixes for various crashes and issues. (including “warp glitch”, inaccurate heat seekers sync, createProjectile() velocity desync between clients, custom models texture crash, “white models” when using custom models and more)
 -   Added functionality to protect client-side scripts which pre-compiles them before being sent and stops resources from being saved on disk. This is configurable in the resource's meta.xml.
 -   Added pixel manipulation functionality.
--   Introduced new client-side scripting functions - [setBirdsEnabled](/docs/setbirdsenabled.md "wikilink") and [getBirdsEnabled](/getBirdsEnabled.md "wikilink")
+-   Introduced new client-side scripting functions - [setBirdsEnabled](/docs/setbirdsenabled.md "wikilink") and [getBirdsEnabled](/docs/getbirdsenabled.md "wikilink")
 -   Included a new gui skin - [Lighter black](http://forum.mtasa.com/viewtopic.php?f=139&t=36010#p371815) - contributed by Aibo
 
 ### Minor Updates

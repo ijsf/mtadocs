@@ -28,7 +28,7 @@ Syntax
 
 ### Returns
 
-Returns a water element if successful, *false* otherwise. The water element can be repositioned with [setElementPosition](/docs/setelementposition.md "wikilink") and destroyed with [destroyElement](/destroyElement.md "wikilink").
+Returns a water element if successful, *false* otherwise. The water element can be repositioned with [setElementPosition](/docs/setelementposition.md "wikilink") and destroyed with [destroyElement](/docs/destroyelement.md "wikilink").
 
 Example
 -------

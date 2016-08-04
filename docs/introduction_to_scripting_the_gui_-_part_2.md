@@ -7,7 +7,7 @@ Making the GUI
 
 ### Getting set up
 
-The first thing we need to do is create our GUI elements. For this tutorial we will be using one [window](/docs/element/gui/window.md "wikilink"), one [button](/Element/GUI/Button.md "wikilink") and one [label](/Element/GUI/Text_label.md "wikilink"). We will be using **absolute** position values.
+The first thing we need to do is create our GUI elements. For this tutorial we will be using one [window](/docs/element/gui/window.md "wikilink"), one [button](/docs/element/gui/button.md "wikilink") and one [label](/docs/element/gui/text_label.md "wikilink"). We will be using **absolute** position values.
 
 As noted in the [Previous tutorial](/docs/introduction_to_scripting_the_gui.md "wikilink"), all the GUI must be made client side.
 
@@ -322,7 +322,7 @@ function inactivePlayer(status)
 end
 ```
 
-Note the use of [triggerServerEvent](/docs/triggerserverevent.md "wikilink") to call the server. You should have experience with client-server interaction from the [Previous tutorial](/Introduction_to_Scripting_the_GUI.md "wikilink"). If not, you can go back and read the full explanation there.
+Note the use of [triggerServerEvent](/docs/triggerserverevent.md "wikilink") to call the server. You should have experience with client-server interaction from the [Previous tutorial](/docs/introduction_to_scripting_the_gui.md "wikilink"). If not, you can go back and read the full explanation there.
 
 We have now completed all the clientside code for this tutorial.
 
@@ -341,7 +341,7 @@ addEventHandler("clientKickInactivePlayer",root,kickInactivePlayer)
 
 **Make sure you add your event handler after you have defined your 'kickInactivePlayer' function.**
 
-Note the use of [addEvent](/docs/addevent.md "wikilink") and [addEventHandler](/addEventHandler.md "wikilink") on the server. You should have experience with client-server interaction from the [Previous tutorial](/Introduction_to_Scripting_the_GUI.md "wikilink"). If not, you can go back and read the full explanation there.
+Note the use of [addEvent](/docs/addevent.md "wikilink") and [addEventHandler](/docs/addeventhandler.md "wikilink") on the server. You should have experience with client-server interaction from the [Previous tutorial](/docs/introduction_to_scripting_the_gui.md "wikilink"). If not, you can go back and read the full explanation there.
 
 Finally, we will add the 'kickInactivePlayer' function to control kicking of the player:
 
@@ -367,7 +367,7 @@ Note the use of the 'client' variable, this is an MTA variable that holds the va
 </group>
 ```
 
-For more information on the [ACL](/docs/acl.md "wikilink"), see the [ACL](/ACL.md "wikilink") wiki page.
+For more information on the [ACL](/docs/acl.md "wikilink"), see the [ACL](/docs/acl.md "wikilink") wiki page.
 
 That concludes this tutorial. You should now have a fully working rules window for your server.
 

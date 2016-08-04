@@ -1,4 +1,4 @@
-This function is used to return the volume level of the specified [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink").
+This function is used to return the volume level of the specified [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink").
 
 Syntax
 ------
@@ -9,11 +9,11 @@ float getSoundVolume ( element theSound )
 
 ### Required Arguments
 
--   **theSound:** the [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") which volume you want to return.
+-   **theSound:** the [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") which volume you want to return.
 
 ### Returns
 
-Returns a [float](/docs/float.md "wikilink") representing the volume level of the [sound](/sound.md "wikilink") [element](/element.md "wikilink"), *false* if invalid arguments were passed.
+Returns a [float](/docs/float.md "wikilink") representing the volume level of the [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink"), *false* if invalid arguments were passed.
 
 Example
 -------

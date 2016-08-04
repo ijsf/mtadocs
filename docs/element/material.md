@@ -1,4 +1,4 @@
-The material class represents a source of renderable information which can be used in functions such as [dxDrawImage](/docs/dxdrawimage.md "wikilink"), [dxDrawImageSection](/dxDrawImageSection.md "wikilink") and [dxDrawMaterialSectionLine3D](/dxDrawMaterialSectionLine3D.md "wikilink").
+The material class represents a source of renderable information which can be used in functions such as [dxDrawImage](/docs/dxdrawimage.md "wikilink"), [dxDrawImageSection](/docs/dxdrawimagesection.md "wikilink") and [dxDrawMaterialSectionLine3D](/docs/dxdrawmaterialsectionline3d.md "wikilink").
 
 Elements which are materials:
 

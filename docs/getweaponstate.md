@@ -13,7 +13,7 @@ string getWeaponState ( weapon theWeapon )
 
 ### Returns
 
--   A [string](/docs/string.md "wikilink") if the [weapon](/Element/Weapon.md "wikilink") is valid, indicating the weapon state, which can be:
+-   A [string](/docs/string.md "wikilink") if the [weapon](/docs/element/weapon.md "wikilink") is valid, indicating the weapon state, which can be:
     -   **reloading**: the weapon is reloading.
     -   **firing**: the weapon is constantly shooting (unless any shooting blocking flags are set) according to its assigned firing rate.
     -   **ready**: the weapon is idle.

@@ -47,7 +47,7 @@ Version 1.0.x was released with the GPLv3 license this allowed to work with more
     -   Fixes for various crashes and issues. (including “warp glitch”, inaccurate heat seekers sync, createProjectile() velocity desync between clients, custom models texture crash, “white models” when using custom models and more)
     -   Added functionality to protect client-side scripts which pre-compiles them before being sent and stops resources from being saved on disk. This is configurable in the resource's meta.xml.
     -   Added pixel manipulation functionality.
-    -   Introduced new client-side scripting functions - [setBirdsEnabled](/docs/setbirdsenabled.md "wikilink") and [getBirdsEnabled](/getBirdsEnabled.md "wikilink")
+    -   Introduced new client-side scripting functions - [setBirdsEnabled](/docs/setbirdsenabled.md "wikilink") and [getBirdsEnabled](/docs/getbirdsenabled.md "wikilink")
     -   Included a new gui skin - [Lighter black](http://forum.mtasa.com/viewtopic.php?f=139&t=36010#p371815) - contributed by Aibo
 -   **September 3, 2012 MTA:San Andreas 1.3.1 released**
     -   Added support for Windows 8
@@ -149,7 +149,7 @@ References
 <references/>
 [Category:Historical](/docs/category:historical.md "wikilink")
 
-[pl:Multi\_Theft\_Auto](/docs/pl:multi_theft_auto.md "wikilink") [es:Multi\_Theft\_Auto](/es:Multi_Theft_Auto.md "wikilink")
+[pl:Multi\_Theft\_Auto](/docs/pl:multi_theft_auto.md "wikilink") [es:Multi\_Theft\_Auto](/docs/es:multi_theft_auto.md "wikilink")
 
 [1] Trilogy: Grand Theft Auto III, Grand Theft Auto: Vice City and Grand Theft Auto: San Andreas
 

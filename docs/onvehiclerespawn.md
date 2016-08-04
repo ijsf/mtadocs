@@ -12,7 +12,7 @@ bool exploded
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [vehicle](/vehicle.md "wikilink") that respawned.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [vehicle](/docs/vehicle.md "wikilink") that respawned.
 
 Example
 -------

@@ -7,7 +7,7 @@ Parameters
 int weaponID, ped responsiblePed
 ```
 
--   **weapon:** an [int](/docs/int.md "wikilink") representing the ID of the [weapon](/weapon.md "wikilink") which caused the choking.
+-   **weapon:** an [int](/docs/int.md "wikilink") representing the ID of the [weapon](/docs/weapon.md "wikilink") which caused the choking.
 -   **responsiblePed:** the ped responsible for causing the choking, possiblly nil.
 
 Source

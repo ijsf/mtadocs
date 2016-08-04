@@ -9,7 +9,7 @@ Scripting
 
 ### Client
 
--   Added [createSearchLight](/docs/createsearchlight.md "wikilink"), [getSearchLightStartPosition](/getSearchLightStartPosition.md "wikilink"), [getSearchLightEndPosition](/getSearchLightEndPosition.md "wikilink"), [getSearchLightStartRadius](/getSearchLightStartRadius.md "wikilink"), [getSearchLightEndRadius](/getSearchLightEndRadius.md "wikilink"), [setSearchLightStartPosition](/setSearchLightStartPosition.md "wikilink"), [setSearchLightEndPosition](/setSearchLightEndPosition.md "wikilink"), [setSearchLightStartRadius](/setSearchLightStartRadius.md "wikilink"), [setSearchLightEndRadius](/setSearchLightEndRadius.md "wikilink")
+-   Added [createSearchLight](/docs/createsearchlight.md "wikilink"), [getSearchLightStartPosition](/docs/getsearchlightstartposition.md "wikilink"), [getSearchLightEndPosition](/docs/getsearchlightendposition.md "wikilink"), [getSearchLightStartRadius](/docs/getsearchlightstartradius.md "wikilink"), [getSearchLightEndRadius](/docs/getsearchlightendradius.md "wikilink"), [setSearchLightStartPosition](/docs/setsearchlightstartposition.md "wikilink"), [setSearchLightEndPosition](/docs/setsearchlightendposition.md "wikilink"), [setSearchLightStartRadius](/docs/setsearchlightstartradius.md "wikilink"), [setSearchLightEndRadius](/docs/setsearchlightendradius.md "wikilink")
 -   Added [setWindowFlashing](/docs/setwindowflashing.md "wikilink")
 -   Fixed position calculation in [dxGetTexturePixels](/docs/dxgettexturepixels.md "wikilink") (thanks to tederis)
 -   Added UsingDepthBuffer flag to [dxGetStatus](/docs/dxgetstatus.md "wikilink")
@@ -18,7 +18,7 @@ Scripting
 
 -   Added [dbPrepareString](/docs/dbpreparestring.md "wikilink")
 -   Fixed *Player.outputChat* behaving incorrectly
--   Added [onPlayerACInfo](/docs/onplayeracinfo.md "wikilink") and [resendPlayerACInfo](/resendPlayerACInfo.md "wikilink")
+-   Added [onPlayerACInfo](/docs/onplayeracinfo.md "wikilink") and [resendPlayerACInfo](/docs/resendplayeracinfo.md "wikilink")
 
 ### Shared (*Client & Server side*)
 

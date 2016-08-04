@@ -14,7 +14,7 @@ bool setBlipSize ( blip theBlip, int iconSize )
 
 ### Returns
 
-Returns an *true* if the blip's size was set successfully. Returns *false* if the [element](/docs/element.md "wikilink") passed was not a [blip](/blip.md "wikilink") or if the icon size passed was invalid.
+Returns an *true* if the blip's size was set successfully. Returns *false* if the [element](/docs/element.md "wikilink") passed was not a [blip](/docs/blip.md "wikilink") or if the icon size passed was invalid.
 
 Example
 -------

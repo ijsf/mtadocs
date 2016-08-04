@@ -24,7 +24,7 @@ These are the buttons in the main menu:
 -   ![Editor\_Locations.png](/images/editor_locations.png) Stored game world locations. The editor comes with a great list of San Andreas Interior locations but you can also add your own interior and non-interior locations to the list.
 -   ![Editor\_Current\_elements.png](/images/editor_current_elements.png) List all the elements the map contains (objects, vehicles, markers, pickups etc.)
 -   ![Editor\_Map\_settings.png](/images/editor_map_settings.png) Map specific settings, like time of day, gravity etc. Here you can also specify what gamemodes the map is compatible with.
--   ![Editor\_Definitions.png](/images/editor_definitions.png) Load [editor definition files (EDF)](/Resource:Editor/EDF.md "wikilink") that you want to use.
+-   ![Editor\_Definitions.png](/docs/images/editor_definitions.png) load [editor definition files (edf)](/resource:editor/edf.md "wikilink") that you want to use.
 -   ![Editor\_Test.png](/images/editor_test.png) Go into play mode to try out the map. This will load up the gamemode the map is made for.
 
 ### Element menu
@@ -283,4 +283,4 @@ Sometimes resetting the map editor will solve certain issues. The easiest way to
 
 Please use the official [bugtracker](http://bugs.mtasa.com) for reporting bugs. Feel free to also join us on [IRC](http://www.multitheftauto.com/irc.html).
 
-[ru:<Resource:Editor>](/docs/ru:resource:editor.md "wikilink") [es:<Resource:Editor>](/es:Resource:Editor.md "wikilink")
+[ru:<Resource:Editor>](/docs/ru:resource:editor.md "wikilink") [es:<Resource:Editor>](/docs/es:resource:editor.md "wikilink")

@@ -1,4 +1,4 @@
-This event is triggered when an physical [element](/docs/element.md "wikilink") hits a [colshape](/colshape.md "wikilink").
+This event is triggered when an physical [element](/docs/element.md "wikilink") hits a [colshape](/docs/colshape.md "wikilink").
 
 **NOTE**: The hit won't be detected if the [element](/docs/element.md "wikilink") that entered the colshape is a colshape or projectile.
 

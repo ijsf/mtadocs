@@ -74,7 +74,7 @@ Scripting
 
 ### Scripting: Changes, Bugfixes and Additions
 
--   Added *throttled* parameter to [playSound](/docs/playsound.md "wikilink") and [playSound3D](/playSound3D.md "wikilink")
+-   Added *throttled* parameter to [playSound](/docs/playsound.md "wikilink") and [playSound3D](/docs/playsound3d.md "wikilink")
 -   Added resource meta option <download_priority_group> to allow certain client resources to download and start earlier or later than other resources when a player first connects to a server.
 -   Added number of simultaneous render targets capability to [dxGetStatus](/docs/dxgetstatus.md "wikilink").
 -   Added an option to [addAccount](/docs/addaccount.md "wikilink") to check for case insensitive name clashes.
@@ -135,4 +135,4 @@ Extra information
 
 :\* [MTA: SA Official Resources](https://github.com/multitheftauto/mtasa-resources)
 
-[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Incomplete](/docs/category:incomplete.md "wikilink")

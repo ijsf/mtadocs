@@ -12,7 +12,7 @@ pickup thePickupToUse
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that is standing on a pickup.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/player.md "wikilink") that is standing on a pickup.
 
 Cancel effect
 -------------

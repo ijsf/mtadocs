@@ -1,6 +1,6 @@
 This function is used to give a ped a jetpack, it won't work if the ped is in a vehicle.
 
-As such, you should either expect it to fail sometimes, or repeatedly try to give a jetpack every second or so until [doesPedHaveJetPack](/docs/doespedhavejetpack.md "wikilink") returns true. Alternatively, you can force the ped into a 'safe' position (e.g. standing on the ground) before giving the jetpack, or use a [pickup](/pickup.md "wikilink") to handle it.
+As such, you should either expect it to fail sometimes, or repeatedly try to give a jetpack every second or so until [doesPedHaveJetPack](/docs/doespedhavejetpack.md "wikilink") returns true. Alternatively, you can force the ped into a 'safe' position (e.g. standing on the ground) before giving the jetpack, or use a [pickup](/docs/pickup.md "wikilink") to handle it.
 
 Syntax
 ------

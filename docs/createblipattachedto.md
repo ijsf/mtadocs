@@ -1,4 +1,4 @@
-This function creates a [blip](/docs/blip.md "wikilink") that is attached to an [element](/element.md "wikilink"). This blip is displayed as an icon on the client's radar and will 'follow' the element that it is attached to around.
+This function creates a [blip](/docs/blip.md "wikilink") that is attached to an [element](/docs/element.md "wikilink"). This blip is displayed as an icon on the client's radar and will 'follow' the element that it is attached to around.
 
 Syntax
 ------

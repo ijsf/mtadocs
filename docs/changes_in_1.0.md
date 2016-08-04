@@ -87,4 +87,4 @@ The [Camera Functions](/docs/server_scripting_functions#camera_functions.md "wik
 
 ### Player functions
 
-Some [Player functions](/docs/server_scripting_functions#player_functions.md "wikilink") have been renamed to [Ped functions](/Server_Scripting_Functions#Ped_functions.md "wikilink"). [Category:Changelog](/Category:Changelog.md "wikilink") [Category:Changes in 1.0](/Category:Changes_in_1.0.md "wikilink")
+Some [Player functions](/docs/server_scripting_functions#player_functions.md "wikilink") have been renamed to [Ped functions](/docs/server_scripting_functions#ped_functions.md "wikilink"). [Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Changes in 1.0](/docs/category:changes_in_1.0.md "wikilink")

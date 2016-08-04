@@ -10,7 +10,7 @@ string getPedSimplestTask ( ped thePed )
 
 ### Required Arguments
 
--   **thePed**: The [ped](/docs/ped.md "wikilink") whose [task](/task.md "wikilink") you want to retrieve.
+-   **thePed**: The [ped](/docs/ped.md "wikilink") whose [task](/docs/task.md "wikilink") you want to retrieve.
 
 ### Returns
 

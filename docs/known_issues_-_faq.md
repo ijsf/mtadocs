@@ -368,6 +368,6 @@ No known reported issues in .
   
 Temporary fix, disable the nohup file: 'nohup ./mta\_server &gt; /dev/null &'
 
-[es:Problemas Conocidos - FAQ](/docs/es:problemas_conocidos_-_faq.md "wikilink") [it:Bugs noti e FAQ](/it:Bugs_noti_e_FAQ.md "wikilink") [ru:Known Issues - FAQ](/ru:Known_Issues_-_FAQ.md "wikilink") [de:Known Issues - FAQ](/de:Known_Issues_-_FAQ.md "wikilink") [pt-br:Soluções de Problemas - FAQ](/pt-br:Soluções_de_Problemas_-_FAQ.md "wikilink") [hu:Known Issues - FAQ](/hu:Known_Issues_-_FAQ.md "wikilink") [zh-cn:已知问题 - 常见问题](/zh-cn:已知问题_-_常见问题.md "wikilink")
+[es:Problemas Conocidos - FAQ](/docs/es:problemas_conocidos_-_faq.md "wikilink") [it:Bugs noti e FAQ](/docs/it:bugs_noti_e_faq.md "wikilink") [ru:Known Issues - FAQ](/docs/ru:known_issues_-_faq.md "wikilink") [de:Known Issues - FAQ](/docs/de:known_issues_-_faq.md "wikilink") [pt-br:Soluções de Problemas - FAQ](/docs/pt-br:soluções_de_problemas_-_faq.md "wikilink") [hu:Known Issues - FAQ](/docs/hu:known_issues_-_faq.md "wikilink") [zh-cn:已知问题 - 常见问题](/docs/zh-cn:已知问题_-_常见问题.md "wikilink")
 
 [Category:Support](/docs/category:support.md "wikilink")

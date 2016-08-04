@@ -1,4 +1,4 @@
-This function returns an integer that contains the total ammo in a specified [ped](/docs/ped.md "wikilink")'s weapon. See [Weapon Info](/weapon.md "wikilink")
+This function returns an integer that contains the total ammo in a specified [ped](/docs/ped.md "wikilink")'s weapon. See [Weapon Info](/docs/weapon.md "wikilink")
 
 Syntax
 ------

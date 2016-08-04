@@ -1,4 +1,4 @@
-This function allows you to register a custom [event](/docs/event.md "wikilink"). Custom events function exactly like the built-in events. See [event system](/event_system.md "wikilink") for more information on the event system.
+This function allows you to register a custom [event](/docs/event.md "wikilink"). Custom events function exactly like the built-in events. See [event system](/docs/event_system.md "wikilink") for more information on the event system.
 
 Syntax
 ------
@@ -13,7 +13,7 @@ bool addEvent ( string eventName [, bool allowRemoteTrigger = false ] )
 
 ### Optional Arguments
 
--   **allowRemoteTrigger:** A boolean specifying whether this event can be called remotely using [triggerClientEvent](/docs/triggerclientevent.md "wikilink") / [triggerServerEvent](/triggerServerEvent.md "wikilink") or not.
+-   **allowRemoteTrigger:** A boolean specifying whether this event can be called remotely using [triggerClientEvent](/docs/triggerclientevent.md "wikilink") / [triggerServerEvent](/docs/triggerserverevent.md "wikilink") or not.
 
 ### Returns
 

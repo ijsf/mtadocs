@@ -1,4 +1,4 @@
-Creates a [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") in the GTA world and plays it immediately after creation for the local player. [setElementPosition](/setElementPosition.md "wikilink") can be used to move the [sound](/sound.md "wikilink") element around after it has been created. Remember to use [setElementDimension](/setElementDimension.md "wikilink") after creating the sound to play it outside of dimension 0.
+Creates a [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") in the GTA world and plays it immediately after creation for the local player. [setElementPosition](/docs/setelementposition.md "wikilink") can be used to move the [sound](/docs/sound.md "wikilink") element around after it has been created. Remember to use [setElementDimension](/docs/setelementdimension.md "wikilink") after creating the sound to play it outside of dimension 0.
 
 Syntax
 ------
@@ -13,7 +13,7 @@ Syntax
 
 ### Required Arguments
 
--   **soundPath:** the [filepath](/docs/filepath.md "wikilink") to the sound file you want to play. (Sound file has to be predefined in the [meta.xml](/meta.xml.md "wikilink") file with <file /> tag. And also can use url instead of [filepath](/filepath.md "wikilink") )
+-   **soundPath:** the [filepath](/docs/filepath.md "wikilink") to the sound file you want to play. (Sound file has to be predefined in the [meta.xml](/docs/meta.xml.md "wikilink") file with <file /> tag. And also can use url instead of [filepath](/docs/filepath.md "wikilink") )
 -   **soundURL:** the URL. (In this version the file does not has to be predefined in the [meta.xml](/docs/meta.xml.md "wikilink") )
 -   **x:** a [floating](/docs/float.md "wikilink") point number representing the X coordinate on the map.
 -   **y:** a [floating](/docs/float.md "wikilink") point number representing the Y coordinate on the map.
@@ -25,7 +25,7 @@ Syntax
 
 ### Returns
 
-Returns a [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") if the sound was successfully created, *false* otherwise.
+Returns a [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") if the sound was successfully created, *false* otherwise.
 
 Example
 -------
@@ -57,4 +57,4 @@ addEventHandler( 'onClientResourceStart', resourceRoot,
 See Also
 --------
 
-[AR:playSound3D](/docs/ar:playsound3d.md "wikilink") [DE:playSound3D](/DE:playSound3D.md "wikilink") [RU:playSound3D](/RU:playSound3D.md "wikilink")
+[AR:playSound3D](/docs/ar:playsound3d.md "wikilink") [DE:playSound3D](/docs/de:playsound3d.md "wikilink") [RU:playSound3D](/docs/ru:playsound3d.md "wikilink")

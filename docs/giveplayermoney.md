@@ -1,4 +1,4 @@
-This function adds money to a [player](/docs/player.md "wikilink")'s current money amount. To set absolute values, [setPlayerMoney](/setPlayerMoney.md "wikilink") can be used.
+This function adds money to a [player](/docs/player.md "wikilink")'s current money amount. To set absolute values, [setPlayerMoney](/docs/setplayermoney.md "wikilink") can be used.
 
 Syntax
 ------

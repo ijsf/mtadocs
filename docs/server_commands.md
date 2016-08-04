@@ -287,4 +287,4 @@ Usage: teamsay *<test>*
 
 Send a message to all players on the same team
 
-[Category: Support](/docs/category:_support.md "wikilink") [ru:Server Commands](/ru:Server_Commands.md "wikilink")
+[Category: Support](/docs/category:_support.md "wikilink") [ru:Server Commands](/docs/ru:server_commands.md "wikilink")

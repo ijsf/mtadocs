@@ -24,7 +24,7 @@ projectile createProjectile ( element creator, int weaponType [, float posX, flo
 Returns
 -------
 
-Returns a *[projectile](/docs/projectile.md "wikilink")* element if [projectile](/projectile.md "wikilink") creation was successful. Returns *false* if unable to create a [projectile](/projectile.md "wikilink") (wrong weapon ID or projectiles limit was reached).
+Returns a *[projectile](/docs/projectile.md "wikilink")* element if [projectile](/docs/projectile.md "wikilink") creation was successful. Returns *false* if unable to create a [projectile](/docs/projectile.md "wikilink") (wrong weapon ID or projectiles limit was reached).
 
 Example
 -------

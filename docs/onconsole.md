@@ -12,7 +12,7 @@ string theMessage
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that entered the message in the console. This can be a player or the server console.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/player.md "wikilink") that entered the message in the console. This can be a player or the server console.
 
 Example
 -------

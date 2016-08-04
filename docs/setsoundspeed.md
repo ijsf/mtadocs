@@ -1,4 +1,4 @@
-This function can be used to change the playback speed of the specified [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink").
+This function can be used to change the playback speed of the specified [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink").
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool setSoundSpeed ( element theSound, float speed )
 
 ### Required Arguments
 
--   **theSound:** the [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") which volume you want to modify.
+-   **theSound:** the [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") which volume you want to modify.
 -   **speed:** a [floating](/docs/float.md "wikilink") point number representing the desired sound playback speed.
 
 ### Returns

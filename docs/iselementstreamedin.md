@@ -1,4 +1,4 @@
-This function checks whether an [element](/docs/element.md "wikilink") is currently streamed in (not virtualized) and are actual GTA objects in the world. You can force an element to be streamed in using [setElementStreamable](/setElementStreamable.md "wikilink").
+This function checks whether an [element](/docs/element.md "wikilink") is currently streamed in (not virtualized) and are actual GTA objects in the world. You can force an element to be streamed in using [setElementStreamable](/docs/setelementstreamable.md "wikilink").
 
 Syntax
 ------

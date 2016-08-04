@@ -107,4 +107,4 @@ Extra information
 
 :\* [MTA: SA Official Resources](https://github.com/multitheftauto/mtasa-resources)
 
-[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Incomplete](/docs/category:incomplete.md "wikilink")

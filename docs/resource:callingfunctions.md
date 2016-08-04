@@ -1,4 +1,4 @@
-This resource was made off of the functions: [CallClientFunction](/docs/callclientfunction.md "wikilink") and [CallServerFunction](/CallServerFunction.md "wikilink")
+This resource was made off of the functions: [CallClientFunction](/docs/callclientfunction.md "wikilink") and [CallServerFunction](/docs/callserverfunction.md "wikilink")
 
 Calling Functions
 -----------------

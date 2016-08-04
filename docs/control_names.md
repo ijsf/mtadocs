@@ -1,4 +1,4 @@
-This page lists all the control names. These can be used as key arguments by the console commands *bind* and *unbind* as well as the script functions [bindKey](/docs/bindkey.md "wikilink"), [unbindKey](/unbindKey.md "wikilink") etc.
+This page lists all the control names. These can be used as key arguments by the console commands *bind* and *unbind* as well as the script functions [bindKey](/docs/bindkey.md "wikilink"), [unbindKey](/docs/unbindkey.md "wikilink") etc.
 
 Lua table of all the valid control names listed on this page:
 
@@ -56,8 +56,8 @@ IN VEHICLE
 -   **steer\_back** Make the player's vehicle turn up (lean backwards for helicopters/planes)
 -   **accelerate** Make the player's vehicle accelerate
 -   **brake\_reverse** Make the player's vehicle brake (slow down) and if stationary reverse
--   **radio\_next** Change to the next radio station (Doesn't work - use [setRadioChannel](/docs/setradiochannel.md "wikilink") and [onClientPlayerRadioSwitch](/onClientPlayerRadioSwitch.md "wikilink") instead.)
--   **radio\_previous** Change to the previous radio station (Doesn't work - use [setRadioChannel](/docs/setradiochannel.md "wikilink") and [onClientPlayerRadioSwitch](/onClientPlayerRadioSwitch.md "wikilink") instead.)
+-   **radio\_next** Change to the next radio station (Doesn't work - use [setRadioChannel](/docs/setradiochannel.md "wikilink") and [onClientPlayerRadioSwitch](/docs/onclientplayerradioswitch.md "wikilink") instead.)
+-   **radio\_previous** Change to the previous radio station (Doesn't work - use [setRadioChannel](/docs/setradiochannel.md "wikilink") and [onClientPlayerRadioSwitch](/docs/onclientplayerradioswitch.md "wikilink") instead.)
 -   **radio\_user\_track\_skip** Skip the current track being played on the custom radio station
 -   **horn** Play the horn of the player's vehicle (if the vehicle has a horn) and can trigger the siren on emergency vehicles
 -   **sub\_mission** Start a submission if one is avaliable (e.g. taxi missions)
@@ -76,7 +76,7 @@ IN VEHICLE
 MTA hard-coded commands
 -----------------------
 
-The following are names of hard-coded MTA commands which do not use bindKey, but can act as bindKey by using them in an [addCommandHandler](/docs/addcommandhandler.md "wikilink"). Other than that, this control list will **only** work with the functions [toggleControl](/toggleControl.md "wikilink") and [toggleAllControls](/toggleAllControls.md "wikilink"). Please note that [toggleControl](/toggleControl.md "wikilink") can't disable screenshot.
+The following are names of hard-coded MTA commands which do not use bindKey, but can act as bindKey by using them in an [addCommandHandler](/docs/addcommandhandler.md "wikilink"). Other than that, this control list will **only** work with the functions [toggleControl](/docs/togglecontrol.md "wikilink") and [toggleAllControls](/docs/toggleallcontrols.md "wikilink"). Please note that [toggleControl](/docs/togglecontrol.md "wikilink") can't disable screenshot.
 
 <div style="border:3px solid blue;margin-bottom:3px;">
 <div

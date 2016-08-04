@@ -93,7 +93,7 @@ We can now simply call updateDisplay(our text) to change the text on the display
 
 With so many buttons that do very similar tasks on our keypad, there are two methods available to us for detecting when a player clicks on them.
 
-We could add [onClientGUIClick](/docs/onclientguiclick.md "wikilink") events for every button individually, as we have done in previous tutorials; Or, alternatively, we could add a single [onClientGUIClick](/onClientGUIClick.md "wikilink") handle for the window (which is the parent of all our other keypad GUI elements), filter our results to include only the buttons we want and trigger our own custom event.
+We could add [onClientGUIClick](/docs/onclientguiclick.md "wikilink") events for every button individually, as we have done in previous tutorials; Or, alternatively, we could add a single [onClientGUIClick](/docs/onclientguiclick.md "wikilink") handle for the window (which is the parent of all our other keypad GUI elements), filter our results to include only the buttons we want and trigger our own custom event.
 
 For the purposes of this tutorial and in the interest of outlining multiple approaches, we will explore the second method, though either one is an acceptable solution.
 
@@ -134,7 +134,7 @@ addEventHandler("onKeypadButtonClicked",root,
 )
 ```
 
-Note the second argument in [addEvent](/docs/addevent.md "wikilink") is set to false, indicating that this event cannot be triggered from the server. Also note, the function we are using in the [addEventHandler](/addEventHandler.md "wikilink") does not have a name. If you contract it down and remove the spacing, you get:
+Note the second argument in [addEvent](/docs/addevent.md "wikilink") is set to false, indicating that this event cannot be triggered from the server. Also note, the function we are using in the [addEventHandler](/docs/addeventhandler.md "wikilink") does not have a name. If you contract it down and remove the spacing, you get:
 
 ``` lua
 addEventHandler("onKeypadButtonClicked",root,function() ... end)
@@ -288,7 +288,7 @@ Navigate to your resource folder and make a new file called gate.map, then add y
 <map src="gate.map"/>
 ```
 
-*If you are unsure of map file syntax, please see the [Writing Gamemodes Tutorial](/docs/writing_gamemodes.md "wikilink") or check the [Object](/Object.md "wikilink") page for help.*
+*If you are unsure of map file syntax, please see the [Writing Gamemodes Tutorial](/docs/writing_gamemodes.md "wikilink") or check the [Object](/docs/object.md "wikilink") page for help.*
 
 ``` lua
 <map>

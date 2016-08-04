@@ -18,4 +18,4 @@ Here is a list of every default string manipulation function present in Lua.
 
 [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
 
-[de:string](/docs/de:string.md "wikilink") [ru:String](/ru:String.md "wikilink")
+[de:string](/docs/de:string.md "wikilink") [ru:String](/docs/ru:string.md "wikilink")

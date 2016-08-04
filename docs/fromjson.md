@@ -1,4 +1,4 @@
-This function parses a [JSON](/docs/json.md "wikilink") formatted string into variables. You can use [toJSON](/toJSON.md "wikilink") to encode variables into a JSON string that can be read by this function.
+This function parses a [JSON](/docs/json.md "wikilink") formatted string into variables. You can use [toJSON](/docs/tojson.md "wikilink") to encode variables into a JSON string that can be read by this function.
 
 Syntax
 ------
@@ -15,7 +15,7 @@ var fromJSON ( string json )
 
 Returns variables read from the JSON string.
 
-**Note:** Indices of a JSON object such as “1”: “cat” are being returned as [string](/docs/string.md "wikilink"), not as [integer](/int.md "wikilink").
+**Note:** Indices of a JSON object such as “1”: “cat” are being returned as [string](/docs/string.md "wikilink"), not as [integer](/docs/int.md "wikilink").
 
 Example
 -------

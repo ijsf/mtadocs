@@ -1,4 +1,4 @@
-This function sets the owner (which is a [player](/docs/player.md "wikilink")) of a [custom weapon](/Element/Weapon.md "wikilink"). The owner of a weapon was used for lag compensation, and it was also intended to only allow him to shoot the weapon.
+This function sets the owner (which is a [player](/docs/player.md "wikilink")) of a [custom weapon](/docs/element/weapon.md "wikilink"). The owner of a weapon was used for lag compensation, and it was also intended to only allow him to shoot the weapon.
 
 Syntax
 ------

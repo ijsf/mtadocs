@@ -46,7 +46,7 @@ You can manage your settings with the default [admin](/docs/resource:admin.md "w
 Scripting functions
 -------------------
 
-There are two scripting functions in the setting system: [set](/docs/set.md "wikilink") and [get](/get.md "wikilink").
+There are two scripting functions in the setting system: [set](/docs/set.md "wikilink") and [get](/docs/get.md "wikilink").
 
 Console functions
 -----------------

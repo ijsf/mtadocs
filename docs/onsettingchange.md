@@ -8,13 +8,13 @@ string setting, string oldValue, string newValue
 ```
 
 -   **setting**: The setting which was changed. For instance: "\*race.ghostmode"
--   **oldValue**: The previous value. Please note that this value is in [JSON](/docs/json.md "wikilink"). To get a normal Lua value, use [fromJSON](/fromJSON.md "wikilink")
+-   **oldValue**: The previous value. Please note that this value is in [JSON](/docs/json.md "wikilink"). To get a normal Lua value, use [fromJSON](/docs/fromjson.md "wikilink")
 -   **newValue**: The new value. Also in [JSON](/docs/json.md "wikilink")
 
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [root element](/root_element.md "wikilink").
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [root element](/docs/root_element.md "wikilink").
 
 Example
 -------

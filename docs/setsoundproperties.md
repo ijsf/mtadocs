@@ -7,7 +7,7 @@ bool setSoundProperties(element sound, float fSampleRate, float fTempo, float fP
 
 ### Required Arguments
 
--   **sound:** a [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") that is created using [playSound](/playSound.md "wikilink") or [playSound3D](/playSound3D.md "wikilink")
+-   **sound:** a [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") that is created using [playSound](/docs/playsound.md "wikilink") or [playSound3D](/docs/playsound3d.md "wikilink")
 
 <!-- -->
 

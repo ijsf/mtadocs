@@ -9,7 +9,7 @@ nil mysqlClose ( mysql mysqlobj )
 
 ### Required Arguments
 
--   **mysqlobj** : The [mysql](/docs/mysql.md "wikilink") object created by [mysqlCreate](/Modules/MySQL/MysqlCreate.md "wikilink")
+-   **mysqlobj** : The [mysql](/docs/mysql.md "wikilink") object created by [mysqlCreate](/docs/modules/mysql/mysqlcreate.md "wikilink")
 
 ### Optional Arguments
 

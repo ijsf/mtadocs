@@ -20,7 +20,7 @@ player attacker, int attackerweapon, int bodypart, float loss
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who was damaged.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/player.md "wikilink") who was damaged.
 
 Example
 -------

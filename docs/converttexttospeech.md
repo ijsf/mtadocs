@@ -25,7 +25,7 @@ Returns
 
 -   This function returns *[nil](/docs/nil.md "wikilink")* and outputs an error if an argument it's not valid.
 -   If called serverside and if all arguments are valid, this function returns *true* if the client was successully told to play the TTS (althrough this doesn't mean that the client will always play the speech); *false* otherwise.
--   If called clientside and if all arguments are valid, this function returns *true*, the corresponding [sound](/docs/sound.md "wikilink") element and its URL if the sound could theorically be played (althrough it may not play); *[nil](/nil.md "wikilink")* otherwise.
+-   If called clientside and if all arguments are valid, this function returns *true*, the corresponding [sound](/docs/sound.md "wikilink") element and its URL if the sound could theorically be played (althrough it may not play); *[nil](/docs/nil.md "wikilink")* otherwise.
 
 Function source
 ---------------

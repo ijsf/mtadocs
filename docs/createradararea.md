@@ -23,7 +23,7 @@ radararea createRadarArea ( float leftX, float bottomY, float sizeX, float sizeY
 
 ### Optional Arguments
 
--   **visibleTo:** An [element](/docs/element.md "wikilink") that you wish to restrict the [visibility](/visibility.md "wikilink") of the radar area to. (Server function only)
+-   **visibleTo:** An [element](/docs/element.md "wikilink") that you wish to restrict the [visibility](/docs/visibility.md "wikilink") of the radar area to. (Server function only)
 
 Example
 -------

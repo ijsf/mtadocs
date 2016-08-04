@@ -128,7 +128,7 @@ end
 
 ### Managing the click
 
-Now that we have our GUI completed, we need to be able to catch any clicks made on the “create” button. We have attached the [onClientGUIClick](/docs/onclientguiclick.md "wikilink") event to buttonCreate already, so now we need to write the function that it calls. In this function we do some basic error checking, such as making sure a vehicle has been selected in the list. We can then use some maths to find a position infront of the player and send the server this information to spawn the vehicle (using [triggerServerEvent](/triggerServerEvent.md "wikilink"))
+Now that we have our GUI completed, we need to be able to catch any clicks made on the “create” button. We have attached the [onClientGUIClick](/docs/onclientguiclick.md "wikilink") event to buttonCreate already, so now we need to write the function that it calls. In this function we do some basic error checking, such as making sure a vehicle has been selected in the list. We can then use some maths to find a position infront of the player and send the server this information to spawn the vehicle (using [triggerServerEvent](/docs/triggerserverevent.md "wikilink"))
 
 ``` lua
 function createVehicleHandler(button,state)
@@ -173,7 +173,7 @@ end
 
 At this point we now have all the code needed on the client side, so open up a serverside .lua file to work with.
 
-On the server side, we will first of all need to define the custom event that we triggered before from the client. This can be done using [addEvent](/docs/addevent.md "wikilink") and [addEventHandler](/addEventHandler.md "wikilink"). Finally we will need a small function for creating the vehicle:
+On the server side, we will first of all need to define the custom event that we triggered before from the client. This can be done using [addEvent](/docs/addevent.md "wikilink") and [addEventHandler](/docs/addeventhandler.md "wikilink"). Finally we will need a small function for creating the vehicle:
 
 ``` lua
 function createMyVehicle(vehicleid,x,y,z)

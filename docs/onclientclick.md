@@ -19,7 +19,7 @@ string button, string state, int absoluteX, int absoluteY, float worldX, float w
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the client's [root element](/docs/root_element.md "wikilink").
 
 Example
 -------

@@ -1,4 +1,4 @@
-This function is used to retrieve the distance between a [element](/docs/element.md "wikilink")'s centre of mass to the base of the model. This can be used to calculate the position the [element](/element.md "wikilink") has to be set to, to have it on ground level.
+This function is used to retrieve the distance between a [element](/docs/element.md "wikilink")'s centre of mass to the base of the model. This can be used to calculate the position the [element](/docs/element.md "wikilink") has to be set to, to have it on ground level.
 
 Syntax
 ------

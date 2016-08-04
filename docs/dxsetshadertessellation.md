@@ -1,4 +1,4 @@
-This function sets the amount of geometric sub-division to use when drawing a [shader](/docs/shader.md "wikilink") element with [dxDrawImage](/dxDrawImage.md "wikilink").
+This function sets the amount of geometric sub-division to use when drawing a [shader](/docs/shader.md "wikilink") element with [dxDrawImage](/docs/dxdrawimage.md "wikilink").
 
 Using tessellation allows a shader to manipulate the shape of the rendered image at each sub-division boundary.
 

@@ -1,4 +1,4 @@
-The client class represents any client that is connected to the server. Therefore, clients are created and destroyed automatically by players' connections or disconnections. They usually are the MTA: SA copy that a [player](/docs/player.md "wikilink") is using (so it has more information about the world), but it can also be the [server console](/Element/Console.md "wikilink").
+The client class represents any client that is connected to the server. Therefore, clients are created and destroyed automatically by players' connections or disconnections. They usually are the MTA: SA copy that a [player](/docs/player.md "wikilink") is using (so it has more information about the world), but it can also be the [server console](/docs/element/console.md "wikilink").
 
 All client-managing functions operate on both player and server console elements, so the element responsible for a kick can be the server console, for example. However, the server console is protected against some of that functions: it can't get kicked or banned.
 

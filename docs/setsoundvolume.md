@@ -1,4 +1,4 @@
-This function is used to change the volume level of the specified [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink"). Use a player element to control a players voice with this function.
+This function is used to change the volume level of the specified [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink"). Use a player element to control a players voice with this function.
 
 Syntax
 ------
@@ -9,12 +9,12 @@ bool setSoundVolume ( element theSound, float volume )
 
 ### Required Arguments
 
--   **theSound:** The [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") which volume you want to modify.
+-   **theSound:** The [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") which volume you want to modify.
 -   **volume:** A [floating](/docs/float.md "wikilink") point number representing the desired volume level. Range is from **0.0** to **1.0**
 
 ### Returns
 
-Returns *true* if the [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") volume was successfully changed, *false* otherwise.
+Returns *true* if the [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") volume was successfully changed, *false* otherwise.
 
 Example
 -------

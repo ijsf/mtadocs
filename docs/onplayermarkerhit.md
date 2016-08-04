@@ -1,4 +1,4 @@
-This event is triggered when a [player](/docs/player.md "wikilink") hits a [marker](/marker.md "wikilink").
+This event is triggered when a [player](/docs/player.md "wikilink") hits a [marker](/docs/marker.md "wikilink").
 
 Parameters
 ----------
@@ -13,7 +13,7 @@ marker markerHit, bool matchingDimension
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") that hit the marker.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/player.md "wikilink") that hit the marker.
 
 Example
 -------

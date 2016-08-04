@@ -1,4 +1,4 @@
-This function returns a [string](/docs/string.md "wikilink") containing the IP address of the [player](/player.md "wikilink").
+This function returns a [string](/docs/string.md "wikilink") containing the IP address of the [player](/docs/player.md "wikilink").
 
 Syntax
 ------
@@ -30,4 +30,4 @@ addCommandHandler ( "ip", printIp )
 See Also
 --------
 
-[de:getPlayerIP](/docs/de:getplayerip.md "wikilink") [ru:getPlayerIP](/ru:getPlayerIP.md "wikilink")
+[de:getPlayerIP](/docs/de:getplayerip.md "wikilink") [ru:getPlayerIP](/docs/ru:getplayerip.md "wikilink")

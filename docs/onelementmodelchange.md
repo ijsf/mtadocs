@@ -1,4 +1,4 @@
-This event is triggered when the model of an [element](/docs/element.md "wikilink") is changed using [setElementModel](/setElementModel.md "wikilink").
+This event is triggered when the model of an [element](/docs/element.md "wikilink") is changed using [setElementModel](/docs/setelementmodel.md "wikilink").
 
 Parameters
 ----------

@@ -1,4 +1,4 @@
-This function checks whether an [element](/docs/element.md "wikilink") is synced by the local player or not. Accepted elements are [peds](/ped.md "wikilink") and [vehicles](/vehicle.md "wikilink").
+This function checks whether an [element](/docs/element.md "wikilink") is synced by the local player or not. Accepted elements are [peds](/docs/ped.md "wikilink") and [vehicles](/docs/vehicle.md "wikilink").
 
 Syntax
 ------

@@ -50,7 +50,7 @@ Scripting
 
 ### Scripting: Changes, Bugfixes and Additions
 
--   Added option to specify timeout length for [callRemote](/docs/callremote.md "wikilink") and [fetchRemote](/fetchRemote.md "wikilink")
+-   Added option to specify timeout length for [callRemote](/docs/callremote.md "wikilink") and [fetchRemote](/docs/fetchremote.md "wikilink")
 -   Added error message parameter to [onPlayerScreenShot](/docs/onplayerscreenshot.md "wikilink") in case of failure
 -   Added rotation parameter for [dxDrawText](/docs/dxdrawtext.md "wikilink")
 -   Added flags (1 ignorecase; 2 multiline; 4 dotall; 8 extented) to preg functions
@@ -66,7 +66,7 @@ Scripting
 -   Fixed event handler *sourceResource* global variable
 -   Fixed [dxGetPixelsFormat](/docs/dxgetpixelsformat.md "wikilink") not recognising some jpeg files
 -   Fixed [dxCreateFont](/docs/dxcreatefont.md "wikilink") not closing the file after creating font
--   Fixed [onPedWasted](/docs/onpedwasted.md "wikilink") / [onClientPedWasted](/onClientPedWasted.md "wikilink") always returning 63 (blown) as weapon
+-   Fixed [onPedWasted](/docs/onpedwasted.md "wikilink") / [onClientPedWasted](/docs/onclientpedwasted.md "wikilink") always returning 63 (blown) as weapon
 -   Fixed [setPedStat](/docs/setpedstat.md "wikilink") being sometimes not synced to client
 -   Fixed [onClientSoundStopped](/docs/onclientsoundstopped.md "wikilink") sometimes being late
 -   Fixed [attachElements](/docs/attachelements.md "wikilink") with the camera not removing the camera target
@@ -75,8 +75,8 @@ Scripting
 -   Fixed Backspace key not working in NoCurses mode
 -   Fixed explosions created with [createExplosion](/docs/createexplosion.md "wikilink") passing through servers
 -   Fixed [isElementInWater](/docs/iselementinwater.md "wikilink") returning false with peds
--   Fixed [guiScrollPaneSetHorizontalScrollPosition](/docs/guiscrollpanesethorizontalscrollposition.md "wikilink") and [guiScrollPaneSetVerticalScrollPosition](/guiScrollPaneSetVerticalScrollPosition.md "wikilink") not correctly using floating point numbers
--   Disabled [destroyElement](/docs/destroyelement.md "wikilink") and [setElementParent](/setElementParent.md "wikilink") for the camera element
+-   Fixed [guiScrollPaneSetHorizontalScrollPosition](/docs/guiscrollpanesethorizontalscrollposition.md "wikilink") and [guiScrollPaneSetVerticalScrollPosition](/docs/guiscrollpanesetverticalscrollposition.md "wikilink") not correctly using floating point numbers
+-   Disabled [destroyElement](/docs/destroyelement.md "wikilink") and [setElementParent](/docs/setelementparent.md "wikilink") for the camera element
 -   Updated Lua to 5.1.5-2
 
 Client
@@ -122,7 +122,7 @@ Client
 -   Fixed a cursor alpha issue
 -   Fixed ped attached objects sliding when ped walks on slopes
 -   Fixed Intel clipping issues
--   Fixed [engineLoadTXD](/docs/engineloadtxd.md "wikilink") and [engineReplaceModel](/engineReplaceModel.md "wikilink") not properly closing invalid files
+-   Fixed [engineLoadTXD](/docs/engineloadtxd.md "wikilink") and [engineReplaceModel](/docs/enginereplacemodel.md "wikilink") not properly closing invalid files
 -   Fixed progress spinner not showing when server is using [latency reduction](/docs/mtaserver.conf#latency_reduction.md "wikilink")
 -   Fixed network trouble message causing WSOD when server is using [latency reduction](/docs/mtaserver.conf#latency_reduction.md "wikilink")
 -   Fixed progress spinner not showing when processing downloaded client files
@@ -148,7 +148,7 @@ Server
 -   Added option to enable optimized vehicle parts state sync - Details: [r6107](https://code.google.com/p/mtasa-blue/source/detail?r=6107)
 -   Added server option to log loadstring calls
 -   Added option to compact internal databases
--   Added option to automatically update [minclientversion](/docs/mtaserver.conf#minclientversion.md "wikilink") - Details: [minclientversion\_auto\_update](/mtaserver.conf#minclientversion_auto_update.md "wikilink")
+-   Added option to automatically update [minclientversion](/docs/mtaserver.conf#minclientversion.md "wikilink") - Details: [minclientversion\_auto\_update](/docs/mtaserver.conf#minclientversion_auto_update.md "wikilink")
 -   Added thread performance stats
 -   Added server stats for RPC packets
 -   Added server stats for usage of event and element data names
@@ -202,6 +202,6 @@ Extra information
 
 :\* [MTASA 1.3.5 released](http://forum.mtasa.com/viewtopic.php?f=31&t=71767)
 
-[Category:Changes in 1.3](/docs/category:changes_in_1.3.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Changes in 1.3](/docs/category:changes_in_1.3.md "wikilink") [Category:Incomplete](/docs/category:incomplete.md "wikilink")
 
-[pl:Changes in 1.3.5](/docs/pl:changes_in_1.3.5.md "wikilink") [pt-br:Novidades na versão 1.3.5](/pt-br:Novidades_na_versão_1.3.5.md "wikilink") [fi:Uutta versiossa 1.3.5](/fi:Uutta_versiossa_1.3.5.md "wikilink")
+[pl:Changes in 1.3.5](/docs/pl:changes_in_1.3.5.md "wikilink") [pt-br:Novidades na versão 1.3.5](/docs/pt-br:novidades_na_versão_1.3.5.md "wikilink") [fi:Uutta versiossa 1.3.5](/docs/fi:uutta_versiossa_1.3.5.md "wikilink")

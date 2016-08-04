@@ -88,4 +88,4 @@ MTA:VC 0.1: [Client](http://files.mtasa.com/apps/0.1/mta01_client.exe) [Windows 
 MTA:VC 0.2: [Client](http://files.mtasa.com/apps/0.2/mta020_client_gtavc.exe) [Windows Server](http://files.mtasa.com/apps/0.2/mta020_server_win32.zip) [Linux Server](http://files.mtasa.com/apps/0.2/mta020_server_linux.tar.gz)
 MTA:VC 0.2.2: [Client](http://files.mtasa.com/apps/0.2/mta022_client_gtavc.exe) [Windows Server](http://files.mtasa.com/apps/0.2/mta022_server_win32.zip) [Linux Server](http://files.mtasa.com/apps/0.2/mta022_server_linux.tar.gz)
 [MTA:VC 0.3 and above](http://files.mtasa.com/apps/)
-[Category:GTA3](/docs/category:gta3.md "wikilink") [Category:Vice City](/Category:Vice_City.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink")
+[Category:GTA3](/docs/category:gta3.md "wikilink") [Category:Vice City](/docs/category:vice_city.md "wikilink") [Category:Historical](/docs/category:historical.md "wikilink")

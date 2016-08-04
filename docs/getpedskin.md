@@ -13,7 +13,7 @@ int getPedSkin ( ped thePed )
 
 ### Returns
 
-Returns an [int](/docs/int.md "wikilink") indicating which skin the ped has. See [Character Skins](/Character_Skins.md "wikilink").
+Returns an [int](/docs/int.md "wikilink") indicating which skin the ped has. See [Character Skins](/docs/character_skins.md "wikilink").
 
 Example
 -------

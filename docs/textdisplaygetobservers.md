@@ -1,4 +1,4 @@
-This function can be used to retrieve all the [players](/docs/player.md "wikilink") currently observing a specified [textdisplay](/textdisplay.md "wikilink").
+This function can be used to retrieve all the [players](/docs/player.md "wikilink") currently observing a specified [textdisplay](/docs/textdisplay.md "wikilink").
 
 Syntax
 ------

@@ -1,4 +1,4 @@
-Gets the currently queued latent events. The last one in the table is always the latest event queued. Each returned handle can be used with [getLatentEventStatus](/docs/getlatenteventstatus.md "wikilink") or [cancelLatentEvent](/cancelLatentEvent.md "wikilink")
+Gets the currently queued latent events. The last one in the table is always the latest event queued. Each returned handle can be used with [getLatentEventStatus](/docs/getlatenteventstatus.md "wikilink") or [cancelLatentEvent](/docs/cancellatentevent.md "wikilink")
 
 Syntax
 ------

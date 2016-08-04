@@ -1,4 +1,4 @@
-This functions queries the MySQL server through the MySQL connection that has been opened by [mysqlOpen](/docs/modules/mysql/mysqlopen.md "wikilink"). The result of the query is then passed to the script by calling callback\_function. It's syntax and functionality is similar to that of [executeSQLSelect](/executeSQLSelect.md "wikilink").
+This functions queries the MySQL server through the MySQL connection that has been opened by [mysqlOpen](/docs/modules/mysql/mysqlopen.md "wikilink"). The result of the query is then passed to the script by calling callback\_function. It's syntax and functionality is similar to that of [executeSQLSelect](/docs/executesqlselect.md "wikilink").
 
 Syntax
 ------

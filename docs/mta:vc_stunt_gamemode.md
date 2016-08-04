@@ -63,4 +63,4 @@ The spectator mode is somewhat unstable, though it has proven to be useful for s
 
 </td>
 </table>
-[Category:MTA 0.5](/docs/category:mta_0.5.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink") [Category:Vice\_City](/Category:Vice_City.md "wikilink")
+[Category:MTA 0.5](/docs/category:mta_0.5.md "wikilink") [Category:Historical](/docs/category:historical.md "wikilink") [Category:Vice\_City](/docs/category:vice_city.md "wikilink")

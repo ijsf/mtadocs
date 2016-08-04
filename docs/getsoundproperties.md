@@ -7,11 +7,11 @@ float, float, float, bool getSoundProperties( element sound )
 
 ### Required Arguments
 
--   **sound:** a [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") that is created using [playSound](/playSound.md "wikilink") or [playSound3D](/playSound3D.md "wikilink")
+-   **sound:** a [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") that is created using [playSound](/docs/playsound.md "wikilink") or [playSound3D](/docs/playsound3d.md "wikilink")
 
 ### Returns
 
-This function returns 3 [floats](/docs/float.md "wikilink") and a [boolean](/boolean.md "wikilink") value:
+This function returns 3 [floats](/docs/float.md "wikilink") and a [boolean](/docs/boolean.md "wikilink") value:
 
 The first float is the sound's [sample rate](http://en.wikipedia.org/wiki/Sampling_rate), the second one the sound's [tempo](http://en.wikipedia.org/wiki/Tempo), and the third one the [pitch](http://en.wikipedia.org/wiki/Pitch_%28music%29) of the sound. The boolean representing whether the sound is reversed or not.
 

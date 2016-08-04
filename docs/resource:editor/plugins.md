@@ -55,7 +55,7 @@ Download no longer available, hosted site closed.
 
 #### Roller Coaster Generator
 
-With this plugin, you can create easily roller coaster like maps. [Learn more by clicking here.](/docs/roller_coaster_generator.md "wikilink") [ru:<Resource:Editor/Plugins>](/ru:Resource:Editor/Plugins.md "wikilink")
+With this plugin, you can create easily roller coaster like maps. [Learn more by clicking here.](/docs/roller_coaster_generator.md "wikilink") [ru:<Resource:Editor/Plugins>](/docs/ru:resource:editor/plugins.md "wikilink")
 
 #### Object Movement Generator
 

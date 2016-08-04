@@ -1,4 +1,4 @@
-**ACL** or **Access Control List** is a set of rights grouped together to create a list, they are defined in the [ACL.xml](/docs/access_control_list.md "wikilink") file as <acl> nodes. These ACLs can then be added to certain [ACL Groups](/ACL_Group.md "wikilink") to grant or deny these groups specified permissions or acces to server scripting functions defined in the ACL. Example of an ACL:
+**ACL** or **Access Control List** is a set of rights grouped together to create a list, they are defined in the [ACL.xml](/docs/access_control_list.md "wikilink") file as <acl> nodes. These ACLs can then be added to certain [ACL Groups](/docs/acl_group.md "wikilink") to grant or deny these groups specified permissions or acces to server scripting functions defined in the ACL. Example of an ACL:
 
     <acl name="Example">
             <right name="general.ModifyOtherObjects" access="true" />

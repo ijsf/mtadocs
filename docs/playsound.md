@@ -1,4 +1,4 @@
-Creates a [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") and plays it immediately after creation for the local player.
+Creates a [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") and plays it immediately after creation for the local player.
 **Note:** The only supported audio formats are MP3, WAV, OGG, RIFF, MOD, XM, IT, S3M and PLS(e.g. Webstream).
 
 Syntax
@@ -10,7 +10,7 @@ Syntax
 
 ### Required Arguments
 
--   **soundPath:** the [filepath](/docs/filepath.md "wikilink") or URL of the sound file you want to play. (Sound specified by filepath has to be predefined in the [meta.xml](/meta.xml.md "wikilink") file with <file /> tag.)
+-   **soundPath:** the [filepath](/docs/filepath.md "wikilink") or URL of the sound file you want to play. (Sound specified by filepath has to be predefined in the [meta.xml](/docs/meta.xml.md "wikilink") file with <file /> tag.)
 
 ### Optional Arguments
 
@@ -18,7 +18,7 @@ Syntax
 
 ### Returns
 
-Returns a [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") if the sound was successfully created, *false* otherwise.
+Returns a [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") if the sound was successfully created, *false* otherwise.
 
 Example
 -------
@@ -35,4 +35,4 @@ addEventHandler("onClientPlayerWasted", localPlayer, wasted) --add the event han
 See Also
 --------
 
-[AR:playSound](/docs/ar:playsound.md "wikilink") [DE:playSound](/DE:playSound.md "wikilink")
+[AR:playSound](/docs/ar:playsound.md "wikilink") [DE:playSound](/docs/de:playsound.md "wikilink")

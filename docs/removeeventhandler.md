@@ -1,4 +1,4 @@
-This functions removes a handler function from an [event](/docs/event.md "wikilink"), so that the function is not called anymore when the event is triggered. See [event system](/event_system.md "wikilink") for more information on how the event system works.
+This functions removes a handler function from an [event](/docs/event.md "wikilink"), so that the function is not called anymore when the event is triggered. See [event system](/docs/event_system.md "wikilink") for more information on how the event system works.
 
 Syntax
 ------

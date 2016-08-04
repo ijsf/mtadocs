@@ -13,14 +13,14 @@ string theName, var theOldValue
 Global parameters
 -----------------
 
--   **source**: The [source](/docs/event_system#event_source.md "wikilink") of this event is the [element](/element.md "wikilink") whose element data changed
--   **client**: The [client](/docs/event_system#event_client.md "wikilink") global variable is set to the client that called [setElementData](/setElementData.md "wikilink"), or nil if it was called on the server.
+-   **source**: The [source](/docs/event_system#event_source.md "wikilink") of this event is the [element](/docs/element.md "wikilink") whose element data changed
+-   **client**: The [client](/docs/event_system#event_client.md "wikilink") global variable is set to the client that called [setElementData](/docs/setelementdata.md "wikilink"), or nil if it was called on the server.
 -   **sourceResource**: The [resource](/docs/resource.md "wikilink") which changed the element data. (Only works in versions above 1.3.4-5937)
 
 Cancelling
 ----------
 
-This event cannot be cancelled using [cancelEvent](/docs/cancelevent.md "wikilink"). To reverse the effect, use [setElementData](/setElementData.md "wikilink") with the old value. See Example.
+This event cannot be cancelled using [cancelEvent](/docs/cancelevent.md "wikilink"). To reverse the effect, use [setElementData](/docs/setelementdata.md "wikilink") with the old value. See Example.
 
 Example
 -------

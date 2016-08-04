@@ -1,4 +1,4 @@
-Used for custom Lua based interpolation, returns the easing value (animation time to use in your custom interpolation) given a progress and an [easing function](/docs/easing.md "wikilink"). In most cases, either [moveObject](/moveObject.md "wikilink") or [interpolateBetween](/interpolateBetween.md "wikilink") can do the job. getEasingValue is only provided in case you want to do your own custom interpolation based on easing.
+Used for custom Lua based interpolation, returns the easing value (animation time to use in your custom interpolation) given a progress and an [easing function](/docs/easing.md "wikilink"). In most cases, either [moveObject](/docs/moveobject.md "wikilink") or [interpolateBetween](/docs/interpolatebetween.md "wikilink") can do the job. getEasingValue is only provided in case you want to do your own custom interpolation based on easing.
 
 Syntax
 ------

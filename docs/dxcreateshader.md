@@ -1,4 +1,4 @@
-This function creates a [shader](/docs/shader.md "wikilink") element that can be used in the dxDraw functions. Successful shader creation is not guaranteed unless the [Effect File](/shader.md "wikilink") contains a fallback technique which will work on every PC in the universe.
+This function creates a [shader](/docs/shader.md "wikilink") element that can be used in the dxDraw functions. Successful shader creation is not guaranteed unless the [Effect File](/docs/shader.md "wikilink") contains a fallback technique which will work on every PC in the universe.
 
 <h5>
 It is highly recommended that [dxSetTestMode](/docs/dxsettestmode.md "wikilink") is used when writing and testing scripts using dxCreateShader.

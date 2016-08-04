@@ -19,7 +19,7 @@ Syntax
 
 ### Returns
 
-Returns an [texture](/docs/texture.md "wikilink") of the [browser](/browser.md "wikilink") if it was created successfully, *false* otherwise. Returns also *false*, if the user disabled remote pages and *isLocal* was set to *false*.
+Returns an [texture](/docs/texture.md "wikilink") of the [browser](/docs/browser.md "wikilink") if it was created successfully, *false* otherwise. Returns also *false*, if the user disabled remote pages and *isLocal* was set to *false*.
 
 Local Example
 -------------

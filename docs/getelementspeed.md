@@ -9,7 +9,7 @@ float/nil getElementSpeed ( element theElement [, int/string unit="m/s" ] )
 
 ### Required arguments
 
--   **theElement**: the [element](/docs/element.md "wikilink") you want to get the speed of. Compatible [element](/element.md "wikilink") types are:
+-   **theElement**: the [element](/docs/element.md "wikilink") you want to get the speed of. Compatible [element](/docs/element.md "wikilink") types are:
     -   [Players](/docs/player.md "wikilink").
     -   [Peds](/docs/ped.md "wikilink").
     -   [Objects](/docs/object.md "wikilink").
@@ -25,7 +25,7 @@ float/nil getElementSpeed ( element theElement [, int/string unit="m/s" ] )
 Returns
 -------
 
-This function returns a *number* containing the [element](/docs/element.md "wikilink")'s speed if the arguments provided are valid. It returns *[nil](/nil.md "wikilink")* plus an *error* otherwise.
+This function returns a *number* containing the [element](/docs/element.md "wikilink")'s speed if the arguments provided are valid. It returns *[nil](/docs/nil.md "wikilink")* plus an *error* otherwise.
 
 Code
 ----

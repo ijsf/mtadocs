@@ -1,6 +1,6 @@
 This function can be used to change the syncer ([player](/docs/player.md "wikilink")) of an element. The syncer is the player who is responsible for informing the server about the state of that element - it's position, orientation and other state information. The function can be also used to remove an element's syncer.
 
-Only [vehicle](/docs/vehicle.md "wikilink") and [ped](/ped.md "wikilink") elements can have a syncer, other element types are not currently automatically synced by MTA.
+Only [vehicle](/docs/vehicle.md "wikilink") and [ped](/docs/ped.md "wikilink") elements can have a syncer, other element types are not currently automatically synced by MTA.
 
 Please note that using this function to change an element's syncer will only last as long as the element is within syncable range of the player. This is within 140 units for vehicles and 100 units for peds. As soon as it becomes impossible for your chosen player to sync the element, another player (or no player) will be automatically selected, and your setting will be lost. With vehicles, the last occupant to leave a vehicle will be selected as the syncer and override any setting you may have made.
 

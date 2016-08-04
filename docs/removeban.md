@@ -13,7 +13,7 @@ bool removeBan ( ban theBan [, player responsibleElement = nil ] )
 
 ### Optional Arguments
 
--   **responsibleElement:** The element that is responsible for removing the [ban](/docs/ban.md "wikilink") element. This can be a player or the root ([getRootElement](/getRootElement.md "wikilink")()).
+-   **responsibleElement:** The element that is responsible for removing the [ban](/docs/ban.md "wikilink") element. This can be a player or the root ([getRootElement](/docs/getrootelement.md "wikilink")()).
 
 ### Returns
 

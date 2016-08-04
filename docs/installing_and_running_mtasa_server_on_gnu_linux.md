@@ -129,7 +129,7 @@ You can find more 32-bit library alternatives on this page: [www.debian.org/dist
 MySQL Troubleshooting
 ---------------------
 
--   If you are using the inbuilt MySQL functions such as [dbConnect](/docs/dbconnect.md "wikilink") and [dbQuery](/dbQuery.md "wikilink"), you will need to have **libmysqlclient.so.16** installed.
+-   If you are using the inbuilt MySQL functions such as [dbConnect](/docs/dbconnect.md "wikilink") and [dbQuery](/docs/dbquery.md "wikilink"), you will need to have **libmysqlclient.so.16** installed.
 -   If you get a problem with such as “libmysqlclient.so.16: cannot open shared object file: No such file or directory”, it can be solved on Debian/Ubuntu by doing this:
 
 `apt-get install libmysqlclient16`

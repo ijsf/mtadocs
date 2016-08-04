@@ -12,7 +12,7 @@ string reason
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/Element/Player.md "wikilink") whose voice got paused.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/element/player.md "wikilink") whose voice got paused.
 
 Example
 -------

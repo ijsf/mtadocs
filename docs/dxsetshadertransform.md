@@ -1,4 +1,4 @@
-This function applies a 3D transformation to a [shader](/docs/shader.md "wikilink") element when it is drawn with [dxDrawImage](/dxDrawImage.md "wikilink").
+This function applies a 3D transformation to a [shader](/docs/shader.md "wikilink") element when it is drawn with [dxDrawImage](/docs/dxdrawimage.md "wikilink").
 
 Syntax
 ------

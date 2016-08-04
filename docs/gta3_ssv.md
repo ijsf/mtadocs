@@ -163,4 +163,4 @@ A race around Shoreside Vale with up to three other players. Similar to the “T
 </td>
 </tr>
 </table>
-[Category:MTA 0.5](/docs/category:mta_0.5.md "wikilink") [Category:GTA3](/Category:GTA3.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink") [es:GTA3\_SSV\_ES](/es:GTA3_SSV_ES.md "wikilink")
+[Category:MTA 0.5](/docs/category:mta_0.5.md "wikilink") [Category:GTA3](/docs/category:gta3.md "wikilink") [Category:Historical](/docs/category:historical.md "wikilink") [es:GTA3\_SSV\_ES](/docs/es:gta3_ssv_es.md "wikilink")

@@ -1,6 +1,6 @@
 <lowercasetitle/>
 
-This function creates a [marker](/docs/marker.md "wikilink") that is attached to an [element](/element.md "wikilink"). This marker is a 3D model and will 'follow' the element that it is attached to around.
+This function creates a [marker](/docs/marker.md "wikilink") that is attached to an [element](/docs/element.md "wikilink"). This marker is a 3D model and will 'follow' the element that it is attached to around.
 
 Syntax
 ------

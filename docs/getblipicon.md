@@ -13,7 +13,7 @@ int getBlipIcon ( blip theBlip )
 
 ### Returns
 
-Returns an [int](/docs/int.md "wikilink") indicating which icon the blip has. Valid values are listed on the [Blip Icons](/Blip_Icons.md "wikilink") page.
+Returns an [int](/docs/int.md "wikilink") indicating which icon the blip has. Valid values are listed on the [Blip Icons](/docs/blip_icons.md "wikilink") page.
 
 Example
 -------

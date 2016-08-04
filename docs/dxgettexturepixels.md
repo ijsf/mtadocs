@@ -1,4 +1,4 @@
-This function fetches the [pixels](/docs/texture_pixels.md "wikilink") from a [texture](/texture.md "wikilink") element. It can be used with a standard texture, render target or screen source.
+This function fetches the [pixels](/docs/texture_pixels.md "wikilink") from a [texture](/docs/texture.md "wikilink") element. It can be used with a standard texture, render target or screen source.
 
 ------------------------------------------------------------------------
 

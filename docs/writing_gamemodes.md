@@ -56,7 +56,7 @@ for key, value in pairs(flagElements) do
 end
 ```
 
-The [getElementsByType](/docs/getelementsbytype.md "wikilink") function retrieves a table of all the elements of a certain type (the type corresponds to the node name in the .map file). This works for both custom types and built-in MTA types (like “vehicle” or “player”). [getElementData](/getElementData.md "wikilink") can be used to retrieve the xml attributes set in the .map file. In this simple example, an object is created at the flag's location and a message is outputted in the chatbox. In reality, you will of course need to do more during map loading, like in this case setting up collision shapes to detect players taking the flag.
+The [getElementsByType](/docs/getelementsbytype.md "wikilink") function retrieves a table of all the elements of a certain type (the type corresponds to the node name in the .map file). This works for both custom types and built-in MTA types (like “vehicle” or “player”). [getElementData](/docs/getelementdata.md "wikilink") can be used to retrieve the xml attributes set in the .map file. In this simple example, an object is created at the flag's location and a message is outputted in the chatbox. In reality, you will of course need to do more during map loading, like in this case setting up collision shapes to detect players taking the flag.
 
 Map manager
 -----------
@@ -66,7 +66,7 @@ Having read the section above it should be clear that a gamemode should always c
 -   The gamemode resource that always stays the same
 -   Many different maps resources that give the gamemode map-specific information
 
-Now instead of writing a map-loader for every single gamemode, the [Map manager](/docs/map_manager.md "wikilink") provides functions to load gamemodes and maps. Simply put, when you enter the correct command (for example 'gamemode ctf ctf-italy') it will start both resources 'ctf' and 'ctf-italy' while triggering an event ([onGamemodeMapStart](/onGamemodeMapStart.md "wikilink")) to tell the 'ctf' resource that a map was loaded. The 'ctf' resource can then access the information 'ctf-italy' contains and start spawning players etc.
+Now instead of writing a map-loader for every single gamemode, the [Map manager](/docs/map_manager.md "wikilink") provides functions to load gamemodes and maps. Simply put, when you enter the correct command (for example 'gamemode ctf ctf-italy') it will start both resources 'ctf' and 'ctf-italy' while triggering an event ([onGamemodeMapStart](/docs/ongamemodemapstart.md "wikilink")) to tell the 'ctf' resource that a map was loaded. The 'ctf' resource can then access the information 'ctf-italy' contains and start spawning players etc.
 
 ### How to use the mapmanager
 
@@ -139,4 +139,4 @@ Scoreboard displays players and teams currently ingame. You add custom columns t
 
 The map cycler controls what gamemodes and maps are played on a server. You can specifiy for example how many times in a row a map will be played until it switches to the next. To achieve this, you need to tell the map cycler when your gamemode finished (e.g. when a round ends).
 
-[it:Scrivere una gamemode](/docs/it:scrivere_una_gamemode.md "wikilink") [ru:Writing Gamemodes](/ru:Writing_Gamemodes.md "wikilink") [de:Gamemodes schreiben](/de:Gamemodes_schreiben.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")
+[it:Scrivere una gamemode](/docs/it:scrivere_una_gamemode.md "wikilink") [ru:Writing Gamemodes](/docs/ru:writing_gamemodes.md "wikilink") [de:Gamemodes schreiben](/docs/de:gamemodes_schreiben.md "wikilink") [Category:Tutorials](/docs/category:tutorials.md "wikilink")

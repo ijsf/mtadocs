@@ -2,7 +2,7 @@ This function draws a textured 3D line between two points in the 3D world that a
 
 The 3D line with a large width value and a texture effectively becomes a 3D image, hence the possibility to construct basic shapes such as boxes with several large width lines and the appropriate values for 'faceToward'.
 
-3D lines are drawn at a particular place in the [game processing order](/docs/game_processing_order.md "wikilink"), so use [onClientPreRender](/onClientPreRender.md "wikilink") for drawing if you are attaching them to world elements.
+3D lines are drawn at a particular place in the [game processing order](/docs/game_processing_order.md "wikilink"), so use [onClientPreRender](/docs/onclientprerender.md "wikilink") for drawing if you are attaching them to world elements.
 \* **NOTE:** This is made to be used clientside!.
 
 Syntax

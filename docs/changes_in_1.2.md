@@ -84,7 +84,7 @@ Server
 ### Changes
 
 -   Major reduction in bandwidth upload usage
--   Updated [createResource](/docs/createresource.md "wikilink") and Fixed [copyResource](/copyResource.md "wikilink")
+-   Updated [createResource](/docs/createresource.md "wikilink") and Fixed [copyResource](/docs/copyresource.md "wikilink")
 
 <!-- -->
 
@@ -111,4 +111,4 @@ Editor
 
 -   None yet
 
-[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Changes in 1.2](/Category:Changes_in_1.2.md "wikilink")
+[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Changes in 1.2](/docs/category:changes_in_1.2.md "wikilink")

@@ -24,7 +24,7 @@ element guiCreateButton ( float x, float y, float width, float height, string te
 
 ### Returns
 
-Returns an [element](/docs/element.md "wikilink") of the created [button](/Element/GUI/Button.md "wikilink") if it was successfully created, false otherwise.
+Returns an [element](/docs/element.md "wikilink") of the created [button](/docs/element/gui/button.md "wikilink") if it was successfully created, false otherwise.
 
 Example
 -------

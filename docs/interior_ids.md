@@ -66,6 +66,6 @@ See Also
 
 [ID Lists](/docs/id.md "wikilink")
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [Category:ID Lists](/Category:ID_Lists.md "wikilink")
+[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [Category:ID Lists](/docs/category:id_lists.md "wikilink")
 
 [de:Interior IDs](/docs/de:interior_ids.md "wikilink")

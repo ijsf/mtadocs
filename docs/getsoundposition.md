@@ -13,7 +13,7 @@ float getSoundPosition ( element theSound )
 
 ### Returns
 
-Returns a [float](/docs/float.md "wikilink") value indicating the seek position of the [sound](/sound.md "wikilink") element in seconds.
+Returns a [float](/docs/float.md "wikilink") value indicating the seek position of the [sound](/docs/sound.md "wikilink") element in seconds.
 
 Example
 -------

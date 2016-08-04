@@ -43,7 +43,7 @@ Now the script will load fine and won't output any errors until a player with th
 
   
 
-This error means that the function **outputChatbox** is a nil value, that is - it doesn't exist! This is because the function is actually called [outputChatBox](/docs/outputchatbox.md "wikilink"), not [outputChatbox](/outputChatbox.md "wikilink") - take care of that capital B.:
+This error means that the function **outputChatbox** is a nil value, that is - it doesn't exist! This is because the function is actually called [outputChatBox](/docs/outputchatbox.md "wikilink"), not [outputChatbox](/docs/outputchatbox.md "wikilink") - take care of that capital B.:
 
 ``` lua
 function SayHello(message, player)
@@ -98,7 +98,7 @@ There are several strategies that support finding errors, apart from going throu
 
 There are some functions that may come in handy for debugging.
 
--   [outputDebugString](/docs/outputdebugstring.md "wikilink") or [outputChatBox](/outputChatBox.md "wikilink") for outputting any information (use outputDebugString for technical output)
+-   [outputDebugString](/docs/outputdebugstring.md "wikilink") or [outputChatBox](/docs/outputchatbox.md "wikilink") for outputting any information (use outputDebugString for technical output)
 -   [tostring()](http://www.lua.org/manual/5.1/manual.html#pdf-tostring) on a variable to turn the value into a string. Useful if the value is not a number or string.
 -   [getElementType](/docs/getelementtype.md "wikilink") to check the type of the MTA element.
 -   [isElement](/docs/iselement.md "wikilink") to check if the MTA element exists.
@@ -118,7 +118,7 @@ Another application would be to check when variable values are modified. First s
 
 ### Add debugmessages to check the *value* of a variable
 
-Let's say you want to create a marker, but it doesn't appear at the position you expect it to be. The first thing you might want to do is check if the [createMarker](/docs/createmarker.md "wikilink") function is executed. But while doing this, you can also check the values being used in the [createMarker](/createMarker.md "wikilink") function in one run.
+Let's say you want to create a marker, but it doesn't appear at the position you expect it to be. The first thing you might want to do is check if the [createMarker](/docs/createmarker.md "wikilink") function is executed. But while doing this, you can also check the values being used in the [createMarker](/docs/createmarker.md "wikilink") function in one run.
 
 ``` lua
 outputChatBox("posX is: "..x.." posY is: "..y.." posZ is: "..z)
@@ -351,4 +351,4 @@ function someDodgyCode()
 end
 ```
 
-[it:Guida al Debug](/docs/it:guida_al_debug.md "wikilink") [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink") [ru:Debugging](/ru:Debugging.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")
+[it:Guida al Debug](/docs/it:guida_al_debug.md "wikilink") [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [ru:Debugging](/docs/ru:debugging.md "wikilink") [Category:Tutorials](/docs/category:tutorials.md "wikilink")

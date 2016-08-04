@@ -90,4 +90,4 @@ External Links
 -   [IRC Chat](http://www.multitheftauto.com/irc.php)
 -   [WinRAR](http://www.rarlabs.com/)
 
-[Category:MTA:SA Race](/docs/category:mta:sa_race.md "wikilink") [Category:Historical](/Category:Historical.md "wikilink")
+[Category:MTA:SA Race](/docs/category:mta:sa_race.md "wikilink") [Category:Historical](/docs/category:historical.md "wikilink")

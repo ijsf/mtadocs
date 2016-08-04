@@ -1,4 +1,4 @@
-This function gets the current [team](/docs/team.md "wikilink") a [player](/player.md "wikilink") is on.
+This function gets the current [team](/docs/team.md "wikilink") a [player](/docs/player.md "wikilink") is on.
 
 Syntax
 ------

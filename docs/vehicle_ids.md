@@ -341,6 +341,6 @@ Vehicle Functions
 See Also
 --------
 
-[ID Lists](/docs/id.md "wikilink") [tr:Araç ID'leri](/tr:Araç_ID'leri.md "wikilink") [it:ID Veicoli](/it:ID_Veicoli.md "wikilink") [ru:Vehicle IDs](/ru:Vehicle_IDs.md "wikilink") [de:Fahrzeug IDs](/de:Fahrzeug_IDs.md "wikilink")
+[ID Lists](/docs/id.md "wikilink") [tr:Araç ID'leri](/docs/tr:araç_id'leri.md "wikilink") [it:ID Veicoli](/docs/it:id_veicoli.md "wikilink") [ru:Vehicle IDs](/docs/ru:vehicle_ids.md "wikilink") [de:Fahrzeug IDs](/docs/de:fahrzeug_ids.md "wikilink")
 
 [Category:ID Lists](/docs/category:id_lists.md "wikilink")

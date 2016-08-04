@@ -19,7 +19,7 @@ resource theResource, string status, string imageData, int timestamp, string tag
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink")
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/player.md "wikilink")
 
 Example
 -------

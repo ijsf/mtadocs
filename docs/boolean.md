@@ -17,4 +17,4 @@ Reversing bools
 
 [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
 
-[ru:Boolean](/docs/ru:boolean.md "wikilink") [de:Boolean](/de:Boolean.md "wikilink")
+[ru:Boolean](/docs/ru:boolean.md "wikilink") [de:Boolean](/docs/de:boolean.md "wikilink")

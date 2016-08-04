@@ -36,4 +36,4 @@ addCommandHandler ( "AmIOutside", AmIOutside )
 See Also
 --------
 
-[de:getElementInterior](/docs/de:getelementinterior.md "wikilink") [ar:getElementInterior](/ar:getElementInterior.md "wikilink")
+[de:getElementInterior](/docs/de:getelementinterior.md "wikilink") [ar:getElementInterior](/docs/ar:getelementinterior.md "wikilink")

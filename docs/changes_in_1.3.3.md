@@ -102,4 +102,4 @@ Extra information
 
 :\* Resources: from [r930](http://code.google.com/p/mtasa-resources/source/list?num=25&start=930) and [above](http://code.google.com/p/mtasa-resources/source/list)
 
-[Category:Changes in 1.3](/docs/category:changes_in_1.3.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Changes in 1.3](/docs/category:changes_in_1.3.md "wikilink") [Category:Incomplete](/docs/category:incomplete.md "wikilink")

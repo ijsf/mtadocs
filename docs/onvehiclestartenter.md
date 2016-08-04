@@ -11,7 +11,7 @@ Parameters
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [vehicle](/vehicle.md "wikilink") in which a player began to enter.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [vehicle](/docs/vehicle.md "wikilink") in which a player began to enter.
 
 ### Canceling
 

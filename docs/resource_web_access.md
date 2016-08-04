@@ -27,7 +27,7 @@ For example: <code lang="xml">
 </syntaxhighlight>
 ### Parsed files
 
-If a file is not specified in the meta file as “raw”, then it is passed through a pre-processor before it is returned to the client. This pre-processor works much like PHP or ASP, but uses LUA. You can embed standard MTA scripts within HTML pages, controlling the output. Almost all standard MTA functions work, plus a number of special [HTTP Functions](/docs/template:http_functions.md "wikilink"), such as [httpWrite](/httpWrite.md "wikilink"), a function that outputs text to the buffer.
+If a file is not specified in the meta file as “raw”, then it is passed through a pre-processor before it is returned to the client. This pre-processor works much like PHP or ASP, but uses LUA. You can embed standard MTA scripts within HTML pages, controlling the output. Almost all standard MTA functions work, plus a number of special [HTTP Functions](/docs/template:http_functions.md "wikilink"), such as [httpWrite](/docs/httpwrite.md "wikilink"), a function that outputs text to the buffer.
 
 For example: <code lang="html4strict">
 
@@ -166,4 +166,4 @@ There are a number of so-called 'SDKs' available that allow you to interface wit
 See Also
 --------
 
-[callRemote](/docs/callremote.md "wikilink") - Allows game servers to call functions on PHP pages (with the PHP SDK) and on other game servers. [Category:Scripting Concepts](/Category:Scripting_Concepts.md "wikilink") [ru:Resource Web Access](/ru:Resource_Web_Access.md "wikilink") [Category:Tutorials](/Category:Tutorials.md "wikilink")
+[callRemote](/docs/callremote.md "wikilink") - Allows game servers to call functions on PHP pages (with the PHP SDK) and on other game servers. [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [ru:Resource Web Access](/docs/ru:resource_web_access.md "wikilink") [Category:Tutorials](/docs/category:tutorials.md "wikilink")

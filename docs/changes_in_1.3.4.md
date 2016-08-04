@@ -79,4 +79,4 @@ Extra information
 
 [zh-cn:1.3.4 版本新特性](/docs/zh-cn:1.3.4_版本新特性.md "wikilink")
 
-[Category:Changes in 1.3](/docs/category:changes_in_1.3.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Category:Changes in 1.3](/docs/category:changes_in_1.3.md "wikilink") [Category:Incomplete](/docs/category:incomplete.md "wikilink")

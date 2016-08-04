@@ -1,4 +1,4 @@
-This function checks if the specified [player](/docs/player.md "wikilink") is in the specified [team](/team.md "wikilink").
+This function checks if the specified [player](/docs/player.md "wikilink") is in the specified [team](/docs/team.md "wikilink").
 
 Syntax
 ------
@@ -9,8 +9,8 @@ bool isPlayerInTeam ( player thePlayer [, team/string theTeam = nil ] )
 
 ### Arguments
 
--   **thePlayer**: the [player](/docs/player.md "wikilink") you want to check if it's in the specified [team](/team.md "wikilink").
--   **theTeam**: a [team](/docs/team.md "wikilink") element or name to check if the [player](/player.md "wikilink") is in it. If not specified, this function will return *true* if the [player](/player.md "wikilink") is in any [team](/team.md "wikilink").
+-   **thePlayer**: the [player](/docs/player.md "wikilink") you want to check if it's in the specified [team](/docs/team.md "wikilink").
+-   **theTeam**: a [team](/docs/team.md "wikilink") element or name to check if the [player](/docs/player.md "wikilink") is in it. If not specified, this function will return *true* if the [player](/docs/player.md "wikilink") is in any [team](/docs/team.md "wikilink").
 
 Code
 ----

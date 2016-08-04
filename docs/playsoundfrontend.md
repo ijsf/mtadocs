@@ -56,4 +56,4 @@ addCommandHandler("sound", onSoundEvent)
 See Also
 --------
 
-[de:playSoundFrontEnd](/docs/de:playsoundfrontend.md "wikilink") [ar:playSoundFrontEnd](/ar:playSoundFrontEnd.md "wikilink")
+[de:playSoundFrontEnd](/docs/de:playsoundfrontend.md "wikilink") [ar:playSoundFrontEnd](/docs/ar:playsoundfrontend.md "wikilink")

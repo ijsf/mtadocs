@@ -1,4 +1,4 @@
-This function makes a [ped](/docs/ped.md "wikilink") press or release a certain control. It doesn't work with the local player, so use [setControlState](/setControlState.md "wikilink") instead.
+This function makes a [ped](/docs/ped.md "wikilink") press or release a certain control. It doesn't work with the local player, so use [setControlState](/docs/setcontrolstate.md "wikilink") instead.
 
 Syntax
 ------

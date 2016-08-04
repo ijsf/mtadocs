@@ -1,6 +1,6 @@
 <lowercasetitle></lowercasetitle>
 
-This functions gets the maximum oxigen level a [ped](/docs/ped.md "wikilink") should have, considering its max underwater stamina (225) [stat](/Template:Stats.md "wikilink").
+This functions gets the maximum oxigen level a [ped](/docs/ped.md "wikilink") should have, considering its max underwater stamina (225) [stat](/docs/template:stats.md "wikilink").
 
 Syntax
 ------
@@ -15,7 +15,7 @@ float getPedMaxOxygenLevel ( ped thePed )
 
 ### Returns
 
-A *float* with the maximum oxygen level of the specified [ped](/docs/ped.md "wikilink"), an error if a invalid [ped](/ped.md "wikilink") was passed.
+A *float* with the maximum oxygen level of the specified [ped](/docs/ped.md "wikilink"), an error if a invalid [ped](/docs/ped.md "wikilink") was passed.
 
 Code
 ----

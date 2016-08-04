@@ -13,7 +13,7 @@ table detectedACList, int d3d9Size, string d3d9MD5, string d3d9SHA256
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink")
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/player.md "wikilink")
 
 Example
 -------

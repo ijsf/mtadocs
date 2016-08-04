@@ -94,7 +94,7 @@ Good luck!
 
 The MTA server can be configured to disable the anti-cheat. It can also allow specific or all files to be modified (e.g. carmods.dat), and make sure clients are of a minimum version.
 
-All of these settings are within the file 'mods/deathmatch/[**mtaserver.conf**](/docs/server_mtaserver.conf.md "wikilink")'. See the [Anti-cheat guide](/Anti-cheat_guide.md "wikilink") for more details.
+All of these settings are within the file 'mods/deathmatch/[**mtaserver.conf**](/docs/server_mtaserver.conf.md "wikilink")'. See the [Anti-cheat guide](/docs/anti-cheat_guide.md "wikilink") for more details.
 If you want to force a minimum client version, search for the following line:
 
 ``` xml
@@ -259,6 +259,6 @@ Useful Notes
 
 Why not pop over to our [Forums](http://forum.mtasa.com/) or join us on [IRC](irc://irc.multitheftauto.com/mta) (irc.multitheftauto.com \#mta - [mIRC](http://www.mirc.com))
 
-[es:Manual del Servidor](/docs/es:manual_del_servidor.md "wikilink") [de:Server Anleitung](/de:Server_Anleitung.md "wikilink") [it:Manuale del Server](/it:Manuale_del_Server.md "wikilink") [nl:Server Manual](/nl:Server_Manual.md "wikilink") [ru:Server Manual](/ru:Server_Manual.md "wikilink") [pl:Server Manual](/pl:Server_Manual.md "wikilink") [pt-br:Manual do Servidor](/pt-br:Manual_do_Servidor.md "wikilink") [hu:Server Manual](/hu:Server_Manual.md "wikilink")
+[es:Manual del Servidor](/docs/es:manual_del_servidor.md "wikilink") [de:Server Anleitung](/docs/de:server_anleitung.md "wikilink") [it:Manuale del Server](/docs/it:manuale_del_server.md "wikilink") [nl:Server Manual](/docs/nl:server_manual.md "wikilink") [ru:Server Manual](/docs/ru:server_manual.md "wikilink") [pl:Server Manual](/docs/pl:server_manual.md "wikilink") [pt-br:Manual do Servidor](/docs/pt-br:manual_do_servidor.md "wikilink") [hu:Server Manual](/docs/hu:server_manual.md "wikilink")
 
 [Category:Support](/docs/category:support.md "wikilink")

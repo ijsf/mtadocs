@@ -28,7 +28,7 @@ Now let's create another text file under /mymap/ and name it “mymap.map”, an
 </map>
 ```
 
-Note that “spawnpoint” is the type of the element, used in [getElementsByType](/docs/getelementsbytype.md "wikilink") function; likewise, “id” is used in [getElementByID](/getElementByID.md "wikilink") function.
+Note that “spawnpoint” is the type of the element, used in [getElementsByType](/docs/getelementsbytype.md "wikilink") function; likewise, “id” is used in [getElementByID](/docs/getelementbyid.md "wikilink") function.
 
 To load the map data, the main script needs access to the map resource itself. Now let's edit the script.lua file in “myserver” resource. Enter the following code:
 
@@ -244,4 +244,4 @@ The following settings from the [registry](/docs/settings_system.md "wikilink") 
 **minplayers** \[number\]: The required minimum number of players to start the map.
 **maxplayers** \[number\]: The allowed maximum number of players to start the map.
 
-[it:Map manager](/docs/it:map_manager.md "wikilink") [ru:<Resource:Mapmanager>](/ru:Resource:Mapmanager.md "wikilink")
+[it:Map manager](/docs/it:map_manager.md "wikilink") [ru:<Resource:Mapmanager>](/docs/ru:resource:mapmanager.md "wikilink")

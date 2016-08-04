@@ -1,4 +1,4 @@
-This function is used to return the root node of a configuration file. Config files must be predefined in a resource's [meta file](/docs/meta.xml.md "wikilink"). An alternative way to load XML files is to use [xmlLoadFile](/xmlLoadFile.md "wikilink").
+This function is used to return the root node of a configuration file. Config files must be predefined in a resource's [meta file](/docs/meta.xml.md "wikilink"). An alternative way to load XML files is to use [xmlLoadFile](/docs/xmlloadfile.md "wikilink").
 
 Syntax
 ------

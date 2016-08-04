@@ -1,4 +1,4 @@
-You should use the settings or info system for storing the settings. Don't use the map format :) [eAi](/docs/user:eai.md "wikilink") 20:14, 5 November 2007 (CST) Why is it called **thearea** rather than **gamearea** ? [eAi](/User:EAi.md "wikilink") 20:15, 5 November 2007 (CST)
+You should use the settings or info system for storing the settings. Don't use the map format :) [eAi](/docs/user:eai.md "wikilink") 20:14, 5 November 2007 (CST) Why is it called **thearea** rather than **gamearea** ? [eAi](/docs/user:eai.md "wikilink") 20:15, 5 November 2007 (CST)
 
 ------------------------------------------------------------------------
 

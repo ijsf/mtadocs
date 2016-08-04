@@ -1,4 +1,4 @@
-Stops the sound playback for specified [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink"). The sound element is also destroyed.
+Stops the sound playback for specified [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink"). The sound element is also destroyed.
 
 Syntax
 ------
@@ -9,7 +9,7 @@ bool stopSound ( element theSound )
 
 ### Required Arguments
 
--   **theSound:** the [sound](/docs/sound.md "wikilink") [element](/element.md "wikilink") you want to stop playing.
+-   **theSound:** the [sound](/docs/sound.md "wikilink") [element](/docs/element.md "wikilink") you want to stop playing.
 
 ### Returns
 

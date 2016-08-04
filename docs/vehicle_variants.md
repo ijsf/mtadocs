@@ -142,4 +142,4 @@ local vehicleModelVariants={
 }
 ```
 
-[Category:ID Lists](/docs/category:id_lists.md "wikilink") [ru:Vehicle variants](/ru:Vehicle_variants.md "wikilink") [de:Fahrzeug Varianten](/de:Fahrzeug_Varianten.md "wikilink")
+[Category:ID Lists](/docs/category:id_lists.md "wikilink") [ru:Vehicle variants](/docs/ru:vehicle_variants.md "wikilink") [de:Fahrzeug Varianten](/docs/de:fahrzeug_varianten.md "wikilink")

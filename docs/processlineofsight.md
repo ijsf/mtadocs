@@ -2,7 +2,7 @@ This function casts a ray between two points in the world, and tells you informa
 
 This function is relatively expensive to call, so over use of this in scripts may have a detrimental effect on performance.
 
-This function is useful for checking for collisions and for editor-style scripts. If you wish to find what element is positioned at a particular point on the screen, use this function combined with [getWorldFromScreenPosition](/docs/getworldfromscreenposition.md "wikilink"). If you wish to just know if something is hit, and don't care about what or where was hit, use [isLineOfSightClear](/isLineOfSightClear.md "wikilink").
+This function is useful for checking for collisions and for editor-style scripts. If you wish to find what element is positioned at a particular point on the screen, use this function combined with [getWorldFromScreenPosition](/docs/getworldfromscreenposition.md "wikilink"). If you wish to just know if something is hit, and don't care about what or where was hit, use [isLineOfSightClear](/docs/islineofsightclear.md "wikilink").
 
 Syntax
 ------

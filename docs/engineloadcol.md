@@ -1,6 +1,6 @@
 This function loads a RenderWare Collision (COL 1/2/3) file into GTA. The collisions can then be used to provide collisions for in-game objects.
 
-For vehicles, please omit this function by embedding your [COL](/docs/col.md "wikilink") file into your [DFF](/DFF.md "wikilink") file. This way, you can be sure that the COL file is correctly (and automatically) loaded when calling [engineLoadDFF](/engineLoadDFF.md "wikilink").
+For vehicles, please omit this function by embedding your [COL](/docs/col.md "wikilink") file into your [DFF](/docs/dff.md "wikilink") file. This way, you can be sure that the COL file is correctly (and automatically) loaded when calling [engineLoadDFF](/docs/engineloaddff.md "wikilink").
 
 This is a client side function. Be sure to transfer your COL file by including it in the meta file.
 
@@ -15,7 +15,7 @@ col engineLoadCOL ( string col_file / string raw_data )
 
 ### Required Arguments
 
--   **col\_file / raw\_data:** The [filepath](/docs/filepath.md "wikilink") to the [COL](/COL.md "wikilink") file you want to load or whole data buffer of the COL file.
+-   **col\_file / raw\_data:** The [filepath](/docs/filepath.md "wikilink") to the [COL](/docs/col.md "wikilink") file you want to load or whole data buffer of the COL file.
 
 ### Returns
 

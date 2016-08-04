@@ -19,7 +19,7 @@ resource stoppedResource
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the root [element](/element.md "wikilink") of the resource that is being stopped.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the root [element](/docs/element.md "wikilink") of the resource that is being stopped.
 
 Example
 -------

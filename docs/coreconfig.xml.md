@@ -336,4 +336,4 @@ See Also
 --------
 
 [Key names](/docs/key_names.md "wikilink")
-[Control names](/docs/control_names.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink")
+[Control names](/docs/control_names.md "wikilink") [Category:Incomplete](/docs/category:incomplete.md "wikilink")

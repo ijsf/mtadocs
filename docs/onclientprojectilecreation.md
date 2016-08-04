@@ -10,7 +10,7 @@ element creator
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [projectile](/projectile.md "wikilink") that was created.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [projectile](/docs/projectile.md "wikilink") that was created.
 
 Cancel effect
 -------------

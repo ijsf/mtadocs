@@ -11,4 +11,4 @@ Related scripting functions
 
 [Category:Element Types](/docs/category:element_types.md "wikilink")
 
-[it:Elemento Player](/docs/it:elemento_player.md "wikilink") [ru:Element/Player](/ru:Element/Player.md "wikilink") [es:Elemento/Player](/es:Elemento/Player.md "wikilink") [de:Element/Player](/de:Element/Player.md "wikilink") [pl:Gracz](/pl:Gracz.md "wikilink")
+[it:Elemento Player](/docs/it:elemento_player.md "wikilink") [ru:Element/Player](/docs/ru:element/player.md "wikilink") [es:Elemento/Player](/docs/es:elemento/player.md "wikilink") [de:Element/Player](/docs/de:element/player.md "wikilink") [pl:Gracz](/docs/pl:gracz.md "wikilink")

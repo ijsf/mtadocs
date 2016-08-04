@@ -30,6 +30,6 @@ To be able to create your own modules, you must use the Modules SDK. You can dow
         -   MySQLQuery
         -   MySQLSafeString
 
-[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [Category:Incomplete](/Category:Incomplete.md "wikilink") [Category:Modules](/Category:Modules.md "wikilink")
+[Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink") [Category:Incomplete](/docs/category:incomplete.md "wikilink") [Category:Modules](/docs/category:modules.md "wikilink")
 
-[pl:Modules](/docs/pl:modules.md "wikilink") [pt-br:Módulos](/pt-br:Módulos.md "wikilink") [ru:Modules](/ru:Modules.md "wikilink")
+[pl:Modules](/docs/pl:modules.md "wikilink") [pt-br:Módulos](/docs/pt-br:módulos.md "wikilink") [ru:Modules](/docs/ru:modules.md "wikilink")

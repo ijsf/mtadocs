@@ -1,4 +1,4 @@
-This function checks whether an [element](/docs/element.md "wikilink") is streamable as set by [setElementStreamable](/setElementStreamable.md "wikilink") or not.
+This function checks whether an [element](/docs/element.md "wikilink") is streamable as set by [setElementStreamable](/docs/setelementstreamable.md "wikilink") or not.
 
 Syntax
 ------

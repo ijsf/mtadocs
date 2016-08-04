@@ -35,4 +35,4 @@ References
 
 -   <http://gtaforums.com/topic/573478-iiivcsa-project-2dfx> - pioneers of draw distance fixing
 
-[ru:GTA:SA\_Streaming\_Garbage\_Collection](/docs/ru:gta:sa_streaming_garbage_collection.md "wikilink") [Category: Development](/Category:_Development.md "wikilink")
+[ru:GTA:SA\_Streaming\_Garbage\_Collection](/docs/ru:gta:sa_streaming_garbage_collection.md "wikilink") [Category: Development](/docs/category:_development.md "wikilink")

@@ -11,7 +11,7 @@ Making the GUI
 
 ### Getting set up
 
-The first thing we need to do is create our GUI elements. For this tutorial we will be using one [window](/docs/element/gui/window.md "wikilink"), three [buttons](/Element/GUI/Button.md "wikilink") and one [label](/Element/GUI/Text_label.md "wikilink"). We will be using **absolute** position values.
+The first thing we need to do is create our GUI elements. For this tutorial we will be using one [window](/docs/element/gui/window.md "wikilink"), three [buttons](/docs/element/gui/button.md "wikilink") and one [label](/docs/element/gui/text_label.md "wikilink"). We will be using **absolute** position values.
 
 As noted in [Previous tutorials](/docs/:category:gui_tutorials.md "wikilink"), all the GUI must be made client side.
 
@@ -251,7 +251,7 @@ end
 
 At this point we now have all the code needed on the client side, so open up your serverside 'script.lua' file (from the [Introduction to Scripting](/docs/scripting_introduction.md "wikilink")) or another suitable serverside file to work with.
 
-On the clientside, we are triggering the server event “movePlayerToPosition”. So, we will first define that event. To do that we will use [addEvent](/docs/addevent.md "wikilink"), then [addEventHandler](/addEventHandler.md "wikilink"):
+On the clientside, we are triggering the server event “movePlayerToPosition”. So, we will first define that event. To do that we will use [addEvent](/docs/addevent.md "wikilink"), then [addEventHandler](/docs/addeventhandler.md "wikilink"):
 
 ``` lua
 -- create our function, with the x,y and z values we passed from the client
@@ -288,7 +288,7 @@ function moveThePlayer(x,y,z,rotation)
 end
 ```
 
-Note the use of [spawnPlayer](/docs/spawnplayer.md "wikilink") rather than, for example, [setElementPosition](/setElementPosition.md "wikilink"). Using [spawnPlayer](/spawnPlayer.md "wikilink") has several advantages, such as being able to set the position when 'de-spawned' or dead, and automatically refilling health. Of course, [setElementPosition](/setElementPosition.md "wikilink") would work just as well to simply move them, so the choice is yours.
+Note the use of [spawnPlayer](/docs/spawnplayer.md "wikilink") rather than, for example, [setElementPosition](/docs/setelementposition.md "wikilink"). Using [spawnPlayer](/docs/spawnplayer.md "wikilink") has several advantages, such as being able to set the position when 'de-spawned' or dead, and automatically refilling health. Of course, [setElementPosition](/docs/setelementposition.md "wikilink") would work just as well to simply move them, so the choice is yours.
 
 Also note the use of the variable “client”, it's an internal variable used by MTA to identify the player who triggered the event.
 

@@ -17,7 +17,7 @@ string mouseButton, string buttonState, player playerWhoClicked, float clickPosX
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [element](/element.md "wikilink") that got clicked by the player.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [element](/docs/element.md "wikilink") that got clicked by the player.
 
 Example
 -------

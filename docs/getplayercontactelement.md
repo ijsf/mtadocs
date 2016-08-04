@@ -9,11 +9,11 @@ element getPlayerContactElement ( player thePlayer )
 
 ### Required Arguments
 
--   **thePlayer:** The [player](/docs/player.md "wikilink") you want to get the [element](/element.md "wikilink") he is touching from.
+-   **thePlayer:** The [player](/docs/player.md "wikilink") you want to get the [element](/docs/element.md "wikilink") he is touching from.
 
 ### Returns
 
-Returns an [object](/docs/object.md "wikilink") or a [vehicle](/vehicle.md "wikilink") if the player is standing on one, *false* if he is touching none or is a invalid player.
+Returns an [object](/docs/object.md "wikilink") or a [vehicle](/docs/vehicle.md "wikilink") if the player is standing on one, *false* if he is touching none or is a invalid player.
 
 Example
 -------

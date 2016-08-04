@@ -1,4 +1,4 @@
-This event is triggered when a player added a [ban](/docs/ban.md "wikilink") (like [onBan](/onBan.md "wikilink")).
+This event is triggered when a player added a [ban](/docs/ban.md "wikilink") (like [onBan](/docs/onban.md "wikilink")).
 
 Parameters
 ----------
@@ -13,7 +13,7 @@ ban banPointer, player responsibleElement
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who was banned.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/player.md "wikilink") who was banned.
 
 Example
 -------

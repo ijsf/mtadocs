@@ -1,4 +1,4 @@
-This function opens a connection to a database and returns an element that can be used with [dbQuery](/docs/dbquery.md "wikilink"). To disconnect use [destroyElement](/destroyElement.md "wikilink").
+This function opens a connection to a database and returns an element that can be used with [dbQuery](/docs/dbquery.md "wikilink"). To disconnect use [destroyElement](/docs/destroyelement.md "wikilink").
 
 Syntax
 ------

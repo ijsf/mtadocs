@@ -1,4 +1,4 @@
-This function sets the current [weather](/docs/weather.md "wikilink") to the given valid value. To change the weather gradually, see [setWeatherBlended](/setWeatherBlended.md "wikilink").
+This function sets the current [weather](/docs/weather.md "wikilink") to the given valid value. To change the weather gradually, see [setWeatherBlended](/docs/setweatherblended.md "wikilink").
 
 Syntax
 ------

@@ -13,12 +13,12 @@ string message, player recipient
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who sent the private message.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/player.md "wikilink") who sent the private message.
 
 Cancel effect
 -------------
 
-If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the game's chat system won't deliver the message. You may use [outputChatBox](/outputChatBox.md "wikilink") to send the messages then.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the game's chat system won't deliver the message. You may use [outputChatBox](/docs/outputchatbox.md "wikilink") to send the messages then.
 
 Example
 -------

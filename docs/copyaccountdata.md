@@ -31,4 +31,4 @@ addEventHandler ( "onPlayerLogin", getRootElement(), copyDataOnLogin )
 See Also
 --------
 
-[ru:copyAccountData](/docs/ru:copyaccountdata.md "wikilink") [ar:copyAccountData](/ar:copyAccountData.md "wikilink") [pl:copyAccountData](/pl:copyAccountData.md "wikilink")
+[ru:copyAccountData](/docs/ru:copyaccountdata.md "wikilink") [ar:copyAccountData](/docs/ar:copyaccountdata.md "wikilink") [pl:copyAccountData](/docs/pl:copyaccountdata.md "wikilink")

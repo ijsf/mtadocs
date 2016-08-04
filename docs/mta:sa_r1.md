@@ -15,4 +15,4 @@ Links
 -   [FAQ](/docs/mtasa_faq.md "wikilink")
 -   [Map Editor Tutorial](/docs/map_editor.md "wikilink")
 
-[Category:MTA:SA Race](/docs/category:mta:sa_race.md "wikilink") [es:MTA:SA R1\_ES](/es:MTA:SA_R1_ES.md "wikilink") [pl:MTA:SA R1\_PL](/pl:MTA:SA_R1_PL.md "wikilink")
+[Category:MTA:SA Race](/docs/category:mta:sa_race.md "wikilink") [es:MTA:SA R1\_ES](/docs/es:mta:sa_r1_es.md "wikilink") [pl:MTA:SA R1\_PL](/docs/pl:mta:sa_r1_pl.md "wikilink")

@@ -15,4 +15,4 @@ See also
 
 [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
 
-[DE:table](/docs/de:table.md "wikilink") [RU:Table](/RU:Table.md "wikilink")
+[DE:table](/docs/de:table.md "wikilink") [RU:Table](/docs/ru:table.md "wikilink")

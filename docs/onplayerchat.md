@@ -16,12 +16,12 @@ string message, int messageType
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who sent the chatbox message.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/player.md "wikilink") who sent the chatbox message.
 
 Cancel effect
 -------------
 
-If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the game's chat system won't deliver the posts. You may use [outputChatBox](/outputChatBox.md "wikilink") to send the messages then. Cancelling this event also means the chat will not appear in the server console or logs. If you want chat logging, you will have to add a call to [outputServerLog](/outputServerLog.md "wikilink") - See the second example.
+If this event is [canceled](/docs/event_system#canceling.md "wikilink"), the game's chat system won't deliver the posts. You may use [outputChatBox](/docs/outputchatbox.md "wikilink") to send the messages then. Cancelling this event also means the chat will not appear in the server console or logs. If you want chat logging, you will have to add a call to [outputServerLog](/docs/outputserverlog.md "wikilink") - See the second example.
 
 Examples
 --------

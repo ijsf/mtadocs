@@ -41,7 +41,7 @@ addCommandHandler("copyanim", CopyAnimation) --  adding the Command Handler
 Example 2
 ---------
 
-This example shows what block and animation your player is currently performing. Note this will return “N/A” if you did not set an animation with [setPedAnimation](/docs/setpedanimation.md "wikilink"). If you want to see what the player ped is doing as you control them that is [getPedTask](/getPedTask.md "wikilink").
+This example shows what block and animation your player is currently performing. Note this will return “N/A” if you did not set an animation with [setPedAnimation](/docs/setpedanimation.md "wikilink"). If you want to see what the player ped is doing as you control them that is [getPedTask](/docs/getpedtask.md "wikilink").
 
 ``` lua
 addEventHandler("onClientPreRender",root,

@@ -13,7 +13,7 @@ element leaveElement, bool matchingDimension
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [colshape](/colshape.md "wikilink") that the element no longer is in contact with.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [colshape](/docs/colshape.md "wikilink") that the element no longer is in contact with.
 
 Example
 -------

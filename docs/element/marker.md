@@ -28,4 +28,4 @@ Related scripting functions
 
 [Category:Element Types](/docs/category:element_types.md "wikilink")
 
-[it:Elemento/Marker](/docs/it:elemento/marker.md "wikilink") [ru:Элемент/Маркер](/ru:Элемент/Маркер.md "wikilink")
+[it:Elemento/Marker](/docs/it:elemento/marker.md "wikilink") [ru:Элемент/Маркер](/docs/ru:Элемент/Маркер.md "wikilink")

@@ -17,7 +17,7 @@ string playerNick, string playerIP, string playerUsername, string playerSerial, 
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the client's [root element](/root_element.md "wikilink").
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the client's [root element](/docs/root_element.md "wikilink").
 
 Cancel effect
 -------------

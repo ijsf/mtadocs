@@ -1,7 +1,7 @@
 This function sets the position of an element to the specified coordinates.
 
 <div style="background: #FF7070; border: 3px solid #FF0000;">
-**Attention:** Do not use this function to spawn a [player](/docs/player.md "wikilink"). It will cause problems with other functions like [warpPedIntoVehicle](/warpPedIntoVehicle.md "wikilink").
+**Attention:** Do not use this function to spawn a [player](/docs/player.md "wikilink"). It will cause problems with other functions like [warpPedIntoVehicle](/docs/warppedintovehicle.md "wikilink").
 Use [spawnPlayer](/docs/spawnplayer.md "wikilink") instead.
 
 </div>

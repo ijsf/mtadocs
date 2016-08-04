@@ -76,7 +76,7 @@ Returns a string of the interior name, or false if it could not be retrieved.
 
 ### getInteriorMarker
 
-This function retrieves the [marker](/docs/marker.md "wikilink") element associated to the interior. This will allow you to modify the visibility of interior markers using the [setElementVisibleTo](/setElementVisibleTo.md "wikilink") function.
+This function retrieves the [marker](/docs/marker.md "wikilink") element associated to the interior. This will allow you to modify the visibility of interior markers using the [setElementVisibleTo](/docs/setelementvisibleto.md "wikilink") function.
 
 #### Syntax
 

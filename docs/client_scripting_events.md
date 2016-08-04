@@ -49,4 +49,4 @@ Weapon creation events
 Other events
 ------------
 
-[pl:PL/Client Scripting Events](/docs/pl:pl/client_scripting_events.md "wikilink") [ru:Client Scripting Events](/ru:Client_Scripting_Events.md "wikilink") [es:Client Scripting Events](/es:Client_Scripting_Events.md "wikilink") [fr:Client Scripting Events](/fr:Client_Scripting_Events.md "wikilink") [tr:Client Taraflı Eventler](/tr:Client_Taraflı_Eventler.md "wikilink") [ar:Client Scripting Events](/ar:Client_Scripting_Events.md "wikilink")
+[pl:PL/Client Scripting Events](/docs/pl:pl/client_scripting_events.md "wikilink") [ru:Client Scripting Events](/docs/ru:client_scripting_events.md "wikilink") [es:Client Scripting Events](/docs/es:client_scripting_events.md "wikilink") [fr:Client Scripting Events](/docs/fr:client_scripting_events.md "wikilink") [tr:Client Taraflı Eventler](/docs/tr:client_taraflı_eventler.md "wikilink") [ar:Client Scripting Events](/docs/ar:client_scripting_events.md "wikilink")

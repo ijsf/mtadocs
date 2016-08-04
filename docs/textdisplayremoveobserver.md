@@ -1,4 +1,4 @@
-This function removes a [player](/docs/player.md "wikilink") observer of a [textdisplay](/textdisplay.md "wikilink"). This stops the [player](/player.md "wikilink") from being able to see [textitems](/textitem.md "wikilink") that the [textdisplay](/textdisplay.md "wikilink") contains.
+This function removes a [player](/docs/player.md "wikilink") observer of a [textdisplay](/docs/textdisplay.md "wikilink"). This stops the [player](/docs/player.md "wikilink") from being able to see [textitems](/docs/textitem.md "wikilink") that the [textdisplay](/docs/textdisplay.md "wikilink") contains.
 
 Syntax
 ------
@@ -9,8 +9,8 @@ bool textDisplayRemoveObserver ( textdisplay display, player playerToRemove )
 
 ### Required Arguments
 
--   **display**: The [textdisplay](/docs/textdisplay.md "wikilink") to remove the [player](/player.md "wikilink") from as an observer.
--   **playerToRemove**: The [player](/docs/player.md "wikilink") that should be removed from the [textdisplay](/textdisplay.md "wikilink").
+-   **display**: The [textdisplay](/docs/textdisplay.md "wikilink") to remove the [player](/docs/player.md "wikilink") from as an observer.
+-   **playerToRemove**: The [player](/docs/player.md "wikilink") that should be removed from the [textdisplay](/docs/textdisplay.md "wikilink").
 
 Example
 -------

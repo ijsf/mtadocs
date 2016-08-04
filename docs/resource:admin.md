@@ -26,4 +26,4 @@ Now open your **mtaserver.conf** file and scroll to the bottom, make sure the ad
 
 Now that you're done with server files, you can finally start it. Connect to the server itself and login with your account details: use 'login \[username\] <password>'. If it tells you to press 'p' you have done everything right, congratulations! If not, do this from the very beginning. [Category:Scripting Concepts](/docs/category:scripting_concepts.md "wikilink")
 
-[it:<Resource:Admin>](/docs/it:resource:admin.md "wikilink") [ru:<Resource:Admin>](/ru:Resource:Admin.md "wikilink")
+[it:<Resource:Admin>](/docs/it:resource:admin.md "wikilink") [ru:<Resource:Admin>](/docs/ru:resource:admin.md "wikilink")

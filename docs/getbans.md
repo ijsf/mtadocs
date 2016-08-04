@@ -9,7 +9,7 @@ table getBans ( )
 
 ### Returns
 
-Returns a [table](/docs/table.md "wikilink") containing all the [bans](/ban.md "wikilink").
+Returns a [table](/docs/table.md "wikilink") containing all the [bans](/docs/ban.md "wikilink").
 
 Example
 -------

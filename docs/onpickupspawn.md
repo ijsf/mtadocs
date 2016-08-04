@@ -8,7 +8,7 @@ This event has no arguments
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [pickup](/pickup.md "wikilink") that just spawned or respawned.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [pickup](/docs/pickup.md "wikilink") that just spawned or respawned.
 
 Example
 -------

@@ -4,7 +4,7 @@
 
 **\*** MTA refers to the raw information that a [texture](/docs/texture.md "wikilink") contains as 'pixels'.
 
-**\*** Pixels can be retrieved from any [texture](/docs/texture.md "wikilink") type including [render targets](/dxCreateRenderTarget.md "wikilink") and [screen sources](/dxCreateScreenSource.md "wikilink") by using the function [dxGetTexturePixels](/dxGetTexturePixels.md "wikilink").
+**\*** Pixels can be retrieved from any [texture](/docs/texture.md "wikilink") type including [render targets](/docs/dxcreaterendertarget.md "wikilink") and [screen sources](/docs/dxcreatescreensource.md "wikilink") by using the function [dxGetTexturePixels](/docs/dxgettexturepixels.md "wikilink").
 
 **\*** Pixels are just a string to Lua, so they can be saved to a file or even sent over the 'internet'.
 
@@ -16,7 +16,7 @@ Pixels have two properties:
 
 -   **dimensions** (width and height) which is retrieved by using the function [dxGetPixelsSize](/docs/dxgetpixelssize.md "wikilink")
 -   **format** (plain,jpeg,png) which is retrieved by using the function [dxGetPixelsFormat](/docs/dxgetpixelsformat.md "wikilink")
-    -   *plain* - Fastest and simplest - It's the format of the pixels returned by [dxGetTexturePixels](/docs/dxgettexturepixels.md "wikilink") and the only one that can be used with [dxSetTexturePixels](/dxSetTexturePixels.md "wikilink"), [dxGetPixelColor](/dxGetPixelColor.md "wikilink") and [dxSetPixelColor](/dxSetPixelColor.md "wikilink"). But it also uses a lot of bytes, so internet transfers will be longer. Also can't be read by Photoshop or browsers etc.
+    -   *plain* - Fastest and simplest - It's the format of the pixels returned by [dxGetTexturePixels](/docs/dxgettexturepixels.md "wikilink") and the only one that can be used with [dxSetTexturePixels](/docs/dxsettexturepixels.md "wikilink"), [dxGetPixelColor](/docs/dxgetpixelcolor.md "wikilink") and [dxSetPixelColor](/docs/dxsetpixelcolor.md "wikilink"). But it also uses a lot of bytes, so internet transfers will be longer. Also can't be read by Photoshop or browsers etc.
     -   *png* - A few less bytes, still quite big for net transfers. Can be saved to a file and read by Photoshop and browsers etc.
     -   *jpeg* - A lot less bytes, so best for net transfers. Can be saved to a file and read by Photoshop and browsers etc.
 

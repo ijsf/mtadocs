@@ -1,4 +1,4 @@
-This function retrieves the root element of a certain [map](/docs/map.md "wikilink") in a specified [resource](/resource.md "wikilink").
+This function retrieves the root element of a certain [map](/docs/map.md "wikilink") in a specified [resource](/docs/resource.md "wikilink").
 
 Syntax
 ------

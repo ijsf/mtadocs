@@ -1,4 +1,4 @@
-This function can be used to disable streaming for an element. This will make sure the element is not virtualized (streamed out from GTA) when the player moves far away from it. This function only works in elements with a physical representation in the world (entities), such as [players](/docs/player.md "wikilink"), [peds](/ped.md "wikilink"), [vehicles](/vehicle.md "wikilink") and [objects](/object.md "wikilink").
+This function can be used to disable streaming for an element. This will make sure the element is not virtualized (streamed out from GTA) when the player moves far away from it. This function only works in elements with a physical representation in the world (entities), such as [players](/docs/player.md "wikilink"), [peds](/docs/ped.md "wikilink"), [vehicles](/docs/vehicle.md "wikilink") and [objects](/docs/object.md "wikilink").
 
 Syntax
 ------

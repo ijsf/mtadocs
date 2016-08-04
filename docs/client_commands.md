@@ -305,4 +305,4 @@ Selects the next radio station
   
 Selects the previous radio station
 
-[Category: Support](/docs/category:_support.md "wikilink") [ru:Client Commands](/ru:Client_Commands.md "wikilink") [hu:Client Commands](/hu:Client_Commands.md "wikilink")
+[Category: Support](/docs/category:_support.md "wikilink") [ru:Client Commands](/docs/ru:client_commands.md "wikilink") [hu:Client Commands](/docs/hu:client_commands.md "wikilink")

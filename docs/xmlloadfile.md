@@ -1,4 +1,4 @@
-This function provides an alternative way to load XML files to [getResourceConfig](/docs/getresourceconfig.md "wikilink"). This function loads an XML file and returns the node by specifying a specific file path, while [getResourceConfig](/getResourceConfig.md "wikilink") allows for loading an XML file from a resource.
+This function provides an alternative way to load XML files to [getResourceConfig](/docs/getresourceconfig.md "wikilink"). This function loads an XML file and returns the node by specifying a specific file path, while [getResourceConfig](/docs/getresourceconfig.md "wikilink") allows for loading an XML file from a resource.
 
 Syntax
 ------

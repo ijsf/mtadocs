@@ -17,7 +17,7 @@ bool getWeaponFlags ( weapon theWeapon, string theFlag )
         -   **checkCarTires**: allows the shoot to be blocked by [vehicle](/docs/vehicle.md "wikilink") tires.
         -   **checkDummies**: allows the shoot to be blocked by GTA's internal dummies. These are not used in the current MTA version so this argument can be set to *false*.
         -   **checkObjects**: allows the shoot to be blocked by [objects](/docs/object.md "wikilink").
-        -   **checkPeds**: allows the shoot to be blocked by [peds](/docs/ped.md "wikilink") and [players](/player.md "wikilink").
+        -   **checkPeds**: allows the shoot to be blocked by [peds](/docs/ped.md "wikilink") and [players](/docs/player.md "wikilink").
         -   **checkVehicles**: allows the shoot to be blocked by [vehicles](/docs/vehicle.md "wikilink").
         -   **checkSeeThroughStuff**: allows the shoot to be blocked by translucent game objects, e.g. glass.
         -   **checkShootThroughStuff**: allows the shoot to be blocked by things that can be shot through.

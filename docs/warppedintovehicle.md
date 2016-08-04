@@ -3,7 +3,7 @@ This function is used to warp or force a ped into a vehicle. There are no animat
 **Available client side from 1.3.1** (It will only work with client side vehicles and peds)
 
 <div style="background: #FF7070; border: 3px solid #FF0000;">
-**Attention:** If you used [setElementPosition](/docs/setelementposition.md "wikilink") to spawn the [ped](/ped.md "wikilink")/[player](/player.md "wikilink"), this function will not work and returns **false**.
+**Attention:** If you used [setElementPosition](/docs/setelementposition.md "wikilink") to spawn the [ped](/docs/ped.md "wikilink")/[player](/docs/player.md "wikilink"), this function will not work and returns **false**.
 
 </div>
 Syntax

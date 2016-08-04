@@ -31,4 +31,4 @@ addCommandHandler("getradio",
 See Also
 --------
 
-[AR:getRadioChannelName](/docs/ar:getradiochannelname.md "wikilink") [RU:GetRadioChannelName](/RU:GetRadioChannelName.md "wikilink") [PL:GetRadioChannelName](/PL:GetRadioChannelName.md "wikilink")
+[AR:getRadioChannelName](/docs/ar:getradiochannelname.md "wikilink") [RU:GetRadioChannelName](/docs/ru:getradiochannelname.md "wikilink") [PL:GetRadioChannelName](/docs/pl:getradiochannelname.md "wikilink")

@@ -9,7 +9,7 @@ int fileWrite ( file theFile, string string1 [, string string2, string string3 .
 
 ### Required Arguments
 
--   **theFile:** A handle to the file you wish to write to. The file must have been opened with write access, i.e. the file handle must be a result of [fileCreate](/docs/filecreate.md "wikilink") or [fileOpen](/fileOpen.md "wikilink") with the readonly parameter set to *false*.
+-   **theFile:** A handle to the file you wish to write to. The file must have been opened with write access, i.e. the file handle must be a result of [fileCreate](/docs/filecreate.md "wikilink") or [fileOpen](/docs/fileopen.md "wikilink") with the readonly parameter set to *false*.
 -   **string1:** The string to write.
 
 ### Optional Arguments

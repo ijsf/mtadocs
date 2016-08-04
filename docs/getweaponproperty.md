@@ -1,4 +1,4 @@
-This function gets a weapon property of the specified [custom weapon](/docs/element/weapon.md "wikilink") (clientside only) or specified [player-held weapon](/Weapons.md "wikilink") (both client and server).
+This function gets a weapon property of the specified [custom weapon](/docs/element/weapon.md "wikilink") (clientside only) or specified [player-held weapon](/docs/weapons.md "wikilink") (both client and server).
 
 Syntax
 ------

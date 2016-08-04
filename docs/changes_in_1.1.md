@@ -260,16 +260,16 @@ Server
 
 -   Fixed [isElementInWater](/docs/iselementinwater.md "wikilink") with unoccupied vehicles Details: <http://code.google.com/p/mtasa-blue/source/detail?r=1803>
 -   Allowed responsible element of [kickPlayer](/docs/kickplayer.md "wikilink") be a string Details: <http://code.google.com/p/mtasa-blue/source/detail?r=1979>
--   Allowed responsible element of [banPlayer](/docs/banplayer.md "wikilink")/[addBan](/addBan.md "wikilink") be a string Details: <http://code.google.com/p/mtasa-blue/source/detail?r=1980>
+-   Allowed responsible element of [banPlayer](/docs/banplayer.md "wikilink")/[addBan](/docs/addban.md "wikilink") be a string Details: <http://code.google.com/p/mtasa-blue/source/detail?r=1980>
 -   Added “all” to [showPlayerHudComponent](/docs/showplayerhudcomponent.md "wikilink") Details: <http://code.google.com/p/mtasa-blue/source/detail?r=1912>
 -   Added “radio” and “wanted” to [showPlayerHudComponent](/docs/showplayerhudcomponent.md "wikilink") Details: <http://code.google.com/p/mtasa-blue/source/detail?r=2027>
 -   Added optional type to [aclListRights](/docs/acllistrights.md "wikilink") Details: <http://code.google.com/p/mtasa-blue/source/detail?r=2036>
--   Updated [setVehicleColor](/docs/setvehiclecolor.md "wikilink") and [getVehicleColor](/getVehicleColor.md "wikilink") to support RGB vehicle colors
+-   Updated [setVehicleColor](/docs/setvehiclecolor.md "wikilink") and [getVehicleColor](/docs/getvehiclecolor.md "wikilink") to support RGB vehicle colors
 -   Raised max player count to 65535 Details: <http://code.google.com/p/mtasa-blue/source/detail?r=2118>
 -   Made [onPlayerWeaponSwitch](/docs/onplayerweaponswitch.md "wikilink") work Details: <http://code.google.com/p/mtasa-blue/source/detail?r=2137>
 -   Rotation parameter in [createPed](/docs/createped.md "wikilink") now works Details: <http://code.google.com/p/mtasa-blue/source/detail?r=2246>
 -   Added resources cataloges (\[likethis\]) Starting at: <http://code.google.com/p/mtasa-blue/source/detail?r=2716>
--   [split](/docs/split.md "wikilink") and [gettok](/gettok.md "wikilink") no longer require string.byte Details: <http://code.google.com/p/mtasa-blue/source/detail?r=2808>
+-   [split](/docs/split.md "wikilink") and [gettok](/docs/gettok.md "wikilink") no longer require string.byte Details: <http://code.google.com/p/mtasa-blue/source/detail?r=2808>
 -   Added bandwidth stats to performance browser Details: <http://code.google.com/p/mtasa-blue/source/detail?r=2901>
 -   Added bandwidth reduction options Details: <http://code.google.com/p/mtasa-blue/source/detail?r=3028>
 -   Large amount of crash fixes, bug fixes and optimizations
@@ -314,4 +314,4 @@ Map Editor
 -   Added option to clone world buildings
 -   Fixed a bug when not being able to open maps
 
-[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Changes in 1.1](/Category:Changes_in_1.1.md "wikilink")
+[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Changes in 1.1](/docs/category:changes_in_1.1.md "wikilink")

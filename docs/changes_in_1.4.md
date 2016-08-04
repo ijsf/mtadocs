@@ -3,7 +3,7 @@ Main Additions / Changes
 
 -   Localization of MTA's menus
 -   [OOP](/docs/oop.md "wikilink") classes
--   [Matrices](/docs/matrix.md "wikilink") and [Vectors](/Vector.md "wikilink")
+-   [Matrices](/docs/matrix.md "wikilink") and [Vectors](/docs/vector.md "wikilink")
 -   Significantly improved train synchronization
 -   Improved all sound functions to work with player elements
 
@@ -114,6 +114,6 @@ Extra information
 
 :\* [MTA: SA Official Resources](https://code.google.com/p/mtasa-resources/source/list)
 
-[pl:Changes\_in\_1.4](/docs/pl:changes_in_1.4.md "wikilink") [pt-br:Novidades\_na\_versão\_1.4.0](/pt-br:Novidades_na_versão_1.4.0.md "wikilink") [ru:Changes\_in\_1.4.0](/ru:Changes_in_1.4.0.md "wikilink")
+[pl:Changes\_in\_1.4](/docs/pl:changes_in_1.4.md "wikilink") [pt-br:Novidades\_na\_versão\_1.4.0](/docs/pt-br:novidades_na_versão_1.4.0.md "wikilink") [ru:Changes\_in\_1.4.0](/docs/ru:changes_in_1.4.0.md "wikilink")
 
-[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Changes in 1.4](/Category:Changes_in_1.4.md "wikilink")
+[Category:Changelog](/docs/category:changelog.md "wikilink") [Category:Changes in 1.4](/docs/category:changes_in_1.4.md "wikilink")

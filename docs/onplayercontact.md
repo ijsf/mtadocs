@@ -13,7 +13,7 @@ element previousElement, element currentElement
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who hit an element.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/player.md "wikilink") who hit an element.
 
 Example
 -------

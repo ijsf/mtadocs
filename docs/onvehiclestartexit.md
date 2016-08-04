@@ -14,7 +14,7 @@ player exitingPlayer, int seat, player jacked, int door
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [vehicle](/vehicle.md "wikilink") in which a player began to exit.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [vehicle](/docs/vehicle.md "wikilink") in which a player began to exit.
 
 ### Canceling
 

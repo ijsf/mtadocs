@@ -345,7 +345,7 @@ Parameters
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") whose level changed.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/player.md "wikilink") whose level changed.
 
 </section>
 <section name="Server" class="server" show="true">
@@ -367,7 +367,7 @@ Parameters
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/player.md "wikilink") who leveled UP.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [player](/docs/player.md "wikilink") who leveled UP.
 
 </section>
 See also

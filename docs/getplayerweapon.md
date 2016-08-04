@@ -34,7 +34,7 @@ int getPlayerWeapon ( player thePlayer, [ int weaponSlot = current ] )
 
 Returns an [int](/docs/int.md "wikilink") indicating the type of the weapon the player has in the specified slot.
 
-It should be noted that if a player runs out of ammo for a weapon, it will still return the ID of that weapon in the slot (even if it appears as if the player does not have a weapon at all), though [getPlayerTotalAmmo](/docs/getplayertotalammo.md "wikilink") will return **0**. Therefore, [getPlayerTotalAmmo](/getPlayerTotalAmmo.md "wikilink") should be used in conjunction with [getPlayerWeapon](/getPlayerWeapon.md "wikilink") in order to check if a player has a weapon.
+It should be noted that if a player runs out of ammo for a weapon, it will still return the ID of that weapon in the slot (even if it appears as if the player does not have a weapon at all), though [getPlayerTotalAmmo](/docs/getplayertotalammo.md "wikilink") will return **0**. Therefore, [getPlayerTotalAmmo](/docs/getplayertotalammo.md "wikilink") should be used in conjunction with [getPlayerWeapon](/docs/getplayerweapon.md "wikilink") in order to check if a player has a weapon.
 
 </section>
 Example

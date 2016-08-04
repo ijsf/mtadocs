@@ -2,7 +2,7 @@ This function draws a textured 3D line between two points in the 3D world - rend
 
 The 3D line with a large width value effectively becomes a rectangle, so it it possible to construct basic shapes such as boxes with several large width lines and the appropriate values for 'faceToward'.
 
-3D lines are drawn at a particular place in the [game processing order](/docs/game_processing_order.md "wikilink"), so use [onClientPreRender](/onClientPreRender.md "wikilink") for drawing if you are attaching them to world elements.
+3D lines are drawn at a particular place in the [game processing order](/docs/game_processing_order.md "wikilink"), so use [onClientPreRender](/docs/onclientprerender.md "wikilink") for drawing if you are attaching them to world elements.
 
 Syntax
 ------
@@ -22,7 +22,7 @@ bool dxDrawMaterialLine3D ( float startX, float startY, float startZ, float endX
 Optional Arguments
 ------------------
 
--   **color:** An [integer](/docs/int.md "wikilink") of the hex color, produced using [tocolor](/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
+-   **color:** An [integer](/docs/int.md "wikilink") of the hex color, produced using [tocolor](/docs/tocolor.md "wikilink") or 0xAARRGGBB (AA = alpha, RR = red, GG = green, BB = blue).
 -   **faceTowardX/Y/Z:** The position the front of the line should face towards. If this is not set, the camera position is used, so the front of the line faces toward the camera.
 
 ### Returns

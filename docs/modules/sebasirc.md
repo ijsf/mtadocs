@@ -17,7 +17,7 @@ Add the following line in your mtaserver.conf:
   <module src="ml_irc" />
 ```
 
-[pl:Modules/SebasIRC](/docs/pl:modules/sebasirc.md "wikilink") [ru:Modules/SebasIRC](/ru:Modules/SebasIRC.md "wikilink")
+[pl:Modules/SebasIRC](/docs/pl:modules/sebasirc.md "wikilink") [ru:Modules/SebasIRC](/docs/ru:modules/sebasirc.md "wikilink")
 
 See Also
 --------

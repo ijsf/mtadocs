@@ -1,4 +1,4 @@
-This function will return the [serial](/docs/serial.md "wikilink") of the specified [ban](/ban.md "wikilink").
+This function will return the [serial](/docs/serial.md "wikilink") of the specified [ban](/docs/ban.md "wikilink").
 
 Syntax
 ------

@@ -1,4 +1,4 @@
-Weather can be changed using [setWeather](/docs/setweather.md "wikilink") and [setWeatherBlended](/setWeatherBlended.md "wikilink") functions. In GTA: SA, every weather has different parameters for the sunrise, morning, midday, noon, afternoon, sunset, night and midnight, so a weather can vary a lot deppending of the time of the day.
+Weather can be changed using [setWeather](/docs/setweather.md "wikilink") and [setWeatherBlended](/docs/setweatherblended.md "wikilink") functions. In GTA: SA, every weather has different parameters for the sunrise, morning, midday, noon, afternoon, sunset, night and midnight, so a weather can vary a lot deppending of the time of the day.
 
 MTA: SA has custom weather functions which can modify how a weather is rendered, but in this list the weathers are described without taking that into account. Also, using [setWeatherBlended](/docs/setweatherblended.md "wikilink") allows for more undocumented effects.
 
@@ -176,6 +176,6 @@ See also
 
 [ID lists](/docs/id.md "wikilink")
 
-[pl:Weather](/docs/pl:weather.md "wikilink") [ru:Weather](/ru:Weather.md "wikilink") [es:Climas](/es:Climas.md "wikilink") [de:Wetter](/de:Wetter.md "wikilink")
+[pl:Weather](/docs/pl:weather.md "wikilink") [ru:Weather](/docs/ru:weather.md "wikilink") [es:Climas](/docs/es:climas.md "wikilink") [de:Wetter](/docs/de:wetter.md "wikilink")
 
 [Category:ID Lists](/docs/category:id_lists.md "wikilink")

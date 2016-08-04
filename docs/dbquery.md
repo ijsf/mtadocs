@@ -1,4 +1,4 @@
-This function starts a database query using the supplied connection. Use the returned query handle with [dbPoll](/docs/dbpoll.md "wikilink") to get the result, or [dbFree](/dbFree.md "wikilink") if you don't want the result.
+This function starts a database query using the supplied connection. Use the returned query handle with [dbPoll](/docs/dbpoll.md "wikilink") to get the result, or [dbFree](/docs/dbfree.md "wikilink") if you don't want the result.
 
 Syntax
 ------

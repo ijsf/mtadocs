@@ -7,7 +7,7 @@ Parameters
  int weapon, int ammo, int ammoInClip, float hitX, float hitY, float hitZ, element hitElement
 ```
 
--   **weapon**: an [int](/docs/int.md "wikilink") representing [weapon](/weapons.md "wikilink") used for making a shot.
+-   **weapon**: an [int](/docs/int.md "wikilink") representing [weapon](/docs/weapons.md "wikilink") used for making a shot.
 -   **ammo**: an [int](/docs/int.md "wikilink") ammount of ammo left for this weapon type.
 -   **ammoInClip**: an [int](/docs/int.md "wikilink") ammount of ammo left for this weapon type in clip.
 -   **hitX**, **hitY**, **hitZ**: [float](/docs/float.md "wikilink") world coordinates representing a hit point.
@@ -16,7 +16,7 @@ Parameters
 Source
 ------
 
-The [source](/docs/event_system#event_source.md "wikilink") of this event is the [ped](/ped.md "wikilink") who fired the weapon.
+The [source](/docs/event_system#event_source.md "wikilink") of this event is the [ped](/docs/ped.md "wikilink") who fired the weapon.
 
 Example
 -------

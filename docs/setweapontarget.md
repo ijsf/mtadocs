@@ -12,7 +12,7 @@ Fires the weapon at a physical [element](/docs/element.md "wikilink").
 ### Required arguments
 
 -   **theWeapon:** The weapon to set the target of.
--   **theTarget:** The [element](/docs/element.md "wikilink") to shoot at. It can be a [player](/player.md "wikilink"), [ped](/ped.md "wikilink"), [vehicle](/vehicle.md "wikilink") or [object](/object.md "wikilink").
+-   **theTarget:** The [element](/docs/element.md "wikilink") to shoot at. It can be a [player](/docs/player.md "wikilink"), [ped](/docs/ped.md "wikilink"), [vehicle](/docs/vehicle.md "wikilink") or [object](/docs/object.md "wikilink").
 
 ### Optional arguments
 
@@ -23,7 +23,7 @@ Fires the weapon at a physical [element](/docs/element.md "wikilink").
         -   **2**: rear left tire.
         -   **3**: rear right tire.
         -   **255**: center of the car (position returned by [getElementPosition](/docs/getelementposition.md "wikilink")).
-    -   **[Peds](/docs/ped.md "wikilink")** (players **not** included; see [getPedBonePosition](/getPedBonePosition.md "wikilink") to know where is located each bone):
+    -   **[Peds](/docs/ped.md "wikilink")** (players **not** included; see [getPedBonePosition](/docs/getpedboneposition.md "wikilink") to know where is located each bone):
         -   **1:** *BONE\_PELVIS1* position.
         -   **2:** *BONE\_PELVIS* position.
         -   **3:** *BONE\_SPINE1* position.

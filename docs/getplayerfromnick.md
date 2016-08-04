@@ -1,4 +1,4 @@
-This function returns a [player](/docs/player.md "wikilink") [element](/element.md "wikilink") for the player with the name passed to the function.
+This function returns a [player](/docs/player.md "wikilink") [element](/docs/element.md "wikilink") for the player with the name passed to the function.
 
 Syntax
 ------
@@ -13,7 +13,7 @@ player getPlayerFromNick ( string playerName )
 
 ### Returns
 
-Returns a [player](/docs/player.md "wikilink") [element](/element.md "wikilink") for the player with the nickname provided. If there is no player with that name, *false* is returned.
+Returns a [player](/docs/player.md "wikilink") [element](/docs/element.md "wikilink") for the player with the nickname provided. If there is no player with that name, *false* is returned.
 
 Example
 -------

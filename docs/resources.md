@@ -61,7 +61,7 @@ Each resource has its own virtual machine (VM). This contains every script in th
 
 Scripts sent to clients are started as soon as all the scripts have been downloaded.
 
-Scripts are able to read and write to their own resource folder with functions such as [xmlCreateFile](/docs/xmlcreatefile.md "wikilink") and [fileCreate](/fileCreate.md "wikilink"). They can also read and write to other resources, but must have [ACL](/Access_Control_List.md "wikilink") access.
+Scripts are able to read and write to their own resource folder with functions such as [xmlCreateFile](/docs/xmlcreatefile.md "wikilink") and [fileCreate](/docs/filecreate.md "wikilink"). They can also read and write to other resources, but must have [ACL](/docs/access_control_list.md "wikilink") access.
 
 Each resource can only be loaded once, the server will ensure this. If a resource is included more than once, the same instance will be used by each resource that includes it.
 
@@ -95,4 +95,4 @@ The resource system can be manipulated by script. As such, the following Servers
 
 The following events are also provided:
 
-[it:Introduzione alle Risorse](/docs/it:introduzione_alle_risorse.md "wikilink") [pt-br:Recursos](/pt-br:Recursos.md "wikilink") [ru:Resources](/ru:Resources.md "wikilink")
+[it:Introduzione alle Risorse](/docs/it:introduzione_alle_risorse.md "wikilink") [pt-br:Recursos](/docs/pt-br:recursos.md "wikilink") [ru:Resources](/docs/ru:resources.md "wikilink")
